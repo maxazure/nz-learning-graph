@@ -1,6 +1,6 @@
 # Verification — 18 October 2026
 
-Public site: https://nz-learning-graph.pages.dev
+Public site: https://edu.w1.nz
 
 ## Passed
 
@@ -15,6 +15,13 @@ Public site: https://nz-learning-graph.pages.dev
 - Ego Lite desktop browser: search, NZ-only filtering, no-results state, topic selection, local understood-topic marks and clearing; parent registration, key creation, revocation, logout/login, deletion; connection tabs.
 
 - Mobile browser at 390 × 844: readable layout, responsive navigation and no document-level horizontal overflow.
+
+## Custom domain and parent languages
+
+- Primary website: https://edu.w1.nz; MCP endpoint: https://edu.w1.nz/mcp.
+- English / 简体中文 selector is visible in the top-right navigation, including mobile. The choice is saved in this browser.
+- Marketing, parent account controls and connection instructions are translated. Learning topics, teaching examples, graph details, AI prompts and configuration code remain English.
+- Browser checks cover switching, reload persistence, dynamically rendered connection guides, English restoration, unchanged teaching content/configuration, and mobile overflow.
 
 ## Scope and limitations
 

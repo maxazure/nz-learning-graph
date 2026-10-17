@@ -2,7 +2,9 @@
 
 An open, parent-guided learning map for Aotearoa New Zealand. Explore ideas and prerequisites, try a short activity, then connect your own AI assistant through MCP.
 
-**Website:** https://nz-learning-graph.pages.dev
+**Website:** https://edu.w1.nz
+
+Parent guides and account/connection instructions are available in English and 简体中文 using the top-right language selector. Learning content, examples, AI prompts and configuration commands remain in English.
 
 Forked from [Marble Skill Taxonomy](https://github.com/withmarbleapp/os-taxonomy). The original 1,590 topics and 3,221 dependencies are preserved. A separate NZ layer adds 16 activities and 32 prerequisite links. This is an independent **open beta**, not a complete NZ curriculum mapping, Ministry-endorsed product or teacher-reviewed assessment.
 
@@ -50,7 +52,7 @@ The account stores no child profiles. Topic marks stay in localStorage. MCP inpu
 
 ## MCP
 
-Endpoint: `https://nz-learning-graph.pages.dev/mcp`.
+Endpoint: `https://edu.w1.nz/mcp`.
 
 Five read-only tools:
 

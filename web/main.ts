@@ -1,7 +1,8 @@
+import {setupLanguage} from './i18n';
 import {setupAccount} from './account';
 import {setupExplorer} from './explorer';
 import {setupConnections} from './connections';
-setupExplorer();setupAccount();setupConnections();
+setupExplorer();setupAccount();setupConnections();setupLanguage();
 const hero=document.querySelector<HTMLFormElement>('#hero-search')!;
 function search(value:string){const field=document.querySelector<HTMLInputElement>('#topic-search')!;field.value=value;field.dispatchEvent(new Event('input'));document.querySelector('#map')!.scrollIntoView({behavior:'smooth'});}
 hero.onsubmit=e=>{e.preventDefault();search(document.querySelector<HTMLInputElement>('#q')!.value);};
