@@ -1,4 +1,8 @@
 const translations: Record<string, string> = {
+ 'Loading learning topics…': '正在加载知识点…',
+ 'Clear filters': '清除筛选',
+ 'No topics match these filters. Clear filters to search the full learning map. Year filters only include NZ activities with a suggested year; original topics are excluded.': '当前筛选条件下没有匹配的知识点。点击“清除筛选”可搜索完整图谱。年级筛选只包含已标注建议年级的新西兰活动，会排除原有知识点。',
+ 'No matching topics. Try a shorter English search, such as time or fractions.': '未找到匹配的知识点。请尝试较短的英文关键词，例如 time 或 fractions。',
  'Please try again.': '请重试。',
  'No personal connection key yet. Browser-based AI tools can connect using sign-in.': '尚未创建个人连接密钥。支持网页登录的 AI 工具可以直接通过账号授权连接。',
  'Account service unavailable. You can still explore the learning map.': '账号服务暂时不可用，你仍然可以浏览知识图谱。',

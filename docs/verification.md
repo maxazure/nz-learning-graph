@@ -33,3 +33,10 @@ Public site: https://edu.w1.nz
 - OAuth access lasts 24 hours and requires reconnecting; no refresh tokens are issued. Personal keys last 90 days and can be revoked immediately.
 
 All temporary test accounts and credentials are removed after verification. No test password or token is committed.
+
+## Search follow-up — 18 October 2026
+
+- Exact reported query `telling the time` returns six original topics with no filters. Applying Year 4 excludes all six because original topics have no NZ year mapping; this reproduces one empty-results path, but the user's exact filter state was not captured.
+- New searches from the homepage clear previous subject/year/NZ-only filters. Searches inside the map retain the explicitly selected filters.
+- Active filters now have a visible Clear filters action. Empty-result guidance is translated; topic cards and teaching content remain English. Initial HTML includes a loading message instead of a blank results container.
+- Browser regression: Year 4 + the reported query shows Chinese guidance; clearing filters restores six results; homepage search resets the year filter and restores six results; opening a result renders its topic detail and five graph nodes.

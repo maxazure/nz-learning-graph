@@ -10,6 +10,7 @@ function yearLabel(t:Topic){return t.nz?`Suggested Years ${Math.min(...t.nz.sugg
 export function setupExplorer(){
  el('#subject-filter').innerHTML='<option value="">All subjects</option>'+subjects.map(s=>`<option>${escape(s)}</option>`).join('');
  for(const selector of ['#topic-search','#subject-filter','#year-filter','#nz-only'])el(selector).addEventListener('input',()=>{pageSize=24;renderResults();});
+ el('#clear-filters').onclick=()=>{document.querySelector<HTMLSelectElement>('#subject-filter')!.value='';document.querySelector<HTMLSelectElement>('#year-filter')!.value='';document.querySelector<HTMLInputElement>('#nz-only')!.checked=false;pageSize=24;renderResults();};
  el('#load-topics').onclick=()=>{pageSize+=24;renderResults();};
  el('#clear-known').onclick=()=>{known.clear();localStorage.removeItem('nz-known-topics');renderTopic();};
  const id=new URLSearchParams(location.hash.split('?')[1]||'').get('topic');if(id&&getTopic(id))selected=getTopic(id)!;
@@ -21,8 +22,9 @@ function renderResults(){
  const year=document.querySelector<HTMLSelectElement>('#year-filter')!.value;
  const nz=(el('#nz-only') as HTMLInputElement).checked;
  const filtered=topics.filter(t=>(!subject||t.subject===subject)&&(!nz||t.nz)&&(!year||t.nz?.suggestedYears.includes(Number(year)))&&q.split(/\s+/).filter(Boolean).every(w=>`${t.name} ${t.description} ${t.domain} ${t.nz?.localContext||''}`.toLowerCase().includes(w))).sort((a,b)=>Number(!!b.nz)-Number(!!a.nz)||b.centrality-a.centrality);
+ el('#clear-filters').hidden=!subject&&!year&&!nz;
  el('#results-count').textContent=`${filtered.length.toLocaleString()} ${filtered.length===1?'topic':'topics'}${year?' with a suggested NZ year':''}`;
- el('#topic-results').innerHTML=filtered.length?filtered.slice(0,pageSize).map(t=>`<button class="topic-result ${t.id===selected.id?'selected':''}" data-topic="${t.id}" aria-pressed="${t.id===selected.id}"><span class="topic-subject">${escape(t.subject)}${t.nz?' · NZ context':''}</span><strong>${escape(t.name)}</strong><span>${yearLabel(t)} <span aria-hidden="true">↗</span></span></button>`).join(''):'<p class="empty-state">No matching topics. Try a broader search or clear the year filter. Most original topics do not yet have NZ year mappings.</p>';
+ el('#topic-results').innerHTML=filtered.length?filtered.slice(0,pageSize).map(t=>`<button translate="no" lang="en-NZ" class="topic-result ${t.id===selected.id?'selected':''}" data-topic="${t.id}" aria-pressed="${t.id===selected.id}"><span class="topic-subject">${escape(t.subject)}${t.nz?' · NZ context':''}</span><strong>${escape(t.name)}</strong><span>${yearLabel(t)} <span aria-hidden="true">↗</span></span></button>`).join(''):`<div class="empty-state"><p>${subject||year||nz?'No topics match these filters. Clear filters to search the full learning map. Year filters only include NZ activities with a suggested year; original topics are excluded.':'No matching topics. Try a shorter English search, such as time or fractions.'}</p></div>`;
  el('#load-topics').hidden=filtered.length<=pageSize;wireTopics(el('#topic-results'));
 }
 function wireTopics(root:HTMLElement){root.querySelectorAll<HTMLElement>('[data-topic]').forEach(b=>b.onclick=()=>{selected=getTopic(b.dataset.topic!)!;renderTopic();renderResults();el('#topic-detail').scrollIntoView({behavior:'smooth',block:'start'});});}
