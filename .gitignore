@@ -3,3 +3,8 @@ node_modules/
 *.log
 .env
 .env.*
+dist/
+.wrangler/
+.dev.vars
+artifacts/
+AGENTS.md

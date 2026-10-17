@@ -1,125 +1,84 @@
-# Marble Skill Taxonomy
+# Learning Paths NZ
 
-An open, structured taxonomy of **what children learn** across the primary/elementary years — decomposed into fine-grained "micro-topics", wired into a prerequisite graph, and aligned to national curriculum standards. Produced by [Marble](https://withmarble.com).
+An open, parent-guided learning map for Aotearoa New Zealand. Explore ideas and prerequisites, try a short activity, then connect your own AI assistant through MCP.
 
-> **Version:** `v1` · **Topics:** 1,590 · **Prerequisite edges:** 3,221 · **Subjects:** 8
+**Website:** https://nz-learning-graph.pages.dev
 
-## See it
+Forked from [Marble Skill Taxonomy](https://github.com/withmarbleapp/os-taxonomy). The original 1,590 topics and 3,221 dependencies are preserved. A separate NZ layer adds 16 activities and 32 prerequisite links. This is an independent **open beta**, not a complete NZ curriculum mapping, Ministry-endorsed product or teacher-reviewed assessment.
 
-![The taxonomy as a rotating 3D graph: every dot a micro-topic, colored by subject, wired by prerequisites](media/curriculum-viz.gif)
+## For parents
 
-Every dot is a micro-topic, colored by subject; height is age; each thread is a prerequisite ([full-quality video](media/curriculum-viz.mp4)). Explore it interactively at [withmarble.com/curriculum](https://withmarble.com/curriculum) — tap any concept to trace everything a learner must master before it.
+1. Browse the map without an account. Search by topic or subject; the year filter applies only to the NZ additions.
+2. Read the observable evidence and try one question. Mark understood topics locally to shorten the suggested foundation-first pathway. Marks stay in your browser and can be cleared.
+3. Create a parent username and password to connect an AI tool. Save your credentials: no email address is collected and email recovery is not provided.
+4. Follow the in-site guide for ChatGPT, Claude, Codex, Claude Code or WorkBuddy. OAuth clients use sign-in; header-based clients use a personal connection key. WorkBuddy uses the documented stdio configuration with a pinned `mcp-remote` bridge.
+5. Ask your AI to look up a topic, check the prerequisites and suggest a ten-minute activity. Review its answers together. Do not send child-identifying information.
 
+The service supplies educational context; parents use their own AI subscriptions. Client availability and workspace permissions depend on the provider. Actual client account tests and protocol tests are distinguished in [verification](docs/verification.md).
 
-## What this is
+## Run locally
 
-Most curriculum data is either a flat list of standards or locked inside a product. This dataset is a **connected graph of learning**:
+Node.js 22+ and npm:
 
-- **1,590 micro-topics** — a single, teachable idea (e.g. *"Building sentences"*, *"Apparent brightness of stars"*), each with a plain-language description, mastery **evidence** criteria, a type (conceptual / procedural / representational / language / meta), a subject + domain, and an approximate age range.
-- **3,221 prerequisite dependencies** — a directed acyclic graph: *"topic X depends on prerequisite Y"*, each edge tagged `hard`/`soft` and carrying a one-line **reason**.
-- **Curriculum alignment** — each micro-topic links to the standards it was distilled from (NGSS, Common Core, the UK National Curriculum, and more).
-- **Domain clusters** — 183 parent-friendly one-paragraph summaries per (subject, domain, age band).
-
-### Subjects
-
-| Subject | Topics |
-|---|---:|
-| Science | 547 |
-| Mathematics | 503 |
-| English | 286 |
-| History | 90 |
-| Personal & Social Development | 88 |
-| Life Skills | 37 |
-| Computing | 21 |
-| Learning to Learn | 18 |
-
-## Files
-
-All data lives in [`data/`](data/) as UTF-8 JSON. See [`schema/`](schema/) for JSON Schemas and [`manifest.json`](data/manifest.json) for counts + SHA-256 checksums.
-
-| File | What it holds |
-|---|---|
-| [`data/topics.json`](data/topics.json) | The micro-topics (graph **nodes**). |
-| [`data/dependencies.json`](data/dependencies.json) | Prerequisite **edges** (`topicId` depends on `prerequisiteId`). |
-| [`data/curriculum-standards.json`](data/curriculum-standards.json) | The source curriculum standards, grouped by curriculum. |
-| [`data/clusters.json`](data/clusters.json) | Parent-friendly domain summaries. |
-| [`data/manifest.json`](data/manifest.json) | Counts, per-subject breakdown, per-file checksums. |
-
-### A topic
-
-```json
-{
-  "id": "mt_N8CpN1EJrP",
-  "type": "CONCEPTUAL",
-  "subject": "English",
-  "domain": "Grammar & Punctuation",
-  "name": "Building sentences",
-  "description": "Understand that words combine to make sentences — a sentence expresses a complete thought…",
-  "ageRangeStart": 4,
-  "ageRangeEnd": 6,
-  "centrality": 0.257,
-  "evidence": [
-    "Distinguish between complete sentences and fragments",
-    "Compose a complete sentence with a subject and verb"
-  ],
-  "assessmentPrompt": "If {{name}} says something like \"The dog\", can they tell you that's not a complete sentence…?",
-  "standards": ["ccss-ela:L.K.1f", "uk-nc-2013:Eng.App2.Y1.Sent.1"]
-}
+```sh
+npm ci
+npx wrangler d1 migrations apply nz-learning-graph --local
+npm run dev
 ```
 
-- `id` — stable identifier (`mt_…`), referenced by dependencies and by neighbours.
-- `standards` — keys into `curriculum-standards.json` (`"<curriculum-slug>:<code>"`).
-- `assessmentPrompt` — a natural-language check for the idea. Contains a `{{name}}` placeholder (the child's name); substitute or strip before display.
+`npm run dev` builds the browser app and Pages advanced-mode Worker, then runs Pages locally. The persistent database is local by default.
 
-### A dependency
-
-```json
-{ "topicId": "mt__00ZSLnB7p", "prerequisiteId": "mt_VBl1T1sFCM", "strength": "hard",
-  "reason": "Must understand vibrations make sound before finding volume patterns" }
+```sh
+npm run validate
+npm run typecheck
+npm test
+TEST_BASE_URL=http://localhost:8788 npx tsx --test tests/backend.test.ts
 ```
 
-`topicId` **depends on** `prerequisiteId`. Reverse the edge to get "unlocks".
+The HTTP integration test requires a running development service. The opt-in storage test is local-only; see its source before running. It inspects deletion cascades and expired-row cleanup. Upstream validation verifies the original manifest and checksums; graph tests additionally validate the NZ graph.
 
-## Using it
+## Architecture
 
-Pure data — no runtime, no dependencies. Load the JSON and go.
+- Vite + TypeScript, no frontend framework; visual design commissioned from **Claude Code Opus 5.5** in `design/prototype.html`.
+- `lib/graph.ts`: search, direct prerequisites, hard-prerequisite ordering and reachable next topics.
+- `data/nz-overlay.json`: source-linked NZ additions, suggested years, activities and explicit review flags.
+- `server/`: Cloudflare Pages advanced-mode Worker, D1 accounts, OAuth PKCE and official MCP SDK Streamable HTTP transport.
+- `migrations/`: D1 schema. Browser sessions, bearer credentials and authorization codes are hashed; passwords use salted PBKDF2. OAuth codes are short-lived and single-use. Requests are bounded and rate-limited.
+- `web/`: responsive parent guide, knowledge map, accounts, connection instructions and privacy notice.
 
-```js
-import topics from './data/topics.json' with { type: 'json' };
-import deps from './data/dependencies.json' with { type: 'json' };
+The account stores no child profiles. Topic marks stay in localStorage. MCP inputs are processed per request, not persisted. Technical hosting logs may contain request metadata; do not send private information. Personal keys expire in 90 days; OAuth access in 24 hours, followed by reauthorization. Revoke all connections or delete the account from the website.
 
-const byId = new Map(topics.topics.map(t => [t.id, t]));
-const prereqs = deps.dependencies
-  .filter(d => d.topicId === 'mt_N8CpN1EJrP')
-  .map(d => byId.get(d.prerequisiteId).name);
+## MCP
+
+Endpoint: `https://nz-learning-graph.pages.dev/mcp`.
+
+Five read-only tools:
+
+- `search_topics`
+- `get_topic`
+- `get_prerequisites`
+- `create_learning_path`
+- `suggest_next_topics`
+
+Results carry provenance, attribution and educational limitations. OAuth discovery, dynamic public-client registration, S256 PKCE and exact redirect matching are supported. Select **Register automatically** where a client offers that option. MCP credentials cannot change accounts or store children’s records.
+
+## Deploy
+
+A Cloudflare account with Pages and D1 write access is needed. Set your own database ID in `wrangler.jsonc` for another deployment.
+
+```sh
+npx wrangler d1 migrations apply nz-learning-graph --remote
+npm run deploy
 ```
 
-Validate structure + referential integrity:
+The daily expired-record cleanup runs once on an authentication request, with a D1 lock, so Pages does not need a cron. Local and production D1 data are separate. Do not commit `.dev.vars`, credentials or runtime state.
 
-```bash
-node scripts/validate.mjs
-```
+## Data provenance and licences
 
-## License
+Marble Skill Taxonomy (v1) · © Generative Spark, Inc. (Marble) · https://withmarble.com · database under [ODbL 1.0](LICENSE), Marble-authored content under [CC BY-SA 4.0](LICENSE-CONTENT).
 
-This dataset is **multi-licensed** — read this before you use or redistribute it.
+The NZ derivative database is ODbL 1.0 and adapted/new educational text is CC BY-SA 4.0. Original framework material retains its upstream terms in [PROVENANCE.md](PROVENANCE.md). No third-party curriculum text has been newly copied into the NZ layer; the layer contains editorial summaries and source links. [NZ sources and scope](docs/nz-curriculum.md) distinguishes official source status from our unreviewed mapping status.
 
-| Layer | License |
-|---|---|
-| **The database** — the collection, structure, IDs, topic↔topic and topic↔standard relationships | [**ODbL 1.0**](LICENSE) — free for research **and** commercial use, **attribution** required, **share-alike** (derivative *databases* must stay open under ODbL). |
-| **The textual content Marble authored** — topic `description`/`name`/`evidence`/`assessmentPrompt`, dependency `reason`s, cluster `summary`s | [**CC BY-SA 4.0**](LICENSE-CONTENT) — same spirit: attribution + share-alike. |
-| **`curriculum-standards.json`** — extracted from third-party frameworks | **Not** Marble's to relicense. Each source is under **its own upstream license** — see [**PROVENANCE.md**](PROVENANCE.md). |
+Download open data from the repository or `/open-data/topics.json`, `/open-data/dependencies.json`, `/open-data/nz-overlay.json` on the website. Application source in `web/`, `server/`, `lib/`, `scripts/build-pages.mjs` and tests is MIT-licensed; see [LICENSE-CODE](LICENSE-CODE). Original upstream files retain their original licences.
 
-**Why share-alike + still commercial-friendly:** ODbL distinguishes a *derivative database* (extend/modify the taxonomy → must stay open) from a *produced work* (use it inside a product, model, or app → stays yours). So you can build a commercial product on this without open-sourcing your product; you only owe back improvements to the *taxonomy itself*.
-
-### Attribution
-
-Any use must credit:
-
-> Marble Skill Taxonomy (v1) · © Generative Spark, Inc. (Marble) · https://withmarble.com · licensed under ODbL 1.0 (database) and CC BY-SA 4.0 (content).
-
-Plus the upstream notices in [PROVENANCE.md](PROVENANCE.md) for any curriculum standards you use. See [CITATION.cff](CITATION.cff) for a formal citation.
-
-## What's *not* here
-
-Deliberately excluded from this release: semantic embeddings (derived, recomputable) and any per-child / user data (never published). See [CHANGELOG.md](CHANGELOG.md).
+Teachers and caregivers can [report a problem or propose a review](https://github.com/maxazure/nz-learning-graph/issues). Never post child-identifying information in public issues.

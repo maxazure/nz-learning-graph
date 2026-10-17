@@ -1,0 +1,654 @@
+{
+  "sources": [
+    {
+      "id": "nz_math_2026",
+      "title": "NZC Mathematics and Statistics Years 0–10",
+      "url": "https://newzealandcurriculum.tahurangi.education.govt.nz/nzc---mathematics-and-statistics-phases-1-4-years-0-10/5637289330.p",
+      "status": "official-current: effective 2026-01-01",
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "nz_english_2026",
+      "title": "NZC English Years 0–10",
+      "url": "https://newzealandcurriculum.tahurangi.education.govt.nz/nzc---english-years-0-6/5637239089.p",
+      "status": "official-current: effective 2026-01-01",
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "nz_science_2027",
+      "title": "NZC Science Years 0–10",
+      "url": "https://newzealandcurriculum.tahurangi.education.govt.nz/new-zealand-curriculum-online/nzc---science-phases-1-4-years-0-10/5637290855.p",
+      "status": "published-final-content: source still states gazettal pending; use from 2027",
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "nz_social_2027",
+      "title": "NZC Social Sciences Years 0–10",
+      "url": "https://newzealandcurriculum.tahurangi.education.govt.nz/new-zealand-curriculum-online/nzc---social-sciences-phases-1-4-years-0-10/5637290851.p",
+      "status": "published-final-content: updated 2026-09-16; source still states gazettal pending; use from 2027",
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "nz_parent_portal",
+      "title": "Ministry of Education parent learning portal",
+      "url": "https://www.education.govt.nz/your-childs-learning",
+      "status": "official-parent-guidance",
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "nz_doc_animals",
+      "title": "DOC native animals",
+      "url": "https://www.doc.govt.nz/nature/native-animals/",
+      "status": "official-context-resource",
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "nz_doc_plants",
+      "title": "DOC native plants",
+      "url": "https://www.doc.govt.nz/plants",
+      "status": "official-context-resource",
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "nz_matariki",
+      "title": "Te Papa: Matariki regional variations",
+      "url": "https://www.tepapa.govt.nz/digital-museum/explore-digital-museum/matariki-maori-new-year/matariki-regional-variations",
+      "status": "museum-context-resource",
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "nz_history_sources",
+      "title": "Māori history in The 2007 New Zealand Curriculum",
+      "url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637169484.p",
+      "status": "historical-curriculum-context: not a 2027 year-by-year mapping",
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "nz_rollout",
+      "title": "Ministry: revised curriculum implementation timeframe",
+      "url": "https://www.education.govt.nz/news/new-timeframe-years-0-8-final-national-curriculum",
+      "status": "official-implementation-guidance",
+      "checkedAt": "2026-10-18"
+    }
+  ],
+  "topics": [
+    {
+      "id": "nz_coins_change",
+      "type": "CONCEPTUAL",
+      "subject": "Mathematics",
+      "domain": "Measurement",
+      "name": "NZ coins and change",
+      "description": "Use NZ dollars and cents to represent small amounts and reason about change.",
+      "ageRangeStart": 5,
+      "ageRangeEnd": 8,
+      "centrality": 0,
+      "evidence": [
+        "Represent the price with coins",
+        "Explain a small subtraction as change"
+      ],
+      "assessmentPrompt": "Could {{name}} represent the price with coins and explain their reasoning?",
+      "standards": [],
+      "nz": {
+        "suggestedYears": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "sourceIds": [
+          "nz_math_2026"
+        ],
+        "mappingStatus": "editorial-draft",
+        "teacherReviewed": false,
+        "localContext": "A pretend dairy shop with NZD price cards.",
+        "parentActivity": "Make paper price cards and use clean coins or drawings to buy one item at a time."
+      },
+      "prerequisiteIds": [
+        "mt_yqAL6O5i_v",
+        "mt_m1W6nTQJ2b"
+      ]
+    },
+    {
+      "id": "nz_metric_home",
+      "type": "CONCEPTUAL",
+      "subject": "Mathematics",
+      "domain": "Measurement",
+      "name": "Metric measures at home",
+      "description": "Choose centimetres for length and millilitres for liquid quantities in familiar objects.",
+      "ageRangeStart": 5,
+      "ageRangeEnd": 8,
+      "centrality": 0,
+      "evidence": [
+        "Select a suitable unit",
+        "Read a marked scale with support"
+      ],
+      "assessmentPrompt": "Could {{name}} select a suitable unit and explain their reasoning?",
+      "standards": [],
+      "nz": {
+        "suggestedYears": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "sourceIds": [
+          "nz_math_2026"
+        ],
+        "mappingStatus": "editorial-draft",
+        "teacherReviewed": false,
+        "localContext": "Metric units used in NZ homes.",
+        "parentActivity": "Measure a lunchbox with a ruler and compare marked volumes of water in a measuring jug."
+      },
+      "prerequisiteIds": [
+        "mt_uhuxX8sg9f",
+        "mt_NtJYlJdUe9"
+      ]
+    },
+    {
+      "id": "nz_sharing_kai",
+      "type": "CONCEPTUAL",
+      "subject": "Mathematics",
+      "domain": "Fractions",
+      "name": "Sharing kai fairly",
+      "description": "Connect equal sharing with halves and quarters using visual models.",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 9,
+      "centrality": 0,
+      "evidence": [
+        "Make equal halves and quarters",
+        "Explain why unequal pieces are not equal shares"
+      ],
+      "assessmentPrompt": "Could {{name}} make equal halves and quarters and explain their reasoning?",
+      "standards": [],
+      "nz": {
+        "suggestedYears": [
+          2,
+          3,
+          4
+        ],
+        "sourceIds": [
+          "nz_math_2026"
+        ],
+        "mappingStatus": "editorial-draft",
+        "teacherReviewed": false,
+        "localContext": "Sharing a family meal fairly.",
+        "parentActivity": "Cut paper food shapes into equal parts and explain how each person receives the same share."
+      },
+      "prerequisiteIds": [
+        "mt_LpSuPgL31x",
+        "mt_MyGblah2yY"
+      ]
+    },
+    {
+      "id": "nz_bus_timetable",
+      "type": "CONCEPTUAL",
+      "subject": "Mathematics",
+      "domain": "Measurement",
+      "name": "Reading a bus timetable",
+      "description": "Read a sample bus timetable and calculate waiting and journey times.",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 11,
+      "centrality": 0,
+      "evidence": [
+        "Read departure and arrival times",
+        "Calculate a duration across an hour boundary"
+      ],
+      "assessmentPrompt": "Could {{name}} read departure and arrival times and explain their reasoning?",
+      "standards": [],
+      "nz": {
+        "suggestedYears": [
+          4,
+          5,
+          6
+        ],
+        "sourceIds": [
+          "nz_math_2026"
+        ],
+        "mappingStatus": "editorial-draft",
+        "teacherReviewed": false,
+        "localContext": "A fictional NZ public transport timetable; not live travel advice.",
+        "parentActivity": "Create three departure times and ask which bus arrives before a chosen activity starts."
+      },
+      "prerequisiteIds": [
+        "mt_WfrE_4r-kY",
+        "mt_4emC463IyW"
+      ]
+    },
+    {
+      "id": "nz_unit_prices",
+      "type": "CONCEPTUAL",
+      "subject": "Mathematics",
+      "domain": "Ratio & Proportion",
+      "name": "Comparing supermarket unit prices",
+      "description": "Compare package prices by converting them to a common quantity.",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 13,
+      "centrality": 0,
+      "evidence": [
+        "Convert two prices to the same quantity",
+        "Explain the comparison with units"
+      ],
+      "assessmentPrompt": "Could {{name}} convert two prices to the same quantity and explain their reasoning?",
+      "standards": [],
+      "nz": {
+        "suggestedYears": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "sourceIds": [
+          "nz_math_2026"
+        ],
+        "mappingStatus": "editorial-draft",
+        "teacherReviewed": false,
+        "localContext": "Invented NZD supermarket labels.",
+        "parentActivity": "Compare two invented cereal prices per 100 g and explain when a larger pack is better value."
+      },
+      "prerequisiteIds": [
+        "mt_Fl7b8q9pI1",
+        "mt_iNdrM2-oJf"
+      ]
+    },
+    {
+      "id": "nz_outing_budget",
+      "type": "CONCEPTUAL",
+      "subject": "Mathematics",
+      "domain": "Mathematical Thinking",
+      "name": "Planning a whānau outing budget",
+      "description": "Plan an outing within a fixed budget and explain trade-offs.",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 13,
+      "centrality": 0,
+      "evidence": [
+        "Calculate the total cost",
+        "Justify one choice within the budget"
+      ],
+      "assessmentPrompt": "Could {{name}} calculate the total cost and explain their reasoning?",
+      "standards": [],
+      "nz": {
+        "suggestedYears": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "sourceIds": [
+          "nz_math_2026",
+          "nz_social_2027"
+        ],
+        "mappingStatus": "editorial-draft",
+        "teacherReviewed": false,
+        "localContext": "A fictional local outing with transport, food and entry costs.",
+        "parentActivity": "Give a pretend NZ$60 budget and several clearly invented options; calculate the total and money left."
+      },
+      "prerequisiteIds": [
+        "mt_Qzbh-_v0Gq",
+        "mt_6J1wmCWf41"
+      ]
+    },
+    {
+      "id": "nz_weather_graphs",
+      "type": "CONCEPTUAL",
+      "subject": "Mathematics",
+      "domain": "Data & Statistics",
+      "name": "Rainfall and temperature graphs",
+      "description": "Represent a small weather dataset and explain what the graph shows.",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 11,
+      "centrality": 0,
+      "evidence": [
+        "Label axes with units",
+        "Support a comparison using the data"
+      ],
+      "assessmentPrompt": "Could {{name}} label axes with units and explain their reasoning?",
+      "standards": [],
+      "nz": {
+        "suggestedYears": [
+          4,
+          5,
+          6
+        ],
+        "sourceIds": [
+          "nz_math_2026"
+        ],
+        "mappingStatus": "editorial-draft",
+        "teacherReviewed": false,
+        "localContext": "A fictional week of NZ weather, explicitly labelled sample data.",
+        "parentActivity": "Record or invent seven days of rainfall, draw a bar graph and compare the wettest days."
+      },
+      "prerequisiteIds": [
+        "mt_ChjMU2GDJa",
+        "mt_YHsUhi4Prc"
+      ]
+    },
+    {
+      "id": "nz_travel_survey",
+      "type": "CONCEPTUAL",
+      "subject": "Mathematics",
+      "domain": "Data & Statistics",
+      "name": "School travel survey",
+      "description": "Group anonymous travel responses and discuss the limits of a small sample.",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 13,
+      "centrality": 0,
+      "evidence": [
+        "Produce accurate category counts",
+        "Explain why a small sample cannot represent every NZ child"
+      ],
+      "assessmentPrompt": "Could {{name}} produce accurate category counts and explain their reasoning?",
+      "standards": [],
+      "nz": {
+        "suggestedYears": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "sourceIds": [
+          "nz_math_2026"
+        ],
+        "mappingStatus": "editorial-draft",
+        "teacherReviewed": false,
+        "localContext": "Walking, cycling, bus and car travel to a fictional school.",
+        "parentActivity": "Use ten fictional responses without names or addresses, then tally and graph the categories."
+      },
+      "prerequisiteIds": [
+        "mt_VhBH8wrFC6",
+        "mt_HopZomN12L"
+      ]
+    },
+    {
+      "id": "nz_map_scale",
+      "type": "CONCEPTUAL",
+      "subject": "Mathematics",
+      "domain": "Ratio & Proportion",
+      "name": "Map scale and a local walking route",
+      "description": "Use a map scale to estimate a route distance and distinguish map distance from travel time.",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "centrality": 0,
+      "evidence": [
+        "Use the scale consistently",
+        "State why the result is an estimate"
+      ],
+      "assessmentPrompt": "Could {{name}} use the scale consistently and explain their reasoning?",
+      "standards": [],
+      "nz": {
+        "suggestedYears": [
+          7,
+          8
+        ],
+        "sourceIds": [
+          "nz_math_2026"
+        ],
+        "mappingStatus": "editorial-draft",
+        "teacherReviewed": false,
+        "localContext": "A public map of a local park, with no home location shared.",
+        "parentActivity": "Measure a simple route on a printed map with a scale bar and convert it to metres or kilometres."
+      },
+      "prerequisiteIds": [
+        "mt_vmW2cb5c7A",
+        "mt_d8al9JcajP"
+      ]
+    },
+    {
+      "id": "nz_native_species",
+      "type": "CONCEPTUAL",
+      "subject": "Science",
+      "domain": "Ecosystems & Habitats",
+      "name": "NZ native and endemic species",
+      "description": "Distinguish native, endemic and introduced species using sourced NZ examples.",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 11,
+      "centrality": 0,
+      "evidence": [
+        "Distinguish native from endemic",
+        "Support a species claim with a source"
+      ],
+      "assessmentPrompt": "Could {{name}} distinguish native from endemic and explain their reasoning?",
+      "standards": [],
+      "nz": {
+        "suggestedYears": [
+          4,
+          5,
+          6
+        ],
+        "sourceIds": [
+          "nz_science_2027",
+          "nz_doc_animals",
+          "nz_doc_plants"
+        ],
+        "mappingStatus": "editorial-draft",
+        "teacherReviewed": false,
+        "localContext": "DOC information about local plants and animals.",
+        "parentActivity": "Choose three species from DOC pages and record their habitat and origin status with the source."
+      },
+      "prerequisiteIds": [
+        "mt_1J5fwxNDxL",
+        "mt_cM8YS6NXqi"
+      ]
+    },
+    {
+      "id": "nz_bush_food_web",
+      "type": "CONCEPTUAL",
+      "subject": "Science",
+      "domain": "Ecosystems & Habitats",
+      "name": "A local bush food web",
+      "description": "Connect plants, insects and birds in a simple food web, checking specific feeding claims.",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 13,
+      "centrality": 0,
+      "evidence": [
+        "Identify a producer and consumers",
+        "Explain one possible effect of a change in the web"
+      ],
+      "assessmentPrompt": "Could {{name}} identify a producer and consumers and explain their reasoning?",
+      "standards": [],
+      "nz": {
+        "suggestedYears": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "sourceIds": [
+          "nz_science_2027",
+          "nz_doc_animals"
+        ],
+        "mappingStatus": "editorial-draft",
+        "teacherReviewed": false,
+        "localContext": "A NZ bush ecosystem studied through public species information.",
+        "parentActivity": "Draw a small food web from verified feeding examples and explain the meaning of each arrow."
+      },
+      "prerequisiteIds": [
+        "mt_EygMHKs8Ed",
+        "mt_e6PP4ip39V"
+      ]
+    },
+    {
+      "id": "nz_local_catchment",
+      "type": "CONCEPTUAL",
+      "subject": "Science",
+      "domain": "Earth's Systems",
+      "name": "Water through a local catchment",
+      "description": "Trace rainfall, runoff and evaporation through a simple catchment model.",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 13,
+      "centrality": 0,
+      "evidence": [
+        "Connect runoff and the water cycle",
+        "Explain where water may collect or move"
+      ],
+      "assessmentPrompt": "Could {{name}} connect runoff and the water cycle and explain their reasoning?",
+      "standards": [],
+      "nz": {
+        "suggestedYears": [
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "sourceIds": [
+          "nz_science_2027"
+        ],
+        "mappingStatus": "editorial-draft",
+        "teacherReviewed": false,
+        "localContext": "A drawn NZ hillside, stream and coast.",
+        "parentActivity": "Draw the path of rain from a hill to a stream and sea; add evaporation without visiting waterways."
+      },
+      "prerequisiteIds": [
+        "mt_fhqVdj4BYr",
+        "mt_zCGwH1OQZa"
+      ]
+    },
+    {
+      "id": "nz_matariki_puanga",
+      "type": "CONCEPTUAL",
+      "subject": "Science",
+      "domain": "Space Systems & Earth's History",
+      "name": "Matariki, Puanga and observing seasons",
+      "description": "Explore seasonal observation and regional Matariki and Puanga traditions using attributed sources.",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 11,
+      "centrality": 0,
+      "evidence": [
+        "Recognise that regional traditions vary",
+        "Attribute a cultural explanation to its source"
+      ],
+      "assessmentPrompt": "Could {{name}} recognise that regional traditions vary and explain their reasoning?",
+      "standards": [],
+      "nz": {
+        "suggestedYears": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "sourceIds": [
+          "nz_science_2027",
+          "nz_matariki"
+        ],
+        "mappingStatus": "editorial-draft",
+        "teacherReviewed": false,
+        "localContext": "Different iwi may observe different stars and traditions.",
+        "parentActivity": "Read Te Papa’s regional guide together and separate an astronomical observation from a named cultural account."
+      },
+      "prerequisiteIds": [
+        "mt_fI-8iqf_Id",
+        "mt_EXlmTURK_o"
+      ]
+    },
+    {
+      "id": "nz_place_names",
+      "type": "CONCEPTUAL",
+      "subject": "History",
+      "domain": "Historical Thinking",
+      "name": "Histories of local place names",
+      "description": "Investigate one local place name using reliable and attributed historical accounts.",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 11,
+      "centrality": 0,
+      "evidence": [
+        "Identify the source of an account",
+        "Distinguish a sourced meaning from a guess"
+      ],
+      "assessmentPrompt": "Could {{name}} identify the source of an account and explain their reasoning?",
+      "standards": [],
+      "nz": {
+        "suggestedYears": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "sourceIds": [
+          "nz_social_2027",
+          "nz_history_sources"
+        ],
+        "mappingStatus": "editorial-draft",
+        "teacherReviewed": false,
+        "localContext": "A place chosen by the family; meanings must be sourced, not guessed.",
+        "parentActivity": "Find a council, museum or mana whenua account of a place name and record what it says and what remains uncertain."
+      },
+      "prerequisiteIds": [
+        "mt_9REmUc8r4D",
+        "mt_TTzJTF-OkG"
+      ]
+    },
+    {
+      "id": "nz_historical_accounts",
+      "type": "CONCEPTUAL",
+      "subject": "History",
+      "domain": "Historical Thinking",
+      "name": "Comparing historical accounts in Aotearoa",
+      "description": "Compare how two attributed accounts describe an event and separate evidence from interpretation.",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 15,
+      "centrality": 0,
+      "evidence": [
+        "Identify agreement and differences",
+        "Explain how the source affects an interpretation"
+      ],
+      "assessmentPrompt": "Could {{name}} identify agreement and differences and explain their reasoning?",
+      "standards": [],
+      "nz": {
+        "suggestedYears": [
+          7,
+          8,
+          9,
+          10
+        ],
+        "sourceIds": [
+          "nz_social_2027",
+          "nz_history_sources"
+        ],
+        "mappingStatus": "editorial-draft",
+        "teacherReviewed": false,
+        "localContext": "Age-appropriate Aotearoa histories selected with a parent or teacher.",
+        "parentActivity": "Choose two short public accounts, note their authors and dates, then compare shared facts and perspectives."
+      },
+      "prerequisiteIds": [
+        "mt_2GDBmKCJxs",
+        "mt_Lu4H4mbsqO"
+      ]
+    },
+    {
+      "id": "nz_community_decisions",
+      "type": "CONCEPTUAL",
+      "subject": "Personal & Social Development",
+      "domain": "Responsible Decision-Making",
+      "name": "Community decisions and public services",
+      "description": "Consider how a community can weigh needs and make a shared decision.",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 13,
+      "centrality": 0,
+      "evidence": [
+        "Describe more than one perspective",
+        "Give a reasoned proposal and acknowledge a trade-off"
+      ],
+      "assessmentPrompt": "Could {{name}} describe more than one perspective and explain their reasoning?",
+      "standards": [],
+      "nz": {
+        "suggestedYears": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "sourceIds": [
+          "nz_social_2027"
+        ],
+        "mappingStatus": "editorial-draft",
+        "teacherReviewed": false,
+        "localContext": "A fictional NZ library or park improvement discussion.",
+        "parentActivity": "Choose between three imaginary park improvements within a budget and explain whose needs each serves."
+      },
+      "prerequisiteIds": [
+        "mt_rkrG2w7WXI",
+        "mt_h_shhH-6DC"
+      ]
+    }
+  ]
+}

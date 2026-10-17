@@ -1,0 +1,1154 @@
+<!doctype html>
+<html lang="en-NZ">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Learning Paths NZ: see what your child is ready to learn next</title>
+<meta name="description" content="An open map of 1,590 small learning steps for New Zealand parents. See what comes first, what comes next, and how to help at home.">
+<style>
+/* ---------- Tokens ---------- */
+:root{
+  --cream:#F5EFE3;
+  --paper:#FBF8F1;
+  --sand:#EAE1CF;
+  --line:#DCD2BE;
+  --ink:#1B231E;
+  --ink-2:#47524B;
+  --ink-3:#6B746D;
+  --forest:#1E3B2B;
+  --forest-2:#2D5A41;
+  --moss:#DCE5D6;
+  --moss-2:#EEF2EA;
+  --orange:#D8662A;
+  --orange-ink:#A9431A;
+  --orange-wash:#F8E4D4;
+  --focus:#D8662A;
+
+  --serif:"Iowan Old Style","Palatino Linotype","Book Antiqua",Palatino,"Source Serif Pro",Georgia,serif;
+  --sans:ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,"Helvetica Neue",Arial,sans-serif;
+  --mono:ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+
+  --r-sm:8px; --r:14px; --r-lg:22px;
+  --wrap:1180px;
+  --gutter:clamp(20px,4vw,40px);
+  --section:clamp(72px,10vw,128px);
+  --shadow:0 1px 0 rgba(30,59,43,.04),0 10px 30px -18px rgba(30,59,43,.35);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}}
+body{margin:0;background:var(--cream);color:var(--ink);font:400 17px/1.6 var(--sans);-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+img,svg{display:block;max-width:100%}
+a{color:var(--forest);text-decoration-thickness:1px;text-underline-offset:3px}
+a:hover{color:var(--orange-ink)}
+:focus-visible{outline:3px solid var(--focus);outline-offset:3px;border-radius:6px}
+button{font:inherit;color:inherit;cursor:pointer}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.skip{position:absolute;left:12px;top:-60px;background:var(--forest);color:var(--paper);padding:10px 16px;border-radius:var(--r-sm);z-index:100;text-decoration:none}
+.skip:focus{top:12px;color:var(--paper)}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 var(--gutter)}
+
+/* ---------- Type ---------- */
+h1,h2,h3,h4{font-family:var(--serif);font-weight:500;letter-spacing:-.012em;line-height:1.12;margin:0;color:var(--forest)}
+h1{font-size:clamp(42px,6.4vw,80px);letter-spacing:-.025em;line-height:1.02}
+h2{font-size:clamp(32px,4.2vw,52px);letter-spacing:-.02em}
+h3{font-size:clamp(22px,2.2vw,28px)}
+h4{font-size:19px}
+p{margin:0 0 1em}
+.eyebrow{font:600 12px/1.2 var(--sans);letter-spacing:.16em;text-transform:uppercase;color:var(--orange-ink);display:inline-flex;align-items:center;gap:10px;margin-bottom:20px}
+.eyebrow::before{content:"";width:22px;height:2px;background:var(--orange);border-radius:2px}
+.lede{font-size:clamp(18px,1.6vw,21px);line-height:1.55;color:var(--ink-2);max-width:40em}
+.muted{color:var(--ink-3)}
+em.serif{font-family:var(--serif);font-style:italic;color:var(--orange-ink)}
+.section{padding:var(--section) 0}
+.section-head{display:grid;grid-template-columns:1fr;gap:18px;margin-bottom:clamp(36px,5vw,64px);max-width:760px}
+.rule{border:0;border-top:1px solid var(--line);margin:0}
+
+/* ---------- Buttons ---------- */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:48px;padding:0 22px;border-radius:999px;border:1px solid transparent;font-weight:600;font-size:16px;text-decoration:none;transition:background .2s,color .2s,border-color .2s,transform .2s;white-space:nowrap}
+.btn-primary{background:var(--forest);color:var(--paper)}
+.btn-primary:hover{background:var(--forest-2);color:var(--paper)}
+.btn-ghost{border-color:var(--forest);color:var(--forest);background:transparent}
+.btn-ghost:hover{background:var(--forest);color:var(--paper)}
+.btn-quiet{color:var(--forest);padding:0 6px;min-height:40px}
+.btn-quiet:hover{color:var(--orange-ink)}
+.btn .arrow{transition:transform .2s}
+.btn:hover .arrow{transform:translateX(3px)}
+
+/* ---------- Notice + header ---------- */
+.notice{background:var(--forest);color:#E6EDE4;font-size:14px}
+.notice .wrap{display:flex;gap:12px;align-items:center;justify-content:center;min-height:42px;padding-top:8px;padding-bottom:8px;text-align:center;flex-wrap:wrap}
+.notice strong{color:#fff;font-weight:600}
+.notice a{color:#FFD9C2}
+.pill-draft{font:600 11px/1 var(--sans);letter-spacing:.12em;text-transform:uppercase;background:var(--orange);color:#1B1206;padding:5px 8px;border-radius:4px}
+
+header.site{position:sticky;top:0;z-index:50;background:rgba(245,239,227,.92);backdrop-filter:saturate(1.2) blur(10px);-webkit-backdrop-filter:saturate(1.2) blur(10px);border-bottom:1px solid transparent;transition:border-color .2s}
+header.site.scrolled{border-bottom-color:var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:24px;min-height:72px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--forest)}
+.brand-name{font-family:var(--serif);font-size:21px;letter-spacing:-.01em;line-height:1}
+.brand-name b{font-weight:600}
+.brand-name span{color:var(--orange-ink);font-style:italic}
+.nav-links{display:flex;align-items:center;gap:4px;list-style:none;margin:0;padding:0}
+.nav-links a{display:block;padding:10px 14px;border-radius:999px;color:var(--ink-2);text-decoration:none;font-size:15px;font-weight:500}
+.nav-links a:hover{color:var(--forest);background:var(--sand)}
+.nav-actions{display:flex;gap:8px;align-items:center}
+.nav-actions .btn{min-height:42px;padding:0 18px;font-size:15px}
+.menu-btn{display:none;background:none;border:1px solid var(--line);border-radius:999px;width:46px;height:46px;align-items:center;justify-content:center}
+.menu-btn span{display:block;width:18px;height:2px;background:var(--forest);position:relative}
+.menu-btn span::before,.menu-btn span::after{content:"";position:absolute;left:0;width:18px;height:2px;background:var(--forest);transition:transform .2s}
+.menu-btn span::before{top:-6px}.menu-btn span::after{top:6px}
+.menu-btn[aria-expanded="true"] span{background:transparent}
+.menu-btn[aria-expanded="true"] span::before{transform:translateY(6px) rotate(45deg)}
+.menu-btn[aria-expanded="true"] span::after{transform:translateY(-6px) rotate(-45deg)}
+@media (max-width:980px){
+  .nav-links,.nav-actions .btn-quiet{display:none}
+  .menu-btn{display:inline-flex}
+  .nav-links.open{display:flex;flex-direction:column;align-items:stretch;position:absolute;left:0;right:0;top:100%;background:var(--paper);border-bottom:1px solid var(--line);padding:12px var(--gutter) 20px;box-shadow:var(--shadow)}
+  .nav-links.open a{padding:14px 12px;font-size:17px;border-radius:var(--r-sm)}
+}
+@media (max-width:520px){.nav-actions .btn-primary{display:none}}
+
+/* ---------- Hero ---------- */
+.hero{padding:clamp(48px,7vw,96px) 0 clamp(64px,8vw,112px);position:relative;overflow:hidden}
+.hero-grid{display:grid;grid-template-columns:1.12fr .88fr;gap:clamp(40px,6vw,88px);align-items:center}
+.hero h1 em{font-style:italic;color:var(--orange-ink)}
+.hero .lede{margin:28px 0 36px}
+.ask{background:var(--paper);border:1px solid var(--line);border-radius:var(--r-lg);padding:8px;box-shadow:var(--shadow);max-width:620px}
+.ask-row{display:flex;gap:8px;align-items:stretch}
+.ask label{display:block;font:600 13px/1 var(--sans);color:var(--ink-3);padding:12px 14px 0}
+.ask input,.ask select{border:0;background:transparent;font:inherit;color:var(--ink);min-width:0}
+.ask input{flex:1;padding:10px 14px 14px;font-size:18px}
+.ask input::placeholder{color:#8E958F}
+.ask input:focus{outline:none}
+.ask:focus-within{border-color:var(--forest-2);box-shadow:0 0 0 3px rgba(216,102,42,.25),var(--shadow)}
+.ask-field{flex:1;display:flex;flex-direction:column;min-width:0}
+.ask-age{display:flex;flex-direction:column;border-left:1px solid var(--line)}
+.ask-age select{padding:10px 30px 14px 14px;font-size:17px;appearance:none;-webkit-appearance:none;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%231E3B2B' stroke-width='1.6'/%3E%3C/svg%3E") no-repeat right 10px center}
+.ask .btn{border-radius:16px;align-self:center;min-height:56px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px;align-items:center}
+.chips .label{font-size:14px;color:var(--ink-3);margin-right:4px}
+.chip{border:1px solid var(--line);background:transparent;border-radius:999px;padding:8px 14px;font-size:14px;color:var(--ink-2);transition:all .15s}
+.chip:hover,.chip[aria-pressed="true"]{border-color:var(--forest);color:var(--forest);background:var(--moss-2)}
+.hero-trust{display:flex;gap:28px;flex-wrap:wrap;margin-top:40px;padding-top:28px;border-top:1px solid var(--line);font-size:14px;color:var(--ink-3)}
+.hero-trust b{display:block;font-family:var(--serif);font-size:30px;font-weight:500;color:var(--forest);line-height:1.1;letter-spacing:-.01em}
+
+/* hero card */
+.path-card{background:var(--paper);border:1px solid var(--line);border-radius:28px;padding:28px;box-shadow:0 30px 60px -40px rgba(30,59,43,.55);position:relative}
+.path-card::before{content:"";position:absolute;inset:-14px 18px auto auto;width:120px;height:120px;border-radius:50%;background:radial-gradient(circle,var(--orange-wash) 0,transparent 70%);z-index:-1}
+.pc-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:22px}
+.who{display:flex;gap:12px;align-items:center}
+.avatar{width:42px;height:42px;border-radius:50%;background:var(--moss);color:var(--forest);display:grid;place-items:center;font-family:var(--serif);font-size:19px}
+.who small{display:block;color:var(--ink-3);font-size:13px}
+.who strong{font-weight:600}
+.tag{display:inline-flex;align-items:center;gap:6px;font:600 12px/1 var(--sans);padding:7px 10px;border-radius:999px;background:var(--moss-2);color:var(--forest);border:1px solid var(--moss)}
+.tag.orange{background:var(--orange-wash);color:var(--orange-ink);border-color:#F1CDB2}
+.tag.plain{background:transparent;border-color:var(--line);color:var(--ink-2)}
+.steps-mini{list-style:none;margin:0;padding:0;position:relative}
+.steps-mini::before{content:"";position:absolute;left:15px;top:18px;bottom:18px;width:2px;background:repeating-linear-gradient(var(--line) 0 6px,transparent 6px 10px)}
+.steps-mini li{display:grid;grid-template-columns:32px 1fr;gap:16px;padding:12px 0;position:relative}
+.dot{width:32px;height:32px;border-radius:50%;display:grid;place-items:center;font-size:14px;position:relative;z-index:1}
+.dot.done{background:var(--forest);color:var(--paper)}
+.dot.now{background:var(--paper);border:2px solid var(--forest);color:var(--forest)}
+.dot.next{background:var(--orange);color:#fff;box-shadow:0 0 0 6px var(--orange-wash)}
+.dot.later{background:var(--paper);border:1.5px dashed #A9A99A}
+.steps-mini .k{font:600 11px/1 var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3);margin-bottom:5px}
+.steps-mini .t{font-family:var(--serif);font-size:19px;color:var(--forest);line-height:1.25}
+.steps-mini .d{font-size:14px;color:var(--ink-2);margin-top:3px}
+.steps-mini li.is-next{background:linear-gradient(90deg,var(--orange-wash),transparent);margin:0 -28px;padding:14px 28px;border-radius:0}
+.pc-foot{margin-top:18px;padding-top:18px;border-top:1px solid var(--line);display:flex;gap:12px;align-items:flex-start;font-size:14px;color:var(--ink-2)}
+.pc-foot svg{flex:none;margin-top:2px}
+
+@media (max-width:920px){.hero-grid{grid-template-columns:1fr}.path-card{max-width:560px}}
+@media (max-width:560px){
+  .ask-row{flex-wrap:wrap}
+  .ask-age{border-left:0;border-top:1px solid var(--line);flex:1}
+  .ask .btn{width:100%;margin-top:4px}
+  .hero-trust{gap:20px}
+  .hero-trust b{font-size:26px}
+}
+
+/* ---------- Graph ---------- */
+.graph-section{background:var(--paper);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.graph-shell{display:grid;grid-template-columns:minmax(0,1fr) 340px;border:1px solid var(--line);border-radius:var(--r-lg);overflow:hidden;background:var(--cream)}
+.graph-toolbar{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:14px 18px;border-bottom:1px solid var(--line);background:var(--paper);flex-wrap:wrap}
+.crumbs{font-size:14px;color:var(--ink-3);display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.crumbs b{color:var(--forest);font-weight:600}
+.seg{display:inline-flex;background:var(--sand);border-radius:999px;padding:3px}
+.seg button{border:0;background:transparent;padding:7px 14px;border-radius:999px;font-size:14px;font-weight:500;color:var(--ink-2)}
+.seg button[aria-pressed="true"]{background:var(--paper);color:var(--forest);box-shadow:0 1px 3px rgba(0,0,0,.08)}
+.graph-canvas{position:relative;overflow-x:auto;-webkit-overflow-scrolling:touch;background-image:radial-gradient(rgba(30,59,43,.09) 1px,transparent 1px);background-size:22px 22px}
+.graph-canvas svg{min-width:860px;width:100%;height:auto}
+.age-label{font:600 11px var(--sans);letter-spacing:.14em;text-transform:uppercase;fill:var(--ink-3)}
+.age-col{fill:rgba(234,225,207,.35)}
+.edge{fill:none;stroke:#B9B29F;stroke-width:1.6;transition:stroke .2s,opacity .2s,stroke-width .2s}
+.edge.soft{stroke-dasharray:4 5}
+.edge.hl{stroke:var(--forest-2);stroke-width:2.4}
+.edge.hl-next{stroke:var(--orange);stroke-width:2.4}
+.dim .edge:not(.hl):not(.hl-next){opacity:.25}
+.node{cursor:pointer;transition:opacity .2s}
+.node rect{transition:stroke .2s,fill .2s,stroke-width .2s}
+.node text{font:500 13px var(--sans);fill:var(--ink);pointer-events:none}
+.node .st{font:600 9.5px var(--sans);letter-spacing:.12em;text-transform:uppercase}
+.node.secure rect{fill:var(--forest);stroke:var(--forest)}
+.node.secure text{fill:#F4F1E8}
+.node.secure .st{fill:#A9C7B2}
+.node.working rect{fill:var(--moss-2);stroke:var(--forest-2);stroke-width:1.5}
+.node.working .st{fill:var(--forest-2)}
+.node.next rect{fill:#FFF7F0;stroke:var(--orange);stroke-width:2}
+.node.next .st{fill:var(--orange-ink)}
+.node.later rect{fill:var(--paper);stroke:#BDB6A3;stroke-dasharray:3 3}
+.node.later .st{fill:var(--ink-3)}
+.node:hover rect{stroke-width:2.5}
+.node:focus{outline:none}
+.node:focus-visible rect{stroke:var(--orange);stroke-width:3}
+.node.selected rect{stroke-width:3;filter:drop-shadow(0 8px 14px rgba(30,59,43,.25))}
+.node rect.ring{fill:none!important;stroke:var(--orange)!important;stroke-width:1.5!important;stroke-dasharray:none!important;filter:none!important;opacity:0}
+.node.selected .ring{opacity:.5}
+.dim .node:not(.on){opacity:.32}
+.graph-legend{display:flex;gap:18px;flex-wrap:wrap;padding:14px 18px;border-top:1px solid var(--line);background:var(--paper);font-size:13px;color:var(--ink-2)}
+.graph-legend span{display:inline-flex;align-items:center;gap:8px}
+.sw{width:16px;height:12px;border-radius:3px;display:inline-block}
+.sw.secure{background:var(--forest)}
+.sw.working{background:var(--moss-2);border:1.5px solid var(--forest-2)}
+.sw.next{background:#FFF7F0;border:2px solid var(--orange)}
+.sw.later{background:var(--paper);border:1.5px dashed #A9A99A}
+.ln{width:22px;height:0;border-top:2px solid #B9B29F;display:inline-block}
+.ln.soft{border-top-style:dashed}
+.swipe-hint{display:none;font-size:13px;color:var(--ink-3);padding:10px 18px 0}
+.graph-list{display:none;padding:18px;background:var(--cream)}
+.graph-list ol{margin:0;padding:0;list-style:none;display:grid;gap:8px}
+.graph-list li button{width:100%;text-align:left;display:flex;justify-content:space-between;gap:12px;align-items:center;background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+.graph-list li button:hover{border-color:var(--forest)}
+.graph-list .age{font-size:13px;color:var(--ink-3);white-space:nowrap}
+.graph-main.list-mode .graph-canvas,.graph-main.list-mode .swipe-hint{display:none!important}
+.graph-main.list-mode .graph-list{display:block}
+
+.inspector{border-left:1px solid var(--line);background:var(--paper);padding:26px;display:flex;flex-direction:column;gap:18px}
+.inspector h3{font-size:26px}
+.inspector .meta{display:flex;gap:6px;flex-wrap:wrap}
+.inspector p{font-size:15px;color:var(--ink-2);margin:0}
+.ins-block h4{font:600 12px/1 var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3);margin-bottom:10px}
+.ins-list{list-style:none;margin:0;padding:0;display:grid;gap:6px}
+.ins-list button{all:unset;cursor:pointer;display:flex;gap:10px;align-items:center;font-size:15px;color:var(--forest);padding:4px 0;border-radius:4px}
+.ins-list button:hover{color:var(--orange-ink);text-decoration:underline;text-underline-offset:3px}
+.ins-list button:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+.ins-list .why{display:block;font-size:13px;color:var(--ink-3);margin:-2px 0 6px 18px}
+.mini-dot{width:8px;height:8px;border-radius:50%;flex:none;background:var(--forest)}
+.mini-dot.working{background:var(--moss);border:1.5px solid var(--forest-2)}
+.mini-dot.next{background:var(--orange)}
+.mini-dot.later{background:transparent;border:1.5px dashed #9A9A8B}
+.inspector .btn{margin-top:auto;align-self:flex-start}
+@media (max-width:1020px){.graph-shell{grid-template-columns:1fr}.inspector{border-left:0;border-top:1px solid var(--line)}}
+@media (max-width:720px){.swipe-hint{display:block}}
+
+/* ---------- Getting started ---------- */
+.start-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(16px,2.4vw,28px);counter-reset:step}
+.start{background:var(--paper);border:1px solid var(--line);border-radius:var(--r-lg);padding:clamp(24px,3vw,36px);display:flex;flex-direction:column;gap:14px;position:relative}
+.start .num{font-family:var(--serif);font-size:56px;line-height:1;color:var(--orange);font-style:italic;letter-spacing:-.03em}
+.start h3{font-size:26px}
+.start p{color:var(--ink-2);font-size:16px;margin:0}
+.start ul{margin:0;padding:0;list-style:none;display:grid;gap:8px;font-size:15px;color:var(--ink-2)}
+.start li{display:flex;gap:10px;align-items:flex-start}
+.start li::before{content:"";flex:none;width:14px;height:14px;margin-top:5px;border-radius:50%;border:1.5px solid var(--forest-2);background:radial-gradient(circle,var(--forest-2) 0 3px,transparent 3.5px)}
+.start .foot{margin-top:auto;padding-top:14px;border-top:1px dashed var(--line);display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+.start .foot small{font-size:13px;color:var(--ink-3)}
+.start.featured{background:var(--forest);border-color:var(--forest);color:#E6EDE4}
+.start.featured h3{color:#fff}
+.start.featured p,.start.featured ul{color:#CFDCD2}
+.start.featured li::before{border-color:#FFB98F;background:radial-gradient(circle,#FFB98F 0 3px,transparent 3.5px)}
+.start.featured .foot{border-color:rgba(255,255,255,.18)}
+.start.featured .foot small{color:#A9C2B1}
+.start.featured .btn-ghost{border-color:#FFD9C2;color:#FFE8DA}
+.start.featured .btn-ghost:hover{background:#FFE8DA;color:var(--forest)}
+@media (max-width:900px){.start-grid{grid-template-columns:1fr}}
+
+/* ---------- Subject explorer ---------- */
+.explorer-head{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;flex-wrap:wrap;margin-bottom:32px}
+.subject-tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:28px}
+.subject-tabs button{border:1px solid var(--line);background:var(--paper);border-radius:999px;padding:10px 16px;font-size:15px;font-weight:500;color:var(--ink-2);display:inline-flex;gap:8px;align-items:center}
+.subject-tabs button .c{font-size:12px;color:var(--ink-3);font-variant-numeric:tabular-nums}
+.subject-tabs button[aria-selected="true"]{background:var(--forest);border-color:var(--forest);color:var(--paper)}
+.subject-tabs button[aria-selected="true"] .c{color:#A9C7B2}
+.age-filter{display:flex;align-items:center;gap:14px;font-size:14px;color:var(--ink-2);background:var(--paper);border:1px solid var(--line);padding:10px 16px;border-radius:999px}
+.age-filter input{accent-color:var(--forest);width:160px}
+.age-filter output{font-weight:600;color:var(--forest);min-width:72px;font-variant-numeric:tabular-nums}
+.explorer{display:grid;grid-template-columns:300px 1fr;gap:28px;align-items:start}
+.subject-intro{position:sticky;top:96px;padding:28px;border-radius:var(--r-lg);background:var(--moss-2);border:1px solid var(--moss)}
+.subject-intro h3{font-size:30px;margin-bottom:12px}
+.subject-intro p{font-size:15px;color:var(--ink-2)}
+.bar{height:8px;border-radius:8px;background:var(--paper);overflow:hidden;margin:6px 0 4px}
+.bar i{display:block;height:100%;background:var(--forest-2);border-radius:8px}
+.subject-intro dl{display:grid;grid-template-columns:1fr auto;gap:8px 16px;margin:18px 0 0;font-size:14px}
+.subject-intro dt{color:var(--ink-3)}
+.subject-intro dd{margin:0;font-weight:600;color:var(--forest);text-align:right;font-variant-numeric:tabular-nums}
+.domain-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px}
+.domain{background:var(--paper);border:1px solid var(--line);border-radius:var(--r);padding:20px 22px;display:flex;flex-direction:column;gap:10px;transition:border-color .2s,transform .2s,box-shadow .2s}
+.domain:hover{border-color:var(--forest-2);transform:translateY(-2px);box-shadow:var(--shadow)}
+.domain .row{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
+.domain h4{font-size:21px}
+.domain .n{font-size:13px;color:var(--ink-3);white-space:nowrap}
+.domain ul{list-style:none;margin:0;padding:0;display:grid;gap:2px}
+.domain li a{display:flex;justify-content:space-between;gap:10px;padding:7px 0;border-top:1px solid #EFE8DA;text-decoration:none;color:var(--ink);font-size:15px}
+.domain li a:hover{color:var(--orange-ink)}
+.domain li a span{color:var(--ink-3);font-size:13px;white-space:nowrap}
+.domain .ages{height:6px;background:var(--sand);border-radius:6px;position:relative}
+.domain .ages i{position:absolute;top:0;bottom:0;background:var(--orange);border-radius:6px;opacity:.85}
+.empty{padding:28px;border:1px dashed var(--line);border-radius:var(--r);color:var(--ink-3);text-align:center}
+@media (max-width:900px){.explorer{grid-template-columns:1fr}.subject-intro{position:static}}
+
+/* ---------- Topic detail ---------- */
+.topic-section{background:var(--paper);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.topic{display:grid;grid-template-columns:1fr 360px;gap:clamp(32px,5vw,72px)}
+.topic-head .meta{display:flex;gap:8px;flex-wrap:wrap;margin:22px 0 24px}
+.topic-head h2{font-size:clamp(38px,5vw,64px)}
+.topic-head .plain{font-family:var(--serif);font-size:clamp(20px,2vw,24px);line-height:1.45;color:var(--ink-2);max-width:32em}
+.block{margin-top:48px}
+.block-title{display:flex;align-items:baseline;justify-content:space-between;gap:16px;border-bottom:1px solid var(--line);padding-bottom:12px;margin-bottom:20px;flex-wrap:wrap}
+.block-title h3{font-size:26px}
+.block-title small{font-size:13px;color:var(--ink-3)}
+.evidence{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.evidence label{display:grid;grid-template-columns:28px 1fr;gap:14px;align-items:start;padding:16px 18px;border:1px solid var(--line);border-radius:var(--r);background:var(--cream);cursor:pointer;transition:background .2s,border-color .2s}
+.evidence input{appearance:none;-webkit-appearance:none;width:26px;height:26px;border-radius:8px;border:1.5px solid var(--forest-2);background:var(--paper);margin:0;display:grid;place-items:center;cursor:pointer}
+.evidence input::after{content:"";width:12px;height:7px;border-left:2.5px solid #fff;border-bottom:2.5px solid #fff;transform:rotate(-45deg) translate(1px,-1px);opacity:0}
+.evidence input:checked{background:var(--forest);border-color:var(--forest)}
+.evidence input:checked::after{opacity:1}
+.evidence label:has(input:checked){background:var(--moss-2);border-color:var(--moss)}
+.evidence .e-t{font-size:16px}
+.evidence .e-s{display:block;font-size:13px;color:var(--ink-3);margin-top:2px}
+.progress-note{margin-top:14px;font-size:14px;color:var(--ink-2)}
+.progress-note b{color:var(--forest)}
+.ask-quote{margin:0;padding:24px 26px;border-left:3px solid var(--orange);background:var(--orange-wash);border-radius:0 var(--r) var(--r) 0;font-family:var(--serif);font-size:21px;line-height:1.45;color:#4A2412}
+.ask-quote cite{display:block;margin-top:10px;font:500 13px var(--sans);color:var(--orange-ink);font-style:normal}
+.local{display:grid;grid-template-columns:auto 1fr;gap:22px;padding:26px;border-radius:var(--r-lg);background:var(--cream);border:1px solid var(--line)}
+.local .ill{width:92px;height:92px;border-radius:50%;background:var(--moss);display:grid;place-items:center}
+.local h4{font-size:22px;margin-bottom:8px}
+.local p{color:var(--ink-2);font-size:16px}
+.local ol{margin:0;padding-left:20px;color:var(--ink-2);font-size:15px;display:grid;gap:6px}
+.local .reo{font-size:14px;color:var(--ink-3);margin-top:14px;padding-top:12px;border-top:1px dashed var(--line)}
+@media (max-width:560px){.local{grid-template-columns:1fr}.local .ill{width:64px;height:64px}}
+
+.topic-side{display:flex;flex-direction:column;gap:20px}
+.side-card{border:1px solid var(--line);border-radius:var(--r-lg);padding:24px;background:var(--cream)}
+.side-card h4{font:600 12px/1 var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3);margin-bottom:14px}
+.side-card .lst{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.side-card .lst li{display:flex;gap:10px;align-items:flex-start;font-size:15px}
+.side-card .lst li .mini-dot{margin-top:8px}
+.side-card .lst small{display:block;color:var(--ink-3);font-size:13px}
+.prov{background:var(--paper)}
+.prov-row{display:grid;grid-template-columns:22px 1fr;gap:10px;padding:10px 0;border-top:1px solid #EFE8DA;font-size:14px}
+.prov-row:first-of-type{border-top:0;padding-top:0}
+.prov-row b{display:block;color:var(--ink);font-weight:600;font-size:14px}
+.prov-row span{color:var(--ink-2)}
+.ic-yes,.ic-no,.ic-part{width:20px;height:20px;border-radius:50%;display:grid;place-items:center;font-size:12px;font-weight:700;margin-top:1px}
+.ic-yes{background:var(--forest);color:#fff}
+.ic-no{background:var(--sand);color:var(--ink-2);border:1px solid var(--line)}
+.ic-part{background:var(--orange-wash);color:var(--orange-ink);border:1px solid #F1CDB2}
+.src{font-family:var(--mono);font-size:12px;background:var(--sand);padding:2px 6px;border-radius:4px;color:var(--ink-2)}
+.side-actions{display:grid;gap:10px}
+.side-actions .btn{width:100%}
+@media (max-width:980px){.topic{grid-template-columns:1fr}}
+
+/* ---------- Account + AI ---------- */
+.connect-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(24px,3vw,40px);align-items:start}
+.account{background:var(--paper);border:1px solid var(--line);border-radius:var(--r-lg);overflow:hidden}
+.account-top{padding:28px;border-bottom:1px solid var(--line)}
+.account-top h3{margin-bottom:8px}
+.account-top p{color:var(--ink-2);font-size:16px;margin:0}
+.kids{padding:12px 28px 4px}
+.kid{display:grid;grid-template-columns:44px 1fr auto;gap:14px;align-items:center;padding:16px 0;border-bottom:1px solid #EFE8DA}
+.kid:last-child{border-bottom:0}
+.kid .avatar{width:44px;height:44px}
+.kid .avatar.b{background:var(--orange-wash);color:var(--orange-ink)}
+.kid strong{display:block;font-weight:600}
+.kid small{color:var(--ink-3);font-size:13px}
+.kid .mini-prog{width:120px}
+.kid .mini-prog .bar{background:var(--sand);height:6px;margin:0 0 4px}
+.kid .mini-prog small{display:block;text-align:right}
+.add-kid{display:flex;align-items:center;gap:10px;margin:8px 28px 20px;padding:14px 16px;border:1.5px dashed var(--line);border-radius:var(--r);background:transparent;width:calc(100% - 56px);color:var(--forest);font-weight:600;font-size:15px}
+.add-kid:hover{border-color:var(--forest-2);background:var(--moss-2)}
+.privacy{background:var(--moss-2);padding:24px 28px;border-top:1px solid var(--moss)}
+.privacy h4{font:600 12px/1 var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--forest-2);margin-bottom:12px}
+.privacy ul{margin:0;padding:0;list-style:none;display:grid;gap:8px;font-size:15px;color:var(--ink-2)}
+.privacy li{display:flex;gap:10px}
+.privacy li::before{content:"✓";color:var(--forest-2);font-weight:700}
+@media (max-width:440px){.kid{grid-template-columns:44px 1fr}.kid .mini-prog{grid-column:2;width:100%}.kid .mini-prog small{text-align:left}}
+
+.ai{background:var(--forest);color:#DCE6DE;border-radius:var(--r-lg);overflow:hidden}
+.ai-top{padding:28px 28px 0}
+.ai-top h3{color:#fff;margin-bottom:8px}
+.ai-top p{color:#BFD0C4;font-size:16px;margin:0 0 22px}
+.ai-top .what{font-size:14px;color:#A9C2B1;margin:0 0 20px}
+.ai-top .what b{color:#FFD9C2;font-weight:600}
+.tablist{display:flex;gap:2px;overflow-x:auto;padding:0 20px;border-bottom:1px solid rgba(255,255,255,.14);scrollbar-width:none}
+.tablist::-webkit-scrollbar{display:none}
+.tablist button{border:0;background:transparent;color:#BFD0C4;padding:14px 14px 13px;font-size:15px;font-weight:500;border-bottom:2px solid transparent;white-space:nowrap;border-radius:8px 8px 0 0}
+.tablist button:hover{color:#fff}
+.tablist button[aria-selected="true"]{color:#fff;border-bottom-color:var(--orange)}
+.tablist button:focus-visible{outline-offset:-3px}
+.panel{padding:26px 28px 30px}
+.panel[hidden]{display:none}
+.panel .who-for{display:inline-flex;gap:8px;align-items:center;font-size:13px;color:#A9C2B1;margin-bottom:16px}
+.panel .who-for i{font-style:normal;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.16);padding:4px 9px;border-radius:999px;color:#E6EDE4}
+.panel ol{margin:0 0 20px;padding:0;list-style:none;counter-reset:s;display:grid;gap:12px}
+.panel ol li{counter-increment:s;display:grid;grid-template-columns:28px 1fr;gap:12px;font-size:15px;color:#DCE6DE}
+.panel ol li::before{content:counter(s);width:26px;height:26px;border-radius:50%;background:rgba(255,255,255,.1);display:grid;place-items:center;font-size:13px;font-weight:600;color:#FFD9C2}
+.panel ol li b{color:#fff;font-weight:600}
+.code{position:relative;background:#132A1E;border:1px solid rgba(255,255,255,.1);border-radius:12px;margin:0 0 16px}
+.code pre{margin:0;padding:16px 18px;padding-right:86px;overflow-x:auto;font:13.5px/1.6 var(--mono);color:#E6EDE4;white-space:pre}
+.code .lab{display:block;font:600 11px/1 var(--sans);letter-spacing:.12em;text-transform:uppercase;color:#88A893;padding:12px 18px 0}
+.copy{position:absolute;right:10px;top:10px;border:1px solid rgba(255,255,255,.2);background:rgba(255,255,255,.06);color:#E6EDE4;border-radius:8px;padding:6px 10px;font-size:13px}
+.copy:hover{background:rgba(255,255,255,.14)}
+.copy.ok{background:var(--orange);border-color:var(--orange);color:#1B1206}
+.try{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:12px;padding:16px 18px;font-size:15px}
+.try span{display:block;font:600 11px/1 var(--sans);letter-spacing:.12em;text-transform:uppercase;color:#FFB98F;margin-bottom:8px}
+.try q{font-family:var(--serif);font-size:18px;color:#fff;quotes:"\201C" "\201D"}
+.ai-note{font-size:13px;color:#88A893;padding:0 28px 26px;margin:0}
+.ai-note a{color:#FFD9C2}
+.badge-new{font:600 10px/1 var(--sans);letter-spacing:.1em;text-transform:uppercase;background:var(--orange);color:#1B1206;padding:3px 6px;border-radius:4px;margin-left:6px;vertical-align:2px}
+@media (max-width:980px){.connect-grid{grid-template-columns:1fr}}
+
+/* ---------- About NZ adaptation ---------- */
+.honest{display:grid;grid-template-columns:1fr 1.25fr;gap:clamp(32px,5vw,80px);align-items:start}
+.honest h2 em{font-style:italic;color:var(--orange-ink)}
+.statement{font-family:var(--serif);font-size:clamp(21px,2.1vw,26px);line-height:1.45;color:var(--forest);margin:26px 0 0;padding-top:24px;border-top:2px solid var(--forest)}
+.facts{display:grid;gap:0;border-top:1px solid var(--line)}
+.fact{display:grid;grid-template-columns:160px 1fr;gap:24px;padding:22px 0;border-bottom:1px solid var(--line)}
+.fact .k{font:600 12px/1.4 var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3);padding-top:4px}
+.fact h4{font-size:21px;margin-bottom:6px}
+.fact p{margin:0;color:var(--ink-2);font-size:16px}
+.fact .status{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+.review-cta{margin-top:28px;display:flex;gap:16px;align-items:center;flex-wrap:wrap;padding:20px 22px;border-radius:var(--r);background:var(--orange-wash);border:1px solid #F1CDB2}
+.review-cta p{margin:0;flex:1;min-width:220px;font-size:15px;color:#4A2412}
+@media (max-width:900px){.honest{grid-template-columns:1fr}.fact{grid-template-columns:1fr;gap:6px}}
+
+/* ---------- Footer ---------- */
+footer.site{background:var(--forest);color:#BFD0C4;padding:72px 0 40px;font-size:15px}
+.foot-grid{display:grid;grid-template-columns:1.4fr repeat(3,1fr);gap:40px}
+footer .brand{color:#fff}
+footer .brand-name span{color:#FFB98F}
+footer h4{font:600 12px/1 var(--sans);letter-spacing:.12em;text-transform:uppercase;color:#88A893;margin-bottom:14px}
+footer ul{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+footer a{color:#E6EDE4;text-decoration:none}
+footer a:hover{color:#FFD9C2;text-decoration:underline}
+.foot-base{margin-top:56px;padding-top:24px;border-top:1px solid rgba(255,255,255,.14);display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;font-size:13px;color:#88A893}
+@media (max-width:820px){.foot-grid{grid-template-columns:1fr 1fr}.foot-grid>div:first-child{grid-column:1/-1}}
+
+.toast{position:fixed;left:50%;bottom:24px;transform:translate(-50%,20px);background:var(--ink);color:var(--paper);padding:12px 18px;border-radius:999px;font-size:14px;opacity:0;pointer-events:none;transition:all .25s;z-index:200}
+.toast.show{opacity:1;transform:translate(-50%,0)}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to main content</a>
+
+<div class="notice" role="note">
+  <div class="wrap">
+    <span class="pill-draft">Draft</span>
+    <span><strong>NZ adaptation in progress.</strong> Built from published sources. Not endorsed by the Ministry of Education and not yet reviewed by teachers.</span>
+    <a href="#about">How we make it</a>
+  </div>
+</div>
+
+<header class="site" id="top">
+  <div class="wrap nav">
+    <a class="brand" href="#top" aria-label="Learning Paths NZ, home">
+      <svg width="36" height="36" viewBox="0 0 36 36" aria-hidden="true">
+        <rect width="36" height="36" rx="10" fill="#1E3B2B"/>
+        <path d="M9 25 C14 25 14 18 18 18 S22 11 27 11" fill="none" stroke="#DCE5D6" stroke-width="2"/>
+        <path d="M18 18 C22 18 22 25 27 25" fill="none" stroke="#DCE5D6" stroke-width="2" stroke-dasharray="2 2.5"/>
+        <circle cx="9" cy="25" r="3" fill="#DCE5D6"/><circle cx="18" cy="18" r="3" fill="#DCE5D6"/>
+        <circle cx="27" cy="11" r="3.4" fill="#D8662A"/><circle cx="27" cy="25" r="2.6" fill="none" stroke="#DCE5D6" stroke-width="1.5"/>
+      </svg>
+      <span class="brand-name"><b>Learning Paths</b> <span>NZ</span></span>
+    </a>
+    <nav aria-label="Main">
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#map">The map</a></li>
+        <li><a href="#start">Getting started</a></li>
+        <li><a href="#subjects">Subjects</a></li>
+        <li><a href="#connect">Use with your AI</a></li>
+        <li><a href="#about">About the NZ version</a></li>
+      </ul>
+    </nav>
+    <div class="nav-actions">
+      <a class="btn btn-quiet" href="#connect">Sign in</a>
+      <a class="btn btn-primary" href="#connect">Create a parent account</a>
+      <button class="menu-btn" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu"><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ================= HERO ================= -->
+<section class="hero" aria-labelledby="hero-title">
+  <div class="wrap hero-grid">
+    <div>
+      <p class="eyebrow">For parents and whānau</p>
+      <h1 id="hero-title">See what your child is <em>ready</em> to learn next.</h1>
+      <p class="lede">Learning Paths NZ breaks school learning into small, clear steps and shows which ones come first. Find where your child is today, spot the gap behind a tricky topic, and get simple things to try at home.</p>
+
+      <form class="ask" role="search" onsubmit="event.preventDefault();goTopic();">
+        <div class="ask-row">
+          <div class="ask-field">
+            <label for="q">What is your child working on?</label>
+            <input id="q" name="q" type="search" placeholder="e.g. fractions, telling the time, why it rains" autocomplete="off">
+          </div>
+          <div class="ask-age">
+            <label for="age">Age</label>
+            <select id="age" name="age">
+              <option>5</option><option>6</option><option>7</option><option selected>8</option><option>9</option><option>10</option><option>11</option><option>12</option><option>13</option>
+            </select>
+          </div>
+          <button class="btn btn-primary" type="submit">Show the path <span class="arrow" aria-hidden="true">→</span></button>
+        </div>
+      </form>
+      <div class="chips" aria-label="Popular searches">
+        <span class="label">Parents often ask about</span>
+        <button class="chip" type="button" data-q="Fractions">Fractions</button>
+        <button class="chip" type="button" data-q="Reading longer words">Reading longer words</button>
+        <button class="chip" type="button" data-q="Telling the time">Telling the time</button>
+        <button class="chip" type="button" data-q="Why it rains">Why it rains</button>
+        <button class="chip" type="button" data-q="Times tables">Times tables</button>
+      </div>
+
+      <div class="hero-trust">
+        <div><b>1,590</b>small learning steps</div>
+        <div><b>3,221</b>links showing what comes first</div>
+        <div><b>Free</b>to explore, no sign-up</div>
+      </div>
+    </div>
+
+    <aside class="path-card" aria-label="Example: one child's path this week">
+      <div class="pc-top">
+        <div class="who">
+          <div class="avatar" aria-hidden="true">A</div>
+          <div><strong>Aroha, 8</strong><small>Year 4 · Maths</small></div>
+        </div>
+        <span class="tag orange">This week</span>
+      </div>
+      <ol class="steps-mini">
+        <li>
+          <span class="dot done" aria-hidden="true">✓</span>
+          <div><div class="k">Got it</div><div class="t">Halves and quarters</div><div class="d">Cuts a sandwich into four equal pieces</div></div>
+        </li>
+        <li>
+          <span class="dot now" aria-hidden="true">•</span>
+          <div><div class="k">Practising</div><div class="t">Fractions as parts of shapes</div><div class="d">Mostly there with pictures</div></div>
+        </li>
+        <li class="is-next">
+          <span class="dot next" aria-hidden="true">→</span>
+          <div><div class="k" style="color:var(--orange-ink)">Ready next</div><div class="t">Fractions of a whole</div><div class="d">What does 3/4 actually mean?</div></div>
+        </li>
+        <li>
+          <span class="dot later" aria-hidden="true"></span>
+          <div><div class="k">Later on</div><div class="t">Fractions on a number line</div></div>
+        </li>
+      </ol>
+      <div class="pc-foot">
+        <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="none" stroke="#2D5A41" stroke-width="1.6"/><path d="M12 7v6M12 16.5v.5" stroke="#2D5A41" stroke-width="1.8" stroke-linecap="round"/></svg>
+        <span>Ten minutes tonight: share a bag of feijoas fairly and ask “what fraction did you get?”</span>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<!-- ================= GRAPH ================= -->
+<section class="section graph-section" id="map" aria-labelledby="map-title">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">The map</p>
+      <h2 id="map-title">Every step has steps <em class="serif">before it.</em></h2>
+      <p class="lede">When a topic feels hard, it is often a step underneath that needs another look. Tap any step to see what it builds on and what it opens up.</p>
+    </div>
+
+    <div class="graph-shell">
+      <div class="graph-main" id="graph-main">
+        <div class="graph-toolbar">
+          <div class="crumbs" aria-label="Location"><span>Mathematics</span><span aria-hidden="true">›</span><span>Number</span><span aria-hidden="true">›</span><b>Fractions</b></div>
+          <div class="seg" role="group" aria-label="View">
+            <button type="button" aria-pressed="true" data-view="map">Map</button>
+            <button type="button" aria-pressed="false" data-view="list">List</button>
+          </div>
+        </div>
+        <p class="swipe-hint">Swipe sideways to see the whole path →</p>
+        <div class="graph-canvas">
+          <svg id="graph" viewBox="0 0 1000 420" role="group" aria-label="Prerequisite map for fractions. Each step is a button.">
+            <g id="cols"></g>
+            <g id="edges"></g>
+            <g id="nodes"></g>
+          </svg>
+        </div>
+        <div class="graph-list" id="graph-list"><ol></ol></div>
+        <div class="graph-legend" aria-label="Legend">
+          <span><i class="sw secure"></i>Got it</span>
+          <span><i class="sw working"></i>Practising</span>
+          <span><i class="sw next"></i>Ready next</span>
+          <span><i class="sw later"></i>Later on</span>
+          <span><i class="ln"></i>Needed first</span>
+          <span><i class="ln soft"></i>Helps, not essential</span>
+        </div>
+      </div>
+
+      <aside class="inspector" aria-live="polite" aria-label="Selected step">
+        <div class="meta" id="ins-meta"></div>
+        <h3 id="ins-title">Fractions of a whole</h3>
+        <p id="ins-desc"></p>
+        <div class="ins-block"><h4>Builds on</h4><ul class="ins-list" id="ins-pre"></ul></div>
+        <div class="ins-block"><h4>Opens up</h4><ul class="ins-list" id="ins-post"></ul></div>
+        <a class="btn btn-ghost" href="#topic">Open this step <span class="arrow" aria-hidden="true">→</span></a>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ================= GETTING STARTED ================= -->
+<section class="section" id="start" aria-labelledby="start-title">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Getting started</p>
+      <h2 id="start-title">Three ways in. <em class="serif">Start with the first.</em></h2>
+      <p class="lede">You do not need an account to look around. Sign up only when you want to keep track, and connect an AI assistant only if you already use one.</p>
+    </div>
+    <div class="start-grid">
+      <article class="start">
+        <div class="num" aria-hidden="true">1</div>
+        <h3>Explore</h3>
+        <p>Search a topic from school, or browse by subject and age. Each step tells you what it means in plain words.</p>
+        <ul>
+          <li>Check what “Year 4 maths” really covers</li>
+          <li>Find the step behind a tricky homework sheet</li>
+          <li>Get questions to ask at a parent–teacher meeting</li>
+        </ul>
+        <div class="foot"><small>No sign-up</small><a class="btn btn-ghost" href="#subjects">Browse subjects</a></div>
+      </article>
+      <article class="start featured">
+        <div class="num" aria-hidden="true">2</div>
+        <h3>Make a parent account</h3>
+        <p>Add each of your tamariki and tick off what they can already do. The map then lights up what they are ready for next.</p>
+        <ul>
+          <li>A private profile for each child</li>
+          <li>Simple “got it / practising” ticks</li>
+          <li>Ideas to try at home, matched to their next step</li>
+        </ul>
+        <div class="foot"><small>Free · delete any time</small><a class="btn btn-ghost" href="#connect">Create account</a></div>
+      </article>
+      <article class="start">
+        <div class="num" aria-hidden="true">3</div>
+        <h3>Connect your own AI</h3>
+        <p>Already use ChatGPT, Claude or another assistant? Link it to Learning Paths so its answers follow the map, not guesswork.</p>
+        <ul>
+          <li>“What should we practise before fractions?”</li>
+          <li>“Make a 10-minute game for this step”</li>
+          <li>You choose what it can see</li>
+        </ul>
+        <div class="foot"><small>Optional · about 2 minutes</small><a class="btn btn-ghost" href="#connect">See how</a></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<hr class="rule">
+
+<!-- ================= SUBJECT EXPLORER ================= -->
+<section class="section" id="subjects" aria-labelledby="subjects-title">
+  <div class="wrap">
+    <div class="explorer-head">
+      <div class="section-head" style="margin:0">
+        <p class="eyebrow">Subject explorer</p>
+        <h2 id="subjects-title">Browse by subject <em class="serif">and age.</em></h2>
+      </div>
+      <div class="age-filter">
+        <label for="age-range">Show steps for age</label>
+        <input type="range" id="age-range" min="5" max="13" value="8">
+        <output id="age-out" for="age-range">8 · Year 4</output>
+      </div>
+    </div>
+
+    <div class="subject-tabs" role="tablist" aria-label="Subjects" id="subject-tabs"></div>
+
+    <div class="explorer">
+      <aside class="subject-intro" id="subject-intro" aria-live="polite"></aside>
+      <div>
+        <div class="domain-grid" id="domain-grid"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= TOPIC DETAIL ================= -->
+<section class="section topic-section" id="topic" aria-labelledby="topic-title">
+  <div class="wrap topic">
+    <div>
+      <div class="topic-head">
+        <p class="eyebrow">Selected step</p>
+        <h2 id="topic-title">Fractions of a whole</h2>
+        <div class="meta">
+          <span class="tag">Mathematics · Fractions</span>
+          <span class="tag plain">Ages 8–9 · about Year 4–5</span>
+          <span class="tag orange">Ready next for Aroha</span>
+        </div>
+        <p class="plain">Knowing that a fraction is a number of equal parts. One quarter is one piece of something cut into four equal pieces, and three quarters is three of those pieces.</p>
+      </div>
+
+      <div class="block">
+        <div class="block-title"><h3>How you will know they have got it</h3><small>Tick what you have seen</small></div>
+        <ul class="evidence" id="evidence">
+          <li><label><input type="checkbox"><span><span class="e-t">Looks at a shape split into 5 equal parts and names one shaded part as one fifth (1/5)</span><span class="e-s">Try with a drawn chocolate bar or a cut-up muesli bar</span></span></label></li>
+          <li><label><input type="checkbox"><span><span class="e-t">Explains that 3/4 means 3 parts, each one a quarter</span><span class="e-s">Listen for “three of the quarter pieces”, not just “three and four”</span></span></label></li>
+          <li><label><input type="checkbox"><span><span class="e-t">Draws a picture showing 2/6 as 2 pieces of something cut into 6</span><span class="e-s">Any drawing is fine, as long as the pieces are roughly equal</span></span></label></li>
+        </ul>
+        <p class="progress-note" id="progress-note"><b>0 of 3</b> seen so far. In a parent account, this is saved to your child’s profile.</p>
+      </div>
+
+      <div class="block">
+        <div class="block-title"><h3>A question to ask</h3><small>Casual is best: in the car, over dinner</small></div>
+        <blockquote class="ask-quote">
+          “If we cut this pizza into 6 equal slices, what does one sixth mean? What would four sixths look like?”
+          <cite>From the step’s check-in question, reworded for home</cite>
+        </blockquote>
+      </div>
+
+      <div class="block">
+        <div class="block-title"><h3>Try it at home, NZ style</h3><small>Local example · draft</small></div>
+        <div class="local">
+          <div class="ill" aria-hidden="true">
+            <svg width="56" height="56" viewBox="0 0 56 56">
+              <circle cx="28" cy="28" r="24" fill="#FBF8F1" stroke="#1E3B2B" stroke-width="2"/>
+              <path d="M28 28 L28 4 A24 24 0 0 1 48.8 16 Z" fill="#D8662A"/>
+              <path d="M28 28 L48.8 16 A24 24 0 0 1 48.8 40 Z" fill="#D8662A" opacity=".75"/>
+              <path d="M28 28 L48.8 40 A24 24 0 0 1 28 52 Z" fill="#D8662A" opacity=".5"/>
+              <g stroke="#1E3B2B" stroke-width="1.6"><line x1="28" y1="28" x2="28" y2="4"/><line x1="28" y1="28" x2="48.8" y2="16"/><line x1="28" y1="28" x2="48.8" y2="40"/><line x1="28" y1="28" x2="28" y2="52"/><line x1="28" y1="28" x2="7.2" y2="40"/><line x1="28" y1="28" x2="7.2" y2="16"/></g>
+            </svg>
+          </div>
+          <div>
+            <h4>Cutting the pav for the whānau</h4>
+            <p>Next time there is a pavlova (or a quiche, or a pizza) on the table, let your child do the cutting.</p>
+            <ol>
+              <li>Ask them to cut it into 6 equal slices. Talk about why “equal” matters.</li>
+              <li>Each person who takes a slice, ask: “What fraction is gone now?”</li>
+              <li>At the end: “Is 6/6 the same as one whole pav?”</li>
+            </ol>
+            <p class="reo">Words you might hear at school: <b>hautoru</b> (a third), <b>hauwhā</b> (a quarter), <b>haurua</b> (a half). Reo Māori terms are listed for interest and still need checking by a fluent speaker.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <aside class="topic-side">
+      <div class="side-card">
+        <h4>Builds on</h4>
+        <ul class="lst">
+          <li><i class="mini-dot"></i><span>Halves and quarters<small>Needed first</small></span></li>
+          <li><i class="mini-dot working"></i><span>Fractions as parts of shapes<small>Needed first · still practising</small></span></li>
+        </ul>
+      </div>
+      <div class="side-card">
+        <h4>Opens up</h4>
+        <ul class="lst">
+          <li><i class="mini-dot later"></i><span>Fractions on a number line</span></li>
+          <li><i class="mini-dot later"></i><span>Equivalent fractions</span></li>
+          <li><i class="mini-dot later"></i><span>Fractions of amounts<small>Also needs times tables</small></span></li>
+        </ul>
+      </div>
+      <div class="side-card prov">
+        <h4>Where this comes from</h4>
+        <div class="prov-row"><span class="ic-yes" aria-hidden="true">✓</span><div><b>Based on published sources</b><span>Matches statements in the England national curriculum, Year 3 fractions. Ref <span class="src">uk-nc-2013</span></span></div></div>
+        <div class="prov-row"><span class="ic-part" aria-hidden="true">~</span><div><b>NZ alignment: draft</b><span>Roughly fits NZ Curriculum maths, Years 4–6. Mapping made from public documents, not checked by an expert.</span></div></div>
+        <div class="prov-row"><span class="ic-no" aria-hidden="true">✕</span><div><b>Not Ministry endorsed</b><span>This is not an official NZ Curriculum resource.</span></div></div>
+        <div class="prov-row"><span class="ic-no" aria-hidden="true">✕</span><div><b>Not yet teacher reviewed</b><span>Your child’s teacher knows their class best.</span></div></div>
+      </div>
+      <div class="side-actions">
+        <a class="btn btn-primary" href="#connect">Save to Aroha’s profile</a>
+        <a class="btn btn-ghost" href="#connect">Ask my AI about this step</a>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<!-- ================= ACCOUNT + AI ================= -->
+<section class="section" id="connect" aria-labelledby="connect-title">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Your account and your AI</p>
+      <h2 id="connect-title">Keep track. <em class="serif">Bring your own helper.</em></h2>
+      <p class="lede">A parent account remembers what each child can do. If you like, connect the AI assistant you already pay for or use, so it can read the map and help plan practice.</p>
+    </div>
+
+    <div class="connect-grid">
+      <div class="account">
+        <div class="account-top">
+          <h3>Your whānau</h3>
+          <p>Example account. Each child has their own path.</p>
+        </div>
+        <div class="kids">
+          <div class="kid">
+            <div class="avatar" aria-hidden="true">A</div>
+            <div><strong>Aroha</strong><small>8 · Year 4 · next: Fractions of a whole</small></div>
+            <div class="mini-prog"><div class="bar"><i style="width:62%"></i></div><small>62 steps ticked</small></div>
+          </div>
+          <div class="kid">
+            <div class="avatar b" aria-hidden="true">S</div>
+            <div><strong>Sam</strong><small>5 · Year 1 · next: Counting back from 10</small></div>
+            <div class="mini-prog"><div class="bar"><i style="width:18%"></i></div><small>14 steps ticked</small></div>
+          </div>
+        </div>
+        <button class="add-kid" type="button"><span aria-hidden="true">＋</span> Add a child</button>
+        <div class="privacy">
+          <h4>Privacy, plainly</h4>
+          <ul>
+            <li>First name and age only. No school, no photos.</li>
+            <li>Nothing is shared with schools or anyone else.</li>
+            <li>Your AI sees a child’s profile only if you switch it on.</li>
+            <li>Export or delete everything in one click.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="ai">
+        <div class="ai-top">
+          <h3>Connect your AI</h3>
+          <p>Pick the app you use. Learning Paths plugs in as a “connector” (the technical name is an MCP server), so your assistant can look up steps, check what comes first and suggest activities.</p>
+          <p class="what">Connector address (example): <b>https://mcp.learningpaths.nz</b></p>
+        </div>
+        <div class="tablist" role="tablist" aria-label="AI apps" id="ai-tabs">
+          <button role="tab" id="t-chatgpt" aria-controls="p-chatgpt" aria-selected="true">ChatGPT</button>
+          <button role="tab" id="t-claude" aria-controls="p-claude" aria-selected="false" tabindex="-1">Claude</button>
+          <button role="tab" id="t-codex" aria-controls="p-codex" aria-selected="false" tabindex="-1">Codex</button>
+          <button role="tab" id="t-cc" aria-controls="p-cc" aria-selected="false" tabindex="-1">Claude Code</button>
+          <button role="tab" id="t-wb" aria-controls="p-wb" aria-selected="false" tabindex="-1">WorkBuddy</button>
+        </div>
+
+        <div class="panel" role="tabpanel" id="p-chatgpt" aria-labelledby="t-chatgpt" tabindex="0">
+          <div class="who-for">Best for <i>Most parents</i> <i>Web and phone app</i></div>
+          <ol>
+            <li><span>Open ChatGPT on the web and go to <b>Settings → Apps &amp; Connectors</b>.</span></li>
+            <li><span>Choose <b>Create</b> (you may need to turn on advanced or developer options first).</span></li>
+            <li><span>Name it <b>Learning Paths NZ</b>, paste the address below, and sign in with your parent account when asked.</span></li>
+          </ol>
+          <div class="code"><span class="lab">Connector address</span><pre>https://mcp.learningpaths.nz</pre><button class="copy" type="button">Copy</button></div>
+          <div class="try"><span>Then try asking</span><q>Aroha is 8 and finds fractions tricky. Using Learning Paths, what should we practise first?</q></div>
+        </div>
+
+        <div class="panel" role="tabpanel" id="p-claude" aria-labelledby="t-claude" tabindex="0" hidden>
+          <div class="who-for">Best for <i>Most parents</i> <i>Web, desktop and phone</i></div>
+          <ol>
+            <li><span>In Claude, open <b>Settings → Connectors</b>.</span></li>
+            <li><span>Select <b>Add custom connector</b> and paste the address below.</span></li>
+            <li><span>Choose <b>Connect</b>, sign in to Learning Paths, then switch it on from the tools menu in any chat.</span></li>
+          </ol>
+          <div class="code"><span class="lab">Connector address</span><pre>https://mcp.learningpaths.nz</pre><button class="copy" type="button">Copy</button></div>
+          <div class="try"><span>Then try asking</span><q>Make a 10-minute kitchen game for Sam’s next maths step.</q></div>
+        </div>
+
+        <div class="panel" role="tabpanel" id="p-codex" aria-labelledby="t-codex" tabindex="0" hidden>
+          <div class="who-for">Best for <i>Confident with settings files</i></div>
+          <ol>
+            <li><span>Open your Codex settings file: <b>~/.codex/config.toml</b>.</span></li>
+            <li><span>Add the block below and save.</span></li>
+            <li><span>Restart Codex, then run <b>/mcp</b> to check Learning Paths is listed.</span></li>
+          </ol>
+          <div class="code"><span class="lab">config.toml</span><pre>[mcp_servers.learning_paths]
+url = "https://mcp.learningpaths.nz"</pre><button class="copy" type="button">Copy</button></div>
+          <div class="try"><span>Then try asking</span><q>Turn Aroha’s next three steps into a printable weekly plan.</q></div>
+        </div>
+
+        <div class="panel" role="tabpanel" id="p-cc" aria-labelledby="t-cc" tabindex="0" hidden>
+          <div class="who-for">Best for <i>Comfortable with a terminal</i></div>
+          <ol>
+            <li><span>Open a terminal and paste the command below.</span></li>
+            <li><span>Start Claude Code and type <b>/mcp</b>, then choose Learning Paths to sign in.</span></li>
+          </ol>
+          <div class="code"><span class="lab">Terminal</span><pre>claude mcp add --transport http learning-paths https://mcp.learningpaths.nz</pre><button class="copy" type="button">Copy</button></div>
+          <div class="try"><span>Then try asking</span><q>Build a simple quiz web page for “Fractions of a whole” using the evidence list.</q></div>
+        </div>
+
+        <div class="panel" role="tabpanel" id="p-wb" aria-labelledby="t-wb" tabindex="0" hidden>
+          <div class="who-for">Best for <i>WorkBuddy desktop users</i></div>
+          <ol>
+            <li><span>In WorkBuddy, open <b>Settings → MCP</b> and choose to add a server.</span></li>
+            <li><span>Paste the settings below (or just the address, if a simple form is shown).</span></li>
+            <li><span>Save and check the connector shows as active.</span></li>
+          </ol>
+          <div class="code"><span class="lab">MCP settings</span><pre>{
+  "mcpServers": {
+    "learning-paths": {
+      "url": "https://mcp.learningpaths.nz"
+    }
+  }
+}</pre><button class="copy" type="button">Copy</button></div>
+          <div class="try"><span>Then try asking</span><q>Which science steps would suit a rainy-day project for an 8-year-old?</q></div>
+        </div>
+
+        <p class="ai-note">Prototype: menu names and the address are placeholders. Apps change their settings often, so final steps will be checked against each app’s own help pages. <a href="#about">Your AI can still make mistakes.</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="rule">
+
+<!-- ================= ABOUT NZ ADAPTATION ================= -->
+<section class="section" id="about" aria-labelledby="about-title">
+  <div class="wrap honest">
+    <div>
+      <p class="eyebrow">About the NZ version</p>
+      <h2 id="about-title">Useful, open, and <em>honest about being a draft.</em></h2>
+      <p class="statement">The NZ adaptation is a draft built from published, openly licensed sources. It is not endorsed by the Ministry of Education and has not yet been reviewed by NZ teachers.</p>
+    </div>
+    <div>
+      <div class="facts">
+        <div class="fact">
+          <div class="k">Where it comes from</div>
+          <div><h4>Published curriculum documents</h4><p>Each step links back to the source statement it came from, such as the England national curriculum or international frameworks. Every source keeps its own licence, listed in full on our provenance page.</p></div>
+        </div>
+        <div class="fact">
+          <div class="k">What we have changed</div>
+          <div><h4>NZ English, Year levels, local examples</h4><p>Ages are shown with approximate NZ Year levels. Examples use everyday Aotearoa life. Links to the NZ Curriculum are suggestions made from public documents.</p>
+            <div class="status"><span class="tag orange">Draft mapping</span><span class="tag plain">Source-based</span></div></div>
+        </div>
+        <div class="fact">
+          <div class="k">What it is not</div>
+          <div><h4>Not official, not an assessment</h4><p>It is not a Ministry resource, a school report, or a test. Children learn at different paces, and a step being “later” is never a problem.</p>
+            <div class="status"><span class="tag plain">Not Ministry endorsed</span><span class="tag plain">Not teacher reviewed</span></div></div>
+        </div>
+        <div class="fact">
+          <div class="k">Who checks it</div>
+          <div><h4>Open to correction</h4><p>Anyone can flag a step that looks wrong. We want NZ teachers and kaiako to review the mapping, and every change is public.</p></div>
+        </div>
+      </div>
+      <div class="review-cta">
+        <p><b>Are you a teacher or kaiako?</b> Help review the NZ mapping for your learning area.</p>
+        <a class="btn btn-primary" href="#about">Offer to review</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a class="brand" href="#top"><span class="brand-name"><b>Learning Paths</b> <span>NZ</span></span></a>
+        <p style="margin-top:16px;max-width:30em">An open map of how school learning fits together, adapted for families in Aotearoa New Zealand.</p>
+      </div>
+      <div><h4>Explore</h4><ul><li><a href="#map">The map</a></li><li><a href="#subjects">Subjects</a></li><li><a href="#topic">Example step</a></li></ul></div>
+      <div><h4>Parents</h4><ul><li><a href="#connect">Parent account</a></li><li><a href="#connect">Use with your AI</a></li><li><a href="#connect">Privacy</a></li></ul></div>
+      <div><h4>Open data</h4><ul><li><a href="#about">Sources and licences</a></li><li><a href="#about">How the NZ version is made</a></li><li><a href="#about">Report a problem</a></li></ul></div>
+    </div>
+    <div class="foot-base">
+      <span>Draft NZ adaptation. Not endorsed by the Ministry of Education. Not teacher reviewed.</span>
+      <span>Design prototype · October 2026</span>
+    </div>
+  </div>
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+(function(){
+  /* ---------- Header ---------- */
+  var header=document.querySelector('header.site');
+  addEventListener('scroll',function(){header.classList.toggle('scrolled',scrollY>8)},{passive:true});
+  var menuBtn=document.querySelector('.menu-btn'),links=document.getElementById('nav-links');
+  menuBtn.addEventListener('click',function(){
+    var open=menuBtn.getAttribute('aria-expanded')!=='true';
+    menuBtn.setAttribute('aria-expanded',open);menuBtn.setAttribute('aria-label',open?'Close menu':'Open menu');
+    links.classList.toggle('open',open);
+  });
+  links.addEventListener('click',function(e){if(e.target.tagName==='A'){links.classList.remove('open');menuBtn.setAttribute('aria-expanded','false')}});
+
+  var toastEl=document.getElementById('toast'),tt;
+  function toast(m){toastEl.textContent=m;toastEl.classList.add('show');clearTimeout(tt);tt=setTimeout(function(){toastEl.classList.remove('show')},2200)}
+
+  /* ---------- Hero ---------- */
+  var q=document.getElementById('q');
+  document.querySelectorAll('.chip').forEach(function(c){
+    c.addEventListener('click',function(){
+      document.querySelectorAll('.chip').forEach(function(x){x.setAttribute('aria-pressed','false')});
+      c.setAttribute('aria-pressed','true');q.value=c.dataset.q;q.focus();
+    });
+  });
+  window.goTopic=function(){
+    toast(q.value?'Showing the path for “'+q.value+'” (prototype)':'Showing an example path');
+    document.getElementById('map').scrollIntoView();
+  };
+
+  /* ---------- Graph ---------- */
+  var COLX=[20,185,350,515,680,845],W=140,H=56;
+  var AGES=['Age 5','Age 6','Age 7','Age 8','Age 9','Age 10'];
+  var N={
+    count:{c:0,y:70,s:'secure',l:['Counting','to 20'],name:'Counting to 20',d:'Saying, reading and counting objects up to 20 without skipping or double-counting.'},
+    share:{c:0,y:250,s:'secure',l:['Sharing','fairly'],name:'Sharing fairly',d:'Sharing a set of things so everyone gets the same, and noticing when it is not fair.'},
+    halves:{c:1,y:160,s:'secure',l:['Halves and','quarters'],name:'Halves and quarters',d:'Finding a half or a quarter of a shape or a small group by cutting or sharing equally.'},
+    groups:{c:1,y:320,s:'secure',l:['Equal','groups'],name:'Equal groups',d:'Seeing “3 groups of 4” and counting them in steps. The start of multiplication.'},
+    numline:{c:2,y:50,s:'working',l:['Number line','to 100'],name:'Number line to 100',d:'Placing numbers on a line and knowing that the gaps between them are equal.'},
+    shapes:{c:2,y:170,s:'working',l:['Fractions as','parts of shapes'],name:'Fractions as parts of shapes',d:'Naming the fraction of a shape that is shaded when it is cut into equal parts.'},
+    tables:{c:2,y:320,s:'working',l:['Times tables','2, 5 and 10'],name:'Times tables 2, 5 and 10',d:'Quick recall of the 2, 5 and 10 times tables, and using them to solve problems.'},
+    whole:{c:3,y:170,s:'next',l:['Fractions of','a whole'],name:'Fractions of a whole',d:'Knowing that a fraction is a number of equal parts. 3/4 means three pieces, each one quarter.'},
+    fline:{c:4,y:60,s:'later',l:['Fractions on','a number line'],name:'Fractions on a number line',d:'Seeing fractions as numbers with their own place between 0 and 1 on a number line.'},
+    equiv:{c:4,y:190,s:'later',l:['Equivalent','fractions'],name:'Equivalent fractions',d:'Knowing that 1/2, 2/4 and 3/6 are the same amount, and showing why with pictures.'},
+    amounts:{c:4,y:320,s:'later',l:['Fractions of','amounts'],name:'Fractions of amounts',d:'Working out a fraction of a number, like a quarter of 12 lollies.'},
+    tenths:{c:5,y:110,s:'later',l:['Tenths and','decimals'],name:'Tenths and decimals',d:'Connecting tenths to decimals: 3/10 is the same as 0.3.'},
+    compare:{c:5,y:270,s:'later',l:['Comparing','fractions'],name:'Comparing fractions',d:'Deciding which of two fractions is bigger, and explaining how you know.'}
+  };
+  var E=[['count','numline','h','Counting in order comes before placing numbers on a line'],['count','groups','h','Counting objects comes before counting groups'],['share','halves','h','Fair sharing is the idea behind halves'],['share','groups','s','Sharing helps with making equal groups'],['halves','shapes','h','Halves and quarters come before other fractions of shapes'],['groups','tables','h','Equal groups are what times tables count'],['shapes','whole','h','Needs to name parts of shapes before thinking of any whole'],['halves','whole','s','Familiar fractions make the general idea easier'],['numline','fline','h','Needs equal spacing on a number line first'],['whole','fline','h','Must see fractions as parts of one whole first'],['whole','equiv','h','Comparing parts needs a clear idea of a part'],['whole','amounts','h','A fraction of a number builds on a fraction of a thing'],['tables','amounts','h','Finding a quarter of 12 uses times tables'],['fline','tenths','h','Decimals sit on the same number line'],['equiv','compare','h','Comparing often means making fractions equivalent'],['fline','compare','s','A number line shows which fraction is bigger']];
+  var STATUS={secure:'Got it',working:'Practising',next:'Ready next',later:'Later on'};
+  var SVGNS='http://www.w3.org/2000/svg';
+  function el(t,a,p){var e=document.createElementNS(SVGNS,t);for(var k in a)e.setAttribute(k,a[k]);if(p)p.appendChild(e);return e}
+  var gc=document.getElementById('cols'),ge=document.getElementById('edges'),gn=document.getElementById('nodes'),svg=document.getElementById('graph');
+  COLX.forEach(function(x,i){
+    el('rect',{x:x-8,y:0,width:W+16,height:420,rx:12,class:'age-col'},gc);
+    el('text',{x:x,y:28,class:'age-label'},gc).textContent=AGES[i];
+  });
+  var edgeEls=[];
+  E.forEach(function(e){
+    var a=N[e[0]],b=N[e[1]],x1=COLX[a.c]+W,y1=a.y+H/2,x2=COLX[b.c],y2=b.y+H/2,mx=(x1+x2)/2;
+    var p=el('path',{d:'M'+x1+' '+y1+' C'+mx+' '+y1+' '+mx+' '+y2+' '+x2+' '+y2,class:'edge'+(e[2]==='s'?' soft':'')},ge);
+    edgeEls.push({from:e[0],to:e[1],el:p});
+  });
+  Object.keys(N).forEach(function(id){
+    var n=N[id],x=COLX[n.c];
+    var g=el('g',{class:'node '+n.s,tabindex:0,role:'button','aria-label':n.name+', '+AGES[n.c]+', '+STATUS[n.s],'data-id':id},gn);
+    el('rect',{x:x-5,y:n.y-5,width:W+10,height:H+10,rx:16,class:'ring'},g);
+    el('rect',{x:x,y:n.y,width:W,height:H,rx:12},g);
+    el('text',{x:x+12,y:n.y+16,class:'st'},g).textContent=STATUS[n.s];
+    var t=el('text',{x:x+12,y:n.y+32},g);
+    n.l.forEach(function(line,i){var s=el('tspan',{x:x+12,dy:i?15:0},t);s.textContent=line});
+    g.addEventListener('click',function(){select(id)});
+    g.addEventListener('keydown',function(ev){if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();select(id)}});
+    n.g=g;
+  });
+  function walk(id,dir,acc){edgeEls.forEach(function(e){var src=dir<0?e.to:e.from,dst=dir<0?e.from:e.to;if(src===id&&!acc[dst]){acc[dst]=1;walk(dst,dir,acc)}});return acc}
+  var meta=document.getElementById('ins-meta'),title=document.getElementById('ins-title'),desc=document.getElementById('ins-desc'),pre=document.getElementById('ins-pre'),post=document.getElementById('ins-post');
+  function item(id,why){
+    var li=document.createElement('li'),b=document.createElement('button');
+    b.type='button';b.innerHTML='<i class="mini-dot '+N[id].s+'"></i>'+N[id].name;
+    b.addEventListener('click',function(){select(id)});li.appendChild(b);
+    if(why){var w=document.createElement('span');w.className='why';w.textContent=why;li.appendChild(w)}
+    return li;
+  }
+  function select(id){
+    var up=walk(id,-1,{}),down=walk(id,1,{});
+    svg.classList.add('dim');
+    Object.keys(N).forEach(function(k){N[k].g.classList.toggle('on',k===id||up[k]||down[k]);N[k].g.classList.toggle('selected',k===id)});
+    edgeEls.forEach(function(e){
+      e.el.classList.toggle('hl',!!((up[e.from]||false)&&(up[e.to]||e.to===id)));
+      e.el.classList.toggle('hl-next',!!((e.from===id||down[e.from])&&down[e.to]));
+    });
+    var n=N[id];
+    meta.innerHTML='<span class="tag'+(n.s==='next'?' orange':n.s==='later'?' plain':'')+'">'+STATUS[n.s]+'</span><span class="tag plain">'+AGES[n.c]+'</span>';
+    title.textContent=n.name;desc.textContent=n.d;
+    pre.innerHTML='';post.innerHTML='';
+    edgeEls.forEach(function(e){
+      var why=E.filter(function(x){return x[0]===e.from&&x[1]===e.to})[0];
+      if(e.to===id)pre.appendChild(item(e.from,why[2]==='s'?'Helps, not essential':why[3]));
+      if(e.from===id)post.appendChild(item(e.to));
+    });
+    if(!pre.children.length)pre.innerHTML='<li class="muted" style="font-size:14px">A starting point on this map.</li>';
+    if(!post.children.length)post.innerHTML='<li class="muted" style="font-size:14px">Leads on to topics beyond this map.</li>';
+  }
+  /* list view */
+  var ol=document.querySelector('#graph-list ol');
+  Object.keys(N).sort(function(a,b){return N[a].c-N[b].c}).forEach(function(id){
+    var li=document.createElement('li'),b=document.createElement('button');b.type='button';
+    b.innerHTML='<span style="display:flex;gap:10px;align-items:center"><i class="mini-dot '+N[id].s+'"></i>'+N[id].name+'</span><span class="age">'+AGES[N[id].c]+' · '+STATUS[N[id].s]+'</span>';
+    b.addEventListener('click',function(){select(id)});li.appendChild(b);ol.appendChild(li);
+  });
+  var gm=document.getElementById('graph-main');
+  document.querySelectorAll('.seg button').forEach(function(b){
+    b.addEventListener('click',function(){
+      document.querySelectorAll('.seg button').forEach(function(x){x.setAttribute('aria-pressed',x===b)});
+      gm.classList.toggle('list-mode',b.dataset.view==='list');
+    });
+  });
+  select('whole');
+
+  /* ---------- Subject explorer ---------- */
+  var SUBJ=[
+    {k:'Mathematics',n:503,blurb:'Number, measuring, shapes, patterns and data. The most connected subject: most steps rely on two or three earlier ones.',domains:[
+      {t:'Fractions',a:[6,11],items:[['Halves and quarters',6],['Fractions of a whole',8],['Fractions on a number line',8],['Equivalent fractions',9],['Adding fractions with the same bottom number',10]]},
+      {t:'Multiplication',a:[6,11],items:[['Equal groups',6],['Times tables 2, 5 and 10',7],['Times tables 3, 4 and 8',8],['All tables to 12 × 12',9],['Long multiplication',11]]},
+      {t:'Measurement',a:[5,11],items:[['Comparing lengths',5],['Telling the time to the hour',6],['Telling the time to 5 minutes',7],['Measuring in centimetres',8],['Perimeter',9]]},
+      {t:'Place value',a:[5,10],items:[['Counting to 20',5],['Tens and ones',6],['Numbers to 1000',8],['Rounding to the nearest 10',8],['Numbers to a million',10]]}]},
+    {k:'Science',n:547,blurb:'Living things, materials, forces, Earth and space. Lots of hands-on steps that suit the backyard and the beach.',domains:[
+      {t:'Weather and water',a:[5,11],items:[['Kinds of weather',5],['Where puddles go',6],['Evaporation',8],['The water cycle',9],['Why it rains',9]]},
+      {t:'Living things',a:[5,12],items:[['Plants need water and light',5],['Life cycles',7],['Food chains',8],['Native birds and habitats',9],['Classifying living things',10]]},
+      {t:'Forces',a:[7,12],items:[['Pushes and pulls',7],['Magnets',8],['Friction',9],['Gravity',10]]},
+      {t:'Sound and light',a:[6,11],items:[['Sounds and how we hear them',6],['Vibrations make sound',8],['Shadows',8],['How we see',10]]}]},
+    {k:'English',n:286,blurb:'Reading, writing, speaking and listening, from first sounds to longer stories and persuasive writing.',domains:[
+      {t:'Reading',a:[5,11],items:[['Letter sounds',5],['Blending sounds into words',5],['Reading longer words',7],['Reading with expression',8],['Finding the main idea',9]]},
+      {t:'Writing',a:[5,12],items:[['Writing a sentence',5],['Capital letters and full stops',6],['Paragraphs',8],['Persuasive writing',10]]},
+      {t:'Handwriting',a:[5,9],items:[['Holding a pencil',5],['Letter formation',5],['Capital letters',6],['Joined writing',8]]}]},
+    {k:'History',n:90,blurb:'Past and present, change over time and how we know about the past. NZ local history links are a draft.',domains:[
+      {t:'Time and change',a:[5,10],items:[['Then and now',5],['Family timelines',7],['Using old photos as evidence',8],['Cause and effect',10]]}]},
+    {k:'Personal & Social Development',n:88,blurb:'Feelings, friendships, kindness and working with others.',domains:[
+      {t:'Feelings and friendships',a:[5,11],items:[['Naming feelings',5],['Taking turns',5],['Fixing a falling-out',7],['Standing up for others',9]]}]},
+    {k:'Life Skills',n:37,blurb:'Money, keeping safe, cooking and everyday independence.',domains:[
+      {t:'Money',a:[6,12],items:[['Recognising coins',6],['Giving change',8],['Saving for something',9],['Making a budget',11]]}]},
+    {k:'Computing',n:21,blurb:'How computers and AI fit into everyday life, and giving clear instructions.',domains:[
+      {t:'Artificial intelligence',a:[5,10],items:[['Computers in everyday life',5],['AI in daily life',5],['Real-world robots',5],['How AI learns from examples',9]]}]},
+    {k:'Learning to Learn',n:18,blurb:'Habits that help with every subject: focus, asking questions, and trying again.',domains:[
+      {t:'Learning habits',a:[5,12],items:[['Asking a good question',5],['Sticking with something hard',7],['Checking your own work',9]]}]}
+  ];
+  var tabs=document.getElementById('subject-tabs'),intro=document.getElementById('subject-intro'),grid=document.getElementById('domain-grid');
+  var range=document.getElementById('age-range'),out=document.getElementById('age-out'),cur=0;
+  SUBJ.forEach(function(s,i){
+    var b=document.createElement('button');b.type='button';b.setAttribute('role','tab');b.setAttribute('aria-selected',i===0);
+    b.innerHTML=s.k+' <span class="c">'+s.n+'</span>';
+    b.addEventListener('click',function(){cur=i;tabs.querySelectorAll('button').forEach(function(x,j){x.setAttribute('aria-selected',j===i)});render()});
+    tabs.appendChild(b);
+  });
+  function yr(a){return a-4}
+  function render(){
+    var s=SUBJ[cur],age=+range.value,total=1590;
+    out.textContent=age+' · Year '+yr(age);
+    intro.innerHTML='<h3>'+s.k+'</h3><p>'+s.blurb+'</p><dl><dt>Steps in this subject</dt><dd>'+s.n+'</dd><dt>Share of the whole map</dt><dd>'+Math.round(s.n/total*100)+'%</dd></dl><div class="bar" aria-hidden="true"><i style="width:'+(s.n/547*100)+'%"></i></div>';
+    grid.innerHTML='';
+    s.domains.forEach(function(d){
+      var items=d.items.filter(function(it){return Math.abs(it[1]-age)<=2});
+      if(!items.length)return;
+      var c=document.createElement('article');c.className='domain';
+      var left=(d.a[0]-5)/9*100,width=(d.a[1]-d.a[0])/9*100;
+      c.innerHTML='<div class="row"><h4>'+d.t+'</h4><span class="n">Ages '+d.a[0]+'–'+d.a[1]+'</span></div><div class="ages" aria-hidden="true"><i style="left:'+left+'%;width:'+width+'%"></i></div><ul>'+items.map(function(it){return '<li><a href="#topic">'+it[0]+'<span>Age '+it[1]+'</span></a></li>'}).join('')+'</ul>';
+      grid.appendChild(c);
+    });
+    if(!grid.children.length)grid.innerHTML='<p class="empty">No sample steps near age '+age+' in this prototype. Try another age.</p>';
+  }
+  range.addEventListener('input',render);render();
+
+  /* ---------- Evidence ---------- */
+  var ev=document.querySelectorAll('#evidence input'),note=document.getElementById('progress-note');
+  ev.forEach(function(i){i.addEventListener('change',function(){
+    var n=[].filter.call(ev,function(x){return x.checked}).length;
+    note.innerHTML=n===ev.length?'<b>All 3 seen.</b> Nice. Mark this step as “Got it” and the next ones will light up.':'<b>'+n+' of 3</b> seen so far. In a parent account, this is saved to your child’s profile.';
+  })});
+
+  /* ---------- AI tabs (ARIA tabs pattern) ---------- */
+  var aiTabs=[].slice.call(document.querySelectorAll('#ai-tabs [role=tab]'));
+  function activate(t,focus){
+    aiTabs.forEach(function(x){var on=x===t;x.setAttribute('aria-selected',on);x.tabIndex=on?0:-1;document.getElementById(x.getAttribute('aria-controls')).hidden=!on});
+    if(focus)t.focus();
+  }
+  aiTabs.forEach(function(t,i){
+    t.addEventListener('click',function(){activate(t)});
+    t.addEventListener('keydown',function(e){
+      var j=e.key==='ArrowRight'?i+1:e.key==='ArrowLeft'?i-1:e.key==='Home'?0:e.key==='End'?aiTabs.length-1:null;
+      if(j===null)return;e.preventDefault();activate(aiTabs[(j+aiTabs.length)%aiTabs.length],true);
+    });
+  });
+  document.querySelectorAll('.copy').forEach(function(b){
+    b.addEventListener('click',function(){
+      var text=b.parentNode.querySelector('pre').textContent;
+      (navigator.clipboard?navigator.clipboard.writeText(text):Promise.reject()).catch(function(){}).then(function(){
+        b.textContent='Copied';b.classList.add('ok');setTimeout(function(){b.textContent='Copy';b.classList.remove('ok')},1600);
+      });
+    });
+  });
+  document.querySelector('.add-kid').addEventListener('click',function(){toast('Add a child: first name and age only (prototype)')});
+})();
+</script>
+</body>
+</html>
