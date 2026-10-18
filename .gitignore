@@ -8,3 +8,8 @@ dist/
 .dev.vars
 artifacts/
 AGENTS.md
+
+# Local video deliverables
+/local/
+# Generated bilingual video assets are deployed from local exports, never committed.
+/web/public/videos/cross-subject-*

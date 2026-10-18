@@ -1,5 +1,11 @@
 /** Parent-facing copy only. Curriculum topics, teaching examples and AI prompts stay in English. */
 const zhStatic: Record<string, string> = {
+  "A cross-subject example": "跨学科案例",
+  "Connect maths.": "把数学联系起来，",
+  "Make science click.": "让科学更好懂。",
+  "Follow one bike ride from rates in maths to a distance–time graph in science, then try the same thinking with supermarket unit prices.": "跟着一段骑行，把数学中的比率与科学中的路程时间图联系起来，再用同样的思路比较超市单价。",
+  "Connecting maths and science with the learning map": "用知识星图连接数学与科学",
+  "Real graph connections, with simulated learning conversations, journeys and prices. Narration and subtitles follow your selected language.": "采用真实图谱关联；学习对话、骑行和价格为模拟示例。解说与字幕随所选语言切换。",
   "Watch it in action": "看看实际怎么用",
   "Follow the links.": "沿着知识关联，",
   "Find the missing step.": "找到学习缺口。",

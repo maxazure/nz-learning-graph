@@ -59,6 +59,12 @@ npm run deploy
 
 Cloudflare Pages project: `nz-learning-graph`. Custom domain: `edu.w1.nz`. No D1 provisioning or authentication secrets are needed.
 
+### Bilingual videos
+
+The homepage keeps the prerequisite walkthrough and a separate cross-subject cycling example. Both players switch their video, poster and duration with the website language. They use native controls and do not autoplay.
+
+Cross-subject media is intentionally excluded from Git. The local production exports are in `local/cross-subject-video/exports/`; copy `cross-subject-{zh,en}.{mp4,jpg}` into `web/public/videos/` before building or deploying. On another checkout, recover those four published assets from `https://edu.w1.nz/videos/` first. Check that each response is a real video/image, not the HTML fallback. A fresh deployment without these assets would remove the published videos. Each MP4 must remain below the Pages 25 MiB asset limit.
+
 ## Open data and licences
 
 Forked from [Marble Skill Taxonomy](https://github.com/withmarbleapp/os-taxonomy). The original 1,590 topics and 3,221 dependencies are preserved as source archives; 16 NZ activities add 32 connections, forming the original 1,606-topic baseline. The 2026-10-18 maths supplement adds 264 topics and enriches 152 existing topics. Subsequent [maths curation](docs/maths-curation.md) consolidates 11 duplicate records, clarifies misleading headings and revises 42 prerequisite pairs. The active website and MCP use 1,859 topics and 3,981 distinct edges, with 458 diagnostics and all 1,287 scoped mappings.
