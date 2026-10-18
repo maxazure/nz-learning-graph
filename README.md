@@ -1,86 +1,66 @@
 # Learning Paths NZ
 
-An open, parent-guided learning map for Aotearoa New Zealand. Explore ideas and prerequisites, try a short activity, then connect your own AI assistant through MCP.
+A public learning graph for AI tools supporting New Zealand families.
 
-**Website:** https://edu.w1.nz
+**Website:** https://edu.w1.nz · **Public MCP:** https://edu.w1.nz/mcp
 
-Parent guides and account/connection instructions are available in English and 简体中文 using the top-right language selector. Learning content, examples, AI prompts and configuration commands remain in English.
+The site provides English and Chinese setup prompts for ChatGPT Work desktop, Claude Code, WorkBuddy, Codex and Claude. Parents copy a prompt into their AI tool; the prompt helps configure the connection and verifies it with a real topic search. Some clients need a restart or a one-time connector setting. No website account, login, token or API key is required.
 
-Forked from [Marble Skill Taxonomy](https://github.com/withmarbleapp/os-taxonomy). The original 1,590 topics and 3,221 dependencies are preserved. A separate NZ layer adds 16 activities and 32 prerequisite links. This is an independent **open beta**, not a complete NZ curriculum mapping, Ministry-endorsed product or teacher-reviewed assessment.
+Teaching topics, examples and graph data remain English. Parent-facing guides and setup prompts follow the selected website language.
 
-## For parents
+## Use
 
-1. Browse the map without an account. Search by topic or subject; the year filter applies only to the NZ additions.
-2. Read the observable evidence and try one question. Mark understood topics locally to shorten the suggested foundation-first pathway. Marks stay in your browser and can be cleared.
-3. Create a parent username and password to connect an AI tool. Save your credentials: no email address is collected and email recovery is not provided.
-4. Follow the in-site guide for ChatGPT, Claude, Codex, Claude Code or WorkBuddy. OAuth clients use sign-in; header-based clients use a personal connection key. WorkBuddy uses the documented stdio configuration with a pinned `mcp-remote` bridge.
-5. Ask your AI to look up a topic, check the prerequisites and suggest a ten-minute activity. Review its answers together. Do not send child-identifying information.
+1. Open the website and choose your AI tool.
+2. Copy its setup prompt into a new conversation. Allow any configuration action requested by your own AI app, and restart if needed.
+3. Ask about a topic. The AI can search, check prerequisites and plan a short activity.
 
-The service supplies educational context; parents use their own AI subscriptions. Client availability and workspace permissions depend on the provider. Actual client account tests and protocol tests are distinguished in [verification](docs/verification.md).
+The website also lets you browse the graph. Year filters apply to the 16 NZ additions; original topics retain their original age ranges. Topic marks stay in the browser.
 
-## Run locally
+ChatGPT Work desktop shares MCP configuration with Codex. Web Work uses plugins. Claude web/desktop requires adding the connector once; a chat prompt cannot silently change those account settings. Sources and actual verification coverage are in [verification](docs/verification.md).
+
+## Development
 
 Node.js 22+ and npm:
 
 ```sh
 npm ci
-npx wrangler d1 migrations apply nz-learning-graph --local
 npm run dev
 ```
 
-`npm run dev` builds the browser app and Pages advanced-mode Worker, then runs Pages locally. The persistent database is local by default.
+The app uses Vite and a Cloudflare Pages advanced-mode Worker. No database is required.
 
 ```sh
 npm run validate
 npm run typecheck
 npm test
 TEST_BASE_URL=http://localhost:8788 npx tsx --test tests/backend.test.ts
+TEST_BASE_URL=http://localhost:8788 node scripts/smoke-mcp.mjs
 ```
 
-The HTTP integration test requires a running development service. The opt-in storage test is local-only; see its source before running. It inspects deletion cascades and expired-row cleanup. Upstream validation verifies the original manifest and checksums; graph tests additionally validate the NZ graph.
+Use the actual local port printed by Wrangler. Backend tests run in-process by default; TEST_BASE_URL runs them against a deployed service. The SDK smoke verifies all five tools without credentials.
 
 ## Architecture
 
-- Vite + TypeScript, no frontend framework; visual design commissioned from **Claude Code Opus 5.5** in `design/prototype.html`.
-- `lib/graph.ts`: search, direct prerequisites, hard-prerequisite ordering and reachable next topics.
-- `data/nz-overlay.json`: source-linked NZ additions, suggested years, activities and explicit review flags.
-- `server/`: Cloudflare Pages advanced-mode Worker, D1 accounts, OAuth PKCE and official MCP SDK Streamable HTTP transport.
-- `migrations/`: D1 schema. Browser sessions, bearer credentials and authorization codes are hashed; passwords use salted PBKDF2. OAuth codes are short-lived and single-use. Requests are bounded and rate-limited.
-- `web/`: responsive parent guide, knowledge map, accounts, connection instructions and privacy notice.
+- `web/`: bilingual parent guide, copyable setup prompts and optional graph explorer. Visual design originated with Claude Code Opus 5.5 in `design/prototype.html`.
+- `lib/graph.ts`: search, prerequisite traversal, learning paths and reachable next topics.
+- `data/nz-overlay.json`: source-linked NZ activities, suggested years and provenance metadata.
+- `server/`: public read-only MCP using the official SDK's stateless Streamable HTTP transport. Cross-origin requests and preflight are supported. Request sizes and tool inputs are bounded.
+- No account, OAuth, session, token or database code is used by the application. The previous D1 database is detached and left unchanged.
 
-The account stores no child profiles. Topic marks stay in localStorage. MCP inputs are processed per request, not persisted. Technical hosting logs may contain request metadata; do not send private information. Personal keys expire in 90 days; OAuth access in 24 hours, followed by reauthorization. Revoke all connections or delete the account from the website.
-
-## MCP
-
-Endpoint: `https://edu.w1.nz/mcp`.
-
-Five read-only tools:
-
-- `search_topics`
-- `get_topic`
-- `get_prerequisites`
-- `create_learning_path`
-- `suggest_next_topics`
-
-Results carry provenance, attribution and educational limitations. OAuth discovery, dynamic public-client registration, S256 PKCE and exact redirect matching are supported. Select **Register automatically** where a client offers that option. MCP credentials cannot change accounts or store children’s records.
+The five MCP tools are `search_topics`, `get_topic`, `get_prerequisites`, `create_learning_path` and `suggest_next_topics`. Responses include source links and licence attribution. Inputs are processed per request, not stored. Hosting providers may process technical request logs; the parent's AI service handles conversations under its own terms.
 
 ## Deploy
 
-A Cloudflare account with Pages and D1 write access is needed. Set your own database ID in `wrangler.jsonc` for another deployment.
-
 ```sh
-npx wrangler d1 migrations apply nz-learning-graph --remote
 npm run deploy
 ```
 
-The daily expired-record cleanup runs once on an authentication request, with a D1 lock, so Pages does not need a cron. Local and production D1 data are separate. Do not commit `.dev.vars`, credentials or runtime state.
+Cloudflare Pages project: `nz-learning-graph`. Custom domain: `edu.w1.nz`. No D1 provisioning or authentication secrets are needed.
 
-## Data provenance and licences
+## Open data and licences
 
-Marble Skill Taxonomy (v1) · © Generative Spark, Inc. (Marble) · https://withmarble.com · database under [ODbL 1.0](LICENSE), Marble-authored content under [CC BY-SA 4.0](LICENSE-CONTENT).
+Forked from [Marble Skill Taxonomy](https://github.com/withmarbleapp/os-taxonomy). The original 1,590 topics and 3,221 dependencies are preserved; 16 NZ activities add 32 connections, giving 1,606 topics and 3,253 edges.
 
-The NZ derivative database is ODbL 1.0 and adapted/new educational text is CC BY-SA 4.0. Original framework material retains its upstream terms in [PROVENANCE.md](PROVENANCE.md). No third-party curriculum text has been newly copied into the NZ layer; the layer contains editorial summaries and source links. [NZ sources and scope](docs/nz-curriculum.md) distinguishes official source status from our unreviewed mapping status.
+Marble Skill Taxonomy (v1) · © Generative Spark, Inc. (Marble) · https://withmarble.com. Database and derivative under [ODbL 1.0](LICENSE); Marble-authored and adapted content under [CC BY-SA 4.0](LICENSE-CONTENT). Third-party material retains its upstream terms in [PROVENANCE.md](PROVENANCE.md). App code is [MIT](LICENSE-CODE).
 
-Download open data from the repository or `/open-data/topics.json`, `/open-data/dependencies.json`, `/open-data/nz-overlay.json` on the website. Application source in `web/`, `server/`, `lib/`, `scripts/build-pages.mjs` and tests is MIT-licensed; see [LICENSE-CODE](LICENSE-CODE). Original upstream files retain their original licences.
-
-Teachers and caregivers can [report a problem or propose a review](https://github.com/maxazure/nz-learning-graph/issues). Never post child-identifying information in public issues.
+Downloads: `/open-data/topics.json`, `/open-data/dependencies.json`, `/open-data/nz-overlay.json`. Sources are documented in [NZ curriculum context](docs/nz-curriculum.md). [Suggest a correction](https://github.com/maxazure/nz-learning-graph/issues).

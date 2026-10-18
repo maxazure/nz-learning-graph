@@ -1,42 +1,30 @@
 # Verification — 18 October 2026
 
-Public site: https://edu.w1.nz
+Website: https://edu.w1.nz · Public MCP: https://edu.w1.nz/mcp
 
-## Passed
+## Public MCP release
 
-- Original upstream validation: 1,590 topics, 3,221 dependencies, 3,261 standards and 183 clusters; original checksums intact.
-- Combined graph: 1,606 topics, 3,253 edges; no missing IDs or cycles. NZ records retain source links and explicit editorial-draft status. Hard-prerequisite ordering, known-topic skipping and reachable frontier tested.
-- Separate frontend and Worker TypeScript checks; production Vite and Worker bundles.
-- Local and production HTTP integration: registration/login/logout, HttpOnly cookies, CSRF rejection, two-account isolation, exact OAuth redirects, consent and denial, S256 PKCE, invalid verifier rejection, one-use authorization codes, token rotation/revocation, rate limits and deletion.
-- Local D1 checks: deleting an account cascades to its sessions/tokens; expired records are cleaned up.
-- Official MCP TypeScript SDK against production: initializes, lists all five tools, calls every tool and receives sources, attribution and teaching guidance.
-- Real Claude Code using Opus 5.5 and an isolated HTTP MCP configuration: called `mcp__nz-learning__search_topics` and returned `nz_coins_change: NZ coins and change`. The personal token was subsequently revoked and its temporary account deleted.
-- Pinned `mcp-remote@0.15.1` stdio bridge against production: discovered all five tools and executed search. This tests the bridge configuration supplied for WorkBuddy.
-- Ego Lite desktop browser: search, NZ-only filtering, no-results state, topic selection, local understood-topic marks and clearing; parent registration, key creation, revocation, logout/login, deletion; connection tabs.
+The app now uses anonymous, read-only MCP. Accounts, personal keys, OAuth and runtime database bindings have been removed. The earlier authenticated implementation is retained only in Git history; the old D1 database has not been deleted or altered.
 
-- Mobile browser at 390 × 844: readable layout, responsive navigation and no document-level horizontal overflow.
+Passed before deployment:
 
-## Custom domain and parent languages
+- Original upstream data checksums and reference validation: 1,590 topics, 3,221 dependencies, 3,261 standards, 183 clusters.
+- TypeScript checks for browser and Worker, production build, eight graph and public-protocol tests.
+- Local Pages runtime: anonymous initialize, discovery, every tool, cross-origin POST/preflight, request/input size limits, and retired auth/OAuth routes returning 404 without an authentication challenge.
+- Official MCP SDK calls all five tools without credentials against the local Pages runtime.
+- Ego Lite: all five client tabs, Chinese and English setup prompts, endpoint and search verification in each prompt, real Copy button success, no account fields or draft/Ministry notices, mobile at 390 × 844 without document overflow.
+- The `telling the time` search remains covered by backend tests and yields matching original topics.
 
-- Primary website: https://edu.w1.nz; MCP endpoint: https://edu.w1.nz/mcp.
-- English / 简体中文 selector is visible in the top-right navigation, including mobile. The choice is saved in this browser.
-- Marketing, parent account controls and connection instructions are translated. Learning topics, teaching examples, graph details, AI prompts and configuration code remain English.
-- Browser checks cover switching, reload persistence, dynamically rendered connection guides, English restoration, unchanged teaching content/configuration, and mobile overflow.
+## Client instructions and limits
 
-## Scope and limitations
+Setup instructions checked against official documentation:
 
-- ChatGPT and Claude consumer-account OAuth setup screens were not exercised. OAuth was tested at protocol level. Their plans, workspace controls and UI availability vary.
-- The WorkBuddy application itself was not run; its documented stdio configuration and the actual bridge were tested separately.
-- Codex's own OAuth browser login was not exercised. The service advertises dynamic registration and supports S256 PKCE. Select automatic registration in clients that offer multiple identities.
-- NZ additions are editorial drafts, not reviewed by a NZ teacher. The original international topics have not been comprehensively remapped to the NZ curriculum.
-- Parent accounts deliberately have no email recovery. No child profiles or server-side learning histories are provided. Local topic marks are per browser, not per child/account.
-- OAuth access lasts 24 hours and requires reconnecting; no refresh tokens are issued. Personal keys last 90 days and can be revoked immediately.
+- [ChatGPT Work MCP](https://learn.chatgpt.com/docs/extend/mcp): desktop uses local Codex-compatible configuration; web Work uses plugins. Desktop settings do not install a web plugin.
+- [Claude Code MCP](https://code.claude.com/docs/en/mcp): HTTP server installation with user scope.
+- [Codex MCP](https://developers.openai.com/codex/mcp): public remote URL, no login command required.
+- [WorkBuddy MCP](https://www.workbuddy.ai/docs/zh/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/MCP-Guide): local mcp.json config. The supplied setup prompt uses pinned mcp-remote@0.15.1 as a stdio-to-HTTP bridge.
+- [Claude custom connectors](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp): add a connector once with No sign in and enable it for the conversation.
 
-All temporary test accounts and credentials are removed after verification. No test password or token is committed.
+Prompts preserve other MCP settings, request a real search to confirm success and explain when a restart is needed. A prompt cannot grant filesystem or app permissions its host does not already have. Consumer-account app installation flows have not all been exercised; protocol verification does not establish that every provider's UI or subscription enables the feature.
 
-## Search follow-up — 18 October 2026
-
-- Exact reported query `telling the time` returns six original topics with no filters. Applying Year 4 excludes all six because original topics have no NZ year mapping; this reproduces one empty-results path, but the user's exact filter state was not captured.
-- New searches from the homepage clear previous subject/year/NZ-only filters. Searches inside the map retain the explicitly selected filters.
-- Active filters now have a visible Clear filters action. Empty-result guidance is translated; topic cards and teaching content remain English. Initial HTML includes a loading message instead of a blank results container.
-- Browser regression: Year 4 + the reported query shows Chinese guidance; clearing filters restores six results; homepage search resets the year filter and restores six results; opening a result renders its topic detail and five graph nodes.
+Curriculum provenance metadata and source links remain in the dataset. Parent-facing approval and draft notices were removed. Teaching material remains English; setup prompts and parent explanations follow the website language.

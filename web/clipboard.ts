@@ -1,0 +1,1 @@
+export async function copy(text:string,button:HTMLElement){try{await navigator.clipboard.writeText(text);const label=button.textContent;button.textContent='Copied';setTimeout(()=>button.textContent=label,2000);}catch{button.textContent='Select and copy the text';}}

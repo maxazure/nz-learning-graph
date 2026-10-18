@@ -11,14 +11,6 @@
 <body>
 <a class="skip" href="#main">Skip to main content</a>
 
-<div class="notice" role="note">
-  <div class="wrap">
-    <span class="pill-draft">Draft</span>
-    <span><strong>NZ adaptation in progress.</strong> Built from published sources. Not endorsed by the Ministry of Education and not yet reviewed by teachers.</span>
-    <a href="#about">How we make it</a>
-  </div>
-</div>
-
 <header class="site" id="top">
   <div class="wrap nav">
     <a class="brand" href="#top" aria-label="Learning Paths NZ, home">
@@ -42,8 +34,8 @@
     </nav>
     <div class="nav-actions">
       <label class="language-control" translate="no"><span class="sr-only">Language / 语言</span><select id="site-language" aria-label="Language / 语言"><option value="en">English</option><option value="zh">中文</option></select></label>
-      <a class="btn btn-quiet" href="#connect">Sign in</a>
-      <a class="btn btn-primary" href="#connect">Create a parent account</a>
+
+      <a class="btn btn-primary" href="#connect">Get the setup prompt</a>
       <button class="menu-btn" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu"><span></span></button>
     </div>
   </div>
@@ -57,15 +49,16 @@
     <div>
       <p class="eyebrow">For parents and whānau</p>
       <h1 id="hero-title">See what your child is <em>ready</em> to learn next.</h1>
-      <p class="lede">Learning Paths NZ breaks school learning into small, clear steps and shows which ones come first. Find where your child is today, spot the gap behind a tricky topic, and get simple things to try at home.</p>
+      <p class="lede">Give your AI a map of what comes before and after each learning topic. It can check foundations, plan small steps and suggest activities for your child. Copy a setup prompt to get started — free, with no account or key.</p>
 
+      <p><a class="btn btn-primary" href="#connect">Copy a prompt for your AI <span aria-hidden="true">→</span></a></p>
       <form class="ask" role="search" id="hero-search">
         <div class="ask-row">
           <div class="ask-field">
             <label for="q">What is your child working on?</label>
             <input id="q" name="q" type="search" placeholder="e.g. fractions, telling the time, why it rains" autocomplete="off">
           </div>
-          
+
           <button class="btn btn-primary" type="submit">Show the path <span class="arrow" aria-hidden="true">→</span></button>
         </div>
       </form>
@@ -119,106 +112,27 @@
   </div>
 </section>
 
+<section class="section" id="start" aria-labelledby="start-title"><div class="wrap">
+<div class="section-head"><p class="eyebrow">Getting started</p><h2 id="start-title">Copy. Connect. <em class="serif">Learn together.</em></h2><p class="lede">Your AI reads the learning map for you. This website helps you connect it and see what it can use.</p></div>
+<div class="start-grid">
+<article class="start"><div class="num" aria-hidden="true">1</div><h3>Choose your AI</h3><p>Pick ChatGPT Work, Claude Code, WorkBuddy, Codex or Claude below.</p><div class="foot"><small>No website account needed</small><a class="btn btn-ghost" href="#connect">Choose a tool</a></div></article>
+<article class="start featured"><div class="num" aria-hidden="true">2</div><h3>Copy the setup prompt</h3><p>Paste it into your AI. Tools with local setup access can add the connection for you. If your app needs a settings step or restart, the guide tells you.</p><div class="foot"><small>No API key or login</small><a class="btn btn-ghost" href="#connect">Get the prompt</a></div></article>
+<article class="start"><div class="num" aria-hidden="true">3</div><h3>Start with one question</h3><p>Tell your AI what your child is learning. It can look up the topic, find the foundations and suggest a short activity.</p><ul translate="no" lang="en-NZ"><li>“Help us practise telling the time.”</li><li>“What comes before fractions?”</li></ul><div class="foot"><small>You guide the learning</small><a class="btn btn-ghost" href="#map">Explore the map</a></div></article>
+</div></div></section>
+<hr class="rule">
+<section class="section" id="connect"><div class="wrap"><div class="section-head"><p class="eyebrow">Your AI, with a learning map</p><h2>One prompt to <em class="serif">get started.</em></h2><p class="lede">Choose where you use AI, copy the prompt and paste it into a new conversation. Our MCP is public and free: no registration, login or key.</p></div>
+<div class="connections-card"><div id="client-tabs" class="client-tabs" role="tablist" aria-label="AI tools"><button role="tab" data-client="chatgpt" aria-selected="true">ChatGPT Work</button><button role="tab" data-client="claude-code" aria-selected="false">Claude Code</button><button role="tab" data-client="workbuddy" aria-selected="false">WorkBuddy</button><button role="tab" data-client="codex" aria-selected="false">Codex</button><button role="tab" data-client="claude" aria-selected="false">Claude</button></div><div id="connection-guide" role="tabpanel"></div></div>
+</div></section>
+<hr class="rule">
 <!-- ================= GRAPH ================= -->
 <section class="section graph-section" id="map" aria-labelledby="map-title"><div class="wrap"><div class="section-head"><p class="eyebrow">The learning map</p><h2 id="map-title">Every step has steps <em class="serif">before it.</em></h2><p class="lede">Choose an idea to see its foundations, a question to try, and a path you can work through together.</p></div><div id="subjects" class="explorer-filters"><label>Find a topic<input id="topic-search" type="search" placeholder="Try fractions, coins or native species"></label><label>Subject<select id="subject-filter"></select></label><label>Suggested NZ year<select id="year-filter"><option value="">All / not mapped</option><option value="0">Year 0</option><option value="1">Year 1</option><option value="2">Year 2</option><option value="3">Year 3</option><option value="4">Year 4</option><option value="5">Year 5</option><option value="6">Year 6</option><option value="7">Year 7</option><option value="8">Year 8</option><option value="9">Year 9</option><option value="10">Year 10</option></select></label><label class="checkbox"><input id="nz-only" type="checkbox"> NZ contexts only</label></div><p class="fine-print language-note">Website language changes the parent guide. Learning topics, examples and AI prompts stay in English. Search using English topic names.</p><p class="fine-print">Year filters apply to the 16 NZ activities. Original topics retain approximate ages and are not yet mapped to NZ years.</p><div class="results-head"><p id="results-count" aria-live="polite"></p><button id="clear-filters" class="text-button" hidden>Clear filters</button><span>Original graph + NZ contexts</span></div><div id="topic-results" class="topic-results"><p class="empty-state">Loading learning topics…</p></div><button id="load-topics" class="button secondary">Show more topics</button><article translate="no" lang="en-NZ" id="topic-detail" class="topic-detail" aria-live="polite"></article><div class="known-bar"><span id="known-count"></span><button id="clear-known" class="text-button">Clear browser progress</button></div></div></section>
 
-<!-- ================= GETTING STARTED ================= -->
-<section class="section" id="start" aria-labelledby="start-title">
-  <div class="wrap">
-    <div class="section-head">
-      <p class="eyebrow">Getting started</p>
-      <h2 id="start-title">Three ways in. <em class="serif">Start with the first.</em></h2>
-      <p class="lede">You do not need an account to look around. Sign up when you want to connect your own AI, and connect an AI assistant only if you already use one.</p>
-    </div>
-    <div class="start-grid">
-      <article class="start">
-        <div class="num" aria-hidden="true">1</div>
-        <h3>Explore</h3>
-        <p>Search a topic from school, or browse by subject and suggested NZ year band. Each step tells you what it means in plain words.</p>
-        <ul>
-          <li>Explore practical NZ learning contexts</li>
-          <li>Find the step behind a tricky homework sheet</li>
-          <li>Get questions to ask at a parent–teacher meeting</li>
-        </ul>
-        <div class="foot"><small>No sign-up</small><a class="btn btn-ghost" href="#subjects">Browse subjects</a></div>
-      </article>
-      <article class="start featured">
-        <div class="num" aria-hidden="true">2</div>
-        <h3>Make a parent account</h3>
-        <p>Create your own account to connect an AI tool to the map. You do not need to create a child profile.</p>
-        <ul>
-          <li>No child names or school details required</li>
-          <li>Your own revocable AI connection</li>
-          <li>Free to use; delete your account any time</li>
-        </ul>
-        <div class="foot"><small>Free · delete any time</small><a class="btn btn-ghost" href="#connect">Create account</a></div>
-      </article>
-      <article class="start">
-        <div class="num" aria-hidden="true">3</div>
-        <h3>Connect your own AI</h3>
-        <p>Already use ChatGPT, Claude or another assistant? Link it to Learning Paths so it can look up the map before suggesting activities.</p>
-        <ul>
-          <li>“What should we practise before fractions?”</li>
-          <li>“Make a 10-minute game for this step”</li>
-          <li>You choose what it can see</li>
-        </ul>
-        <div class="foot"><small>Optional · use your own AI account</small><a class="btn btn-ghost" href="#connect">See how</a></div>
-      </article>
-    </div>
-  </div>
-</section>
-
-<hr class="rule">
-
-<!-- ================= SUBJECT EXPLORER ================= -->
-
-
-<!-- ================= TOPIC DETAIL ================= -->
-
-
-<!-- ================= ACCOUNT + AI ================= -->
-<section class="section" id="connect"><div class="wrap"><div class="section-head"><p class="eyebrow">Your AI, with a learning map</p><h2>Bring your own <em class="serif">helper.</em></h2><p class="lede">Connect the AI tool you already use. Learning Paths supplies the topics, foundations and learning prompts. You stay alongside your child.</p></div><div class="account-layout"><div class="account-card" id="account"><span class="eyebrow">Parent account</span><h3>A place to connect.</h3><p>No child profiles. No AI API key to buy from us. Your AI provider's plan and access rules still apply.</p><form id="auth-form"><div class="auth-tabs" role="tablist" aria-label="Account action"><button type="button" data-auth-mode="register" role="tab" aria-selected="true">Create account</button><button type="button" data-auth-mode="login" role="tab" aria-selected="false">Sign in</button></div><label for="username">Parent username</label><input id="username" name="username" autocomplete="username" pattern="[a-zA-Z0-9_-]{3,40}" minlength="3" maxlength="40" required placeholder="Choose a username"><label for="password">Password</label><input id="password" name="password" type="password" autocomplete="new-password" minlength="12" maxlength="128" required placeholder="At least 12 characters"><p class="fine-print">Save these in your password manager. We do not collect email addresses, so there is no email password reset.</p><label class="checkbox"><input type="checkbox" required> I am a parent, caregiver or adult educator and agree to the <a href="#privacy">privacy and use terms</a>.</label><button id="auth-submit" class="button" type="submit">Create free parent account</button></form><div id="account-controls" hidden><p>Signed in as <strong translate="no" id="account-name"></strong>.</p><p id="token-status"></p><button id="create-token" class="button">Create / replace connection key</button><div id="token-reveal" hidden><label for="personal-token">Your personal key · shown once</label><input id="personal-token" readonly type="password" autocomplete="off"><button id="copy-token" class="button secondary">Copy key</button></div><p class="fine-print">Keys expire after 90 days. Never paste a key into a chat or public repository. OAuth sign-ins expire after 24 hours; reconnect when asked.</p><div class="account-actions"><button id="revoke-token" class="text-button">Revoke all AI connections</button><button id="logout" class="text-button">Sign out</button><button id="delete-account" class="text-button danger">Delete account</button></div></div><p id="account-message" role="status" aria-live="polite"></p></div><div class="connections-card"><span class="eyebrow">Connection guide</span><h3>Choose your AI tool.</h3><p>These tools use MCP, a standard way to give an AI access to the learning map. Pick yours for the steps.</p><div id="client-tabs" class="client-tabs" role="tablist" aria-label="AI tools"><button role="tab" data-client="chatgpt" aria-selected="true">ChatGPT</button><button role="tab" data-client="claude" aria-selected="false">Claude</button><button role="tab" data-client="codex" aria-selected="false">Codex</button><button role="tab" data-client="claude-code" aria-selected="false">Claude Code</button><button role="tab" data-client="workbuddy" aria-selected="false">WorkBuddy</button></div><div id="connection-guide" role="tabpanel"></div></div></div></div></section><dialog id="delete-dialog"><h3>Delete your parent account?</h3><p>Your login and all connection credentials will be removed. This cannot be undone. Browser-only topic marks can be cleared separately in the map.</p><form id="delete-form"><label>Confirm your password<input name="password" type="password" required autocomplete="current-password"></label><p id="delete-error" role="alert"></p><button type="submit" class="button">Delete my account</button><button type="button" id="cancel-delete" class="button secondary">Cancel</button></form></dialog>
-
-<hr class="rule">
-
-<!-- ================= ABOUT NZ ADAPTATION ================= -->
-<section class="section" id="about" aria-labelledby="about-title">
-  <div class="wrap honest">
-    <div>
-      <p class="eyebrow">About the NZ version</p>
-      <h2 id="about-title">Useful, open, and <em>honest about being a draft.</em></h2>
-      <p class="statement">The NZ adaptation is a draft built from published, openly licensed sources. It is not endorsed by the Ministry of Education and has not yet been reviewed by NZ teachers.</p>
-    </div>
-    <div>
-      <div class="facts">
-        <div class="fact">
-          <div class="k">Where it comes from</div>
-          <div><h4>Published curriculum documents</h4><p>The original Marble graph includes international curriculum references; many original topics have no standard link. The 16 NZ contexts link to public sources and carry a separate editorial review status. Source records were checked on 18 October 2026.</p></div>
-        </div>
-        <div class="fact">
-          <div class="k">What we have changed</div>
-          <div><h4>16 NZ activities, with suggested year bands</h4><p>NZ coins, local ecology, public transport and other home activities sit alongside the original graph. Only these additions have suggested NZ year bands. This first release supports English-medium learning; it does not cover Te Marautanga o Aotearoa or the full NZ Curriculum.</p>
-            <div class="status"><span class="tag orange">Draft mapping</span><span class="tag plain">Source-based</span></div></div>
-        </div>
-        <div class="fact">
-          <div class="k">What it is not</div>
-          <div><h4>Not official, not an assessment</h4><p>It is not a Ministry resource, a school report, or a test. Children learn at different paces, and a step being “later” is never a problem.</p>
-            <div class="status"><span class="tag plain">Not Ministry endorsed</span><span class="tag plain">Not teacher reviewed</span></div></div>
-        </div>
-        <div class="fact">
-          <div class="k">Who checks it</div>
-          <div><h4>Open to correction</h4><p>Anyone can flag a step that looks wrong. We want NZ teachers and kaiako to review the mapping, and every change is public.</p></div>
-        </div>
-      </div>
-      <div class="review-cta">
-        <p><b>Are you a teacher or kaiako?</b> Help review the NZ mapping for your learning area.</p>
-        <a class="btn btn-primary" href="https://github.com/maxazure/nz-learning-graph/issues/new">Offer to review</a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="section privacy-section" id="privacy"><div class="wrap"><div class="section-head"><p class="eyebrow">Privacy &amp; use</p><h2>Keep learning personal.</h2></div><div class="detail-columns"><div><h3>What we store</h3><p>Your parent username, salted password hash, hashed sessions and access credentials. We do not collect child profiles or save MCP learning inputs. Topic checkmarks stay in your browser until you clear them. The hosting provider processes network requests and limited technical logs to run the service.</p><p>Deleting your account removes its login, sessions and tokens. Do not send child names, schools, birth dates, health information or private school records through the tools. Your chosen AI provider handles conversations under its own privacy terms.</p></div><div><h3>Use alongside school learning</h3><p>This is a free, independent open beta for adults supporting children. Activities and NZ mappings are editorial drafts, not teacher reviewed. AI answers can be wrong. Review answers together; ask your child's teacher when a learning need is unclear.</p><p>Mathematics and English sources reflect the 2026 curriculum. Science and Social Sciences source records distinguish published 2027 content from current implementation. The original graph is primarily based on overseas curricula.</p><p>Questions or corrections: <a href="https://github.com/maxazure/nz-learning-graph/issues">project issues</a>. Keep personal information out of public issues.</p></div></div><div class="licence-note"><p>Marble Skill Taxonomy (v1) · © Generative Spark, Inc. (Marble) · <a href="https://withmarble.com">withmarble.com</a>. Database and NZ derivative: <a href="https://github.com/maxazure/nz-learning-graph/blob/main/LICENSE">ODbL 1.0</a>. Marble-authored and adapted content: <a href="https://github.com/maxazure/nz-learning-graph/blob/main/LICENSE-CONTENT">CC BY-SA 4.0</a>. Third-party standards retain their upstream terms. <a href="https://github.com/maxazure/nz-learning-graph">Download source and open data</a> · <a href="https://github.com/maxazure/nz-learning-graph/blob/main/docs/nz-curriculum.md">NZ sources and review scope</a>.</p></div></div></section></main>
+<section class="section" id="about" aria-labelledby="about-title"><div class="wrap honest"><div><p class="eyebrow">About the NZ version</p><h2 id="about-title">A learning map <em>your AI can read.</em></h2><p class="statement">1,606 topics and 3,253 connections help your AI find the small steps behind a bigger learning goal.</p></div><div class="facts">
+<div class="fact"><div class="k">How it works</div><div><h4>Connected learning steps</h4><p>The AI can search topics, check prerequisites and build a practice sequence. Each topic includes examples and questions to support learning at home.</p></div></div>
+<div class="fact"><div class="k">NZ connections</div><div><h4>Learning through everyday life</h4><p>The original Marble graph is joined by 16 NZ activities, including coins, public transport and local ecology. These additions include suggested NZ years and links to their sources.</p></div></div>
+<div class="fact"><div class="k">Open data</div><div><h4>Free to use and build on</h4><p>The graph and source code are open. Explore the data, suggest a correction or connect your own learning tool.</p><a href="https://github.com/maxazure/nz-learning-graph">View the project</a></div></div>
+</div></div></section>
+<section class="section privacy-section" id="privacy"><div class="wrap"><div class="section-head"><p class="eyebrow">Privacy &amp; use</p><h2>Keep learning personal.</h2></div><div class="detail-columns"><div><h3>No account needed</h3><p>The public MCP reads the learning graph. It does not create child profiles or save your learning questions. Topic checkmarks stay in your browser. The hosting provider processes requests and technical logs to run the service.</p></div><div><h3>You stay in the conversation</h3><p>Use your own AI account and review its suggestions with your child. Your AI provider handles conversations under its own terms. You can describe a learning need without sharing a child's name or school.</p><p>Questions or corrections: <a href="https://github.com/maxazure/nz-learning-graph/issues">project issues</a>.</p></div></div><div class="licence-note"><p>Marble Skill Taxonomy (v1) · © Generative Spark, Inc. (Marble) · <a href="https://withmarble.com">withmarble.com</a>. Database and NZ derivative: <a href="https://github.com/maxazure/nz-learning-graph/blob/main/LICENSE">ODbL 1.0</a>. Marble-authored and adapted content: <a href="https://github.com/maxazure/nz-learning-graph/blob/main/LICENSE-CONTENT">CC BY-SA 4.0</a>. Third-party standards retain their upstream terms. <a href="https://github.com/maxazure/nz-learning-graph">Download source and open data</a> · <a href="https://github.com/maxazure/nz-learning-graph/blob/main/docs/nz-curriculum.md">NZ sources</a>.</p></div></div></section></main>
 
 <footer class="site">
   <div class="wrap">
@@ -228,12 +142,12 @@
         <p style="margin-top:16px;max-width:30em">An open map of how school learning fits together, adapted for families in Aotearoa New Zealand.</p>
       </div>
       <div><h4>Explore</h4><ul><li><a href="#map">The map</a></li><li><a href="#subjects">Subjects</a></li><li><a href="#topic-detail">Example step</a></li></ul></div>
-      <div><h4>Parents</h4><ul><li><a href="#connect">Parent account</a></li><li><a href="#connect">Use with your AI</a></li><li><a href="#privacy">Privacy &amp; terms</a></li></ul></div>
+      <div><h4>Parents</h4><ul><li><a href="#connect">Setup prompts</a></li><li><a href="#connect">Use with your AI</a></li><li><a href="#privacy">Privacy &amp; terms</a></li></ul></div>
       <div><h4>Open data</h4><ul><li><a href="https://github.com/maxazure/nz-learning-graph/blob/main/PROVENANCE.md">Sources and licences</a></li><li><a href="#about">How the NZ version is made</a></li><li><a href="https://github.com/maxazure/nz-learning-graph/issues/new">Report a problem</a></li></ul></div>
     </div>
     <div class="foot-base">
-      <span>Draft NZ adaptation. Not endorsed by the Ministry of Education. Not teacher reviewed.</span>
-      <span>Open beta · October 2026</span>
+      <span>Free, public MCP for learning in New Zealand.</span>
+      <span>Learning Paths NZ</span>
     </div>
   </div>
 </footer>

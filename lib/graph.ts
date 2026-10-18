@@ -9,10 +9,10 @@ export interface Topic {
 }
 export const topics:Topic[] = [...original.topics,...overlay.topics];
 export const sources = overlay.sources;
-export const dependencies = [...relations.dependencies,...overlay.topics.flatMap(t=>t.prerequisiteIds.map(id=>({topicId:t.id,prerequisiteId:id,strength:'hard',reason:'Suggested foundation for this NZ activity; editorial draft awaiting teacher review.'})))];
+export const dependencies = [...relations.dependencies,...overlay.topics.flatMap(t=>t.prerequisiteIds.map(id=>({topicId:t.id,prerequisiteId:id,strength:'hard',reason:'Suggested foundation for this NZ activity.'})))];
 const byId = new Map(topics.map(t=>[t.id,t]));
 export const subjects = [...new Set(topics.map(t=>t.subject))].sort();
-export const guidance = 'Suggested learning pathway. NZ mappings and activities are editorial drafts, not teacher reviewed. Upstream ages are approximate and are not NZ year-level requirements. Use alongside classroom learning. Ask one question at a time and use evidence, not labels, to decide what to practise.';
+export const guidance = 'Use the learning graph to plan small steps. Check prerequisites, ask one question at a time and give hints before answers. Use the linked sources and distinguish suggested NZ years from original age ranges. The parent guides the activity.';
 export function getTopic(id:string) {return byId.get(id);}
 export function searchTopics(query='',subject?:string,limit=40):Topic[] {
  const terms=query.toLowerCase().trim().split(/\s+/).filter(Boolean);

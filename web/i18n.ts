@@ -13,10 +13,8 @@ export function translated(text: string, language: Language): string {
  const key = normalise(text);
  let value = chinese[key];
  if (!value) {
-  const expiry = key.match(/^Your personal connection key expires (.+)\.$/);
   const results = key.match(/^([\d,]+) topics?( with a suggested NZ year)?$/);
   const known = key.match(/^(\d+) topics? marked as understood on this browser$/);
-  if (expiry) value = `你的个人连接密钥将于 ${expiry[1]} 到期。`;
   if (results) value = `${results[1]} 个知识点${results[2] ? '（有建议的新西兰年级）' : ''}`;
   if (known) value = `此浏览器已将 ${known[1]} 个知识点标记为已掌握`;
  }
@@ -69,6 +67,7 @@ export function setupLanguage() {
   language = select.value === 'zh' ? 'zh' : 'en';
   try { localStorage.setItem('nz-site-language', language); } catch { /* Keep switching available without storage. */ }
   apply();
+  window.dispatchEvent(new Event('site-language-change'));
  });
  apply();
 }
