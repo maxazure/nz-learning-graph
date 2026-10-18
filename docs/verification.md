@@ -39,3 +39,17 @@ Deployed public release `7fc9d57` to edu.w1.nz (Pages deployment `fb5909d6`).
 - The exact pinned WorkBuddy bridge configuration discovered five tools and searched `telling the time`, returning six topics without credentials. The WorkBuddy application itself was not run.
 - Production browser verified Chinese copy controls, absence of account fields and removed notices, and six results for the reported search. System clipboard contents matched the displayed public Claude Code setup command and tool-verification prompt.
 - Automatic installation by ChatGPT Work, Codex and WorkBuddy conversational agents and Claude's consumer connector UI were not exercised end-to-end. Their prompts reflect official documented configuration routes and explicitly ask the host to report missing permissions/restarts.
+
+## Maths supplement release — 18 October 2026
+
+Production implementation commit: `b4ae7fd`. Cloudflare Pages deployment: `https://e64d0bd1.nz-learning-graph.pages.dev`, serving `https://edu.w1.nz`.
+
+- Original ZIP CRC and all 21 SHA256 entries passed; all 22 source-package files are preserved.
+- Supplied validator independently rerun: zero errors/warnings, 300 numerical checks pass.
+- `npm run validate`, typecheck, 10 runtime/MCP tests and production build passed.
+- Official MCP SDK smoke passed for all six tools on local Pages and production.
+- All five backend test cases passed against the local runtime and production domain, including senior pedagogy, forward connections, curriculum entities and dependency evidence.
+- Ego Lite checked English/Chinese and 1440px desktop/390px mobile without horizontal overflow; exercised Pythagoras search, Year 13 chain-rule filtering, hint disclosure and curriculum details. Production Chinese hero and Pythagoras search confirmed.
+- The explorer data bundle remains about 842 kB gzip and produces Vite's large-chunk warning. It is loaded on approaching the map or starting a search; the initial homepage script is about 13 kB gzip.
+
+See `maths-integration.md` for import decisions and remaining research limitations. Earlier five-tool checks above describe the prior release.
