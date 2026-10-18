@@ -60,3 +60,15 @@ Curriculum evidence used for scope includes [Phase 2, Years 4–6](https://newze
 Automated checks cover unique active IDs and endpoint pairs, no self-links or hard cycles, every live reference resolving, retained mappings/diagnostics/hints/applicability, all merge-strength conflicts reviewed, meaningful foundation paths, retired IDs absent from active lookups, title disambiguation, bilingual homepage counts and MCP behaviour. The source validator checks original checksums and all 300 supplied numeric checks. Four added diagnostic answers were separately checked: total probability 0.9 is incomplete, opposite/adjacent angles are 117°/63°, red:blue 2:3 gives 2/3 versus 2/5, and impossible/even/certain map to 0/½/1.
 
 Remaining limitations: this is editorial review, with no independent teacher moderation or classroom trial. The package's documented curriculum and assessment gaps remain. No claim is made that every semantic overlap or pedagogical relationship throughout mathematics has been independently certified. Other subjects are outside this revision.
+
+## Release acceptance
+
+Published code commit `7c0e765` to [edu.w1.nz](https://edu.w1.nz) through Cloudflare Pages deployment [1da207d9](https://1da207d9.nz-learning-graph.pages.dev).
+
+- TypeScript checks, production build and all 17 automated tests pass. Original-data integrity/checksums and the supplement's 300 numeric checks pass without errors or warnings.
+- All six backend acceptance tests pass against the public custom domain. The official MCP SDK initializes, discovers and invokes all six tools anonymously.
+- The live homepage counts and all eight `/open-data/current/` JSON files exactly match the built output.
+- Browser checks confirm a single four-quadrant coordinate result, corrected mean foundations, solid/dashed connection semantics, two complement diagnostics, closed answers before hint disclosure, curriculum-detail disclosure and Chinese homepage counts. Desktop and 390-pixel mobile layouts were inspected; the wide graph scrolls within its panel without page overflow.
+- Production browser checks confirm the five-node symmetry path and one consolidated complement result with two diagnostics and three scoped mappings.
+
+The existing large-data bundle warning remains: the graph is loaded lazily, with an approximately 851 kB gzip explorer chunk. Initial guide JavaScript is approximately 13.8 kB gzip. This release does not claim a performance benchmark or complete teacher validation. Local QA captures are retained under `artifacts/maths-review-2026-10-18/` and are excluded from Git.
