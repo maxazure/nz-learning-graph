@@ -1,12 +1,12 @@
 /** Parent-facing copy only. Curriculum topics, teaching examples and AI prompts stay in English. */
 const zhStatic: Record<string, string> = {
   "Watch it in action": "看看实际怎么用",
-  "One question.": "从一道题开始，",
-  "A clearer next step.": "找到下一步。",
-  "See how a Year 10 maths mistake can start a conversation about foundations, practice and confidence.": "用十年级的一道数学错题，看看怎样检查基础、安排练习，陪孩子找回信心。",
+  "Follow the links.": "沿着知识关联，",
+  "Find the missing step.": "找到学习缺口。",
+  "Follow Pythagoras through a constellation of knowledge, trace earlier foundations and see how a small gap can affect the next step.": "从勾股定理出发，沿星图逐层回溯前置知识，看清一个早期知识点如何影响后面的学习。",
   "A parent’s guide to Learning Paths NZ": "Learning Paths NZ 家长使用指南",
   "Open the video": "打开视频",
-  "Step-by-step guide with narration and subtitles. Includes a simulated ChatGPT conversation.": "配有解说和字幕，逐步演示使用方法，包含模拟 ChatGPT 对话。",
+  "Animated knowledge map with narration and subtitles. Learning examples and ChatGPT conversation are simulated.": "用动画呈现真实知识关系，配有解说和字幕；学习案例和 ChatGPT 对话为模拟演示。",
   "Watch the 2-minute guide": "观看两分钟使用指南",
   "Learning Paths NZ: see what your child is ready to learn next": "Learning Paths NZ：了解孩子接下来可以学什么",
   "An open map of 1,606 small learning steps for New Zealand parents. See what comes first, what comes next, and how to help at home.": "面向新西兰家长的开放学习地图，包含 1,606 个学习步骤。了解先学什么、接下来学什么，以及如何在家帮助孩子。",
