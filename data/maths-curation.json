@@ -1,0 +1,1423 @@
+{
+  "version": 1,
+  "reviewed_at": "2026-10-18",
+  "review_status": "editorial_review_not_teacher_moderated",
+  "note": "Source archives remain verbatim. This file curates the active graph. Sources support content scopes; edge strengths and directions are editorial inferences.",
+  "merges": [
+    {
+      "from_id": "mt_R4AY0LKxfl",
+      "to_id": "mt_hVpGOEz2kG",
+      "reason": "Both records locate ordered pairs in all four quadrants; different upstream age labels do not create a new skill."
+    },
+    {
+      "from_id": "mt_K0Y15w48SY",
+      "to_id": "mt_SH7QgFl8-v",
+      "reason": "Both cover coordinate translations, reflections and rotations preserving lengths and angles."
+    },
+    {
+      "from_id": "mt_efOeaGFyGM",
+      "to_id": "mt_lxaM6iVpdr",
+      "reason": "Both describe and perform reflections and translations on a grid; retain this narrower skill separately from rotations."
+    },
+    {
+      "from_id": "mt_vmQJAtAFuy",
+      "to_id": "mt_t0g2SlP404",
+      "reason": "Both interpret probability on the same zero-to-one scale."
+    },
+    {
+      "from_id": "mt_3fwYu7imd4",
+      "to_id": "mt_XfyqXLqzpx",
+      "reason": "Both cover exhaustive probability totals and P(not A)=1-P(A); retain both objectives in the combined profile."
+    },
+    {
+      "from_id": "mt_FP-mjXaq3B",
+      "to_id": "mt_FbDKeLfBCo",
+      "reason": "Both explain equivalent fractions by repartitioning visual models of an unchanged whole."
+    },
+    {
+      "from_id": "mt_QDTO3GAgcq",
+      "to_id": "mt_oqziWKry-L",
+      "reason": "Both cover full-turn, straight-line and opposite-angle facts; retain opposite angles explicitly."
+    },
+    {
+      "from_id": "mt_yK51ZnKA8m",
+      "to_id": "mt_XWSGuFW7It",
+      "reason": "Both express and simplify multiplicative ratios; preserve part-to-part versus part-to-whole interpretation."
+    },
+    {
+      "from_id": "mt_NoB20kVa4w",
+      "to_id": "mt_Kr3IyA6m-O",
+      "reason": "Both locate unit and non-unit fractions by equal subdivision of a number line; the later record adds examples of the same method."
+    },
+    {
+      "from_id": "mt_a3dov8CZkq",
+      "to_id": "mt_pyMD_SIiYO",
+      "reason": "Both construct and critique multi-step mathematical arguments. Different arithmetic examples do not warrant a serial prerequisite between copies of the same general reasoning skill."
+    },
+    {
+      "from_id": "mt_wPgpMJ0-PA",
+      "to_id": "mt_LlMl2PbaZe",
+      "reason": "Both scale decimal numbers by 10, 100 and 1000 using place value, and their examples overlap. Retain the full method without the inconsistent three-decimal-place cap in the later description."
+    }
+  ],
+  "topic_patches": [
+    {
+      "id": "mt_lxaM6iVpdr",
+      "name": "Translations and reflections on a coordinate grid"
+    },
+    {
+      "id": "mt_SH7QgFl8-v",
+      "name": "Rigid transformations: translations, reflections and rotations"
+    },
+    {
+      "id": "mt_hRZyKvz1KN",
+      "name": "Recognising lines of symmetry"
+    },
+    {
+      "id": "mt_hR2Y7NhMSY",
+      "name": "Completing a symmetric figure"
+    },
+    {
+      "id": "mt_Ep7TDFuYUa",
+      "name": "Equivalent fractions at the same point on a number line",
+      "description": "Locate equivalent fractions at the same point on a consistently scaled number line and explain why their values agree.",
+      "evidence": [
+        "Locate 2/3 and 4/6 at the same point on a number line.",
+        "Explain why equivalent fractions have the same distance from zero."
+      ]
+    },
+    {
+      "id": "mt_ebPelt-qAl",
+      "name": "Generating equivalent fractions by scaling",
+      "description": "Multiply numerator and denominator by the same non-zero whole-number factor to generate equivalent fractions, and justify the rule with a visual model."
+    },
+    {
+      "id": "mt_tedML_iu4Y",
+      "name": "Combining angle facts in multi-step problems"
+    },
+    {
+      "id": "mt_Yw27nweoTj",
+      "name": "Reading approximate values from supplied graphs",
+      "description": "Read an approximate output for a given input from a supplied straight or curved graph, checking axis scales, units and context. Equation solving and intersections are covered separately.",
+      "evidence": [
+        "Read an approximate y-value for a given x on a supplied graph.",
+        "Explain the units and precision of a value read from a graph."
+      ],
+      "assessmentPrompt": "Given a supplied distance-time graph, can {{name}} read the distance at a stated time and explain the units and approximation?"
+    },
+    {
+      "id": "mt_FbDKeLfBCo",
+      "name": "Equivalent fractions with area and strip models",
+      "description": "Repartition an unchanged whole into equal parts to recognise, generate and explain equivalent fractions with area diagrams or fraction strips.",
+      "learning_objectives": [
+        "Recognise and generate equivalent fractions using area diagrams or fraction strips."
+      ]
+    },
+    {
+      "id": "mt_XfyqXLqzpx",
+      "name": "Total probability and complementary events",
+      "description": "Probabilities of mutually exclusive outcomes covering every possibility sum to one. An event and its complement form such a partition, so P(not A)=1−P(A).",
+      "learning_objectives": [
+        "Check that an exhaustive probability table has non-negative probabilities summing to one.",
+        "Calculate a complementary probability without recounting all outcomes."
+      ]
+    },
+    {
+      "id": "mt_oqziWKry-L",
+      "name": "Angles on a line, around a point and vertically opposite",
+      "description": "Adjacent angles forming a straight line total 180°, angles covering a full turn total 360°, and vertically opposite angles are equal.",
+      "learning_objectives": [
+        "Find a missing angle using a straight-line or full-turn sum, or equality of vertically opposite angles."
+      ]
+    },
+    {
+      "id": "mt_XWSGuFW7It",
+      "learning_objectives": [
+        "Simplify and scale a ratio while preserving its order.",
+        "Distinguish the ratio of one part to another from the fraction of the combined whole."
+      ]
+    },
+    {
+      "id": "mt_t0g2SlP404",
+      "learning_objectives": [
+        "Interpret zero and one as probability endpoints and locate chances between them.",
+        "Express a chance as a fraction, decimal or percent when the corresponding number representation is secure."
+      ]
+    },
+    {
+      "id": "mt_yJmvUCCym7",
+      "name": "Addition and subtraction word problems within 10"
+    },
+    {
+      "id": "mt_ZLqYE7la4Z",
+      "name": "Word problems with like-denominator fractions"
+    },
+    {
+      "id": "mt_DLcEzmmj2r",
+      "name": "Adding and subtracting lengths within 100"
+    },
+    {
+      "id": "mt_mr_Vk7FGzK",
+      "name": "Adding and subtracting within 20"
+    },
+    {
+      "id": "mt_-F_Lv_apzH",
+      "name": "Choosing operations in multi-step addition and subtraction"
+    },
+    {
+      "id": "mt_M1tnXqmYbn",
+      "name": "Multi-step addition and subtraction with large numbers and decimals"
+    },
+    {
+      "id": "mt_PpWSHA-0kv",
+      "name": "Counting on and back to add and subtract"
+    },
+    {
+      "id": "mt_zxST3MarI9",
+      "name": "Explaining addition and subtraction strategies"
+    },
+    {
+      "id": "mt_3e_PQxwC12",
+      "name": "Addition and subtraction facts to 20 and related facts to 100"
+    },
+    {
+      "id": "mt_Yw1_4Nfsql",
+      "name": "Column addition and subtraction beyond four digits"
+    },
+    {
+      "id": "mt_AKAtWEwpcj",
+      "name": "Adding and subtracting ones from two-digit numbers mentally"
+    },
+    {
+      "id": "mt_oDU_8zMZjp",
+      "name": "Adding and subtracting ones from three-digit numbers mentally"
+    },
+    {
+      "id": "mt_MWXPiaTnEu",
+      "name": "Mental addition and subtraction with large numbers"
+    },
+    {
+      "id": "mt_19j_5AuuQI",
+      "name": "Whole-number addition and subtraction on a number line"
+    },
+    {
+      "id": "mt_oDlduFnemk",
+      "name": "Coordinate axes, origin and ordered pairs"
+    },
+    {
+      "id": "mt_zMEvtigoM3",
+      "name": "Choosing tools and representations for a problem"
+    },
+    {
+      "id": "mt_IL86kadLSS",
+      "name": "Elapsed-time problems using time intervals"
+    },
+    {
+      "id": "mt_RWUY7_IXvw",
+      "name": "Absolute value as distance from zero"
+    },
+    {
+      "id": "mt_pAcaehday5",
+      "name": "Representing numbers with objects, pictures and number lines"
+    },
+    {
+      "id": "mt_r8XnXwRA6g",
+      "name": "Scaled pictograms and bar charts"
+    },
+    {
+      "id": "mt_aHAM29nidj",
+      "name": "Counting forwards and backwards in threes"
+    },
+    {
+      "id": "mt_OkSJfrmFb_",
+      "name": "Counting in tens from any starting number"
+    },
+    {
+      "id": "mt_tAtMET4EIU",
+      "name": "Counting in powers of ten to one million"
+    },
+    {
+      "id": "mt_u5HkSxZECM",
+      "name": "Data collection and display vocabulary"
+    },
+    {
+      "id": "mt_eKJG-0eC6D",
+      "name": "Choosing and constructing statistical displays"
+    },
+    {
+      "id": "mt_IHipFGTFEY",
+      "name": "Line plots of fractional measurements"
+    },
+    {
+      "id": "mt_MyGblah2yY",
+      "name": "Simple fraction statements and two-quarters equivalence"
+    },
+    {
+      "id": "mt_09sySPqM9Z",
+      "name": "Fractions as sums of unit fractions"
+    },
+    {
+      "id": "mt_dXq9VWm31W",
+      "name": "Connecting contexts, diagrams and equations with three-digit numbers and fractions"
+    },
+    {
+      "id": "mt_HY8Yycu_rz",
+      "name": "Precise mathematical vocabulary, units and notation"
+    },
+    {
+      "id": "mt_2ESZh70NyS",
+      "name": "Justifying arguments with fractions and geometry"
+    },
+    {
+      "id": "mt_9KmVWCuh5_",
+      "name": "Connecting representations of fractions, ratio and algebra"
+    },
+    {
+      "id": "mt_ZOJ6EbdPOb",
+      "name": "Scaling by fractions and solving simple rate problems"
+    },
+    {
+      "id": "mt_FnUJMXPUZX",
+      "name": "Unequal sharing using fractions and multiples"
+    },
+    {
+      "id": "mt_SsLWS_APM7",
+      "name": "Mixed problems with tenths and fractions"
+    },
+    {
+      "id": "mt_HnKbuCliNS",
+      "name": "Comparing fractions with a shared numerator or denominator"
+    },
+    {
+      "id": "mt_SXbZ3bC9z7",
+      "name": "Comparing fractions using common denominators or benchmarks"
+    },
+    {
+      "id": "mt_PL9VkDwXfh",
+      "name": "Ordering fractions including values greater than one"
+    },
+    {
+      "id": "mt_3VmBdlAeOZ",
+      "name": "Connecting representations of multiplication, fractions and decimals"
+    },
+    {
+      "id": "mt_CUmjcE7W6c",
+      "name": "Connecting representations of multi-digit multiplication, decimals and percentages"
+    },
+    {
+      "id": "mt_5HV4mbgSGH",
+      "name": "Measurement and money problems with fractions and decimals"
+    },
+    {
+      "id": "mt_PsylzZ9lHW",
+      "name": "Place value across integers, decimals and measures"
+    },
+    {
+      "id": "mt_uDJY0X0hgo",
+      "name": "Ordering signed integers, decimals and fractions"
+    },
+    {
+      "id": "mt_YzM5goBctT",
+      "name": "Tenths as equal parts and counting steps"
+    },
+    {
+      "id": "mt_doX1BhmFgk",
+      "name": "Hundredths as equal parts and counting steps"
+    },
+    {
+      "id": "mt_kdWoAel3Zl",
+      "name": "Thousandths and their decimal equivalents"
+    },
+    {
+      "id": "mt_Fl7b8q9pI1",
+      "name": "Rounding tenths to whole numbers"
+    },
+    {
+      "id": "mt_IegHBHERVa",
+      "name": "Comparing decimals to two decimal places"
+    },
+    {
+      "id": "mt_Ii1hV4V5ql",
+      "name": "Rounding hundredths to tenths or whole numbers"
+    },
+    {
+      "id": "mt_2VpdPjvewx",
+      "name": "Converting measurement units using decimals"
+    },
+    {
+      "id": "mt__casygEB85",
+      "name": "Rounding to a chosen degree of accuracy"
+    },
+    {
+      "id": "mt_wB-GBDkoNr",
+      "name": "Simple measure and money problems with fractions and decimals"
+    },
+    {
+      "id": "mt_4K1dr204Hi",
+      "name": "Fraction division and fraction-decimal-percent equivalents"
+    },
+    {
+      "id": "mt_SBkTGjiZjZ",
+      "name": "Converting between terminating decimals and fractions"
+    },
+    {
+      "id": "mt_AYzE1EAvI0",
+      "name": "Whole numbers written as fractions"
+    },
+    {
+      "id": "mt_HJA2Oz-Zh1",
+      "name": "Word problems multiplying a fraction by a whole number"
+    },
+    {
+      "id": "mt_4Km38F4L-6",
+      "name": "Fractions as division and fractional quotients"
+    },
+    {
+      "id": "mt_TgHxujL81r",
+      "name": "Multiplying fractions and mixed numbers by whole numbers"
+    },
+    {
+      "id": "mt_J339bO7qLe",
+      "name": "Fractions and percentages as multiplying operators"
+    },
+    {
+      "id": "mt_yGv8doDAmp",
+      "name": "Comparing attributes of plane and solid shapes"
+    },
+    {
+      "id": "mt_wUSbRt3-qw",
+      "name": "Recognising solid shapes from flat representations"
+    },
+    {
+      "id": "mt_REwgr0d_ss",
+      "name": "Building solid shapes and nets"
+    },
+    {
+      "id": "mt_nRksLqt-iR",
+      "name": "Solid-shape properties and cross-sections"
+    },
+    {
+      "id": "mt_sBcRdUfAzV",
+      "name": "Plane-shape properties and vertical line symmetry"
+    },
+    {
+      "id": "mt_vJUa62bxeR",
+      "name": "Drawing plane shapes and modelling solids"
+    },
+    {
+      "id": "mt_hdrMoiTgqu",
+      "name": "Drawing shapes with given dimensions and angles"
+    },
+    {
+      "id": "mt_bfhng6mOuy",
+      "name": "Defining and non-defining attributes of shapes"
+    },
+    {
+      "id": "mt_zuOGOGFAKb",
+      "name": "Recognising and drawing shapes with specified attributes"
+    },
+    {
+      "id": "mt_cdMlC7EpTJ",
+      "name": "Missing angles in triangles, quadrilaterals and regular polygons"
+    },
+    {
+      "id": "mt_167X6Ax8P7",
+      "name": "Triangle congruence criteria"
+    },
+    {
+      "id": "mt_8OAGVdeTJ_",
+      "name": "Angles as shape properties and turns"
+    },
+    {
+      "id": "mt_Xt1cRqaBOW",
+      "name": "Classifying quadrilaterals by shared properties"
+    },
+    {
+      "id": "mt_KFKUR_gBg_",
+      "name": "Deducing lengths and angles in rectangles"
+    },
+    {
+      "id": "mt_ZrsqGVG-Wt",
+      "name": "Ruler-and-compass constructions"
+    },
+    {
+      "id": "mt_h0CVtqI2xo",
+      "name": "Comparing acute, right and obtuse angles"
+    },
+    {
+      "id": "mt_e4V6hvcuEJ",
+      "name": "Reading geometric diagram marks and angle notation"
+    },
+    {
+      "id": "mt_WtIFJSCQIT",
+      "name": "Geometric vocabulary and conventional notation"
+    },
+    {
+      "id": "mt_89riIKwGYp",
+      "name": "Adding and subtracting angle measures"
+    },
+    {
+      "id": "mt_Jf8xcX4UTq",
+      "name": "Measuring and drawing segments, angles and scale drawings"
+    },
+    {
+      "id": "mt_DW2D1c0fKx",
+      "name": "Using number and shape structure to solve problems"
+    },
+    {
+      "id": "mt_FAXjFkgG6X",
+      "name": "Using structure in three-digit operations and shape classification"
+    },
+    {
+      "id": "mt_A-FyLLLLzy",
+      "name": "Generating and explaining number or shape patterns"
+    },
+    {
+      "id": "mt_pyMD_SIiYO",
+      "name": "Constructing and critiquing mathematical arguments"
+    },
+    {
+      "id": "mt_RKeheOL9uo",
+      "name": "Breaking multi-step problems into parts with guidance"
+    },
+    {
+      "id": "mt_SmghasIvbT",
+      "name": "Planning and checking multi-step problems with fractions and measures"
+    },
+    {
+      "id": "mt_hImiKNiaNh",
+      "name": "Using mathematical structure across geometry, number and algebra"
+    },
+    {
+      "id": "mt_-P1kdZhHbL",
+      "name": "Comparing the mass of two objects"
+    },
+    {
+      "id": "mt_zd0YkB3xNj",
+      "name": "Measuring mass with standard and non-standard units"
+    },
+    {
+      "id": "mt__N55B7u7HD",
+      "name": "Measuring time in hours, minutes and seconds"
+    },
+    {
+      "id": "mt_4m8BimI4G5",
+      "name": "Reading clocks to the nearest five minutes"
+    },
+    {
+      "id": "mt_2yas4Unc8o",
+      "name": "Converting between units of time"
+    },
+    {
+      "id": "mt_skYly2Qm01",
+      "name": "Ordering and indirectly comparing lengths"
+    },
+    {
+      "id": "mt_e4x3l2JeLI",
+      "name": "Choosing and using tools to measure length"
+    },
+    {
+      "id": "mt_3XJkeIn6J6",
+      "name": "Reading, estimating and comparing time to the nearest minute"
+    },
+    {
+      "id": "mt_eiB3-6pu6a",
+      "name": "Rectangle area and perimeter in practical problems"
+    },
+    {
+      "id": "mt_3tz3Otap5j",
+      "name": "Money word problems with US dollar and cent denominations"
+    },
+    {
+      "id": "mt_ghK1mnEstc",
+      "name": "Measurement line plots in half and quarter inches"
+    },
+    {
+      "id": "mt_d8al9JcajP",
+      "name": "Converting common metric and time units"
+    },
+    {
+      "id": "mt_Zks8xyInSG",
+      "name": "Metric unit relationships and conversion tables"
+    },
+    {
+      "id": "mt_B1zj1RwQ3a",
+      "name": "Adding equal rows in rectangular arrays"
+    },
+    {
+      "id": "mt_pjfmCMMPjO",
+      "name": "Mental multiplication using identity rules and regrouping"
+    },
+    {
+      "id": "mt_8A3pZNOp7Z",
+      "name": "Mental multiplication and division using derived facts"
+    },
+    {
+      "id": "mt_6-j1NO2ZUH",
+      "name": "Multiplicative comparison word problems"
+    },
+    {
+      "id": "mt_U4cIBXVug4",
+      "name": "Interpreting multiplication equations as comparisons"
+    },
+    {
+      "id": "mt_LlMl2PbaZe",
+      "name": "Scaling whole numbers and decimals by 10, 100 and 1000",
+      "description": "Multiply and divide whole numbers and decimals by 10, 100 and 1000 using place value; explain each digit’s change of value and position."
+    },
+    {
+      "id": "mt_vmW2cb5c7A",
+      "name": "Mental calculations with mixed operations and large numbers"
+    },
+    {
+      "id": "mt_X5cypSGoGU",
+      "name": "Order of operations with powers, roots and reciprocals"
+    },
+    {
+      "id": "mt_-c4Ca_nBzX",
+      "name": "Unit-fraction probabilities for equally likely outcomes"
+    }
+  ],
+  "additional_diagnostics": [
+    {
+      "topic_id": "mt_XfyqXLqzpx",
+      "questions": [
+        {
+          "question": "A spinner has exactly three possible colours with model probabilities 0.2, 0.3 and 0.4. Can this be its complete probability table?",
+          "answer": "No; the probabilities total 0.9, so 0.1 is unaccounted for.",
+          "explanation": "Mutually exclusive outcomes covering every possibility must have probabilities summing to one.",
+          "hints": [
+            "Add the three probabilities.",
+            "Compare the sum with the probability of any outcome occurring."
+          ],
+          "applicability": {
+            "years": [
+              6,
+              7,
+              8
+            ],
+            "standard_ids": [],
+            "notes": "Editorial diagnostic; use the linked curriculum scope and check the learner’s number representations before choosing it. This does not establish an assessment grade."
+          }
+        }
+      ]
+    },
+    {
+      "topic_id": "mt_oqziWKry-L",
+      "questions": [
+        {
+          "question": "Two straight lines cross. One angle is 117°. What are the vertically opposite angle and an adjacent angle?",
+          "answer": "The opposite angle is 117°; an adjacent angle is 63°.",
+          "explanation": "Opposite angles are equal. Adjacent angles on a straight line total 180°.",
+          "hints": [
+            "Identify the angle across the crossing.",
+            "Use the straight line to find the neighbouring angle."
+          ],
+          "applicability": {
+            "years": [
+              6,
+              7
+            ],
+            "standard_ids": [],
+            "notes": "Editorial diagnostic; use the linked curriculum scope and check the learner’s number representations before choosing it. This does not establish an assessment grade."
+          }
+        }
+      ]
+    },
+    {
+      "topic_id": "mt_XWSGuFW7It",
+      "questions": [
+        {
+          "question": "There are 2 red beads for every 3 blue beads. What fraction of the blue count is the red count, and what fraction of all beads is red?",
+          "answer": "The red count is 2/3 of the blue count; 2/5 of all beads are red.",
+          "explanation": "The comparison denominator is three blue parts in the first question and five total parts in the second.",
+          "hints": [
+            "Name the quantity being compared with red in each question.",
+            "Draw two red parts and three blue parts."
+          ],
+          "applicability": {
+            "years": [
+              8,
+              9
+            ],
+            "standard_ids": [],
+            "notes": "Editorial diagnostic; use the linked curriculum scope and check the learner’s number representations before choosing it. This does not establish an assessment grade."
+          }
+        }
+      ]
+    },
+    {
+      "topic_id": "mt_t0g2SlP404",
+      "questions": [
+        {
+          "question": "On a probability scale from 0 to 1, where do impossible, an even chance and certain belong?",
+          "answer": "0, 1/2 and 1 respectively.",
+          "explanation": "The endpoints represent impossible and certain; an even chance sits halfway between them.",
+          "hints": [
+            "Start with the two endpoints.",
+            "Locate the midpoint."
+          ],
+          "applicability": {
+            "years": [
+              5,
+              6,
+              7
+            ],
+            "standard_ids": [],
+            "notes": "Editorial diagnostic; use the linked curriculum scope and check the learner’s number representations before choosing it. This does not establish an assessment grade."
+          }
+        }
+      ]
+    }
+  ],
+  "dependency_edits": [
+    {
+      "prerequisite_id": "mt_SH7QgFl8-v",
+      "topic_id": "mt_hRZyKvz1KN",
+      "action": "remove",
+      "reason": "Full coordinate transformations including rotations are not required for this narrower or earlier skill.",
+      "basis": "pedagogical_inference",
+      "confidence": "medium",
+      "source_ids": [
+        "f_phase2"
+      ],
+      "source_locators": [
+        {
+          "source_id": "f_phase2",
+          "locator": "Mathematics and Statistics teaching sequence; topic scopes support this editorial prerequisite judgement, not an official mandated order"
+        }
+      ]
+    },
+    {
+      "prerequisite_id": "mt_SH7QgFl8-v",
+      "topic_id": "mt_hR2Y7NhMSY",
+      "action": "remove",
+      "reason": "Full coordinate transformations including rotations are not required for this narrower or earlier skill.",
+      "basis": "pedagogical_inference",
+      "confidence": "medium",
+      "source_ids": [
+        "f_phase2"
+      ],
+      "source_locators": [
+        {
+          "source_id": "f_phase2",
+          "locator": "Mathematics and Statistics teaching sequence; topic scopes support this editorial prerequisite judgement, not an official mandated order"
+        }
+      ]
+    },
+    {
+      "prerequisite_id": "mt_SH7QgFl8-v",
+      "topic_id": "mt_Uq5vYqboCR",
+      "action": "remove",
+      "reason": "Full coordinate transformations including rotations are not required for this narrower or earlier skill.",
+      "basis": "pedagogical_inference",
+      "confidence": "medium",
+      "source_ids": [
+        "f_phase2"
+      ],
+      "source_locators": [
+        {
+          "source_id": "f_phase2",
+          "locator": "Mathematics and Statistics teaching sequence; topic scopes support this editorial prerequisite judgement, not an official mandated order"
+        }
+      ]
+    },
+    {
+      "prerequisite_id": "mt_SH7QgFl8-v",
+      "topic_id": "mt_lxaM6iVpdr",
+      "action": "remove",
+      "reason": "Full coordinate transformations including rotations are not required for this narrower or earlier skill.",
+      "basis": "pedagogical_inference",
+      "confidence": "medium",
+      "source_ids": [
+        "f_phase2"
+      ],
+      "source_locators": [
+        {
+          "source_id": "f_phase2",
+          "locator": "Mathematics and Statistics teaching sequence; topic scopes support this editorial prerequisite judgement, not an official mandated order"
+        }
+      ]
+    },
+    {
+      "prerequisite_id": "mt_SH7QgFl8-v",
+      "topic_id": "mt_hVpGOEz2kG",
+      "action": "remove",
+      "reason": "Coordinate transformations use ordered pairs; remove this reverse contextual link to avoid a misleading dependency display.",
+      "basis": "pedagogical_inference",
+      "confidence": "medium",
+      "source_ids": [
+        "f_phase3"
+      ],
+      "source_locators": [
+        {
+          "source_id": "f_phase3",
+          "locator": "Mathematics and Statistics teaching sequence; topic scopes support this editorial prerequisite judgement, not an official mandated order"
+        }
+      ]
+    },
+    {
+      "prerequisite_id": "mt_hR2Y7NhMSY",
+      "topic_id": "mt_lxaM6iVpdr",
+      "action": "set",
+      "strength": "helpful",
+      "reason": "Completing a symmetric figure supports reflection; it is not required for every coordinate translation.",
+      "basis": "pedagogical_inference",
+      "confidence": "medium",
+      "source_ids": [
+        "f_phase2"
+      ],
+      "source_locators": [
+        {
+          "source_id": "f_phase2",
+          "locator": "Mathematics and Statistics teaching sequence; topic scopes support this editorial prerequisite judgement, not an official mandated order"
+        }
+      ]
+    },
+    {
+      "prerequisite_id": "mt_RVK655t391",
+      "topic_id": "mt_hVpGOEz2kG",
+      "action": "set",
+      "strength": "helpful",
+      "reason": "Temperature is one context for negative numbers; thermometer-reading is not essential to coordinate plotting.",
+      "basis": "pedagogical_inference",
+      "confidence": "medium",
+      "source_ids": [
+        "f_phase3"
+      ],
+      "source_locators": [
+        {
+          "source_id": "f_phase3",
+          "locator": "Mathematics and Statistics teaching sequence; topic scopes support this editorial prerequisite judgement, not an official mandated order"
+        }
+      ]
+    },
+    {
+      "prerequisite_id": "mt_uDJY0X0hgo",
+      "topic_id": "mt_hVpGOEz2kG",
+      "action": "set",
+      "strength": "helpful",
+      "reason": "Ordering signed fractions supports later rational coordinates; integer coordinates need only signed whole numbers.",
+      "basis": "pedagogical_inference",
+      "confidence": "medium",
+      "source_ids": [
+        "f_phase3"
+      ],
+      "source_locators": [
+        {
+          "source_id": "f_phase3",
+          "locator": "Mathematics and Statistics teaching sequence; topic scopes support this editorial prerequisite judgement, not an official mandated order"
+        }
+      ]
+    },
+    {
+      "prerequisite_id": "mt_i5_HnoFOYw",
+      "topic_id": "mt_hVpGOEz2kG",
+      "action": "set",
+      "strength": "helpful",
+      "reason": "Completing a polygon from specified points is practice; basic first-quadrant plotting already supplies the required foundation.",
+      "basis": "pedagogical_inference",
+      "confidence": "medium",
+      "source_ids": [
+        "f_phase3"
+      ],
+      "source_locators": [
+        {
+          "source_id": "f_phase3",
+          "locator": "Mathematics and Statistics teaching sequence; topic scopes support this editorial prerequisite judgement, not an official mandated order"
+        }
+      ]
+    },
+    {
+      "prerequisite_id": "mt_Zt30Gxi-qp",
+      "topic_id": "mt_t0g2SlP404",
+      "action": "set",
+      "strength": "helpful",
+      "reason": "Calculating theoretical probabilities illustrates the scale; interpreting the scale does not require the full calculation method.",
+      "basis": "pedagogical_inference",
+      "confidence": "medium",
+      "source_ids": [
+        "f_phase3"
+      ],
+      "source_locators": [
+        {
+          "source_id": "f_phase3",
+          "locator": "Mathematics and Statistics teaching sequence; topic scopes support this editorial prerequisite judgement, not an official mandated order"
+        }
+      ]
+    },
+    {
+      "prerequisite_id": "mt_ZM9mhHsyYZ",
+      "topic_id": "mt_t0g2SlP404",
+      "action": "set",
+      "strength": "helpful",
+      "reason": "Percent conversion is needed for percent-form examples, while endpoints and simple fractions can be learned first.",
+      "basis": "pedagogical_inference",
+      "confidence": "medium",
+      "source_ids": [
+        "f_phase3"
+      ],
+      "source_locators": [
+        {
+          "source_id": "f_phase3",
+          "locator": "Mathematics and Statistics teaching sequence; topic scopes support this editorial prerequisite judgement, not an official mandated order"
+        }
+      ]
+    },
+    {
+      "prerequisite_id": "mt_-bMnJcPJy8",
+      "topic_id": "mt_sHJqh6UUya",
+      "action": "remove",
+      "reason": "Counting occurrences and dividing by trials does not require prior analysis of long-run convergence.",
+      "basis": "pedagogical_inference",
+      "confidence": "medium",
+      "source_ids": [
+        "f_phase3"
+      ],
+      "source_locators": [
+        {
+          "source_id": "f_phase3",
+          "locator": "Mathematics and Statistics teaching sequence; topic scopes support this editorial prerequisite judgement, not an official mandated order"
+        }
+      ]
+    },
+    {
+      "prerequisite_id": "mt_sHJqh6UUya",
+      "topic_id": "mt_GDtFU5fyUv",
+      "action": "set",
+      "strength": "helpful",
+      "reason": "Empirical frequencies can check a theoretical model; listing theoretical outcomes and tree branches does not require empirical estimation.",
+      "basis": "pedagogical_inference",
+      "confidence": "medium",
+      "source_ids": [
+        "f_phase3"
+      ],
+      "source_locators": [
+        {
+          "source_id": "f_phase3",
+          "locator": "Mathematics and Statistics teaching sequence; topic scopes support this editorial prerequisite judgement, not an official mandated order"
+        }
+      ]
+    },
+    {
+      "prerequisite_id": "mt_XfyqXLqzpx",
+      "topic_id": "mt_1YwOCMMwD8",
+      "action": "set",
+      "strength": "helpful",
+      "reason": "Complementary probabilities illustrate sets; classifying elements and drawing a Venn diagram can precede probability calculations.",
+      "basis": "pedagogical_inference",
+      "confidence": "medium",
+      "source_ids": [
+        "f_phase3"
+      ],
+      "source_locators": [
+        {
+          "source_id": "f_phase3",
+          "locator": "Mathematics and Statistics teaching sequence; topic scopes support this editorial prerequisite judgement, not an official mandated order"
+        }
+      ]
+    },
+    {
+      "prerequisite_id": "mt_Ep7TDFuYUa",
+      "topic_id": "mt_FbDKeLfBCo",
+      "action": "remove",
+      "reason": "Area and strip models establish equivalence without first locating fractions on a number line.",
+      "basis": "pedagogical_inference",
+      "confidence": "medium",
+      "source_ids": [
+        "f_phase2"
+      ],
+      "source_locators": [
+        {
+          "source_id": "f_phase2",
+          "locator": "Mathematics and Statistics teaching sequence; topic scopes support this editorial prerequisite judgement, not an official mandated order"
+        }
+      ]
+    },
+    {
+      "prerequisite_id": "mt_Ep7TDFuYUa",
+      "topic_id": "mt_ebPelt-qAl",
+      "action": "set",
+      "strength": "helpful",
+      "reason": "Number-line equivalence is a second representation; area models already justify scaling numerator and denominator.",
+      "basis": "pedagogical_inference",
+      "confidence": "medium",
+      "source_ids": [
+        "f_phase2"
+      ],
+      "source_locators": [
+        {
+          "source_id": "f_phase2",
+          "locator": "Mathematics and Statistics teaching sequence; topic scopes support this editorial prerequisite judgement, not an official mandated order"
+        }
+      ]
+    },
+    {
+      "prerequisite_id": "mt_FnUJMXPUZX",
+      "topic_id": "mt_XWSGuFW7It",
+      "action": "set",
+      "strength": "helpful",
+      "reason": "Unequal-sharing problems apply ratios; core notation and scaling do not require prior mastery of that application.",
+      "basis": "pedagogical_inference",
+      "confidence": "medium",
+      "source_ids": [
+        "f_phase3"
+      ],
+      "source_locators": [
+        {
+          "source_id": "f_phase3",
+          "locator": "Mathematics and Statistics teaching sequence; topic scopes support this editorial prerequisite judgement, not an official mandated order"
+        }
+      ]
+    },
+    {
+      "prerequisite_id": "mt_FspV_imUGK",
+      "topic_id": "mt_XWSGuFW7It",
+      "action": "set",
+      "strength": "helpful",
+      "reason": "Proportion graphs illustrate multiplicative relationships; ratio notation can be established using quantities and factors first.",
+      "basis": "pedagogical_inference",
+      "confidence": "medium",
+      "source_ids": [
+        "f_phase3"
+      ],
+      "source_locators": [
+        {
+          "source_id": "f_phase3",
+          "locator": "Mathematics and Statistics teaching sequence; topic scopes support this editorial prerequisite judgement, not an official mandated order"
+        }
+      ]
+    },
+    {
+      "prerequisite_id": "mt_xAf2bu9wYK",
+      "topic_id": "mt_XWSGuFW7It",
+      "action": "set",
+      "strength": "helpful",
+      "reason": "Fraction comparisons support part-to-part and part-to-whole extensions; whole-number ratio notation can be introduced first.",
+      "basis": "pedagogical_inference",
+      "confidence": "medium",
+      "source_ids": [
+        "f_phase3"
+      ],
+      "source_locators": [
+        {
+          "source_id": "f_phase3",
+          "locator": "Mathematics and Statistics teaching sequence; topic scopes support this editorial prerequisite judgement, not an official mandated order"
+        }
+      ]
+    },
+    {
+      "prerequisite_id": "mt_5mIcmKRCgA",
+      "topic_id": "mt_kLQOzZYrd5",
+      "action": "set",
+      "strength": "helpful",
+      "reason": "Direct and inverse proportion extend rates; a basic compound rate only requires division and compatible units.",
+      "basis": "pedagogical_inference",
+      "confidence": "medium",
+      "source_ids": [
+        "f_phase4"
+      ],
+      "source_locators": [
+        {
+          "source_id": "f_phase4",
+          "locator": "Mathematics and Statistics teaching sequence; topic scopes support this editorial prerequisite judgement, not an official mandated order"
+        }
+      ]
+    },
+    {
+      "prerequisite_id": "mt_FspV_imUGK",
+      "topic_id": "mt_5mIcmKRCgA",
+      "action": "set",
+      "strength": "helpful",
+      "reason": "A graph represents proportion; constant-ratio or constant-product reasoning can be developed numerically.",
+      "basis": "pedagogical_inference",
+      "confidence": "medium",
+      "source_ids": [
+        "f_phase4"
+      ],
+      "source_locators": [
+        {
+          "source_id": "f_phase4",
+          "locator": "Mathematics and Statistics teaching sequence; topic scopes support this editorial prerequisite judgement, not an official mandated order"
+        }
+      ]
+    },
+    {
+      "prerequisite_id": "mt_nOCPx5qw0Z",
+      "topic_id": "mt_5mIcmKRCgA",
+      "action": "set",
+      "strength": "helpful",
+      "reason": "Sharing in a ratio is one application of multiplicative reasoning, not a prerequisite to every proportion problem.",
+      "basis": "pedagogical_inference",
+      "confidence": "medium",
+      "source_ids": [
+        "f_phase4"
+      ],
+      "source_locators": [
+        {
+          "source_id": "f_phase4",
+          "locator": "Mathematics and Statistics teaching sequence; topic scopes support this editorial prerequisite judgement, not an official mandated order"
+        }
+      ]
+    },
+    {
+      "prerequisite_id": "mt_89riIKwGYp",
+      "topic_id": "mt_oqziWKry-L",
+      "action": "set",
+      "strength": "helpful",
+      "reason": "Adding measured parts supports angle sums, but full-turn and straight-line facts can be introduced directly.",
+      "basis": "pedagogical_inference",
+      "confidence": "medium",
+      "source_ids": [
+        "f_phase2"
+      ],
+      "source_locators": [
+        {
+          "source_id": "f_phase2",
+          "locator": "Mathematics and Statistics teaching sequence; topic scopes support this editorial prerequisite judgement, not an official mandated order"
+        }
+      ]
+    },
+    {
+      "prerequisite_id": "mt_oqziWKry-L",
+      "topic_id": "mt_89riIKwGYp",
+      "action": "set",
+      "strength": "helpful",
+      "reason": "Standard angle totals provide examples; adding two given angle measures does not require all line and opposite-angle facts.",
+      "basis": "pedagogical_inference",
+      "confidence": "medium",
+      "source_ids": [
+        "f_phase2"
+      ],
+      "source_locators": [
+        {
+          "source_id": "f_phase2",
+          "locator": "Mathematics and Statistics teaching sequence; topic scopes support this editorial prerequisite judgement, not an official mandated order"
+        }
+      ]
+    },
+    {
+      "prerequisite_id": "mt_8atyuvPUZc",
+      "topic_id": "mt_BdAeZJUOir",
+      "action": "remove",
+      "reason": "Prediction from a fitted trend follows interpretation of paired points; it is not required before constructing a scatter plot.",
+      "basis": "pedagogical_inference",
+      "confidence": "medium",
+      "source_ids": [
+        "f_phase4"
+      ],
+      "source_locators": [
+        {
+          "source_id": "f_phase4",
+          "locator": "Mathematics and Statistics teaching sequence; topic scopes support this editorial prerequisite judgement, not an official mandated order"
+        }
+      ]
+    },
+    {
+      "prerequisite_id": "mt_XSXnTQoQ4l",
+      "topic_id": "mt_8atyuvPUZc",
+      "action": "set",
+      "strength": "helpful",
+      "reason": "Comparing univariate averages and spreads can support context; prediction from a supplied bivariate trend does not require those calculations.",
+      "basis": "pedagogical_inference",
+      "confidence": "medium",
+      "source_ids": [
+        "f_phase4"
+      ],
+      "source_locators": [
+        {
+          "source_id": "f_phase4",
+          "locator": "Mathematics and Statistics teaching sequence; topic scopes support this editorial prerequisite judgement, not an official mandated order"
+        }
+      ]
+    },
+    {
+      "prerequisite_id": "mt_fmm-P17Vka",
+      "topic_id": "mt_8atyuvPUZc",
+      "action": "set",
+      "strength": "helpful",
+      "reason": "Relevant terms can be introduced with the plot; the entire statistical vocabulary bundle is not required first.",
+      "basis": "pedagogical_inference",
+      "confidence": "medium",
+      "source_ids": [
+        "f_phase4"
+      ],
+      "source_locators": [
+        {
+          "source_id": "f_phase4",
+          "locator": "Mathematics and Statistics teaching sequence; topic scopes support this editorial prerequisite judgement, not an official mandated order"
+        }
+      ]
+    },
+    {
+      "prerequisite_id": "mt_-3udyo6VyB",
+      "topic_id": "mt_GZuoYaDdWd",
+      "action": "set",
+      "strength": "helpful",
+      "reason": "Plotting lines offers practice; plotting a quadratic directly requires coordinates, substitution and squares, not gradient calculation.",
+      "basis": "pedagogical_inference",
+      "confidence": "medium",
+      "source_ids": [
+        "f_phase4"
+      ],
+      "source_locators": [
+        {
+          "source_id": "f_phase4",
+          "locator": "Mathematics and Statistics teaching sequence; topic scopes support this editorial prerequisite judgement, not an official mandated order"
+        }
+      ]
+    },
+    {
+      "prerequisite_id": "mt_-3udyo6VyB",
+      "topic_id": "mt_Yw27nweoTj",
+      "action": "set",
+      "strength": "helpful",
+      "reason": "Constructing a line and calculating gradient support understanding but are not required to read values from a supplied graph.",
+      "basis": "pedagogical_inference",
+      "confidence": "medium",
+      "source_ids": [
+        "f_phase4"
+      ],
+      "source_locators": [
+        {
+          "source_id": "f_phase4",
+          "locator": "Mathematics and Statistics teaching sequence; topic scopes support this editorial prerequisite judgement, not an official mandated order"
+        }
+      ]
+    },
+    {
+      "prerequisite_id": "mt_hVpGOEz2kG",
+      "topic_id": "mt_Yw27nweoTj",
+      "action": "set",
+      "strength": "hard",
+      "reason": "Reading a plotted input-output pair requires interpreting the coordinate axes.",
+      "basis": "pedagogical_inference",
+      "confidence": "medium",
+      "source_ids": [
+        "f_phase4"
+      ],
+      "source_locators": [
+        {
+          "source_id": "f_phase4",
+          "locator": "Mathematics and Statistics teaching sequence; topic scopes support this editorial prerequisite judgement, not an official mandated order"
+        }
+      ]
+    },
+    {
+      "prerequisite_id": "mt_GZuoYaDdWd",
+      "topic_id": "nzm_graphical_equation_solutions",
+      "action": "set",
+      "strength": "helpful",
+      "reason": "Knowing this function family helps interpret its graph, but intersections of supplied graphs can be read without constructing that family.",
+      "basis": "pedagogical_inference",
+      "confidence": "medium",
+      "source_ids": [
+        "f_phase4"
+      ],
+      "source_locators": [
+        {
+          "source_id": "f_phase4",
+          "locator": "Mathematics and Statistics teaching sequence; topic scopes support this editorial prerequisite judgement, not an official mandated order"
+        }
+      ]
+    },
+    {
+      "prerequisite_id": "mt_WBdHkc2HTf",
+      "topic_id": "nzm_graphical_equation_solutions",
+      "action": "set",
+      "strength": "helpful",
+      "reason": "Knowing this function family helps interpret its graph, but intersections of supplied graphs can be read without constructing that family.",
+      "basis": "pedagogical_inference",
+      "confidence": "medium",
+      "source_ids": [
+        "f_phase4"
+      ],
+      "source_locators": [
+        {
+          "source_id": "f_phase4",
+          "locator": "Mathematics and Statistics teaching sequence; topic scopes support this editorial prerequisite judgement, not an official mandated order"
+        }
+      ]
+    },
+    {
+      "prerequisite_id": "mt_Yw27nweoTj",
+      "topic_id": "nzm_graphical_equation_solutions",
+      "action": "set",
+      "strength": "hard",
+      "reason": "Interpreting intersections as equal outputs first requires reading inputs and outputs from supplied graphs.",
+      "basis": "pedagogical_inference",
+      "confidence": "medium",
+      "source_ids": [
+        "f_phase4"
+      ],
+      "source_locators": [
+        {
+          "source_id": "f_phase4",
+          "locator": "Mathematics and Statistics teaching sequence; topic scopes support this editorial prerequisite judgement, not an official mandated order"
+        }
+      ]
+    },
+    {
+      "prerequisite_id": "mt_lU-2aTRB9f",
+      "topic_id": "mt_Cg8VPguS_V",
+      "action": "set",
+      "strength": "helpful",
+      "reason": "Decimal arithmetic supports decimal datasets; introduce the mean using whole-number totals and exact division first.",
+      "basis": "pedagogical_inference",
+      "confidence": "medium",
+      "source_ids": [
+        "f_phase3"
+      ],
+      "source_locators": [
+        {
+          "source_id": "f_phase3",
+          "locator": "Mathematics and Statistics teaching sequence; topic scopes support this editorial prerequisite judgement, not an official mandated order"
+        }
+      ]
+    },
+    {
+      "prerequisite_id": "mt_JH_6RpNWjr",
+      "topic_id": "mt_Cg8VPguS_V",
+      "action": "set",
+      "strength": "helpful",
+      "reason": "Decimal arithmetic supports decimal datasets; introduce the mean using whole-number totals and exact division first.",
+      "basis": "pedagogical_inference",
+      "confidence": "medium",
+      "source_ids": [
+        "f_phase3"
+      ],
+      "source_locators": [
+        {
+          "source_id": "f_phase3",
+          "locator": "Mathematics and Statistics teaching sequence; topic scopes support this editorial prerequisite judgement, not an official mandated order"
+        }
+      ]
+    },
+    {
+      "prerequisite_id": "mt_3y7xKP9MjU",
+      "topic_id": "nzm_whole_from_fractional_part",
+      "action": "set",
+      "strength": "helpful",
+      "reason": "Finding a fraction of an amount provides the inverse connection, but a whole can first be recovered by equal-part grouping.",
+      "basis": "pedagogical_inference",
+      "confidence": "medium",
+      "source_ids": [
+        "f_phase2"
+      ],
+      "source_locators": [
+        {
+          "source_id": "f_phase2",
+          "locator": "Mathematics and Statistics teaching sequence; topic scopes support this editorial prerequisite judgement, not an official mandated order"
+        }
+      ]
+    },
+    {
+      "prerequisite_id": "mt_PZ909yPrEC",
+      "topic_id": "nzm_whole_from_fractional_part",
+      "action": "set",
+      "strength": "hard",
+      "reason": "Recover one equal part if necessary, then multiply by the number of parts in the whole.",
+      "basis": "pedagogical_inference",
+      "confidence": "medium",
+      "source_ids": [
+        "f_phase2"
+      ],
+      "source_locators": [
+        {
+          "source_id": "f_phase2",
+          "locator": "Mathematics and Statistics teaching sequence; topic scopes support this editorial prerequisite judgement, not an official mandated order"
+        }
+      ]
+    },
+    {
+      "prerequisite_id": "mt_LpSuPgL31x",
+      "topic_id": "nzm_whole_from_fractional_part",
+      "action": "set",
+      "strength": "hard",
+      "reason": "Recover one equal part if necessary, then multiply by the number of parts in the whole.",
+      "basis": "pedagogical_inference",
+      "confidence": "medium",
+      "source_ids": [
+        "f_phase2"
+      ],
+      "source_locators": [
+        {
+          "source_id": "f_phase2",
+          "locator": "Mathematics and Statistics teaching sequence; topic scopes support this editorial prerequisite judgement, not an official mandated order"
+        }
+      ]
+    },
+    {
+      "prerequisite_id": "mt_ndGqFPWyen",
+      "topic_id": "nzm_whole_from_fractional_part",
+      "action": "set",
+      "strength": "hard",
+      "reason": "Recover one equal part if necessary, then multiply by the number of parts in the whole.",
+      "basis": "pedagogical_inference",
+      "confidence": "medium",
+      "source_ids": [
+        "f_phase2"
+      ],
+      "source_locators": [
+        {
+          "source_id": "f_phase2",
+          "locator": "Mathematics and Statistics teaching sequence; topic scopes support this editorial prerequisite judgement, not an official mandated order"
+        }
+      ]
+    },
+    {
+      "prerequisite_id": "mt_QysgF57dxh",
+      "topic_id": "mt_oDlduFnemk",
+      "action": "set",
+      "strength": "helpful",
+      "reason": "Line and angle vocabulary helps describe perpendicular axes; the full bundle of rays, angle classification and constructions is not required to introduce ordered pairs.",
+      "basis": "pedagogical_inference",
+      "confidence": "medium",
+      "source_ids": [
+        "f_phase3"
+      ],
+      "source_locators": [
+        {
+          "source_id": "f_phase3",
+          "locator": "Mathematics and Statistics teaching sequence; content scopes support editorial order, not an official mandated prerequisite"
+        }
+      ]
+    },
+    {
+      "prerequisite_id": "mt_cFltwUQi-d",
+      "topic_id": "mt_ndGqFPWyen",
+      "action": "set",
+      "strength": "helpful",
+      "reason": "Finding fractions of quantities is an application of equal parts; unit and non-unit fractions can be introduced using partitioned shapes first.",
+      "basis": "pedagogical_inference",
+      "confidence": "medium",
+      "source_ids": [
+        "f_phase2"
+      ],
+      "source_locators": [
+        {
+          "source_id": "f_phase2",
+          "locator": "Mathematics and Statistics teaching sequence; content scopes support editorial order, not an official mandated prerequisite"
+        }
+      ]
+    },
+    {
+      "prerequisite_id": "mt_MyGblah2yY",
+      "topic_id": "mt_FbDKeLfBCo",
+      "action": "set",
+      "strength": "helpful",
+      "reason": "Writing fraction-of-amount statements is useful practice; repartitioning a shape can establish equivalence directly.",
+      "basis": "pedagogical_inference",
+      "confidence": "medium",
+      "source_ids": [
+        "f_phase2"
+      ],
+      "source_locators": [
+        {
+          "source_id": "f_phase2",
+          "locator": "Mathematics and Statistics teaching sequence; content scopes support editorial order, not an official mandated prerequisite"
+        }
+      ]
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "scripts": {
     "validate": "node scripts/validate.mjs",
     "dev": "npm run build && wrangler pages dev dist",
-    "build": "vite build && node scripts/build-pages.mjs",
+    "build": "vite build && node scripts/build-pages.mjs && tsx scripts/export-graph.ts",
     "typecheck": "tsc --noEmit && tsc -p tsconfig.web.json --noEmit",
     "test": "tsx --test tests/*.test.ts",
     "deploy": "npm run build && wrangler pages deploy dist --project-name nz-learning-graph"

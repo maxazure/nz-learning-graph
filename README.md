@@ -61,10 +61,12 @@ Cloudflare Pages project: `nz-learning-graph`. Custom domain: `edu.w1.nz`. No D1
 
 ## Open data and licences
 
-Forked from [Marble Skill Taxonomy](https://github.com/withmarbleapp/os-taxonomy). The original 1,590 topics and 3,221 dependencies are preserved; 16 NZ activities add 32 connections, forming the original 1,606-topic baseline. The 2026-10-18 maths supplement adds 264 topics, enriches 152 existing topics and adds/revises dependencies, producing 1,870 topics and 4,004 distinct edges.
+Forked from [Marble Skill Taxonomy](https://github.com/withmarbleapp/os-taxonomy). The original 1,590 topics and 3,221 dependencies are preserved as source archives; 16 NZ activities add 32 connections, forming the original 1,606-topic baseline. The 2026-10-18 maths supplement adds 264 topics and enriches 152 existing topics. Subsequent [maths curation](docs/maths-curation.md) consolidates 11 duplicate records, clarifies misleading headings and revises 42 prerequisite pairs. The active website and MCP use 1,859 topics and 3,981 distinct edges, with 458 diagnostics and all 1,287 scoped mappings.
 
 Marble Skill Taxonomy (v1) · © Generative Spark, Inc. (Marble) · https://withmarble.com. Database and derivative under [ODbL 1.0](LICENSE); Marble-authored and adapted content under [CC BY-SA 4.0](LICENSE-CONTENT). Third-party material retains its upstream terms in [PROVENANCE.md](PROVENANCE.md). App code is [MIT](LICENSE-CODE).
 
 Supplement files: `/open-data/nz-maths/README.md` and the other files in that directory.
+
+Current downloads: `/open-data/current/manifest.json`, `topics.json`, `dependencies.json`, `curriculum-mappings.json`, `standards.json`, `curriculum-requirements.json`, `sources.json` and `maths-curation.json` in the same directory. These are exported from the same runtime used by the website and MCP. Retired duplicate IDs are source provenance only, not public aliases.
 
 Original downloads: `/open-data/topics.json`, `/open-data/dependencies.json`, `/open-data/nz-overlay.json`. Sources are documented in [NZ curriculum context](docs/nz-curriculum.md). [Suggest a correction](https://github.com/maxazure/nz-learning-graph/issues).

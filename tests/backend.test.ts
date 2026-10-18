@@ -50,3 +50,12 @@ test('MCP serves senior pedagogy, scoped standards and prerequisite evidence',as
  const context=await get('get_curriculum_context','nzm_chain_rule');assert.ok(context.standards.length);assert.ok(context.frameworks.length);assert.ok(context.coverageGaps.length);
  const edges=await get('get_prerequisites','nzm_chain_rule');assert.ok(edges.some((e:any)=>e.basis==='pedagogical_inference'&&e.source_ids.length));
 });
+
+test('MCP serves consolidated maths topics and corrected introductory paths',async()=>{
+ const get=async(name:string,args:unknown)=>{const response=await rpc(30,'tools/call',{name,arguments:args});assert.equal(response.status,200);return (await response.json() as any).result;};
+ const merged=JSON.parse((await get('get_topic',{id:'mt_XfyqXLqzpx'})).content[0].text).data;
+ assert.ok(merged.sourceTopicIds.includes('mt_3fwYu7imd4'));assert.equal(merged.teaching.diagnostic_questions.length,2);
+ assert.equal(JSON.parse((await get('get_topic',{id:'mt_3fwYu7imd4'})).content[0].text).data.error,'Topic not found');
+ const path=JSON.parse((await get('create_learning_path',{id:'mt_hRZyKvz1KN'})).content[0].text).data;
+ assert.equal(path.steps.at(-1).id,'mt_hRZyKvz1KN');assert.ok(!path.steps.some((s:any)=>s.id==='mt_SH7QgFl8-v'));
+});

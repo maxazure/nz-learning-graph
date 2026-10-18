@@ -6,15 +6,38 @@ import enrichments from '../data/nz-maths/topic-enrichments.json';
 import mappings from '../data/nz-maths/curriculum-mappings.json';
 import edges from '../data/nz-maths/dependencies.json';
 import references from '../data/nz-maths/sources.json';
+import {canonicalTopicId,canonicalTopicIds,mathsCuration,topicPatch} from './curation';
 
 export type TeachingProfile = typeof additions[number] | typeof enrichments[number];
 export type CurriculumMapping = typeof mappings[number];
-export const mathsProfiles = new Map<string, TeachingProfile>([...additions,...enrichments].map(t=>[t.id,t]));
+export const mathsProfiles = new Map<string, TeachingProfile>([...additions,...enrichments].map(t=>{
+ const patch=topicPatch(t.id);
+ const extra=mathsCuration.additional_diagnostics.find(d=>d.topic_id===t.id)?.questions||[];
+ return [t.id,{
+  ...t,
+  ...(patch?.name?{name:patch.name}:{}),
+  ...(patch?.description?{description:patch.description}:{}),
+  ...(patch?.learning_objectives?{learning_objectives:patch.learning_objectives}:{}),
+  understanding_evidence:[...t.understanding_evidence,...extra.map(q=>`Can explain: ${q.explanation}`)],
+  // Start with scale interpretation before offering the percent-conversion extension.
+  diagnostic_questions:t.id==='mt_t0g2SlP404'?[...extra,...t.diagnostic_questions]:[...t.diagnostic_questions,...extra],
+  curriculum_mapping_ids:mappings.filter(m=>canonicalTopicId(m.topic_id)===t.id).map(m=>m.id),
+ }];
+}));
 export const mathsAdditions = additions;
-export const curriculumMappings = mappings;
+export const curriculumMappings = mappings.map(m=>({...m,topic_id:canonicalTopicId(m.topic_id)}));
+export const curriculumStandards = /* @__PURE__ */ standards.map(s=>({...s,topic_ids:canonicalTopicIds(s.topic_ids)}));
+export const curriculumRequirements = /* @__PURE__ */ requirements.map(r=>({
+ ...r,topic_ids:canonicalTopicIds(r.topic_ids),
+ components:r.components?.map(c=>({
+  ...c,topic_ids:canonicalTopicIds(c.topic_ids),
+  same_stage_mapped_topic_ids:canonicalTopicIds(c.same_stage_mapped_topic_ids),
+  supporting_topic_ids_without_same_stage_mapping:canonicalTopicIds(c.supporting_topic_ids_without_same_stage_mapping),
+ })),
+}));
 export const mathsSources = references.map(s=>({...s,id:s.source_id}));
 export const mathsDependencies = edges.map(d=>({...d,topicId:d.topic_id,prerequisiteId:d.prerequisite_id}));
-export function topicMappings(id:string) {return mappings.filter(m=>m.topic_id===id);}
+export function topicMappings(id:string) {return curriculumMappings.filter(m=>m.topic_id===id);}
 // Search bands only: retain the exact phase/time-in-school label in each mapping.
 // NCEA qualification levels never assign a school year.
 export function mappedYears(id:string):number[] {
@@ -32,5 +55,5 @@ export function mappedYears(id:string):number[] {
 
 export function curriculumContext(id:string){
  const mappings=topicMappings(id);
- return {mappings,frameworks:frameworks.filter(f=>mappings.some(m=>m.framework===f.framework_id)),standards:standards.filter(s=>mappings.some(m=>m.standard_id===s.standard_id)),coverageGaps:requirements.filter(r=>r.coverage_status==='partial'),note:'Mappings are scoped editorial alignments. Research coverage is not a guarantee of every curriculum requirement or assessment grade boundary.'};
+ return {mappings,frameworks:frameworks.filter(f=>mappings.some(m=>m.framework===f.framework_id)),standards:curriculumStandards.filter(s=>mappings.some(m=>m.standard_id===s.standard_id)),coverageGaps:curriculumRequirements.filter(r=>r.coverage_status==='partial'),note:'Mappings are scoped editorial alignments. Research coverage is not a guarantee of every curriculum requirement or assessment grade boundary.'};
 }

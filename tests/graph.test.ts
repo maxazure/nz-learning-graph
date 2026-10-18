@@ -28,7 +28,7 @@ test('NZ layer carries sources and explicit review state',()=>{
 });
 
 test('maths supplement retains exact mappings, pedagogy and qualified dependency evidence',()=>{
- assert.equal(topics.length,1870);assert.equal(dependencies.length,4004);
+ assert.equal(topics.length,1859);assert.equal(dependencies.length,3981);
  assert.equal(new Set(dependencies.map(d=>`${d.prerequisiteId}:${d.topicId}`)).size,dependencies.length);
  assert.equal(topics.filter(t=>t.teaching).length,416);
  const mappings=topics.flatMap(t=>t.curriculumMappings||[]);

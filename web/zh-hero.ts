@@ -27,7 +27,7 @@ export default {
 "NZ mapped topics / activities only":"仅显示有新西兰映射的知识点和活动",
 "Year filters include mapped maths and NZ activities. Suggested years help you search; read the specific curriculum scope. NCEA levels do not equal school years.":"年级筛选包含已映射的数学知识点和新西兰活动。建议年级用于检索，请查看具体课程范围；NCEA 等级与学校年级需分别理解。",
 "The original Marble graph is joined by 16 NZ activities and a maths supplement spanning Years 0–13. It adds 264 topics and enriches 152 existing topics, with diagnostic questions, hints and separate curriculum mappings. Research drafts and remaining coverage gaps are documented.":"在 Marble 原始图谱和 16 个新西兰活动基础上，数学补充资料涉及 Years 0–13，新增 264 个知识点，并为 152 个已有知识点补充教学内容，包含诊断题、提示和独立课程映射。研究稿状态和待补缺口均有记录。",
-"1,870 topics and 4,004 connections help your AI find the small steps behind a bigger learning goal.":"1,870 个知识点、4,004 条关联，帮助 AI 查找一个学习目标背后需要掌握的基础。"
+"1,859 topics and 3,981 connections help your AI find the small steps behind a bigger learning goal.":"1,859 个知识点、3,981 条关联，帮助 AI 查找一个学习目标背后需要掌握的基础。"
 ,
 "What does “below expectations” mean in NZ?":"新西兰的“未达预期”怎么说？",
 "For Years 0–10, reports use progress descriptors: Emerging, Developing, Consolidating, Proficient and Exceeding. Their meaning depends on the point in the school year. For an NCEA standard, a result below the criteria is called Not Achieved.":"Years 0–10 的报告使用 Emerging、Developing、Consolidating、Proficient、Exceeding 描述学习进展，需要结合学年中的时间理解。若是 NCEA 单项标准评估，没有达到标准要求称为 Not Achieved。",

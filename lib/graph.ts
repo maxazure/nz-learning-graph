@@ -3,19 +3,39 @@ export {curriculumMappings,topicMappings} from './maths';
 import original from '../data/topics.json';
 import relations from '../data/dependencies.json';
 import overlay from '../data/nz-overlay.json';
+import {canonicalTopicId,mathsCuration,sourceTopicIds,topicPatch} from './curation';
 
 export interface Topic {
  id:string; type:string; subject:string; domain:string; name:string; description:string;
  ageRangeStart:number|null; ageRangeEnd:number|null; centrality:number; evidence:string[]; assessmentPrompt:string; standards:string[];
  teaching?:TeachingProfile; curriculumMappings?:CurriculumMapping[]; suggestedYears?:number[];
+ sourceTopicIds?:string[];
  nz?: {suggestedYears:number[];sourceIds:string[];mappingStatus:string;teacherReviewed:boolean;localContext:string;parentActivity:string};
 }
 const base:Topic[] = [...original.topics,...overlay.topics];
 const originalById=new Map(base.map(t=>[t.id,t]));
-export function topicSearchText(t:Topic){const old=originalById.get(t.id);return `${t.name} ${t.description} ${t.domain} ${t.nz?.localContext||''} ${old?.name||''} ${old?.description||''}`.toLowerCase();}
-export const topics:Topic[] = [...base,...mathsAdditions.map(t=>({id:t.id,type:t.node_type,subject:t.subject,domain:t.domain,name:t.name,description:t.description,ageRangeStart:null,ageRangeEnd:null,centrality:0,evidence:t.understanding_evidence,assessmentPrompt:t.diagnostic_questions[0].question,standards:[]}))].map(t=>{
+export function topicSearchText(t:Topic){
+ const originals=sourceTopicIds(t.id).map(id=>originalById.get(id));
+ return `${t.name} ${t.description} ${t.domain} ${t.nz?.localContext||''} ${originals.map(old=>`${old?.name||''} ${old?.description||''}`).join(' ')}`.toLowerCase();
+}
+export const topics:Topic[] = [...base,...mathsAdditions.map(t=>({id:t.id,type:t.node_type,subject:t.subject,domain:t.domain,name:t.name,description:t.description,ageRangeStart:null,ageRangeEnd:null,centrality:0,evidence:t.understanding_evidence,assessmentPrompt:t.diagnostic_questions[0].question,standards:[]}))].filter(t=>canonicalTopicId(t.id)===t.id).map(t=>{
  const teaching=mathsProfiles.get(t.id), mappings=topicMappings(t.id);
- return {...t,...(teaching?{name:teaching.name,description:teaching.description,evidence:teaching.understanding_evidence,assessmentPrompt:teaching.diagnostic_questions[0].question,teaching}:{}),...(mappings.length?{curriculumMappings:mappings,suggestedYears:mappedYears(t.id)}:{})};
+ const members=sourceTopicIds(t.id),patch=topicPatch(t.id);
+ const originals=members.map(id=>originalById.get(id)).filter((t):t is Topic=>!!t);
+ return {
+  ...t,
+  ...(teaching?{name:teaching.name,description:teaching.description,evidence:teaching.understanding_evidence,assessmentPrompt:teaching.diagnostic_questions[0].question,teaching}:{}),
+  ...(members.length>1?{
+   sourceTopicIds:members,
+   evidence:[...new Set([...originals.flatMap(o=>o.evidence),...(teaching?.understanding_evidence||[])])],
+   standards:[...new Set(originals.flatMap(o=>o.standards))],
+  }:{}),
+  ...(patch?.name?{name:patch.name}:{}),
+  ...(patch?.description?{description:patch.description}:{}),
+  ...(patch?.evidence?{evidence:patch.evidence}:{}),
+  ...(patch?.assessmentPrompt?{assessmentPrompt:patch.assessmentPrompt}:{}),
+  ...(mappings.length?{curriculumMappings:mappings,suggestedYears:mappedYears(t.id)}:{}),
+ };
 });
 export const sources = [...overlay.sources,...mathsSources];
 export interface Dependency {topicId:string;prerequisiteId:string;strength:string;reason:string;basis?:string;confidence?:string;source_ids?:string[];source_locators?:unknown[]}
@@ -23,7 +43,31 @@ const baseline:Dependency[] = [...relations.dependencies.map(d=>({...d,strength:
 // Supplement metadata replaces a matching endpoint pair; it is never appended twice.
 const edgeMap=new Map(baseline.map(d=>[`${d.prerequisiteId}:${d.topicId}`,d]));
 for(const d of mathsDependencies)edgeMap.set(`${d.prerequisiteId}:${d.topicId}`,d);
-export const dependencies:Dependency[]=[...edgeMap.values()];
+const curatedEdges=new Map<string,Dependency>();
+for(const d of edgeMap.values()){
+ const prerequisiteId=canonicalTopicId(d.prerequisiteId),topicId=canonicalTopicId(d.topicId);
+ if(prerequisiteId===topicId)continue;
+ const key=`${prerequisiteId}:${topicId}`,previous=curatedEdges.get(key);
+ // Strip duplicate snake-case endpoints so callers have one authoritative pair.
+ const {strength,reason,basis,confidence,source_ids,source_locators}=d;
+ const current:Dependency={prerequisiteId,topicId,strength,reason,...(basis?{basis}:{}),...(confidence?{confidence}:{}),...(source_ids?{source_ids}:{}),...(source_locators?{source_locators}:{} )};
+ if(previous){
+  current.basis ||= previous.basis;
+  current.confidence ||= previous.confidence;
+  current.strength=previous.strength==='hard'||strength==='hard'?'hard':'helpful';
+  current.reason=[...new Set([previous.reason,reason])].join(' ');
+  current.source_ids=[...new Set([...(previous.source_ids||[]),...(source_ids||[])])];
+  current.source_locators=[...new Map([...(previous.source_locators||[]),...(source_locators||[])].map(s=>[JSON.stringify(s),s])).values()];
+ }
+ curatedEdges.set(key,current);
+}
+// Reviewed decisions run after endpoint consolidation, including every strength conflict.
+for(const d of mathsCuration.dependency_edits){
+ const key=`${d.prerequisite_id}:${d.topic_id}`;
+ if(d.action==='remove')curatedEdges.delete(key);
+ else curatedEdges.set(key,{prerequisiteId:d.prerequisite_id,topicId:d.topic_id,strength:d.strength!,reason:d.reason,basis:d.basis,confidence:d.confidence,source_ids:d.source_ids,source_locators:d.source_locators});
+}
+export const dependencies:Dependency[]=[...curatedEdges.values()];
 export function yearsForTopic(t:Topic){return t.suggestedYears||t.nz?.suggestedYears||[];}
 const byId = new Map(topics.map(t=>[t.id,t]));
 export const subjects = [...new Set(topics.map(t=>t.subject))].sort();
