@@ -1,9 +1,13 @@
 import {setupLanguage} from './i18n';
-import {setupExplorer} from './explorer';
 import {setupConnections} from './connections';
-setupExplorer();setupLanguage();setupConnections();
+setupLanguage();setupConnections();
+let explorerReady:Promise<void>|undefined;
+function loadExplorer(){return explorerReady??=import('./explorer').then(m=>m.setupExplorer());}
+const mapObserver=new IntersectionObserver(entries=>{if(entries.some(e=>e.isIntersecting)){void loadExplorer();mapObserver.disconnect();}},{rootMargin:'500px'});
+mapObserver.observe(document.querySelector('#map')!);
+if(location.hash.startsWith('#map')||location.hash.includes('topic='))void loadExplorer();
 const hero=document.querySelector<HTMLFormElement>('#hero-search')!;
-function search(value:string){document.querySelector<HTMLSelectElement>('#subject-filter')!.value='';document.querySelector<HTMLSelectElement>('#year-filter')!.value='';document.querySelector<HTMLInputElement>('#nz-only')!.checked=false;const field=document.querySelector<HTMLInputElement>('#topic-search')!;field.value=value;field.dispatchEvent(new Event('input'));document.querySelector('#map')!.scrollIntoView({behavior:'smooth'});}
+async function search(value:string){await loadExplorer();document.querySelector<HTMLSelectElement>('#subject-filter')!.value='';document.querySelector<HTMLSelectElement>('#year-filter')!.value='';document.querySelector<HTMLInputElement>('#nz-only')!.checked=false;const field=document.querySelector<HTMLInputElement>('#topic-search')!;field.value=value;field.dispatchEvent(new Event('input'));document.querySelector('#map')!.scrollIntoView({behavior:'smooth'});}
 hero.onsubmit=e=>{e.preventDefault();search(document.querySelector<HTMLInputElement>('#q')!.value);};
 document.querySelectorAll<HTMLButtonElement>('[data-q]').forEach(b=>b.onclick=()=>search(b.dataset.q!));
 const menu=document.querySelector<HTMLButtonElement>('.menu-btn')!;

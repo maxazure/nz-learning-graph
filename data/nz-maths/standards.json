@@ -1,0 +1,1707 @@
+[
+  {
+    "standard_id": "32406",
+    "standard_title": "Apply mathematics and statistics in a range of everyday situations",
+    "standard_type": "unit_standard",
+    "framework": "NCEA_numeracy_corequisite",
+    "qualification_level": 1,
+    "version": 4,
+    "status": "current",
+    "effective_from": null,
+    "effective_to": null,
+    "source_ids": [
+      "r_us32406",
+      "r_us32406_index"
+    ],
+    "source_locators": [
+      {
+        "source_id": "r_us32406",
+        "locator": "p 1 Guidance 3; p 2 Guidance 6 and Outcomes 1–3",
+        "supports": "Benchmark and contextual numeracy processes"
+      }
+    ],
+    "topic_ids": [
+      "mt_Cg8VPguS_V",
+      "mt_XWSGuFW7It",
+      "mt_ZM9mhHsyYZ",
+      "mt_kLQOzZYrd5",
+      "mt_t0g2SlP404",
+      "nz_bus_timetable",
+      "nz_outing_budget",
+      "nz_unit_prices"
+    ],
+    "assessment_type": "external",
+    "null_reasons": {
+      "effective_from": "Current catalogue and version verified; an exact operative day is not inferred from publication, status or copyright dates.",
+      "effective_to": "No verified last assessment date; planned review dates and announced qualification reform are not individual standard expiry dates."
+    },
+    "notes": "This is an official assessment entity, not a knowledge topic. Linked micro-topics cover contributing methods; success on these diagnostics does not by itself attain the standard."
+  },
+  {
+    "standard_id": "5236",
+    "standard_title": "Use Pythagoras' theorem and trigonometry to solve problems related to right-angled triangles in the workplace",
+    "standard_type": "unit_standard",
+    "framework": "NZQA_vocational_unit_standard",
+    "qualification_level": 1,
+    "version": 9,
+    "status": "current",
+    "effective_from": null,
+    "effective_to": null,
+    "source_ids": [
+      "r_us5236",
+      "r_l1_index"
+    ],
+    "source_locators": [
+      {
+        "source_id": "r_us5236",
+        "locator": "p 1 Guidance 1–4; p 2 Outcome 1 and version table",
+        "supports": "Required mathematical methods and workplace scope"
+      }
+    ],
+    "topic_ids": [
+      "mt_1VmTUxBrNd",
+      "mt_KB_Czd7RQH"
+    ],
+    "assessment_type": "internal",
+    "null_reasons": {
+      "effective_from": "Current catalogue and version verified; an exact operative day is not inferred from publication, status or copyright dates.",
+      "effective_to": "No verified last assessment date; planned review dates and announced qualification reform are not individual standard expiry dates."
+    },
+    "notes": "This is an official assessment entity, not a knowledge topic. Linked micro-topics cover contributing methods; success on these diagnostics does not by itself attain the standard."
+  },
+  {
+    "standard_id": "91256",
+    "standard_title": "Apply co-ordinate geometry methods in solving problems",
+    "standard_type": "achievement_standard",
+    "framework": "NCEA_current",
+    "qualification_level": 2,
+    "version": 3,
+    "status": "current",
+    "effective_from": null,
+    "effective_to": null,
+    "source_ids": [
+      "m_as91256",
+      "m_index_l2"
+    ],
+    "source_locators": [
+      {
+        "source_id": "m_as91256",
+        "locator": "p. 2, Explanatory Note 4",
+        "supports": "Micro-topic aligns to the identified mathematical content. It is one component and does not alone demonstrate this whole standard."
+      },
+      {
+        "source_id": "m_as91256",
+        "locator": "p. 2, Explanatory Note 4",
+        "supports": "Existing topic description read and aligned to this mathematical component of the standard."
+      }
+    ],
+    "topic_ids": [
+      "mt_-3udyo6VyB",
+      "mt_1VmTUxBrNd",
+      "nzm_coordinate_geometry_proof",
+      "nzm_coordinate_midpoint",
+      "nzm_line_equations_from_points",
+      "nzm_parallel_perpendicular_lines"
+    ],
+    "assessment_type": "internal",
+    "null_reasons": {
+      "effective_from": "Current catalogue and version verified; an exact operative day is not inferred from publication, status or copyright dates.",
+      "effective_to": "No verified last assessment date; planned review dates and announced qualification reform are not individual standard expiry dates."
+    },
+    "notes": "This is an official assessment entity, not a knowledge topic. Linked micro-topics cover contributing methods; success on these diagnostics does not by itself attain the standard."
+  },
+  {
+    "standard_id": "91257",
+    "standard_title": "Apply graphical methods in solving problems",
+    "standard_type": "achievement_standard",
+    "framework": "NCEA_current",
+    "qualification_level": 2,
+    "version": 3,
+    "status": "current",
+    "effective_from": null,
+    "effective_to": null,
+    "source_ids": [
+      "m_as91257",
+      "m_index_l2"
+    ],
+    "source_locators": [
+      {
+        "source_id": "m_as91257",
+        "locator": "p. 2, Explanatory Note 4",
+        "supports": "Micro-topic aligns to the identified mathematical content. It is one component and does not alone demonstrate this whole standard."
+      },
+      {
+        "source_id": "m_as91257",
+        "locator": "p. 2, Explanatory Note 4",
+        "supports": "Existing topic description read and aligned to this mathematical component of the standard."
+      }
+    ],
+    "topic_ids": [
+      "mt_z5iwdZyeDr",
+      "nzm_cubic_graphs_and_features",
+      "nzm_exponential_graph_features",
+      "nzm_exponential_growth_decay",
+      "nzm_function_domain_range",
+      "nzm_function_transformations",
+      "nzm_graphical_equation_solutions",
+      "nzm_logarithmic_graphs",
+      "nzm_piecewise_models",
+      "nzm_quadratic_models_from_features",
+      "nzm_reciprocal_graphs_asymptotes",
+      "nzm_trigonometric_graph_models",
+      "nzm_unit_circle_trigonometry"
+    ],
+    "assessment_type": "internal",
+    "null_reasons": {
+      "effective_from": "Current catalogue and version verified; an exact operative day is not inferred from publication, status or copyright dates.",
+      "effective_to": "No verified last assessment date; planned review dates and announced qualification reform are not individual standard expiry dates."
+    },
+    "notes": "This is an official assessment entity, not a knowledge topic. Linked micro-topics cover contributing methods; success on these diagnostics does not by itself attain the standard."
+  },
+  {
+    "standard_id": "91258",
+    "standard_title": "Apply sequences and series in solving problems",
+    "standard_type": "achievement_standard",
+    "framework": "NCEA_current",
+    "qualification_level": 2,
+    "version": 3,
+    "status": "current",
+    "effective_from": null,
+    "effective_to": null,
+    "source_ids": [
+      "m_as91258",
+      "m_index_l2"
+    ],
+    "source_locators": [
+      {
+        "source_id": "m_as91258",
+        "locator": "p. 2, Explanatory Notes 4–5",
+        "supports": "Micro-topic aligns to the identified mathematical content. It is one component and does not alone demonstrate this whole standard."
+      },
+      {
+        "source_id": "m_as91258",
+        "locator": "p. 2, Explanatory Notes 4–5",
+        "supports": "Existing topic description read and aligned to this mathematical component of the standard."
+      }
+    ],
+    "topic_ids": [
+      "mt_HRKzwEQJgO",
+      "nzm_arithmetic_series",
+      "nzm_exponential_equations",
+      "nzm_finite_geometric_series",
+      "nzm_geometric_sequences",
+      "nzm_infinite_geometric_series",
+      "nzm_sequence_parameter_recovery",
+      "nzm_sequence_thresholds"
+    ],
+    "assessment_type": "internal",
+    "null_reasons": {
+      "effective_from": "Current catalogue and version verified; an exact operative day is not inferred from publication, status or copyright dates.",
+      "effective_to": "No verified last assessment date; planned review dates and announced qualification reform are not individual standard expiry dates."
+    },
+    "notes": "This is an official assessment entity, not a knowledge topic. Linked micro-topics cover contributing methods; success on these diagnostics does not by itself attain the standard."
+  },
+  {
+    "standard_id": "91259",
+    "standard_title": "Apply trigonometric relationships in solving problems",
+    "standard_type": "achievement_standard",
+    "framework": "NCEA_current",
+    "qualification_level": 2,
+    "version": 3,
+    "status": "current",
+    "effective_from": null,
+    "effective_to": null,
+    "source_ids": [
+      "m_as91259",
+      "m_index_l2"
+    ],
+    "source_locators": [
+      {
+        "source_id": "m_as91259",
+        "locator": "p. 2, Explanatory Note 4; p. 1, Note 1: two and three dimensions",
+        "supports": "Micro-topic aligns to the identified mathematical content. It is one component and does not alone demonstrate this whole standard."
+      }
+    ],
+    "topic_ids": [
+      "nzm_arc_sector_measure",
+      "nzm_cosine_rule",
+      "nzm_radian_measure",
+      "nzm_sine_rule",
+      "nzm_sine_rule_ambiguity",
+      "nzm_three_dimensional_trigonometric_modelling",
+      "nzm_triangle_area_sine"
+    ],
+    "assessment_type": "internal",
+    "null_reasons": {
+      "effective_from": "Current catalogue and version verified; an exact operative day is not inferred from publication, status or copyright dates.",
+      "effective_to": "No verified last assessment date; planned review dates and announced qualification reform are not individual standard expiry dates."
+    },
+    "notes": "This is an official assessment entity, not a knowledge topic. Linked micro-topics cover contributing methods; success on these diagnostics does not by itself attain the standard."
+  },
+  {
+    "standard_id": "91260",
+    "standard_title": "Apply network methods in solving problems",
+    "standard_type": "achievement_standard",
+    "framework": "NCEA_current",
+    "qualification_level": 2,
+    "version": 3,
+    "status": "current",
+    "effective_from": null,
+    "effective_to": null,
+    "source_ids": [
+      "m_as91260",
+      "m_index_l2"
+    ],
+    "source_locators": [
+      {
+        "source_id": "m_as91260",
+        "locator": "p. 2, Explanatory Note 4",
+        "supports": "Micro-topic aligns to the identified mathematical content. It is one component and does not alone demonstrate this whole standard."
+      }
+    ],
+    "topic_ids": [
+      "nzm_minimum_spanning_trees",
+      "nzm_network_representation",
+      "nzm_network_traversability",
+      "nzm_shortest_path_networks"
+    ],
+    "assessment_type": "internal",
+    "null_reasons": {
+      "effective_from": "Current catalogue and version verified; an exact operative day is not inferred from publication, status or copyright dates.",
+      "effective_to": "No verified last assessment date; planned review dates and announced qualification reform are not individual standard expiry dates."
+    },
+    "notes": "This is an official assessment entity, not a knowledge topic. Linked micro-topics cover contributing methods; success on these diagnostics does not by itself attain the standard."
+  },
+  {
+    "standard_id": "91261",
+    "standard_title": "Apply algebraic methods in solving problems",
+    "standard_type": "achievement_standard",
+    "framework": "NCEA_current",
+    "qualification_level": 2,
+    "version": 3,
+    "status": "current",
+    "effective_from": null,
+    "effective_to": null,
+    "source_ids": [
+      "m_as91261",
+      "m_index_l2"
+    ],
+    "source_locators": [
+      {
+        "source_id": "m_as91261",
+        "locator": "p. 2, Explanatory Note 4",
+        "supports": "Micro-topic aligns to the identified mathematical content. It is one component and does not alone demonstrate this whole standard."
+      },
+      {
+        "source_id": "m_as91261",
+        "locator": "p. 2, Explanatory Note 4",
+        "supports": "Existing topic description read and aligned to this mathematical component of the standard."
+      }
+    ],
+    "topic_ids": [
+      "mt_QhFEDyIwSO",
+      "mt_z5iwdZyeDr",
+      "nzm_completing_square",
+      "nzm_exponential_equations",
+      "nzm_exponential_growth_decay",
+      "nzm_factorise_quadratics",
+      "nzm_integer_exponent_laws",
+      "nzm_logarithm_laws",
+      "nzm_logarithms_inverse_exponentials",
+      "nzm_quadratic_discriminant",
+      "nzm_quadratic_formula",
+      "nzm_quadratic_zero_product",
+      "nzm_rational_algebraic_expressions",
+      "nzm_rational_exponents",
+      "nzm_surd_manipulation"
+    ],
+    "assessment_type": "external",
+    "null_reasons": {
+      "effective_from": "Current catalogue and version verified; an exact operative day is not inferred from publication, status or copyright dates.",
+      "effective_to": "No verified last assessment date; planned review dates and announced qualification reform are not individual standard expiry dates."
+    },
+    "notes": "This is an official assessment entity, not a knowledge topic. Linked micro-topics cover contributing methods; success on these diagnostics does not by itself attain the standard."
+  },
+  {
+    "standard_id": "91262",
+    "standard_title": "Apply calculus methods in solving problems",
+    "standard_type": "achievement_standard",
+    "framework": "NCEA_current",
+    "qualification_level": 2,
+    "version": 3,
+    "status": "current",
+    "effective_from": null,
+    "effective_to": null,
+    "source_ids": [
+      "m_as91262",
+      "m_index_l2"
+    ],
+    "source_locators": [
+      {
+        "source_id": "m_as91262",
+        "locator": "p. 2, Explanatory Note 4",
+        "supports": "Micro-topic aligns to the identified mathematical content. It is one component and does not alone demonstrate this whole standard."
+      }
+    ],
+    "topic_ids": [
+      "nzm_average_instantaneous_rates",
+      "nzm_calculus_optimisation_models",
+      "nzm_derivative_from_first_principles",
+      "nzm_gradient_graph_connections",
+      "nzm_polynomial_antiderivatives",
+      "nzm_polynomial_derivatives",
+      "nzm_polynomial_kinematics",
+      "nzm_stationary_points_classification",
+      "nzm_tangent_normal_derivatives"
+    ],
+    "assessment_type": "external",
+    "null_reasons": {
+      "effective_from": "Current catalogue and version verified; an exact operative day is not inferred from publication, status or copyright dates.",
+      "effective_to": "No verified last assessment date; planned review dates and announced qualification reform are not individual standard expiry dates."
+    },
+    "notes": "This is an official assessment entity, not a knowledge topic. Linked micro-topics cover contributing methods; success on these diagnostics does not by itself attain the standard."
+  },
+  {
+    "standard_id": "91263",
+    "standard_title": "Design a questionnaire",
+    "standard_type": "achievement_standard",
+    "framework": "NCEA_current",
+    "qualification_level": 2,
+    "version": 3,
+    "status": "current",
+    "effective_from": null,
+    "effective_to": null,
+    "source_ids": [
+      "s_as91263",
+      "s_catalog_l2"
+    ],
+    "source_locators": [
+      {
+        "source_id": "s_as91263",
+        "locator": "pp. 1–2, explanatory notes 1–3",
+        "supports": "Specific skill aligned editorially with the stated content or enquiry components."
+      }
+    ],
+    "topic_ids": [
+      "nzm_operational_measurement_definitions",
+      "nzm_questionnaire_information_needs",
+      "nzm_questionnaire_pilot_revision",
+      "nzm_questionnaire_wording_responses",
+      "nzm_sampling_bias_nonresponse"
+    ],
+    "assessment_type": "internal",
+    "null_reasons": {
+      "effective_from": "Current catalogue and version verified; an exact operative day is not inferred from publication, status or copyright dates.",
+      "effective_to": "No verified last assessment date; planned review dates and announced qualification reform are not individual standard expiry dates."
+    },
+    "notes": "This is an official assessment entity, not a knowledge topic. Linked micro-topics cover contributing methods; success on these diagnostics does not by itself attain the standard."
+  },
+  {
+    "standard_id": "91264",
+    "standard_title": "Use statistical methods to make an inference",
+    "standard_type": "achievement_standard",
+    "framework": "NCEA_current",
+    "qualification_level": 2,
+    "version": 3,
+    "status": "current",
+    "effective_from": null,
+    "effective_to": null,
+    "source_ids": [
+      "s_as91264",
+      "s_catalog_l2",
+      "s_l1_slo",
+      "s_phase4",
+      "s_s7_inference",
+      "s_inference_progression"
+    ],
+    "source_locators": [
+      {
+        "source_id": "s_as91264",
+        "locator": "pp. 1–2, explanatory notes 1–3",
+        "supports": "Specific skill aligned editorially with the stated content or enquiry components."
+      }
+    ],
+    "topic_ids": [
+      "nzm_boxplots_distribution_comparison",
+      "nzm_data_provenance_cleaning",
+      "nzm_distribution_shape_context",
+      "nzm_informal_median_confidence_interval",
+      "nzm_informal_population_comparison",
+      "nzm_median_quartiles_iqr",
+      "nzm_point_estimate_population",
+      "nzm_population_sample_parameter",
+      "nzm_sampling_frame_random_sample",
+      "nzm_sampling_variability_estimates",
+      "nzm_statistical_investigative_questions"
+    ],
+    "assessment_type": "internal",
+    "null_reasons": {
+      "effective_from": "Current catalogue and version verified; an exact operative day is not inferred from publication, status or copyright dates.",
+      "effective_to": "No verified last assessment date; planned review dates and announced qualification reform are not individual standard expiry dates."
+    },
+    "notes": "This is an official assessment entity, not a knowledge topic. Linked micro-topics cover contributing methods; success on these diagnostics does not by itself attain the standard."
+  },
+  {
+    "standard_id": "91265",
+    "standard_title": "Conduct an experiment to investigate a situation using statistical methods",
+    "standard_type": "achievement_standard",
+    "framework": "NCEA_current",
+    "qualification_level": 2,
+    "version": 3,
+    "status": "current",
+    "effective_from": null,
+    "effective_to": null,
+    "source_ids": [
+      "s_as91265",
+      "s_catalog_l2"
+    ],
+    "source_locators": [
+      {
+        "source_id": "s_as91265",
+        "locator": "pp. 1–2, explanatory notes 1–3",
+        "supports": "Specific skill aligned editorially with the stated content or enquiry components."
+      }
+    ],
+    "topic_ids": [
+      "nzm_experimental_control_replication",
+      "nzm_experimental_enquiry_conclusion",
+      "nzm_experimental_units_variables",
+      "nzm_operational_measurement_definitions"
+    ],
+    "assessment_type": "internal",
+    "null_reasons": {
+      "effective_from": "Current catalogue and version verified; an exact operative day is not inferred from publication, status or copyright dates.",
+      "effective_to": "No verified last assessment date; planned review dates and announced qualification reform are not individual standard expiry dates."
+    },
+    "notes": "This is an official assessment entity, not a knowledge topic. Linked micro-topics cover contributing methods; success on these diagnostics does not by itself attain the standard."
+  },
+  {
+    "standard_id": "91266",
+    "standard_title": "Evaluate a statistically based report",
+    "standard_type": "achievement_standard",
+    "framework": "NCEA_current",
+    "qualification_level": 2,
+    "version": 3,
+    "status": "current",
+    "effective_from": null,
+    "effective_to": null,
+    "source_ids": [
+      "s_as91266",
+      "s_catalog_l2",
+      "s_spec_l1_2026"
+    ],
+    "source_locators": [
+      {
+        "source_id": "s_as91266",
+        "locator": "pp. 1–2, explanatory notes 1–3",
+        "supports": "Specific skill aligned editorially with the stated content or enquiry components."
+      }
+    ],
+    "topic_ids": [
+      "nzm_sampling_bias_nonresponse",
+      "nzm_sampling_frame_random_sample",
+      "nzm_statistical_media_evidence",
+      "nzm_survey_error_critique"
+    ],
+    "assessment_type": "internal",
+    "null_reasons": {
+      "effective_from": "Current catalogue and version verified; an exact operative day is not inferred from publication, status or copyright dates.",
+      "effective_to": "No verified last assessment date; planned review dates and announced qualification reform are not individual standard expiry dates."
+    },
+    "notes": "This is an official assessment entity, not a knowledge topic. Linked micro-topics cover contributing methods; success on these diagnostics does not by itself attain the standard."
+  },
+  {
+    "standard_id": "91267",
+    "standard_title": "Apply probability methods in solving problems",
+    "standard_type": "achievement_standard",
+    "framework": "NCEA_current",
+    "qualification_level": 2,
+    "version": 3,
+    "status": "current",
+    "effective_from": null,
+    "effective_to": null,
+    "source_ids": [
+      "s_as91267",
+      "s_catalog_l2",
+      "s_phase4",
+      "s_l1_slo",
+      "s_spec_l2_2026",
+      "s_examreport_2025"
+    ],
+    "source_locators": [
+      {
+        "source_id": "s_as91267",
+        "locator": "pp. 1–2, explanatory notes 1–4",
+        "supports": "Specific skill aligned editorially with the stated content or enquiry components."
+      }
+    ],
+    "topic_ids": [
+      "nzm_continuous_density_area",
+      "nzm_distribution_shape_context",
+      "nzm_histogram_density",
+      "nzm_normal_empirical_comparison",
+      "nzm_normal_inverse_percentile",
+      "nzm_normal_standardisation",
+      "nzm_probability_dependent_trees",
+      "nzm_probability_relative_risk",
+      "nzm_probability_two_way_conditioning",
+      "nzm_sample_standard_deviation"
+    ],
+    "assessment_type": "external",
+    "null_reasons": {
+      "effective_from": "Current catalogue and version verified; an exact operative day is not inferred from publication, status or copyright dates.",
+      "effective_to": "No verified last assessment date; planned review dates and announced qualification reform are not individual standard expiry dates."
+    },
+    "notes": "This is an official assessment entity, not a knowledge topic. Linked micro-topics cover contributing methods; success on these diagnostics does not by itself attain the standard."
+  },
+  {
+    "standard_id": "91268",
+    "standard_title": "Investigate a situation involving elements of chance using a simulation",
+    "standard_type": "achievement_standard",
+    "framework": "NCEA_current",
+    "qualification_level": 2,
+    "version": 3,
+    "status": "current",
+    "effective_from": null,
+    "effective_to": null,
+    "source_ids": [
+      "s_as91268",
+      "s_catalog_l2"
+    ],
+    "source_locators": [
+      {
+        "source_id": "s_as91268",
+        "locator": "pp. 1–2, explanatory notes 1–3",
+        "supports": "Specific skill aligned editorially with the stated content or enquiry components."
+      }
+    ],
+    "topic_ids": [
+      "nzm_simulation_estimate_validity",
+      "nzm_simulation_random_mechanism",
+      "nzm_simulation_trial_stopping"
+    ],
+    "assessment_type": "internal",
+    "null_reasons": {
+      "effective_from": "Current catalogue and version verified; an exact operative day is not inferred from publication, status or copyright dates.",
+      "effective_to": "No verified last assessment date; planned review dates and announced qualification reform are not individual standard expiry dates."
+    },
+    "notes": "This is an official assessment entity, not a knowledge topic. Linked micro-topics cover contributing methods; success on these diagnostics does not by itself attain the standard."
+  },
+  {
+    "standard_id": "91269",
+    "standard_title": "Apply systems of equations in solving problems",
+    "standard_type": "achievement_standard",
+    "framework": "NCEA_current",
+    "qualification_level": 2,
+    "version": 3,
+    "status": "current",
+    "effective_from": null,
+    "effective_to": null,
+    "source_ids": [
+      "m_as91269",
+      "m_index_l2"
+    ],
+    "source_locators": [
+      {
+        "source_id": "m_as91269",
+        "locator": "p. 2, Explanatory Note 4",
+        "supports": "Micro-topic aligns to the identified mathematical content. It is one component and does not alone demonstrate this whole standard."
+      }
+    ],
+    "topic_ids": [
+      "nzm_linear_inequality_regions",
+      "nzm_linear_nonlinear_systems"
+    ],
+    "assessment_type": "internal",
+    "null_reasons": {
+      "effective_from": "Current catalogue and version verified; an exact operative day is not inferred from publication, status or copyright dates.",
+      "effective_to": "No verified last assessment date; planned review dates and announced qualification reform are not individual standard expiry dates."
+    },
+    "notes": "This is an official assessment entity, not a knowledge topic. Linked micro-topics cover contributing methods; success on these diagnostics does not by itself attain the standard."
+  },
+  {
+    "standard_id": "91573",
+    "standard_title": "Apply the geometry of conic sections in solving problems",
+    "standard_type": "achievement_standard",
+    "framework": "NCEA_current",
+    "qualification_level": 3,
+    "version": 2,
+    "status": "current",
+    "effective_from": null,
+    "effective_to": null,
+    "source_ids": [
+      "m_as91573",
+      "m_index_l3"
+    ],
+    "source_locators": [
+      {
+        "source_id": "m_as91573",
+        "locator": "p. 2, Explanatory Note 4",
+        "supports": "Micro-topic aligns to the identified mathematical content. It is one component and does not alone demonstrate this whole standard."
+      }
+    ],
+    "topic_ids": [
+      "nzm_circle_equations",
+      "nzm_completing_square",
+      "nzm_conic_tangent_normal_geometry",
+      "nzm_ellipse_features",
+      "nzm_hyperbola_features",
+      "nzm_parabola_focus_directrix",
+      "nzm_parametric_conic_forms"
+    ],
+    "assessment_type": "internal",
+    "null_reasons": {
+      "effective_from": "Current catalogue and version verified; an exact operative day is not inferred from publication, status or copyright dates.",
+      "effective_to": "No verified last assessment date; planned review dates and announced qualification reform are not individual standard expiry dates."
+    },
+    "notes": "This is an official assessment entity, not a knowledge topic. Linked micro-topics cover contributing methods; success on these diagnostics does not by itself attain the standard."
+  },
+  {
+    "standard_id": "91574",
+    "standard_title": "Apply linear programming methods in solving problems",
+    "standard_type": "achievement_standard",
+    "framework": "NCEA_current",
+    "qualification_level": 3,
+    "version": 2,
+    "status": "current",
+    "effective_from": null,
+    "effective_to": null,
+    "source_ids": [
+      "m_as91574",
+      "m_index_l3"
+    ],
+    "source_locators": [
+      {
+        "source_id": "m_as91574",
+        "locator": "p. 2, Explanatory Note 4",
+        "supports": "Micro-topic aligns to the identified mathematical content. It is one component and does not alone demonstrate this whole standard."
+      }
+    ],
+    "topic_ids": [
+      "nzm_linear_inequality_regions",
+      "nzm_linear_programming_edge_cases",
+      "nzm_linear_programming_formulation",
+      "nzm_linear_programming_optimisation"
+    ],
+    "assessment_type": "internal",
+    "null_reasons": {
+      "effective_from": "Current catalogue and version verified; an exact operative day is not inferred from publication, status or copyright dates.",
+      "effective_to": "No verified last assessment date; planned review dates and announced qualification reform are not individual standard expiry dates."
+    },
+    "notes": "This is an official assessment entity, not a knowledge topic. Linked micro-topics cover contributing methods; success on these diagnostics does not by itself attain the standard."
+  },
+  {
+    "standard_id": "91575",
+    "standard_title": "Apply trigonometric methods in solving problems",
+    "standard_type": "achievement_standard",
+    "framework": "NCEA_current",
+    "qualification_level": 3,
+    "version": 2,
+    "status": "current",
+    "effective_from": null,
+    "effective_to": null,
+    "source_ids": [
+      "m_as91575",
+      "m_index_l3"
+    ],
+    "source_locators": [
+      {
+        "source_id": "m_as91575",
+        "locator": "p. 2, Explanatory Note 4",
+        "supports": "Micro-topic aligns to the identified mathematical content. It is one component and does not alone demonstrate this whole standard."
+      }
+    ],
+    "topic_ids": [
+      "nzm_compound_double_angle_identities",
+      "nzm_pythagorean_trig_identities",
+      "nzm_radian_measure",
+      "nzm_reciprocal_trigonometric_functions",
+      "nzm_trigonometric_equations_identities",
+      "nzm_trigonometric_equations_interval",
+      "nzm_trigonometric_general_solutions",
+      "nzm_trigonometric_graph_models",
+      "nzm_trigonometric_identity_proof",
+      "nzm_unit_circle_trigonometry"
+    ],
+    "assessment_type": "internal",
+    "null_reasons": {
+      "effective_from": "Current catalogue and version verified; an exact operative day is not inferred from publication, status or copyright dates.",
+      "effective_to": "No verified last assessment date; planned review dates and announced qualification reform are not individual standard expiry dates."
+    },
+    "notes": "This is an official assessment entity, not a knowledge topic. Linked micro-topics cover contributing methods; success on these diagnostics does not by itself attain the standard."
+  },
+  {
+    "standard_id": "91576",
+    "standard_title": "Use critical path analysis in solving problems",
+    "standard_type": "achievement_standard",
+    "framework": "NCEA_current",
+    "qualification_level": 3,
+    "version": 2,
+    "status": "current",
+    "effective_from": null,
+    "effective_to": null,
+    "source_ids": [
+      "m_as91576",
+      "m_index_l3"
+    ],
+    "source_locators": [
+      {
+        "source_id": "m_as91576",
+        "locator": "p. 2, Explanatory Note 4",
+        "supports": "Micro-topic aligns to the identified mathematical content. It is one component and does not alone demonstrate this whole standard."
+      }
+    ],
+    "topic_ids": [
+      "nzm_critical_path_float_scheduling",
+      "nzm_critical_path_forward_backward",
+      "nzm_network_representation",
+      "nzm_precedence_networks"
+    ],
+    "assessment_type": "internal",
+    "null_reasons": {
+      "effective_from": "Current catalogue and version verified; an exact operative day is not inferred from publication, status or copyright dates.",
+      "effective_to": "No verified last assessment date; planned review dates and announced qualification reform are not individual standard expiry dates."
+    },
+    "notes": "This is an official assessment entity, not a knowledge topic. Linked micro-topics cover contributing methods; success on these diagnostics does not by itself attain the standard."
+  },
+  {
+    "standard_id": "91577",
+    "standard_title": "Apply the algebra of complex numbers in solving problems",
+    "standard_type": "achievement_standard",
+    "framework": "NCEA_current",
+    "qualification_level": 3,
+    "version": 2,
+    "status": "current",
+    "effective_from": null,
+    "effective_to": null,
+    "source_ids": [
+      "m_as91577",
+      "m_index_l3"
+    ],
+    "source_locators": [
+      {
+        "source_id": "m_as91577",
+        "locator": "p. 2, Explanatory Note 4",
+        "supports": "Micro-topic aligns to the identified mathematical content. It is one component and does not alone demonstrate this whole standard."
+      }
+    ],
+    "topic_ids": [
+      "nzm_argand_modulus_argument",
+      "nzm_completing_square",
+      "nzm_complex_conjugate_division",
+      "nzm_complex_loci",
+      "nzm_complex_nth_roots",
+      "nzm_complex_parameter_constraints",
+      "nzm_complex_polar_form",
+      "nzm_complex_polar_products",
+      "nzm_complex_quadratic_roots",
+      "nzm_complex_rectangular_arithmetic",
+      "nzm_conjugate_roots_polynomials",
+      "nzm_cubic_graphs_and_features",
+      "nzm_de_moivre_powers",
+      "nzm_logarithm_laws",
+      "nzm_polynomial_factor_remainder",
+      "nzm_quadratic_discriminant",
+      "nzm_quadratic_formula",
+      "nzm_rational_algebraic_expressions",
+      "nzm_surd_manipulation",
+      "nzm_unit_circle_trigonometry"
+    ],
+    "assessment_type": "external",
+    "null_reasons": {
+      "effective_from": "Current catalogue and version verified; an exact operative day is not inferred from publication, status or copyright dates.",
+      "effective_to": "No verified last assessment date; planned review dates and announced qualification reform are not individual standard expiry dates."
+    },
+    "notes": "This is an official assessment entity, not a knowledge topic. Linked micro-topics cover contributing methods; success on these diagnostics does not by itself attain the standard."
+  },
+  {
+    "standard_id": "91578",
+    "standard_title": "Apply differentiation methods in solving problems",
+    "standard_type": "achievement_standard",
+    "framework": "NCEA_current",
+    "qualification_level": 3,
+    "version": 2,
+    "status": "current",
+    "effective_from": null,
+    "effective_to": null,
+    "source_ids": [
+      "m_as91578",
+      "m_index_l3"
+    ],
+    "source_locators": [
+      {
+        "source_id": "m_as91578",
+        "locator": "p. 2, Explanatory Note 4",
+        "supports": "Micro-topic aligns to the identified mathematical content. It is one component and does not alone demonstrate this whole standard."
+      }
+    ],
+    "topic_ids": [
+      "nzm_average_instantaneous_rates",
+      "nzm_calculus_optimisation_models",
+      "nzm_chain_rule",
+      "nzm_concavity_inflection",
+      "nzm_continuity_differentiability",
+      "nzm_derivative_from_first_principles",
+      "nzm_exponential_log_derivatives",
+      "nzm_function_domain_range",
+      "nzm_function_limits",
+      "nzm_general_power_derivatives",
+      "nzm_gradient_graph_connections",
+      "nzm_logarithmic_graphs",
+      "nzm_logarithms_inverse_exponentials",
+      "nzm_parallel_perpendicular_lines",
+      "nzm_parametric_conic_forms",
+      "nzm_parametric_curve_representation",
+      "nzm_parametric_derivatives",
+      "nzm_parametric_second_derivatives",
+      "nzm_piecewise_models",
+      "nzm_polynomial_derivatives",
+      "nzm_product_rule",
+      "nzm_pythagorean_trig_identities",
+      "nzm_quotient_rule",
+      "nzm_radian_measure",
+      "nzm_rational_exponents",
+      "nzm_reciprocal_trigonometric_functions",
+      "nzm_related_rates",
+      "nzm_stationary_points_classification",
+      "nzm_tangent_normal_derivatives",
+      "nzm_trigonometric_derivatives"
+    ],
+    "assessment_type": "external",
+    "null_reasons": {
+      "effective_from": "Current catalogue and version verified; an exact operative day is not inferred from publication, status or copyright dates.",
+      "effective_to": "No verified last assessment date; planned review dates and announced qualification reform are not individual standard expiry dates."
+    },
+    "notes": "This is an official assessment entity, not a knowledge topic. Linked micro-topics cover contributing methods; success on these diagnostics does not by itself attain the standard."
+  },
+  {
+    "standard_id": "91579",
+    "standard_title": "Apply integration methods in solving problems",
+    "standard_type": "achievement_standard",
+    "framework": "NCEA_current",
+    "qualification_level": 3,
+    "version": 2,
+    "status": "current",
+    "effective_from": null,
+    "effective_to": null,
+    "source_ids": [
+      "m_as91579",
+      "m_index_l3"
+    ],
+    "source_locators": [
+      {
+        "source_id": "m_as91579",
+        "locator": "p. 2, Explanatory Note 4",
+        "supports": "Micro-topic aligns to the identified mathematical content. It is one component and does not alone demonstrate this whole standard."
+      }
+    ],
+    "topic_ids": [
+      "nzm_areas_between_curves",
+      "nzm_compound_double_angle_identities",
+      "nzm_continuous_growth_decay_odes",
+      "nzm_definite_integral_accumulation",
+      "nzm_differential_equations_initial_values",
+      "nzm_exponential_equations",
+      "nzm_exponential_trigonometric_integrals",
+      "nzm_integral_kinematics_distance",
+      "nzm_logarithm_laws",
+      "nzm_logarithms_inverse_exponentials",
+      "nzm_newtons_cooling_model",
+      "nzm_partial_fractions_integration",
+      "nzm_polynomial_antiderivatives",
+      "nzm_polynomial_factor_remainder",
+      "nzm_polynomial_kinematics",
+      "nzm_power_antiderivatives",
+      "nzm_pythagorean_trig_identities",
+      "nzm_rational_algebraic_expressions",
+      "nzm_rational_exponents",
+      "nzm_rational_function_integration",
+      "nzm_rectangle_integration_estimates",
+      "nzm_reverse_chain_rule_integration",
+      "nzm_separable_differential_equations",
+      "nzm_simpson_rule",
+      "nzm_trapezium_rule",
+      "nzm_trig_identity_integration"
+    ],
+    "assessment_type": "external",
+    "null_reasons": {
+      "effective_from": "Current catalogue and version verified; an exact operative day is not inferred from publication, status or copyright dates.",
+      "effective_to": "No verified last assessment date; planned review dates and announced qualification reform are not individual standard expiry dates."
+    },
+    "notes": "This is an official assessment entity, not a knowledge topic. Linked micro-topics cover contributing methods; success on these diagnostics does not by itself attain the standard."
+  },
+  {
+    "standard_id": "91580",
+    "standard_title": "Investigate time series data",
+    "standard_type": "achievement_standard",
+    "framework": "NCEA_current",
+    "qualification_level": 3,
+    "version": 2,
+    "status": "current",
+    "effective_from": null,
+    "effective_to": null,
+    "source_ids": [
+      "s_as91580",
+      "s_catalog_l3",
+      "s_l1_slo",
+      "s_timeseries"
+    ],
+    "source_locators": [
+      {
+        "source_id": "s_as91580",
+        "locator": "pp. 1–2, explanatory notes 1–3",
+        "supports": "Specific skill aligned editorially with the stated content or enquiry components."
+      }
+    ],
+    "topic_ids": [
+      "nzm_additive_seasonal_adjustment",
+      "nzm_centred_even_period_moving_average",
+      "nzm_data_provenance_cleaning",
+      "nzm_moving_average_smoothing",
+      "nzm_seasonal_effect_estimation",
+      "nzm_time_series_comparability",
+      "nzm_time_series_components",
+      "nzm_time_series_forecast_evaluation"
+    ],
+    "assessment_type": "internal",
+    "null_reasons": {
+      "effective_from": "Current catalogue and version verified; an exact operative day is not inferred from publication, status or copyright dates.",
+      "effective_to": "No verified last assessment date; planned review dates and announced qualification reform are not individual standard expiry dates."
+    },
+    "notes": "This is an official assessment entity, not a knowledge topic. Linked micro-topics cover contributing methods; success on these diagnostics does not by itself attain the standard."
+  },
+  {
+    "standard_id": "91581",
+    "standard_title": "Investigate bivariate measurement data",
+    "standard_type": "achievement_standard",
+    "framework": "NCEA_current",
+    "qualification_level": 3,
+    "version": 2,
+    "status": "current",
+    "effective_from": null,
+    "effective_to": null,
+    "source_ids": [
+      "s_as91581",
+      "s_catalog_l3",
+      "s_l1_slo"
+    ],
+    "source_locators": [
+      {
+        "source_id": "s_as91581",
+        "locator": "pp. 1–2, explanatory notes 1–5",
+        "supports": "Specific skill aligned editorially with the stated content or enquiry components."
+      }
+    ],
+    "topic_ids": [
+      "nzm_correlation_causation_confounding",
+      "nzm_correlation_coefficient_interpretation",
+      "nzm_data_provenance_cleaning",
+      "nzm_linear_regression_model",
+      "nzm_nonlinear_statistical_model",
+      "nzm_regression_explanatory_response",
+      "nzm_regression_prediction_scope",
+      "nzm_regression_residuals_adequacy",
+      "nzm_statistical_investigative_questions"
+    ],
+    "assessment_type": "internal",
+    "null_reasons": {
+      "effective_from": "Current catalogue and version verified; an exact operative day is not inferred from publication, status or copyright dates.",
+      "effective_to": "No verified last assessment date; planned review dates and announced qualification reform are not individual standard expiry dates."
+    },
+    "notes": "This is an official assessment entity, not a knowledge topic. Linked micro-topics cover contributing methods; success on these diagnostics does not by itself attain the standard."
+  },
+  {
+    "standard_id": "91582",
+    "standard_title": "Use statistical methods to make a formal inference",
+    "standard_type": "achievement_standard",
+    "framework": "NCEA_current",
+    "qualification_level": 3,
+    "version": 2,
+    "status": "current",
+    "effective_from": null,
+    "effective_to": null,
+    "source_ids": [
+      "s_as91582",
+      "s_catalog_l3",
+      "s_l1_slo",
+      "s_phase4",
+      "s_s7_inference",
+      "s_bootstrap_glossary",
+      "s_moe",
+      "s_bootstrap_transcript",
+      "s_bootstrap_practice"
+    ],
+    "source_locators": [
+      {
+        "source_id": "s_as91582",
+        "locator": "pp. 1–2, explanatory notes 1–3",
+        "supports": "Specific skill aligned editorially with the stated content or enquiry components."
+      }
+    ],
+    "topic_ids": [
+      "nzm_bootstrap_difference_interval",
+      "nzm_bootstrap_resampling",
+      "nzm_bootstrap_sample_size_replicates",
+      "nzm_boxplots_distribution_comparison",
+      "nzm_confidence_interval_meaning",
+      "nzm_data_provenance_cleaning",
+      "nzm_difference_interval_conclusion",
+      "nzm_distribution_shape_context",
+      "nzm_median_quartiles_iqr",
+      "nzm_point_estimate_population",
+      "nzm_population_sample_parameter",
+      "nzm_sample_standard_deviation",
+      "nzm_sampling_frame_random_sample",
+      "nzm_sampling_variability_estimates",
+      "nzm_statistical_investigative_questions"
+    ],
+    "assessment_type": "internal",
+    "null_reasons": {
+      "effective_from": "Current catalogue and version verified; an exact operative day is not inferred from publication, status or copyright dates.",
+      "effective_to": "No verified last assessment date; planned review dates and announced qualification reform are not individual standard expiry dates."
+    },
+    "notes": "This is an official assessment entity, not a knowledge topic. Linked micro-topics cover contributing methods; success on these diagnostics does not by itself attain the standard."
+  },
+  {
+    "standard_id": "91583",
+    "standard_title": "Conduct an experiment to investigate a situation using experimental design principles",
+    "standard_type": "achievement_standard",
+    "framework": "NCEA_current",
+    "qualification_level": 3,
+    "version": 2,
+    "status": "current",
+    "effective_from": null,
+    "effective_to": null,
+    "source_ids": [
+      "s_as91583",
+      "s_catalog_l3",
+      "s_design_principles",
+      "s_randomisation",
+      "s_examreport_2025"
+    ],
+    "source_locators": [
+      {
+        "source_id": "s_as91583",
+        "locator": "pp. 1–2, explanatory notes 1–3",
+        "supports": "Specific skill aligned editorially with the stated content or enquiry components."
+      }
+    ],
+    "topic_ids": [
+      "nzm_blocking_paired_experiments",
+      "nzm_causal_generalisation_scope",
+      "nzm_experimental_control_replication",
+      "nzm_experimental_enquiry_conclusion",
+      "nzm_experimental_units_variables",
+      "nzm_random_allocation_treatments",
+      "nzm_randomisation_null_distribution",
+      "nzm_randomisation_tail_evidence"
+    ],
+    "assessment_type": "internal",
+    "null_reasons": {
+      "effective_from": "Current catalogue and version verified; an exact operative day is not inferred from publication, status or copyright dates.",
+      "effective_to": "No verified last assessment date; planned review dates and announced qualification reform are not individual standard expiry dates."
+    },
+    "notes": "This is an official assessment entity, not a knowledge topic. Linked micro-topics cover contributing methods; success on these diagnostics does not by itself attain the standard."
+  },
+  {
+    "standard_id": "91584",
+    "standard_title": "Evaluate statistically based reports",
+    "standard_type": "achievement_standard",
+    "framework": "NCEA_current",
+    "qualification_level": 3,
+    "version": 2,
+    "status": "current",
+    "effective_from": null,
+    "effective_to": null,
+    "source_ids": [
+      "s_as91584",
+      "s_catalog_l3",
+      "s_spec_l1_2026",
+      "s_bootstrap_glossary",
+      "s_moe",
+      "s_design_principles",
+      "s_examreport_2025",
+      "s_spec_l3_2026"
+    ],
+    "source_locators": [
+      {
+        "source_id": "s_as91584",
+        "locator": "pp. 1–2, explanatory notes 1–3",
+        "supports": "Specific skill aligned editorially with the stated content or enquiry components."
+      }
+    ],
+    "topic_ids": [
+      "nzm_causal_generalisation_scope",
+      "nzm_confidence_interval_meaning",
+      "nzm_correlation_causation_confounding",
+      "nzm_experimental_units_variables",
+      "nzm_poll_difference_independent_samples",
+      "nzm_poll_difference_same_sample",
+      "nzm_poll_margin_error",
+      "nzm_sample_size_precision",
+      "nzm_sampling_bias_nonresponse",
+      "nzm_statistical_media_evidence",
+      "nzm_statistical_report_evaluation",
+      "nzm_survey_error_critique"
+    ],
+    "assessment_type": "external",
+    "null_reasons": {
+      "effective_from": "Current catalogue and version verified; an exact operative day is not inferred from publication, status or copyright dates.",
+      "effective_to": "No verified last assessment date; planned review dates and announced qualification reform are not individual standard expiry dates."
+    },
+    "notes": "This is an official assessment entity, not a knowledge topic. Linked micro-topics cover contributing methods; success on these diagnostics does not by itself attain the standard."
+  },
+  {
+    "standard_id": "91585",
+    "standard_title": "Apply probability concepts in solving problems",
+    "standard_type": "achievement_standard",
+    "framework": "NCEA_current",
+    "qualification_level": 3,
+    "version": 2,
+    "status": "current",
+    "effective_from": null,
+    "effective_to": null,
+    "source_ids": [
+      "s_as91585",
+      "s_catalog_l3",
+      "s_spec_l2_2026",
+      "s_examreport_2025"
+    ],
+    "source_locators": [
+      {
+        "source_id": "s_as91585",
+        "locator": "pp. 1–2, explanatory notes 1–4",
+        "supports": "Specific skill aligned editorially with the stated content or enquiry components."
+      }
+    ],
+    "topic_ids": [
+      "nzm_bayes_reverse_conditioning",
+      "nzm_conditional_probability_formula",
+      "nzm_discrete_random_variable_table",
+      "nzm_probability_dependent_trees",
+      "nzm_probability_independence_exclusivity",
+      "nzm_probability_relative_risk",
+      "nzm_probability_true_model_empirical",
+      "nzm_probability_two_way_conditioning",
+      "nzm_probability_union_overlap",
+      "nzm_random_sequences_gamblers_fallacy",
+      "nzm_simulation_estimate_validity",
+      "nzm_total_probability_partition"
+    ],
+    "assessment_type": "external",
+    "null_reasons": {
+      "effective_from": "Current catalogue and version verified; an exact operative day is not inferred from publication, status or copyright dates.",
+      "effective_to": "No verified last assessment date; planned review dates and announced qualification reform are not individual standard expiry dates."
+    },
+    "notes": "This is an official assessment entity, not a knowledge topic. Linked micro-topics cover contributing methods; success on these diagnostics does not by itself attain the standard."
+  },
+  {
+    "standard_id": "91586",
+    "standard_title": "Apply probability distributions in solving problems",
+    "standard_type": "achievement_standard",
+    "framework": "NCEA_current",
+    "qualification_level": 3,
+    "version": 2,
+    "status": "current",
+    "effective_from": null,
+    "effective_to": null,
+    "source_ids": [
+      "s_as91586",
+      "s_catalog_l3",
+      "s_phase4",
+      "s_spec_l2_2026",
+      "s_examreport_2025",
+      "s_spec_l3_2026",
+      "s_schedule_91586_2025"
+    ],
+    "source_locators": [
+      {
+        "source_id": "s_as91586",
+        "locator": "pp. 1–2, explanatory notes 1–4",
+        "supports": "Specific skill aligned editorially with the stated content or enquiry components."
+      }
+    ],
+    "topic_ids": [
+      "nzm_binomial_model_conditions",
+      "nzm_binomial_moments_parameters",
+      "nzm_binomial_probabilities",
+      "nzm_conditional_distribution_events",
+      "nzm_continuous_density_area",
+      "nzm_discrete_random_variable_table",
+      "nzm_distribution_model_selection",
+      "nzm_histogram_density",
+      "nzm_normal_empirical_comparison",
+      "nzm_normal_inverse_percentile",
+      "nzm_normal_parameter_recovery",
+      "nzm_normal_standardisation",
+      "nzm_poisson_inverse_rate",
+      "nzm_poisson_model_rate",
+      "nzm_poisson_probabilities_moments",
+      "nzm_probability_true_model_empirical",
+      "nzm_random_variable_expected_value",
+      "nzm_random_variable_linear_transform",
+      "nzm_random_variable_variance_sd",
+      "nzm_sample_standard_deviation",
+      "nzm_triangular_probability_model",
+      "nzm_uniform_probability_model"
+    ],
+    "assessment_type": "external",
+    "null_reasons": {
+      "effective_from": "Current catalogue and version verified; an exact operative day is not inferred from publication, status or copyright dates.",
+      "effective_to": "No verified last assessment date; planned review dates and announced qualification reform are not individual standard expiry dates."
+    },
+    "notes": "This is an official assessment entity, not a knowledge topic. Linked micro-topics cover contributing methods; success on these diagnostics does not by itself attain the standard."
+  },
+  {
+    "standard_id": "91587",
+    "standard_title": "Apply systems of simultaneous equations in solving problems",
+    "standard_type": "achievement_standard",
+    "framework": "NCEA_current",
+    "qualification_level": 3,
+    "version": 2,
+    "status": "current",
+    "effective_from": null,
+    "effective_to": null,
+    "source_ids": [
+      "m_as91587",
+      "m_index_l3"
+    ],
+    "source_locators": [
+      {
+        "source_id": "m_as91587",
+        "locator": "pp. 1–2, Explanatory Notes 1 and 4",
+        "supports": "Micro-topic aligns to the identified mathematical content. It is one component and does not alone demonstrate this whole standard."
+      }
+    ],
+    "topic_ids": [
+      "nzm_linear_system_solution_nature",
+      "nzm_three_variable_linear_systems"
+    ],
+    "assessment_type": "internal",
+    "null_reasons": {
+      "effective_from": "Current catalogue and version verified; an exact operative day is not inferred from publication, status or copyright dates.",
+      "effective_to": "No verified last assessment date; planned review dates and announced qualification reform are not individual standard expiry dates."
+    },
+    "notes": "This is an official assessment entity, not a knowledge topic. Linked micro-topics cover contributing methods; success on these diagnostics does not by itself attain the standard."
+  },
+  {
+    "standard_id": "91944",
+    "standard_title": "Explore data using a statistical enquiry process",
+    "standard_type": "achievement_standard",
+    "framework": "NCEA_current",
+    "qualification_level": 1,
+    "version": 4,
+    "status": "current",
+    "effective_from": null,
+    "effective_to": null,
+    "source_ids": [
+      "s_as91944",
+      "s_catalog_l1",
+      "s_l1_slo",
+      "s_phase4"
+    ],
+    "source_locators": [
+      {
+        "source_id": "s_as91944",
+        "locator": "pp. 1–2, explanatory notes 1–3 and 5",
+        "supports": "Specific skill aligned editorially with the stated content or enquiry components."
+      }
+    ],
+    "topic_ids": [
+      "nzm_boxplots_distribution_comparison",
+      "nzm_data_provenance_cleaning",
+      "nzm_distribution_shape_context",
+      "nzm_histogram_density",
+      "nzm_informal_inference_75_50",
+      "nzm_l1_comparison_enquiry",
+      "nzm_l1_multistage_probability_enquiry",
+      "nzm_l1_relationship_enquiry",
+      "nzm_l1_sample_size_visual_inference",
+      "nzm_l1_time_series_enquiry",
+      "nzm_median_quartiles_iqr",
+      "nzm_operational_measurement_definitions",
+      "nzm_sampling_frame_random_sample",
+      "nzm_statistical_investigative_questions"
+    ],
+    "assessment_type": "internal",
+    "null_reasons": {
+      "effective_from": "Current catalogue and version verified; an exact operative day is not inferred from publication, status or copyright dates.",
+      "effective_to": "No verified last assessment date; planned review dates and announced qualification reform are not individual standard expiry dates."
+    },
+    "notes": "This is an official assessment entity, not a knowledge topic. Linked micro-topics cover contributing methods; success on these diagnostics does not by itself attain the standard."
+  },
+  {
+    "standard_id": "91945",
+    "standard_title": "Use mathematical methods to explore problems that relate to life in Aotearoa New Zealand or the Pacific",
+    "standard_type": "achievement_standard",
+    "framework": "NCEA_current",
+    "qualification_level": 1,
+    "version": 3,
+    "status": "current",
+    "effective_from": null,
+    "effective_to": null,
+    "source_ids": [
+      "m_l1_outcomes",
+      "m_specs_l1_2026",
+      "r_as91945",
+      "r_l1_slo_v4",
+      "r_l1_index"
+    ],
+    "source_locators": [
+      {
+        "source_id": "m_l1_outcomes",
+        "locator": "pp. 11–13, AS91945: Algebra",
+        "supports": "Micro-topic aligns to the identified mathematical content. It is one component and does not alone demonstrate this whole standard."
+      },
+      {
+        "source_id": "m_l1_outcomes",
+        "locator": "pp. 11–13, AS91945: Algebra",
+        "supports": "Existing topic description read and aligned to this mathematical component of the standard."
+      },
+      {
+        "source_id": "r_as91945",
+        "locator": "Explanatory Notes; pp 1–2",
+        "supports": "Content scope and framework identity"
+      },
+      {
+        "source_id": "r_l1_slo_v4",
+        "locator": "p 11 / AS 91945 Number",
+        "supports": "Specific assessed content boundary"
+      },
+      {
+        "source_id": "r_l1_slo_v4",
+        "locator": "pp 11,13 / complex rates and metric units",
+        "supports": "Specific assessed content boundary"
+      },
+      {
+        "source_id": "r_l1_slo_v4",
+        "locator": "p 11 / scientific notation and integer exponents",
+        "supports": "Specific assessed content boundary"
+      },
+      {
+        "source_id": "r_l1_slo_v4",
+        "locator": "p 14 / Communication",
+        "supports": "Specific assessed content boundary"
+      },
+      {
+        "source_id": "r_l1_slo_v4",
+        "locator": "p 14 / Communication: limits of accuracy",
+        "supports": "Specific assessed content boundary"
+      },
+      {
+        "source_id": "r_l1_slo_v4",
+        "locator": "p 13 / linking representations including compound interest",
+        "supports": "Specific assessed content boundary"
+      },
+      {
+        "source_id": "r_l1_slo_v4",
+        "locator": "p 11 / Number: complex rates and linear proportion",
+        "supports": "Specific assessed content boundary"
+      },
+      {
+        "source_id": "r_l1_slo_v4",
+        "locator": "p 13 / AS 91945 optimisation; p 19 / AS 91947 optimal solutions",
+        "supports": "Specific assessed content boundary"
+      },
+      {
+        "source_id": "r_l1_slo_v4",
+        "locator": "p 14 / AS 91945 geometry; p 20 / AS 91947 geometry",
+        "supports": "Specific assessed content boundary"
+      },
+      {
+        "source_id": "r_l1_slo_v4",
+        "locator": "p 14 / geometry; p 20 / Pythagoras in 2D and 3D",
+        "supports": "Specific assessed content boundary"
+      },
+      {
+        "source_id": "r_l1_slo_v4",
+        "locator": "p 14 / geometry; p 20 / trigonometry in 2D and 3D",
+        "supports": "Specific assessed content boundary"
+      },
+      {
+        "source_id": "r_l1_slo_v4",
+        "locator": "p 13 / surface areas; pp 20–21 / surface areas",
+        "supports": "Specific assessed content boundary"
+      },
+      {
+        "source_id": "r_l1_slo_v4",
+        "locator": "p 13 / pyramid surface area; pp 20–21 / surface areas",
+        "supports": "Specific assessed content boundary"
+      },
+      {
+        "source_id": "r_l1_slo_v4",
+        "locator": "p 13 / cones; pp 20–21 / surface areas",
+        "supports": "Specific assessed content boundary"
+      },
+      {
+        "source_id": "r_l1_slo_v4",
+        "locator": "p 13 / volumes; p 21 / volumes",
+        "supports": "Specific assessed content boundary"
+      },
+      {
+        "source_id": "r_l1_slo_v4",
+        "locator": "p 13 / spheres; p 21 / volumes and surfaces",
+        "supports": "Specific assessed content boundary"
+      },
+      {
+        "source_id": "r_l1_slo_v4",
+        "locator": "p 13 / composite shapes; p 21 / composite volumes",
+        "supports": "Specific assessed content boundary"
+      },
+      {
+        "source_id": "r_l1_slo_v4",
+        "locator": "p 13 / more complex metric units",
+        "supports": "Specific assessed content boundary"
+      },
+      {
+        "source_id": "r_l1_slo_v4",
+        "locator": "p 16 / assumptions, limitations and predictions; pp 17–18 / evaluate information",
+        "supports": "Specific assessed content boundary"
+      },
+      {
+        "source_id": "r_l1_slo_v4",
+        "locator": "p 13 / similarity in length, area, volume; p 20 / similar shapes",
+        "supports": "Specific assessed content boundary"
+      },
+      {
+        "source_id": "r_l1_slo_v4",
+        "locator": "p 13 / compound-interest representations",
+        "supports": "Specific assessed content boundary"
+      },
+      {
+        "source_id": "r_l1_slo_v4",
+        "locator": "p 11 / unit cost",
+        "supports": "Specific assessed content boundary"
+      },
+      {
+        "source_id": "r_l1_slo_v4",
+        "locator": "pp 15–16 / contextual exploration",
+        "supports": "Specific assessed content boundary"
+      }
+    ],
+    "topic_ids": [
+      "mt_1VmTUxBrNd",
+      "mt_3qrCtdoVAU",
+      "mt_5mIcmKRCgA",
+      "mt_KB_Czd7RQH",
+      "mt_KhS7K1Mgrw",
+      "mt_QhFEDyIwSO",
+      "mt_U9sme87C32",
+      "mt_VVn1IXjkzn",
+      "mt_WBdHkc2HTf",
+      "mt_i2F1nWxJjv",
+      "mt_iEXqN48w3x",
+      "mt_kLQOzZYrd5",
+      "mt_mqgu72aCMz",
+      "mt_tpT9brpI6D",
+      "nz_outing_budget",
+      "nz_unit_prices",
+      "nzm_angles_in_three_dimensions",
+      "nzm_area_volume_scale_factors",
+      "nzm_composite_solid_volumes",
+      "nzm_exponential_graph_features",
+      "nzm_exponential_growth_decay",
+      "nzm_factorise_quadratics",
+      "nzm_graphical_equation_solutions",
+      "nzm_integer_exponent_laws",
+      "nzm_line_equations_from_points",
+      "nzm_model_assumptions_sensitivity",
+      "nzm_numerical_optimisation",
+      "nzm_pyramid_cone_volumes",
+      "nzm_pythagoras_three_dimensions",
+      "nzm_quadratic_models_from_features",
+      "nzm_quadratic_second_differences",
+      "nzm_quadratic_zero_product",
+      "nzm_recursive_compound_growth",
+      "nzm_scientific_notation_operations",
+      "nzm_sphere_measurements",
+      "nzm_surface_area_cones",
+      "nzm_surface_area_prisms",
+      "nzm_surface_area_pyramids"
+    ],
+    "assessment_type": "internal",
+    "null_reasons": {
+      "effective_from": "Current catalogue and version verified; an exact operative day is not inferred from publication, status or copyright dates.",
+      "effective_to": "No verified last assessment date; planned review dates and announced qualification reform are not individual standard expiry dates."
+    },
+    "notes": "This is an official assessment entity, not a knowledge topic. Linked micro-topics cover contributing methods; success on these diagnostics does not by itself attain the standard."
+  },
+  {
+    "standard_id": "91946",
+    "standard_title": "Interpret and apply mathematical and statistical information in context",
+    "standard_type": "achievement_standard",
+    "framework": "NCEA_current",
+    "qualification_level": 1,
+    "version": 3,
+    "status": "current",
+    "effective_from": null,
+    "effective_to": null,
+    "source_ids": [
+      "s_as91946",
+      "s_catalog_l1",
+      "s_spec_l1_2026",
+      "r_as91946",
+      "r_l1_slo_v4",
+      "r_l1_index"
+    ],
+    "source_locators": [
+      {
+        "source_id": "s_as91946",
+        "locator": "pp. 1–2, explanatory notes 1–4 and 6",
+        "supports": "Specific skill aligned editorially with the stated content or enquiry components."
+      },
+      {
+        "source_id": "r_as91946",
+        "locator": "Explanatory Notes; pp 1–2",
+        "supports": "Content scope and framework identity"
+      },
+      {
+        "source_id": "r_l1_slo_v4",
+        "locator": "p 16 / assumptions, limitations and predictions; pp 17–18 / evaluate information",
+        "supports": "Specific assessed content boundary"
+      }
+    ],
+    "topic_ids": [
+      "nzm_model_assumptions_sensitivity",
+      "nzm_statistical_media_evidence"
+    ],
+    "assessment_type": "external",
+    "null_reasons": {
+      "effective_from": "Current catalogue and version verified; an exact operative day is not inferred from publication, status or copyright dates.",
+      "effective_to": "No verified last assessment date; planned review dates and announced qualification reform are not individual standard expiry dates."
+    },
+    "notes": "This is an official assessment entity, not a knowledge topic. Linked micro-topics cover contributing methods; success on these diagnostics does not by itself attain the standard."
+  },
+  {
+    "standard_id": "91947",
+    "standard_title": "Demonstrate mathematical reasoning",
+    "standard_type": "achievement_standard",
+    "framework": "NCEA_current",
+    "qualification_level": 1,
+    "version": 2,
+    "status": "current",
+    "effective_from": null,
+    "effective_to": null,
+    "source_ids": [
+      "m_l1_outcomes",
+      "m_specs_l1_2026",
+      "r_as91947",
+      "r_l1_slo_v4",
+      "r_l1_index",
+      "r_l1_spec2026"
+    ],
+    "source_locators": [
+      {
+        "source_id": "m_l1_outcomes",
+        "locator": "pp. 19–21, AS91947: Mathematical methods and reasoning",
+        "supports": "Micro-topic aligns to the identified mathematical content. It is one component and does not alone demonstrate this whole standard."
+      },
+      {
+        "source_id": "m_l1_outcomes",
+        "locator": "pp. 19–21, AS91947: Mathematical methods and reasoning",
+        "supports": "Existing topic description read and aligned to this mathematical component of the standard."
+      },
+      {
+        "source_id": "r_as91947",
+        "locator": "Explanatory Notes; pp 1–2",
+        "supports": "Content scope and framework identity"
+      },
+      {
+        "source_id": "r_l1_slo_v4",
+        "locator": "p 13 / AS 91945 optimisation; p 19 / AS 91947 optimal solutions",
+        "supports": "Specific assessed content boundary"
+      },
+      {
+        "source_id": "r_l1_slo_v4",
+        "locator": "p 14 / AS 91945 geometry; p 20 / AS 91947 geometry",
+        "supports": "Specific assessed content boundary"
+      },
+      {
+        "source_id": "r_l1_slo_v4",
+        "locator": "p 14 / geometry; p 20 / Pythagoras in 2D and 3D",
+        "supports": "Specific assessed content boundary"
+      },
+      {
+        "source_id": "r_l1_slo_v4",
+        "locator": "p 14 / geometry; p 20 / trigonometry in 2D and 3D",
+        "supports": "Specific assessed content boundary"
+      },
+      {
+        "source_id": "r_l1_slo_v4",
+        "locator": "p 13 / surface areas; pp 20–21 / surface areas",
+        "supports": "Specific assessed content boundary"
+      },
+      {
+        "source_id": "r_l1_slo_v4",
+        "locator": "p 13 / pyramid surface area; pp 20–21 / surface areas",
+        "supports": "Specific assessed content boundary"
+      },
+      {
+        "source_id": "r_l1_slo_v4",
+        "locator": "p 13 / cones; pp 20–21 / surface areas",
+        "supports": "Specific assessed content boundary"
+      },
+      {
+        "source_id": "r_l1_slo_v4",
+        "locator": "p 13 / volumes; p 21 / volumes",
+        "supports": "Specific assessed content boundary"
+      },
+      {
+        "source_id": "r_l1_slo_v4",
+        "locator": "p 13 / spheres; p 21 / volumes and surfaces",
+        "supports": "Specific assessed content boundary"
+      },
+      {
+        "source_id": "r_l1_slo_v4",
+        "locator": "p 13 / composite shapes; p 21 / composite volumes",
+        "supports": "Specific assessed content boundary"
+      },
+      {
+        "source_id": "r_l1_slo_v4",
+        "locator": "p 21 / mathematical reasoning and generalisation",
+        "supports": "Specific assessed content boundary"
+      },
+      {
+        "source_id": "r_l1_slo_v4",
+        "locator": "p 13 / similarity in length, area, volume; p 20 / similar shapes",
+        "supports": "Specific assessed content boundary"
+      }
+    ],
+    "topic_ids": [
+      "mt_1VmTUxBrNd",
+      "mt_3qrCtdoVAU",
+      "mt_KB_Czd7RQH",
+      "mt_KhS7K1Mgrw",
+      "mt_QhFEDyIwSO",
+      "mt_WBdHkc2HTf",
+      "mt_i2F1nWxJjv",
+      "mt_j5YqQnN6xe",
+      "mt_mqgu72aCMz",
+      "nzm_algebraic_fractions_numeric_denominators",
+      "nzm_angles_in_three_dimensions",
+      "nzm_area_volume_scale_factors",
+      "nzm_composite_solid_volumes",
+      "nzm_exponential_graph_features",
+      "nzm_factorise_quadratics",
+      "nzm_graphical_equation_solutions",
+      "nzm_integer_exponent_laws",
+      "nzm_line_equations_from_points",
+      "nzm_numerical_optimisation",
+      "nzm_pyramid_cone_volumes",
+      "nzm_pythagoras_three_dimensions",
+      "nzm_quadratic_models_from_features",
+      "nzm_quadratic_second_differences",
+      "nzm_quadratic_zero_product",
+      "nzm_sphere_measurements",
+      "nzm_surface_area_cones",
+      "nzm_surface_area_prisms",
+      "nzm_surface_area_pyramids"
+    ],
+    "assessment_type": "external",
+    "null_reasons": {
+      "effective_from": "Current catalogue and version verified; an exact operative day is not inferred from publication, status or copyright dates.",
+      "effective_to": "No verified last assessment date; planned review dates and announced qualification reform are not individual standard expiry dates."
+    },
+    "notes": "This is an official assessment entity, not a knowledge topic. Linked micro-topics cover contributing methods; success on these diagnostics does not by itself attain the standard."
+  }
+]

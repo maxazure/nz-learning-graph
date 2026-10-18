@@ -1,8 +1,9 @@
+import heroChinese from './zh-hero';
 import staticChinese from './zh-static';
 import dynamicChinese from './zh-dynamic';
 
 type Language = 'en' | 'zh';
-const chinese: Record<string, string> = {...staticChinese, ...dynamicChinese,
+const chinese: Record<string, string> = {...staticChinese, ...dynamicChinese, ...heroChinese,
  'Website language changes the parent guide. Learning topics, examples and AI prompts stay in English. Search using English topic names.': '语言切换适用于家长指南。知识点、教学示例和 AI 提示词保留英文，请用英文知识点名称搜索。',
 };
 const excluded = '[translate="no"],code,pre,script,style,svg';
@@ -33,8 +34,8 @@ export function setupLanguage() {
  const apply = () => {
   observer.disconnect();
   document.documentElement.lang = language === 'zh' ? 'zh-CN' : 'en-NZ';
-  document.title = language === 'zh' ? 'Learning Paths NZ：陪孩子走好下一步学习之路' : title;
-  description.content = language === 'zh' ? '面向新西兰家长的开放学习图谱。探索 1,606 个知识点，了解学习顺序，并连接自己的 AI 辅导孩子。' : englishDescription;
+  document.title = language === 'zh' ? 'Learning Paths NZ：配合 AI 找到学习卡点' : title;
+  description.content = language === 'zh' ? '配合 AI 从一道错题出发，查找前置知识、确认学习卡点，再安排下一步练习。适合新西兰家长和孩子。' : englishDescription;
   select.value = language;
   const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
   while (walker.nextNode()) {

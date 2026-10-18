@@ -1,0 +1,1423 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:nz-learning-graph:supplement:2026-10-18:schema",
+  "title": "NZ mathematics topology supplement file schemas",
+  "description": "Use the named $defs for each file. Cross-file semantic invariants are enforced by validate.py.",
+  "$defs": {
+    "locator": {
+      "type": "object",
+      "properties": {
+        "source_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "locator": {
+          "type": "string",
+          "minLength": 1
+        },
+        "supports": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "source_id",
+        "locator"
+      ],
+      "additionalProperties": true
+    },
+    "diagnostic": {
+      "type": "object",
+      "properties": {
+        "question": {
+          "type": "string",
+          "minLength": 1
+        },
+        "answer": {
+          "type": "string",
+          "minLength": 1
+        },
+        "explanation": {
+          "type": "string",
+          "minLength": 1
+        },
+        "hints": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 2
+        },
+        "applicability": {
+          "type": "object",
+          "properties": {
+            "years": {
+              "type": "array",
+              "items": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 13
+              },
+              "minItems": 0,
+              "uniqueItems": true
+            },
+            "standard_ids": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "minItems": 0,
+              "uniqueItems": true
+            },
+            "notes": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "years",
+            "standard_ids",
+            "notes"
+          ],
+          "additionalProperties": true
+        }
+      },
+      "required": [
+        "question",
+        "answer",
+        "explanation",
+        "hints"
+      ],
+      "additionalProperties": true
+    },
+    "placement": {
+      "type": "object",
+      "properties": {
+        "years": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 13
+          },
+          "minItems": 0,
+          "uniqueItems": true
+        },
+        "phase": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "precision": {
+          "enum": [
+            "source_explicit",
+            "editorial_range",
+            "unconfirmed"
+          ]
+        },
+        "rationale": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "years",
+        "phase",
+        "precision",
+        "rationale",
+        "source_ids"
+      ],
+      "additionalProperties": true
+    },
+    "topicMerge": {
+      "type": "object",
+      "properties": {
+        "action": {
+          "enum": [
+            "add_new",
+            "reuse_existing",
+            "manual_review"
+          ]
+        },
+        "existing_topic_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "candidate_existing_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0,
+          "uniqueItems": true
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "action",
+        "existing_topic_id",
+        "candidate_existing_ids",
+        "reason"
+      ],
+      "additionalProperties": true
+    },
+    "topic": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "node_type": {
+          "enum": [
+            "concept",
+            "skill",
+            "practice"
+          ]
+        },
+        "subject": {
+          "enum": [
+            "Mathematics",
+            "Statistics"
+          ]
+        },
+        "domain": {
+          "enum": [
+            "Number",
+            "Algebra",
+            "Functions",
+            "Measurement",
+            "Geometry",
+            "Trigonometry",
+            "Calculus",
+            "Probability",
+            "Statistics",
+            "Mathematical practices"
+          ]
+        },
+        "subdomain": {
+          "type": "string",
+          "minLength": 1
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1
+        },
+        "learning_objectives": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1
+        },
+        "understanding_evidence": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1
+        },
+        "common_misconceptions": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1
+        },
+        "diagnostic_questions": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/diagnostic"
+          },
+          "minItems": 1
+        },
+        "short_activity": {
+          "type": "object",
+          "properties": {
+            "instructions": {
+              "type": "string",
+              "minLength": 1
+            },
+            "materials": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "minItems": 0
+            },
+            "estimated_minutes": {
+              "type": "integer",
+              "minimum": 1
+            }
+          },
+          "required": [
+            "instructions",
+            "materials",
+            "estimated_minutes"
+          ],
+          "additionalProperties": true
+        },
+        "year_placement": {
+          "$ref": "#/$defs/placement"
+        },
+        "standard_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0,
+          "uniqueItems": true
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "source_locators": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/locator"
+          },
+          "minItems": 1
+        },
+        "merge": {
+          "$ref": "#/$defs/topicMerge"
+        },
+        "review_status": {
+          "enum": [
+            "research_draft"
+          ]
+        },
+        "curriculum_mapping_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "alternative_explanations": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0
+        },
+        "additional_activities": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "instructions": {
+                "type": "string",
+                "minLength": 1
+              },
+              "materials": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "minItems": 0
+              },
+              "estimated_minutes": {
+                "type": "integer",
+                "minimum": 1
+              }
+            },
+            "required": [
+              "instructions",
+              "materials",
+              "estimated_minutes"
+            ],
+            "additionalProperties": true
+          },
+          "minItems": 0
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "node_type",
+        "subject",
+        "domain",
+        "subdomain",
+        "description",
+        "learning_objectives",
+        "understanding_evidence",
+        "common_misconceptions",
+        "diagnostic_questions",
+        "short_activity",
+        "year_placement",
+        "standard_ids",
+        "source_ids",
+        "source_locators",
+        "merge",
+        "review_status",
+        "curriculum_mapping_ids"
+      ],
+      "additionalProperties": true
+    },
+    "dependency": {
+      "type": "object",
+      "properties": {
+        "prerequisite_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "topic_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "strength": {
+          "enum": [
+            "hard",
+            "helpful"
+          ]
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 1
+        },
+        "basis": {
+          "enum": [
+            "source_explicit",
+            "pedagogical_inference"
+          ]
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0,
+          "uniqueItems": true
+        },
+        "confidence": {
+          "enum": [
+            "high",
+            "medium",
+            "low"
+          ]
+        },
+        "source_locators": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/locator"
+          },
+          "minItems": 0
+        }
+      },
+      "required": [
+        "prerequisite_id",
+        "topic_id",
+        "strength",
+        "reason",
+        "basis",
+        "source_ids",
+        "confidence",
+        "source_locators"
+      ],
+      "additionalProperties": true
+    },
+    "mapping": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "topic_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "framework": {
+          "enum": [
+            "NZC_2025_Y0_10",
+            "NZC_2007_L6_8",
+            "NCEA_current",
+            "NCEA_numeracy_corequisite",
+            "NZQA_vocational_unit_standard"
+          ]
+        },
+        "year_or_phase": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "qualification_level": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "standard_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "standard_title": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "status": {
+          "enum": [
+            "current",
+            "future_published",
+            "superseded",
+            "consultation",
+            "unconfirmed",
+            "published_proposed_not_in_force"
+          ]
+        },
+        "effective_from": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "effective_to": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "source_locators": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/locator"
+          },
+          "minItems": 1
+        },
+        "mapping_basis": {
+          "enum": [
+            "source_explicit",
+            "editorial_alignment"
+          ]
+        },
+        "mapping_confidence": {
+          "enum": [
+            "high",
+            "medium",
+            "low"
+          ]
+        },
+        "notes": {
+          "type": "string",
+          "minLength": 1
+        },
+        "null_reasons": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "curriculum_level": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "standard_version": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "topic_id",
+        "framework",
+        "year_or_phase",
+        "qualification_level",
+        "standard_id",
+        "standard_title",
+        "status",
+        "effective_from",
+        "effective_to",
+        "source_ids",
+        "source_locators",
+        "mapping_basis",
+        "mapping_confidence",
+        "notes",
+        "null_reasons"
+      ],
+      "additionalProperties": true
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "source_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "url": {
+          "type": "string",
+          "minLength": 1
+        },
+        "publisher": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_type": {
+          "enum": [
+            "curriculum",
+            "achievement_standard",
+            "unit_standard",
+            "assessment_specification",
+            "assessment_material",
+            "guidance",
+            "policy",
+            "pathway",
+            "repository",
+            "research",
+            "technical_reference",
+            "teaching_resource"
+          ]
+        },
+        "accessed_on": {
+          "type": "string",
+          "format": "date"
+        },
+        "published_on": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "status_as_of_access": {
+          "type": "string",
+          "minLength": 1
+        },
+        "locators": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "locator": {
+                "type": "string",
+                "minLength": 1
+              },
+              "description": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "id",
+              "locator",
+              "description"
+            ],
+            "additionalProperties": true
+          },
+          "minItems": 1
+        },
+        "reading_evidence": {
+          "type": "object",
+          "properties": {
+            "method": {
+              "enum": [
+                "web_open",
+                "web_find",
+                "pdf_text",
+                "repository_fetch"
+              ]
+            },
+            "what_was_read": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "method",
+            "what_was_read"
+          ],
+          "additionalProperties": true
+        },
+        "notes": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "source_id",
+        "title",
+        "url",
+        "publisher",
+        "source_type",
+        "accessed_on",
+        "published_on",
+        "status_as_of_access",
+        "locators",
+        "reading_evidence",
+        "notes"
+      ],
+      "additionalProperties": true
+    },
+    "standard": {
+      "type": "object",
+      "properties": {
+        "standard_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "standard_title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "standard_type": {
+          "enum": [
+            "achievement_standard",
+            "unit_standard"
+          ]
+        },
+        "framework": {
+          "type": "string",
+          "minLength": 1
+        },
+        "qualification_level": {
+          "type": "integer"
+        },
+        "version": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "effective_from": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "effective_to": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "source_locators": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/locator"
+          },
+          "minItems": 1
+        },
+        "topic_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0,
+          "uniqueItems": true
+        },
+        "null_reasons": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "assessment_type": {
+          "enum": [
+            "internal",
+            "external"
+          ]
+        },
+        "notes": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "standard_id",
+        "standard_title",
+        "standard_type",
+        "framework",
+        "qualification_level",
+        "version",
+        "status",
+        "effective_from",
+        "effective_to",
+        "source_ids",
+        "source_locators",
+        "topic_ids",
+        "null_reasons"
+      ],
+      "additionalProperties": true
+    },
+    "requirement": {
+      "type": "object",
+      "properties": {
+        "requirement_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "framework": {
+          "type": "string",
+          "minLength": 1
+        },
+        "year_or_phase": {
+          "type": "string",
+          "minLength": 1
+        },
+        "domain": {
+          "type": "string",
+          "minLength": 1
+        },
+        "subdomain": {
+          "type": "string",
+          "minLength": 1
+        },
+        "requirement_summary": {
+          "type": "string",
+          "minLength": 1
+        },
+        "standard_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0,
+          "uniqueItems": true
+        },
+        "topic_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0,
+          "uniqueItems": true
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "source_locators": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/locator"
+          },
+          "minItems": 1
+        },
+        "coverage_status": {
+          "enum": [
+            "covered",
+            "partial",
+            "gap",
+            "not_applicable"
+          ]
+        },
+        "remaining_gaps": {
+          "type": "string"
+        },
+        "notes": {
+          "type": "string"
+        },
+        "framework_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "audit_kind": {
+          "enum": [
+            "teaching_sequence_component",
+            "curriculum_objective",
+            "assessment_component",
+            "curriculum_objective_component",
+            "diagnostic_skill_family",
+            "standard_catalogue_presence"
+          ]
+        },
+        "not_applicable_in_source": {
+          "type": "boolean"
+        },
+        "components": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "requirement": {
+                "type": "string",
+                "minLength": 1
+              },
+              "topic_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "minItems": 0,
+                "uniqueItems": true
+              },
+              "status": {
+                "enum": [
+                  "covered",
+                  "partial",
+                  "gap"
+                ]
+              },
+              "same_stage_mapped_topic_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "minItems": 0,
+                "uniqueItems": true
+              },
+              "supporting_topic_ids_without_same_stage_mapping": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "minItems": 0,
+                "uniqueItems": true
+              }
+            },
+            "required": [
+              "requirement",
+              "topic_ids",
+              "status"
+            ],
+            "additionalProperties": true
+          },
+          "minItems": 0
+        }
+      },
+      "required": [
+        "requirement_id",
+        "framework",
+        "year_or_phase",
+        "domain",
+        "subdomain",
+        "requirement_summary",
+        "standard_ids",
+        "topic_ids",
+        "source_ids",
+        "source_locators",
+        "coverage_status",
+        "remaining_gaps",
+        "notes",
+        "framework_ids",
+        "audit_kind"
+      ],
+      "additionalProperties": true
+    },
+    "baselineTopic": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "subject": {
+          "type": "string",
+          "minLength": 1
+        },
+        "domain": {
+          "type": "string",
+          "minLength": 1
+        },
+        "origin_file": {
+          "type": "string",
+          "minLength": 1
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "subject",
+        "domain",
+        "origin_file"
+      ],
+      "additionalProperties": true
+    },
+    "baselineDependency": {
+      "type": "object",
+      "properties": {
+        "prerequisite_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "topic_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "strength": {
+          "enum": [
+            "hard",
+            "legacy_soft"
+          ]
+        },
+        "original_strength": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 1
+        },
+        "origin_file": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "prerequisite_id",
+        "topic_id",
+        "strength",
+        "original_strength",
+        "reason",
+        "origin_file"
+      ],
+      "additionalProperties": true
+    },
+    "numericCheck": {
+      "type": "object",
+      "properties": {
+        "topic_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "expression": {
+          "type": "string",
+          "minLength": 1
+        },
+        "expected": {
+          "type": "number"
+        },
+        "tolerance": {
+          "type": "number",
+          "minimum": 0
+        },
+        "purpose": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "topic_id",
+        "expression",
+        "expected",
+        "tolerance"
+      ],
+      "additionalProperties": true
+    },
+    "mergePlan": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "baseline_commit": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reuse_existing": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          },
+          "minItems": 0
+        },
+        "add_new": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          },
+          "minItems": 0
+        },
+        "manual_review": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          },
+          "minItems": 0
+        },
+        "existing_dependency_changes": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          },
+          "minItems": 0
+        },
+        "integration_steps": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1
+        }
+      },
+      "required": [
+        "schema_version",
+        "baseline_commit",
+        "reuse_existing",
+        "add_new",
+        "manual_review",
+        "existing_dependency_changes",
+        "integration_steps"
+      ],
+      "additionalProperties": true
+    },
+    "snapshot": {
+      "type": "object",
+      "properties": {
+        "repository_url": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reference_commit": {
+          "type": "string",
+          "minLength": 1
+        },
+        "commit_date": {
+          "type": "string",
+          "minLength": 1
+        },
+        "accessed_on": {
+          "type": "string",
+          "minLength": 1
+        },
+        "retrieval_method": {
+          "type": "string",
+          "minLength": 1
+        },
+        "files": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          },
+          "minItems": 6
+        },
+        "counts": {
+          "type": "object"
+        },
+        "licensing": {
+          "type": "object"
+        }
+      },
+      "required": [
+        "repository_url",
+        "reference_commit",
+        "commit_date",
+        "accessed_on",
+        "retrieval_method",
+        "files",
+        "counts",
+        "licensing"
+      ],
+      "additionalProperties": true
+    },
+    "validationResults": {
+      "type": "object",
+      "required": [
+        "executed_at",
+        "checks",
+        "counts",
+        "errors",
+        "warnings"
+      ],
+      "additionalProperties": true
+    },
+    "framework": {
+      "type": "object",
+      "properties": {
+        "framework_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "entity_type": {
+          "enum": [
+            "curriculum",
+            "assessment_framework",
+            "qualification_policy"
+          ]
+        },
+        "status": {
+          "enum": [
+            "current",
+            "superseded",
+            "published_proposed_not_in_force",
+            "announced_future_policy"
+          ]
+        },
+        "research_as_of": {
+          "type": "string",
+          "minLength": 1
+        },
+        "applicability_scope": {
+          "type": "string",
+          "minLength": 1
+        },
+        "effective_from": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "effective_to": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "announced_implementation_years": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "integer"
+          }
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "source_locators": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/locator"
+          },
+          "minItems": 1
+        },
+        "notes": {
+          "type": "string",
+          "minLength": 1
+        },
+        "null_reasons": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      },
+      "required": [
+        "framework_id",
+        "name",
+        "entity_type",
+        "status",
+        "research_as_of",
+        "applicability_scope",
+        "effective_from",
+        "effective_to",
+        "announced_implementation_years",
+        "source_ids",
+        "source_locators",
+        "notes",
+        "null_reasons"
+      ],
+      "additionalProperties": true
+    },
+    "topics.json": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/topic"
+      },
+      "minItems": 0
+    },
+    "topic-enrichments.json": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/topic"
+      },
+      "minItems": 0
+    },
+    "dependencies.json": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/dependency"
+      },
+      "minItems": 0
+    },
+    "curriculum-mappings.json": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/mapping"
+      },
+      "minItems": 0
+    },
+    "sources.json": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/source"
+      },
+      "minItems": 0
+    },
+    "standards.json": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/standard"
+      },
+      "minItems": 0
+    },
+    "curriculum-requirements.json": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/requirement"
+      },
+      "minItems": 0
+    },
+    "baseline-index.json": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/baselineTopic"
+      },
+      "minItems": 0
+    },
+    "baseline-dependencies.json": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/baselineDependency"
+      },
+      "minItems": 0
+    },
+    "math-checks.json": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/numericCheck"
+      },
+      "minItems": 0
+    },
+    "merge-plan.json": {
+      "$ref": "#/$defs/mergePlan"
+    },
+    "repository-snapshot.json": {
+      "$ref": "#/$defs/snapshot"
+    },
+    "validation-results.json": {
+      "$ref": "#/$defs/validationResults"
+    },
+    "curriculum-frameworks.json": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/framework"
+      },
+      "minItems": 0
+    }
+  },
+  "x-file-schemas": {
+    "topics.json": "#/$defs/topics.json",
+    "topic-enrichments.json": "#/$defs/topic-enrichments.json",
+    "dependencies.json": "#/$defs/dependencies.json",
+    "curriculum-mappings.json": "#/$defs/curriculum-mappings.json",
+    "sources.json": "#/$defs/sources.json",
+    "standards.json": "#/$defs/standards.json",
+    "curriculum-requirements.json": "#/$defs/curriculum-requirements.json",
+    "baseline-index.json": "#/$defs/baseline-index.json",
+    "baseline-dependencies.json": "#/$defs/baseline-dependencies.json",
+    "math-checks.json": "#/$defs/math-checks.json",
+    "merge-plan.json": "#/$defs/merge-plan.json",
+    "repository-snapshot.json": "#/$defs/repository-snapshot.json",
+    "validation-results.json": "#/$defs/validation-results.json",
+    "curriculum-frameworks.json": "#/$defs/curriculum-frameworks.json"
+  }
+}

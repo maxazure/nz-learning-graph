@@ -1,0 +1,1814 @@
+[
+  {
+    "topic_id": "mt_SrrsLiJkr3",
+    "expression": "403-178",
+    "expected": 225,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "mt_mpS-JK_p_m",
+    "expression": "5002-1785",
+    "expected": 3217,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "mt_XLP1IM3Qbb",
+    "expression": "136*24",
+    "expected": 3264,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "mt_o_p-3tCxiM",
+    "expression": "2*4+3",
+    "expected": 11,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "mt_14T5yPXUq_",
+    "expression": "2/3+1/4",
+    "expected": 0.9166666666666666,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "mt_9Y96vxG_LH",
+    "expression": "(3/4)/(2/5)",
+    "expected": 1.875,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_whole_from_fractional_part",
+    "expression": "18/3*5",
+    "expected": 30,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_whole_from_fractional_part",
+    "expression": "4*3",
+    "expected": 12,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "mt_iEXqN48w3x",
+    "expression": "72/0.8",
+    "expected": 90,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "mt_nOCPx5qw0Z",
+    "expression": "84/7*2",
+    "expected": 24,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nz_unit_prices",
+    "expression": "4.8/0.6",
+    "expected": 8,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_recursive_compound_growth",
+    "expression": "200*1.05*1.05",
+    "expected": 220.5,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "mt_ML5t7n2-U8",
+    "expression": "0.5*10*6",
+    "expected": 30,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "mt_tAJH5BrpOx",
+    "expression": "0.5*6*4*9",
+    "expected": 108,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "mt_tpT9brpI6D",
+    "expression": "2.4*100**2",
+    "expected": 24000,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_area_volume_scale_factors",
+    "expression": "20*3**2",
+    "expected": 180,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_area_volume_scale_factors",
+    "expression": "8*3**3",
+    "expected": 216,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "mt_1VmTUxBrNd",
+    "expression": "sqrt(13**2-5**2)",
+    "expected": 12,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "mt_Cg8VPguS_V",
+    "expression": "(4+6+7+11)/4",
+    "expected": 7,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "mt_sHJqh6UUya",
+    "expression": "18/60",
+    "expected": 0.3,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "mt_-3udyo6VyB",
+    "expression": "(11-3)/(5-1)",
+    "expected": 2,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "mt_J03RFlVdas",
+    "expression": "(6-2)*180/6",
+    "expected": 120,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "mt_H_pNJ3ZI_S",
+    "expression": "180-68",
+    "expected": 112,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "mt_8atyuvPUZc",
+    "expression": "3*6+1",
+    "expected": 19,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nz_bus_timetable",
+    "expression": "(15*60+23)-(14*60+48)",
+    "expected": 35,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_divisibility_tests",
+    "expression": "624%8",
+    "expected": 0,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_divisibility_tests",
+    "expression": "624%9",
+    "expected": 3,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_divisibility_tests",
+    "expression": "624%5",
+    "expected": 4,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_compass_directions",
+    "expression": "45+90",
+    "expected": 135,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_triangular_number_patterns",
+    "expression": "1+2+3+4+5",
+    "expected": 15,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_triangular_number_patterns",
+    "expression": "15+6",
+    "expected": 21,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_triangular_number_patterns",
+    "expression": "10*11/2",
+    "expected": 55,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_recurring_decimal_to_fraction",
+    "expression": "27/99-3/11",
+    "expected": 0,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_currency_exchange_rates",
+    "expression": "250*0.92",
+    "expected": 230,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_currency_exchange_rates",
+    "expression": "184/0.92",
+    "expected": 200,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_misleading_graphs",
+    "expression": "100-90",
+    "expected": 10,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "mt_iEXqN48w3x",
+    "expression": "600*0.04*3",
+    "expected": 72,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "mt_iEXqN48w3x",
+    "expression": "600+72",
+    "expected": 672,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "mt_iEXqN48w3x",
+    "expression": "80*0.15",
+    "expected": 12,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "mt_iEXqN48w3x",
+    "expression": "230/1.15",
+    "expected": 200,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "mt_XSXnTQoQ4l",
+    "expression": "(5+7)/2",
+    "expected": 6,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "mt_XSXnTQoQ4l",
+    "expression": "9-2",
+    "expected": 7,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "mt_svFa6_mjO_",
+    "expression": "6*pi+12",
+    "expected": 30.84955592153876,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "mt_svFa6_mjO_",
+    "expression": "2*pi+8",
+    "expected": 14.283185307179586,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "mt_EXlmTURK_o",
+    "expression": "4*7",
+    "expected": 28,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "mt_EXlmTURK_o",
+    "expression": "52*7",
+    "expected": 364,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "mt_EXlmTURK_o",
+    "expression": "2000%400",
+    "expected": 0,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "mt_EXlmTURK_o",
+    "expression": "2100%400",
+    "expected": 100,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "mt_b4lbTOJYwI",
+    "expression": "(1/4+1/3)/2",
+    "expected": 0.2916666666666667,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "mt_1VmTUxBrNd",
+    "expression": "12**2+16**2-20**2",
+    "expected": 0,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "mt_GZuoYaDdWd",
+    "expression": "2*2**2+3",
+    "expected": 11,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "mt_GZuoYaDdWd",
+    "expression": "2*(-2)**2+3",
+    "expected": 11,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "mt_xq3YHZ2zeR",
+    "expression": "2*5",
+    "expected": 10,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_cylinder_net_surface_area",
+    "expression": "2*3*8+2*3**2",
+    "expected": 66,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "mt_y-BuQAfw4B",
+    "expression": "2+1.5*(4-2)",
+    "expected": 5,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "mt_y-BuQAfw4B",
+    "expression": "1+1.5*(3-1)",
+    "expected": 4,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "mt_JH_6RpNWjr",
+    "expression": "1.275+0.08",
+    "expected": 1.355,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "mt_JH_6RpNWjr",
+    "expression": "2-0.375",
+    "expected": 1.625,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "mt_MCu_SNg_OW",
+    "expression": "6716*8+3",
+    "expected": 53731,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "mt_MCu_SNg_OW",
+    "expression": "53731/8",
+    "expected": 6716.375,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "mt_XLP1IM3Qbb",
+    "expression": "12345*12",
+    "expected": 148140,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "mt_tpT9brpI6D",
+    "expression": "2.4*10**6",
+    "expected": 2400000,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "mt_tpT9brpI6D",
+    "expression": "3500/1000",
+    "expected": 3.5,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_integer_addition_subtraction",
+    "expression": "-4+7",
+    "expected": 3,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_integer_addition_subtraction",
+    "expression": "-4-(-7)",
+    "expected": 3,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_stacked_bar_graphs",
+    "expression": "3+2",
+    "expected": 5,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_stacked_bar_graphs",
+    "expression": "4+4",
+    "expected": 8,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_stacked_bar_graphs",
+    "expression": "8-4",
+    "expected": 4,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_integer_exponent_laws",
+    "expression": "(2*3**3)**2/(4*3**7)",
+    "expected": 0.3333333333333333,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_algebraic_fractions_numeric_denominators",
+    "expression": "(2*2+1)/3-(2-2)/4",
+    "expected": 1.6666666666666667,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_factorise_quadratics",
+    "expression": "(2*4+3)*(4-1)",
+    "expected": 33,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_quadratic_zero_product",
+    "expression": "4**2-3*4-4",
+    "expected": 0,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_quadratic_zero_product",
+    "expression": "(-1)**2-3*(-1)-4",
+    "expected": 0,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_quadratic_models_from_features",
+    "expression": "2*(0-1)*(0-3)",
+    "expected": 6,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_quadratic_second_differences",
+    "expression": "2*3**2+3+2",
+    "expected": 23,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "mt_mqgu72aCMz",
+    "expression": "2*3+1",
+    "expected": 7,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "mt_mqgu72aCMz",
+    "expression": "3-1",
+    "expected": 2,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_rational_exponents",
+    "expression": "16**(-3/4)",
+    "expected": 0.125,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_surd_manipulation",
+    "expression": "sqrt(50)-sqrt(8)",
+    "expected": 4.242640687119286,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_surd_manipulation",
+    "expression": "1/(sqrt(3)+1)",
+    "expected": 0.3660254037844386,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_completing_square",
+    "expression": "(4-3)**2-4",
+    "expected": -3,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_quadratic_formula",
+    "expression": "2*((3+sqrt(17))/4)**2-3*((3+sqrt(17))/4)-1",
+    "expected": 0,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_quadratic_formula",
+    "expression": "2*((3-sqrt(17))/4)**2-3*((3-sqrt(17))/4)-1",
+    "expected": 0,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_quadratic_discriminant",
+    "expression": "36-4*9",
+    "expected": 0,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_rational_algebraic_expressions",
+    "expression": "(3**2-1)/(3**2+3)",
+    "expected": 0.6666666666666666,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_exponential_graph_features",
+    "expression": "10/2",
+    "expected": 5,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_logarithms_inverse_exponentials",
+    "expression": "2**(-3)",
+    "expected": 0.125,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_logarithms_inverse_exponentials",
+    "expression": "log(exp(2))",
+    "expected": 2,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_logarithm_laws",
+    "expression": "log(3-1)+log(3+1)",
+    "expected": 2.0794415416798357,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_exponential_equations",
+    "expression": "3*2**(log(5)/log(2))",
+    "expected": 15,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_exponential_growth_decay",
+    "expression": "500*1.08**2",
+    "expected": 583.2,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_function_domain_range",
+    "expression": "sqrt(2-2)+1",
+    "expected": 1,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_function_transformations",
+    "expression": "-2*5+1",
+    "expected": -9,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_reciprocal_graphs_asymptotes",
+    "expression": "3/(5-2)+1",
+    "expected": 2,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_cubic_graphs_and_features",
+    "expression": "(1-1)**2*(1+2)",
+    "expected": 0,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_logarithmic_graphs",
+    "expression": "log(2-1)",
+    "expected": 0,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_piecewise_models",
+    "expression": "5+3*(3-2)",
+    "expected": 8,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_arithmetic_series",
+    "expression": "20*(3+(3+19*4))/2",
+    "expected": 820,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_geometric_sequences",
+    "expression": "6*3**5",
+    "expected": 1458,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_finite_geometric_series",
+    "expression": "2*(1-3**5)/(1-3)",
+    "expected": 242,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_infinite_geometric_series",
+    "expression": "6/(1-(-0.5))",
+    "expected": 4,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_sequence_thresholds",
+    "expression": "5*2**(6-1)",
+    "expected": 160,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "mt_1VmTUxBrNd",
+    "expression": "sqrt((5+1)**2+(10-2)**2)",
+    "expected": 10,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_coordinate_midpoint",
+    "expression": "2*5-2",
+    "expected": 8,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_coordinate_midpoint",
+    "expression": "2*1-(-3)",
+    "expected": 5,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_parallel_perpendicular_lines",
+    "expression": "-4/2+5",
+    "expected": 3,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_coordinate_geometry_proof",
+    "expression": "(0+5)/2",
+    "expected": 2.5,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_linear_nonlinear_systems",
+    "expression": "(-1)**2-((-1)+2)",
+    "expected": 0,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_linear_nonlinear_systems",
+    "expression": "2**2-(2+2)",
+    "expected": 0,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_linear_inequality_regions",
+    "expression": "2*2+3",
+    "expected": 7,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_linear_programming_optimisation",
+    "expression": "3*3+2*1",
+    "expected": 11,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_linear_programming_edge_cases",
+    "expression": "1.5+2.5",
+    "expected": 4,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_three_variable_linear_systems",
+    "expression": "1+2+3",
+    "expected": 6,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_three_variable_linear_systems",
+    "expression": "1-2+3",
+    "expected": 2,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_three_variable_linear_systems",
+    "expression": "2*1+2-3",
+    "expected": 1,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_linear_system_solution_nature",
+    "expression": "(4+1)+4+(2-2*4)",
+    "expected": 3,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_linear_system_solution_nature",
+    "expression": "(4+1)-4",
+    "expected": 1,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_circle_equations",
+    "expression": "(3-3)**2+(3+2)**2",
+    "expected": 25,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_parabola_focus_directrix",
+    "expression": "4**2-8*2",
+    "expected": 0,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_ellipse_features",
+    "expression": "sqrt(25-9)",
+    "expected": 4,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_hyperbola_features",
+    "expression": "sqrt(9+16)",
+    "expected": 5,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_parametric_conic_forms",
+    "expression": "(3*cos(0.7))**2/9+(2*sin(0.7))**2/4",
+    "expected": 1,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_conic_tangent_normal_geometry",
+    "expression": "3*3+4*4",
+    "expected": 25,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_radian_measure",
+    "expression": "150*pi/180",
+    "expected": 2.6179938779914944,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_radian_measure",
+    "expression": "(3*pi/4)*180/pi",
+    "expected": 135,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_arc_sector_measure",
+    "expression": "6*pi/3",
+    "expected": 6.283185307179586,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_arc_sector_measure",
+    "expression": "36*pi/3/2",
+    "expected": 18.84955592153876,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_sine_rule",
+    "expression": "6*sin(pi/4)/sin(pi/6)",
+    "expected": 8.485281374238571,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_sine_rule_ambiguity",
+    "expression": "8*sin(pi/6)/5",
+    "expected": 0.8,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_cosine_rule",
+    "expression": "sqrt(25+49-70*cos(pi/3))",
+    "expected": 6.244997998398398,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_triangle_area_sine",
+    "expression": "0.5*8*10*sin(pi/6)",
+    "expected": 20,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_three_dimensional_trigonometric_modelling",
+    "expression": "atan(12/sqrt(84))*180/pi",
+    "expected": 52.63,
+    "tolerance": 0.005
+  },
+  {
+    "topic_id": "nzm_unit_circle_trigonometry",
+    "expression": "sin(5*pi/6)",
+    "expected": 0.5,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_unit_circle_trigonometry",
+    "expression": "cos(5*pi/6)",
+    "expected": -0.8660254037844386,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_trigonometric_graph_models",
+    "expression": "2*pi/(pi/6)",
+    "expected": 12,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_trigonometric_equations_interval",
+    "expression": "sin(2*(17*pi/12))",
+    "expected": 0.5,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_trigonometric_general_solutions",
+    "expression": "cos(2*pi/3+2*(-3)*pi)",
+    "expected": -0.5,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_reciprocal_trigonometric_functions",
+    "expression": "1/cos(pi/3)",
+    "expected": 2,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_pythagorean_trig_identities",
+    "expression": "(1-cos(0.7)**2)/sin(0.7)",
+    "expected": 0.644217687237691,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_compound_double_angle_identities",
+    "expression": "sin(75*pi/180)",
+    "expected": 0.9659258262890682,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_trigonometric_identity_proof",
+    "expression": "(1-cos(2*0.7))/sin(2*0.7)",
+    "expected": 0.8422883804630794,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_network_representation",
+    "expression": "4+3",
+    "expected": 7,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_shortest_path_networks",
+    "expression": "2+1+2",
+    "expected": 5,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_minimum_spanning_trees",
+    "expression": "1+2+3",
+    "expected": 6,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_critical_path_forward_backward",
+    "expression": "3+4+1",
+    "expected": 8,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_critical_path_float_scheduling",
+    "expression": "(3+4)-(3+2)",
+    "expected": 2,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_argand_modulus_argument",
+    "expression": "sqrt((-sqrt(3))**2+1)",
+    "expected": 2,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_complex_polar_form",
+    "expression": "4*cos(2*pi/3)",
+    "expected": -2,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_complex_polar_form",
+    "expression": "4*sin(2*pi/3)",
+    "expected": 3.4641016151377544,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_complex_polar_products",
+    "expression": "5*pi/6-pi/6",
+    "expected": 2.0943951023931953,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_de_moivre_powers",
+    "expression": "sqrt(2)**4*cos(pi)",
+    "expected": -4,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_complex_nth_roots",
+    "expression": "2*cos(2*pi/3)",
+    "expected": -1,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_complex_parameter_constraints",
+    "expression": "2-2",
+    "expected": 0,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_polynomial_factor_remainder",
+    "expression": "3**3-2*3**2-5*3+6",
+    "expected": 0,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_polynomial_factor_remainder",
+    "expression": "(-2)**3-2*(-2)**2-5*(-2)+6",
+    "expected": 0,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_conjugate_roots_polynomials",
+    "expression": "3**3-5*3**2+11*3-15",
+    "expected": 0,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_average_instantaneous_rates",
+    "expression": "(3**2-1**2)/(3-1)",
+    "expected": 4,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_function_limits",
+    "expression": "1.000001+1",
+    "expected": 2.000001,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_polynomial_derivatives",
+    "expression": "12*1**3-4*1",
+    "expected": 8,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_gradient_graph_connections",
+    "expression": "3*0**2",
+    "expected": 0,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_tangent_normal_derivatives",
+    "expression": "-2/4+4.5",
+    "expected": 4,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_stationary_points_classification",
+    "expression": "(-1)**3-3*(-1)",
+    "expected": 2,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_stationary_points_classification",
+    "expression": "1**3-3*1",
+    "expected": -2,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_polynomial_antiderivatives",
+    "expression": "2*1**3-2*1**2+5",
+    "expected": 5,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_polynomial_kinematics",
+    "expression": "3*1**2-6*1",
+    "expected": -3,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_polynomial_kinematics",
+    "expression": "6*1-6",
+    "expected": 0,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_general_power_derivatives",
+    "expression": "0.5*4**(-0.5)-4*4**(-3)",
+    "expected": 0.1875,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_chain_rule",
+    "expression": "24*1*(3*1**2+1)**3",
+    "expected": 1536,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_exponential_log_derivatives",
+    "expression": "2*exp(0)+3/(3*0+1)",
+    "expected": 5,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_trigonometric_derivatives",
+    "expression": "3*cos(0)+(1/cos(0))*(sin(0)/cos(0))",
+    "expected": 3,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_product_rule",
+    "expression": "2*1*exp(1)+1**2*exp(1)",
+    "expected": 8.154845485377136,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_quotient_rule",
+    "expression": "-2/(3-1)**2",
+    "expected": -0.5,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_parametric_derivatives",
+    "expression": "(3*2**2)/(2*2)",
+    "expected": 3,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_parametric_second_derivatives",
+    "expression": "(3/2)/(2*2)",
+    "expected": 0.375,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_concavity_inflection",
+    "expression": "12*(-1)**2",
+    "expected": 12,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_concavity_inflection",
+    "expression": "12*1**2",
+    "expected": 12,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_related_rates",
+    "expression": "2*pi*5*0.2",
+    "expected": 6.283185307179586,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_calculus_optimisation_models",
+    "expression": "5*(10-5)",
+    "expected": 25,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_definite_integral_accumulation",
+    "expression": "1**2/2-(-1)**2/2",
+    "expected": 0,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_areas_between_curves",
+    "expression": "2**2-2**3/3",
+    "expected": 1.3333333333333333,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_rectangle_integration_estimates",
+    "expression": "0**2+1**2",
+    "expected": 1,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_rectangle_integration_estimates",
+    "expression": "1**2+2**2",
+    "expected": 5,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_trapezium_rule",
+    "expression": "((0+4)/2+1)",
+    "expected": 3,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_simpson_rule",
+    "expression": "(0+4*1+4)/3",
+    "expected": 2.6666666666666665,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_integral_kinematics_distance",
+    "expression": "(2**2-2*2)-(0**2-2*0)",
+    "expected": 0,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_differential_equations_initial_values",
+    "expression": "0**3+2*0+5",
+    "expected": 5,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_separable_differential_equations",
+    "expression": "3*exp(0**2)",
+    "expected": 3,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_continuous_growth_decay_odes",
+    "expression": "exp(-log(2)*3/3)",
+    "expected": 0.5,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_newtons_cooling_model",
+    "expression": "20+60*exp(-log(2)*10/10)",
+    "expected": 50,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_function_composition",
+    "expression": "sqrt(3-2)",
+    "expected": 1,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_inverse_functions",
+    "expression": "sqrt(9)",
+    "expected": 3,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_inverse_reciprocal_comparison",
+    "expression": "(7-3)/2",
+    "expected": 2,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_log_linearisation_models",
+    "expression": "exp(0.7)",
+    "expected": 2.0137527074704766,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_derivative_from_first_principles",
+    "expression": "((3+0.01)**2-3**2)/0.01",
+    "expected": 6.01,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_numerical_differentiation",
+    "expression": "(2.1**3-1.9**3)/0.2",
+    "expected": 12.01,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_partial_fractions_integration",
+    "expression": "1/2-1/(2+1)",
+    "expected": 0.16666666666666666,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_line_equations_from_points",
+    "expression": "(10-4)/(3-1)",
+    "expected": 3,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_sequence_parameter_recovery",
+    "expression": "162/6",
+    "expected": 27,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_sequence_parameter_recovery",
+    "expression": "2*3**4",
+    "expected": 162,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_trigonometric_equations_identities",
+    "expression": "2*sin(7*pi/6)**2-sin(7*pi/6)-1",
+    "expected": 0,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_parametric_curve_representation",
+    "expression": "(3-1)**2",
+    "expected": 4,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_critical_path_forward_backward",
+    "expression": "8-1-2",
+    "expected": 5,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_critical_path_forward_backward",
+    "expression": "(8-1-2)-3",
+    "expected": 2,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_power_antiderivatives",
+    "expression": "((2*2.00001**(3/2)+2*log(2.00001))-(2*1.99999**(3/2)+2*log(1.99999)))/2e-05",
+    "expected": 5.242640687119286,
+    "tolerance": 1e-05
+  },
+  {
+    "topic_id": "nzm_reverse_chain_rule_integration",
+    "expression": "(((1.00001**2+1)**3)-((0.99999**2+1)**3))/2e-05",
+    "expected": 24,
+    "tolerance": 1e-05
+  },
+  {
+    "topic_id": "nzm_exponential_trigonometric_integrals",
+    "expression": "((0.5*exp(2*0.7000099999999999)-cos(3*0.7000099999999999)/3)-(0.5*exp(2*0.69999)-cos(3*0.69999)/3))/2e-05",
+    "expected": 4.918409333493548,
+    "tolerance": 1e-05
+  },
+  {
+    "topic_id": "nzm_rational_function_integration",
+    "expression": "((2.00001**2/2-2.00001+log(2.00001+1))-(1.99999**2/2-1.99999+log(1.99999+1)))/2e-05",
+    "expected": 1.3333333333333333,
+    "tolerance": 1e-05
+  },
+  {
+    "topic_id": "nzm_trig_identity_integration",
+    "expression": "((0.7000099999999999/2-sin(2*0.7000099999999999)/4)-(0.69999/2-sin(2*0.69999)/4))/2e-05",
+    "expected": 0.41501642854987947,
+    "tolerance": 1e-05
+  },
+  {
+    "topic_id": "nzm_partial_fractions_integration",
+    "expression": "((log(2.00001)-log(2.00001+1))-(log(1.99999)-log(1.99999+1)))/2e-05",
+    "expected": 0.16666666666666666,
+    "tolerance": 1e-05
+  },
+  {
+    "topic_id": "nzm_chain_rule",
+    "expression": "(((3*1.00001**2+1)**4)-((3*0.99999**2+1)**4))/2e-05",
+    "expected": 1536,
+    "tolerance": 0.0001
+  },
+  {
+    "topic_id": "nzm_product_rule",
+    "expression": "((1.00001**2*exp(1.00001))-(0.99999**2*exp(0.99999)))/2e-05",
+    "expected": 8.154845485377136,
+    "tolerance": 1e-05
+  },
+  {
+    "topic_id": "nzm_quotient_rule",
+    "expression": "(((3.00001+1)/(3.00001-1))-((2.99999+1)/(2.99999-1)))/2e-05",
+    "expected": -0.5,
+    "tolerance": 1e-05
+  },
+  {
+    "topic_id": "nzm_separable_differential_equations",
+    "expression": "((3*exp(0.50001**2))-(3*exp(0.49999**2)))/2e-05",
+    "expected": 3.852076250063224,
+    "tolerance": 1e-05
+  },
+  {
+    "topic_id": "nzm_median_quartiles_iqr",
+    "expression": "(12+14)/2-(4+6)/2",
+    "expected": 8,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_histogram_density",
+    "expression": "12/(15-5)",
+    "expected": 1.2,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_sample_standard_deviation",
+    "expression": "math.sqrt(((2-4)**2+(4-4)**2+(6-4)**2)/2)",
+    "expected": 2,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_l1_multistage_probability_enquiry",
+    "expression": "31/200",
+    "expected": 0.155,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_statistical_media_evidence",
+    "expression": "(0.30-0.20)/0.20",
+    "expected": 0.5,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_point_estimate_population",
+    "expression": "42/70",
+    "expected": 0.6,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_informal_median_confidence_interval",
+    "expression": "1.5*10/math.sqrt(100)",
+    "expected": 1.5,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_probability_two_way_conditioning",
+    "expression": "12/40",
+    "expected": 0.3,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_probability_relative_risk",
+    "expression": "(12/40)/(8/60)",
+    "expected": 2.25,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_probability_dependent_trees",
+    "expression": "3/5*2/4+2/5*3/4",
+    "expected": 0.6,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_simulation_estimate_validity",
+    "expression": "472/1000",
+    "expected": 0.472,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_continuous_density_area",
+    "expression": "2*(0.3-0.1)",
+    "expected": 0.4,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_normal_standardisation",
+    "expression": "0.5*math.erfc(2/math.sqrt(2))",
+    "expected": 0.02275013194817922,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_normal_inverse_percentile",
+    "expression": "100+1.2816*12",
+    "expected": 115.3792,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_probability_union_overlap",
+    "expression": "0.55+0.40-0.20",
+    "expected": 0.75,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_probability_independence_exclusivity",
+    "expression": "0.4*0.5",
+    "expected": 0.2,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_conditional_probability_formula",
+    "expression": "0.18/0.30",
+    "expected": 0.6,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_total_probability_partition",
+    "expression": "0.6*0.01+0.4*0.04",
+    "expected": 0.022,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_bayes_reverse_conditioning",
+    "expression": "0.02*0.9/(0.02*0.9+0.98*0.05)",
+    "expected": 0.26865671641791045,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_discrete_random_variable_table",
+    "expression": "1-0.2-0.3",
+    "expected": 0.5,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_random_variable_expected_value",
+    "expression": "0*0.7+10*0.3-4",
+    "expected": -1,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_random_variable_variance_sd",
+    "expression": "math.sqrt(100*0.3-3**2)",
+    "expected": 4.58257569495584,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_binomial_probabilities",
+    "expression": "math.comb(5,2)*0.2**2*0.8**3",
+    "expected": 0.2048,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_binomial_moments_parameters",
+    "expression": "math.sqrt(80*0.25*0.75)",
+    "expected": 3.872983346207417,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_poisson_model_rate",
+    "expression": "6*20/60",
+    "expected": 2,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_poisson_probabilities_moments",
+    "expression": "1-math.exp(-2)",
+    "expected": 0.8646647167633873,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_uniform_probability_model",
+    "expression": "(7-4)/(10-2)",
+    "expected": 0.375,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_triangular_probability_model",
+    "expression": "0.5*2*(2/5)*(2/10)",
+    "expected": 0.08,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_distribution_model_selection",
+    "expression": "0.65-48/100",
+    "expected": 0.17,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_moving_average_smoothing",
+    "expression": "(10+16+13)/3",
+    "expected": 13,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_additive_seasonal_adjustment",
+    "expression": "260-210-40",
+    "expected": 10,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_time_series_forecast_evaluation",
+    "expression": "120-15",
+    "expected": 105,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_linear_regression_model",
+    "expression": "5+3*4",
+    "expected": 17,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_regression_residuals_adequacy",
+    "expression": "21-17",
+    "expected": 4,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_nonlinear_statistical_model",
+    "expression": "10**(1+0.2*5)",
+    "expected": 100,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_standard_error_mean",
+    "expression": "12/math.sqrt(64)",
+    "expected": 1.5,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_confidence_interval_mean",
+    "expression": "50-1.96*10/math.sqrt(100)",
+    "expected": 48.04,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_confidence_interval_proportion",
+    "expression": "0.6-1.96*math.sqrt(0.6*0.4/400)",
+    "expected": 0.5519900010414497,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_randomisation_tail_evidence",
+    "expression": "18/1000",
+    "expected": 0.018,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_poll_margin_error",
+    "expression": "1/math.sqrt(1600)",
+    "expected": 0.025,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_poll_difference_same_sample",
+    "expression": "0.46-0.38-2/math.sqrt(1000)",
+    "expected": 0.016754446796632405,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_poll_difference_independent_samples",
+    "expression": "0.58-0.5-1.5/math.sqrt(1600)",
+    "expected": 0.0425,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_sample_size_precision",
+    "expression": "(1/0.025)**2",
+    "expected": 1600,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_permutations_distinct",
+    "expression": "7*6*5",
+    "expected": 210,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_combinations_selection",
+    "expression": "math.comb(7,3)",
+    "expected": 35,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_restricted_counting",
+    "expression": "math.comb(9,3)-math.comb(5,3)",
+    "expected": 74,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_repeated_object_arrangements",
+    "expression": "math.factorial(5)/(math.factorial(2)*math.factorial(2))",
+    "expected": 30,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_normal_parameter_recovery",
+    "expression": "(68-60)/2",
+    "expected": 4,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_poisson_inverse_rate",
+    "expression": "-2*math.log(0.2)",
+    "expected": 3.2188758248682006,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_random_variable_linear_transform",
+    "expression": "100-2*30",
+    "expected": 40,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_conditional_distribution_events",
+    "expression": "2*math.exp(-2)/(1-math.exp(-2))",
+    "expected": 0.31303528549933135,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_centred_even_period_moving_average",
+    "expression": "((10+16+30+36)/4+(16+30+36+52)/4)/2",
+    "expected": 28.25,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "nzm_seasonal_effect_estimation",
+    "expression": "(-12+4+20-8)/4",
+    "expected": 1,
+    "tolerance": 1e-09
+  },
+  {
+    "topic_id": "mt_iEXqN48w3x",
+    "expression": "96/0.8",
+    "expected": 120,
+    "tolerance": 1e-08
+  },
+  {
+    "topic_id": "mt_kLQOzZYrd5",
+    "expression": "90*1000/3600",
+    "expected": 25,
+    "tolerance": 1e-08
+  },
+  {
+    "topic_id": "nzm_scientific_notation_operations",
+    "expression": "(6*10**5)/(2*10**-3)",
+    "expected": 300000000.0,
+    "tolerance": 1e-08
+  },
+  {
+    "topic_id": "nzm_exponential_growth_decay",
+    "expression": "2000*1.04**3",
+    "expected": 2249.728,
+    "tolerance": 1e-08
+  },
+  {
+    "topic_id": "mt_5mIcmKRCgA",
+    "expression": "3*60/90",
+    "expected": 2,
+    "tolerance": 1e-08
+  },
+  {
+    "topic_id": "nzm_numerical_optimisation",
+    "expression": "6*6",
+    "expected": 36,
+    "tolerance": 1e-08
+  },
+  {
+    "topic_id": "mt_1VmTUxBrNd",
+    "expression": "sqrt(6**2+8**2)",
+    "expected": 10,
+    "tolerance": 1e-08
+  },
+  {
+    "topic_id": "mt_KB_Czd7RQH",
+    "expression": "10*sin(pi/6)",
+    "expected": 5,
+    "tolerance": 1e-08
+  },
+  {
+    "topic_id": "nzm_pythagoras_three_dimensions",
+    "expression": "sqrt(3**2+4**2+12**2)",
+    "expected": 13,
+    "tolerance": 1e-08
+  },
+  {
+    "topic_id": "nzm_angles_in_three_dimensions",
+    "expression": "atan(12/5)*180/pi",
+    "expected": 67.38013505196,
+    "tolerance": 1e-06
+  },
+  {
+    "topic_id": "nzm_surface_area_prisms",
+    "expression": "4*3+2*4*2+2*3*2",
+    "expected": 40,
+    "tolerance": 1e-08
+  },
+  {
+    "topic_id": "nzm_surface_area_pyramids",
+    "expression": "6**2+4*(6*sqrt(3**2+4**2)/2)",
+    "expected": 96,
+    "tolerance": 1e-08
+  },
+  {
+    "topic_id": "nzm_surface_area_cones",
+    "expression": "pi*3*5+pi*3**2",
+    "expected": 75.39822368615503,
+    "tolerance": 1e-08
+  },
+  {
+    "topic_id": "nzm_pyramid_cone_volumes",
+    "expression": "pi*3**2*4/3",
+    "expected": 37.69911184307752,
+    "tolerance": 1e-08
+  },
+  {
+    "topic_id": "nzm_sphere_measurements",
+    "expression": "4*pi*2**3/3",
+    "expected": 33.510321638291124,
+    "tolerance": 1e-08
+  },
+  {
+    "topic_id": "nzm_composite_solid_volumes",
+    "expression": "pi*3**2*8+(4*pi*3**3/3)/2",
+    "expected": 282.7433388230814,
+    "tolerance": 1e-08
+  },
+  {
+    "topic_id": "mt_tpT9brpI6D",
+    "expression": "24000/100**3",
+    "expected": 0.024,
+    "tolerance": 1e-08
+  },
+  {
+    "topic_id": "nzm_circle_arc_angles",
+    "expression": "2*38",
+    "expected": 76,
+    "tolerance": 1e-08
+  },
+  {
+    "topic_id": "nzm_cyclic_quadrilateral_angles",
+    "expression": "180-107",
+    "expected": 73,
+    "tolerance": 1e-08
+  },
+  {
+    "topic_id": "nzm_circle_tangent_radius",
+    "expression": "sqrt(13**2-5**2)",
+    "expected": 12,
+    "tolerance": 1e-08
+  },
+  {
+    "topic_id": "nzm_perpendicular_chord_bisector",
+    "expression": "2*sqrt(5**2-3**2)",
+    "expected": 8,
+    "tolerance": 1e-08
+  },
+  {
+    "topic_id": "nzm_model_assumptions_sensitivity",
+    "expression": "120*2/12",
+    "expected": 20,
+    "tolerance": 1e-08
+  },
+  {
+    "topic_id": "nzm_complex_rectangular_arithmetic",
+    "expression": "abs(complex(2,3)*complex(1,-2)-complex(8,-1))",
+    "expected": 0,
+    "tolerance": 1e-08,
+    "purpose": "Independent numerical residual check of the complex-valued diagnostic answer; not a proof of general symbolic identity."
+  },
+  {
+    "topic_id": "nzm_complex_conjugate_division",
+    "expression": "abs(complex(3,1)/complex(1,-1)-complex(1,2))",
+    "expected": 0,
+    "tolerance": 1e-08,
+    "purpose": "Independent numerical residual check of the complex-valued diagnostic answer; not a proof of general symbolic identity."
+  },
+  {
+    "topic_id": "nzm_complex_polar_form",
+    "expression": "abs(4*complex(cos(2*pi/3),sin(2*pi/3))-complex(-2,2*sqrt(3)))",
+    "expected": 0,
+    "tolerance": 1e-08,
+    "purpose": "Independent numerical residual check of the complex-valued diagnostic answer; not a proof of general symbolic identity."
+  },
+  {
+    "topic_id": "nzm_complex_polar_products",
+    "expression": "abs(6*complex(cos(5*pi/6),sin(5*pi/6))/(2*complex(cos(pi/6),sin(pi/6)))-3*complex(cos(2*pi/3),sin(2*pi/3)))",
+    "expected": 0,
+    "tolerance": 1e-08,
+    "purpose": "Independent numerical residual check of the complex-valued diagnostic answer; not a proof of general symbolic identity."
+  },
+  {
+    "topic_id": "nzm_de_moivre_powers",
+    "expression": "abs(complex(1,1)**4+4)",
+    "expected": 0,
+    "tolerance": 1e-08,
+    "purpose": "Independent numerical residual check of the complex-valued diagnostic answer; not a proof of general symbolic identity."
+  },
+  {
+    "topic_id": "nzm_complex_nth_roots",
+    "expression": "abs(complex(-1,sqrt(3))**3-8)",
+    "expected": 0,
+    "tolerance": 1e-08,
+    "purpose": "Independent numerical residual check of the complex-valued diagnostic answer; not a proof of general symbolic identity."
+  },
+  {
+    "topic_id": "nzm_complex_nth_roots",
+    "expression": "abs(complex(-1,-sqrt(3))**3-8)",
+    "expected": 0,
+    "tolerance": 1e-08,
+    "purpose": "Independent numerical residual check of the complex-valued diagnostic answer; not a proof of general symbolic identity."
+  },
+  {
+    "topic_id": "nzm_complex_quadratic_roots",
+    "expression": "abs(complex(2,3)**2-4*complex(2,3)+13)",
+    "expected": 0,
+    "tolerance": 1e-08,
+    "purpose": "Independent numerical residual check of the complex-valued diagnostic answer; not a proof of general symbolic identity."
+  },
+  {
+    "topic_id": "nzm_complex_quadratic_roots",
+    "expression": "abs(complex(2,-3)**2-4*complex(2,-3)+13)",
+    "expected": 0,
+    "tolerance": 1e-08,
+    "purpose": "Independent numerical residual check of the complex-valued diagnostic answer; not a proof of general symbolic identity."
+  },
+  {
+    "topic_id": "nzm_conjugate_roots_polynomials",
+    "expression": "abs(complex(1,2)**3-5*complex(1,2)**2+11*complex(1,2)-15)",
+    "expected": 0,
+    "tolerance": 1e-08,
+    "purpose": "Independent numerical residual check of the complex-valued diagnostic answer; not a proof of general symbolic identity."
+  },
+  {
+    "topic_id": "nzm_conjugate_roots_polynomials",
+    "expression": "abs(complex(1,-2)**3-5*complex(1,-2)**2+11*complex(1,-2)-15)",
+    "expected": 0,
+    "tolerance": 1e-08,
+    "purpose": "Independent numerical residual check of the complex-valued diagnostic answer; not a proof of general symbolic identity."
+  },
+  {
+    "topic_id": "nzm_complex_parameter_constraints",
+    "expression": "abs(complex(2,1)*complex(2,-1)-5)",
+    "expected": 0,
+    "tolerance": 1e-08,
+    "purpose": "Independent numerical residual check of the complex-valued diagnostic answer; not a proof of general symbolic identity."
+  }
+]

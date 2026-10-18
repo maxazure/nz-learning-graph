@@ -1,0 +1,1965 @@
+[
+  {
+    "source_id": "f_phase1",
+    "title": "NZC – Mathematics and Statistics Phase 1 (Years 0–3)",
+    "url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289331.p",
+    "publisher": "New Zealand Ministry of Education / Tāhūrangi",
+    "source_type": "curriculum",
+    "accessed_on": "2026-10-18",
+    "published_on": null,
+    "status_as_of_access": "Current from 2026-01-01 for English-medium state and state-integrated schools; source is the 2025 curriculum statement.",
+    "locators": [
+      {
+        "id": "teaching_sequence",
+        "locator": "Knowledge and Practices teaching-sequence tables, named strand and element, year/time-in-school column",
+        "description": "Individual mappings specify the exact column and skill. Tables were read across the full phase."
+      }
+    ],
+    "reading_evidence": {
+      "method": "web_open",
+      "what_was_read": "All teaching-sequence strands and year columns, with continuation reads through Statistics and Probability where present; glossary inspected but not used to reproduce mathematical errors."
+    },
+    "notes": "published_on is null because an exact publication day was not confirmed on this phase page. The parent 5637289330.p identifies the statement as 2025 and its effect from 2026-01-01. Phase1 uses time in school, not a rigid Year0 equivalence. Some repeated cells span year columns; those mappings are editorial_alignment where uncertain."
+  },
+  {
+    "source_id": "f_phase2",
+    "title": "NZC – Mathematics and Statistics Phase 2 (Years 4–6)",
+    "url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289332.p",
+    "publisher": "New Zealand Ministry of Education / Tāhūrangi",
+    "source_type": "curriculum",
+    "accessed_on": "2026-10-18",
+    "published_on": null,
+    "status_as_of_access": "Current from 2026-01-01 for English-medium state and state-integrated schools; source is the 2025 curriculum statement.",
+    "locators": [
+      {
+        "id": "teaching_sequence",
+        "locator": "Knowledge and Practices teaching-sequence tables, named strand and element, year/time-in-school column",
+        "description": "Individual mappings specify the exact column and skill. Tables were read across the full phase."
+      }
+    ],
+    "reading_evidence": {
+      "method": "web_open",
+      "what_was_read": "All teaching-sequence strands and year columns, with continuation reads through Statistics and Probability where present; glossary inspected but not used to reproduce mathematical errors."
+    },
+    "notes": "published_on is null because an exact publication day was not confirmed on this phase page. The parent 5637289330.p identifies the statement as 2025 and its effect from 2026-01-01. Phase1 uses time in school, not a rigid Year0 equivalence. Some repeated cells span year columns; those mappings are editorial_alignment where uncertain."
+  },
+  {
+    "source_id": "f_phase3",
+    "title": "NZC – Mathematics and Statistics Phase 3 (Years 7–8)",
+    "url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p",
+    "publisher": "New Zealand Ministry of Education / Tāhūrangi",
+    "source_type": "curriculum",
+    "accessed_on": "2026-10-18",
+    "published_on": null,
+    "status_as_of_access": "Current from 2026-01-01 for English-medium state and state-integrated schools; source is the 2025 curriculum statement.",
+    "locators": [
+      {
+        "id": "teaching_sequence",
+        "locator": "Knowledge and Practices teaching-sequence tables, named strand and element, year/time-in-school column",
+        "description": "Individual mappings specify the exact column and skill. Tables were read across the full phase."
+      }
+    ],
+    "reading_evidence": {
+      "method": "web_open",
+      "what_was_read": "All teaching-sequence strands and year columns, with continuation reads through Statistics and Probability where present; glossary inspected but not used to reproduce mathematical errors."
+    },
+    "notes": "published_on is null because an exact publication day was not confirmed on this phase page. The parent 5637289330.p identifies the statement as 2025 and its effect from 2026-01-01. Phase1 uses time in school, not a rigid Year0 equivalence. Some repeated cells span year columns; those mappings are editorial_alignment where uncertain."
+  },
+  {
+    "source_id": "f_phase4",
+    "title": "NZC – Mathematics and Statistics Phase 4 (Years 9–10)",
+    "url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637291579.p",
+    "publisher": "New Zealand Ministry of Education / Tāhūrangi",
+    "source_type": "curriculum",
+    "accessed_on": "2026-10-18",
+    "published_on": null,
+    "status_as_of_access": "Current from 2026-01-01 for English-medium state and state-integrated schools; source is the 2025 curriculum statement.",
+    "locators": [
+      {
+        "id": "teaching_sequence",
+        "locator": "Knowledge and Practices teaching-sequence tables, named strand and element, year/time-in-school column",
+        "description": "Individual mappings specify the exact column and skill. Tables were read across the full phase."
+      }
+    ],
+    "reading_evidence": {
+      "method": "web_open",
+      "what_was_read": "All teaching-sequence strands and year columns, with continuation reads through Statistics and Probability where present; glossary inspected but not used to reproduce mathematical errors."
+    },
+    "notes": "published_on is null because an exact publication day was not confirmed on this phase page. The parent 5637289330.p identifies the statement as 2025 and its effect from 2026-01-01. Phase1 uses time in school, not a rigid Year0 equivalence. Some repeated cells span year columns; those mappings are editorial_alignment where uncertain."
+  },
+  {
+    "source_id": "f_overview",
+    "title": "NZC – Mathematics and statistics Phases 1–4 (Years 0–10)",
+    "url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289330.p",
+    "publisher": "New Zealand Ministry of Education / Tāhūrangi",
+    "source_type": "curriculum",
+    "accessed_on": "2026-10-18",
+    "published_on": null,
+    "status_as_of_access": "Current curriculum statement, effective 2026-01-01.",
+    "locators": [
+      {
+        "id": "regulatory",
+        "locator": "Regulatory context and implementation requirements",
+        "description": "Replaces through Year10; curriculum levels6–8 remain in force for Years11–13."
+      },
+      {
+        "id": "structure",
+        "locator": "Learning Area Structure and Introduction",
+        "description": "Six strands across the learning area; teacher enactment and mathematical/statistical processes."
+      }
+    ],
+    "reading_evidence": {
+      "method": "web_open",
+      "what_was_read": "Purpose, structure, introduction, assessment and implementation requirements; full page read."
+    },
+    "notes": "Do not copy apparent glossary extraction errors (sqrt4 irrational; incorrect relative-frequency denominator)."
+  },
+  {
+    "source_id": "f_nist_leap_year",
+    "title": "Time and Frequency from A to Z, L",
+    "url": "https://www.nist.gov/pml/time-and-frequency-division/popular-links/time-frequency-z/time-and-frequency-z-l",
+    "publisher": "National Institute of Standards and Technology (NIST)",
+    "source_type": "technical_reference",
+    "accessed_on": "2026-10-18",
+    "published_on": null,
+    "status_as_of_access": "Stable calendar explanation; used for mathematical correction, not for New Zealand year placement.",
+    "locators": [
+      {
+        "id": "leap_year",
+        "locator": "Leap Day; Leap Year",
+        "description": "Gregorian 4/100/400 rule and 365/366-day years."
+      }
+    ],
+    "reading_evidence": {
+      "method": "web_open",
+      "what_was_read": "Leap Day and Leap Year entries, including the century exception and examples1900/2000/2100."
+    },
+    "notes": "The exact publication day was not verified. No New Zealand curriculum requirement is inferred from this foreign technical reference."
+  },
+  {
+    "source_id": "f_te_reo_counting",
+    "title": "Ka Mau te Wehi! Unit 4 - Waea mai - Ring me",
+    "url": "https://tahurangi.education.govt.nz/ka-mau-te-wehi-unit-4---waea-mai---ring-me/5637169343.p?domain=newzealandcurriculum.tahurangi.education.govt.nz",
+    "publisher": "New Zealand Ministry of Education / Tāhūrangi",
+    "source_type": "teaching_resource",
+    "accessed_on": "2026-10-18",
+    "published_on": null,
+    "status_as_of_access": "Available official language teaching resource with older language-curriculum context; used for number-word construction only.",
+    "locators": [
+      {
+        "id": "number_words",
+        "locator": "About this resource > New words; Activity2 > numbers greater than ten",
+        "description": "Number words1–10, tens-plus-ones construction, and kotahi rau for100."
+      }
+    ],
+    "reading_evidence": {
+      "method": "web_open",
+      "what_was_read": "Whole Unit4 page; particular attention to New words, Activity1 and Activity2. Linked video/audio was not played."
+    },
+    "notes": "Year placement is established separately by current Mathematics Phase1. This language resource cites an older2007 language-curriculum context; its old level labels are not imported as current mathematics requirements. Exact publication day not confirmed."
+  },
+  {
+    "source_id": "m_as91256",
+    "title": "AS91256: Apply co-ordinate geometry methods in solving problems",
+    "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2019/as91256.pdf",
+    "publisher": "New Zealand Qualifications Authority",
+    "source_type": "achievement_standard",
+    "accessed_on": "2026-10-18",
+    "published_on": null,
+    "status_as_of_access": "current official resource read on research date; applicability is separately recorded in mappings",
+    "locators": [
+      {
+        "id": "content",
+        "locator": "p. 2, Explanatory Note 4",
+        "description": "English pages 1–2: version and level, curriculum derivation, achievement criteria, explanatory notes and enumerated mathematical methods. Current index checked independently."
+      }
+    ],
+    "reading_evidence": {
+      "method": "pdf_text",
+      "what_was_read": "English pages 1–2: version and level, curriculum derivation, achievement criteria, explanatory notes and enumerated mathematical methods. Current index checked independently."
+    },
+    "notes": "Document age or planned review date is not interpreted as an expiry date. Original diagnostic tasks in this package are not copied assessment material."
+  },
+  {
+    "source_id": "m_as91257",
+    "title": "AS91257: Apply graphical methods in solving problems",
+    "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2019/as91257.pdf",
+    "publisher": "New Zealand Qualifications Authority",
+    "source_type": "achievement_standard",
+    "accessed_on": "2026-10-18",
+    "published_on": null,
+    "status_as_of_access": "current official resource read on research date; applicability is separately recorded in mappings",
+    "locators": [
+      {
+        "id": "content",
+        "locator": "p. 2, Explanatory Note 4",
+        "description": "English pages 1–2: version and level, curriculum derivation, achievement criteria, explanatory notes and enumerated mathematical methods. Current index checked independently."
+      }
+    ],
+    "reading_evidence": {
+      "method": "pdf_text",
+      "what_was_read": "English pages 1–2: version and level, curriculum derivation, achievement criteria, explanatory notes and enumerated mathematical methods. Current index checked independently."
+    },
+    "notes": "Document age or planned review date is not interpreted as an expiry date. Original diagnostic tasks in this package are not copied assessment material."
+  },
+  {
+    "source_id": "m_as91258",
+    "title": "AS91258: Apply sequences and series in solving problems",
+    "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2019/as91258.pdf",
+    "publisher": "New Zealand Qualifications Authority",
+    "source_type": "achievement_standard",
+    "accessed_on": "2026-10-18",
+    "published_on": null,
+    "status_as_of_access": "current official resource read on research date; applicability is separately recorded in mappings",
+    "locators": [
+      {
+        "id": "content",
+        "locator": "p. 2, Explanatory Notes 4–5",
+        "description": "English pages 1–2: version and level, curriculum derivation, achievement criteria, explanatory notes and enumerated mathematical methods. Current index checked independently."
+      }
+    ],
+    "reading_evidence": {
+      "method": "pdf_text",
+      "what_was_read": "English pages 1–2: version and level, curriculum derivation, achievement criteria, explanatory notes and enumerated mathematical methods. Current index checked independently."
+    },
+    "notes": "Document age or planned review date is not interpreted as an expiry date. Original diagnostic tasks in this package are not copied assessment material."
+  },
+  {
+    "source_id": "m_as91259",
+    "title": "AS91259: Apply trigonometric relationships in solving problems",
+    "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2019/as91259.pdf",
+    "publisher": "New Zealand Qualifications Authority",
+    "source_type": "achievement_standard",
+    "accessed_on": "2026-10-18",
+    "published_on": null,
+    "status_as_of_access": "current official resource read on research date; applicability is separately recorded in mappings",
+    "locators": [
+      {
+        "id": "content",
+        "locator": "p. 2, Explanatory Note 4; p. 1, Note 1: two and three dimensions",
+        "description": "English pages 1–2: version and level, curriculum derivation, achievement criteria, explanatory notes and enumerated mathematical methods. Current index checked independently."
+      }
+    ],
+    "reading_evidence": {
+      "method": "pdf_text",
+      "what_was_read": "English pages 1–2: version and level, curriculum derivation, achievement criteria, explanatory notes and enumerated mathematical methods. Current index checked independently."
+    },
+    "notes": "Document age or planned review date is not interpreted as an expiry date. Original diagnostic tasks in this package are not copied assessment material."
+  },
+  {
+    "source_id": "m_as91260",
+    "title": "AS91260: Apply network methods in solving problems",
+    "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2019/as91260.pdf",
+    "publisher": "New Zealand Qualifications Authority",
+    "source_type": "achievement_standard",
+    "accessed_on": "2026-10-18",
+    "published_on": null,
+    "status_as_of_access": "current official resource read on research date; applicability is separately recorded in mappings",
+    "locators": [
+      {
+        "id": "content",
+        "locator": "p. 2, Explanatory Note 4",
+        "description": "English pages 1–2: version and level, curriculum derivation, achievement criteria, explanatory notes and enumerated mathematical methods. Current index checked independently."
+      }
+    ],
+    "reading_evidence": {
+      "method": "pdf_text",
+      "what_was_read": "English pages 1–2: version and level, curriculum derivation, achievement criteria, explanatory notes and enumerated mathematical methods. Current index checked independently."
+    },
+    "notes": "Document age or planned review date is not interpreted as an expiry date. Original diagnostic tasks in this package are not copied assessment material."
+  },
+  {
+    "source_id": "m_as91261",
+    "title": "AS91261: Apply algebraic methods in solving problems",
+    "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2019/as91261.pdf",
+    "publisher": "New Zealand Qualifications Authority",
+    "source_type": "achievement_standard",
+    "accessed_on": "2026-10-18",
+    "published_on": null,
+    "status_as_of_access": "current official resource read on research date; applicability is separately recorded in mappings",
+    "locators": [
+      {
+        "id": "content",
+        "locator": "p. 2, Explanatory Note 4",
+        "description": "English pages 1–2: version and level, curriculum derivation, achievement criteria, explanatory notes and enumerated mathematical methods. Current index checked independently."
+      }
+    ],
+    "reading_evidence": {
+      "method": "pdf_text",
+      "what_was_read": "English pages 1–2: version and level, curriculum derivation, achievement criteria, explanatory notes and enumerated mathematical methods. Current index checked independently."
+    },
+    "notes": "Document age or planned review date is not interpreted as an expiry date. Original diagnostic tasks in this package are not copied assessment material."
+  },
+  {
+    "source_id": "m_as91262",
+    "title": "AS91262: Apply calculus methods in solving problems",
+    "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2019/as91262.pdf",
+    "publisher": "New Zealand Qualifications Authority",
+    "source_type": "achievement_standard",
+    "accessed_on": "2026-10-18",
+    "published_on": null,
+    "status_as_of_access": "current official resource read on research date; applicability is separately recorded in mappings",
+    "locators": [
+      {
+        "id": "content",
+        "locator": "p. 2, Explanatory Note 4",
+        "description": "English pages 1–2: version and level, curriculum derivation, achievement criteria, explanatory notes and enumerated mathematical methods. Current index checked independently."
+      }
+    ],
+    "reading_evidence": {
+      "method": "pdf_text",
+      "what_was_read": "English pages 1–2: version and level, curriculum derivation, achievement criteria, explanatory notes and enumerated mathematical methods. Current index checked independently."
+    },
+    "notes": "Document age or planned review date is not interpreted as an expiry date. Original diagnostic tasks in this package are not copied assessment material."
+  },
+  {
+    "source_id": "m_as91269",
+    "title": "AS91269: Apply systems of equations in solving problems",
+    "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2019/as91269.pdf",
+    "publisher": "New Zealand Qualifications Authority",
+    "source_type": "achievement_standard",
+    "accessed_on": "2026-10-18",
+    "published_on": null,
+    "status_as_of_access": "current official resource read on research date; applicability is separately recorded in mappings",
+    "locators": [
+      {
+        "id": "content",
+        "locator": "p. 2, Explanatory Note 4",
+        "description": "English pages 1–2: version and level, curriculum derivation, achievement criteria, explanatory notes and enumerated mathematical methods. Current index checked independently."
+      }
+    ],
+    "reading_evidence": {
+      "method": "pdf_text",
+      "what_was_read": "English pages 1–2: version and level, curriculum derivation, achievement criteria, explanatory notes and enumerated mathematical methods. Current index checked independently."
+    },
+    "notes": "Document age or planned review date is not interpreted as an expiry date. Original diagnostic tasks in this package are not copied assessment material."
+  },
+  {
+    "source_id": "m_as91573",
+    "title": "AS91573: Apply the geometry of conic sections in solving problems",
+    "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2019/as91573.pdf",
+    "publisher": "New Zealand Qualifications Authority",
+    "source_type": "achievement_standard",
+    "accessed_on": "2026-10-18",
+    "published_on": null,
+    "status_as_of_access": "current official resource read on research date; applicability is separately recorded in mappings",
+    "locators": [
+      {
+        "id": "content",
+        "locator": "p. 2, Explanatory Note 4",
+        "description": "English pages 1–2: version and level, curriculum derivation, achievement criteria, explanatory notes and enumerated mathematical methods. Current index checked independently."
+      }
+    ],
+    "reading_evidence": {
+      "method": "pdf_text",
+      "what_was_read": "English pages 1–2: version and level, curriculum derivation, achievement criteria, explanatory notes and enumerated mathematical methods. Current index checked independently."
+    },
+    "notes": "Document age or planned review date is not interpreted as an expiry date. Original diagnostic tasks in this package are not copied assessment material."
+  },
+  {
+    "source_id": "m_as91574",
+    "title": "AS91574: Apply linear programming methods in solving problems",
+    "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2019/as91574.pdf",
+    "publisher": "New Zealand Qualifications Authority",
+    "source_type": "achievement_standard",
+    "accessed_on": "2026-10-18",
+    "published_on": null,
+    "status_as_of_access": "current official resource read on research date; applicability is separately recorded in mappings",
+    "locators": [
+      {
+        "id": "content",
+        "locator": "p. 2, Explanatory Note 4",
+        "description": "English pages 1–2: version and level, curriculum derivation, achievement criteria, explanatory notes and enumerated mathematical methods. Current index checked independently."
+      }
+    ],
+    "reading_evidence": {
+      "method": "pdf_text",
+      "what_was_read": "English pages 1–2: version and level, curriculum derivation, achievement criteria, explanatory notes and enumerated mathematical methods. Current index checked independently."
+    },
+    "notes": "Document age or planned review date is not interpreted as an expiry date. Original diagnostic tasks in this package are not copied assessment material."
+  },
+  {
+    "source_id": "m_as91575",
+    "title": "AS91575: Apply trigonometric methods in solving problems",
+    "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2019/as91575.pdf",
+    "publisher": "New Zealand Qualifications Authority",
+    "source_type": "achievement_standard",
+    "accessed_on": "2026-10-18",
+    "published_on": null,
+    "status_as_of_access": "current official resource read on research date; applicability is separately recorded in mappings",
+    "locators": [
+      {
+        "id": "content",
+        "locator": "p. 2, Explanatory Note 4",
+        "description": "English pages 1–2: version and level, curriculum derivation, achievement criteria, explanatory notes and enumerated mathematical methods. Current index checked independently."
+      }
+    ],
+    "reading_evidence": {
+      "method": "pdf_text",
+      "what_was_read": "English pages 1–2: version and level, curriculum derivation, achievement criteria, explanatory notes and enumerated mathematical methods. Current index checked independently."
+    },
+    "notes": "Document age or planned review date is not interpreted as an expiry date. Original diagnostic tasks in this package are not copied assessment material."
+  },
+  {
+    "source_id": "m_as91576",
+    "title": "AS91576: Use critical path analysis in solving problems",
+    "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2019/as91576.pdf",
+    "publisher": "New Zealand Qualifications Authority",
+    "source_type": "achievement_standard",
+    "accessed_on": "2026-10-18",
+    "published_on": null,
+    "status_as_of_access": "current official resource read on research date; applicability is separately recorded in mappings",
+    "locators": [
+      {
+        "id": "content",
+        "locator": "p. 2, Explanatory Note 4",
+        "description": "English pages 1–2: version and level, curriculum derivation, achievement criteria, explanatory notes and enumerated mathematical methods. Current index checked independently."
+      }
+    ],
+    "reading_evidence": {
+      "method": "pdf_text",
+      "what_was_read": "English pages 1–2: version and level, curriculum derivation, achievement criteria, explanatory notes and enumerated mathematical methods. Current index checked independently."
+    },
+    "notes": "Document age or planned review date is not interpreted as an expiry date. Original diagnostic tasks in this package are not copied assessment material."
+  },
+  {
+    "source_id": "m_as91577",
+    "title": "AS91577: Apply the algebra of complex numbers in solving problems",
+    "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2019/as91577.pdf",
+    "publisher": "New Zealand Qualifications Authority",
+    "source_type": "achievement_standard",
+    "accessed_on": "2026-10-18",
+    "published_on": null,
+    "status_as_of_access": "current official resource read on research date; applicability is separately recorded in mappings",
+    "locators": [
+      {
+        "id": "content",
+        "locator": "p. 2, Explanatory Note 4",
+        "description": "English pages 1–2: version and level, curriculum derivation, achievement criteria, explanatory notes and enumerated mathematical methods. Current index checked independently."
+      }
+    ],
+    "reading_evidence": {
+      "method": "pdf_text",
+      "what_was_read": "English pages 1–2: version and level, curriculum derivation, achievement criteria, explanatory notes and enumerated mathematical methods. Current index checked independently."
+    },
+    "notes": "Document age or planned review date is not interpreted as an expiry date. Original diagnostic tasks in this package are not copied assessment material."
+  },
+  {
+    "source_id": "m_as91578",
+    "title": "AS91578: Apply differentiation methods in solving problems",
+    "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2019/as91578.pdf",
+    "publisher": "New Zealand Qualifications Authority",
+    "source_type": "achievement_standard",
+    "accessed_on": "2026-10-18",
+    "published_on": null,
+    "status_as_of_access": "current official resource read on research date; applicability is separately recorded in mappings",
+    "locators": [
+      {
+        "id": "content",
+        "locator": "p. 2, Explanatory Note 4",
+        "description": "English pages 1–2: version and level, curriculum derivation, achievement criteria, explanatory notes and enumerated mathematical methods. Current index checked independently."
+      }
+    ],
+    "reading_evidence": {
+      "method": "pdf_text",
+      "what_was_read": "English pages 1–2: version and level, curriculum derivation, achievement criteria, explanatory notes and enumerated mathematical methods. Current index checked independently."
+    },
+    "notes": "Document age or planned review date is not interpreted as an expiry date. Original diagnostic tasks in this package are not copied assessment material."
+  },
+  {
+    "source_id": "m_as91579",
+    "title": "AS91579: Apply integration methods in solving problems",
+    "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2019/as91579.pdf",
+    "publisher": "New Zealand Qualifications Authority",
+    "source_type": "achievement_standard",
+    "accessed_on": "2026-10-18",
+    "published_on": null,
+    "status_as_of_access": "current official resource read on research date; applicability is separately recorded in mappings",
+    "locators": [
+      {
+        "id": "content",
+        "locator": "p. 2, Explanatory Note 4",
+        "description": "English pages 1–2: version and level, curriculum derivation, achievement criteria, explanatory notes and enumerated mathematical methods. Current index checked independently."
+      }
+    ],
+    "reading_evidence": {
+      "method": "pdf_text",
+      "what_was_read": "English pages 1–2: version and level, curriculum derivation, achievement criteria, explanatory notes and enumerated mathematical methods. Current index checked independently."
+    },
+    "notes": "Document age or planned review date is not interpreted as an expiry date. Original diagnostic tasks in this package are not copied assessment material."
+  },
+  {
+    "source_id": "m_as91587",
+    "title": "AS91587: Apply systems of simultaneous equations in solving problems",
+    "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2019/as91587.pdf",
+    "publisher": "New Zealand Qualifications Authority",
+    "source_type": "achievement_standard",
+    "accessed_on": "2026-10-18",
+    "published_on": null,
+    "status_as_of_access": "current official resource read on research date; applicability is separately recorded in mappings",
+    "locators": [
+      {
+        "id": "content",
+        "locator": "pp. 1–2, Explanatory Notes 1 and 4",
+        "description": "English pages 1–2: version and level, curriculum derivation, achievement criteria, explanatory notes and enumerated mathematical methods. Current index checked independently."
+      }
+    ],
+    "reading_evidence": {
+      "method": "pdf_text",
+      "what_was_read": "English pages 1–2: version and level, curriculum derivation, achievement criteria, explanatory notes and enumerated mathematical methods. Current index checked independently."
+    },
+    "notes": "Document age or planned review date is not interpreted as an expiry date. Original diagnostic tasks in this package are not copied assessment material."
+  },
+  {
+    "source_id": "m_index_l2",
+    "title": "NZQA Mathematics Level 2 current achievement-standard catalogue",
+    "url": "https://www.nzqa.govt.nz/ncea/assessment/search.do?level=02&query=mathematics&view=all",
+    "publisher": "New Zealand Qualifications Authority",
+    "source_type": "guidance",
+    "accessed_on": "2026-10-18",
+    "published_on": null,
+    "status_as_of_access": "current official resource read on research date; applicability is separately recorded in mappings",
+    "locators": [
+      {
+        "id": "content",
+        "locator": "All 14 rows, 91256–91269",
+        "description": "Complete current list and latest linked standard documents; non-statistical rows 91256–91262 and 91269."
+      }
+    ],
+    "reading_evidence": {
+      "method": "web_open",
+      "what_was_read": "Complete current list and latest linked standard documents; non-statistical rows 91256–91262 and 91269."
+    },
+    "notes": "Document age or planned review date is not interpreted as an expiry date. Original diagnostic tasks in this package are not copied assessment material."
+  },
+  {
+    "source_id": "m_index_l3",
+    "title": "NZQA Mathematics Level 3 current achievement-standard catalogue",
+    "url": "https://www.nzqa.govt.nz/ncea/assessment/search.do?level=03&query=mathematics&view=all",
+    "publisher": "New Zealand Qualifications Authority",
+    "source_type": "guidance",
+    "accessed_on": "2026-10-18",
+    "published_on": null,
+    "status_as_of_access": "current official resource read on research date; applicability is separately recorded in mappings",
+    "locators": [
+      {
+        "id": "content",
+        "locator": "All 15 rows, 91573–91587",
+        "description": "Complete current list and latest linked standard documents; non-statistical rows 91573–91579 and 91587."
+      }
+    ],
+    "reading_evidence": {
+      "method": "web_open",
+      "what_was_read": "Complete current list and latest linked standard documents; non-statistical rows 91573–91579 and 91587."
+    },
+    "notes": "Document age or planned review date is not interpreted as an expiry date. Original diagnostic tasks in this package are not copied assessment material."
+  },
+  {
+    "source_id": "m_specs_l2_2026",
+    "title": "Level 2 Mathematics and Statistics 2026 Assessment Specifications",
+    "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/specifications/2026/91261-spc-2026.pdf",
+    "publisher": "New Zealand Qualifications Authority",
+    "source_type": "assessment_specification",
+    "accessed_on": "2026-10-18",
+    "published_on": null,
+    "status_as_of_access": "current official resource read on research date; applicability is separately recorded in mappings",
+    "locators": [
+      {
+        "id": "content",
+        "locator": "pp. 1–3; especially p. 2 standards 91261 and 91262",
+        "description": "Read all three pages, including algebra/model formation, 2D/3D formula prerequisite context, gradient graphs and classification of extrema."
+      }
+    ],
+    "reading_evidence": {
+      "method": "pdf_text",
+      "what_was_read": "Read all three pages, including algebra/model formation, 2D/3D formula prerequisite context, gradient graphs and classification of extrema."
+    },
+    "notes": "Document age or planned review date is not interpreted as an expiry date. Original diagnostic tasks in this package are not copied assessment material. Publication precision from source: 2025-10; exact day unconfirmed."
+  },
+  {
+    "source_id": "m_specs_l3_2026",
+    "title": "Level 3 Calculus 2026 Assessment Specifications",
+    "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/specifications/2026/91578-spc-2026.pdf",
+    "publisher": "New Zealand Qualifications Authority",
+    "source_type": "assessment_specification",
+    "accessed_on": "2026-10-18",
+    "published_on": null,
+    "status_as_of_access": "current official resource read on research date; applicability is separately recorded in mappings",
+    "locators": [
+      {
+        "id": "content",
+        "locator": "pp. 1–3; standards 91577, 91578, 91579",
+        "description": "Read all three pages, including showing derived/integrated functions, unknown constants, devising models and manipulating logarithms in differential equations. Printed 91579 credits conflict with standard; flag in notes."
+      }
+    ],
+    "reading_evidence": {
+      "method": "pdf_text",
+      "what_was_read": "Read all three pages, including showing derived/integrated functions, unknown constants, devising models and manipulating logarithms in differential equations. Printed 91579 credits conflict with standard; flag in notes."
+    },
+    "notes": "Document age or planned review date is not interpreted as an expiry date. Original diagnostic tasks in this package are not copied assessment material. Publication precision from source: 2025-10; exact day unconfirmed."
+  },
+  {
+    "source_id": "m_specs_l1_2026",
+    "title": "Level 1 Mathematics and Statistics 2026 Assessment Specifications",
+    "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/specifications/2026/91946-spc-2026.pdf",
+    "publisher": "New Zealand Qualifications Authority",
+    "source_type": "assessment_specification",
+    "accessed_on": "2026-10-18",
+    "published_on": null,
+    "status_as_of_access": "current official resource read on research date; applicability is separately recorded in mappings",
+    "locators": [
+      {
+        "id": "content",
+        "locator": "p. 3, AS91947: Number and Algebra",
+        "description": "Read three pages; AS91947 explicit number/algebra and geometry scope and mathematical reasoning requirement."
+      }
+    ],
+    "reading_evidence": {
+      "method": "pdf_text",
+      "what_was_read": "Read three pages; AS91947 explicit number/algebra and geometry scope and mathematical reasoning requirement."
+    },
+    "notes": "Document age or planned review date is not interpreted as an expiry date. Original diagnostic tasks in this package are not copied assessment material. Publication precision from source: 2025-10; exact day unconfirmed."
+  },
+  {
+    "source_id": "m_l1_outcomes",
+    "title": "Mathematics and Statistics NCEA NZC Level 1: Subject Learning Outcomes, Version 4",
+    "url": "https://ncea-live-3-storagestack-53q-assetstorages3bucket-2o21xte0r81u.s3.amazonaws.com/s3fs-public/2026-01/MS%20NCEA%20Level%201%20Subject%20Learning%20Outcomes.pdf?VersionId=w7R4QClh24XNIfDtPq46oauOYzTBAv7E",
+    "publisher": "Ministry of Education",
+    "source_type": "guidance",
+    "accessed_on": "2026-10-18",
+    "published_on": null,
+    "status_as_of_access": "current official resource read on research date; applicability is separately recorded in mappings",
+    "locators": [
+      {
+        "id": "content",
+        "locator": "pp. 11–13 AS91945 algebra; pp. 19–21 AS91947 methods/reasoning",
+        "description": "Read algebra, function representations, inequalities, quadratic and simultaneous-equation boundaries, and mathematical reasoning. Excludes logarithms/rearrangement, completing square/quadratic formula for AS91945, fractional index notation and nonlinear simultaneous equations in AS91947."
+      }
+    ],
+    "reading_evidence": {
+      "method": "pdf_text",
+      "what_was_read": "Read algebra, function representations, inequalities, quadratic and simultaneous-equation boundaries, and mathematical reasoning. Excludes logarithms/rearrangement, completing square/quadratic formula for AS91945, fractional index notation and nonlinear simultaneous equations in AS91947."
+    },
+    "notes": "Document age or planned review date is not interpreted as an expiry date. Original diagnostic tasks in this package are not copied assessment material."
+  },
+  {
+    "source_id": "m_l3_report_2025",
+    "title": "NCEA Level 3 Calculus 2025 Assessment Report",
+    "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2025/91578-report-2025.pdf",
+    "publisher": "New Zealand Qualifications Authority",
+    "source_type": "assessment_material",
+    "accessed_on": "2026-10-18",
+    "published_on": null,
+    "status_as_of_access": "current official resource read on research date; applicability is separately recorded in mappings",
+    "locators": [
+      {
+        "id": "content",
+        "locator": "pp. 3–5 complex numbers; pp. 5–8 differentiation; pp. 8–10 integration",
+        "description": "Read actual 2025 assessor commentary, including prerequisite algebra, coordinate geometry, first/second parametric derivatives, piecewise continuity, rational integration, initial constants and numerical integration. Used as corroboration of skills and errors, not as new criteria."
+      }
+    ],
+    "reading_evidence": {
+      "method": "pdf_text",
+      "what_was_read": "Read actual 2025 assessor commentary, including prerequisite algebra, coordinate geometry, first/second parametric derivatives, piecewise continuity, rational integration, initial constants and numerical integration. Used as corroboration of skills and errors, not as new criteria."
+    },
+    "notes": "Document age or planned review date is not interpreted as an expiry date. Original diagnostic tasks in this package are not copied assessment material."
+  },
+  {
+    "source_id": "m_nzc_senior",
+    "title": "The New Zealand Curriculum – Mathematics and statistics (current senior Levels 6–8)",
+    "url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637209905.p",
+    "publisher": "Ministry of Education",
+    "source_type": "curriculum",
+    "accessed_on": "2026-10-18",
+    "published_on": null,
+    "status_as_of_access": "current official resource read on research date; applicability is separately recorded in mappings",
+    "locators": [
+      {
+        "id": "content",
+        "locator": "Level 6 Number and algebra; Level 7 Mathematics; Level 8 Mathematics",
+        "description": "Read the senior achievement objectives and page statement that the 2007 content remains for Years 11–13 from 1 January 2026. Especially inverse/reciprocal functions, log modelling, numerical calculus and limits."
+      }
+    ],
+    "reading_evidence": {
+      "method": "web_open",
+      "what_was_read": "Read the senior achievement objectives and page statement that the 2007 content remains for Years 11–13 from 1 January 2026. Especially inverse/reciprocal functions, log modelling, numerical calculus and limits."
+    },
+    "notes": "Document age or planned review date is not interpreted as an expiry date. Original diagnostic tasks in this package are not copied assessment material."
+  },
+  {
+    "source_id": "s_nzc_senior",
+    "title": "The New Zealand Curriculum – Mathematics and statistics",
+    "url": "https://newzealandcurriculum.tahurangi.education.govt.nz/the-new-zealand-curriculum---mathematics-and-statistics/5637209905.p",
+    "publisher": "Ministry of Education",
+    "source_type": "curriculum",
+    "accessed_on": "2026-10-18",
+    "published_on": null,
+    "status_as_of_access": "NZC 2007 Levels 6–8 remain current for Years 11–13 as of access; Levels 1–5 on the same page are superseded from 2026-01-01",
+    "locators": [
+      {
+        "id": "main",
+        "locator": "Level 6 Statistics; Level 7 Statistics; Level 8 Statistics and Mathematics > Patterns and relationships; introductory 2026 applicability notice",
+        "description": "Read all three senior Statistics sections, Level 8 Mathematics patterns and relationships, and current applicability notice. Level 8 explicitly includes confidence intervals for means, proportions and differences, CLT, resampling, randomisation, regression and additive time series."
+      }
+    ],
+    "reading_evidence": {
+      "method": "web_open",
+      "what_was_read": "Read all three senior Statistics sections, Level 8 Mathematics patterns and relationships, and current applicability notice. Level 8 explicitly includes confidence intervals for means, proportions and differences, CLT, resampling, randomisation, regression and additive time series."
+    },
+    "notes": "English text read. Examples in the supplement are independently authored."
+  },
+  {
+    "source_id": "s_phase4",
+    "title": "NZC – Mathematics and Statistics Phase 4 (Years 9–10)",
+    "url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637291579.p",
+    "publisher": "Ministry of Education",
+    "source_type": "curriculum",
+    "accessed_on": "2026-10-18",
+    "published_on": null,
+    "status_as_of_access": "Current from 2026-01-01",
+    "locators": [
+      {
+        "id": "main",
+        "locator": "Statistics > Developing knowledge from data / Visualisation / Interpretation; Probability",
+        "description": "Read Statistics and Probability teaching sequence; Year 9 five-number summary and IQR; Year 10 sampling and 75%-to-50% inference heuristic."
+      }
+    ],
+    "reading_evidence": {
+      "method": "web_open",
+      "what_was_read": "Read Statistics and Probability teaching sequence; Year 9 five-number summary and IQR; Year 10 sampling and 75%-to-50% inference heuristic."
+    },
+    "notes": "English text read. Examples in the supplement are independently authored."
+  },
+  {
+    "source_id": "s_catalog_l1",
+    "title": "NZQA current Mathematics and Statistics assessment catalogue, Level 1",
+    "url": "https://www.nzqa.govt.nz/ncea/assessment/search.do?level=01&query=mathematics&view=all",
+    "publisher": "New Zealand Qualifications Authority",
+    "source_type": "guidance",
+    "accessed_on": "2026-10-18",
+    "published_on": null,
+    "status_as_of_access": "Current assessment catalogue checked 2026-10-18; historical files within catalogue are not independently current requirements",
+    "locators": [
+      {
+        "id": "main",
+        "locator": "Current standard rows and linked latest achievement-standard PDFs",
+        "description": "Read standard numbers, titles, qualification levels and assessment types and followed latest English PDFs."
+      }
+    ],
+    "reading_evidence": {
+      "method": "web_open",
+      "what_was_read": "Read standard numbers, titles, qualification levels and assessment types and followed latest English PDFs."
+    },
+    "notes": "English text read. Examples in the supplement are independently authored."
+  },
+  {
+    "source_id": "s_catalog_l2",
+    "title": "NZQA current Mathematics and Statistics assessment catalogue, Level 2",
+    "url": "https://www.nzqa.govt.nz/ncea/assessment/search.do?level=02&query=mathematics&view=all",
+    "publisher": "New Zealand Qualifications Authority",
+    "source_type": "guidance",
+    "accessed_on": "2026-10-18",
+    "published_on": null,
+    "status_as_of_access": "Current assessment catalogue checked 2026-10-18; historical files within catalogue are not independently current requirements",
+    "locators": [
+      {
+        "id": "main",
+        "locator": "Current standard rows and linked latest achievement-standard PDFs",
+        "description": "Read standard numbers, titles, qualification levels and assessment types and followed latest English PDFs."
+      }
+    ],
+    "reading_evidence": {
+      "method": "web_open",
+      "what_was_read": "Read standard numbers, titles, qualification levels and assessment types and followed latest English PDFs."
+    },
+    "notes": "English text read. Examples in the supplement are independently authored."
+  },
+  {
+    "source_id": "s_catalog_l3",
+    "title": "NZQA current Mathematics and Statistics assessment catalogue, Level 3",
+    "url": "https://www.nzqa.govt.nz/ncea/assessment/search.do?level=03&query=math&view=files",
+    "publisher": "New Zealand Qualifications Authority",
+    "source_type": "guidance",
+    "accessed_on": "2026-10-18",
+    "published_on": null,
+    "status_as_of_access": "Current assessment catalogue checked 2026-10-18; historical files within catalogue are not independently current requirements",
+    "locators": [
+      {
+        "id": "main",
+        "locator": "Current standard rows and linked latest achievement-standard PDFs",
+        "description": "Read standard numbers, titles, qualification levels and assessment types and followed latest English PDFs."
+      }
+    ],
+    "reading_evidence": {
+      "method": "web_open",
+      "what_was_read": "Read standard numbers, titles, qualification levels and assessment types and followed latest English PDFs."
+    },
+    "notes": "English text read. Examples in the supplement are independently authored."
+  },
+  {
+    "source_id": "s_as91944",
+    "title": "AS91944 v4 – Explore data using a statistical enquiry process",
+    "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2024/as91944.pdf",
+    "publisher": "New Zealand Qualifications Authority",
+    "source_type": "achievement_standard",
+    "accessed_on": "2026-10-18",
+    "published_on": null,
+    "status_as_of_access": "Current version linked by 2026 catalogue. Planned review date is not an expiry date. Folder/copyright year is distinct from publication date in header.",
+    "locators": [
+      {
+        "id": "main",
+        "locator": "pp. 1–2, explanatory notes 1–3 and 5",
+        "description": "Read English version header, criteria and all English explanatory notes. Cross-checked against current Level 1 catalogue."
+      }
+    ],
+    "reading_evidence": {
+      "method": "pdf_text",
+      "what_was_read": "Read English version header, criteria and all English explanatory notes. Cross-checked against current Level 1 catalogue."
+    },
+    "notes": "English text read. Examples in the supplement are independently authored."
+  },
+  {
+    "source_id": "s_as91946",
+    "title": "AS91946 v3 – Interpret and apply mathematical and statistical information in context",
+    "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2024/as91946.pdf",
+    "publisher": "New Zealand Qualifications Authority",
+    "source_type": "achievement_standard",
+    "accessed_on": "2026-10-18",
+    "published_on": null,
+    "status_as_of_access": "Current version linked by 2026 catalogue. Planned review date is not an expiry date. Folder/copyright year is distinct from publication date in header.",
+    "locators": [
+      {
+        "id": "main",
+        "locator": "pp. 1–2, explanatory notes 1–4 and 6",
+        "description": "Read English version header, criteria and all English explanatory notes. Cross-checked against current Level 1 catalogue."
+      }
+    ],
+    "reading_evidence": {
+      "method": "pdf_text",
+      "what_was_read": "Read English version header, criteria and all English explanatory notes. Cross-checked against current Level 1 catalogue."
+    },
+    "notes": "English text read. Examples in the supplement are independently authored."
+  },
+  {
+    "source_id": "s_as91263",
+    "title": "AS91263 v3 – Design a questionnaire",
+    "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2019/as91263.pdf",
+    "publisher": "New Zealand Qualifications Authority",
+    "source_type": "achievement_standard",
+    "accessed_on": "2026-10-18",
+    "published_on": "2015-11-19",
+    "status_as_of_access": "Current version linked by 2026 catalogue. Planned review date is not an expiry date. Folder/copyright year is distinct from publication date in header.",
+    "locators": [
+      {
+        "id": "main",
+        "locator": "pp. 1–2, explanatory notes 1–3",
+        "description": "Read English version header, criteria and all English explanatory notes. Cross-checked against current Level 2 catalogue."
+      }
+    ],
+    "reading_evidence": {
+      "method": "pdf_text",
+      "what_was_read": "Read English version header, criteria and all English explanatory notes. Cross-checked against current Level 2 catalogue."
+    },
+    "notes": "English text read. Examples in the supplement are independently authored."
+  },
+  {
+    "source_id": "s_as91264",
+    "title": "AS91264 v3 – Use statistical methods to make an inference",
+    "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2019/as91264.pdf",
+    "publisher": "New Zealand Qualifications Authority",
+    "source_type": "achievement_standard",
+    "accessed_on": "2026-10-18",
+    "published_on": "2015-11-19",
+    "status_as_of_access": "Current version linked by 2026 catalogue. Planned review date is not an expiry date. Folder/copyright year is distinct from publication date in header.",
+    "locators": [
+      {
+        "id": "main",
+        "locator": "pp. 1–2, explanatory notes 1–3",
+        "description": "Read English version header, criteria and all English explanatory notes. Cross-checked against current Level 2 catalogue."
+      }
+    ],
+    "reading_evidence": {
+      "method": "pdf_text",
+      "what_was_read": "Read English version header, criteria and all English explanatory notes. Cross-checked against current Level 2 catalogue."
+    },
+    "notes": "English text read. Examples in the supplement are independently authored."
+  },
+  {
+    "source_id": "s_as91265",
+    "title": "AS91265 v3 – Conduct an experiment to investigate a situation using statistical methods",
+    "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2019/as91265.pdf",
+    "publisher": "New Zealand Qualifications Authority",
+    "source_type": "achievement_standard",
+    "accessed_on": "2026-10-18",
+    "published_on": "2015-11-19",
+    "status_as_of_access": "Current version linked by 2026 catalogue. Planned review date is not an expiry date. Folder/copyright year is distinct from publication date in header.",
+    "locators": [
+      {
+        "id": "main",
+        "locator": "pp. 1–2, explanatory notes 1–3",
+        "description": "Read English version header, criteria and all English explanatory notes. Cross-checked against current Level 2 catalogue."
+      }
+    ],
+    "reading_evidence": {
+      "method": "pdf_text",
+      "what_was_read": "Read English version header, criteria and all English explanatory notes. Cross-checked against current Level 2 catalogue."
+    },
+    "notes": "English text read. Examples in the supplement are independently authored."
+  },
+  {
+    "source_id": "s_as91266",
+    "title": "AS91266 v3 – Evaluate a statistically based report",
+    "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2019/as91266.pdf",
+    "publisher": "New Zealand Qualifications Authority",
+    "source_type": "achievement_standard",
+    "accessed_on": "2026-10-18",
+    "published_on": "2015-11-19",
+    "status_as_of_access": "Current version linked by 2026 catalogue. Planned review date is not an expiry date. Folder/copyright year is distinct from publication date in header.",
+    "locators": [
+      {
+        "id": "main",
+        "locator": "pp. 1–2, explanatory notes 1–3",
+        "description": "Read English version header, criteria and all English explanatory notes. Cross-checked against current Level 2 catalogue."
+      }
+    ],
+    "reading_evidence": {
+      "method": "pdf_text",
+      "what_was_read": "Read English version header, criteria and all English explanatory notes. Cross-checked against current Level 2 catalogue."
+    },
+    "notes": "English text read. Examples in the supplement are independently authored."
+  },
+  {
+    "source_id": "s_as91267",
+    "title": "AS91267 v3 – Apply probability methods in solving problems",
+    "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2019/as91267.pdf",
+    "publisher": "New Zealand Qualifications Authority",
+    "source_type": "achievement_standard",
+    "accessed_on": "2026-10-18",
+    "published_on": "2015-11-19",
+    "status_as_of_access": "Current version linked by 2026 catalogue. Planned review date is not an expiry date. Folder/copyright year is distinct from publication date in header.",
+    "locators": [
+      {
+        "id": "main",
+        "locator": "pp. 1–2, explanatory notes 1–4",
+        "description": "Read English version header, criteria and all English explanatory notes. Cross-checked against current Level 2 catalogue."
+      }
+    ],
+    "reading_evidence": {
+      "method": "pdf_text",
+      "what_was_read": "Read English version header, criteria and all English explanatory notes. Cross-checked against current Level 2 catalogue."
+    },
+    "notes": "English text read. Examples in the supplement are independently authored."
+  },
+  {
+    "source_id": "s_as91268",
+    "title": "AS91268 v3 – Investigate a situation involving elements of chance using a simulation",
+    "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2019/as91268.pdf",
+    "publisher": "New Zealand Qualifications Authority",
+    "source_type": "achievement_standard",
+    "accessed_on": "2026-10-18",
+    "published_on": "2015-11-19",
+    "status_as_of_access": "Current version linked by 2026 catalogue. Planned review date is not an expiry date. Folder/copyright year is distinct from publication date in header.",
+    "locators": [
+      {
+        "id": "main",
+        "locator": "pp. 1–2, explanatory notes 1–3",
+        "description": "Read English version header, criteria and all English explanatory notes. Cross-checked against current Level 2 catalogue."
+      }
+    ],
+    "reading_evidence": {
+      "method": "pdf_text",
+      "what_was_read": "Read English version header, criteria and all English explanatory notes. Cross-checked against current Level 2 catalogue."
+    },
+    "notes": "English text read. Examples in the supplement are independently authored."
+  },
+  {
+    "source_id": "s_as91580",
+    "title": "AS91580 v2 – Investigate time series data",
+    "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2019/as91580.pdf",
+    "publisher": "New Zealand Qualifications Authority",
+    "source_type": "achievement_standard",
+    "accessed_on": "2026-10-18",
+    "published_on": "2016-11-17",
+    "status_as_of_access": "Current version linked by 2026 catalogue. Planned review date is not an expiry date. Folder/copyright year is distinct from publication date in header.",
+    "locators": [
+      {
+        "id": "main",
+        "locator": "pp. 1–2, explanatory notes 1–3",
+        "description": "Read English version header, criteria and all English explanatory notes. Cross-checked against current Level 3 catalogue."
+      }
+    ],
+    "reading_evidence": {
+      "method": "pdf_text",
+      "what_was_read": "Read English version header, criteria and all English explanatory notes. Cross-checked against current Level 3 catalogue."
+    },
+    "notes": "English text read. Examples in the supplement are independently authored."
+  },
+  {
+    "source_id": "s_as91581",
+    "title": "AS91581 v2 – Investigate bivariate measurement data",
+    "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2019/as91581.pdf",
+    "publisher": "New Zealand Qualifications Authority",
+    "source_type": "achievement_standard",
+    "accessed_on": "2026-10-18",
+    "published_on": "2016-11-17",
+    "status_as_of_access": "Current version linked by 2026 catalogue. Planned review date is not an expiry date. Folder/copyright year is distinct from publication date in header.",
+    "locators": [
+      {
+        "id": "main",
+        "locator": "pp. 1–2, explanatory notes 1–5",
+        "description": "Read English version header, criteria and all English explanatory notes. Cross-checked against current Level 3 catalogue."
+      }
+    ],
+    "reading_evidence": {
+      "method": "pdf_text",
+      "what_was_read": "Read English version header, criteria and all English explanatory notes. Cross-checked against current Level 3 catalogue."
+    },
+    "notes": "English text read. Examples in the supplement are independently authored."
+  },
+  {
+    "source_id": "s_as91582",
+    "title": "AS91582 v2 – Use statistical methods to make a formal inference",
+    "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2019/as91582.pdf",
+    "publisher": "New Zealand Qualifications Authority",
+    "source_type": "achievement_standard",
+    "accessed_on": "2026-10-18",
+    "published_on": "2016-11-17",
+    "status_as_of_access": "Current version linked by 2026 catalogue. Planned review date is not an expiry date. Folder/copyright year is distinct from publication date in header.",
+    "locators": [
+      {
+        "id": "main",
+        "locator": "pp. 1–2, explanatory notes 1–3",
+        "description": "Read English version header, criteria and all English explanatory notes. Cross-checked against current Level 3 catalogue."
+      }
+    ],
+    "reading_evidence": {
+      "method": "pdf_text",
+      "what_was_read": "Read English version header, criteria and all English explanatory notes. Cross-checked against current Level 3 catalogue."
+    },
+    "notes": "English text read. Examples in the supplement are independently authored."
+  },
+  {
+    "source_id": "s_as91583",
+    "title": "AS91583 v2 – Conduct an experiment to investigate a situation using experimental design principles",
+    "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2019/as91583.pdf",
+    "publisher": "New Zealand Qualifications Authority",
+    "source_type": "achievement_standard",
+    "accessed_on": "2026-10-18",
+    "published_on": "2016-11-17",
+    "status_as_of_access": "Current version linked by 2026 catalogue. Planned review date is not an expiry date. Folder/copyright year is distinct from publication date in header.",
+    "locators": [
+      {
+        "id": "main",
+        "locator": "pp. 1–2, explanatory notes 1–3",
+        "description": "Read English version header, criteria and all English explanatory notes. Cross-checked against current Level 3 catalogue."
+      }
+    ],
+    "reading_evidence": {
+      "method": "pdf_text",
+      "what_was_read": "Read English version header, criteria and all English explanatory notes. Cross-checked against current Level 3 catalogue."
+    },
+    "notes": "English text read. Examples in the supplement are independently authored."
+  },
+  {
+    "source_id": "s_as91584",
+    "title": "AS91584 v2 – Evaluate statistically based reports",
+    "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2019/as91584.pdf",
+    "publisher": "New Zealand Qualifications Authority",
+    "source_type": "achievement_standard",
+    "accessed_on": "2026-10-18",
+    "published_on": "2016-11-17",
+    "status_as_of_access": "Current version linked by 2026 catalogue. Planned review date is not an expiry date. Folder/copyright year is distinct from publication date in header.",
+    "locators": [
+      {
+        "id": "main",
+        "locator": "pp. 1–2, explanatory notes 1–3",
+        "description": "Read English version header, criteria and all English explanatory notes. Cross-checked against current Level 3 catalogue."
+      }
+    ],
+    "reading_evidence": {
+      "method": "pdf_text",
+      "what_was_read": "Read English version header, criteria and all English explanatory notes. Cross-checked against current Level 3 catalogue."
+    },
+    "notes": "English text read. Examples in the supplement are independently authored."
+  },
+  {
+    "source_id": "s_as91585",
+    "title": "AS91585 v2 – Apply probability concepts in solving problems",
+    "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2019/as91585.pdf",
+    "publisher": "New Zealand Qualifications Authority",
+    "source_type": "achievement_standard",
+    "accessed_on": "2026-10-18",
+    "published_on": "2016-11-17",
+    "status_as_of_access": "Current version linked by 2026 catalogue. Planned review date is not an expiry date. Folder/copyright year is distinct from publication date in header.",
+    "locators": [
+      {
+        "id": "main",
+        "locator": "pp. 1–2, explanatory notes 1–4",
+        "description": "Read English version header, criteria and all English explanatory notes. Cross-checked against current Level 3 catalogue."
+      }
+    ],
+    "reading_evidence": {
+      "method": "pdf_text",
+      "what_was_read": "Read English version header, criteria and all English explanatory notes. Cross-checked against current Level 3 catalogue."
+    },
+    "notes": "English text read. Examples in the supplement are independently authored."
+  },
+  {
+    "source_id": "s_as91586",
+    "title": "AS91586 v2 – Apply probability distributions in solving problems",
+    "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2019/as91586.pdf",
+    "publisher": "New Zealand Qualifications Authority",
+    "source_type": "achievement_standard",
+    "accessed_on": "2026-10-18",
+    "published_on": "2016-11-17",
+    "status_as_of_access": "Current version linked by 2026 catalogue. Planned review date is not an expiry date. Folder/copyright year is distinct from publication date in header.",
+    "locators": [
+      {
+        "id": "main",
+        "locator": "pp. 1–2, explanatory notes 1–4",
+        "description": "Read English version header, criteria and all English explanatory notes. Cross-checked against current Level 3 catalogue."
+      }
+    ],
+    "reading_evidence": {
+      "method": "pdf_text",
+      "what_was_read": "Read English version header, criteria and all English explanatory notes. Cross-checked against current Level 3 catalogue."
+    },
+    "notes": "English text read. Examples in the supplement are independently authored."
+  },
+  {
+    "source_id": "s_spec_l1_2026",
+    "title": "2026 Assessment Specifications – Level 1 Mathematics and Statistics",
+    "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/specifications/2026/91947-spc-2026.pdf",
+    "publisher": "New Zealand Qualifications Authority",
+    "source_type": "assessment_specification",
+    "accessed_on": "2026-10-18",
+    "published_on": null,
+    "status_as_of_access": "Published October 2025 for examinations in 2026; current examination specification",
+    "locators": [
+      {
+        "id": "main",
+        "locator": "pp. 1–3; individual standard sections",
+        "description": "Read general instructions and all standard-specific sections; for Level 1 91947 no probability strand; for Level 3 includes normal, Poisson, binomial, uniform and triangular distributions."
+      }
+    ],
+    "reading_evidence": {
+      "method": "pdf_text",
+      "what_was_read": "Read general instructions and all standard-specific sections; for Level 1 91947 no probability strand; for Level 3 includes normal, Poisson, binomial, uniform and triangular distributions."
+    },
+    "notes": "English text read. Examples in the supplement are independently authored."
+  },
+  {
+    "source_id": "s_spec_l2_2026",
+    "title": "2026 Assessment Specifications – Level 2 Mathematics and Statistics",
+    "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/specifications/2026/91267-spc-2026.pdf",
+    "publisher": "New Zealand Qualifications Authority",
+    "source_type": "assessment_specification",
+    "accessed_on": "2026-10-18",
+    "published_on": null,
+    "status_as_of_access": "Published October 2025 for examinations in 2026; current examination specification",
+    "locators": [
+      {
+        "id": "main",
+        "locator": "pp. 1–3; individual standard sections",
+        "description": "Read general instructions and all standard-specific sections; for Level 1 91947 no probability strand; for Level 3 includes normal, Poisson, binomial, uniform and triangular distributions."
+      }
+    ],
+    "reading_evidence": {
+      "method": "pdf_text",
+      "what_was_read": "Read general instructions and all standard-specific sections; for Level 1 91947 no probability strand; for Level 3 includes normal, Poisson, binomial, uniform and triangular distributions."
+    },
+    "notes": "English text read. Examples in the supplement are independently authored."
+  },
+  {
+    "source_id": "s_spec_l3_2026",
+    "title": "2026 Assessment Specifications – Level 3 Statistics",
+    "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/specifications/2026/91586-spc-2026.pdf",
+    "publisher": "New Zealand Qualifications Authority",
+    "source_type": "assessment_specification",
+    "accessed_on": "2026-10-18",
+    "published_on": null,
+    "status_as_of_access": "Published October 2025 for examinations in 2026; current examination specification",
+    "locators": [
+      {
+        "id": "main",
+        "locator": "pp. 1–3; individual standard sections",
+        "description": "Read general instructions and all standard-specific sections; for Level 1 91947 no probability strand; for Level 3 includes normal, Poisson, binomial, uniform and triangular distributions."
+      }
+    ],
+    "reading_evidence": {
+      "method": "pdf_text",
+      "what_was_read": "Read general instructions and all standard-specific sections; for Level 1 91947 no probability strand; for Level 3 includes normal, Poisson, binomial, uniform and triangular distributions."
+    },
+    "notes": "English text read. Examples in the supplement are independently authored."
+  },
+  {
+    "source_id": "s_l1_slo",
+    "title": "Mathematics and Statistics NCEA NZC Level 1 Subject Learning Outcomes for Assessment, Version 4",
+    "url": "https://ncea-live-3-storagestack-53q-assetstorages3bucket-2o21xte0r81u.s3.amazonaws.com/s3fs-public/2026-01/MS%20NCEA%20Level%201%20Subject%20Learning%20Outcomes.pdf?VersionId=w7R4QClh24XNIfDtPq46oauOYzTBAv7E",
+    "publisher": "Ministry of Education",
+    "source_type": "guidance",
+    "accessed_on": "2026-10-18",
+    "published_on": null,
+    "status_as_of_access": "Version 4 hosted January 2026; companion guidance, not replacement assessment criteria",
+    "locators": [
+      {
+        "id": "main",
+        "locator": "pp. 1–10, AS91944 all four investigation contexts",
+        "description": "Read introduction and AS91944 pp. 2–10: data source, bivariate, comparison, time series and experimental probability. Formal regression and seasonal-effect calculation not required for Level 1; sample-size-specific comparison guidance given."
+      }
+    ],
+    "reading_evidence": {
+      "method": "pdf_text",
+      "what_was_read": "Read introduction and AS91944 pp. 2–10: data source, bivariate, comparison, time series and experimental probability. Formal regression and seasonal-effect calculation not required for Level 1; sample-size-specific comparison guidance given."
+    },
+    "notes": "English text read. Examples in the supplement are independently authored."
+  },
+  {
+    "source_id": "s_s7_inference",
+    "title": "Achievement objective S7-2 – Senior Secondary teaching and learning guide",
+    "url": "https://seniorsecondary.tki.org.nz/Mathematics-and-statistics/Achievement-objectives/AOs-by-level/AO-S7-2",
+    "publisher": "Ministry of Education",
+    "source_type": "guidance",
+    "accessed_on": "2026-10-18",
+    "published_on": "2018-09-17",
+    "status_as_of_access": "Current guidance read; does not itself set a new curriculum or standard version",
+    "locators": [
+      {
+        "id": "main",
+        "locator": "Indicators A–C; Progression; Assessment for qualifications",
+        "description": "Read point estimates, sample size effect, informal median interval median ± 1.5 IQR/√n; explicit link forward to S8-2."
+      }
+    ],
+    "reading_evidence": {
+      "method": "web_open",
+      "what_was_read": "Read point estimates, sample size effect, informal median interval median ± 1.5 IQR/√n; explicit link forward to S8-2."
+    },
+    "notes": "English text read. Examples in the supplement are independently authored."
+  },
+  {
+    "source_id": "s_clt",
+    "title": "Central limit theorem",
+    "url": "https://newzealandcurriculum.tahurangi.education.govt.nz/central-limit-theorem/5637219747.p",
+    "publisher": "Ministry of Education",
+    "source_type": "guidance",
+    "accessed_on": "2026-10-18",
+    "published_on": null,
+    "status_as_of_access": "Current guidance read; does not itself set a new curriculum or standard version",
+    "locators": [
+      {
+        "id": "main",
+        "locator": "Definition; Curriculum achievement objectives reference",
+        "description": "Read definition about sampling distribution of means and stated Statistical investigation Level 8 link. Added necessary independence and finite-variance conditions in original teaching explanation."
+      }
+    ],
+    "reading_evidence": {
+      "method": "web_open",
+      "what_was_read": "Read definition about sampling distribution of means and stated Statistical investigation Level 8 link. Added necessary independence and finite-variance conditions in original teaching explanation."
+    },
+    "notes": "English text read. Examples in the supplement are independently authored."
+  },
+  {
+    "source_id": "s_moe",
+    "title": "Glossary page M – Margin of error",
+    "url": "https://seniorsecondary.tki.org.nz/Mathematics-and-statistics/Glossary/Glossary-page-M",
+    "publisher": "Ministry of Education",
+    "source_type": "guidance",
+    "accessed_on": "2026-10-18",
+    "published_on": null,
+    "status_as_of_access": "Current guidance read; does not itself set a new curriculum or standard version",
+    "locators": [
+      {
+        "id": "main",
+        "locator": "Margin of error: definition; 1/√n, 2× and 1.5×average rules of thumb",
+        "description": "Read definitions and rules for one proportion, within-poll difference and independent-poll difference. Example 4 has internally inconsistent counts and percentages; not reused."
+      }
+    ],
+    "reading_evidence": {
+      "method": "web_open",
+      "what_was_read": "Read definitions and rules for one proportion, within-poll difference and independent-poll difference. Example 4 has internally inconsistent counts and percentages; not reused."
+    },
+    "notes": "English text read. Examples in the supplement are independently authored."
+  },
+  {
+    "source_id": "s_bootstrap",
+    "title": "Confidence Intervals from Bootstrap Resampling",
+    "url": "https://new.censusatschool.org.nz/resource/cis-from-bootstrap/",
+    "publisher": "CensusAtSchool New Zealand / Chris Wild",
+    "source_type": "guidance",
+    "accessed_on": "2026-10-18",
+    "published_on": "2016-08-18",
+    "status_as_of_access": "Current guidance read; does not itself set a new curriculum or standard version",
+    "locators": [
+      {
+        "id": "main",
+        "locator": "Introductory text and learning questions",
+        "description": "Read description and questions distinguishing bootstrap resampling from sampling without replacement; video itself not watched."
+      }
+    ],
+    "reading_evidence": {
+      "method": "web_open",
+      "what_was_read": "Read description and questions distinguishing bootstrap resampling from sampling without replacement; video itself not watched."
+    },
+    "notes": "English text read. Examples in the supplement are independently authored."
+  },
+  {
+    "source_id": "s_bootstrap_practice",
+    "title": "Inference AS 3.10 – What matters most?",
+    "url": "https://new.censusatschool.org.nz/resource/as-3-10-what-matters-most/",
+    "publisher": "CensusAtSchool New Zealand / Michelle Dalrymple",
+    "source_type": "guidance",
+    "accessed_on": "2026-10-18",
+    "published_on": "2016-08-18",
+    "status_as_of_access": "Current guidance read; does not itself set a new curriculum or standard version",
+    "locators": [
+      {
+        "id": "main",
+        "locator": "Students are expected to, items 1–4",
+        "description": "Read practice guidance for research context, PPDAC and bootstrap difference of means/medians."
+      }
+    ],
+    "reading_evidence": {
+      "method": "web_open",
+      "what_was_read": "Read practice guidance for research context, PPDAC and bootstrap difference of means/medians."
+    },
+    "notes": "English text read. Examples in the supplement are independently authored."
+  },
+  {
+    "source_id": "s_inference_progression",
+    "title": "How do I correctly pose a comparison investigative question for Kiwi Kapers 3 and state my conclusions when making an inference about the population?",
+    "url": "https://new.censusatschool.org.nz/faq/posing-a-comparison-investigative-question-and-conclusions-for-kiwi-kapers-3-and-state/",
+    "publisher": "CensusAtSchool New Zealand / Pip Arnold",
+    "source_type": "guidance",
+    "accessed_on": "2026-10-18",
+    "published_on": "2012-10-24",
+    "status_as_of_access": "Current guidance read; does not itself set a new curriculum or standard version",
+    "locators": [
+      {
+        "id": "main",
+        "locator": "On comparison questions; On writing conclusions",
+        "description": "Read distinction between visual tendency, Level 2 informal population-median intervals and Level 3 interval for difference; examples are guidance, not fixed year mandates."
+      }
+    ],
+    "reading_evidence": {
+      "method": "web_open",
+      "what_was_read": "Read distinction between visual tendency, Level 2 informal population-median intervals and Level 3 interval for difference; examples are guidance, not fixed year mandates."
+    },
+    "notes": "English text read. Examples in the supplement are independently authored."
+  },
+  {
+    "source_id": "s_timeseries",
+    "title": "Describing the trend in a time series (2016)",
+    "url": "https://new.censusatschool.org.nz/resource/describing-the-trend-in-a-time-series/",
+    "publisher": "CensusAtSchool New Zealand / Mathematics and Statistics Facilitators / NZSA Education Committee",
+    "source_type": "guidance",
+    "accessed_on": "2026-10-18",
+    "published_on": "2016-08-30",
+    "status_as_of_access": "Current guidance read; does not itself set a new curriculum or standard version",
+    "locators": [
+      {
+        "id": "main",
+        "locator": "A clear path for time series analysis, items 1–6",
+        "description": "Read trend/seasonal/residual decomposition, quantitative descriptions and model adequacy. Updated 2026-07-29; not a change in standard."
+      }
+    ],
+    "reading_evidence": {
+      "method": "web_open",
+      "what_was_read": "Read trend/seasonal/residual decomposition, quantitative descriptions and model adequacy. Updated 2026-07-29; not a change in standard."
+    },
+    "notes": "English text read. Examples in the supplement are independently authored."
+  },
+  {
+    "source_id": "s_examreport_2025",
+    "title": "NCEA Level 3 Statistics 2025 Assessment Report",
+    "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2025/91586-report-2025.pdf",
+    "publisher": "New Zealand Qualifications Authority",
+    "source_type": "assessment_material",
+    "accessed_on": "2026-10-18",
+    "published_on": null,
+    "status_as_of_access": "Retrospective 2025 assessment commentary, used as evidence of misconceptions, not 2026 requirements",
+    "locators": [
+      {
+        "id": "main",
+        "locator": "pp. 4–8, AS91585 and AS91586 commentary and grade descriptors",
+        "description": "Read errors concerning independence vs exclusivity, model vs empirical probability, relative-risk wording and model selection."
+      }
+    ],
+    "reading_evidence": {
+      "method": "pdf_text",
+      "what_was_read": "Read errors concerning independence vs exclusivity, model vs empirical probability, relative-risk wording and model selection."
+    },
+    "notes": "English text read. Examples in the supplement are independently authored."
+  },
+  {
+    "source_id": "s_schedule_91586_2025",
+    "title": "2025 Assessment Schedule – Apply probability distributions in solving problems (91586)",
+    "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2025/91586-ass-2025.pdf",
+    "publisher": "New Zealand Qualifications Authority",
+    "source_type": "assessment_material",
+    "accessed_on": "2026-10-18",
+    "published_on": null,
+    "status_as_of_access": "Retrospective official assessment schedule; source numerical/typographical errors are not reproduced",
+    "locators": [
+      {
+        "id": "main",
+        "locator": "pp. 1–4, Questions One and Two",
+        "description": "Read methods and grading evidence for normal, conditional uniform, triangular-model assumptions and comparison with observations. Original diagnostics use different contexts and numbers."
+      }
+    ],
+    "reading_evidence": {
+      "method": "pdf_text",
+      "what_was_read": "Read methods and grading evidence for normal, conditional uniform, triangular-model assumptions and comparison with observations. Original diagnostics use different contexts and numbers."
+    },
+    "notes": "English text read. Examples in the supplement are independently authored."
+  },
+  {
+    "source_id": "s_design_principles",
+    "title": "Experimental design principles",
+    "url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637219735.p",
+    "publisher": "Ministry of Education",
+    "source_type": "guidance",
+    "accessed_on": "2026-10-18",
+    "published_on": null,
+    "status_as_of_access": "Current guidance read; does not itself set a new curriculum or standard version",
+    "locators": [
+      {
+        "id": "main",
+        "locator": "Principles: comparison, random allocation, variability and replication; Level 8 curriculum reference",
+        "description": "Read the complete explanation of treatment comparison, controls, random allocation and replication."
+      }
+    ],
+    "reading_evidence": {
+      "method": "web_open",
+      "what_was_read": "Read the complete explanation of treatment comparison, controls, random allocation and replication."
+    },
+    "notes": "English text read. Examples in the supplement are independently authored."
+  },
+  {
+    "source_id": "s_randomisation",
+    "title": "Randomisation",
+    "url": "https://newzealandcurriculum.tahurangi.education.govt.nz/randomisation/5637219728.p",
+    "publisher": "Ministry of Education",
+    "source_type": "guidance",
+    "accessed_on": "2026-10-18",
+    "published_on": null,
+    "status_as_of_access": "Current guidance read; does not itself set a new curriculum or standard version",
+    "locators": [
+      {
+        "id": "main",
+        "locator": "Randomisation used in data collection; Randomisation used in statistical inference; Summary",
+        "description": "Read both definitions, group-label reallocation examples, one-sided and two-sided tail interpretations and complete summary. Arithmetic inconsistencies in example tables are not reused."
+      }
+    ],
+    "reading_evidence": {
+      "method": "web_open",
+      "what_was_read": "Read both definitions, group-label reallocation examples, one-sided and two-sided tail interpretations and complete summary. Arithmetic inconsistencies in example tables are not reused."
+    },
+    "notes": "English text read. Examples in the supplement are independently authored."
+  },
+  {
+    "source_id": "s_bootstrap_glossary",
+    "title": "Glossary page B – Bootstrap confidence interval, bootstrap distribution and bootstrapping",
+    "url": "https://seniorsecondary.tki.org.nz/Mathematics-and-statistics/Glossary/Glossary-page-B",
+    "publisher": "Ministry of Education",
+    "source_type": "guidance",
+    "accessed_on": "2026-10-18",
+    "published_on": "2013-10-09",
+    "status_as_of_access": "Current guidance read; does not itself set a new curriculum or standard version",
+    "locators": [
+      {
+        "id": "main",
+        "locator": "Bootstrap confidence interval; Bootstrap distribution; Bootstrapping",
+        "description": "Read size-n sampling with replacement, percentile intervals and explicit caveat that central 95% of resamples does not guarantee 95% coverage, especially with small samples."
+      }
+    ],
+    "reading_evidence": {
+      "method": "web_open",
+      "what_was_read": "Read size-n sampling with replacement, percentile intervals and explicit caveat that central 95% of resamples does not guarantee 95% coverage, especially with small samples."
+    },
+    "notes": "English text read. Examples in the supplement are independently authored."
+  },
+  {
+    "source_id": "s_bootstrap_transcript",
+    "title": "Data to Insight – Confidence Intervals from Bootstrap Re-sampling",
+    "url": "https://flexiblelearning.auckland.ac.nz/data-to-insight/8/1/files/illustrated-6.2_bootstrap-re-sampling.pdf",
+    "publisher": "University of Auckland / Chris Wild",
+    "source_type": "guidance",
+    "accessed_on": "2026-10-18",
+    "published_on": null,
+    "status_as_of_access": "Current guidance read; does not itself set a new curriculum or standard version",
+    "locators": [
+      {
+        "id": "main",
+        "locator": "pp. 1–8, illustrated transcript",
+        "description": "Read entire illustrated transcript: resampling with replacement, fixed original sample size, estimated sampling variation and percentile confidence intervals."
+      }
+    ],
+    "reading_evidence": {
+      "method": "pdf_text",
+      "what_was_read": "Read entire illustrated transcript: resampling with replacement, fixed original sample size, estimated sampling variation and percentile confidence intervals."
+    },
+    "notes": "English text read. Examples in the supplement are independently authored."
+  },
+  {
+    "source_id": "r_nzc_current",
+    "title": "NZC - Mathematics and statistics Phases 1–4 (Years 0–10)",
+    "url": "https://newzealandcurriculum.tahurangi.education.govt.nz/nzc---mathematics-and-statistics-phases-1-4-years-0-10/5637289330.p",
+    "publisher": "Ministry of Education",
+    "source_type": "curriculum",
+    "accessed_on": "2026-10-18",
+    "published_on": null,
+    "status_as_of_access": "current",
+    "locators": [
+      {
+        "id": "main",
+        "locator": "Learning Area Structure; Regulatory context and implementation requirements",
+        "description": "Six strands; 2026-01-01 legal commencement; retained senior NZC levels 6–8; exceptions for specified kura boards"
+      }
+    ],
+    "reading_evidence": {
+      "method": "web_open",
+      "what_was_read": "Six strands; 2026-01-01 legal commencement; retained senior NZC levels 6–8; exceptions for specified kura boards"
+    },
+    "notes": "The principal source for distinguishing current junior and senior curricula. Glossary extraction contains mathematical errors; no glossary wording has been imported."
+  },
+  {
+    "source_id": "r_nzc_senior",
+    "title": "The New Zealand Curriculum - Mathematics and statistics",
+    "url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637209905.p",
+    "publisher": "Ministry of Education",
+    "source_type": "curriculum",
+    "accessed_on": "2026-10-18",
+    "published_on": null,
+    "status_as_of_access": "current",
+    "locators": [
+      {
+        "id": "main",
+        "locator": "Levels 6, 7 and 8; all mathematics/statistics achievement objectives",
+        "description": "Full Level 6–8 objectives read, including circle geometry, loci, compounding, networks, calculus and statistics"
+      }
+    ],
+    "reading_evidence": {
+      "method": "web_open",
+      "what_was_read": "Full Level 6–8 objectives read, including circle geometry, loci, compounding, networks, calculus and statistics"
+    },
+    "notes": "2007 curriculum content; gazetted in 2009; levels 1–5 superseded from 2026-01-01 but senior levels 6–8 remain in force. Date of individual topic commencement not inferred."
+  },
+  {
+    "source_id": "r_l1_index",
+    "title": "Search Standards & Assessment: Mathematics, Level 1",
+    "url": "https://www.nzqa.govt.nz/ncea/assessment/search.do?level=01&query=mathematics&view=all",
+    "publisher": "New Zealand Qualifications Authority",
+    "source_type": "guidance",
+    "accessed_on": "2026-10-18",
+    "published_on": null,
+    "status_as_of_access": "current",
+    "locators": [
+      {
+        "id": "main",
+        "locator": "Rows 91944–91947 and 5236; linked 2026 specifications",
+        "description": "All four current achievement-standard rows and the vocational 5236 row read"
+      }
+    ],
+    "reading_evidence": {
+      "method": "web_open",
+      "what_was_read": "All four current achievement-standard rows and the vocational 5236 row read"
+    },
+    "notes": ""
+  },
+  {
+    "source_id": "r_as91945",
+    "title": "AS 91945: Use mathematical methods to explore problems that relate to life in Aotearoa New Zealand or the Pacific",
+    "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2024/as91945.pdf",
+    "publisher": "New Zealand Qualifications Authority",
+    "source_type": "achievement_standard",
+    "accessed_on": "2026-10-18",
+    "published_on": null,
+    "status_as_of_access": "current",
+    "locators": [
+      {
+        "id": "main",
+        "locator": "Version 3, pp 1–2; Explanatory Notes 1–7 and Replacement Information",
+        "description": "Both pages read; methods from at least two mathematical areas; contexts; level 6 curriculum derivation; replaces 91026–91038"
+      }
+    ],
+    "reading_evidence": {
+      "method": "pdf_text",
+      "what_was_read": "Both pages read; methods from at least two mathematical areas; contexts; level 6 curriculum derivation; replaces 91026–91038"
+    },
+    "notes": "Status/version publication given as December 2023; no day given. Planned reviewDecember 2028 is not an expiry date."
+  },
+  {
+    "source_id": "r_as91946",
+    "title": "AS 91946: Interpret and apply mathematical and statistical information in context",
+    "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2024/as91946.pdf",
+    "publisher": "New Zealand Qualifications Authority",
+    "source_type": "achievement_standard",
+    "accessed_on": "2026-10-18",
+    "published_on": null,
+    "status_as_of_access": "current",
+    "locators": [
+      {
+        "id": "main",
+        "locator": "Version 3, pp 1–2; Explanatory Notes 1–6",
+        "description": "Both pages read including interpretation, variation, assumptions and limitations"
+      }
+    ],
+    "reading_evidence": {
+      "method": "pdf_text",
+      "what_was_read": "Both pages read including interpretation, variation, assumptions and limitations"
+    },
+    "notes": ""
+  },
+  {
+    "source_id": "r_as91947",
+    "title": "AS 91947: Demonstrate mathematical reasoning",
+    "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2024/as91947.pdf",
+    "publisher": "New Zealand Qualifications Authority",
+    "source_type": "achievement_standard",
+    "accessed_on": "2026-10-18",
+    "published_on": null,
+    "status_as_of_access": "current",
+    "locators": [
+      {
+        "id": "main",
+        "locator": "Version 2, pp 1–2; Explanatory Notes 1–5",
+        "description": "Both pages read including logical chains, proof, methods and two-or-more method sequence"
+      }
+    ],
+    "reading_evidence": {
+      "method": "pdf_text",
+      "what_was_read": "Both pages read including logical chains, proof, methods and two-or-more method sequence"
+    },
+    "notes": "Status/version publication March 2023 without a day; current through 2026 index."
+  },
+  {
+    "source_id": "r_l1_spec2026",
+    "title": "Level 1 Mathematics and Statistics 2026: Assessment Specifications",
+    "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/specifications/2026/91947-spc-2026.pdf",
+    "publisher": "New Zealand Qualifications Authority",
+    "source_type": "assessment_specification",
+    "accessed_on": "2026-10-18",
+    "published_on": null,
+    "status_as_of_access": "current",
+    "locators": [
+      {
+        "id": "main",
+        "locator": "p 2 AS 91946; p 3 AS 91947",
+        "description": "All 3 pages read; exam reasoning, calculators, contextual information and exact 2026 subject scope"
+      }
+    ],
+    "reading_evidence": {
+      "method": "pdf_text",
+      "what_was_read": "All 3 pages read; exam reasoning, calculators, contextual information and exact 2026 subject scope"
+    },
+    "notes": "Published October 2025. The extracted p 3 surface-area list says ones; SLO and formula context establish cones. Probability is not in 91947 scope."
+  },
+  {
+    "source_id": "r_l1_slo_v4",
+    "title": "Mathematics and Statistics NCEA NZC Level 1: Subject Learning Outcomes for Assessment, Version 4",
+    "url": "https://ncea-live-3-storagestack-53q-assetstorages3bucket-2o21xte0r81u.s3.amazonaws.com/s3fs-public/2026-01/MS%20NCEA%20Level%201%20Subject%20Learning%20Outcomes.pdf?VersionId=w7R4QClh24XNIfDtPq46oauOYzTBAv7E",
+    "publisher": "Ministry of Education",
+    "source_type": "guidance",
+    "accessed_on": "2026-10-18",
+    "published_on": null,
+    "status_as_of_access": "current",
+    "locators": [
+      {
+        "id": "main",
+        "locator": "p 1 use; pp 2–10 AS 91944; pp 11–16 AS 91945; pp 17–18 AS 91946; pp 19–21 AS 91947",
+        "description": "Version 4 full 21-page text read in portions; numeric/measurement/geometry subskills and explicit assessment exclusions"
+      }
+    ],
+    "reading_evidence": {
+      "method": "pdf_text",
+      "what_was_read": "Version 4 full 21-page text read in portions; numeric/measurement/geometry subskills and explicit assessment exclusions"
+    },
+    "notes": "January 2026 storage path observed; no exact publication day asserted. Original diagnostics in this package are not official questions."
+  },
+  {
+    "source_id": "r_us32406",
+    "title": "US 32406: Apply mathematics and statistics in a range of everyday situations",
+    "url": "https://www.nzqa.govt.nz/nqfdocs/units/pdf/32406.pdf",
+    "publisher": "New Zealand Qualifications Authority",
+    "source_type": "unit_standard",
+    "accessed_on": "2026-10-18",
+    "published_on": "2026-01-29",
+    "status_as_of_access": "current",
+    "locators": [
+      {
+        "id": "main",
+        "locator": "Version 4, pp 1–3; Guidance 3–8; Outcomes 1–3; version table",
+        "description": "All 3 pages read; co-requisite numeracy; Year 8/9 curriculum relationship; outcomes; version 4 revision date 2026-01-29"
+      }
+    ],
+    "reading_evidence": {
+      "method": "pdf_text",
+      "what_was_read": "All 3 pages read; co-requisite numeracy; Year 8/9 curriculum relationship; outcomes; version 4 revision date 2026-01-29"
+    },
+    "notes": "A unit standard, not an achievement standard; Version 3 also lists N/A last assessment date; this record uses latest version 4."
+  },
+  {
+    "source_id": "r_us32406_index",
+    "title": "Framework search results: Unit Standard 32406",
+    "url": "https://www.nzqa.govt.nz/ncea/assessment/search.do?query=32406",
+    "publisher": "New Zealand Qualifications Authority",
+    "source_type": "guidance",
+    "accessed_on": "2026-10-18",
+    "published_on": null,
+    "status_as_of_access": "current",
+    "locators": [
+      {
+        "id": "main",
+        "locator": "Assessment Standards row 32406; Data as at 07 October 2026",
+        "description": "Current version 4, level 1 and 10 credits read"
+      }
+    ],
+    "reading_evidence": {
+      "method": "web_open",
+      "what_was_read": "Current version 4, level 1 and 10 credits read"
+    },
+    "notes": "Database date 2026-10-07 is not the access date or standard commencement."
+  },
+  {
+    "source_id": "r_us5236",
+    "title": "US 5236: Use Pythagoras' theorem and trigonometry to solve problems related to right-angled triangles in the workplace",
+    "url": "https://www.nzqa.govt.nz/nqfdocs/units/pdf/5236.pdf",
+    "publisher": "New Zealand Qualifications Authority",
+    "source_type": "unit_standard",
+    "accessed_on": "2026-10-18",
+    "published_on": "2026-01-29",
+    "status_as_of_access": "current",
+    "locators": [
+      {
+        "id": "main",
+        "locator": "Version 9 pp 1–2; Guidance 1–5; Outcome 1; version table",
+        "description": "Both pages read, including authentic workplace evidence and revision 29 January 2026"
+      }
+    ],
+    "reading_evidence": {
+      "method": "pdf_text",
+      "what_was_read": "Both pages read, including authentic workplace evidence and revision 29 January 2026"
+    },
+    "notes": "Vocational unit standard; not a universal Year 11 school requirement. The planned review 31 December 2021 does not mean expiry; version 9 is dated 2026."
+  },
+  {
+    "source_id": "r_phase5_proposed",
+    "title": "NZC - Mathematics and Statistics Phase 5 (Years 11–13)",
+    "url": "https://newzealandcurriculum.tahurangi.education.govt.nz/new-zealand-curriculum-online/nzc---mathematics-and-statistics-phase-5/5637326079.p",
+    "publisher": "Ministry of Education",
+    "source_type": "policy",
+    "accessed_on": "2026-10-18",
+    "published_on": null,
+    "status_as_of_access": "published_proposed_not_in_force",
+    "locators": [
+      {
+        "id": "main",
+        "locator": "About this document; subject table; About this resource",
+        "description": "All available HTML read: teaching content published for planning, progress/assessment unfinished, pending Gazette, proposed 2028/29/30 commencement"
+      }
+    ],
+    "reading_evidence": {
+      "method": "web_open",
+      "what_was_read": "All available HTML read: teaching content published for planning, progress/assessment unfinished, pending Gazette, proposed 2028/29/30 commencement"
+    },
+    "notes": "Not labelled a current open consultation. Embedded PDF download unavailable in extraction; no full future-content micro-mapping claimed."
+  },
+  {
+    "source_id": "r_rollout",
+    "title": "The National Curriculum: Our Story",
+    "url": "https://tahurangi.education.govt.nz/our-story",
+    "publisher": "Ministry of Education",
+    "source_type": "policy",
+    "accessed_on": "2026-10-18",
+    "published_on": "2026-09-10",
+    "status_as_of_access": "current",
+    "locators": [
+      {
+        "id": "main",
+        "locator": "Implementation; Further details confirmed for new senior secondary qualifications replacing NCEA",
+        "description": "Timeline updated 10 September 2026 read: current 2026 maths; senior 2028/29/30; Foundational Award/NZCE/NZACE"
+      }
+    ],
+    "reading_evidence": {
+      "method": "web_open",
+      "what_was_read": "Timeline updated 10 September 2026 read: current 2026 maths; senior 2028/29/30; Foundational Award/NZCE/NZACE"
+    },
+    "notes": ""
+  },
+  {
+    "source_id": "r_qualification_decision",
+    "title": "Details of NCEA replacement confirmed",
+    "url": "https://www.beehive.govt.nz/release/details-ncea-replacement-confirmed",
+    "publisher": "New Zealand Government",
+    "source_type": "policy",
+    "accessed_on": "2026-10-18",
+    "published_on": "2026-05-16",
+    "status_as_of_access": "announced_future_policy",
+    "locators": [
+      {
+        "id": "main",
+        "locator": "16 May 2026 release; subject-based qualification and compulsory Year 11 subjects",
+        "description": "Full release read; confirmed future system structure distinguished from current NCEA"
+      }
+    ],
+    "reading_evidence": {
+      "method": "web_open",
+      "what_was_read": "Full release read; confirmed future system structure distinguished from current NCEA"
+    },
+    "notes": ""
+  },
+  {
+    "source_id": "r_tekura_paths",
+    "title": "Mathematics and Statistics: Learning Programmes",
+    "url": "https://www.tekura.school.nz/lp/learning-programmes/mathematics-and-statistics",
+    "publisher": "Te Aho o Te Kura Pounamu",
+    "source_type": "pathway",
+    "accessed_on": "2026-10-18",
+    "published_on": null,
+    "status_as_of_access": "current",
+    "locators": [
+      {
+        "id": "main",
+        "locator": "Courses in Mathematics and Statistics",
+        "description": "Whole course list read: numeracy, curriculumlevels 2–5, NCEA 1/2, and separate Calculus/Statistics/blendedMaths Level 3"
+      }
+    ],
+    "reading_evidence": {
+      "method": "web_open",
+      "what_was_read": "Whole course list read: numeracy, curriculumlevels 2–5, NCEA 1/2, and separate Calculus/Statistics/blendedMaths Level 3"
+    },
+    "notes": "A real provider example of branching, not a national compulsory course list."
+  },
+  {
+    "source_id": "r_tekura_mx3000",
+    "title": "MX 3000 - Calculus - NCEA Level 3",
+    "url": "https://www.tekura.school.nz/lp/learning-programmes/mathematics-and-statistics/mx3000",
+    "publisher": "Te Aho o Te Kura Pounamu",
+    "source_type": "pathway",
+    "accessed_on": "2026-10-18",
+    "published_on": null,
+    "status_as_of_access": "current",
+    "locators": [
+      {
+        "id": "main",
+        "locator": "What this course involves; Recommended prior learning",
+        "description": "What this course involves; algebra, trigonometry, complex numbers, conic sections and tertiary preparation; full page read"
+      }
+    ],
+    "reading_evidence": {
+      "method": "web_open",
+      "what_was_read": "What this course involves; algebra, trigonometry, complex numbers, conic sections and tertiary preparation; full page read"
+    },
+    "notes": ""
+  },
+  {
+    "source_id": "r_tekura_ms3000",
+    "title": "MS 3000 - Statistics - NCEA Level 3",
+    "url": "https://www.tekura.school.nz/lp/learning-programmes/mathematics-and-statistics/ms3000",
+    "publisher": "Te Aho o Te Kura Pounamu",
+    "source_type": "pathway",
+    "accessed_on": "2026-10-18",
+    "published_on": null,
+    "status_as_of_access": "current",
+    "locators": [
+      {
+        "id": "main",
+        "locator": "What this course involves; Recommended prior learning",
+        "description": "What this course involves; probability, sampling, inference, time series, bivariate data and report writing; full page read"
+      }
+    ],
+    "reading_evidence": {
+      "method": "web_open",
+      "what_was_read": "What this course involves; probability, sampling, inference, time series, bivariate data and report writing; full page read"
+    },
+    "notes": ""
+  },
+  {
+    "source_id": "r_tekura_mz3000",
+    "title": "MZ 3000 - Mathematics - NCEA Level 3",
+    "url": "https://www.tekura.school.nz/lp/learning-programmes/mathematics-and-statistics/mz3000",
+    "publisher": "Te Aho o Te Kura Pounamu",
+    "source_type": "pathway",
+    "accessed_on": "2026-10-18",
+    "published_on": null,
+    "status_as_of_access": "current",
+    "locators": [
+      {
+        "id": "main",
+        "locator": "What this course involves; Recommended prior learning",
+        "description": "What this course involves; blended Calculus and Statistics course with selectable standards; full page read"
+      }
+    ],
+    "reading_evidence": {
+      "method": "web_open",
+      "what_was_read": "What this course involves; blended Calculus and Statistics course with selectable standards; full page read"
+    },
+    "notes": ""
+  },
+  {
+    "source_id": "r_auckland_2027",
+    "title": "MATHS 108 - General Mathematics 1, Summer Semester 2027",
+    "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/course?p0_catalogue_term=Summer&p0_catalogue_year=2027&p6_code=MATHS+108",
+    "publisher": "University of Auckland",
+    "source_type": "pathway",
+    "accessed_on": "2026-10-18",
+    "published_on": null,
+    "status_as_of_access": "published_future_course",
+    "locators": [
+      {
+        "id": "main",
+        "locator": "Prerequisite; Course description",
+        "description": "2027 offering prerequisite and description read; NCEA route explicitly includes 91578 and 13 Level 3 mathscredits"
+      }
+    ],
+    "reading_evidence": {
+      "method": "web_open",
+      "what_was_read": "2027 offering prerequisite and description read; NCEA route explicitly includes 91578 and 13 Level 3 mathscredits"
+    },
+    "notes": "Illustrates university-specific entry conditions; not a nationwideYear 13 requirement. CIE/IB alternatives stay outside main mapping."
+  },
+  {
+    "source_id": "r_repo",
+    "title": "nz-learning-graph: inspected repository snapshot",
+    "url": "https://github.com/maxazure/nz-learning-graph/tree/8daa98f84e3cc18de29e6033083a561a512987f3",
+    "publisher": "maxazure/nz-learning-graph contributors",
+    "source_type": "repository",
+    "accessed_on": "2026-10-18",
+    "published_on": null,
+    "status_as_of_access": "Repository snapshot inspected on the research date",
+    "locators": [
+      {
+        "id": "requested_files",
+        "locator": "lib/graph.ts; data/topics.json; data/dependencies.json; data/nz-overlay.json; PROVENANCE.md; docs/nz-curriculum.md",
+        "description": "Full requested files read; snapshot metadata and file hashes in repository-snapshot.json"
+      }
+    ],
+    "reading_evidence": {
+      "method": "repository_fetch",
+      "what_was_read": "Complete six files, all mathematics descriptions and dependency structure; program counts and baseline DAG check. All six file blob hashes subsequently verified at the pinned commit."
+    },
+    "notes": "Validate individual hashes before merging into a changed checkout."
+  },
+  {
+    "source_id": "r_ncea_levels",
+    "title": "About NCEA",
+    "url": "https://ncea.education.govt.nz/about-ncea",
+    "publisher": "Ministry of Education",
+    "source_type": "guidance",
+    "accessed_on": "2026-10-18",
+    "published_on": null,
+    "status_as_of_access": "Current public explanation read, with limited use of the typical-year statement",
+    "locators": [
+      {
+        "id": "typical_years",
+        "locator": "What is NCEA? / NCEA has three levels / three usually-in-Year bullets",
+        "description": "Level 1 usually Year 11; Level 2 usually Year 12; Level 3 usually Year 13."
+      }
+    ],
+    "reading_evidence": {
+      "method": "web_open",
+      "what_was_read": "Full page read. Only the explicit usual-year relationship and distinction between standard and qualification are used."
+    },
+    "notes": "The page also contains a credit-total summary that is not used in this package. Its dynamically printed date is not treated as a publication date."
+  }
+]

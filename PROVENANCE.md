@@ -49,3 +49,9 @@ DATABASE_URL=… node exportTaxonomy.mjs --codes-only=
 # default (encumbered sources codes-only)
 DATABASE_URL=… node exportTaxonomy.mjs
 ```
+
+## NZ mathematics research supplement, 18 October 2026
+
+`data/nz-maths/` preserves the supplied ChatGPT Pro research package (22 files) unchanged. The source registry, exact locators, original validator results and SHA256SUMS accompany it. Original teaching explanations and diagnostics are distinguished from official curriculum/assessment references; no official exam papers or full standard PDFs are bundled. Third-party standards retain their publishers' terms. Runtime integration decisions and independent checks are recorded in `docs/maths-integration.md`.
+
+The supplement was researched against commit `8daa98f84e3cc18de29e6033083a561a512987f3`. All six researched repository files matched the checkout before implementation. Original Marble files and their manifest remain unchanged. Adapted runtime views retain original IDs, standards and age metadata; the source files remain available for comparison.

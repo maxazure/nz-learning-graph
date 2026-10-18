@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Learning Paths NZ: see what your child is ready to learn next</title>
-<meta name="description" content="An open map of 1,606 small learning steps for New Zealand parents. See what comes first, what comes next, and how to help at home.">
+<title>Learning Paths NZ: find learning gaps with your AI</title>
+<meta name="description" content="Use an open learning map with your AI to explore a wrong answer, check the foundations and plan what to practise next. For NZ families and learners.">
 <link rel="canonical" href="https://edu.w1.nz/">
 <link rel="stylesheet" href="/design.css"><link rel="stylesheet" href="/app.css">
 </head>
@@ -47,16 +47,15 @@
 <section class="hero" aria-labelledby="hero-title">
   <div class="wrap hero-grid">
     <div>
-      <p class="eyebrow">For parents and whānau</p>
-      <h1 id="hero-title">See what your child is <em>ready</em> to learn next.</h1>
-      <p class="lede">Give your AI a map of what comes before and after each learning topic. It can check foundations, plan small steps and suggest activities for your child. Copy a setup prompt to get started — free, with no account or key.</p>
-
-      <p><a class="btn btn-primary" href="#connect">Copy a prompt for your AI <span aria-hidden="true">→</span></a></p>
+      <p class="eyebrow">For parents, whānau and curious learners · Use with your AI</p>
+      <h1 id="hero-title">Find where learning gets stuck. <em>Know what to try next.</em></h1>
+      <p class="lede">A wrong answer can start much earlier than today's lesson. Give your AI this learning map: explore the question together, check the foundations, then choose a small next step.</p>
+      <p><a class="btn btn-primary" href="#connect">Connect your AI to the map <span aria-hidden="true">→</span></a></p>
       <form class="ask" role="search" id="hero-search">
         <div class="ask-row">
           <div class="ask-field">
-            <label for="q">What is your child working on?</label>
-            <input id="q" name="q" type="search" placeholder="e.g. fractions, telling the time, why it rains" autocomplete="off">
+            <label for="q">Which topic would you like to understand?</label>
+            <input id="q" name="q" type="search" placeholder="e.g. Pythagoras, fractions, quadratic equations" autocomplete="off">
           </div>
 
           <button class="btn btn-primary" type="submit">Show the path <span class="arrow" aria-hidden="true">→</span></button>
@@ -67,47 +66,26 @@
         <button class="chip" translate="no" lang="en-NZ" type="button" data-q="Fractions">Fractions</button>
         <button class="chip" translate="no" lang="en-NZ" type="button" data-q="Reading">Reading longer words</button>
         <button class="chip" translate="no" lang="en-NZ" type="button" data-q="Time">Telling the time</button>
-        <button class="chip" translate="no" lang="en-NZ" type="button" data-q="Rain">Why it rains</button>
+        <button class="chip" translate="no" lang="en-NZ" type="button" data-q="Pythagor">Pythagoras</button>
         <button class="chip" translate="no" lang="en-NZ" type="button" data-q="Multiplication">Times tables</button>
       </div>
 
       <div class="hero-trust">
-        <div><b>1,606</b>small learning steps</div>
-        <div><b>3,253</b>links showing what comes first</div>
+        <div><b>1,870</b>small learning steps</div>
+        <div><b>4,004</b>links showing what comes first</div>
         <div><b>Free</b>to explore, no sign-up</div>
       </div>
     </div>
 
-    <aside class="path-card" aria-label="Illustrative learning sequence, not a child profile">
-      <div class="pc-top">
-        <div class="who">
-          <div class="avatar" aria-hidden="true">A</div>
-          <div><strong>An example evening</strong><small>Illustrative · Maths</small></div>
-        </div>
-        <span class="tag orange">Try together</span>
-      </div>
-      <ol class="steps-mini" translate="no" lang="en-NZ">
-        <li>
-          <span class="dot done" aria-hidden="true">✓</span>
-          <div><div class="k">Got it</div><div class="t">Halves and quarters</div><div class="d">Cuts a sandwich into four equal pieces</div></div>
-        </li>
-        <li>
-          <span class="dot now" aria-hidden="true">•</span>
-          <div><div class="k">Practising</div><div class="t">Fractions as parts of shapes</div><div class="d">Mostly there with pictures</div></div>
-        </li>
-        <li class="is-next">
-          <span class="dot next" aria-hidden="true">→</span>
-          <div><div class="k" style="color:var(--orange-ink)">Ready next</div><div class="t">Fractions of a whole</div><div class="d">What does 3/4 actually mean?</div></div>
-        </li>
-        <li>
-          <span class="dot later" aria-hidden="true"></span>
-          <div><div class="k">Later on</div><div class="t">Fractions on a number line</div></div>
-        </li>
+    <aside class="path-card hero-example" aria-label="An illustrative Year 10 maths conversation">
+      <div class="pc-top"><div class="who"><div class="avatar" aria-hidden="true">?</div><div><strong>“Year 10 maths is getting difficult.”</strong><small>For a parent · An example, not a diagnosis</small></div></div></div>
+      <ol class="steps-mini">
+        <li><span class="dot now" aria-hidden="true">1</span><div><div class="k">Start with one question</div><div class="t">“Where did this answer go wrong?”</div><div class="d">Talk with your child. Give your AI the question and their working, without names or school details.</div></div></li>
+        <li><span class="dot now" aria-hidden="true">2</span><div><div class="k">Trace the foundations</div><div class="t">Pythagoras → squares → square roots</div><div class="d">Ask AI to check each idea. Can they identify the hypotenuse? Do they think √25 is 12.5? Let their answers guide the next check.</div></div></li>
+        <li class="is-next"><span class="dot next" aria-hidden="true">3</span><div><div class="k">Practise the missing step</div><div class="t">Try a short exercise, then return to the original question.</div><div class="d">One mistake is a clue. Check understanding before deciding what needs more practice.</div></div></li>
       </ol>
-      <div class="pc-foot" translate="no" lang="en-NZ">
-        <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="none" stroke="#2D5A41" stroke-width="1.6"/><path d="M12 7v6M12 16.5v.5" stroke="#2D5A41" stroke-width="1.8" stroke-linecap="round"/></svg>
-        <span>Ten minutes tonight: share a bag of feijoas fairly and ask “what fraction did you get?”</span>
-      </div>
+      <details class="pc-foot"><summary>What does “below expectations” mean in NZ?</summary><p>For Years 0–10, reports use progress descriptors: Emerging, Developing, Consolidating, Proficient and Exceeding. Their meaning depends on the point in the school year. For an NCEA standard, a result below the criteria is called Not Achieved.</p><a href="https://www.education.govt.nz/parents-and-caregivers/schools-year-0-13/parent-portal/guide-your-childs-reporting-and-progress" target="_blank" rel="noopener">Read the school reporting guide</a></details>
+      <div class="learner-example"><p class="eyebrow">Exploring on your own?</p><h3>“How does Pythagoras work?”</h3><p>Search the topic, explore its foundations, then follow the connections to distance on a coordinate grid or trigonometry. Ask your AI for a question or a hint along the way.</p><button class="text-button" type="button" data-q="Pythagor">Explore Pythagoras →</button></div>
     </aside>
   </div>
 </section>
@@ -125,11 +103,11 @@
 </div></section>
 <hr class="rule">
 <!-- ================= GRAPH ================= -->
-<section class="section graph-section" id="map" aria-labelledby="map-title"><div class="wrap"><div class="section-head"><p class="eyebrow">The learning map</p><h2 id="map-title">Every step has steps <em class="serif">before it.</em></h2><p class="lede">Choose an idea to see its foundations, a question to try, and a path you can work through together.</p></div><div id="subjects" class="explorer-filters"><label>Find a topic<input id="topic-search" type="search" placeholder="Try fractions, coins or native species"></label><label>Subject<select id="subject-filter"></select></label><label>Suggested NZ year<select id="year-filter"><option value="">All / not mapped</option><option value="0">Year 0</option><option value="1">Year 1</option><option value="2">Year 2</option><option value="3">Year 3</option><option value="4">Year 4</option><option value="5">Year 5</option><option value="6">Year 6</option><option value="7">Year 7</option><option value="8">Year 8</option><option value="9">Year 9</option><option value="10">Year 10</option></select></label><label class="checkbox"><input id="nz-only" type="checkbox"> NZ contexts only</label></div><p class="fine-print language-note">Website language changes the parent guide. Learning topics, examples and AI prompts stay in English. Search using English topic names.</p><p class="fine-print">Year filters apply to the 16 NZ activities. Original topics retain approximate ages and are not yet mapped to NZ years.</p><div class="results-head"><p id="results-count" aria-live="polite"></p><button id="clear-filters" class="text-button" hidden>Clear filters</button><span>Original graph + NZ contexts</span></div><div id="topic-results" class="topic-results"><p class="empty-state">Loading learning topics…</p></div><button id="load-topics" class="button secondary">Show more topics</button><article translate="no" lang="en-NZ" id="topic-detail" class="topic-detail" aria-live="polite"></article><div class="known-bar"><span id="known-count"></span><button id="clear-known" class="text-button">Clear browser progress</button></div></div></section>
+<section class="section graph-section" id="map" aria-labelledby="map-title"><div class="wrap"><div class="section-head"><p class="eyebrow">The learning map</p><h2 id="map-title">Every step has steps <em class="serif">before it.</em></h2><p class="lede">Choose an idea to see its foundations, a question to try, and a path you can work through together.</p></div><div id="subjects" class="explorer-filters"><label>Find a topic<input id="topic-search" type="search" placeholder="Try fractions, coins or native species"></label><label>Subject<select id="subject-filter"></select></label><label>Suggested NZ year<select id="year-filter"><option value="">All / not mapped</option><option value="0">Year 0</option><option value="1">Year 1</option><option value="2">Year 2</option><option value="3">Year 3</option><option value="4">Year 4</option><option value="5">Year 5</option><option value="6">Year 6</option><option value="7">Year 7</option><option value="8">Year 8</option><option value="9">Year 9</option><option value="10">Year 10</option><option value="11">Year 11</option><option value="12">Year 12</option><option value="13">Year 13</option></select></label><label class="checkbox"><input id="nz-only" type="checkbox"> NZ mapped topics / activities only</label></div><p class="fine-print language-note">Website language changes the parent guide. Learning topics, examples and AI prompts stay in English. Search using English topic names.</p><p class="fine-print">Year filters include mapped maths and NZ activities. Suggested years help you search; read the specific curriculum scope. NCEA levels do not equal school years.</p><div class="results-head"><p id="results-count" aria-live="polite"></p><button id="clear-filters" class="text-button" hidden>Clear filters</button><span>Original graph + NZ contexts</span></div><div id="topic-results" class="topic-results"><p class="empty-state">Loading learning topics…</p></div><button id="load-topics" class="button secondary">Show more topics</button><article translate="no" lang="en-NZ" id="topic-detail" class="topic-detail" aria-live="polite"></article><div class="known-bar"><span id="known-count"></span><button id="clear-known" class="text-button">Clear browser progress</button></div></div></section>
 
-<section class="section" id="about" aria-labelledby="about-title"><div class="wrap honest"><div><p class="eyebrow">About the NZ version</p><h2 id="about-title">A learning map <em>your AI can read.</em></h2><p class="statement">1,606 topics and 3,253 connections help your AI find the small steps behind a bigger learning goal.</p></div><div class="facts">
+<section class="section" id="about" aria-labelledby="about-title"><div class="wrap honest"><div><p class="eyebrow">About the NZ version</p><h2 id="about-title">A learning map <em>your AI can read.</em></h2><p class="statement">1,870 topics and 4,004 connections help your AI find the small steps behind a bigger learning goal.</p></div><div class="facts">
 <div class="fact"><div class="k">How it works</div><div><h4>Connected learning steps</h4><p>The AI can search topics, check prerequisites and build a practice sequence. Each topic includes examples and questions to support learning at home.</p></div></div>
-<div class="fact"><div class="k">NZ connections</div><div><h4>Learning through everyday life</h4><p>The original Marble graph is joined by 16 NZ activities, including coins, public transport and local ecology. These additions include suggested NZ years and links to their sources.</p></div></div>
+<div class="fact"><div class="k">NZ connections</div><div><h4>Learning through everyday life</h4><p>The original Marble graph is joined by 16 NZ activities and a maths supplement spanning Years 0–13. It adds 264 topics and enriches 152 existing topics, with diagnostic questions, hints and separate curriculum mappings. Research drafts and remaining coverage gaps are documented.</p></div></div>
 <div class="fact"><div class="k">Open data</div><div><h4>Free to use and build on</h4><p>The graph and source code are open. Explore the data, suggest a correction or connect your own learning tool.</p><a href="https://github.com/maxazure/nz-learning-graph">View the project</a></div></div>
 </div></div></section>
 <section class="section privacy-section" id="privacy"><div class="wrap"><div class="section-head"><p class="eyebrow">Privacy &amp; use</p><h2>Keep learning personal.</h2></div><div class="detail-columns"><div><h3>No account needed</h3><p>The public MCP reads the learning graph. It does not create child profiles or save your learning questions. Topic checkmarks stay in your browser. The hosting provider processes requests and technical logs to run the service.</p></div><div><h3>You stay in the conversation</h3><p>Use your own AI account and review its suggestions with your child. Your AI provider handles conversations under its own terms. You can describe a learning need without sharing a child's name or school.</p><p>Questions or corrections: <a href="https://github.com/maxazure/nz-learning-graph/issues">project issues</a>.</p></div></div><div class="licence-note"><p>Marble Skill Taxonomy (v1) · © Generative Spark, Inc. (Marble) · <a href="https://withmarble.com">withmarble.com</a>. Database and NZ derivative: <a href="https://github.com/maxazure/nz-learning-graph/blob/main/LICENSE">ODbL 1.0</a>. Marble-authored and adapted content: <a href="https://github.com/maxazure/nz-learning-graph/blob/main/LICENSE-CONTENT">CC BY-SA 4.0</a>. Third-party standards retain their upstream terms. <a href="https://github.com/maxazure/nz-learning-graph">Download source and open data</a> · <a href="https://github.com/maxazure/nz-learning-graph/blob/main/docs/nz-curriculum.md">NZ sources</a>.</p></div></div></section></main>

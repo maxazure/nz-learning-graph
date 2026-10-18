@@ -1,0 +1,291 @@
+[
+  {
+    "framework_id": "NZC_2025_Y0_10",
+    "name": "Mathematics and Statistics Years 0–10, 2025 curriculum statement",
+    "entity_type": "curriculum",
+    "status": "current",
+    "research_as_of": "2026-10-18",
+    "applicability_scope": "English-medium state and state-integrated schooling, Phases 1–4, six strands",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "announced_implementation_years": {},
+    "source_ids": [
+      "r_nzc_current"
+    ],
+    "source_locators": [
+      {
+        "source_id": "r_nzc_current",
+        "locator": "Regulatory context and implementation requirements; Learning Area Structure",
+        "supports": "Framework applicability and policy status, not an individual student prerequisite."
+      }
+    ],
+    "notes": "Specified kura-board transition exceptions in the source are outside the main English-medium school scope. First six months and first/second/third years of schooling are not rigid Year 0/1/2/3 synonyms.",
+    "null_reasons": {
+      "effective_to": "No single verified end day applies to every individual mapping in this entity."
+    }
+  },
+  {
+    "framework_id": "NZC_2007_L6_8",
+    "name": "NZC 2007 Mathematics and Statistics, retained Levels 6–8",
+    "entity_type": "curriculum",
+    "status": "current",
+    "research_as_of": "2026-10-18",
+    "applicability_scope": "Senior Years 11–13 curriculum; levels remain a separate dimension from school year",
+    "effective_from": null,
+    "effective_to": null,
+    "announced_implementation_years": {},
+    "source_ids": [
+      "r_nzc_current",
+      "r_nzc_senior"
+    ],
+    "source_locators": [
+      {
+        "source_id": "r_nzc_current",
+        "locator": "Retained senior curriculum notice; Levels 6–8 achievement objectives",
+        "supports": "Framework applicability and policy status, not an individual student prerequisite."
+      },
+      {
+        "source_id": "r_nzc_senior",
+        "locator": "Retained senior curriculum notice; Levels 6–8 achievement objectives",
+        "supports": "Framework applicability and policy status, not an individual student prerequisite."
+      }
+    ],
+    "notes": "Lower levels on the same legacy page are superseded, while senior levels remain current. Proposed phased replacement does not supply confirmed final assessment dates for individual current NCEA standards.",
+    "null_reasons": {
+      "effective_from": "No exact operative day established for the entire entity; use the named phase/year and source context.",
+      "effective_to": "No single verified end day applies to every individual mapping in this entity."
+    }
+  },
+  {
+    "framework_id": "NZC_2007_L1_5_legacy",
+    "name": "Legacy NZC 2007 Mathematics and Statistics through Level 5",
+    "entity_type": "curriculum",
+    "status": "superseded",
+    "research_as_of": "2026-10-18",
+    "applicability_scope": "Historical junior curriculum through Year 10",
+    "effective_from": null,
+    "effective_to": "2025-12-31",
+    "announced_implementation_years": {},
+    "source_ids": [
+      "r_nzc_current"
+    ],
+    "source_locators": [
+      {
+        "source_id": "r_nzc_current",
+        "locator": "Regulatory context: replacement through Year 10 from 1 January 2026",
+        "supports": "Framework applicability and policy status, not an individual student prerequisite."
+      }
+    ],
+    "notes": "The inclusive final date is inferred from the explicitly stated replacement beginning 2026-01-01. No new current-content mappings use this legacy framework.",
+    "null_reasons": {
+      "effective_from": "No exact operative day established for the entire entity; use the named phase/year and source context."
+    }
+  },
+  {
+    "framework_id": "NCEA_current",
+    "name": "Currently listed NCEA Mathematics and Statistics achievement standards",
+    "entity_type": "assessment_framework",
+    "status": "current",
+    "research_as_of": "2026-10-18",
+    "applicability_scope": "Four Level 1, fourteen Level 2 and fifteen Level 3 achievement standards",
+    "effective_from": null,
+    "effective_to": null,
+    "announced_implementation_years": {},
+    "source_ids": [
+      "r_l1_index",
+      "m_index_l2",
+      "m_index_l3"
+    ],
+    "source_locators": [
+      {
+        "source_id": "r_l1_index",
+        "locator": "Current standard rows and linked English achievement-standard PDFs",
+        "supports": "Framework applicability and policy status, not an individual student prerequisite."
+      },
+      {
+        "source_id": "m_index_l2",
+        "locator": "Current standard rows and linked English achievement-standard PDFs",
+        "supports": "Framework applicability and policy status, not an individual student prerequisite."
+      },
+      {
+        "source_id": "m_index_l3",
+        "locator": "Current standard rows and linked English achievement-standard PDFs",
+        "supports": "Framework applicability and policy status, not an individual student prerequisite."
+      }
+    ],
+    "notes": "Level 1/2/3 usually aligns with Year 11/12/13, but it is not a fixed correspondence. Version and planned review dates are not interchangeable with commencement or final assessment dates.",
+    "null_reasons": {
+      "effective_from": "No exact operative day established for the entire entity; use the named phase/year and source context.",
+      "effective_to": "No single verified end day applies to every individual mapping in this entity."
+    }
+  },
+  {
+    "framework_id": "NCEA_numeracy_corequisite",
+    "name": "NCEA numeracy co-requisite, US32406",
+    "entity_type": "assessment_framework",
+    "status": "current",
+    "research_as_of": "2026-10-18",
+    "applicability_scope": "Current unit standard version 4, with source benchmark at NZC Phase 3 Year 8 / Phase 4 Year 9",
+    "effective_from": null,
+    "effective_to": null,
+    "announced_implementation_years": {},
+    "source_ids": [
+      "r_us32406",
+      "r_us32406_index"
+    ],
+    "source_locators": [
+      {
+        "source_id": "r_us32406",
+        "locator": "US32406 v4 Guidance 3, Outcomes 1–3 and version table",
+        "supports": "Framework applicability and policy status, not an individual student prerequisite."
+      },
+      {
+        "source_id": "r_us32406_index",
+        "locator": "US32406 v4 Guidance 3, Outcomes 1–3 and version table",
+        "supports": "Framework applicability and policy status, not an individual student prerequisite."
+      }
+    ],
+    "notes": "Qualification Level 1 and 10 credits do not make this a Year 11 mathematics course. Assess when ready; mappings here are contributing skills, not complete co-requisite evidence.",
+    "null_reasons": {
+      "effective_from": "No exact operative day established for the entire entity; use the named phase/year and source context.",
+      "effective_to": "No single verified end day applies to every individual mapping in this entity."
+    }
+  },
+  {
+    "framework_id": "NZQA_vocational_unit_standard",
+    "name": "Optional workplace mathematics, US5236",
+    "entity_type": "assessment_framework",
+    "status": "current",
+    "research_as_of": "2026-10-18",
+    "applicability_scope": "Verified current workplace Pythagoras/trigonometry unit standard version 9",
+    "effective_from": null,
+    "effective_to": null,
+    "announced_implementation_years": {},
+    "source_ids": [
+      "r_us5236"
+    ],
+    "source_locators": [
+      {
+        "source_id": "r_us5236",
+        "locator": "US5236 v9 Guidance and Outcome 1",
+        "supports": "Framework applicability and policy status, not an individual student prerequisite."
+      }
+    ],
+    "notes": "A distinct vocational context; authentic workplace evidence is required by the standard. It is not mandatory for every Year 11 learner.",
+    "null_reasons": {
+      "effective_from": "No exact operative day established for the entire entity; use the named phase/year and source context.",
+      "effective_to": "No single verified end day applies to every individual mapping in this entity."
+    }
+  },
+  {
+    "framework_id": "NZC_phase5_proposed_Y11",
+    "name": "Published Phase 5 planning content for Year 11",
+    "entity_type": "curriculum",
+    "status": "published_proposed_not_in_force",
+    "research_as_of": "2026-10-18",
+    "applicability_scope": "Proposed Year 11 Mathematics and Statistics curriculum",
+    "effective_from": "2028-01-01",
+    "effective_to": null,
+    "announced_implementation_years": {},
+    "source_ids": [
+      "r_phase5_proposed"
+    ],
+    "source_locators": [
+      {
+        "source_id": "r_phase5_proposed",
+        "locator": "About this document; About this resource",
+        "supports": "Framework applicability and policy status, not an individual student prerequisite."
+      }
+    ],
+    "notes": "Proposed commencement explicitly stated in the current HTML. Content is available for planning, but the page says Gazette establishment remains pending and progress/assessment material is under development. Embedded full PDFs were not read; no future micro-topic mappings are claimed.",
+    "null_reasons": {
+      "effective_to": "No single verified end day applies to every individual mapping in this entity."
+    }
+  },
+  {
+    "framework_id": "NZC_phase5_proposed_Y12",
+    "name": "Published Phase 5 planning content for Year 12",
+    "entity_type": "curriculum",
+    "status": "published_proposed_not_in_force",
+    "research_as_of": "2026-10-18",
+    "applicability_scope": "Proposed Year 12 Mathematics and Statistics curriculum",
+    "effective_from": "2029-01-01",
+    "effective_to": null,
+    "announced_implementation_years": {},
+    "source_ids": [
+      "r_phase5_proposed"
+    ],
+    "source_locators": [
+      {
+        "source_id": "r_phase5_proposed",
+        "locator": "About this document; About this resource",
+        "supports": "Framework applicability and policy status, not an individual student prerequisite."
+      }
+    ],
+    "notes": "Proposed commencement explicitly stated in the current HTML. Content is available for planning, but the page says Gazette establishment remains pending and progress/assessment material is under development. Embedded full PDFs were not read; no future micro-topic mappings are claimed.",
+    "null_reasons": {
+      "effective_to": "No single verified end day applies to every individual mapping in this entity."
+    }
+  },
+  {
+    "framework_id": "NZC_phase5_proposed_Y13",
+    "name": "Published Phase 5 planning content for Year 13",
+    "entity_type": "curriculum",
+    "status": "published_proposed_not_in_force",
+    "research_as_of": "2026-10-18",
+    "applicability_scope": "Proposed Year 13 Mathematics and Statistics curriculum",
+    "effective_from": "2030-01-01",
+    "effective_to": null,
+    "announced_implementation_years": {},
+    "source_ids": [
+      "r_phase5_proposed"
+    ],
+    "source_locators": [
+      {
+        "source_id": "r_phase5_proposed",
+        "locator": "About this document; About this resource",
+        "supports": "Framework applicability and policy status, not an individual student prerequisite."
+      }
+    ],
+    "notes": "Proposed commencement explicitly stated in the current HTML. Content is available for planning, but the page says Gazette establishment remains pending and progress/assessment material is under development. Embedded full PDFs were not read; no future micro-topic mappings are claimed.",
+    "null_reasons": {
+      "effective_to": "No single verified end day applies to every individual mapping in this entity."
+    }
+  },
+  {
+    "framework_id": "new_senior_qualifications_announced",
+    "name": "Announced Foundational Award, NZCE and NZACE",
+    "entity_type": "qualification_policy",
+    "status": "announced_future_policy",
+    "research_as_of": "2026-10-18",
+    "applicability_scope": "Future replacement qualification system, separate from current NCEA and from proposed subject curriculum documents",
+    "effective_from": null,
+    "effective_to": null,
+    "announced_implementation_years": {
+      "Foundational Award": 2028,
+      "NZCE": 2029,
+      "NZACE": 2030
+    },
+    "source_ids": [
+      "r_qualification_decision",
+      "r_rollout"
+    ],
+    "source_locators": [
+      {
+        "source_id": "r_qualification_decision",
+        "locator": "16 May 2026 confirmed structure; 10 September 2026 implementation timeline",
+        "supports": "Framework applicability and policy status, not an individual student prerequisite."
+      },
+      {
+        "source_id": "r_rollout",
+        "locator": "16 May 2026 confirmed structure; 10 September 2026 implementation timeline",
+        "supports": "Framework applicability and policy status, not an individual student prerequisite."
+      }
+    ],
+    "notes": "These are announced award names and implementation years, not invented NZQA qualification registration IDs. The exact calendar day for each award implementation was not established. No current NCEA mapping has been relabelled as a new qualification.",
+    "null_reasons": {
+      "effective_from": "No exact operative day established for the entire entity; use the named phase/year and source context.",
+      "effective_to": "No single verified end day applies to every individual mapping in this entity."
+    }
+  }
+]

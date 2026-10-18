@@ -1,0 +1,71 @@
+{
+  "repository_url": "https://github.com/maxazure/nz-learning-graph",
+  "reference_commit": "8daa98f84e3cc18de29e6033083a561a512987f3",
+  "commit_date": "2026-10-18T00:18:54Z",
+  "accessed_on": "2026-10-18",
+  "retrieval_method": "Complete file text fetched through the connected GitHub API; no local git clone. All six requested files read. Every local file matches its retrieved Git blob SHA-1, and all six blob SHAs were independently confirmed at the pinned reference commit. SHA-256 hashes are also supplied for local reproduction.",
+  "files": [
+    {
+      "path": "lib/graph.ts",
+      "byte_count": 2779,
+      "sha256": "4bbb25c75e0b65d0cd1aa9c27a002fa7d79cf6f773443c3b00d4af6f1827361b",
+      "git_blob_sha1": "c2448a9c5cf956705e2b2c5dd01a4cb0d6c0f02b",
+      "pinned_ref_blob_verified": true,
+      "source_url": "https://github.com/maxazure/nz-learning-graph/blob/8daa98f84e3cc18de29e6033083a561a512987f3/lib/graph.ts"
+    },
+    {
+      "path": "data/topics.json",
+      "byte_count": 1667462,
+      "sha256": "2d99fc3b5e57d9ddb86b6c179b58a1b0390f048d9798585fe03b13cbc183719b",
+      "git_blob_sha1": "3988c71f577812373f7bca256360be1b1294e733",
+      "pinned_ref_blob_verified": true,
+      "source_url": "https://github.com/maxazure/nz-learning-graph/blob/8daa98f84e3cc18de29e6033083a561a512987f3/data/topics.json"
+    },
+    {
+      "path": "data/dependencies.json",
+      "byte_count": 696944,
+      "sha256": "86a24efb44b480e5be23082b4bdea653f69f6d6fd54c5409a2f33c185be1d87f",
+      "git_blob_sha1": "255e93d203c5557f04f1c08cc642e9d8775e2de3",
+      "pinned_ref_blob_verified": true,
+      "source_url": "https://github.com/maxazure/nz-learning-graph/blob/8daa98f84e3cc18de29e6033083a561a512987f3/data/dependencies.json"
+    },
+    {
+      "path": "data/nz-overlay.json",
+      "byte_count": 21703,
+      "sha256": "88a4071aca4d9bf83f33bd053b3d211b981c15d97de75bb19ddea937b4da76e9",
+      "git_blob_sha1": "6780a22f2952ae8dffc5c594cccbebc14991dc05",
+      "pinned_ref_blob_verified": true,
+      "source_url": "https://github.com/maxazure/nz-learning-graph/blob/8daa98f84e3cc18de29e6033083a561a512987f3/data/nz-overlay.json"
+    },
+    {
+      "path": "PROVENANCE.md",
+      "byte_count": 4404,
+      "sha256": "65f30de79018dabec422208cc26aee51758c4984517d2bb4d5a1698793280ab9",
+      "git_blob_sha1": "e915c2c267a90d898b8413634773118c56ee82d8",
+      "pinned_ref_blob_verified": true,
+      "source_url": "https://github.com/maxazure/nz-learning-graph/blob/8daa98f84e3cc18de29e6033083a561a512987f3/PROVENANCE.md"
+    },
+    {
+      "path": "docs/nz-curriculum.md",
+      "byte_count": 6358,
+      "sha256": "9321ac334a0a492239476c229fad42de571a708c1485aa0b83c017cee60a6804",
+      "git_blob_sha1": "3a90ee948da29afcf00f5506c9480581f273ac5d",
+      "pinned_ref_blob_verified": true,
+      "source_url": "https://github.com/maxazure/nz-learning-graph/blob/8daa98f84e3cc18de29e6033083a561a512987f3/docs/nz-curriculum.md"
+    }
+  ],
+  "counts": {
+    "original_topics": 1590,
+    "overlay_topics": 16,
+    "mathematics_topics_reviewed": 512,
+    "baseline_topics": 1606,
+    "original_dependencies": 3221,
+    "overlay_generated_dependencies": 32,
+    "baseline_dependencies": 3253
+  },
+  "licensing": {
+    "source": "PROVENANCE.md",
+    "notice": "Baseline descriptions/names/dependencies are an attributed reference extract from maxazure/nz-learning-graph and its Marble-derived graph. Preserve the upstream ODbL 1.0 database and CC BY-SA 4.0 content notices; assessment bodies retain rights in their own materials. Original supplement teaching text is offered under CC BY-SA 4.0 and supplement database additions under ODbL 1.0 for compatibility. No full official standard or examination text is redistributed.",
+    "upstream_provenance_url": "https://github.com/maxazure/nz-learning-graph/blob/8daa98f84e3cc18de29e6033083a561a512987f3/PROVENANCE.md"
+  }
+}

@@ -1,6 +1,6 @@
 # NZ curriculum context and editorial scope
 
-Source check: 18 October 2026. This project adds 16 original family-learning activities to the upstream concept graph. It does not provide a complete NZ curriculum mapping. All new year bands, activities, evidence prompts and prerequisite links are editorial drafts, have not been reviewed by a New Zealand teacher, and do not constitute official assessment or Ministry endorsement.
+Source check: 18 October 2026. This project includes 16 original family-learning activities and a maths supplement with 264 additional topics and 152 enriched existing topics, spanning Years 0–13. It does not provide a complete NZ curriculum mapping. All new year bands, activities, evidence prompts and prerequisite links are editorial drafts, have not been reviewed by a New Zealand teacher, and do not constitute official assessment or Ministry endorsement.
 
 ## Curriculum pathway and timing
 
@@ -10,7 +10,7 @@ The first overlay supports families using the English-medium New Zealand Curricu
 
 [Science and Social Sciences final content was released on 12 August 2026](https://newzealandcurriculum.tahurangi.education.govt.nz/y0-10-science-social-sciences-released). The individual [Science page](https://newzealandcurriculum.tahurangi.education.govt.nz/new-zealand-curriculum-online/nzc---science-phases-1-4-years-0-10/5637290855.p) and [Social Sciences page](https://newzealandcurriculum.tahurangi.education.govt.nz/new-zealand-curriculum-online/nzc---social-sciences-phases-1-4-years-0-10/5637290851.p) currently describe publication in the Gazette as pending and indicate use from January 2027. The latter records an update dated 16 September 2026. Published final content and legal implementation status must remain distinct. These pages should not be described as current consultation drafts or as already in-force 2026 requirements.
 
-[The revised Ministry timeline](https://www.education.govt.nz/news/new-timeframe-years-0-8-final-national-curriculum) places remaining Years 0–8 learning areas in 2029 and all Years 9–10 learning areas in 2027. This overlay does not cover senior qualifications. Review source status when expanding the dataset or when official implementation changes.
+[The revised Ministry timeline](https://www.education.govt.nz/news/new-timeframe-years-0-8-final-national-curriculum) places remaining Years 0–8 learning areas in 2029 and all Years 9–10 learning areas in 2027. The original activity overlay does not cover senior qualifications. The separate maths supplement maps current senior NZC levels and NCEA standards; see [maths integration](maths-integration.md). Review source status when expanding the dataset or when official implementation changes.
 
 ## What the source links establish
 
@@ -20,9 +20,9 @@ The [official parent portal](https://www.education.govt.nz/your-childs-learning)
 
 [The historical Māori history guidance](https://newzealandcurriculum.tahurangi.education.govt.nz/5637169484.p) is contextual material from the earlier curriculum, not proof of a 2027 year-by-year mapping. Local histories, place-name explanations and cultural accounts must be attributed to reliable sources, including relevant mana whenua sources when available. AI must not invent whakapapa, local traditions or authoritative tikanga guidance.
 
-## Dataset design
+## Original activity overlay design
 
-All new IDs begin `nz_`. Each topic adds two prerequisites pointing to real IDs in the upstream `data/topics.json`. No new topic depends on another new topic, and no upstream edge is changed, so adding the overlay cannot introduce a directed cycle into an acyclic upstream graph. The 32 links are pedagogical suggestions, not empirically validated dependencies.
+The original activity overlay IDs begin `nz_`. Each topic adds two prerequisites pointing to real IDs in the upstream `data/topics.json`. No new topic depends on another new topic, and no upstream edge is changed, so adding the overlay cannot introduce a directed cycle into an acyclic upstream graph. The 32 links are pedagogical suggestions, not empirically validated dependencies.
 
 `ageRangeStart` and `ageRangeEnd` are broad display estimates derived from suggested years; they are not placement tests. `centrality: 0` is an unset ranking placeholder, not a computed graph statistic. A future combined-graph build can calculate centrality. Activities span NZD money, metric measures, fractions, timetables, budgets, data, maps, biodiversity, catchments, seasonal observation, historical sources and community decisions. They do not replace or silently re-label the 1,590 upstream topics; upstream content may retain non-NZ assumptions.
 
@@ -35,3 +35,11 @@ A qualified reviewer would need to check each exact year-level statement, prereq
 ## Verification performed
 
 The overlay was parsed as JSON; all 16 topic IDs and 10 source IDs are unique; all 32 prerequisite references resolve to upstream topics; every source reference resolves; every topic has draft/unreviewed flags and no asserted standards. These structural checks do not establish pedagogical validity.
+
+## Mathematics supplement (2026-10-18)
+
+The 22-file research package is preserved unchanged in `data/nz-maths/`. Its [research report](../data/nz-maths/research-report.md), [mapping contract](../data/nz-maths/schema.md) and [coverage matrix](../data/nz-maths/coverage-matrix.csv) distinguish current Years 0–10 teaching sequences, current senior NZC Levels 6–8 and current NCEA standards from future framework plans. The runtime retains exact mapping scopes, diagnostic applicability, source locators and research-draft flags. Suggested year bands are retrieval aids; they do not apply every diagnostic to every mapped year.
+
+There are 1,287 mappings over 489 topics and 33 achievement standards. These counts do not establish complete curriculum or assessment coverage. [Import decisions and remaining gaps](maths-integration.md) describe what changed and what remains unreviewed.
+
+For parent-facing reporting language, the [Ministry reporting guide](https://www.education.govt.nz/parents-and-caregivers/schools-year-0-13/parent-portal/guide-your-childs-reporting-and-progress) explains Emerging, Developing, Consolidating, Proficient and Exceeding, including mid-year versus end-year expectations. [NZQA assessment standards](https://www2.nzqa.govt.nz/qualifications-and-standards/about-standards/) use Not Achieved when the standard criteria are not met. The homepage separates these contexts.
