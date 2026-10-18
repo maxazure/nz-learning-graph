@@ -1,6 +1,7 @@
 import {setupLanguage} from './i18n';
 import {setupConnections} from './connections';
-setupLanguage();setupConnections();
+import {setupParentVideo} from './parent-video';
+setupLanguage();setupConnections();setupParentVideo();
 let explorerReady:Promise<void>|undefined;
 function loadExplorer(){return explorerReady??=import('./explorer').then(m=>m.setupExplorer());}
 const mapObserver=new IntersectionObserver(entries=>{if(entries.some(e=>e.isIntersecting)){void loadExplorer();mapObserver.disconnect();}},{rootMargin:'500px'});
