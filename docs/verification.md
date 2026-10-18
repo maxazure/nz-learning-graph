@@ -28,3 +28,14 @@ Setup instructions checked against official documentation:
 Prompts preserve other MCP settings, request a real search to confirm success and explain when a restart is needed. A prompt cannot grant filesystem or app permissions its host does not already have. Consumer-account app installation flows have not all been exercised; protocol verification does not establish that every provider's UI or subscription enables the feature.
 
 Curriculum provenance metadata and source links remain in the dataset. Parent-facing approval and draft notices were removed. Teaching material remains English; setup prompts and parent explanations follow the website language.
+
+## Production verification
+
+Deployed public release `7fc9d57` to edu.w1.nz (Pages deployment `fb5909d6`).
+
+- All four public HTTP integration tests passed on https://edu.w1.nz, including cross-origin access and absent account/OAuth flows.
+- Anonymous official MCP SDK initialized, discovered and called all five tools.
+- Claude Code Opus 5.5, with an isolated HTTP MCP configuration containing only the URL and no credentials, made a real `search_topics` call and returned six results; example `mt_HNOPGJYiRK` / Telling Time: Minutes.
+- The exact pinned WorkBuddy bridge configuration discovered five tools and searched `telling the time`, returning six topics without credentials. The WorkBuddy application itself was not run.
+- Production browser verified Chinese copy controls, absence of account fields and removed notices, and six results for the reported search. System clipboard contents matched the displayed public Claude Code setup command and tool-verification prompt.
+- Automatic installation by ChatGPT Work, Codex and WorkBuddy conversational agents and Claude's consumer connector UI were not exercised end-to-end. Their prompts reflect official documented configuration routes and explicitly ask the host to report missing permissions/restarts.
