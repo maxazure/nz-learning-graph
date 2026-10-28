@@ -1,0 +1,4536 @@
+{
+  "subject": "Science",
+  "sources": [
+    {
+      "id": "nzc_science_2026",
+      "title": "NZC Science Years 0–10, August 2026",
+      "url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637290855.p",
+      "documentUrl": "https://mapaoch00pr-search.azurewebsites.net/api/URLShortnerAPI?PartitionKey=3e24e682-f107-4117-9e0a-abb4cb9b8efe&RowKey=30ef1dae-17ab-4e71-abd5-39bcd1dbb780",
+      "status": "published-final; Gazette pending; proposed start 2027 with transition",
+      "checkedAt": "2026-10-29"
+    }
+  ],
+  "topics": [
+    {
+      "id": "mt_auVZZEuXjs",
+      "name": "Describing Material Properties",
+      "domain": "Physical Science",
+      "description": "Different materials respond differently to bending, stretching and contact with water. Properties help people select materials for a purpose.",
+      "years": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "phase": "Phase 1 (Years 0–3)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF pp. 9–10, Phase 1 > Physical Science; broad phase-level editorial alignment",
+      "objectives": [
+        "Explain or demonstrate: comparing material properties."
+      ],
+      "evidence": [
+        "Answers the example question with a relevant explanation: Fabric is more likely to bend without breaking; compare the materials safely to check."
+      ],
+      "misconceptions": [
+        "All solid materials behave in the same way when bent."
+      ],
+      "question": "A card must bend without breaking. Which would you test first, fabric or a brittle cracker?",
+      "answer": "Fabric is more likely to bend without breaking; compare the materials safely to check.",
+      "explanation": "Different materials respond differently to bending, stretching and contact with water. Properties help people select materials for a purpose.",
+      "hints": [
+        "Consider what happens when each material bends.",
+        "Which material can change shape without crumbling?"
+      ],
+      "activity": "Compare safe samples of paper and fabric by bending them gently and describing what happens.",
+      "materials": [
+        "paper and pencil as useful"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_push_pull",
+      "name": "Pushes, pulls and movement",
+      "domain": "Physical Science",
+      "description": "A push or pull can change how an object moves. The effect depends on the interaction and the situation.",
+      "years": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "phase": "Phase 1 (Years 0–3)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF pp. 9–10, Phase 1 > Physical Science; broad phase-level editorial alignment",
+      "objectives": [
+        "Explain or demonstrate: pushes, pulls and movement."
+      ],
+      "evidence": [
+        "Answers the example question with a relevant explanation: A push from the hand changed the car's motion."
+      ],
+      "misconceptions": [
+        "Objects can begin moving without any interaction."
+      ],
+      "question": "A stationary toy car starts moving when pushed. What changed its motion?",
+      "answer": "A push from the hand changed the car's motion.",
+      "explanation": "A push or pull can change how an object moves. The effect depends on the interaction and the situation.",
+      "hints": [
+        "What touched the car?",
+        "Was the car already moving before the push?"
+      ],
+      "activity": "On a clear floor, give a toy car a gentle push, observe its movement and describe the interaction.",
+      "materials": [
+        "paper and pencil as useful"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_sound_vibration",
+      "name": "Sounds and vibrations",
+      "domain": "Physical Science",
+      "description": "Many sounds begin when an object vibrates. A vibrating object can make the surrounding air vibrate too.",
+      "years": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "phase": "Phase 1 (Years 0–3)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF pp. 9–10, Phase 1 > Physical Science; broad phase-level editorial alignment",
+      "objectives": [
+        "Explain or demonstrate: sounds and vibrations."
+      ],
+      "evidence": [
+        "Answers the example question with a relevant explanation: It vibrates, moving back and forth."
+      ],
+      "misconceptions": [
+        "A sound-making object is always completely still."
+      ],
+      "question": "A stretched rubber band makes a sound when plucked. What can you see it doing?",
+      "answer": "It vibrates, moving back and forth.",
+      "explanation": "Many sounds begin when an object vibrates. A vibrating object can make the surrounding air vibrate too.",
+      "hints": [
+        "Look carefully just after the band is plucked.",
+        "Describe the repeated movement."
+      ],
+      "activity": "Pluck a loosely stretched rubber band gently with adult supervision; watch and listen without pulling it towards anyone.",
+      "materials": [
+        "paper and pencil as useful"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_life_cycles",
+      "name": "Comparing life cycles",
+      "domain": "Biological Science",
+      "description": "Living things grow and reproduce, but their life cycles can have different stages and forms.",
+      "years": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "phase": "Phase 1 (Years 0–3)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF pp. 11–12, Phase 1 > Biological Science; broad phase-level editorial alignment",
+      "objectives": [
+        "Explain or demonstrate: comparing life cycles."
+      ],
+      "evidence": [
+        "Answers the example question with a relevant explanation: The chrysalis stage follows the caterpillar."
+      ],
+      "misconceptions": [
+        "Every living thing follows exactly the same life cycle."
+      ],
+      "question": "A butterfly develops from an egg, caterpillar, chrysalis and adult. What follows the caterpillar?",
+      "answer": "The chrysalis stage follows the caterpillar.",
+      "explanation": "Living things grow and reproduce, but their life cycles can have different stages and forms.",
+      "hints": [
+        "Find the stage after caterpillar in the sequence.",
+        "It comes before the adult butterfly."
+      ],
+      "activity": "Arrange drawings of a butterfly's stages in order and compare them with the life cycle of a flowering plant.",
+      "materials": [
+        "paper and pencil as useful"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_living_habitats",
+      "name": "Living things and their habitats",
+      "domain": "Biological Science",
+      "description": "A habitat provides living things with conditions and resources they need, though different organisms need different things.",
+      "years": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "phase": "Phase 1 (Years 0–3)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF pp. 11–12, Phase 1 > Biological Science; broad phase-level editorial alignment",
+      "objectives": [
+        "Explain or demonstrate: living things and their habitats."
+      ],
+      "evidence": [
+        "Answers the example question with a relevant explanation: They have different needs and are suited to different conditions; a fish needs water to live."
+      ],
+      "misconceptions": [
+        "All living things need exactly the same habitat."
+      ],
+      "question": "Why might a fish and a garden snail live in different places?",
+      "answer": "They have different needs and are suited to different conditions; a fish needs water to live.",
+      "explanation": "A habitat provides living things with conditions and resources they need, though different organisms need different things.",
+      "hints": [
+        "Think about where each animal gets what it needs.",
+        "What environment does the fish need?"
+      ],
+      "activity": "Observe two habitats from a safe distance and list a visible living thing and one condition in each.",
+      "materials": [
+        "paper and pencil as useful"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_group_living",
+      "name": "Grouping living things by features",
+      "domain": "Biological Science",
+      "description": "Scientists can group organisms by observable features while recognising that plants, animals and fungi are different kinds of living things.",
+      "years": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "phase": "Phase 1 (Years 0–3)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF pp. 11–12, Phase 1 > Biological Science; broad phase-level editorial alignment",
+      "objectives": [
+        "Explain or demonstrate: grouping living things by features."
+      ],
+      "evidence": [
+        "Answers the example question with a relevant explanation: They could compare visible plant structures, such as leaves or fronds, while using a reliable identification guide."
+      ],
+      "misconceptions": [
+        "Everything growing outdoors is a plant."
+      ],
+      "question": "A child groups a fern with a tree because both are plants. What shared feature or evidence might they look for?",
+      "answer": "They could compare visible plant structures, such as leaves or fronds, while using a reliable identification guide.",
+      "explanation": "Scientists can group organisms by observable features while recognising that plants, animals and fungi are different kinds of living things.",
+      "hints": [
+        "Look at the organisms, not just where they are found.",
+        "What visible plant structures could you compare?"
+      ],
+      "activity": "Look at photographs of a fern, tree and mushroom, and suggest a safe grouping based on visible features.",
+      "materials": [
+        "paper and pencil as useful"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_states",
+      "name": "States of matter and change",
+      "domain": "Physical Science",
+      "description": "Solids, liquids and gases differ in how they occupy space. Changing state by heating or cooling does not necessarily produce a new substance.",
+      "years": [
+        4,
+        5,
+        6
+      ],
+      "phase": "Phase 2 (Years 4–6)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF pp. 14–15, Phase 2 > Physical Science; broad phase-level editorial alignment",
+      "objectives": [
+        "Explain or demonstrate: states of matter and change."
+      ],
+      "evidence": [
+        "Answers the example question with a relevant explanation: No. The water has changed state from solid to liquid."
+      ],
+      "misconceptions": [
+        "Melting automatically creates a different substance."
+      ],
+      "question": "Ice melts into water. Has a new substance necessarily been made?",
+      "answer": "No. The water has changed state from solid to liquid.",
+      "explanation": "Solids, liquids and gases differ in how they occupy space. Changing state by heating or cooling does not necessarily produce a new substance.",
+      "hints": [
+        "What was the ice made of?",
+        "What liquid results when it melts?"
+      ],
+      "activity": "Observe an ice cube melting in a dish and describe how its shape and state change.",
+      "materials": [
+        "paper and pencil as useful"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_mass_volume",
+      "name": "Mass and volume",
+      "domain": "Physical Science",
+      "description": "Mass and volume describe different properties: how much matter an object contains and how much space it occupies.",
+      "years": [
+        4,
+        5,
+        6
+      ],
+      "phase": "Phase 2 (Years 4–6)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF pp. 14–15, Phase 2 > Physical Science; broad phase-level editorial alignment",
+      "objectives": [
+        "Explain or demonstrate: mass and volume."
+      ],
+      "evidence": [
+        "Answers the example question with a relevant explanation: No. Equal volume does not guarantee equal mass."
+      ],
+      "misconceptions": [
+        "Objects with equal volume always have equal mass."
+      ],
+      "question": "Two same-sized containers are filled with water and dry leaves. Must their contents have the same mass?",
+      "answer": "No. Equal volume does not guarantee equal mass.",
+      "explanation": "Mass and volume describe different properties: how much matter an object contains and how much space it occupies.",
+      "hints": [
+        "The containers occupy the same space.",
+        "Does that require the contents to be equally heavy?"
+      ],
+      "activity": "Compare the mass of equal-volume containers holding different safe materials, and record the results.",
+      "materials": [
+        "paper and pencil as useful"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_water_cycle",
+      "name": "Water moving through Earth systems",
+      "domain": "Physical Science",
+      "description": "Water moves between Earth's surface and the atmosphere through processes including evaporation, condensation and precipitation.",
+      "years": [
+        4,
+        5,
+        6
+      ],
+      "phase": "Phase 2 (Years 4–6)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF pp. 14–15, Phase 2 > Physical Science; broad phase-level editorial alignment",
+      "objectives": [
+        "Explain or demonstrate: water moving through earth systems."
+      ],
+      "evidence": [
+        "Answers the example question with a relevant explanation: Condensation."
+      ],
+      "misconceptions": [
+        "Water disappears permanently when it evaporates."
+      ],
+      "question": "Water vapour cools and forms tiny droplets. What process has occurred?",
+      "answer": "Condensation.",
+      "explanation": "Water moves between Earth's surface and the atmosphere through processes including evaporation, condensation and precipitation.",
+      "hints": [
+        "Is the water changing from gas to liquid or liquid to gas?",
+        "Cooling water vapour forms liquid droplets."
+      ],
+      "activity": "Draw and label a simple water cycle, then describe where each labelled change occurs.",
+      "materials": [
+        "paper and pencil as useful"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_seed_dispersal",
+      "name": "Seeds and dispersal",
+      "domain": "Biological Science",
+      "description": "Seeds can be dispersed in different ways, including by wind and animals, helping plants spread to suitable places.",
+      "years": [
+        4,
+        5,
+        6
+      ],
+      "phase": "Phase 2 (Years 4–6)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF pp. 16–17, Phase 2 > Biological Science; broad phase-level editorial alignment",
+      "objectives": [
+        "Explain or demonstrate: seeds and dispersal."
+      ],
+      "evidence": [
+        "Answers the example question with a relevant explanation: The structure can help wind carry the seed away from the parent plant."
+      ],
+      "misconceptions": [
+        "All seeds move away from a parent plant in the same way."
+      ],
+      "question": "A seed has a light wing-like structure. How might that help it spread?",
+      "answer": "The structure can help wind carry the seed away from the parent plant.",
+      "explanation": "Seeds can be dispersed in different ways, including by wind and animals, helping plants spread to suitable places.",
+      "hints": [
+        "What can move light objects through the air?",
+        "Think about the seed's wing-like shape."
+      ],
+      "activity": "Observe pictures of different seeds and match each structure to a plausible dispersal mechanism.",
+      "materials": [
+        "paper and pencil as useful"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_food_web",
+      "name": "Connections in a food web",
+      "domain": "Biological Science",
+      "description": "Food webs show feeding relationships; a change to one population can affect other connected organisms.",
+      "years": [
+        4,
+        5,
+        6
+      ],
+      "phase": "Phase 2 (Years 4–6)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF pp. 16–17, Phase 2 > Biological Science; broad phase-level editorial alignment",
+      "objectives": [
+        "Explain or demonstrate: connections in a food web."
+      ],
+      "evidence": [
+        "Answers the example question with a relevant explanation: It may have less food available, which could affect its population; other food sources and conditions also matter."
+      ],
+      "misconceptions": [
+        "A food web shows no relationships between living things."
+      ],
+      "question": "If a plant population decreases, what might happen to an animal that depends on it for food?",
+      "answer": "It may have less food available, which could affect its population; other food sources and conditions also matter.",
+      "explanation": "Food webs show feeding relationships; a change to one population can affect other connected organisms.",
+      "hints": [
+        "What does the animal eat?",
+        "Could another food source change the outcome?"
+      ],
+      "activity": "Draw a simple food web using three fictional organisms and explain one possible effect of a change.",
+      "materials": [
+        "paper and pencil as useful"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_body_systems",
+      "name": "Body systems working together",
+      "domain": "Biological Science",
+      "description": "Body systems have different functions and interact to support the whole organism.",
+      "years": [
+        4,
+        5,
+        6
+      ],
+      "phase": "Phase 2 (Years 4–6)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF pp. 16–17, Phase 2 > Biological Science; broad phase-level editorial alignment",
+      "objectives": [
+        "Explain or demonstrate: body systems working together."
+      ],
+      "evidence": [
+        "Answers the example question with a relevant explanation: Breathing brings oxygen into the body and circulation transports it to tissues."
+      ],
+      "misconceptions": [
+        "Each body system works completely independently of all others."
+      ],
+      "question": "Why do breathing and circulation work together during movement?",
+      "answer": "Breathing brings oxygen into the body and circulation transports it to tissues.",
+      "explanation": "Body systems have different functions and interact to support the whole organism.",
+      "hints": [
+        "What enters the lungs from the air?",
+        "How can oxygen travel from the lungs to other parts of the body?"
+      ],
+      "activity": "Draw a simple pathway from lungs to bloodstream to muscles and explain it in your own words.",
+      "materials": [
+        "paper and pencil as useful"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "mt_b6kZgqolEd",
+      "name": "The Particle Model",
+      "domain": "Physical Science",
+      "description": "A particle model can help explain why solids keep their shape while gases spread out. Models simplify reality to explain observable behaviour.",
+      "years": [
+        7,
+        8
+      ],
+      "phase": "Phase 3 (Years 7–8)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF pp. 19–20, Phase 3 > Physical Science; broad phase-level editorial alignment",
+      "objectives": [
+        "Explain or demonstrate: particle models of states."
+      ],
+      "evidence": [
+        "Answers the example question with a relevant explanation: Gas particles are far apart and move around, spreading through the available space."
+      ],
+      "misconceptions": [
+        "Gas particles disappear because they cannot be seen."
+      ],
+      "question": "Why does a gas spread through its container in a simple particle model?",
+      "answer": "Gas particles are far apart and move around, spreading through the available space.",
+      "explanation": "A particle model can help explain why solids keep their shape while gases spread out. Models simplify reality to explain observable behaviour.",
+      "hints": [
+        "Compare the spacing of particles in a gas and a solid.",
+        "What does movement allow gas particles to do?"
+      ],
+      "activity": "Use dots on paper to model a solid and a gas, then identify what the model does and does not show.",
+      "materials": [
+        "paper and pencil as useful"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "mt_2b6CB0w3Yx",
+      "name": "Separating Mixtures",
+      "domain": "Physical Science",
+      "description": "A mixture contains substances that can often be separated using differences in physical properties, such as particle size or solubility.",
+      "years": [
+        7,
+        8
+      ],
+      "phase": "Phase 3 (Years 7–8)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF pp. 19–20, Phase 3 > Physical Science; broad phase-level editorial alignment",
+      "objectives": [
+        "Explain or demonstrate: separating mixtures by properties."
+      ],
+      "evidence": [
+        "Answers the example question with a relevant explanation: Filter it so the water passes through and the sand remains in the filter."
+      ],
+      "misconceptions": [
+        "Every mixture can only be separated by a chemical reaction."
+      ],
+      "question": "How could a mixture of sand and water be separated?",
+      "answer": "Filter it so the water passes through and the sand remains in the filter.",
+      "explanation": "A mixture contains substances that can often be separated using differences in physical properties, such as particle size or solubility.",
+      "hints": [
+        "The sand does not dissolve in water.",
+        "What material could allow water through but retain the sand?"
+      ],
+      "activity": "Filter a small clean sand-and-water mixture using paper and describe which property made separation possible.",
+      "materials": [
+        "paper and pencil as useful"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_fair_tests",
+      "name": "Planning a fair test",
+      "domain": "Physical Science",
+      "description": "A fair test changes one factor deliberately while measuring an outcome and keeping relevant conditions consistent.",
+      "years": [
+        7,
+        8
+      ],
+      "phase": "Phase 3 (Years 7–8)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF pp. 19–20, Phase 3 > Physical Science; broad phase-level editorial alignment",
+      "objectives": [
+        "Explain or demonstrate: planning a fair test."
+      ],
+      "evidence": [
+        "Answers the example question with a relevant explanation: For example, use the same car, ramp surface and release method while changing the height."
+      ],
+      "misconceptions": [
+        "Changing several factors at once makes it easier to identify the cause of a change."
+      ],
+      "question": "When testing whether ramp height affects a toy car's travel distance, what should stay the same?",
+      "answer": "For example, use the same car, ramp surface and release method while changing the height.",
+      "explanation": "A fair test changes one factor deliberately while measuring an outcome and keeping relevant conditions consistent.",
+      "hints": [
+        "Identify the factor being changed.",
+        "Choose another factor that might affect distance and keep it consistent."
+      ],
+      "activity": "Plan a toy-car ramp test and list the changed factor, measured result and two controlled conditions.",
+      "materials": [
+        "paper and pencil as useful"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_adaptation",
+      "name": "Adaptations and environment",
+      "domain": "Biological Science",
+      "description": "Inherited characteristics can affect how well organisms survive and reproduce in particular environments. The usefulness of a feature depends on conditions.",
+      "years": [
+        7,
+        8
+      ],
+      "phase": "Phase 3 (Years 7–8)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF pp. 21–22, Phase 3 > Biological Science; broad phase-level editorial alignment",
+      "objectives": [
+        "Explain or demonstrate: adaptations and environment."
+      ],
+      "evidence": [
+        "Answers the example question with a relevant explanation: They can help the bird push against water when swimming."
+      ],
+      "misconceptions": [
+        "Every adaptation guarantees survival in every environment."
+      ],
+      "question": "How could webbed feet help an aquatic bird?",
+      "answer": "They can help the bird push against water when swimming.",
+      "explanation": "Inherited characteristics can affect how well organisms survive and reproduce in particular environments. The usefulness of a feature depends on conditions.",
+      "hints": [
+        "What does the bird move through?",
+        "How might a broad foot interact with water?"
+      ],
+      "activity": "Compare illustrations of two birds' feet and suggest how each structure could help in its environment.",
+      "materials": [
+        "paper and pencil as useful"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_photosynthesis",
+      "name": "Photosynthesis and plant needs",
+      "domain": "Biological Science",
+      "description": "Photosynthesis uses light to help plants make sugars from carbon dioxide and water. Plants also respire to release usable energy from food.",
+      "years": [
+        7,
+        8
+      ],
+      "phase": "Phase 3 (Years 7–8)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF pp. 21–22, Phase 3 > Biological Science; broad phase-level editorial alignment",
+      "objectives": [
+        "Explain or demonstrate: photosynthesis and plant needs."
+      ],
+      "evidence": [
+        "Answers the example question with a relevant explanation: Light, usually from the Sun."
+      ],
+      "misconceptions": [
+        "Plants get all their food by taking it directly from soil."
+      ],
+      "question": "What energy source helps a plant make sugar through photosynthesis?",
+      "answer": "Light, usually from the Sun.",
+      "explanation": "Photosynthesis uses light to help plants make sugars from carbon dioxide and water. Plants also respire to release usable energy from food.",
+      "hints": [
+        "Think about what reaches a leaf during daylight.",
+        "The process uses light energy."
+      ],
+      "activity": "Draw a simple model with light, water and carbon dioxide entering a plant and sugar being produced.",
+      "materials": [
+        "paper and pencil as useful"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_cells",
+      "name": "Cells as living structures",
+      "domain": "Biological Science",
+      "description": "Cells are basic units of living things. Observations and models can show structures, although a model does not show every detail.",
+      "years": [
+        7,
+        8
+      ],
+      "phase": "Phase 3 (Years 7–8)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF pp. 21–22, Phase 3 > Biological Science; broad phase-level editorial alignment",
+      "objectives": [
+        "Explain or demonstrate: cells as living structures."
+      ],
+      "evidence": [
+        "Answers the example question with a relevant explanation: Plant cells."
+      ],
+      "misconceptions": [
+        "A model of a cell must show every feature at the same size as reality."
+      ],
+      "question": "A microscope image shows repeated small compartments in a plant leaf. What might they represent?",
+      "answer": "Plant cells.",
+      "explanation": "Cells are basic units of living things. Observations and models can show structures, although a model does not show every detail.",
+      "hints": [
+        "What small living units make up plant tissues?",
+        "A microscope can reveal units too small to see clearly unaided."
+      ],
+      "activity": "Look at a labelled image of plant cells and compare the image with a simple drawing, noting one limitation of the drawing.",
+      "materials": [
+        "paper and pencil as useful"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_atomic_number",
+      "name": "Atomic number and elements",
+      "domain": "Physical Science",
+      "description": "An element is identified by the number of protons in its atoms. Models describe the nucleus and electrons using evidence.",
+      "years": [
+        9,
+        10
+      ],
+      "phase": "Phase 4 (Years 9–10)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF pp. 24–28, Phase 4 > Physical Science; broad phase-level editorial alignment",
+      "objectives": [
+        "Explain or demonstrate: atomic number and elements."
+      ],
+      "evidence": [
+        "Answers the example question with a relevant explanation: Six."
+      ],
+      "misconceptions": [
+        "Atomic number counts neutrons rather than protons."
+      ],
+      "question": "An atom has six protons. What is its atomic number?",
+      "answer": "Six.",
+      "explanation": "An element is identified by the number of protons in its atoms. Models describe the nucleus and electrons using evidence.",
+      "hints": [
+        "Which particles determine atomic number?",
+        "Count the protons."
+      ],
+      "activity": "Use a simple periodic table to locate elements with different atomic numbers and explain what that number represents.",
+      "materials": [
+        "paper and pencil as useful"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_forces_acceleration",
+      "name": "Forces and changes in motion",
+      "domain": "Physical Science",
+      "description": "A net force can change an object's velocity. The resulting change depends on the total force and the object's mass.",
+      "years": [
+        9,
+        10
+      ],
+      "phase": "Phase 4 (Years 9–10)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF pp. 24–28, Phase 4 > Physical Science; broad phase-level editorial alignment",
+      "objectives": [
+        "Explain or demonstrate: forces and changes in motion."
+      ],
+      "evidence": [
+        "Answers the example question with a relevant explanation: Its acceleration can increase, assuming other relevant conditions are unchanged."
+      ],
+      "misconceptions": [
+        "A moving object needs a continuous unbalanced force simply to keep a constant velocity."
+      ],
+      "question": "If the same trolley experiences a larger unbalanced push, what change might occur?",
+      "answer": "Its acceleration can increase, assuming other relevant conditions are unchanged.",
+      "explanation": "A net force can change an object's velocity. The resulting change depends on the total force and the object's mass.",
+      "hints": [
+        "Compare the size of the unbalanced force.",
+        "What happens to the rate at which velocity changes?"
+      ],
+      "activity": "Draw two force diagrams for the same trolley and explain the expected difference in acceleration.",
+      "materials": [
+        "paper and pencil as useful"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_circuit_paths",
+      "name": "Complete electrical circuits",
+      "domain": "Physical Science",
+      "description": "An electric circuit needs a complete conducting path for current to flow. Circuit components can affect current and energy transfers.",
+      "years": [
+        9,
+        10
+      ],
+      "phase": "Phase 4 (Years 9–10)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF pp. 24–28, Phase 4 > Physical Science; broad phase-level editorial alignment",
+      "objectives": [
+        "Explain or demonstrate: complete electrical circuits."
+      ],
+      "evidence": [
+        "Answers the example question with a relevant explanation: The conducting path is broken, so current no longer flows around the circuit."
+      ],
+      "misconceptions": [
+        "A bulb lights even when the circuit has a gap."
+      ],
+      "question": "Why does a bulb stop glowing when a simple circuit is opened?",
+      "answer": "The conducting path is broken, so current no longer flows around the circuit.",
+      "explanation": "An electric circuit needs a complete conducting path for current to flow. Circuit components can affect current and energy transfers.",
+      "hints": [
+        "Follow the conducting path from one battery terminal.",
+        "Is there a complete loop through the bulb?"
+      ],
+      "activity": "Draw a battery, switch and bulb in a closed loop; indicate what changes when the switch opens.",
+      "materials": [
+        "paper and pencil as useful"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_cells_organelles",
+      "name": "Cell structures and functions",
+      "domain": "Biological Science",
+      "description": "Eukaryotic cells contain structures with different functions. Plant cells have additional structures including a cell wall and chloroplasts.",
+      "years": [
+        9,
+        10
+      ],
+      "phase": "Phase 4 (Years 9–10)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF pp. 29–31, Phase 4 > Biological Science; broad phase-level editorial alignment",
+      "objectives": [
+        "Explain or demonstrate: cell structures and functions."
+      ],
+      "evidence": [
+        "Answers the example question with a relevant explanation: The chloroplast."
+      ],
+      "misconceptions": [
+        "All cells have exactly the same structures."
+      ],
+      "question": "Which plant-cell structure captures light for photosynthesis?",
+      "answer": "The chloroplast.",
+      "explanation": "Eukaryotic cells contain structures with different functions. Plant cells have additional structures including a cell wall and chloroplasts.",
+      "hints": [
+        "Which process uses light to make sugars?",
+        "Find the structure associated with that process."
+      ],
+      "activity": "Compare labelled plant and animal cell diagrams and explain one structure found in the plant cell.",
+      "materials": [
+        "paper and pencil as useful"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_inheritance",
+      "name": "Inherited variation and selection",
+      "domain": "Biological Science",
+      "description": "Individuals in a population vary. If a heritable variation affects survival or reproduction, it may become more or less common over generations.",
+      "years": [
+        9,
+        10
+      ],
+      "phase": "Phase 4 (Years 9–10)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF pp. 29–31, Phase 4 > Biological Science; broad phase-level editorial alignment",
+      "objectives": [
+        "Explain or demonstrate: inherited variation and selection."
+      ],
+      "evidence": [
+        "Answers the example question with a relevant explanation: Individuals with that trait may leave more offspring in a particular environment, passing the trait on more often."
+      ],
+      "misconceptions": [
+        "An individual chooses a useful trait and passes the acquired change to offspring."
+      ],
+      "question": "Why might a heritable trait become more common over generations?",
+      "answer": "Individuals with that trait may leave more offspring in a particular environment, passing the trait on more often.",
+      "explanation": "Individuals in a population vary. If a heritable variation affects survival or reproduction, it may become more or less common over generations.",
+      "hints": [
+        "The trait must be passed to offspring.",
+        "Think about differences in survival and reproduction over many generations."
+      ],
+      "activity": "Use coloured counters to model a fictional population over several generations and discuss where the model simplifies real biology.",
+      "materials": [
+        "paper and pencil as useful"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "mt_1VIE8FlZvL",
+      "name": "Pathogens & the Immune System",
+      "domain": "Biological Science",
+      "description": "Infectious diseases can be caused by pathogens. The body has barriers and immune responses that help protect against disease.",
+      "years": [
+        9,
+        10
+      ],
+      "phase": "Phase 4 (Years 9–10)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF pp. 29–31, Phase 4 > Biological Science; broad phase-level editorial alignment",
+      "objectives": [
+        "Explain or demonstrate: pathogens and immune defences."
+      ],
+      "evidence": [
+        "Answers the example question with a relevant explanation: It provides a physical barrier that can limit entry of pathogens."
+      ],
+      "misconceptions": [
+        "All diseases are infectious and spread between people."
+      ],
+      "question": "How can intact skin help protect against pathogens?",
+      "answer": "It provides a physical barrier that can limit entry of pathogens.",
+      "explanation": "Infectious diseases can be caused by pathogens. The body has barriers and immune responses that help protect against disease.",
+      "hints": [
+        "Think of the body's outer covering.",
+        "How could a barrier prevent entry?"
+      ],
+      "activity": "Draw a simple diagram distinguishing an outer barrier from an immune response inside the body; use a reliable health source.",
+      "materials": [
+        "paper and pencil as useful"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_absorb_water",
+      "name": "Absorbent and waterproof materials",
+      "domain": "Physical Science",
+      "description": "Materials differ in how readily they let water soak in or pass through them; this affects their uses.",
+      "years": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "phase": "Phase 1 (Years 0–3)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF pp. 9–10, Phase 1 > Physical Science; broad phase-level editorial alignment",
+      "objectives": [
+        "Explain or demonstrate: absorbent and waterproof materials."
+      ],
+      "evidence": [
+        "Answers the example question with a relevant explanation: It can help stop water passing through to the object underneath."
+      ],
+      "misconceptions": [
+        "Every material absorbs water in the same way."
+      ],
+      "question": "Why might a waterproof cover be useful in rain?",
+      "answer": "It can help stop water passing through to the object underneath.",
+      "explanation": "Materials differ in how readily they let water soak in or pass through them; this affects their uses.",
+      "hints": [
+        "What happens to rain on the cover?",
+        "Does the material let water pass through easily?"
+      ],
+      "activity": "Place a small drop of water on safe samples of paper and plastic and observe what happens.",
+      "materials": [
+        "paper and pencil as useful"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_surface_friction",
+      "name": "Surfaces and moving objects",
+      "domain": "Physical Science",
+      "description": "The surfaces touching an object can affect how easily it moves across them.",
+      "years": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "phase": "Phase 1 (Years 0–3)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF pp. 9–10, Phase 1 > Physical Science; broad phase-level editorial alignment",
+      "objectives": [
+        "Explain or demonstrate: surfaces and moving objects."
+      ],
+      "evidence": [
+        "Answers the example question with a relevant explanation: The surfaces interact differently with the toy and can oppose movement by different amounts."
+      ],
+      "misconceptions": [
+        "The surface beneath an object never affects its movement."
+      ],
+      "question": "Why might a toy slide differently on a smooth table and a soft rug?",
+      "answer": "The surfaces interact differently with the toy and can oppose movement by different amounts.",
+      "explanation": "The surfaces touching an object can affect how easily it moves across them.",
+      "hints": [
+        "Compare the two surfaces.",
+        "Which might resist sliding more?"
+      ],
+      "activity": "Gently slide the same object across two safe surfaces and describe the differences.",
+      "materials": [
+        "paper and pencil as useful"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "mt_EygMHKs8Ed",
+      "name": "Simple Food Chains",
+      "domain": "Biological Science",
+      "description": "A food chain represents a feeding relationship and shows how organisms depend on a source of food.",
+      "years": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "phase": "Phase 1 (Years 0–3)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF pp. 11–12, Phase 1 > Biological Science; broad phase-level editorial alignment",
+      "objectives": [
+        "Explain or demonstrate: a simple food chain."
+      ],
+      "evidence": [
+        "Answers the example question with a relevant explanation: The grass or other plant material in this model."
+      ],
+      "misconceptions": [
+        "A food-chain arrow only shows where an animal lives."
+      ],
+      "question": "In a simple chain grass → insect → bird, what does the insect eat?",
+      "answer": "The grass or other plant material in this model.",
+      "explanation": "A food chain represents a feeding relationship and shows how organisms depend on a source of food.",
+      "hints": [
+        "Follow the arrow from the grass.",
+        "Which organism is shown receiving food from the grass?"
+      ],
+      "activity": "Draw a fictional three-organism chain and explain what each arrow represents.",
+      "materials": [
+        "paper and pencil as useful"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_observe_senses",
+      "name": "Observing living things safely",
+      "domain": "Biological Science",
+      "description": "Observations use senses or tools to notice and record features. Some organisms should be observed without touching or disturbing them.",
+      "years": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "phase": "Phase 1 (Years 0–3)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF pp. 11–12, Phase 1 > Biological Science; broad phase-level editorial alignment",
+      "objectives": [
+        "Explain or demonstrate: observing living things safely."
+      ],
+      "evidence": [
+        "Answers the example question with a relevant explanation: Some fungi may be harmful, and observation can be made safely from a distance."
+      ],
+      "misconceptions": [
+        "Every organism found outdoors is safe to touch."
+      ],
+      "question": "Why should a learner observe an unknown mushroom without handling it?",
+      "answer": "Some fungi may be harmful, and observation can be made safely from a distance.",
+      "explanation": "Observations use senses or tools to notice and record features. Some organisms should be observed without touching or disturbing them.",
+      "hints": [
+        "Is it always safe to touch an unknown organism?",
+        "What can be recorded without touching it?"
+      ],
+      "activity": "Observe a photograph of an unfamiliar organism and record its colour and shape without guessing that it is safe.",
+      "materials": [
+        "paper and pencil as useful"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_magnets",
+      "name": "Magnetic forces",
+      "domain": "Physical Science",
+      "description": "Magnets can exert forces without touching an object, but not every material is attracted to a magnet.",
+      "years": [
+        4,
+        5,
+        6
+      ],
+      "phase": "Phase 2 (Years 4–6)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF pp. 14–15, Phase 2 > Physical Science; broad phase-level editorial alignment",
+      "objectives": [
+        "Explain or demonstrate: magnetic forces."
+      ],
+      "evidence": [
+        "Answers the example question with a relevant explanation: No. Wood is not generally attracted to a magnet."
+      ],
+      "misconceptions": [
+        "Magnets attract every kind of material."
+      ],
+      "question": "Will a magnet necessarily attract a wooden block?",
+      "answer": "No. Wood is not generally attracted to a magnet.",
+      "explanation": "Magnets can exert forces without touching an object, but not every material is attracted to a magnet.",
+      "hints": [
+        "Think about what the block is made from.",
+        "Are all materials magnetic?"
+      ],
+      "activity": "With a small safe magnet, test a selection of everyday objects and record which are attracted.",
+      "materials": [
+        "paper and pencil as useful"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "mt_AvrQauS_zX",
+      "name": "Gravity & Falling Objects",
+      "domain": "Physical Science",
+      "description": "Gravity is an attractive force that can act without contact. Near Earth it contributes to objects falling towards the ground.",
+      "years": [
+        4,
+        5,
+        6
+      ],
+      "phase": "Phase 2 (Years 4–6)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF pp. 14–15, Phase 2 > Physical Science; broad phase-level editorial alignment",
+      "objectives": [
+        "Explain or demonstrate: gravity and falling objects."
+      ],
+      "evidence": [
+        "Answers the example question with a relevant explanation: Gravity."
+      ],
+      "misconceptions": [
+        "A force can only act when two objects are touching."
+      ],
+      "question": "What force helps explain why a dropped object falls towards the ground?",
+      "answer": "Gravity.",
+      "explanation": "Gravity is an attractive force that can act without contact. Near Earth it contributes to objects falling towards the ground.",
+      "hints": [
+        "Which direction does the object move?",
+        "What attracts objects towards Earth?"
+      ],
+      "activity": "Observe a light, safe object being dropped over a short distance and describe its motion.",
+      "materials": [
+        "paper and pencil as useful"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_heat_transfer",
+      "name": "Thermal energy and temperature",
+      "domain": "Physical Science",
+      "description": "Heating and cooling can transfer energy and change temperature or state; temperature and the amount of thermal energy are related but distinct ideas.",
+      "years": [
+        4,
+        5,
+        6
+      ],
+      "phase": "Phase 2 (Years 4–6)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF pp. 14–15, Phase 2 > Physical Science; broad phase-level editorial alignment",
+      "objectives": [
+        "Explain or demonstrate: thermal energy and temperature."
+      ],
+      "evidence": [
+        "Answers the example question with a relevant explanation: Energy is transferred from the warmer surroundings to the ice, allowing it to melt."
+      ],
+      "misconceptions": [
+        "Cold is a substance that flows from ice into a room."
+      ],
+      "question": "Why might an ice cube melt in a warmer room?",
+      "answer": "Energy is transferred from the warmer surroundings to the ice, allowing it to melt.",
+      "explanation": "Heating and cooling can transfer energy and change temperature or state; temperature and the amount of thermal energy are related but distinct ideas.",
+      "hints": [
+        "Compare the temperatures of the ice and room.",
+        "In which direction can energy be transferred?"
+      ],
+      "activity": "Watch ice melt in a dish at room temperature and describe the change without touching hot equipment.",
+      "materials": [
+        "paper and pencil as useful"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "mt_DA7-JYRvtP",
+      "name": "Building a simple circuit",
+      "domain": "Physical Science",
+      "description": "A simple circuit connects a power source and components in a conducting loop. A gap can interrupt the path.",
+      "years": [
+        4,
+        5,
+        6
+      ],
+      "phase": "Phase 2 (Years 4–6)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF pp. 14–15, Phase 2 > Physical Science; broad phase-level editorial alignment",
+      "objectives": [
+        "Explain or demonstrate: a simple circuit."
+      ],
+      "evidence": [
+        "Answers the example question with a relevant explanation: The circuit does not yet provide a complete conducting loop through the bulb."
+      ],
+      "misconceptions": [
+        "One connection to a battery always makes a complete circuit."
+      ],
+      "question": "A battery and bulb are connected by only one wire. Why might the bulb not light?",
+      "answer": "The circuit does not yet provide a complete conducting loop through the bulb.",
+      "explanation": "A simple circuit connects a power source and components in a conducting loop. A gap can interrupt the path.",
+      "hints": [
+        "Trace the path from one battery terminal.",
+        "Does it return to the other terminal through the bulb?"
+      ],
+      "activity": "Draw a battery, bulb and two connecting paths to show a complete loop; use only low-voltage equipment with supervision if building it.",
+      "materials": [
+        "paper and pencil as useful"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_vertebrates",
+      "name": "Skeletons and support",
+      "domain": "Biological Science",
+      "description": "Many animals have internal skeletons; others have an external skeleton or no rigid skeleton. Structures help support and protect the body.",
+      "years": [
+        4,
+        5,
+        6
+      ],
+      "phase": "Phase 2 (Years 4–6)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF pp. 16–17, Phase 2 > Biological Science; broad phase-level editorial alignment",
+      "objectives": [
+        "Explain or demonstrate: skeletons and support."
+      ],
+      "evidence": [
+        "Answers the example question with a relevant explanation: It can support the body, protect organs or work with muscles to enable movement."
+      ],
+      "misconceptions": [
+        "All animals have the same internal skeleton."
+      ],
+      "question": "What is one function of a skeleton in a vertebrate?",
+      "answer": "It can support the body, protect organs or work with muscles to enable movement.",
+      "explanation": "Many animals have internal skeletons; others have an external skeleton or no rigid skeleton. Structures help support and protect the body.",
+      "hints": [
+        "Think about what supports the body.",
+        "Some bones protect important organs."
+      ],
+      "activity": "Compare labelled diagrams of a vertebrate and an invertebrate and note one difference in support.",
+      "materials": [
+        "paper and pencil as useful"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_digestion",
+      "name": "Digestion and nutrients",
+      "domain": "Biological Science",
+      "description": "The digestive system helps break down food and absorb nutrients that the body can use.",
+      "years": [
+        4,
+        5,
+        6
+      ],
+      "phase": "Phase 2 (Years 4–6)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF pp. 16–17, Phase 2 > Biological Science; broad phase-level editorial alignment",
+      "objectives": [
+        "Explain or demonstrate: digestion and nutrients."
+      ],
+      "evidence": [
+        "Answers the example question with a relevant explanation: It breaks food down so nutrients can be absorbed and used by the body."
+      ],
+      "misconceptions": [
+        "Food reaches every part of the body without being broken down."
+      ],
+      "question": "What is one purpose of digestion?",
+      "answer": "It breaks food down so nutrients can be absorbed and used by the body.",
+      "explanation": "The digestive system helps break down food and absorb nutrients that the body can use.",
+      "hints": [
+        "What happens to food after it is eaten?",
+        "How can useful substances become available to the body?"
+      ],
+      "activity": "Use a labelled diagram to trace a simple path through the digestive system and explain one stage.",
+      "materials": [
+        "paper and pencil as useful"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_speed_distance_time",
+      "name": "Speed, distance and time",
+      "domain": "Physical Science",
+      "description": "Average speed relates the distance travelled to the time taken over a chosen interval.",
+      "years": [
+        7,
+        8
+      ],
+      "phase": "Phase 3 (Years 7–8)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF pp. 19–20, Phase 3 > Physical Science; broad phase-level editorial alignment",
+      "objectives": [
+        "Explain or demonstrate: speed, distance and time."
+      ],
+      "evidence": [
+        "Answers the example question with a relevant explanation: 4 metres per second."
+      ],
+      "misconceptions": [
+        "Speed is found by multiplying distance by time."
+      ],
+      "question": "A cyclist travels 12 metres in 3 seconds. What is the average speed?",
+      "answer": "4 metres per second.",
+      "explanation": "Average speed relates the distance travelled to the time taken over a chosen interval.",
+      "hints": [
+        "Divide distance by time.",
+        "Twelve divided by three is four."
+      ],
+      "activity": "Use fictional distances and times to calculate average speed for two journeys, keeping the units visible.",
+      "materials": [
+        "paper and pencil as useful"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_lever_balance",
+      "name": "Levers and turning effects",
+      "domain": "Physical Science",
+      "description": "The turning effect of a force depends on its size and distance from a pivot. A balanced lever has equal opposing turning effects.",
+      "years": [
+        7,
+        8
+      ],
+      "phase": "Phase 3 (Years 7–8)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF pp. 19–20, Phase 3 > Physical Science; broad phase-level editorial alignment",
+      "objectives": [
+        "Explain or demonstrate: levers and turning effects."
+      ],
+      "evidence": [
+        "Answers the example question with a relevant explanation: The lighter person could sit farther from the pivot, subject to the actual forces and distances."
+      ],
+      "misconceptions": [
+        "A seesaw can only balance when both sides have equal masses at any distance."
+      ],
+      "question": "How could a lighter person balance a heavier person on a seesaw?",
+      "answer": "The lighter person could sit farther from the pivot, subject to the actual forces and distances.",
+      "explanation": "The turning effect of a force depends on its size and distance from a pivot. A balanced lever has equal opposing turning effects.",
+      "hints": [
+        "Compare the distances from the pivot.",
+        "Can a longer distance increase a turning effect?"
+      ],
+      "activity": "Draw a seesaw model and compare two fictional force-and-distance combinations; do not attempt unsafe balancing.",
+      "materials": [
+        "paper and pencil as useful"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "mt_q15w--Fb5H",
+      "name": "Earth's rotation and day/night",
+      "domain": "Physical Science",
+      "description": "Earth's rotation causes places to move into and out of sunlight, producing a day–night cycle.",
+      "years": [
+        7,
+        8
+      ],
+      "phase": "Phase 3 (Years 7–8)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF pp. 19–20, Phase 3 > Physical Science; broad phase-level editorial alignment",
+      "objectives": [
+        "Explain or demonstrate: earth's rotation and day and night."
+      ],
+      "evidence": [
+        "Answers the example question with a relevant explanation: The place is on the side of Earth facing away from the Sun."
+      ],
+      "misconceptions": [
+        "Night happens because the Sun is turned off."
+      ],
+      "question": "Why does a place experience night in a simple Earth–Sun model?",
+      "answer": "The place is on the side of Earth facing away from the Sun.",
+      "explanation": "Earth's rotation causes places to move into and out of sunlight, producing a day–night cycle.",
+      "hints": [
+        "Imagine a rotating ball and a fixed light source.",
+        "Which side is not receiving direct light?"
+      ],
+      "activity": "Use a ball and a stationary torch to model day and night, then state one way the model differs from reality.",
+      "materials": [
+        "paper and pencil as useful"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_solutions",
+      "name": "Solutions and dissolving",
+      "domain": "Physical Science",
+      "description": "A solution forms when a soluble substance dissolves in a solvent. Dissolved material is still present even when it is not visible.",
+      "years": [
+        7,
+        8
+      ],
+      "phase": "Phase 3 (Years 7–8)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF pp. 19–20, Phase 3 > Physical Science; broad phase-level editorial alignment",
+      "objectives": [
+        "Explain or demonstrate: solutions and dissolving."
+      ],
+      "evidence": [
+        "Answers the example question with a relevant explanation: No. It is dispersed in the solution and is still present."
+      ],
+      "misconceptions": [
+        "Dissolving destroys the material that dissolves."
+      ],
+      "question": "When salt dissolves in water, has the salt disappeared?",
+      "answer": "No. It is dispersed in the solution and is still present.",
+      "explanation": "A solution forms when a soluble substance dissolves in a solvent. Dissolved material is still present even when it is not visible.",
+      "hints": [
+        "Can the salt be recovered by removing water?",
+        "Not being visible is different from not existing."
+      ],
+      "activity": "Stir a small amount of salt into water and discuss how evaporation could provide evidence that salt remains.",
+      "materials": [
+        "paper and pencil as useful"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "mt_C7FNeIDGc6",
+      "name": "Cells, Tissues & Organs",
+      "domain": "Biological Science",
+      "description": "In multicellular organisms, cells can form tissues, tissues can form organs, and organs can work together in systems.",
+      "years": [
+        7,
+        8
+      ],
+      "phase": "Phase 3 (Years 7–8)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF pp. 21–22, Phase 3 > Biological Science; broad phase-level editorial alignment",
+      "objectives": [
+        "Explain or demonstrate: cells, tissues and organs."
+      ],
+      "evidence": [
+        "Answers the example question with a relevant explanation: An organ is made from tissues."
+      ],
+      "misconceptions": [
+        "Cells are made from organs rather than the other way around."
+      ],
+      "question": "Which is generally made from tissues: an organ or an individual cell?",
+      "answer": "An organ is made from tissues.",
+      "explanation": "In multicellular organisms, cells can form tissues, tissues can form organs, and organs can work together in systems.",
+      "hints": [
+        "Begin with cells as smaller units.",
+        "What can a group of tissues form?"
+      ],
+      "activity": "Arrange cards labelled cell, tissue, organ and system from smaller to larger and give one familiar example.",
+      "materials": [
+        "paper and pencil as useful"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_ecosystem_factors",
+      "name": "Living and non-living ecosystem factors",
+      "domain": "Biological Science",
+      "description": "An ecosystem includes organisms interacting with each other and with non-living conditions such as water, light and temperature.",
+      "years": [
+        7,
+        8
+      ],
+      "phase": "Phase 3 (Years 7–8)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF pp. 21–22, Phase 3 > Biological Science; broad phase-level editorial alignment",
+      "objectives": [
+        "Explain or demonstrate: living and non-living ecosystem factors."
+      ],
+      "evidence": [
+        "Answers the example question with a relevant explanation: Water temperature is a non-living factor; the fish is living."
+      ],
+      "misconceptions": [
+        "An ecosystem contains only living things."
+      ],
+      "question": "In a pond, which is a non-living factor: a fish or water temperature?",
+      "answer": "Water temperature is a non-living factor; the fish is living.",
+      "explanation": "An ecosystem includes organisms interacting with each other and with non-living conditions such as water, light and temperature.",
+      "hints": [
+        "Which item is an organism?",
+        "Which describes a physical condition?"
+      ],
+      "activity": "Make two lists for a fictional pond: living organisms and non-living conditions, then describe one interaction.",
+      "materials": [
+        "paper and pencil as useful"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_acids_ph",
+      "name": "Acids, bases and the pH scale",
+      "domain": "Physical Science",
+      "description": "The pH scale describes how acidic or alkaline a solution is; for typical aqueous solutions, pH below 7 is acidic and above 7 is alkaline.",
+      "years": [
+        9,
+        10
+      ],
+      "phase": "Phase 4 (Years 9–10)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF pp. 24–28, Phase 4 > Physical Science; broad phase-level editorial alignment",
+      "objectives": [
+        "Explain or demonstrate: acids, bases and the ph scale."
+      ],
+      "evidence": [
+        "Answers the example question with a relevant explanation: It is acidic."
+      ],
+      "misconceptions": [
+        "A lower pH always means a solution is more alkaline."
+      ],
+      "question": "A solution has pH 3. Is it acidic or alkaline?",
+      "answer": "It is acidic.",
+      "explanation": "The pH scale describes how acidic or alkaline a solution is; for typical aqueous solutions, pH below 7 is acidic and above 7 is alkaline.",
+      "hints": [
+        "Compare 3 with neutral pH 7.",
+        "A value below 7 indicates an acid."
+      ],
+      "activity": "Classify fictional pH values on a number line; do not taste or handle unknown chemicals.",
+      "materials": [
+        "paper and pencil as useful"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "mt_loEMaQ8kFA",
+      "name": "Series vs parallel circuits",
+      "domain": "Physical Science",
+      "description": "A series circuit has one path for current; a parallel circuit has multiple branches. A break affects the paths differently.",
+      "years": [
+        9,
+        10
+      ],
+      "phase": "Phase 4 (Years 9–10)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF pp. 24–28, Phase 4 > Physical Science; broad phase-level editorial alignment",
+      "objectives": [
+        "Explain or demonstrate: series and parallel circuit paths."
+      ],
+      "evidence": [
+        "Answers the example question with a relevant explanation: The other complete branch can still carry current if the source and its path remain intact."
+      ],
+      "misconceptions": [
+        "All branches of a parallel circuit must stop conducting whenever one branch is opened."
+      ],
+      "question": "In a simple parallel circuit, what happens to another complete branch if one branch is opened?",
+      "answer": "The other complete branch can still carry current if the source and its path remain intact.",
+      "explanation": "A series circuit has one path for current; a parallel circuit has multiple branches. A break affects the paths differently.",
+      "hints": [
+        "How many paths are available?",
+        "Does the other branch still form a complete path?"
+      ],
+      "activity": "Draw series and parallel circuits and mark which path is interrupted by an opened switch.",
+      "materials": [
+        "paper and pencil as useful"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_pressure_area",
+      "name": "Pressure, force and area",
+      "domain": "Physical Science",
+      "description": "Pressure is force distributed over an area. For the same perpendicular force, a smaller contact area produces greater pressure.",
+      "years": [
+        9,
+        10
+      ],
+      "phase": "Phase 4 (Years 9–10)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF pp. 24–28, Phase 4 > Physical Science; broad phase-level editorial alignment",
+      "objectives": [
+        "Explain or demonstrate: pressure, force and area."
+      ],
+      "evidence": [
+        "Answers the example question with a relevant explanation: Pressure increases."
+      ],
+      "misconceptions": [
+        "For the same force, a smaller area always produces less pressure."
+      ],
+      "question": "If the same force acts on a smaller area, what happens to pressure?",
+      "answer": "Pressure increases.",
+      "explanation": "Pressure is force distributed over an area. For the same perpendicular force, a smaller contact area produces greater pressure.",
+      "hints": [
+        "Use pressure = force divided by area.",
+        "What happens to a quotient when the denominator decreases and the numerator stays fixed?"
+      ],
+      "activity": "Compare fictional force-and-area pairs using simple numbers and include units.",
+      "materials": [
+        "paper and pencil as useful"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_position_graph",
+      "name": "Interpreting a position–time graph",
+      "domain": "Physical Science",
+      "description": "A position–time graph represents position over time; the slope of a straight section describes velocity along the chosen axis.",
+      "years": [
+        9,
+        10
+      ],
+      "phase": "Phase 4 (Years 9–10)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF pp. 24–28, Phase 4 > Physical Science; broad phase-level editorial alignment",
+      "objectives": [
+        "Explain or demonstrate: interpreting a position–time graph."
+      ],
+      "evidence": [
+        "Answers the example question with a relevant explanation: Position is not changing during that interval, so velocity is zero."
+      ],
+      "misconceptions": [
+        "A horizontal position–time graph means the object is moving at a high constant speed."
+      ],
+      "question": "On a position–time graph, what does a horizontal section indicate?",
+      "answer": "Position is not changing during that interval, so velocity is zero.",
+      "explanation": "A position–time graph represents position over time; the slope of a straight section describes velocity along the chosen axis.",
+      "hints": [
+        "Does the vertical value change as time passes?",
+        "What does unchanged position mean for motion?"
+      ],
+      "activity": "Draw a fictional graph for moving, stopping and moving again, then describe each section.",
+      "materials": [
+        "paper and pencil as useful"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_diffusion",
+      "name": "Diffusion in biological systems",
+      "domain": "Biological Science",
+      "description": "Diffusion is the net movement of particles from a region of higher concentration to one of lower concentration. It helps explain movement of gases in biological systems.",
+      "years": [
+        9,
+        10
+      ],
+      "phase": "Phase 4 (Years 9–10)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF pp. 29–31, Phase 4 > Biological Science; broad phase-level editorial alignment",
+      "objectives": [
+        "Explain or demonstrate: diffusion in biological systems."
+      ],
+      "evidence": [
+        "Answers the example question with a relevant explanation: From higher concentration towards lower concentration."
+      ],
+      "misconceptions": [
+        "Diffusion requires every particle to move in the same direction at every moment."
+      ],
+      "question": "Which way is net diffusion expected between higher and lower concentration regions?",
+      "answer": "From higher concentration towards lower concentration.",
+      "explanation": "Diffusion is the net movement of particles from a region of higher concentration to one of lower concentration. It helps explain movement of gases in biological systems.",
+      "hints": [
+        "Compare the two concentrations.",
+        "Which direction reduces the concentration difference?"
+      ],
+      "activity": "Use dots on paper to model particles spreading between two areas and identify a limitation of the model.",
+      "materials": [
+        "paper and pencil as useful"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "mt_mquPi2IP-J",
+      "name": "Aerobic Respiration",
+      "domain": "Biological Science",
+      "description": "In aerobic cellular respiration, cells use glucose and oxygen to release energy for life processes, producing carbon dioxide and water.",
+      "years": [
+        9,
+        10
+      ],
+      "phase": "Phase 4 (Years 9–10)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF pp. 29–31, Phase 4 > Biological Science; broad phase-level editorial alignment",
+      "objectives": [
+        "Explain or demonstrate: cellular respiration."
+      ],
+      "evidence": [
+        "Answers the example question with a relevant explanation: Glucose and oxygen."
+      ],
+      "misconceptions": [
+        "Respiration and photosynthesis are the same process."
+      ],
+      "question": "What two inputs are used in aerobic cellular respiration?",
+      "answer": "Glucose and oxygen.",
+      "explanation": "In aerobic cellular respiration, cells use glucose and oxygen to release energy for life processes, producing carbon dioxide and water.",
+      "hints": [
+        "One input is a sugar.",
+        "The other is a gas obtained through breathing in humans."
+      ],
+      "activity": "Draw a labelled model of inputs and outputs for aerobic respiration and compare it with photosynthesis.",
+      "materials": [
+        "paper and pencil as useful"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_ecosystem_water",
+      "name": "Water and ecosystems",
+      "domain": "Biological Science",
+      "description": "Water moves through ecosystems and supports organisms, soils and biological processes. Availability can affect where organisms live.",
+      "years": [
+        9,
+        10
+      ],
+      "phase": "Phase 4 (Years 9–10)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF pp. 29–31, Phase 4 > Biological Science; broad phase-level editorial alignment",
+      "objectives": [
+        "Explain or demonstrate: water and ecosystems."
+      ],
+      "evidence": [
+        "Answers the example question with a relevant explanation: Organisms and processes depend on water, so a change can alter the conditions and resources available."
+      ],
+      "misconceptions": [
+        "Water availability has no effect on living things."
+      ],
+      "question": "Why might a change in freshwater availability affect an ecosystem?",
+      "answer": "Organisms and processes depend on water, so a change can alter the conditions and resources available.",
+      "explanation": "Water moves through ecosystems and supports organisms, soils and biological processes. Availability can affect where organisms live.",
+      "hints": [
+        "What uses water in the ecosystem?",
+        "How might less water affect plants or other organisms?"
+      ],
+      "activity": "Use a fictional catchment diagram to trace water through soil, plants and the atmosphere.",
+      "materials": [
+        "paper and pencil as useful"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "mt_Oru08pKlxd",
+      "name": "How Shadows Form",
+      "domain": "Physical Science",
+      "description": "A shadow appears when an object blocks light travelling from a source to a surface.",
+      "years": [
+        1
+      ],
+      "phase": "Phase 1 (Years 0–3)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF p. 9, Phase 1 (Years 0–3) > Physical Science > Year 1 knowledge",
+      "objectives": [
+        "Explain or apply how shadows form using an example."
+      ],
+      "evidence": [
+        "Identifies the object blocking the light and the surface where the shadow appears."
+      ],
+      "misconceptions": [
+        "A shadow is a coloured substance that an object gives off."
+      ],
+      "question": "A torch shines on a wall with a book between them. Why is there a dark shape on the wall?",
+      "answer": "The book blocks some of the torchlight.",
+      "explanation": "Less light reaches the part of the wall behind the book, making a shadow.",
+      "hints": [
+        "Trace the path from torch to wall.",
+        "What is between the torch and the wall?"
+      ],
+      "activity": "With a torch, card and wall, move the card and observe its shadow. Never look directly at the Sun.",
+      "materials": [
+        "paper and pencil; add ordinary classroom materials as described"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "mt_KTSoXcO7OL",
+      "name": "Pitch of Sounds",
+      "domain": "Physical Science",
+      "description": "Pitch describes how high or low a sound seems and relates to how quickly its source vibrates.",
+      "years": [
+        2
+      ],
+      "phase": "Phase 1 (Years 0–3)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF p. 9, Phase 1 (Years 0–3) > Physical Science > Year 2 knowledge",
+      "objectives": [
+        "Explain or apply pitch of sounds using an example."
+      ],
+      "evidence": [
+        "Distinguishes a higher vibration frequency from a louder sound."
+      ],
+      "misconceptions": [
+        "A louder sound always has a higher pitch."
+      ],
+      "question": "Two whistles are equally loud. Which has a higher pitch if one vibrates faster?",
+      "answer": "The whistle that vibrates faster.",
+      "explanation": "A higher vibration frequency produces a higher pitch, while loudness is a separate property.",
+      "hints": [
+        "Think about how quickly the source moves back and forth.",
+        "Compare vibration speed rather than volume."
+      ],
+      "activity": "Pluck a short and a long stretched rubber band gently and describe the different pitches; keep both away from eyes.",
+      "materials": [
+        "paper and pencil; add ordinary classroom materials as described"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_transparency",
+      "name": "Transparent and opaque materials",
+      "domain": "Physical Science",
+      "description": "Materials differ in how much light they let through: transparent materials transmit most light, while opaque materials block it.",
+      "years": [
+        3
+      ],
+      "phase": "Phase 1 (Years 0–3)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF p. 9, Phase 1 (Years 0–3) > Physical Science > Year 3 knowledge",
+      "objectives": [
+        "Explain or apply transparent and opaque materials using an example."
+      ],
+      "evidence": [
+        "Uses the behaviour of light to compare two materials."
+      ],
+      "misconceptions": [
+        "Every material either lets all light through or blocks all of it."
+      ],
+      "question": "Why can a clear window let us see outside but a cardboard sheet cannot?",
+      "answer": "The clear window lets most light through; the cardboard blocks it.",
+      "explanation": "Light reaches our eyes through the transparent window, while opaque cardboard absorbs or reflects it.",
+      "hints": [
+        "Think about how much light passes through each material.",
+        "Which one blocks the light?"
+      ],
+      "activity": "Shine a small torch at clear plastic, thin paper and cardboard and compare the light reaching a wall.",
+      "materials": [
+        "paper and pencil; add ordinary classroom materials as described"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_sun_moon_light",
+      "name": "Sunlight and moonlight",
+      "domain": "Physical Science",
+      "description": "The Sun emits light; the Moon can be seen because it reflects sunlight.",
+      "years": [
+        3
+      ],
+      "phase": "Phase 1 (Years 0–3)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF p. 9, Phase 1 (Years 0–3) > Physical Science > Year 3 knowledge",
+      "objectives": [
+        "Explain or apply sunlight and moonlight using an example."
+      ],
+      "evidence": [
+        "Explains where the light reaching us from the Moon comes from."
+      ],
+      "misconceptions": [
+        "The Moon is a star that produces its own light."
+      ],
+      "question": "Where does the light that lets us see the Moon come from?",
+      "answer": "It comes from the Sun and is reflected by the Moon.",
+      "explanation": "Sunlight falls on the Moon and some of that light reaches our eyes.",
+      "hints": [
+        "Which object is a light source?",
+        "The Moon reflects light from a nearby star."
+      ],
+      "activity": "Use a torch and a ball to model sunlight reflecting from the Moon; never look directly at the Sun.",
+      "materials": [
+        "paper and pencil; add ordinary classroom materials as described"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_thermometer",
+      "name": "Measuring temperature",
+      "domain": "Physical Science",
+      "description": "A thermometer measures how hot or cold something is, often using degrees Celsius.",
+      "years": [
+        4
+      ],
+      "phase": "Phase 2 (Years 4–6)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF p. 14, Phase 2 (Years 4–6) > Physical Science > Year 4 knowledge",
+      "objectives": [
+        "Explain or apply measuring temperature using an example."
+      ],
+      "evidence": [
+        "Reads and compares Celsius temperatures without confusing temperature and amount."
+      ],
+      "misconceptions": [
+        "A bigger cup of water must have a higher temperature than a smaller cup."
+      ],
+      "question": "One cup of water is 18°C and another is 25°C. Which is warmer?",
+      "answer": "The water at 25°C.",
+      "explanation": "A higher reading on the same Celsius scale indicates a higher temperature.",
+      "hints": [
+        "Compare the two readings.",
+        "Which number is larger?"
+      ],
+      "activity": "Draw two thermometer scales labelled 18°C and 25°C and mark the warmer one.",
+      "materials": [
+        "paper and pencil; add ordinary classroom materials as described"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_magnetic_poles",
+      "name": "Magnetic poles",
+      "domain": "Physical Science",
+      "description": "A magnet has north and south poles; unlike poles attract and like poles repel.",
+      "years": [
+        4
+      ],
+      "phase": "Phase 2 (Years 4–6)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF p. 15, Phase 2 (Years 4–6) > Physical Science > Year 4 knowledge",
+      "objectives": [
+        "Explain or apply magnetic poles using an example."
+      ],
+      "evidence": [
+        "Predicts attraction or repulsion between two labelled poles."
+      ],
+      "misconceptions": [
+        "Every pair of magnetic poles attracts."
+      ],
+      "question": "What happens when the north poles of two magnets are brought close together?",
+      "answer": "They repel each other.",
+      "explanation": "Like magnetic poles repel; a north pole and a south pole attract.",
+      "hints": [
+        "Look at the labels on both ends.",
+        "Are the two poles alike or unlike?"
+      ],
+      "activity": "With two classroom magnets, test like and unlike poles and draw arrows for what happens.",
+      "materials": [
+        "paper and pencil; add ordinary classroom materials as described"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_density_float",
+      "name": "Density and floating",
+      "domain": "Physical Science",
+      "description": "Density compares mass with volume; an object less dense than the surrounding liquid floats.",
+      "years": [
+        5
+      ],
+      "phase": "Phase 2 (Years 4–6)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF p. 14, Phase 2 (Years 4–6) > Physical Science > Year 5 knowledge",
+      "objectives": [
+        "Explain or apply density and floating using an example."
+      ],
+      "evidence": [
+        "Uses density values in the same units to predict floating."
+      ],
+      "misconceptions": [
+        "The heavier object always sinks regardless of its size and volume."
+      ],
+      "question": "A solid has density 0.7 g/mL and water has density 1.0 g/mL. Will the solid float in water?",
+      "answer": "It will float.",
+      "explanation": "The solid is less dense than the water it displaces.",
+      "hints": [
+        "Compare 0.7 with 1.0.",
+        "The solid is less dense than water."
+      ],
+      "activity": "Place safe sealed objects in a basin of water and compare predictions with observations; dry spills promptly.",
+      "materials": [
+        "paper and pencil; add ordinary classroom materials as described"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "mt_lFiDFPkVmH",
+      "name": "Why We Have Seasons",
+      "domain": "Physical Science",
+      "description": "Earth's tilted axis changes the angle and duration of sunlight a region receives during its orbit.",
+      "years": [
+        5
+      ],
+      "phase": "Phase 2 (Years 4–6)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF p. 15, Phase 2 (Years 4–6) > Physical Science > Year 5 knowledge",
+      "objectives": [
+        "Explain or apply earth's tilt and the seasons using an example."
+      ],
+      "evidence": [
+        "Connects seasonal daylight and sunlight angle to Earth's tilt."
+      ],
+      "misconceptions": [
+        "The Southern Hemisphere has summer because Earth is much closer to the Sun then."
+      ],
+      "question": "Why does the Southern Hemisphere receive longer days in its summer?",
+      "answer": "Its tilt points that hemisphere more towards the Sun during that part of Earth's orbit.",
+      "explanation": "Tilt changes both the angle of sunlight and the length of the daylight period.",
+      "hints": [
+        "Think about the direction of Earth's axis.",
+        "Which hemisphere is tilted towards the Sun?"
+      ],
+      "activity": "Model Earth with a tilted ball around a stationary torch and compare the lit regions.",
+      "materials": [
+        "paper and pencil; add ordinary classroom materials as described"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "mt_ck57CDFGet",
+      "name": "Plant Reproduction",
+      "domain": "Biological Science",
+      "description": "Flowers support reproduction: pollination can lead to fertilisation, followed by seed development.",
+      "years": [
+        4
+      ],
+      "phase": "Phase 2 (Years 4–6)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF p. 16, Phase 2 (Years 4–6) > Biological Science > Year 4 knowledge",
+      "objectives": [
+        "Explain or apply plant reproduction using an example."
+      ],
+      "evidence": [
+        "Describes the connection between a flower and the seeds in a fruit."
+      ],
+      "misconceptions": [
+        "A fruit and its seeds appear without a flower or fertilisation."
+      ],
+      "question": "What can develop after a flower is pollinated and fertilised?",
+      "answer": "Seeds can develop, and the flower can develop into a fruit containing them.",
+      "explanation": "Flowering plants reproduce using structures in flowers; fertilisation enables seed development.",
+      "hints": [
+        "Start with the flower.",
+        "What structure can later contain the new seeds?"
+      ],
+      "activity": "Observe a flower and a cut fruit with an adult and draw where their structures are; wash hands afterwards.",
+      "materials": [
+        "paper and pencil; add ordinary classroom materials as described"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "mt_brgde1Vx0P",
+      "name": "Classification Keys",
+      "domain": "Biological Science",
+      "description": "A classification key identifies an organism by following choices based on observable features.",
+      "years": [
+        5
+      ],
+      "phase": "Phase 2 (Years 4–6)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF p. 16, Phase 2 (Years 4–6) > Biological Science > Year 5 knowledge",
+      "objectives": [
+        "Explain or apply classification keys using an example."
+      ],
+      "evidence": [
+        "Uses a simple observable feature to separate two kinds of organisms."
+      ],
+      "misconceptions": [
+        "An organism can only be classified by where it lives."
+      ],
+      "question": "A key first asks whether an animal has six legs. Which group does a pictured animal with six legs follow?",
+      "answer": "The six-legged group.",
+      "explanation": "A classification key sorts by a stated feature at each decision point.",
+      "hints": [
+        "Count the legs in the description.",
+        "Choose the branch that matches six legs."
+      ],
+      "activity": "Draw a two-choice key for pictures of four familiar animals using visible features.",
+      "materials": [
+        "paper and pencil; add ordinary classroom materials as described"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_fungi_group",
+      "name": "Fungi as a distinct group",
+      "domain": "Biological Science",
+      "description": "Fungi include mushrooms, moulds and yeasts, and form a group separate from plants and animals.",
+      "years": [
+        5
+      ],
+      "phase": "Phase 2 (Years 4–6)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF p. 16, Phase 2 (Years 4–6) > Biological Science > Year 5 knowledge",
+      "objectives": [
+        "Explain or apply fungi as a distinct group using an example."
+      ],
+      "evidence": [
+        "Identifies fungi without assuming a mushroom is a plant."
+      ],
+      "misconceptions": [
+        "Mushrooms are plants because they grow in the ground."
+      ],
+      "question": "Is a mushroom a plant, an animal or a fungus?",
+      "answer": "It is a fungus.",
+      "explanation": "Fungi form their own group and do not need to be plants simply because they grow in soil.",
+      "hints": [
+        "A mushroom belongs with mould and yeast.",
+        "Which of the three groups includes moulds and yeasts?"
+      ],
+      "activity": "Sort pictures of plants, animals and fungi; never touch or taste unknown mushrooms.",
+      "materials": [
+        "paper and pencil; add ordinary classroom materials as described"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "mt_BX4D8cCFtQ",
+      "name": "The Circulatory System",
+      "domain": "Biological Science",
+      "description": "The heart pumps blood through vessels, carrying absorbed nutrients and water around the body.",
+      "years": [
+        6
+      ],
+      "phase": "Phase 2 (Years 4–6)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF p. 17, Phase 2 (Years 4–6) > Biological Science > Year 6 knowledge",
+      "objectives": [
+        "Explain or apply the circulatory system using an example."
+      ],
+      "evidence": [
+        "Describes the heart's role in moving blood and nutrients."
+      ],
+      "misconceptions": [
+        "Food passes directly through blood vessels without digestion."
+      ],
+      "question": "How do nutrients absorbed from the intestine reach other parts of the body?",
+      "answer": "The bloodstream carries them as the heart pumps blood around the body.",
+      "explanation": "Nutrients enter the blood mainly through the intestine, and blood vessels connect the intestine with body tissues.",
+      "hints": [
+        "Which fluid travels around the body?",
+        "What pumps that fluid?"
+      ],
+      "activity": "Draw a simple arrow diagram from intestine to blood to a muscle.",
+      "materials": [
+        "paper and pencil; add ordinary classroom materials as described"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_inherited_environment",
+      "name": "Inheritance and environmental effects",
+      "domain": "Biological Science",
+      "description": "Offspring inherit traits from parents, while conditions in the environment can also affect how some traits develop.",
+      "years": [
+        6
+      ],
+      "phase": "Phase 2 (Years 4–6)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF p. 16, Phase 2 (Years 4–6) > Biological Science > Year 6 knowledge",
+      "objectives": [
+        "Explain or apply inheritance and environmental effects using an example."
+      ],
+      "evidence": [
+        "Gives one inherited influence and one environmental influence on an organism's features."
+      ],
+      "misconceptions": [
+        "All visible differences are inherited and the environment makes no difference."
+      ],
+      "question": "Two genetically similar plants grow differently because one receives less water. What additional influence could explain this?",
+      "answer": "The difference in water available to the plants.",
+      "explanation": "Environment can influence growth even when plants share inherited features.",
+      "hints": [
+        "Compare the plants' growing conditions.",
+        "Which resource differs?"
+      ],
+      "activity": "Draw two plants with different watering conditions and explain a possible difference in growth.",
+      "materials": [
+        "paper and pencil; add ordinary classroom materials as described"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "mt_1hgck6ucII",
+      "name": "Physical vs Chemical Changes",
+      "domain": "Physical Science",
+      "description": "A physical change alters form or state; a chemical change makes one or more new substances.",
+      "years": [
+        6
+      ],
+      "phase": "Phase 2 (Years 4–6)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF p. 14, Phase 2 (Years 4–6) > Physical Science > Year 6 knowledge",
+      "objectives": [
+        "Explain or apply physical vs chemical changes using an example."
+      ],
+      "evidence": [
+        "Distinguishes melting from a change that forms new substances."
+      ],
+      "misconceptions": [
+        "Every change in appearance means a chemical reaction has occurred."
+      ],
+      "question": "Is melting an ice cube a physical or a chemical change?",
+      "answer": "It is a physical change.",
+      "explanation": "The water changes state but remains the same substance; no new substance is formed.",
+      "hints": [
+        "What is the ice made of before and after melting?",
+        "Does a new substance form?"
+      ],
+      "activity": "Let ice melt in a bowl and describe what has changed and what has stayed the same.",
+      "materials": [
+        "paper and pencil; add ordinary classroom materials as described"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_force_arrows",
+      "name": "Showing forces with arrows",
+      "domain": "Physical Science",
+      "description": "A force has a direction and size and can be represented with an arrow.",
+      "years": [
+        6
+      ],
+      "phase": "Phase 2 (Years 4–6)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF p. 15, Phase 2 (Years 4–6) > Physical Science > Year 6 knowledge",
+      "objectives": [
+        "Explain or apply showing forces with arrows using an example."
+      ],
+      "evidence": [
+        "Uses arrow direction and relative length to represent two forces."
+      ],
+      "misconceptions": [
+        "A force arrow only tells which way an object moves."
+      ],
+      "question": "In a force diagram, how can you show a larger rightward push than another rightward push?",
+      "answer": "Draw a longer arrow pointing right for the larger push.",
+      "explanation": "Arrow direction shows the direction of the force and relative arrow length shows its size.",
+      "hints": [
+        "Both pushes point the same way.",
+        "Change the length of one arrow."
+      ],
+      "activity": "Draw a box with a small leftward arrow and a larger rightward arrow, and label each push.",
+      "materials": [
+        "paper and pencil; add ordinary classroom materials as described"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "mt_ByXgbTld6R",
+      "name": "Moon Phases",
+      "domain": "Physical Science",
+      "description": "The Moon orbits Earth, and its changing position affects how much of its sunlit half we see.",
+      "years": [
+        7
+      ],
+      "phase": "Phase 3 (Years 7–8)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF p. 20, Phase 3 (Years 7–8) > Physical Science > Year 7 knowledge",
+      "objectives": [
+        "Explain or apply moon phases and reflected sunlight using an example."
+      ],
+      "evidence": [
+        "Explains a Moon phase using the positions of the Sun, Earth and Moon."
+      ],
+      "misconceptions": [
+        "The changing phases are caused by Earth's shadow covering the Moon each month."
+      ],
+      "question": "Why can the visible shape of the Moon appear to change during a month?",
+      "answer": "We see different portions of the Moon's sunlit half as it orbits Earth.",
+      "explanation": "The Moon's illuminated half remains lit by the Sun, but the angle from Earth changes.",
+      "hints": [
+        "The Moon reflects sunlight.",
+        "Think about how our view changes as the Moon moves."
+      ],
+      "activity": "Use a torch, ball and observer to model different views of the lit half of the Moon.",
+      "materials": [
+        "paper and pencil; add ordinary classroom materials as described"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_heat_particle",
+      "name": "Heating and particle motion",
+      "domain": "Physical Science",
+      "description": "Heating a material transfers energy to its particles; their movement changes as its temperature changes.",
+      "years": [
+        7
+      ],
+      "phase": "Phase 3 (Years 7–8)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF p. 19, Phase 3 (Years 7–8) > Physical Science > Year 7 knowledge",
+      "objectives": [
+        "Explain or apply heating and particle motion using an example."
+      ],
+      "evidence": [
+        "Relates increased particle movement to a rise in temperature."
+      ],
+      "misconceptions": [
+        "The particles in a solid disappear when it becomes liquid."
+      ],
+      "question": "What happens to particle motion when a sample of liquid is warmed?",
+      "answer": "On average, its particles move faster.",
+      "explanation": "Energy transferred to the material increases the particles' average kinetic energy.",
+      "hints": [
+        "Think about the particles' movement.",
+        "Does their movement speed up or stop?"
+      ],
+      "activity": "Draw particle diagrams for the same liquid before and after warming, using arrows to show motion.",
+      "materials": [
+        "paper and pencil; add ordinary classroom materials as described"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_light_refraction",
+      "name": "Refraction of light",
+      "domain": "Physical Science",
+      "description": "Light can change direction when it passes between materials in which it travels at different speeds.",
+      "years": [
+        8
+      ],
+      "phase": "Phase 3 (Years 7–8)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF p. 19, Phase 3 (Years 7–8) > Physical Science > Year 8 knowledge",
+      "objectives": [
+        "Explain or apply refraction of light using an example."
+      ],
+      "evidence": [
+        "Explains why an object viewed through water may appear displaced."
+      ],
+      "misconceptions": [
+        "A straw in water really breaks where it enters the water."
+      ],
+      "question": "Why does a straight straw in a clear glass of water seem bent?",
+      "answer": "Light changes direction as it passes between the water and air.",
+      "explanation": "Refraction changes the path of light reaching the eye, making the underwater part appear shifted.",
+      "hints": [
+        "Follow light from the straw through water and air.",
+        "What changes when light enters a different material?"
+      ],
+      "activity": "Place a straw in a clear glass of water and draw both its actual shape and its apparent shape.",
+      "materials": [
+        "paper and pencil; add ordinary classroom materials as described"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_concentration",
+      "name": "Concentration of solutions",
+      "domain": "Physical Science",
+      "description": "Concentration compares the amount of solute with the amount of solution.",
+      "years": [
+        8
+      ],
+      "phase": "Phase 3 (Years 7–8)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF p. 19, Phase 3 (Years 7–8) > Physical Science > Year 8 knowledge",
+      "objectives": [
+        "Explain or apply concentration of solutions using an example."
+      ],
+      "evidence": [
+        "Compares solutions with the same volume when they contain different amounts of dissolved material."
+      ],
+      "misconceptions": [
+        "All clear solutions have the same concentration."
+      ],
+      "question": "Two equal-sized cups contain dissolved sugar. One has one teaspoon and the other has two. Which is more concentrated?",
+      "answer": "The cup with two teaspoons, assuming all the sugar dissolves.",
+      "explanation": "The same volume of solution contains more dissolved sugar.",
+      "hints": [
+        "The volumes are the same.",
+        "Which cup contains more dissolved sugar?"
+      ],
+      "activity": "Use labelled drawings of equal cups and different amounts of dissolved solute to compare concentration.",
+      "materials": [
+        "paper and pencil; add ordinary classroom materials as described"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_rock_types",
+      "name": "How rocks form",
+      "domain": "Physical Science",
+      "description": "Igneous, sedimentary and metamorphic rocks form through different processes such as cooling, deposition and heat or pressure.",
+      "years": [
+        8
+      ],
+      "phase": "Phase 3 (Years 7–8)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF p. 20, Phase 3 (Years 7–8) > Physical Science > Year 8 knowledge",
+      "objectives": [
+        "Explain or apply how rocks form using an example."
+      ],
+      "evidence": [
+        "Matches a rock type with a plausible formation process."
+      ],
+      "misconceptions": [
+        "All rocks form when molten material cools."
+      ],
+      "question": "What kind of rock forms when molten rock cools and solidifies?",
+      "answer": "Igneous rock.",
+      "explanation": "Cooling and solidification of molten material produce igneous rocks; other rock types have different formation processes.",
+      "hints": [
+        "Think about melted rock.",
+        "Which rock group forms on cooling?"
+      ],
+      "activity": "Make three labelled sketches showing cooling, layers of sediment, and a rock changed by heat and pressure.",
+      "materials": [
+        "paper and pencil; add ordinary classroom materials as described"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_asexual_reproduction",
+      "name": "Sexual and asexual reproduction",
+      "domain": "Biological Science",
+      "description": "Asexual reproduction can produce offspring from one parent; sexual reproduction involves combining genetic material from parents.",
+      "years": [
+        8
+      ],
+      "phase": "Phase 3 (Years 7–8)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF p. 21, Phase 3 (Years 7–8) > Biological Science > Year 8 knowledge",
+      "objectives": [
+        "Explain or apply sexual and asexual reproduction using an example."
+      ],
+      "evidence": [
+        "Distinguishes one-parent reproduction from reproduction involving two gametes."
+      ],
+      "misconceptions": [
+        "Every living thing needs two parents to reproduce."
+      ],
+      "question": "A new plant grows from a stem cutting. Is this sexual or asexual reproduction?",
+      "answer": "Asexual reproduction.",
+      "explanation": "The new plant grows from part of one parent without the fusion of gametes.",
+      "hints": [
+        "How many parent plants supplied the cutting?",
+        "Were gametes combined?"
+      ],
+      "activity": "Sketch how a healthy plant cutting could grow new roots, without removing plants from public places.",
+      "materials": [
+        "paper and pencil; add ordinary classroom materials as described"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "mt_FuVEZ1Ac9s",
+      "name": "How Natural Selection Works",
+      "domain": "Biological Science",
+      "description": "Heritable differences can affect survival and reproduction, so a population may change across generations.",
+      "years": [
+        8
+      ],
+      "phase": "Phase 3 (Years 7–8)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF p. 21, Phase 3 (Years 7–8) > Biological Science > Year 8 knowledge",
+      "objectives": [
+        "Explain or apply variation and natural selection using an example."
+      ],
+      "evidence": [
+        "Explains change in a population by differences in inherited traits and reproduction."
+      ],
+      "misconceptions": [
+        "An individual changes its inherited traits because it needs to survive."
+      ],
+      "question": "If birds with an inherited beak shape obtain more food and leave more offspring, what may happen over generations?",
+      "answer": "That beak shape may become more common in the population.",
+      "explanation": "Individuals with that inherited variation may contribute more offspring to later generations.",
+      "hints": [
+        "Think about which birds leave more offspring.",
+        "What happens to a heritable trait carried by more parents?"
+      ],
+      "activity": "Use two coloured counters for inherited variants and model different reproduction over several generations.",
+      "materials": [
+        "paper and pencil; add ordinary classroom materials as described"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "mt_H8OgKZbgGe",
+      "name": "Symbiosis",
+      "domain": "Biological Science",
+      "description": "Organisms can interact in ways that benefit both partners, benefit one while harming the other, or affect them differently.",
+      "years": [
+        8
+      ],
+      "phase": "Phase 3 (Years 7–8)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF p. 22, Phase 3 (Years 7–8) > Biological Science > Year 8 knowledge",
+      "objectives": [
+        "Explain or apply relationships between organisms using an example."
+      ],
+      "evidence": [
+        "Compares the effects of a relationship on each organism."
+      ],
+      "misconceptions": [
+        "All close relationships between species benefit both participants."
+      ],
+      "question": "A parasite obtains nutrients from a host and harms it. Who benefits?",
+      "answer": "The parasite benefits, while the host is harmed.",
+      "explanation": "The effect on each partner helps classify the interaction; close contact alone does not mean mutual benefit.",
+      "hints": [
+        "Consider the two organisms separately.",
+        "Which gains nutrients and which is harmed?"
+      ],
+      "activity": "Create a two-column chart for the effects of a parasite and pollinator on their partners.",
+      "materials": [
+        "paper and pencil; add ordinary classroom materials as described"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "mt_wfEfQuHOG-",
+      "name": "The Periodic Table",
+      "domain": "Physical Science",
+      "description": "The periodic table arranges elements by increasing atomic number and groups elements with related properties.",
+      "years": [
+        9
+      ],
+      "phase": "Phase 4 (Years 9–10)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF p. 24, Phase 4 (Years 9–10) > Physical Science > Year 9 knowledge",
+      "objectives": [
+        "Explain or apply the periodic table using an example."
+      ],
+      "evidence": [
+        "Uses an element's atomic number to identify its position in the sequence."
+      ],
+      "misconceptions": [
+        "Elements in the periodic table are arranged alphabetically."
+      ],
+      "question": "What number determines the order of elements in the modern periodic table?",
+      "answer": "The atomic number.",
+      "explanation": "Atomic number is the number of protons in an atom and increases across the table.",
+      "hints": [
+        "Think about the number of protons.",
+        "The table uses atomic number."
+      ],
+      "activity": "Use a periodic table to find three consecutive atomic numbers and list their element symbols.",
+      "materials": [
+        "paper and pencil; add ordinary classroom materials as described"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "mt_Z_Wu_77ybI",
+      "name": "Atoms, Elements & Compounds",
+      "domain": "Physical Science",
+      "description": "A compound contains atoms of different elements chemically bonded in a fixed ratio.",
+      "years": [
+        10
+      ],
+      "phase": "Phase 4 (Years 9–10)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF p. 24, Phase 4 (Years 9–10) > Physical Science > Year 10 knowledge",
+      "objectives": [
+        "Explain or apply atoms, elements and compounds using an example."
+      ],
+      "evidence": [
+        "Distinguishes a compound from a sample containing only one element."
+      ],
+      "misconceptions": [
+        "A molecule made of different atoms is an element."
+      ],
+      "question": "Water contains hydrogen and oxygen chemically bonded together. Is water an element or a compound?",
+      "answer": "A compound.",
+      "explanation": "Its molecules contain atoms of more than one element bonded together.",
+      "hints": [
+        "Count the different element names.",
+        "What do we call different elements chemically bonded?"
+      ],
+      "activity": "Draw a labelled water molecule with two hydrogen atoms and one oxygen atom.",
+      "materials": [
+        "paper and pencil; add ordinary classroom materials as described"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_neutralisation",
+      "name": "Neutralisation reactions",
+      "domain": "Physical Science",
+      "description": "An acid and a base can react to form a salt and water in a neutralisation reaction.",
+      "years": [
+        10
+      ],
+      "phase": "Phase 4 (Years 9–10)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF p. 25, Phase 4 (Years 9–10) > Physical Science > Year 10 knowledge",
+      "objectives": [
+        "Explain or apply neutralisation reactions using an example."
+      ],
+      "evidence": [
+        "Identifies the kinds of reactants and common products in neutralisation."
+      ],
+      "misconceptions": [
+        "Mixing an acid with a base always produces more acid."
+      ],
+      "question": "What reaction occurs when an acid and a base react to form salt and water?",
+      "answer": "Neutralisation.",
+      "explanation": "The acid and base react to produce new substances, including a salt and water.",
+      "hints": [
+        "Identify both starting substances.",
+        "They are an acid and a base."
+      ],
+      "activity": "Write a word equation for an acid reacting with a base; do not mix household chemicals.",
+      "materials": [
+        "paper and pencil; add ordinary classroom materials as described"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_wave_transfer",
+      "name": "Waves transfer energy",
+      "domain": "Physical Science",
+      "description": "Waves can carry energy from place to place without transporting the material of the medium the same distance.",
+      "years": [
+        10
+      ],
+      "phase": "Phase 4 (Years 9–10)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF p. 26, Phase 4 (Years 9–10) > Physical Science > Year 10 knowledge",
+      "objectives": [
+        "Explain or apply waves transfer energy using an example."
+      ],
+      "evidence": [
+        "Explains that a wave transfers energy while particles can oscillate locally."
+      ],
+      "misconceptions": [
+        "Water in every wave travels all the way across the ocean with the wave."
+      ],
+      "question": "When a wave passes a floating marker, what can travel across the water while the marker mainly moves locally?",
+      "answer": "Energy travels with the wave.",
+      "explanation": "The disturbance travels through the water while nearby water and the marker mostly oscillate around their positions.",
+      "hints": [
+        "Watch the wave travel and the marker move.",
+        "Which one carries energy across the water?"
+      ],
+      "activity": "Draw successive wave positions and a floating marker moving mainly up and down.",
+      "materials": [
+        "paper and pencil; add ordinary classroom materials as described"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_fluid_pressure",
+      "name": "Pressure in liquids",
+      "domain": "Physical Science",
+      "description": "Pressure in a liquid increases with depth because more liquid is above a deeper point.",
+      "years": [
+        10
+      ],
+      "phase": "Phase 4 (Years 9–10)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF p. 27, Phase 4 (Years 9–10) > Physical Science > Year 10 knowledge",
+      "objectives": [
+        "Explain or apply pressure in liquids using an example."
+      ],
+      "evidence": [
+        "Compares pressure at different depths in the same liquid."
+      ],
+      "misconceptions": [
+        "Liquid pressure is the same at every depth."
+      ],
+      "question": "In a still tank of water, is pressure greater 10 cm or 50 cm below the surface?",
+      "answer": "It is greater 50 cm below the surface.",
+      "explanation": "A deeper point has a taller column of water above it, producing greater pressure.",
+      "hints": [
+        "Compare the depths.",
+        "Which point has more water above it?"
+      ],
+      "activity": "Draw a tank with arrows showing larger pressure at a deeper position.",
+      "materials": [
+        "paper and pencil; add ordinary classroom materials as described"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_buoyancy",
+      "name": "Buoyant force",
+      "domain": "Physical Science",
+      "description": "A fluid exerts an upward buoyant force on an object placed in it.",
+      "years": [
+        10
+      ],
+      "phase": "Phase 4 (Years 9–10)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF p. 27, Phase 4 (Years 9–10) > Physical Science > Year 10 knowledge",
+      "objectives": [
+        "Explain or apply buoyant force using an example."
+      ],
+      "evidence": [
+        "Identifies the direction of the buoyant force on an object in water."
+      ],
+      "misconceptions": [
+        "Water pushes on a submerged object only downwards."
+      ],
+      "question": "In which direction does the buoyant force act on a block in water?",
+      "answer": "Upwards.",
+      "explanation": "The surrounding water exerts pressure on the block, producing a net upward force.",
+      "hints": [
+        "Consider the force that helps a boat float.",
+        "Does it act up or down?"
+      ],
+      "activity": "Draw a block in water with an upward buoyancy arrow and a downward weight arrow.",
+      "materials": [
+        "paper and pencil; add ordinary classroom materials as described"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "mt_XrvPx5kUfO",
+      "name": "Tectonic Plates",
+      "domain": "Physical Science",
+      "description": "Earth's outer layer is divided into plates that move and interact at their boundaries.",
+      "years": [
+        10
+      ],
+      "phase": "Phase 4 (Years 9–10)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF p. 28, Phase 4 (Years 9–10) > Physical Science > Year 10 knowledge",
+      "objectives": [
+        "Explain or apply moving tectonic plates using an example."
+      ],
+      "evidence": [
+        "Relates some earthquakes and mountain building to movement at plate boundaries."
+      ],
+      "misconceptions": [
+        "Continents and the ocean floor never move."
+      ],
+      "question": "Why are many earthquakes found near tectonic plate boundaries?",
+      "answer": "Plates move and interact there, releasing energy when rocks slip.",
+      "explanation": "Plate movement can build stress in rocks; sudden movement can produce earthquakes.",
+      "hints": [
+        "Think about where plates meet.",
+        "What can happen when movement suddenly releases stored stress?"
+      ],
+      "activity": "Slide two pieces of paper past each other to model a plate boundary; label the model's limitations.",
+      "materials": [
+        "paper and pencil; add ordinary classroom materials as described"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "mt_6aJUzBYGNs",
+      "name": "Chromosomes, Genes & DNA",
+      "domain": "Biological Science",
+      "description": "Genes are sections of DNA carried on chromosomes and contribute to inherited characteristics.",
+      "years": [
+        10
+      ],
+      "phase": "Phase 4 (Years 9–10)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF p. 29, Phase 4 (Years 9–10) > Biological Science > Year 10 knowledge",
+      "objectives": [
+        "Explain or apply genes and chromosomes using an example."
+      ],
+      "evidence": [
+        "Connects genes, DNA and chromosomes in an explanation of inheritance."
+      ],
+      "misconceptions": [
+        "Genes and chromosomes are unrelated structures."
+      ],
+      "question": "Where are genes found in a cell?",
+      "answer": "Genes are sections of DNA on chromosomes.",
+      "explanation": "Chromosomes package DNA; genes are particular stretches of that DNA.",
+      "hints": [
+        "Start with the material DNA.",
+        "What structures carry the DNA?"
+      ],
+      "activity": "Draw a cell nucleus, a chromosome and an enlarged short section labelled as a gene.",
+      "materials": [
+        "paper and pencil; add ordinary classroom materials as described"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "mt_qzbgwaUQOA",
+      "name": "The Nervous System",
+      "domain": "Biological Science",
+      "description": "The nervous system detects information and sends signals that help coordinate responses.",
+      "years": [
+        10
+      ],
+      "phase": "Phase 4 (Years 9–10)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF p. 30, Phase 4 (Years 9–10) > Biological Science > Year 10 knowledge",
+      "objectives": [
+        "Explain or apply nervous system and response using an example."
+      ],
+      "evidence": [
+        "Identifies a receptor, a signal pathway and a response in a simple example."
+      ],
+      "misconceptions": [
+        "A muscle detects every stimulus and decides on its own how the body responds."
+      ],
+      "question": "What helps a person quickly move a hand away from an unexpectedly hot surface?",
+      "answer": "Receptors detect the heat and the nervous system signals muscles to move the hand.",
+      "explanation": "Sensory information and nerve signals coordinate a response; the muscles then contract.",
+      "hints": [
+        "Which body system carries signals?",
+        "What acts after the signal reaches a muscle?"
+      ],
+      "activity": "Draw a simple labelled pathway from a skin receptor to the nervous system and a hand muscle.",
+      "materials": [
+        "paper and pencil; add ordinary classroom materials as described"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_temperature_control",
+      "name": "Body temperature regulation",
+      "domain": "Biological Science",
+      "description": "The body responds to temperature changes in ways that help keep internal conditions within a suitable range.",
+      "years": [
+        10
+      ],
+      "phase": "Phase 4 (Years 9–10)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF p. 30, Phase 4 (Years 9–10) > Biological Science > Year 10 knowledge",
+      "objectives": [
+        "Explain or apply body temperature regulation using an example."
+      ],
+      "evidence": [
+        "Names a response that helps the body lose heat."
+      ],
+      "misconceptions": [
+        "Sweating raises body temperature by adding water to skin."
+      ],
+      "question": "How can sweating help the body cool down?",
+      "answer": "Evaporation of sweat from the skin transfers energy away from the body.",
+      "explanation": "Evaporation requires energy, which is taken from the skin and helps cool it.",
+      "hints": [
+        "Think about what happens as sweat dries.",
+        "Evaporation takes energy from the skin."
+      ],
+      "activity": "Draw a flow diagram linking a hot body, sweating, evaporation and cooling.",
+      "materials": [
+        "paper and pencil; add ordinary classroom materials as described"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "mt_tiPyEkm4cU",
+      "name": "How Breathing Works",
+      "domain": "Biological Science",
+      "description": "Breathing moves air into and out of the lungs as the chest changes shape.",
+      "years": [
+        2
+      ],
+      "phase": "Phase 1 (Years 0–3)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF p. 11, Phase 1 (Years 0–3) > Biological Science > Year 2 knowledge",
+      "objectives": [
+        "Explain or apply breathing and the lungs using an example."
+      ],
+      "evidence": [
+        "Describes air entering the lungs as the chest expands."
+      ],
+      "misconceptions": [
+        "People breathe food into their lungs to get energy."
+      ],
+      "question": "What enters the lungs when you breathe in?",
+      "answer": "Air enters the lungs through the nose or mouth.",
+      "explanation": "Breathing brings air into the body; food enters through the digestive system.",
+      "hints": [
+        "Think about what moves through your nose and mouth when you breathe.",
+        "It is a gas mixture around you."
+      ],
+      "activity": "Place a hand on your chest and quietly notice how it moves during normal breathing.",
+      "materials": [
+        "paper and pencil; add ordinary classroom materials as described"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "mt_13CtLTcWUB",
+      "name": "Herbivores, Carnivores & Omnivores",
+      "domain": "Biological Science",
+      "description": "Animals obtain nutrition in different ways; herbivores eat plants or algae, carnivores eat animals and omnivores eat both.",
+      "years": [
+        3
+      ],
+      "phase": "Phase 1 (Years 0–3)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF p. 11, Phase 1 (Years 0–3) > Biological Science > Year 3 knowledge",
+      "objectives": [
+        "Explain or apply herbivores, carnivores and omnivores using an example."
+      ],
+      "evidence": [
+        "Classifies a described animal diet using the foods eaten."
+      ],
+      "misconceptions": [
+        "All animals eat the same kind of food."
+      ],
+      "question": "An animal eats both plants and other animals. What is its diet called?",
+      "answer": "It is an omnivore.",
+      "explanation": "Omnivores eat both plant and animal foods, unlike animals that eat only plants or only animals.",
+      "hints": [
+        "Look at both kinds of food.",
+        "Which group eats both?"
+      ],
+      "activity": "Sort animal picture cards by the foods described in a reliable reference.",
+      "materials": [
+        "paper and pencil; add ordinary classroom materials as described"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_balanced_foods",
+      "name": "Food, water and growth",
+      "domain": "Biological Science",
+      "description": "People need water and a range of nutrients from varied foods to grow, move and repair their bodies.",
+      "years": [
+        3
+      ],
+      "phase": "Phase 1 (Years 0–3)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF p. 11, Phase 1 (Years 0–3) > Biological Science > Year 3 knowledge",
+      "objectives": [
+        "Explain or apply food, water and growth using an example."
+      ],
+      "evidence": [
+        "Identifies variety and water as parts of meeting nutritional needs."
+      ],
+      "misconceptions": [
+        "One food provides everything everyone needs to stay healthy."
+      ],
+      "question": "Why do people need a variety of foods and water?",
+      "answer": "Different foods provide different nutrients, and the body also needs water.",
+      "explanation": "Nutrients support processes such as growth and repair; no single example food should be treated as a complete diet.",
+      "hints": [
+        "Do all foods provide the same nutrients?",
+        "Different foods contribute different things."
+      ],
+      "activity": "Create a pretend meal using varied food pictures and add a glass of water.",
+      "materials": [
+        "paper and pencil; add ordinary classroom materials as described"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_arteries_veins",
+      "name": "Arteries and veins",
+      "domain": "Biological Science",
+      "description": "Arteries carry blood away from the heart; veins carry blood back towards it.",
+      "years": [
+        6
+      ],
+      "phase": "Phase 2 (Years 4–6)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF p. 17, Phase 2 (Years 4–6) > Biological Science > Year 6 knowledge",
+      "objectives": [
+        "Explain or apply arteries and veins using an example."
+      ],
+      "evidence": [
+        "Uses direction relative to the heart to distinguish an artery from a vein."
+      ],
+      "misconceptions": [
+        "All arteries carry oxygen-rich blood and all veins carry oxygen-poor blood."
+      ],
+      "question": "Which blood vessels carry blood back towards the heart?",
+      "answer": "Veins.",
+      "explanation": "The distinction is based on the direction of blood flow relative to the heart, not simply its oxygen level.",
+      "hints": [
+        "Focus on the direction relative to the heart.",
+        "Which vessels return blood?"
+      ],
+      "activity": "Draw a heart with arrows showing blood going away through an artery and returning through a vein.",
+      "materials": [
+        "paper and pencil; add ordinary classroom materials as described"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_current",
+      "name": "Electric current",
+      "domain": "Physical Science",
+      "description": "Electric current describes the rate at which electric charge flows through a conductor.",
+      "years": [
+        9
+      ],
+      "phase": "Phase 4 (Years 9–10)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF p. 26, Phase 4 (Years 9–10) > Physical Science > Year 9 knowledge",
+      "objectives": [
+        "Explain or apply electric current using an example."
+      ],
+      "evidence": [
+        "Identifies the quantity measured in amperes."
+      ],
+      "misconceptions": [
+        "Electric current is the same thing as the energy stored in a battery."
+      ],
+      "question": "What is measured in amperes in an electric circuit?",
+      "answer": "Electric current.",
+      "explanation": "Current measures how quickly electric charge passes a point in the circuit.",
+      "hints": [
+        "Think about moving electric charge.",
+        "The rate of its flow is current."
+      ],
+      "activity": "Label the current in a diagram of a battery, switch and bulb; use only low-voltage classroom equipment.",
+      "materials": [
+        "paper and pencil; add ordinary classroom materials as described"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "mt_XlyF294bPR",
+      "name": "Our Solar System",
+      "domain": "Physical Science",
+      "description": "The Solar System includes the Sun and objects that orbit it, including eight planets and many smaller bodies.",
+      "years": [
+        9
+      ],
+      "phase": "Phase 4 (Years 9–10)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF p. 28, Phase 4 (Years 9–10) > Physical Science > Year 9 knowledge",
+      "objectives": [
+        "Explain or apply our solar system using an example."
+      ],
+      "evidence": [
+        "Identifies the Sun as the star around which planets in our Solar System orbit."
+      ],
+      "misconceptions": [
+        "The Moon is the centre of the Solar System and the Sun orbits Earth."
+      ],
+      "question": "What star do the planets in our Solar System orbit?",
+      "answer": "The Sun.",
+      "explanation": "Gravity keeps planets in orbits around the Sun, the Solar System's star.",
+      "hints": [
+        "Think of Earth's orbit.",
+        "Which star is at the centre of the Solar System?"
+      ],
+      "activity": "Arrange labelled cards for the Sun and eight planets in order, noting that the model is not to scale.",
+      "materials": [
+        "paper and pencil; add ordinary classroom materials as described"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_wave_direction",
+      "name": "Transverse and longitudinal waves",
+      "domain": "Physical Science",
+      "description": "In transverse waves oscillations are perpendicular to the direction of travel; in longitudinal waves they are parallel.",
+      "years": [
+        10
+      ],
+      "phase": "Phase 4 (Years 9–10)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF p. 26, Phase 4 (Years 9–10) > Physical Science > Year 10 knowledge",
+      "objectives": [
+        "Explain or apply transverse and longitudinal waves using an example."
+      ],
+      "evidence": [
+        "Compares the direction of oscillation with the direction a wave travels."
+      ],
+      "misconceptions": [
+        "All waves have particles vibrating in the same direction relative to travel."
+      ],
+      "question": "If a wave travels right while its particles oscillate up and down, is it transverse or longitudinal?",
+      "answer": "It is transverse.",
+      "explanation": "The oscillation is perpendicular to the direction in which the wave travels.",
+      "hints": [
+        "Compare up-and-down motion with rightward travel.",
+        "Are the two directions perpendicular or parallel?"
+      ],
+      "activity": "Draw a travelling wave arrow and separate arrows for transverse and longitudinal oscillations.",
+      "materials": [
+        "paper and pencil; add ordinary classroom materials as described"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_combustion",
+      "name": "Complete combustion",
+      "domain": "Physical Science",
+      "description": "Complete combustion of a hydrocarbon with sufficient oxygen produces carbon dioxide and water while transferring energy.",
+      "years": [
+        10
+      ],
+      "phase": "Phase 4 (Years 9–10)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF p. 25, Phase 4 (Years 9–10) > Physical Science > Year 10 knowledge",
+      "objectives": [
+        "Explain or apply complete combustion using an example."
+      ],
+      "evidence": [
+        "Identifies the products of complete hydrocarbon combustion."
+      ],
+      "misconceptions": [
+        "Burning a hydrocarbon with enough oxygen makes only carbon and no water."
+      ],
+      "question": "What are the two main products of complete combustion of a hydrocarbon?",
+      "answer": "Carbon dioxide and water.",
+      "explanation": "Hydrogen and carbon in the fuel react with oxygen; complete combustion transfers energy and forms these products.",
+      "hints": [
+        "Consider the carbon and hydrogen in the fuel.",
+        "The products are carbon dioxide and water."
+      ],
+      "activity": "Write a word equation for complete combustion of methane using a supplied example; do not light a flame.",
+      "materials": [
+        "paper and pencil; add ordinary classroom materials as described"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_decomposers",
+      "name": "Decomposition and nutrient cycling",
+      "domain": "Biological Science",
+      "description": "Decomposers break down dead organisms and waste, returning materials that other organisms can use.",
+      "years": [
+        10
+      ],
+      "phase": "Phase 4 (Years 9–10)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF p. 31, Phase 4 (Years 9–10) > Biological Science > Year 10 knowledge",
+      "objectives": [
+        "Explain or apply decomposition and nutrient cycling using an example."
+      ],
+      "evidence": [
+        "Explains a connection between decomposers and the availability of nutrients."
+      ],
+      "misconceptions": [
+        "Materials in dead organisms disappear permanently from an ecosystem."
+      ],
+      "question": "How can decomposers help plants obtain nutrients?",
+      "answer": "They break down dead matter and waste, returning nutrients to the environment.",
+      "explanation": "The recycled materials can become available to plants and other organisms again.",
+      "hints": [
+        "Think about what happens to dead leaves.",
+        "What is released as decomposers break them down?"
+      ],
+      "activity": "Draw a cycle linking leaves, decomposers, soil nutrients and a growing plant.",
+      "materials": [
+        "paper and pencil; add ordinary classroom materials as described"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_habitat_tallies",
+      "name": "Counting organisms in a habitat",
+      "domain": "Biological Science",
+      "description": "A tally records repeated observations and helps show how many organisms were seen in a selected area.",
+      "years": [
+        1
+      ],
+      "phase": "Phase 1 (Years 0–3)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF p. 11, Phase 1 (Years 0–3) > Biological Science > Year 1 practices",
+      "objectives": [
+        "Explain or apply counting organisms in a habitat using an example."
+      ],
+      "evidence": [
+        "Turns repeated observations into a tally and checks the total."
+      ],
+      "misconceptions": [
+        "A tally shows what is present in every habitat, including places that were not observed."
+      ],
+      "question": "A learner marks one tally for each of three birds seen in a garden. How many birds were recorded?",
+      "answer": "Three birds were recorded in that observation.",
+      "explanation": "Each mark represents one observation in the chosen place and time; the tally does not describe every habitat.",
+      "hints": [
+        "Count the marks.",
+        "One mark stands for one bird."
+      ],
+      "activity": "From a safe distance, tally visible birds or plants in a small area for five minutes and describe where you observed.",
+      "materials": [
+        "paper",
+        "pencil",
+        "a safe viewing spot"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_sound_compare",
+      "name": "Comparing sound through materials",
+      "domain": "Physical Science",
+      "description": "A comparison of sound through different materials is more useful when the sound source and listening position stay similar.",
+      "years": [
+        2
+      ],
+      "phase": "Phase 1 (Years 0–3)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF p. 9, Phase 1 (Years 0–3) > Physical Science > Year 2 practices",
+      "objectives": [
+        "Explain or apply comparing sound through materials using an example."
+      ],
+      "evidence": [
+        "Suggests keeping the sound source and distance the same while comparing materials."
+      ],
+      "misconceptions": [
+        "Changing the sound source and material together shows which material changed the sound."
+      ],
+      "question": "To compare sound through two barriers, what should stay the same as each barrier is changed?",
+      "answer": "Use the same sound source and keep its position and the listening position similar.",
+      "explanation": "Keeping other conditions similar makes the comparison of the materials easier to interpret.",
+      "hints": [
+        "Change just the barrier.",
+        "What else could make the sound seem louder?"
+      ],
+      "activity": "At a comfortable volume, listen to the same quiet sound through a sheet of card and a folded cloth, keeping positions similar.",
+      "materials": [
+        "card",
+        "cloth",
+        "a quiet sound source"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_stretch_measure",
+      "name": "Measuring stretch",
+      "domain": "Physical Science",
+      "description": "Measuring an object's length before and after stretching can show how much its size changed.",
+      "years": [
+        3
+      ],
+      "phase": "Phase 1 (Years 0–3)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF p. 9, Phase 1 (Years 0–3) > Physical Science > Year 3 practices",
+      "objectives": [
+        "Explain or apply measuring stretch using an example."
+      ],
+      "evidence": [
+        "Subtracts an initial length from a stretched length using the same units."
+      ],
+      "misconceptions": [
+        "A stretched object has changed by its entire final length."
+      ],
+      "question": "A soft elastic strip is 5 cm long before stretching and 8 cm long afterwards. How much did its length increase?",
+      "answer": "Its length increased by 3 cm.",
+      "explanation": "The increase is the stretched length minus the starting length: 8 − 5 = 3 cm.",
+      "hints": [
+        "Compare the two lengths.",
+        "Subtract 5 from 8."
+      ],
+      "activity": "Measure a soft elastic strip before and after a gentle stretch; keep it away from faces and record both lengths.",
+      "materials": [
+        "soft elastic strip",
+        "ruler",
+        "paper",
+        "pencil"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_thermometer_recheck",
+      "name": "Checking temperature measurements",
+      "domain": "Physical Science",
+      "description": "Repeated temperature readings and careful instrument use help reveal disagreement or measurement error.",
+      "years": [
+        4
+      ],
+      "phase": "Phase 2 (Years 4–6)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF p. 14, Phase 2 (Years 4–6) > Physical Science > Year 4 practices",
+      "objectives": [
+        "Explain or apply checking temperature measurements using an example."
+      ],
+      "evidence": [
+        "Suggests rechecking readings and comparing the method when two temperatures differ."
+      ],
+      "misconceptions": [
+        "A single reading must be correct even when another careful measurement differs."
+      ],
+      "question": "Two learners read the same water sample as 20°C and 24°C. What should they do next?",
+      "answer": "Measure again, check how each thermometer was read and compare the results.",
+      "explanation": "A repeat and a check of the instruments and reading method can reveal whether a reading was mistaken or conditions changed.",
+      "hints": [
+        "Do the readings agree?",
+        "Repeat them and look for a difference in method."
+      ],
+      "activity": "Use two classroom thermometers to measure the same room-temperature water and compare readings after they settle.",
+      "materials": [
+        "two thermometers",
+        "a cup of room-temperature water",
+        "paper"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "mt_ArVBEpMAPk",
+      "name": "Controlling variables",
+      "domain": "Physical Science",
+      "description": "When comparing insulation, keep the containers, starting water temperature and time the same while changing the wrapping.",
+      "years": [
+        5
+      ],
+      "phase": "Phase 2 (Years 4–6)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF p. 14, Phase 2 (Years 4–6) > Physical Science > Year 5 practices",
+      "objectives": [
+        "Explain or apply controlling variables using an example."
+      ],
+      "evidence": [
+        "Identifies one variable that must be controlled during a comparison."
+      ],
+      "misconceptions": [
+        "A fair comparison can change the container, starting temperature and insulation all at once."
+      ],
+      "question": "Two wrapped cups are compared for insulation. Name one condition to keep the same.",
+      "answer": "Keep the starting water temperature the same, or keep the cups or time interval the same.",
+      "explanation": "Controlling other conditions makes it easier to attribute a difference in cooling to the wrapping.",
+      "hints": [
+        "Only the wrapping should change.",
+        "Consider the cups, starting temperature or elapsed time."
+      ],
+      "activity": "Wrap identical cups with two materials, add the same amount of lukewarm water and compare temperatures after the same interval with adult supervision.",
+      "materials": [
+        "two identical cups",
+        "two wrapping materials",
+        "thermometer",
+        "lukewarm water"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_leaf_samples",
+      "name": "Recording variation in leaf size",
+      "domain": "Biological Science",
+      "description": "A sample of leaf measurements can show variation within a plant species without assuming every individual is identical.",
+      "years": [
+        6
+      ],
+      "phase": "Phase 2 (Years 4–6)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF p. 16, Phase 2 (Years 4–6) > Biological Science > Year 6 practices",
+      "objectives": [
+        "Explain or apply recording variation in leaf size using an example."
+      ],
+      "evidence": [
+        "Uses a measurement table to describe the range in a small sample."
+      ],
+      "misconceptions": [
+        "Every leaf of the same species must have exactly the same length."
+      ],
+      "question": "A sample of leaves is 4 cm, 5 cm and 7 cm long. What range of lengths was observed?",
+      "answer": "The observed lengths range from 4 cm to 7 cm.",
+      "explanation": "The sample shows variation; other leaves could have different lengths outside this small sample.",
+      "hints": [
+        "Find the smallest and largest values.",
+        "The smallest is 4 cm and the largest is 7 cm."
+      ],
+      "activity": "Measure fallen leaves from one identified species, record their lengths and draw a simple frequency chart without damaging plants.",
+      "materials": [
+        "fallen leaves from one identified species",
+        "ruler",
+        "paper",
+        "pencil"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "mt_ySnOkVIu22",
+      "name": "Conduction, convection, and radiation",
+      "domain": "Physical Science",
+      "description": "Thermal energy can transfer by conduction, convection or radiation; radiation can travel through empty space.",
+      "years": [
+        7
+      ],
+      "phase": "Phase 3 (Years 7–8)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF p. 19, Phase 3 (Years 7–8) > Physical Science > Year 7 knowledge",
+      "objectives": [
+        "Explain or apply conduction, convection, and radiation using an example."
+      ],
+      "evidence": [
+        "Identifies radiation as the way energy reaches Earth from the Sun through space."
+      ],
+      "misconceptions": [
+        "Thermal energy always needs matter between the source and the object."
+      ],
+      "question": "How does thermal energy from the Sun reach Earth across space?",
+      "answer": "By radiation.",
+      "explanation": "Electromagnetic radiation can travel through a vacuum; conduction and convection require matter.",
+      "hints": [
+        "Space between the Sun and Earth is mostly empty.",
+        "Which transfer method can travel through a vacuum?"
+      ],
+      "activity": "Draw three everyday examples and label conduction, convection and radiation; never look directly at the Sun.",
+      "materials": [
+        "paper",
+        "pencil"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_speed_repeats",
+      "name": "Checking speed measurements",
+      "domain": "Physical Science",
+      "description": "Repeated timing trials help reveal inconsistent results and improve confidence in a speed investigation.",
+      "years": [
+        7
+      ],
+      "phase": "Phase 3 (Years 7–8)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF p. 20, Phase 3 (Years 7–8) > Physical Science > Year 7 practices",
+      "objectives": [
+        "Explain or apply checking speed measurements using an example."
+      ],
+      "evidence": [
+        "Suggests repeating a trial and checking timing methods when results differ."
+      ],
+      "misconceptions": [
+        "The fastest single timing is automatically the most reliable result."
+      ],
+      "question": "A toy car takes 4 seconds in one trial and 8 seconds in another over the same distance. What should you do before drawing a conclusion?",
+      "answer": "Repeat the measurement and check whether the car and timing method were consistent.",
+      "explanation": "Different readings may reflect changes in release, distance or reaction time; extra trials help identify the pattern.",
+      "hints": [
+        "The two results are quite different.",
+        "Check the method and try more than once."
+      ],
+      "activity": "Roll a toy car along the same marked distance three times and record each time and how it was released.",
+      "materials": [
+        "toy car",
+        "tape for distance markers",
+        "stopwatch",
+        "paper"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_paper_chromatography",
+      "name": "Separating inks by chromatography",
+      "domain": "Physical Science",
+      "description": "Paper chromatography separates some dissolved dyes as water carries them along paper at different rates.",
+      "years": [
+        8
+      ],
+      "phase": "Phase 3 (Years 7–8)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF p. 19, Phase 3 (Years 7–8) > Physical Science > Year 8 practices",
+      "objectives": [
+        "Explain or apply separating inks by chromatography using an example."
+      ],
+      "evidence": [
+        "Uses the positions of separated coloured spots as evidence that an ink contained more than one dye."
+      ],
+      "misconceptions": [
+        "Every colour of ink is necessarily made from a single dye."
+      ],
+      "question": "A water-based ink separates into a blue spot and a yellow spot on paper. What does that suggest?",
+      "answer": "The ink contained at least two dyes that separated.",
+      "explanation": "Dyes can move different distances because they interact differently with the paper and water.",
+      "hints": [
+        "Count the separated colours.",
+        "More than one spot suggests more than one component."
+      ],
+      "activity": "Put a water-based marker dot on a paper strip above a shallow water line and watch water rise; keep the ink dot above the water at the start.",
+      "materials": [
+        "water-based marker",
+        "paper strip",
+        "shallow cup",
+        "water",
+        "pencil"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "mt_tQkCzRcWG7",
+      "name": "Human Reproduction",
+      "domain": "Biological Science",
+      "description": "In human sexual reproduction, fertilisation joins an egg and sperm to form a zygote, which can develop into an embryo.",
+      "years": [
+        8
+      ],
+      "phase": "Phase 3 (Years 7–8)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF p. 22, Phase 3 (Years 7–8) > Biological Science > Year 8 knowledge",
+      "objectives": [
+        "Explain or apply human reproduction using an example."
+      ],
+      "evidence": [
+        "Names the cells that join at fertilisation and the resulting zygote."
+      ],
+      "misconceptions": [
+        "Fertilisation occurs when two body cells of any type join."
+      ],
+      "question": "Which two reproductive cells join during human fertilisation?",
+      "answer": "An egg cell and a sperm cell.",
+      "explanation": "Their genetic material combines in a single cell called a zygote, which can begin development.",
+      "hints": [
+        "These are specialised reproductive cells.",
+        "One is an egg cell and the other is a sperm cell."
+      ],
+      "activity": "Label a simple diagram showing egg, sperm, zygote and embryo; no personal information is needed.",
+      "materials": [
+        "paper",
+        "pencil",
+        "labelled classroom diagram"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_menstruation_lining",
+      "name": "Menstruation and the uterus",
+      "domain": "Biological Science",
+      "description": "In a menstrual cycle, the lining of the uterus can build up and later be shed as menstrual bleeding.",
+      "years": [
+        8
+      ],
+      "phase": "Phase 3 (Years 7–8)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF p. 22, Phase 3 (Years 7–8) > Biological Science > Year 8 knowledge",
+      "objectives": [
+        "Explain or apply menstruation and the uterus using an example."
+      ],
+      "evidence": [
+        "Identifies the uterus as the organ whose lining is shed during menstruation."
+      ],
+      "misconceptions": [
+        "Menstrual bleeding is caused by the bladder shedding its lining."
+      ],
+      "question": "Which organ sheds its lining during menstruation?",
+      "answer": "The uterus.",
+      "explanation": "Menstrual bleeding includes tissue and blood from the uterine lining; the bladder is a different organ.",
+      "hints": [
+        "Think about the organ involved in pregnancy.",
+        "It is the uterus."
+      ],
+      "activity": "On a teacher-provided anatomical diagram, label the uterus and indicate its lining; do not ask classmates about their bodies.",
+      "materials": [
+        "age-appropriate anatomical diagram",
+        "paper",
+        "pencil"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_quadrat_compare",
+      "name": "Sampling an ecosystem with quadrats",
+      "domain": "Biological Science",
+      "description": "A quadrat marks a consistent area in which organisms or environmental features can be recorded and compared.",
+      "years": [
+        8
+      ],
+      "phase": "Phase 3 (Years 7–8)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF p. 22, Phase 3 (Years 7–8) > Biological Science > Year 8 practices",
+      "objectives": [
+        "Explain or apply sampling an ecosystem with quadrats using an example."
+      ],
+      "evidence": [
+        "Explains why equal sampling areas make a comparison more meaningful."
+      ],
+      "misconceptions": [
+        "Counts from sampling areas of different sizes can always be compared directly."
+      ],
+      "question": "Why use the same-sized quadrat in two different parts of a habitat?",
+      "answer": "The same-sized area makes counts more comparable.",
+      "explanation": "An unequal area could change the count even if the density of organisms stayed the same.",
+      "hints": [
+        "Think about the area being sampled.",
+        "A larger area may contain more organisms simply because it is larger."
+      ],
+      "activity": "Use a string square to count a visible plant in several safe, accessible patches; avoid trampling plants or disturbing animals.",
+      "materials": [
+        "string square",
+        "paper",
+        "pencil"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_atoms_neutral",
+      "name": "Neutral atoms and electric charge",
+      "domain": "Physical Science",
+      "description": "A neutral atom has equal numbers of positively charged protons and negatively charged electrons.",
+      "years": [
+        9
+      ],
+      "phase": "Phase 4 (Years 9–10)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF p. 24, Phase 4 (Years 9–10) > Physical Science > Year 9 knowledge",
+      "objectives": [
+        "Explain or apply neutral atoms and electric charge using an example."
+      ],
+      "evidence": [
+        "Uses proton and electron counts to identify a neutral atom."
+      ],
+      "misconceptions": [
+        "An atom with more protons than electrons has no net charge."
+      ],
+      "question": "An atom has six protons and six electrons. What is its net electric charge?",
+      "answer": "Its net charge is zero.",
+      "explanation": "The six positive proton charges and six negative electron charges balance.",
+      "hints": [
+        "Compare the numbers of positive and negative charges.",
+        "Equal opposite charges cancel."
+      ],
+      "activity": "Draw a simple model of an atom with six protons and six electrons and label their charges.",
+      "materials": [
+        "paper",
+        "pencil"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "mt_d-EKO-pKkP",
+      "name": "Conductors and insulators",
+      "domain": "Physical Science",
+      "description": "Conductors permit electric charge to move more readily than insulators; metals are usually good conductors.",
+      "years": [
+        9
+      ],
+      "phase": "Phase 4 (Years 9–10)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF p. 26, Phase 4 (Years 9–10) > Physical Science > Year 9 knowledge",
+      "objectives": [
+        "Explain or apply conductors and insulators using an example."
+      ],
+      "evidence": [
+        "Classifies a common metal as a conductor and plastic as an insulator."
+      ],
+      "misconceptions": [
+        "All solid materials conduct electricity equally well."
+      ],
+      "question": "Which is usually the better electrical conductor: copper wire or its plastic coating?",
+      "answer": "The copper wire.",
+      "explanation": "Copper allows charge to move readily, whereas the plastic coating restricts its movement.",
+      "hints": [
+        "Consider which material is used inside the wire.",
+        "The metal is the conductor."
+      ],
+      "activity": "Sort pictures of copper wire, plastic coating and other common materials into predicted conductors and insulators; do not use mains electricity.",
+      "materials": [
+        "material picture cards",
+        "paper",
+        "pencil"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "mt_2_YoprauaJ",
+      "name": "Static electricity and sparks",
+      "domain": "Physical Science",
+      "description": "Electric charge can accumulate on an object's surface and exert forces on other objects.",
+      "years": [
+        9
+      ],
+      "phase": "Phase 4 (Years 9–10)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF p. 26, Phase 4 (Years 9–10) > Physical Science > Year 9 knowledge",
+      "objectives": [
+        "Explain or apply static electricity and sparks using an example."
+      ],
+      "evidence": [
+        "Recognises a build-up of charge as one possible cause of attraction after rubbing."
+      ],
+      "misconceptions": [
+        "Only magnets can exert a force without touching."
+      ],
+      "question": "After a plastic comb is rubbed, it attracts small pieces of paper. What kind of charge build-up can cause this?",
+      "answer": "Static electric charge on the comb.",
+      "explanation": "Charge can accumulate on the comb and exert a force on nearby paper without direct contact.",
+      "hints": [
+        "The comb is electrically charged.",
+        "The charge is static because it has built up on the surface."
+      ],
+      "activity": "Rub a clean plastic comb on a dry cloth, hold it near tiny paper pieces and record what happens.",
+      "materials": [
+        "plastic comb",
+        "dry cloth",
+        "small paper pieces"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_voltage",
+      "name": "Voltage and current",
+      "domain": "Physical Science",
+      "description": "Voltage is the electric potential difference between two points; current is the rate of flow of electric charge.",
+      "years": [
+        9
+      ],
+      "phase": "Phase 4 (Years 9–10)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF p. 26, Phase 4 (Years 9–10) > Physical Science > Year 9 knowledge",
+      "objectives": [
+        "Explain or apply voltage and current using an example."
+      ],
+      "evidence": [
+        "Distinguishes voltage measured in volts from current measured in amperes."
+      ],
+      "misconceptions": [
+        "Volts and amperes measure the same quantity."
+      ],
+      "question": "Which quantity is measured in volts: electric potential difference or current?",
+      "answer": "Electric potential difference, also called voltage.",
+      "explanation": "Voltage describes a difference in electric potential; current measures charge flow and is measured in amperes.",
+      "hints": [
+        "One unit is volts and the other is amperes.",
+        "Voltage is measured in volts."
+      ],
+      "activity": "Label volts and amperes on a diagram of a low-voltage battery circuit and match each unit to its quantity.",
+      "materials": [
+        "paper",
+        "pencil",
+        "circuit diagram"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_resistance_current",
+      "name": "Resistance and current",
+      "domain": "Physical Science",
+      "description": "Electrical resistance limits the movement of charge through a component; at the same voltage greater resistance reduces current.",
+      "years": [
+        9
+      ],
+      "phase": "Phase 4 (Years 9–10)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF p. 26, Phase 4 (Years 9–10) > Physical Science > Year 9 knowledge",
+      "objectives": [
+        "Explain or apply resistance and current using an example."
+      ],
+      "evidence": [
+        "Predicts a smaller current when resistance increases and voltage is held constant."
+      ],
+      "misconceptions": [
+        "Adding resistance always makes more current flow through an unchanged-voltage circuit."
+      ],
+      "question": "If voltage stays the same and resistance increases, what happens to current?",
+      "answer": "The current decreases.",
+      "explanation": "A greater resistance opposes the flow of charge more strongly when the voltage is unchanged.",
+      "hints": [
+        "Keep voltage fixed in the comparison.",
+        "Greater resistance makes charge flow less readily."
+      ],
+      "activity": "Use a supplied table of simulated circuit values to compare currents at the same voltage and different resistances.",
+      "materials": [
+        "paper",
+        "pencil",
+        "supplied simulated circuit table"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_electric_fields",
+      "name": "Electric fields",
+      "domain": "Physical Science",
+      "description": "An electric field is a region around a charged object where another charge experiences an electric force.",
+      "years": [
+        9
+      ],
+      "phase": "Phase 4 (Years 9–10)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF p. 26, Phase 4 (Years 9–10) > Physical Science > Year 9 knowledge",
+      "objectives": [
+        "Explain or apply electric fields using an example."
+      ],
+      "evidence": [
+        "Explains that a charged object can affect another charge without touching it."
+      ],
+      "misconceptions": [
+        "Electric forces can act only when two objects touch."
+      ],
+      "question": "Why can one charged object exert a force on another charged object without touching it?",
+      "answer": "The second charge is in the electric field around the first.",
+      "explanation": "An electric field describes the region in which a charge can experience an electric force.",
+      "hints": [
+        "Think about the space around a charged object.",
+        "What describes the electric force in that region?"
+      ],
+      "activity": "Draw two charged objects and arrows to represent a possible attractive or repulsive force; label the diagram as a model.",
+      "materials": [
+        "paper",
+        "pencil"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_ionic_bond",
+      "name": "Ionic bonding",
+      "domain": "Physical Science",
+      "description": "An ionic bond is the attraction between positively and negatively charged ions after electrons are transferred.",
+      "years": [
+        10
+      ],
+      "phase": "Phase 4 (Years 9–10)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF p. 24, Phase 4 (Years 9–10) > Physical Science > Year 10 knowledge",
+      "objectives": [
+        "Explain or apply ionic bonding using an example."
+      ],
+      "evidence": [
+        "Explains that opposite ionic charges attract in an ionic compound."
+      ],
+      "misconceptions": [
+        "An ionic bond forms because neutral atoms share all their electrons equally."
+      ],
+      "question": "What attracts sodium ions and chloride ions together in sodium chloride?",
+      "answer": "Opposite electric charges attract the positive sodium ions and negative chloride ions.",
+      "explanation": "Electron transfer produces ions with opposite charges, and their electrostatic attraction holds the ionic structure together.",
+      "hints": [
+        "Consider the charges on the two ions.",
+        "One is positive and the other is negative."
+      ],
+      "activity": "Draw positive sodium ions and negative chloride ions alternating in a simple two-dimensional model; label it as a model.",
+      "materials": [
+        "paper",
+        "pencil"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_covalent_bond",
+      "name": "Covalent bonding",
+      "domain": "Physical Science",
+      "description": "A covalent bond involves atoms sharing electrons, commonly between non-metal atoms.",
+      "years": [
+        10
+      ],
+      "phase": "Phase 4 (Years 9–10)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF p. 24, Phase 4 (Years 9–10) > Physical Science > Year 10 knowledge",
+      "objectives": [
+        "Explain or apply covalent bonding using an example."
+      ],
+      "evidence": [
+        "Distinguishes shared electrons in a covalent bond from transferred electrons in ionic bonding."
+      ],
+      "misconceptions": [
+        "All chemical bonds form by transferring electrons from a metal to a non-metal."
+      ],
+      "question": "What do atoms share when they form a covalent bond?",
+      "answer": "They share electrons.",
+      "explanation": "Shared electrons form the bond between atoms in a covalent molecule.",
+      "hints": [
+        "The electrons are held in common by the atoms.",
+        "They are shared rather than transferred completely."
+      ],
+      "activity": "Draw two hydrogen atoms sharing a pair of electrons in an H₂ molecule using a simple dot model.",
+      "materials": [
+        "paper",
+        "pencil"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_formula_atoms",
+      "name": "Reading chemical formulas",
+      "domain": "Physical Science",
+      "description": "A chemical formula uses element symbols and subscripts to show the kinds and numbers of atoms in a molecule.",
+      "years": [
+        10
+      ],
+      "phase": "Phase 4 (Years 9–10)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF p. 24, Phase 4 (Years 9–10) > Physical Science > Year 10 knowledge",
+      "objectives": [
+        "Explain or apply reading chemical formulas using an example."
+      ],
+      "evidence": [
+        "Counts each kind of atom in a familiar molecular formula."
+      ],
+      "misconceptions": [
+        "The subscript in a chemical formula counts every atom in the molecule."
+      ],
+      "question": "How many hydrogen atoms and oxygen atoms are in one H₂O molecule?",
+      "answer": "Two hydrogen atoms and one oxygen atom.",
+      "explanation": "The subscript 2 applies to H; an O with no subscript represents one oxygen atom.",
+      "hints": [
+        "Read the number immediately after each element symbol.",
+        "No subscript means one atom."
+      ],
+      "activity": "Draw and label models of H₂O and CO₂, counting atoms of each element.",
+      "materials": [
+        "paper",
+        "pencil"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_sci_balanced_equation",
+      "name": "Balancing chemical equations",
+      "domain": "Physical Science",
+      "description": "A balanced equation has the same number of each kind of atom in the reactants and the products.",
+      "years": [
+        10
+      ],
+      "phase": "Phase 4 (Years 9–10)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF p. 24, Phase 4 (Years 9–10) > Physical Science > Year 10 practices",
+      "objectives": [
+        "Explain or apply balancing chemical equations using an example."
+      ],
+      "evidence": [
+        "Checks conservation of atoms on both sides of a simple equation."
+      ],
+      "misconceptions": [
+        "Balancing an equation requires changing the chemical formula of a substance."
+      ],
+      "question": "In 2H₂ + O₂ → 2H₂O, how many oxygen atoms are on each side?",
+      "answer": "There are two oxygen atoms on each side.",
+      "explanation": "One O₂ molecule has two oxygen atoms and two H₂O molecules contain one oxygen atom each.",
+      "hints": [
+        "Count oxygen atoms on the left, then the right.",
+        "The coefficient 2 applies to each atom in H₂O."
+      ],
+      "activity": "Use counters in two colours to model the atoms on each side of 2H₂ + O₂ → 2H₂O; do not perform the reaction.",
+      "materials": [
+        "two colours of counters",
+        "paper",
+        "pencil"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "mt_XSp-S0wter",
+      "name": "The Electromagnetic Spectrum",
+      "domain": "Physical Science",
+      "description": "Electromagnetic radiation includes radio waves, visible light and other types; it can travel through a vacuum.",
+      "years": [
+        10
+      ],
+      "phase": "Phase 4 (Years 9–10)",
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF p. 26, Phase 4 (Years 9–10) > Physical Science > Year 10 knowledge",
+      "objectives": [
+        "Explain or apply the electromagnetic spectrum using an example."
+      ],
+      "evidence": [
+        "Recognises visible light as one part of the electromagnetic spectrum."
+      ],
+      "misconceptions": [
+        "Only visible light belongs to the electromagnetic spectrum."
+      ],
+      "question": "Are radio waves and visible light both types of electromagnetic radiation?",
+      "answer": "Yes, both are electromagnetic waves.",
+      "explanation": "They occupy different parts of a spectrum ordered by wavelength and frequency, and both can travel through a vacuum.",
+      "hints": [
+        "Visible light is only one part of the spectrum.",
+        "Radio waves are another part."
+      ],
+      "activity": "Arrange cards for radio, infrared, visible light, ultraviolet and X-rays in spectrum order using a reference diagram.",
+      "materials": [
+        "spectrum reference diagram",
+        "labelled cards"
+      ],
+      "minutes": 10
+    }
+  ],
+  "dependencies": [
+    {
+      "topicId": "mt_KTSoXcO7OL",
+      "prerequisiteId": "nzc_sci_sound_vibration",
+      "strength": "helpful",
+      "reason": "Distinguishes a higher vibration frequency from a louder sound. Builds on the earlier understanding of sounds and vibrations.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_sci_transparency",
+      "prerequisiteId": "mt_Oru08pKlxd",
+      "strength": "helpful",
+      "reason": "Uses the behaviour of light to compare two materials. Builds on the earlier understanding of how shadows form.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_sci_sun_moon_light",
+      "prerequisiteId": "mt_Oru08pKlxd",
+      "strength": "helpful",
+      "reason": "Explains where the light reaching us from the Moon comes from. Builds on the earlier understanding of how shadows form.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_sci_thermometer",
+      "prerequisiteId": "nzc_sci_states",
+      "strength": "helpful",
+      "reason": "Reads and compares Celsius temperatures without confusing temperature and amount. Builds on the earlier understanding of states of matter and change.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_sci_magnetic_poles",
+      "prerequisiteId": "nzc_sci_magnets",
+      "strength": "helpful",
+      "reason": "Predicts attraction or repulsion between two labelled poles. Builds on the earlier understanding of magnetic forces.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_sci_density_float",
+      "prerequisiteId": "nzc_sci_mass_volume",
+      "strength": "helpful",
+      "reason": "Uses density values in the same units to predict floating. Builds on the earlier understanding of mass and volume.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "mt_lFiDFPkVmH",
+      "prerequisiteId": "nzc_sci_sun_moon_light",
+      "strength": "helpful",
+      "reason": "Identifying the Sun as a source of light supports reasoning about how Earth’s tilt changes sunlight received in different seasons.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "mt_ck57CDFGet",
+      "prerequisiteId": "nzc_sci_seed_dispersal",
+      "strength": "helpful",
+      "reason": "Describes the connection between a flower and the seeds in a fruit. Builds on the earlier understanding of seeds and dispersal.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "mt_brgde1Vx0P",
+      "prerequisiteId": "nzc_sci_group_living",
+      "strength": "helpful",
+      "reason": "Uses a simple observable feature to separate two kinds of organisms. Builds on the earlier understanding of grouping living things by features.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_sci_fungi_group",
+      "prerequisiteId": "mt_brgde1Vx0P",
+      "strength": "helpful",
+      "reason": "Identifies fungi without assuming a mushroom is a plant. Builds on the earlier understanding of classification keys.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "mt_BX4D8cCFtQ",
+      "prerequisiteId": "nzc_sci_digestion",
+      "strength": "helpful",
+      "reason": "Describes the heart's role in moving blood and nutrients. Builds on the earlier understanding of digestion and nutrients.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_sci_inherited_environment",
+      "prerequisiteId": "nzc_sci_life_cycles",
+      "strength": "helpful",
+      "reason": "Gives one inherited influence and one environmental influence on an organism's features. Builds on the earlier understanding of comparing life cycles.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "mt_1hgck6ucII",
+      "prerequisiteId": "nzc_sci_states",
+      "strength": "helpful",
+      "reason": "Distinguishes melting from a change that forms new substances. Builds on the earlier understanding of states of matter and change.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_sci_force_arrows",
+      "prerequisiteId": "nzc_sci_push_pull",
+      "strength": "helpful",
+      "reason": "Uses arrow direction and relative length to represent two forces. Builds on the earlier understanding of pushes, pulls and movement.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "mt_ByXgbTld6R",
+      "prerequisiteId": "nzc_sci_sun_moon_light",
+      "strength": "helpful",
+      "reason": "Explains a Moon phase using the positions of the Sun, Earth and Moon. Builds on the earlier understanding of sunlight and moonlight.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_sci_heat_particle",
+      "prerequisiteId": "mt_b6kZgqolEd",
+      "strength": "helpful",
+      "reason": "Relates increased particle movement to a rise in temperature. Builds on the earlier understanding of the particle model.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_sci_light_refraction",
+      "prerequisiteId": "nzc_sci_transparency",
+      "strength": "helpful",
+      "reason": "Explains why an object viewed through water may appear displaced. Builds on the earlier understanding of transparent and opaque materials.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_sci_concentration",
+      "prerequisiteId": "nzc_sci_solutions",
+      "strength": "helpful",
+      "reason": "Compares solutions with the same volume when they contain different amounts of dissolved material. Builds on the earlier understanding of solutions and dissolving.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_sci_rock_types",
+      "prerequisiteId": "mt_b6kZgqolEd",
+      "strength": "helpful",
+      "reason": "Matches a rock type with a plausible formation process. Builds on the earlier understanding of the particle model.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_sci_asexual_reproduction",
+      "prerequisiteId": "nzc_sci_life_cycles",
+      "strength": "helpful",
+      "reason": "Distinguishes one-parent reproduction from reproduction involving two gametes. Builds on the earlier understanding of comparing life cycles.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "mt_FuVEZ1Ac9s",
+      "prerequisiteId": "nzc_sci_inherited_environment",
+      "strength": "helpful",
+      "reason": "Explains change in a population by differences in inherited traits and reproduction. Builds on the earlier understanding of inheritance and environmental effects.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "mt_H8OgKZbgGe",
+      "prerequisiteId": "nzc_sci_food_web",
+      "strength": "helpful",
+      "reason": "Compares the effects of a relationship on each organism. Builds on the earlier understanding of connections in a food web.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "mt_wfEfQuHOG-",
+      "prerequisiteId": "nzc_sci_atomic_number",
+      "strength": "helpful",
+      "reason": "Uses an element's atomic number to identify its position in the sequence. Builds on the earlier understanding of atomic number and elements.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "mt_Z_Wu_77ybI",
+      "prerequisiteId": "nzc_sci_atomic_number",
+      "strength": "helpful",
+      "reason": "Distinguishes a compound from a sample containing only one element. Builds on the earlier understanding of atomic number and elements.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_sci_neutralisation",
+      "prerequisiteId": "nzc_sci_acids_ph",
+      "strength": "helpful",
+      "reason": "Identifies the kinds of reactants and common products in neutralisation. Builds on the earlier understanding of acids, bases and the ph scale.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_sci_wave_transfer",
+      "prerequisiteId": "nzc_sci_sound_vibration",
+      "strength": "helpful",
+      "reason": "Explains that a wave transfers energy while particles can oscillate locally. Builds on the earlier understanding of sounds and vibrations.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_sci_fluid_pressure",
+      "prerequisiteId": "nzc_sci_pressure_area",
+      "strength": "helpful",
+      "reason": "Compares pressure at different depths in the same liquid. Builds on the earlier understanding of pressure, force and area.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_sci_buoyancy",
+      "prerequisiteId": "nzc_sci_density_float",
+      "strength": "helpful",
+      "reason": "Identifies the direction of the buoyant force on an object in water. Builds on the earlier understanding of density and floating.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "mt_XrvPx5kUfO",
+      "prerequisiteId": "nzc_sci_rock_types",
+      "strength": "helpful",
+      "reason": "Relates some earthquakes and mountain building to movement at plate boundaries. Builds on the earlier understanding of how rocks form.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "mt_6aJUzBYGNs",
+      "prerequisiteId": "nzc_sci_inheritance",
+      "strength": "helpful",
+      "reason": "Connects genes, DNA and chromosomes in an explanation of inheritance. Builds on the earlier understanding of inherited variation and selection.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "mt_qzbgwaUQOA",
+      "prerequisiteId": "nzc_sci_body_systems",
+      "strength": "helpful",
+      "reason": "Identifies a receptor, a signal pathway and a response in a simple example. Builds on the earlier understanding of body systems working together.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_sci_temperature_control",
+      "prerequisiteId": "mt_qzbgwaUQOA",
+      "strength": "helpful",
+      "reason": "Names a response that helps the body lose heat. Builds on the earlier understanding of nervous system and response.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "mt_tiPyEkm4cU",
+      "prerequisiteId": "nzc_sci_observe_senses",
+      "strength": "helpful",
+      "reason": "Describes air entering the lungs as the chest expands. Builds on the earlier understanding of observing living things safely.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "mt_13CtLTcWUB",
+      "prerequisiteId": "nzc_sci_group_living",
+      "strength": "helpful",
+      "reason": "Practising how to group living things by shared features supports classifying animals by the kinds of food they eat.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_sci_balanced_foods",
+      "prerequisiteId": "mt_tiPyEkm4cU",
+      "strength": "helpful",
+      "reason": "Identifies variety and water as parts of meeting nutritional needs. Builds on the earlier understanding of breathing and the lungs.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_sci_arteries_veins",
+      "prerequisiteId": "mt_BX4D8cCFtQ",
+      "strength": "helpful",
+      "reason": "Uses direction relative to the heart to distinguish an artery from a vein. Builds on the earlier understanding of the circulatory system.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_sci_current",
+      "prerequisiteId": "mt_DA7-JYRvtP",
+      "strength": "helpful",
+      "reason": "Identifies the quantity measured in amperes. Builds on the earlier understanding of building a simple circuit.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "mt_XlyF294bPR",
+      "prerequisiteId": "nzc_sci_sun_moon_light",
+      "strength": "helpful",
+      "reason": "Identifies the Sun as the star around which planets in our Solar System orbit. Builds on the earlier understanding of sunlight and moonlight.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_sci_wave_direction",
+      "prerequisiteId": "nzc_sci_wave_transfer",
+      "strength": "helpful",
+      "reason": "Compares the direction of oscillation with the direction a wave travels. Builds on the earlier understanding of waves transfer energy.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_sci_combustion",
+      "prerequisiteId": "mt_1hgck6ucII",
+      "strength": "helpful",
+      "reason": "Identifies the products of complete hydrocarbon combustion. Builds on the earlier understanding of physical vs chemical changes.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_sci_decomposers",
+      "prerequisiteId": "nzc_sci_food_web",
+      "strength": "helpful",
+      "reason": "Explains a connection between decomposers and the availability of nutrients. Builds on the earlier understanding of connections in a food web.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_sci_circuit_paths",
+      "prerequisiteId": "mt_DA7-JYRvtP",
+      "strength": "helpful",
+      "reason": "The closed-loop model used in a simple circuit helps explain why an open conducting path interrupts current.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "mt_loEMaQ8kFA",
+      "prerequisiteId": "nzc_sci_circuit_paths",
+      "strength": "helpful",
+      "reason": "Understanding a complete conducting path helps learners compare a single series path with multiple parallel paths.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_sci_habitat_tallies",
+      "prerequisiteId": "nzc_sci_group_living",
+      "strength": "helpful",
+      "reason": "Grouping living things by visible features helps decide which organisms belong in each tally category.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_sci_sound_compare",
+      "prerequisiteId": "nzc_sci_sound_vibration",
+      "strength": "helpful",
+      "reason": "Knowing that sound is produced by vibrations helps learners investigate how materials change the sound heard.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_sci_stretch_measure",
+      "prerequisiteId": "mt_auVZZEuXjs",
+      "strength": "helpful",
+      "reason": "Comparing material properties prepares learners to measure one of those properties, how much a material stretches.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_sci_thermometer_recheck",
+      "prerequisiteId": "nzc_sci_thermometer",
+      "strength": "helpful",
+      "reason": "Reading a thermometer is the foundation for checking whether repeated temperature measurements agree.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "mt_ArVBEpMAPk",
+      "prerequisiteId": "nzc_sci_heat_transfer",
+      "strength": "helpful",
+      "reason": "Understanding heat transfer helps learners choose the conditions to control when comparing insulation.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_sci_leaf_samples",
+      "prerequisiteId": "nzc_sci_inherited_environment",
+      "strength": "helpful",
+      "reason": "Recognising variation and environmental effects supports a careful record of differences within a species.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "mt_ySnOkVIu22",
+      "prerequisiteId": "nzc_sci_heat_transfer",
+      "strength": "helpful",
+      "reason": "Knowing that energy moves from warmer to cooler objects prepares learners to distinguish transfer mechanisms.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_sci_speed_repeats",
+      "prerequisiteId": "nzc_sci_speed_distance_time",
+      "strength": "helpful",
+      "reason": "Calculating speed requires distance and time measurements, whose reliability can be checked with repeat trials.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_sci_paper_chromatography",
+      "prerequisiteId": "mt_2b6CB0w3Yx",
+      "strength": "helpful",
+      "reason": "Separating mixtures introduces the goal of dividing components, which chromatography achieves using different movement through paper.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "mt_tQkCzRcWG7",
+      "prerequisiteId": "nzc_sci_asexual_reproduction",
+      "strength": "helpful",
+      "reason": "Comparing sexual and asexual reproduction prepares learners to examine fertilisation as one step in human sexual reproduction.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_sci_menstruation_lining",
+      "prerequisiteId": "mt_tQkCzRcWG7",
+      "strength": "helpful",
+      "reason": "Familiarity with human reproductive structures helps place the menstrual cycle in the correct organ.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_sci_quadrat_compare",
+      "prerequisiteId": "nzc_sci_ecosystem_factors",
+      "strength": "helpful",
+      "reason": "Understanding living and non-living ecosystem factors helps learners decide what to record during habitat sampling.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_sci_atoms_neutral",
+      "prerequisiteId": "nzc_sci_atomic_number",
+      "strength": "helpful",
+      "reason": "Atomic number identifies the proton count, which can be compared with the electron count to determine neutrality.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "mt_d-EKO-pKkP",
+      "prerequisiteId": "nzc_sci_circuit_paths",
+      "strength": "helpful",
+      "reason": "A complete circuit needs a conducting path, so material conductivity helps explain whether the path can carry current.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "mt_2_YoprauaJ",
+      "prerequisiteId": "nzc_sci_magnetic_poles",
+      "strength": "helpful",
+      "reason": "Magnetic attraction is one example of a non-contact force, providing a comparison for electric forces at a distance.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_sci_voltage",
+      "prerequisiteId": "nzc_sci_current",
+      "strength": "helpful",
+      "reason": "Understanding current as a rate of charge flow makes it easier to distinguish that quantity from voltage.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_sci_resistance_current",
+      "prerequisiteId": "nzc_sci_voltage",
+      "strength": "helpful",
+      "reason": "Distinguishing voltage from current is necessary for comparing current at the same voltage as resistance changes.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_sci_electric_fields",
+      "prerequisiteId": "mt_2_YoprauaJ",
+      "strength": "helpful",
+      "reason": "Observing a charged object's non-contact effect motivates a model of the surrounding electric field.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_sci_ionic_bond",
+      "prerequisiteId": "nzc_sci_atoms_neutral",
+      "strength": "helpful",
+      "reason": "Understanding neutral atoms and charged particles supports an explanation of ion formation and attraction.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_sci_covalent_bond",
+      "prerequisiteId": "mt_Z_Wu_77ybI",
+      "strength": "helpful",
+      "reason": "Knowing that compounds and molecules contain atoms provides context for explaining how atoms are held together.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_sci_formula_atoms",
+      "prerequisiteId": "mt_Z_Wu_77ybI",
+      "strength": "helpful",
+      "reason": "Recognising atoms and compounds prepares learners to interpret the element symbols in a molecular formula.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_sci_balanced_equation",
+      "prerequisiteId": "nzc_sci_formula_atoms",
+      "strength": "helpful",
+      "reason": "Counting atoms in formulas is needed to check whether each element is conserved in an equation.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "mt_XSp-S0wter",
+      "prerequisiteId": "nzc_sci_wave_transfer",
+      "strength": "helpful",
+      "reason": "Understanding that waves transfer energy prepares learners to identify different kinds of electromagnetic waves.",
+      "sourceId": "nzc_science_2026"
+    }
+  ],
+  "coverage": [
+    {
+      "strand": "Physical Science",
+      "phase": "Phase 1 (Years 0–3)",
+      "years": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF pp. 9–10, Physical Science",
+      "topicIds": [
+        "mt_auVZZEuXjs",
+        "nzc_sci_push_pull",
+        "nzc_sci_sound_vibration",
+        "nzc_sci_absorb_water",
+        "nzc_sci_surface_friction",
+        "mt_Oru08pKlxd",
+        "mt_KTSoXcO7OL",
+        "nzc_sci_transparency",
+        "nzc_sci_sun_moon_light",
+        "nzc_sci_sound_compare",
+        "nzc_sci_stretch_measure"
+      ],
+      "status": "strand-and-phase-covered",
+      "notes": "Representative concepts and practices; not an exhaustive mapping of every year-by-year requirement. Phase years are broad search bands."
+    },
+    {
+      "strand": "Physical Science",
+      "phase": "Phase 2 (Years 4–6)",
+      "years": [
+        4,
+        5,
+        6
+      ],
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF pp. 14–15, Physical Science",
+      "topicIds": [
+        "nzc_sci_states",
+        "nzc_sci_mass_volume",
+        "nzc_sci_water_cycle",
+        "nzc_sci_magnets",
+        "mt_AvrQauS_zX",
+        "nzc_sci_heat_transfer",
+        "mt_DA7-JYRvtP",
+        "nzc_sci_thermometer",
+        "nzc_sci_magnetic_poles",
+        "nzc_sci_density_float",
+        "mt_lFiDFPkVmH",
+        "mt_1hgck6ucII",
+        "nzc_sci_force_arrows",
+        "nzc_sci_thermometer_recheck",
+        "mt_ArVBEpMAPk"
+      ],
+      "status": "strand-and-phase-covered",
+      "notes": "Representative concepts and practices; not an exhaustive mapping of every year-by-year requirement. Phase years are broad search bands."
+    },
+    {
+      "strand": "Physical Science",
+      "phase": "Phase 3 (Years 7–8)",
+      "years": [
+        7,
+        8
+      ],
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF pp. 19–20, Physical Science",
+      "topicIds": [
+        "mt_b6kZgqolEd",
+        "mt_2b6CB0w3Yx",
+        "nzc_sci_fair_tests",
+        "nzc_sci_speed_distance_time",
+        "nzc_sci_lever_balance",
+        "mt_q15w--Fb5H",
+        "nzc_sci_solutions",
+        "mt_ByXgbTld6R",
+        "nzc_sci_heat_particle",
+        "nzc_sci_light_refraction",
+        "nzc_sci_concentration",
+        "nzc_sci_rock_types",
+        "mt_ySnOkVIu22",
+        "nzc_sci_speed_repeats",
+        "nzc_sci_paper_chromatography"
+      ],
+      "status": "strand-and-phase-covered",
+      "notes": "Representative concepts and practices; not an exhaustive mapping of every year-by-year requirement. Phase years are broad search bands."
+    },
+    {
+      "strand": "Physical Science",
+      "phase": "Phase 4 (Years 9–10)",
+      "years": [
+        9,
+        10
+      ],
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF pp. 24–28, Physical Science",
+      "topicIds": [
+        "nzc_sci_atomic_number",
+        "nzc_sci_forces_acceleration",
+        "nzc_sci_circuit_paths",
+        "nzc_sci_acids_ph",
+        "mt_loEMaQ8kFA",
+        "nzc_sci_pressure_area",
+        "nzc_sci_position_graph",
+        "mt_wfEfQuHOG-",
+        "mt_Z_Wu_77ybI",
+        "nzc_sci_neutralisation",
+        "nzc_sci_wave_transfer",
+        "nzc_sci_fluid_pressure",
+        "nzc_sci_buoyancy",
+        "mt_XrvPx5kUfO",
+        "nzc_sci_current",
+        "mt_XlyF294bPR",
+        "nzc_sci_wave_direction",
+        "nzc_sci_combustion",
+        "nzc_sci_atoms_neutral",
+        "mt_d-EKO-pKkP",
+        "mt_2_YoprauaJ",
+        "nzc_sci_voltage",
+        "nzc_sci_resistance_current",
+        "nzc_sci_electric_fields",
+        "nzc_sci_ionic_bond",
+        "nzc_sci_covalent_bond",
+        "nzc_sci_formula_atoms",
+        "nzc_sci_balanced_equation",
+        "mt_XSp-S0wter"
+      ],
+      "status": "strand-and-phase-covered",
+      "notes": "Representative concepts and practices; not an exhaustive mapping of every year-by-year requirement. Phase years are broad search bands."
+    },
+    {
+      "strand": "Biological Science",
+      "phase": "Phase 1 (Years 0–3)",
+      "years": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF pp. 11–12, Biological Science",
+      "topicIds": [
+        "nzc_sci_life_cycles",
+        "nzc_sci_living_habitats",
+        "nzc_sci_group_living",
+        "mt_EygMHKs8Ed",
+        "nzc_sci_observe_senses",
+        "mt_tiPyEkm4cU",
+        "mt_13CtLTcWUB",
+        "nzc_sci_balanced_foods",
+        "nzc_sci_habitat_tallies"
+      ],
+      "status": "strand-and-phase-covered",
+      "notes": "Representative concepts and practices; not an exhaustive mapping of every year-by-year requirement. Phase years are broad search bands."
+    },
+    {
+      "strand": "Biological Science",
+      "phase": "Phase 2 (Years 4–6)",
+      "years": [
+        4,
+        5,
+        6
+      ],
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF pp. 16–17, Biological Science",
+      "topicIds": [
+        "nzc_sci_seed_dispersal",
+        "nzc_sci_food_web",
+        "nzc_sci_body_systems",
+        "nzc_sci_vertebrates",
+        "nzc_sci_digestion",
+        "mt_ck57CDFGet",
+        "mt_brgde1Vx0P",
+        "nzc_sci_fungi_group",
+        "mt_BX4D8cCFtQ",
+        "nzc_sci_inherited_environment",
+        "nzc_sci_arteries_veins",
+        "nzc_sci_leaf_samples"
+      ],
+      "status": "strand-and-phase-covered",
+      "notes": "Representative concepts and practices; not an exhaustive mapping of every year-by-year requirement. Phase years are broad search bands."
+    },
+    {
+      "strand": "Biological Science",
+      "phase": "Phase 3 (Years 7–8)",
+      "years": [
+        7,
+        8
+      ],
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF pp. 21–22, Biological Science",
+      "topicIds": [
+        "nzc_sci_adaptation",
+        "nzc_sci_photosynthesis",
+        "nzc_sci_cells",
+        "mt_C7FNeIDGc6",
+        "nzc_sci_ecosystem_factors",
+        "nzc_sci_asexual_reproduction",
+        "mt_FuVEZ1Ac9s",
+        "mt_H8OgKZbgGe",
+        "mt_tQkCzRcWG7",
+        "nzc_sci_menstruation_lining",
+        "nzc_sci_quadrat_compare"
+      ],
+      "status": "strand-and-phase-covered",
+      "notes": "Representative concepts and practices; not an exhaustive mapping of every year-by-year requirement. Phase years are broad search bands."
+    },
+    {
+      "strand": "Biological Science",
+      "phase": "Phase 4 (Years 9–10)",
+      "years": [
+        9,
+        10
+      ],
+      "sourceId": "nzc_science_2026",
+      "locator": "PDF pp. 29–31, Biological Science",
+      "topicIds": [
+        "nzc_sci_cells_organelles",
+        "nzc_sci_inheritance",
+        "mt_1VIE8FlZvL",
+        "nzc_sci_diffusion",
+        "mt_mquPi2IP-J",
+        "nzc_sci_ecosystem_water",
+        "mt_6aJUzBYGNs",
+        "mt_qzbgwaUQOA",
+        "nzc_sci_temperature_control",
+        "nzc_sci_decomposers"
+      ],
+      "status": "strand-and-phase-covered",
+      "notes": "Representative concepts and practices; not an exhaustive mapping of every year-by-year requirement. Phase years are broad search bands."
+    }
+  ],
+  "limitations": [
+    "Research draft; no New Zealand teacher review. Exercises, suggested mappings and graph links are editorial.",
+    "Representative phase-level topics do not yet map every year-by-year statement or requirement.",
+    "Years 11–13 and formal assessments require separate subject-specific mapping."
+  ]
+}

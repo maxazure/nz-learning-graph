@@ -1,5 +1,9 @@
-import {mathsProfiles,mathsAdditions,mathsDependencies,mathsSources,topicMappings,mappedYears,type TeachingProfile,type CurriculumMapping} from './maths';
-export {curriculumMappings,topicMappings} from './maths';
+import {mathsProfiles,mathsAdditions,mathsDependencies,mathsSources,topicMappings as mathsTopicMappings,mappedYears,curriculumMappings as mathsCurriculumMappings,type TeachingProfile as MathsTeachingProfile,type CurriculumMapping as MathsCurriculumMapping} from './maths';
+import {nzCurriculumAdditions,nzCurriculumProfiles,nzCurriculumMappings,nzCurriculumSources,nzCurriculumEdges,nzTopicMappings,type SupplementTeachingProfile,type SupplementCurriculumMapping} from './nz-curriculum';
+export type TeachingProfile=MathsTeachingProfile|SupplementTeachingProfile;
+export type CurriculumMapping=MathsCurriculumMapping|SupplementCurriculumMapping;
+export const curriculumMappings:CurriculumMapping[]=[...mathsCurriculumMappings,...nzCurriculumMappings];
+export function topicMappings(id:string):CurriculumMapping[]{return [...mathsTopicMappings(id),...nzTopicMappings(id)];}
 import original from '../data/topics.json';
 import relations from '../data/dependencies.json';
 import overlay from '../data/nz-overlay.json';
@@ -16,15 +20,18 @@ const base:Topic[] = [...original.topics,...overlay.topics];
 const originalById=new Map(base.map(t=>[t.id,t]));
 export function topicSearchText(t:Topic){
  const originals=sourceTopicIds(t.id).map(id=>originalById.get(id));
- return `${t.name} ${t.description} ${t.domain} ${t.nz?.localContext||''} ${originals.map(old=>`${old?.name||''} ${old?.description||''}`).join(' ')}`.toLowerCase();
+ const profile=t.teaching;
+ return `${t.name} ${t.description} ${t.domain} ${t.nz?.localContext||''} ${profile?.description||''} ${(profile?.learning_objectives||[]).join(' ')} ${(profile?.diagnostic_questions||[]).map(q=>q.question).join(' ')} ${originals.map(old=>`${old?.name||''} ${old?.description||''}`).join(' ')}`.toLowerCase();
 }
-export const topics:Topic[] = [...base,...mathsAdditions.map(t=>({id:t.id,type:t.node_type,subject:t.subject,domain:t.domain,name:t.name,description:t.description,ageRangeStart:null,ageRangeEnd:null,centrality:0,evidence:t.understanding_evidence,assessmentPrompt:t.diagnostic_questions[0].question,standards:[]}))].filter(t=>canonicalTopicId(t.id)===t.id).map(t=>{
- const teaching=mathsProfiles.get(t.id), mappings=topicMappings(t.id);
+export const topics:Topic[] = [...base,...mathsAdditions.map(t=>({id:t.id,type:t.node_type,subject:t.subject,domain:t.domain,name:t.name,description:t.description,ageRangeStart:null,ageRangeEnd:null,centrality:0,evidence:t.understanding_evidence,assessmentPrompt:t.diagnostic_questions[0].question,standards:[]})),...nzCurriculumAdditions.filter(t=>!originalById.has(t.id)&&!mathsProfiles.has(t.id))].filter(t=>canonicalTopicId(t.id)===t.id).map(t=>{
+ const teaching=mathsProfiles.get(t.id)||nzCurriculumProfiles.get(t.id), mappings=topicMappings(t.id);
  const members=sourceTopicIds(t.id),patch=topicPatch(t.id);
  const originals=members.map(id=>originalById.get(id)).filter((t):t is Topic=>!!t);
  return {
   ...t,
-  ...(teaching?{name:teaching.name,description:teaching.description,evidence:teaching.understanding_evidence,assessmentPrompt:teaching.diagnostic_questions[0].question,teaching}:{}),
+  // Retain Marble-authored text separately when adding a curriculum-derived
+  // teaching profile; the records have different source licensing terms.
+  ...(teaching?(originalById.has(t.id)&&nzCurriculumProfiles.has(t.id)?{teaching}:{name:teaching.name,description:teaching.description,evidence:teaching.understanding_evidence,assessmentPrompt:teaching.diagnostic_questions[0].question,teaching}):{}),
   ...(members.length>1?{
    sourceTopicIds:members,
    evidence:[...new Set([...originals.flatMap(o=>o.evidence),...(teaching?.understanding_evidence||[])])],
@@ -34,15 +41,21 @@ export const topics:Topic[] = [...base,...mathsAdditions.map(t=>({id:t.id,type:t
   ...(patch?.description?{description:patch.description}:{}),
   ...(patch?.evidence?{evidence:patch.evidence}:{}),
   ...(patch?.assessmentPrompt?{assessmentPrompt:patch.assessmentPrompt}:{}),
-  ...(mappings.length?{curriculumMappings:mappings,suggestedYears:mappedYears(t.id)}:{}),
+  ...(mappings.length?{curriculumMappings:mappings,suggestedYears:[...new Set([...mappedYears(t.id),...(nzCurriculumProfiles.get(t.id)?.year_placement.years||[])])].sort((a,b)=>a-b)}:{}),
  };
 });
-export const sources = [...overlay.sources,...mathsSources];
+export const sources = [...overlay.sources,...mathsSources,...nzCurriculumSources];
 export interface Dependency {topicId:string;prerequisiteId:string;strength:string;reason:string;basis?:string;confidence?:string;source_ids?:string[];source_locators?:unknown[]}
 const baseline:Dependency[] = [...relations.dependencies.map(d=>({...d,strength:d.strength==='soft'?'helpful':d.strength})),...overlay.topics.flatMap(t=>t.prerequisiteIds.map(id=>({topicId:t.id,prerequisiteId:id,strength:'hard',reason:'Suggested foundation for this NZ activity.'})))];
 // Supplement metadata replaces a matching endpoint pair; it is never appended twice.
-const edgeMap=new Map(baseline.map(d=>[`${d.prerequisiteId}:${d.topicId}`,d]));
+const edgeMap=new Map<string,Dependency>(baseline.map(d=>[`${d.prerequisiteId}:${d.topicId}`,d]));
 for(const d of mathsDependencies)edgeMap.set(`${d.prerequisiteId}:${d.topicId}`,d);
+for(const d of nzCurriculumEdges){
+ const key=`${d.prerequisiteId}:${d.topicId}`,prior=edgeMap.get(key);
+ // A supplementary helpful link must never downgrade an inherited hard edge.
+ edgeMap.set(key,prior?{...prior,strength:prior.strength==='hard'||d.strength==='hard'?'hard':'helpful',
+  reason:[...new Set([prior.reason,d.reason])].join(' '),source_ids:[...new Set([...(prior.source_ids||[]),...d.source_ids])]}:d);
+}
 const curatedEdges=new Map<string,Dependency>();
 for(const d of edgeMap.values()){
  const prerequisiteId=canonicalTopicId(d.prerequisiteId),topicId=canonicalTopicId(d.topicId);
@@ -73,6 +86,13 @@ const byId = new Map(topics.map(t=>[t.id,t]));
 export const subjects = [...new Set(topics.map(t=>t.subject))].sort();
 export const guidance = 'Use the learning graph to plan small steps. Check prerequisites, ask one question at a time and give hints before answers. Use the linked sources and distinguish suggested NZ years from original age ranges. A learner can also explore independently. Use diagnostic applicability and each curriculum mapping scope before choosing questions. Typical school years are not NCEA qualification levels. Research-draft pedagogy and inferred prerequisite edges are not official assessment decisions. One correct answer does not establish mastery or an NCEA grade.';
 export function getTopic(id:string) {return byId.get(id);}
+export function graphSummary(){
+ const mapped=topics.filter(x=>x.curriculumMappings?.length),years=mapped.flatMap(yearsForTopic);
+ return {topics:topics.length,links:dependencies.length,subjects:subjects.length,
+  cross:dependencies.filter(d=>byId.get(d.topicId)?.subject!==byId.get(d.prerequisiteId)?.subject).length,
+  nz:topics.filter(x=>x.nz).length,mapped:mapped.length,taught:topics.filter(x=>x.teaching).length,
+  minYear:years.length?Math.min(...years):null,maxYear:years.length?Math.max(...years):null};
+}
 export function searchTopics(query='',subject?:string,limit=40):Topic[] {
  const terms=query.toLowerCase().trim().split(/\s+/).filter(Boolean);
  return topics.filter(t=>(!subject||t.subject===subject)&&terms.every(w=>topicSearchText(t).includes(w)))

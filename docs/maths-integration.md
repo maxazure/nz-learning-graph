@@ -1,6 +1,6 @@
 # Mathematics integration — 18 October 2026
 
-This records the initial import. The subsequent [maths curation](maths-curation.md) supersedes its provisional overlap decisions and runtime totals: the active graph now has 1,859 topics, 3,981 edges and 458 diagnostic questions. The imported archive remains unchanged.
+This records the initial import. The subsequent [maths curation](maths-curation.md) supersedes its provisional overlap decisions and runtime totals: the graph at that maths-curation revision had 1,859 topics, 3,981 edges and 458 diagnostic questions. The imported archive remains unchanged.
 
 The previous site had 1,606 topics but only 16 NZ activity year bands, no Year 11–13 filter, and no support for the supplied diagnostic answers, graduated hints or scoped NZ curriculum mappings. The existing overlay also inferred hard dependencies from every `prerequisiteIds` entry. A research profile identified an upstream name/content mismatch in `mt_tAJH5BrpOx` (triangle angles versus area/volume).
 

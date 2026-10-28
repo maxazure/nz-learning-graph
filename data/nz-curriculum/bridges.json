@@ -1,0 +1,1614 @@
+{
+  "dependencies": [
+    {
+      "topicId": "nzc_lang_listen_repeat",
+      "prerequisiteId": "mt_mB7DVai-Uf",
+      "strength": "helpful",
+      "reason": "Attending to spoken, signed or supported communication helps a learner notice an unfamiliar language pattern.",
+      "sourceId": "nzc_languages_2026"
+    },
+    {
+      "topicId": "nzc_lang_introduction",
+      "prerequisiteId": "nzc_lang_listen_repeat",
+      "strength": "helpful",
+      "reason": "Observing a reliable language model helps a learner practise an introduction.",
+      "sourceId": "nzc_languages_2026"
+    },
+    {
+      "topicId": "nzc_lang_greeting_context",
+      "prerequisiteId": "mt_bkvB7QYKwg",
+      "strength": "helpful",
+      "reason": "Adapting communication to the listener and situation is useful when choosing a greeting in another language.",
+      "sourceId": "nzc_languages_2026"
+    },
+    {
+      "topicId": "nzc_lang_names_respect",
+      "prerequisiteId": "mt_mB7DVai-Uf",
+      "strength": "helpful",
+      "reason": "Listening carefully and responding respectfully helps when learning how someone wishes to be addressed.",
+      "sourceId": "nzc_languages_2026"
+    },
+    {
+      "topicId": "nzc_lang_clarify",
+      "prerequisiteId": "mt_f8n4txtLej",
+      "strength": "helpful",
+      "reason": "A relevant question can help clarify a message in an additional language.",
+      "sourceId": "nzc_languages_2026"
+    },
+    {
+      "topicId": "nzc_lang_preferences",
+      "prerequisiteId": "mt_S0hzjAeLSK",
+      "strength": "helpful",
+      "reason": "Expressing a choice with a reason transfers to communication in an additional language.",
+      "sourceId": "nzc_languages_2026"
+    },
+    {
+      "topicId": "nzc_lang_family_variation",
+      "prerequisiteId": "mt_sXRHr7tfS5",
+      "strength": "helpful",
+      "reason": "Respecting different viewpoints helps learners practise relationship vocabulary without assuming every family is the same.",
+      "sourceId": "nzc_languages_2026"
+    },
+    {
+      "topicId": "nzc_lang_context_formality",
+      "prerequisiteId": "nzc_lang_greeting_context",
+      "strength": "helpful",
+      "reason": "Recognising how greetings vary is useful when choosing language for different relationships.",
+      "sourceId": "nzc_languages_2026"
+    },
+    {
+      "topicId": "nzc_lang_connected_description",
+      "prerequisiteId": "mt_4A7FYmvVhA",
+      "strength": "helpful",
+      "reason": "Describing a person or place provides an idea to express using a new language.",
+      "sourceId": "nzc_languages_2026"
+    },
+    {
+      "topicId": "nzc_lang_time_frames",
+      "prerequisiteId": "nz_bus_timetable",
+      "strength": "helpful",
+      "reason": "Interpreting time information supports discussion of when an event happens; languages express time in varied ways.",
+      "sourceId": "nzc_languages_2026"
+    },
+    {
+      "topicId": "nzc_lang_cultural_perspective",
+      "prerequisiteId": "mt_LCJNRaRXtW",
+      "strength": "helpful",
+      "reason": "Considering differing viewpoints helps learners avoid treating a single account as universal.",
+      "sourceId": "nzc_languages_2026"
+    },
+    {
+      "topicId": "nzc_lang_plan_interaction",
+      "prerequisiteId": "nzc_lang_clarify",
+      "strength": "helpful",
+      "reason": "A clarification strategy can help sustain a planned exchange when a message is unclear.",
+      "sourceId": "nzc_languages_2026"
+    },
+    {
+      "topicId": "nzc_reo_kia_ora",
+      "prerequisiteId": "nzc_lang_greeting_context",
+      "strength": "helpful",
+      "reason": "The general idea that greetings depend on context can be explored in te reo Māori.",
+      "sourceId": "nzc_reo_2026"
+    },
+    {
+      "topicId": "nzc_reo_macrons",
+      "prerequisiteId": "mt_UvNrOXny1i",
+      "strength": "helpful",
+      "reason": "Attention to syllable sounds is helpful when noticing vowel length in te reo Māori.",
+      "sourceId": "nzc_reo_2026"
+    },
+    {
+      "topicId": "nzc_reo_names",
+      "prerequisiteId": "nzc_lang_names_respect",
+      "strength": "helpful",
+      "reason": "Considering a person's preferences supports respectful use of names and address in te reo Māori.",
+      "sourceId": "nzc_reo_2026"
+    },
+    {
+      "topicId": "nzc_reo_place",
+      "prerequisiteId": "nzc_lang_cultural_perspective",
+      "strength": "helpful",
+      "reason": "Learning from relevant local voices helps avoid treating one introduction as universal.",
+      "sourceId": "nzc_reo_2026"
+    },
+    {
+      "topicId": "nzc_mandarin_pinyin_tones",
+      "prerequisiteId": "mt_UvNrOXny1i",
+      "strength": "helpful",
+      "reason": "Listening to the parts of a spoken word helps when learning to attend to Mandarin syllables and tones.",
+      "sourceId": "nzc_mandarin_2026"
+    },
+    {
+      "topicId": "nzc_mandarin_characters",
+      "prerequisiteId": "nzc_mandarin_pinyin_tones",
+      "strength": "helpful",
+      "reason": "Pronunciation and written characters provide different ways to explore the same Mandarin words.",
+      "sourceId": "nzc_mandarin_2026"
+    },
+    {
+      "topicId": "nzc_mandarin_greetings",
+      "prerequisiteId": "nzc_lang_context_formality",
+      "strength": "helpful",
+      "reason": "The general idea that formality changes with context also applies when selecting a Mandarin greeting.",
+      "sourceId": "nzc_mandarin_2026"
+    },
+    {
+      "topicId": "nzc_mandarin_opinion",
+      "prerequisiteId": "mt_S0hzjAeLSK",
+      "strength": "helpful",
+      "reason": "Expressing an opinion and a supporting reason in a familiar language can support the same communication goal in Mandarin.",
+      "sourceId": "nzc_mandarin_2026"
+    },
+    {
+      "topicId": "mt_auVZZEuXjs",
+      "prerequisiteId": "nz_metric_home",
+      "strength": "helpful",
+      "reason": "Comparing measurements helps describe differences between material samples.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_sci_mass_volume",
+      "prerequisiteId": "nz_metric_home",
+      "strength": "helpful",
+      "reason": "Metric mass and volume measurements help compare matter occupying the same space.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_sci_states",
+      "prerequisiteId": "mt_auVZZEuXjs",
+      "strength": "helpful",
+      "reason": "Observing material properties supports comparison of solids, liquids and gases.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "mt_b6kZgqolEd",
+      "prerequisiteId": "nzc_sci_states",
+      "strength": "helpful",
+      "reason": "Observable states give a phenomenon for a particle model to explain.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "mt_2b6CB0w3Yx",
+      "prerequisiteId": "nzc_sci_states",
+      "strength": "helpful",
+      "reason": "Recognising physical properties helps choose a method for separating a mixture.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_sci_atomic_number",
+      "prerequisiteId": "mt_b6kZgqolEd",
+      "strength": "helpful",
+      "reason": "Particle models provide a starting point for studying atoms and elements.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_sci_forces_acceleration",
+      "prerequisiteId": "nzc_sci_push_pull",
+      "strength": "helpful",
+      "reason": "A familiar push or pull provides a starting point for analysing changes in motion.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_sci_fair_tests",
+      "prerequisiteId": "nz_travel_survey",
+      "strength": "helpful",
+      "reason": "Recording observations and comparing data supports planning and evaluating an investigation.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_sci_water_cycle",
+      "prerequisiteId": "nz_local_catchment",
+      "strength": "helpful",
+      "reason": "Following water in a local catchment supports exploration of the wider water cycle.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_sci_food_web",
+      "prerequisiteId": "nz_bush_food_web",
+      "strength": "helpful",
+      "reason": "A local food web provides an example for exploring feeding relationships.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_sci_adaptation",
+      "prerequisiteId": "nzc_sci_living_habitats",
+      "strength": "helpful",
+      "reason": "Knowing that organisms live in different habitats helps explain how traits suit particular conditions.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_sci_inheritance",
+      "prerequisiteId": "nzc_sci_adaptation",
+      "strength": "helpful",
+      "reason": "Environmental fit is useful context when considering inherited variation across generations.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_sci_cells_organelles",
+      "prerequisiteId": "nzc_sci_cells",
+      "strength": "helpful",
+      "reason": "The idea that living things contain cells provides context for studying specialised cell structures.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "mt_1VIE8FlZvL",
+      "prerequisiteId": "nzc_sci_body_systems",
+      "strength": "helpful",
+      "reason": "Understanding that body systems interact supports discussion of barriers and immune responses.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_sci_seed_dispersal",
+      "prerequisiteId": "nzc_sci_life_cycles",
+      "strength": "helpful",
+      "reason": "Plant life-cycle stages provide context for considering how seeds spread.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_sci_photosynthesis",
+      "prerequisiteId": "nzc_sci_living_habitats",
+      "strength": "helpful",
+      "reason": "Observing the conditions plants need supports study of how plants make sugar.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_soc_community_roles",
+      "prerequisiteId": "mt_mB7DVai-Uf",
+      "strength": "helpful",
+      "reason": "Listening and responding helps people understand the roles others play in a community.",
+      "sourceId": "nzc_social_2026"
+    },
+    {
+      "topicId": "nzc_soc_belonging",
+      "prerequisiteId": "mt_mB7DVai-Uf",
+      "strength": "helpful",
+      "reason": "Listening to others supports discussion of different experiences of belonging.",
+      "sourceId": "nzc_social_2026"
+    },
+    {
+      "topicId": "nzc_soc_rules_fairness",
+      "prerequisiteId": "nzc_soc_community_roles",
+      "strength": "helpful",
+      "reason": "Understanding how a community works helps when considering its rules.",
+      "sourceId": "nzc_social_2026"
+    },
+    {
+      "topicId": "nzc_soc_vote_voice",
+      "prerequisiteId": "nzc_soc_rules_fairness",
+      "strength": "helpful",
+      "reason": "Discussing rules and fairness provides a basis for considering how groups make decisions.",
+      "sourceId": "nzc_social_2026"
+    },
+    {
+      "topicId": "nzc_soc_local_government",
+      "prerequisiteId": "nzc_soc_vote_voice",
+      "strength": "helpful",
+      "reason": "Knowing that people can express views supports exploring participation in local decisions.",
+      "sourceId": "nzc_social_2026"
+    },
+    {
+      "topicId": "nzc_soc_democratic_dialogue",
+      "prerequisiteId": "mt_wwdRhPyz6s",
+      "strength": "helpful",
+      "reason": "Listening and responding in discussion helps people consider differing civic views.",
+      "sourceId": "nzc_social_2026"
+    },
+    {
+      "topicId": "nzc_soc_representation",
+      "prerequisiteId": "nzc_soc_local_government",
+      "strength": "helpful",
+      "reason": "Local participation provides an example of how people can engage with representatives.",
+      "sourceId": "nzc_social_2026"
+    },
+    {
+      "topicId": "nzc_soc_international_cooperation",
+      "prerequisiteId": "nzc_soc_democratic_dialogue",
+      "strength": "helpful",
+      "reason": "Respectful dialogue can support consideration of cooperation across communities and countries.",
+      "sourceId": "nzc_social_2026"
+    },
+    {
+      "topicId": "nzc_soc_past_present",
+      "prerequisiteId": "mt_zlSoIKPyId",
+      "strength": "helpful",
+      "reason": "Sequencing events helps compare earlier and present-day experiences.",
+      "sourceId": "nzc_social_2026"
+    },
+    {
+      "topicId": "nzc_soc_artefact_evidence",
+      "prerequisiteId": "mt_f8n4txtLej",
+      "strength": "helpful",
+      "reason": "Asking relevant questions supports inquiry into what a historical object can reveal.",
+      "sourceId": "nzc_social_2026"
+    },
+    {
+      "topicId": "nzc_soc_voyaging",
+      "prerequisiteId": "nzc_soc_past_present",
+      "strength": "helpful",
+      "reason": "Comparing past experiences supports inquiry into journeys and change.",
+      "sourceId": "nzc_social_2026"
+    },
+    {
+      "topicId": "nzc_soc_historical_change",
+      "prerequisiteId": "nzc_soc_voyaging",
+      "strength": "helpful",
+      "reason": "Migration offers one context for examining continuity and change.",
+      "sourceId": "nzc_social_2026"
+    },
+    {
+      "topicId": "nzc_soc_cultural_contact",
+      "prerequisiteId": "nz_historical_accounts",
+      "strength": "helpful",
+      "reason": "Comparing historical accounts helps reveal different experiences of cultural contact.",
+      "sourceId": "nzc_social_2026"
+    },
+    {
+      "topicId": "nzc_soc_te_tiriti_sources",
+      "prerequisiteId": "nz_historical_accounts",
+      "strength": "helpful",
+      "reason": "Comparing attributed historical accounts helps learners consider different texts and perspectives.",
+      "sourceId": "nzc_social_2026"
+    },
+    {
+      "topicId": "nzc_soc_multiple_causes",
+      "prerequisiteId": "nzc_soc_cultural_contact",
+      "strength": "helpful",
+      "reason": "Considering consequences from different perspectives supports analysis of interconnected historical causes.",
+      "sourceId": "nzc_social_2026"
+    },
+    {
+      "topicId": "nzc_soc_history_perspectives",
+      "prerequisiteId": "mt_JVVKT-_AD9",
+      "strength": "helpful",
+      "reason": "Checking authorship and purpose across texts supports historical source interpretation.",
+      "sourceId": "nzc_social_2026"
+    },
+    {
+      "topicId": "nzc_soc_place_features",
+      "prerequisiteId": "nz_place_names",
+      "strength": "helpful",
+      "reason": "A local place name offers a sourced example of connections to place and history.",
+      "sourceId": "nzc_social_2026"
+    },
+    {
+      "topicId": "nzc_soc_simple_map",
+      "prerequisiteId": "mt_Y9XKzLrUAZ",
+      "strength": "helpful",
+      "reason": "Understanding directions helps a learner describe where features appear on a simple map.",
+      "sourceId": "nzc_social_2026"
+    },
+    {
+      "topicId": "nzc_soc_scale_maps",
+      "prerequisiteId": "nz_map_scale",
+      "strength": "helpful",
+      "reason": "A walking-route map shows how scale relates mapped and real distances.",
+      "sourceId": "nzc_social_2026"
+    },
+    {
+      "topicId": "nzc_soc_landform_processes",
+      "prerequisiteId": "nzc_sci_water_cycle",
+      "strength": "helpful",
+      "reason": "Water moving through an environment can contribute to erosion and landscape change.",
+      "sourceId": "nzc_social_2026"
+    },
+    {
+      "topicId": "nzc_soc_migration_place",
+      "prerequisiteId": "nzc_soc_voyaging",
+      "strength": "helpful",
+      "reason": "Historical journeys offer context for investigating how population change affects places.",
+      "sourceId": "nzc_social_2026"
+    },
+    {
+      "topicId": "nzc_soc_hazards_people",
+      "prerequisiteId": "nzc_sci_water_cycle",
+      "strength": "helpful",
+      "reason": "Understanding water movement can support discussion of heavy rain and flooding hazards.",
+      "sourceId": "nzc_social_2026"
+    },
+    {
+      "topicId": "nzc_soc_tourism_sustainability",
+      "prerequisiteId": "nzc_soc_landform_processes",
+      "strength": "helpful",
+      "reason": "Understanding a place's landscape helps consider pressures on its environment.",
+      "sourceId": "nzc_social_2026"
+    },
+    {
+      "topicId": "nzc_soc_urbanisation",
+      "prerequisiteId": "nz_travel_survey",
+      "strength": "helpful",
+      "reason": "Collecting and interpreting travel data can support questions about urban transport.",
+      "sourceId": "nzc_social_2026"
+    },
+    {
+      "topicId": "nzc_soc_money_choices",
+      "prerequisiteId": "nz_coins_change",
+      "strength": "helpful",
+      "reason": "Working with coins and change supports everyday choices involving a limited amount of money.",
+      "sourceId": "nzc_social_2026"
+    },
+    {
+      "topicId": "nzc_soc_goods_services",
+      "prerequisiteId": "nzc_soc_money_choices",
+      "strength": "helpful",
+      "reason": "Considering spending choices supports distinguishing purchases of goods and services.",
+      "sourceId": "nzc_social_2026"
+    },
+    {
+      "topicId": "nzc_soc_saving_goals",
+      "prerequisiteId": "nzc_soc_money_choices",
+      "strength": "helpful",
+      "reason": "Tracking money remaining helps a learner plan a savings goal.",
+      "sourceId": "nzc_social_2026"
+    },
+    {
+      "topicId": "nzc_soc_interest_intro",
+      "prerequisiteId": "nzc_soc_saving_goals",
+      "strength": "helpful",
+      "reason": "A savings goal gives context for exploring how interest can change a balance.",
+      "sourceId": "nzc_social_2026"
+    },
+    {
+      "topicId": "nzc_soc_group_budget",
+      "prerequisiteId": "nz_outing_budget",
+      "strength": "helpful",
+      "reason": "An outing budget offers a concrete starting point for planning shared spending.",
+      "sourceId": "nzc_social_2026"
+    },
+    {
+      "topicId": "nzc_soc_scam_evidence",
+      "prerequisiteId": "mt_JVVKT-_AD9",
+      "strength": "helpful",
+      "reason": "Checking who produced information and what evidence it contains supports evaluating a financial message.",
+      "sourceId": "nzc_social_2026"
+    },
+    {
+      "topicId": "nzc_soc_risk_return",
+      "prerequisiteId": "nzc_soc_interest_intro",
+      "strength": "helpful",
+      "reason": "Understanding changes to a balance supports comparison of potential returns and uncertainty.",
+      "sourceId": "nzc_social_2026"
+    },
+    {
+      "topicId": "nzc_soc_borrowing_budget",
+      "prerequisiteId": "nzc_soc_group_budget",
+      "strength": "helpful",
+      "reason": "Planning available money helps people consider how repayments fit with other commitments.",
+      "sourceId": "nzc_social_2026"
+    },
+    {
+      "topicId": "nzc_art_movement_space",
+      "prerequisiteId": "nzc_hpe_balance",
+      "strength": "helpful",
+      "reason": "Body awareness and balance can support safe exploration of movement through space.",
+      "sourceId": "nzc_arts_2026"
+    },
+    {
+      "topicId": "nzc_art_dance_timing",
+      "prerequisiteId": "nzc_art_pulse_rhythm",
+      "strength": "helpful",
+      "reason": "A steady musical pulse can support movement timing in a dance phrase.",
+      "sourceId": "nzc_arts_2026"
+    },
+    {
+      "topicId": "nzc_art_role_voice",
+      "prerequisiteId": "mt_4A7FYmvVhA",
+      "strength": "helpful",
+      "reason": "Describing ideas aloud supports using voice and gesture to communicate a role.",
+      "sourceId": "nzc_arts_2026"
+    },
+    {
+      "topicId": "nzc_art_tableau",
+      "prerequisiteId": "nzc_art_role_voice",
+      "strength": "helpful",
+      "reason": "Using gesture and position to suggest a role can support a still dramatic image.",
+      "sourceId": "nzc_arts_2026"
+    },
+    {
+      "topicId": "nzc_art_pulse_rhythm",
+      "prerequisiteId": "nzc_sci_sound_vibration",
+      "strength": "helpful",
+      "reason": "Exploring how sounds are produced provides a context for organising them into musical patterns.",
+      "sourceId": "nzc_arts_2026"
+    },
+    {
+      "topicId": "nzc_art_pitch_dynamics",
+      "prerequisiteId": "nzc_sci_sound_vibration",
+      "strength": "helpful",
+      "reason": "Observing vibrations supports exploration of qualities of sound in music.",
+      "sourceId": "nzc_arts_2026"
+    },
+    {
+      "topicId": "nzc_art_line_shape",
+      "prerequisiteId": "mt_3S10OOGPqu",
+      "strength": "helpful",
+      "reason": "Recognising geometric features supports discussion of lines and shapes in an artwork.",
+      "sourceId": "nzc_arts_2026"
+    },
+    {
+      "topicId": "nzc_art_colour_choices",
+      "prerequisiteId": "nzc_art_line_shape",
+      "strength": "helpful",
+      "reason": "Working with visual elements supports making deliberate colour choices.",
+      "sourceId": "nzc_arts_2026"
+    },
+    {
+      "topicId": "nzc_art_movement_sequence",
+      "prerequisiteId": "nzc_art_movement_space",
+      "strength": "helpful",
+      "reason": "Exploring movement pathways provides material for a longer sequence.",
+      "sourceId": "nzc_arts_2026"
+    },
+    {
+      "topicId": "nzc_art_dance_energy",
+      "prerequisiteId": "nzc_art_dance_timing",
+      "strength": "helpful",
+      "reason": "Varying speed and timing provides a starting point for exploring movement dynamics.",
+      "sourceId": "nzc_arts_2026"
+    },
+    {
+      "topicId": "nzc_art_character_motivation",
+      "prerequisiteId": "nzc_art_role_voice",
+      "strength": "helpful",
+      "reason": "Using voice and gesture to suggest a role supports showing what a character wants.",
+      "sourceId": "nzc_arts_2026"
+    },
+    {
+      "topicId": "nzc_art_dramatic_tension",
+      "prerequisiteId": "nzc_art_character_motivation",
+      "strength": "helpful",
+      "reason": "A character's goal can help an audience understand tension in a scene.",
+      "sourceId": "nzc_arts_2026"
+    },
+    {
+      "topicId": "nzc_art_musical_patterns",
+      "prerequisiteId": "nzc_art_pulse_rhythm",
+      "strength": "helpful",
+      "reason": "A steady pulse helps organise repeating and varied rhythmic patterns.",
+      "sourceId": "nzc_arts_2026"
+    },
+    {
+      "topicId": "nzc_art_notation_duration",
+      "prerequisiteId": "nzc_art_pulse_rhythm",
+      "strength": "helpful",
+      "reason": "Comparing beat and rhythm supports representing sound durations.",
+      "sourceId": "nzc_arts_2026"
+    },
+    {
+      "topicId": "nzc_art_composition_focus",
+      "prerequisiteId": "nzc_art_colour_choices",
+      "strength": "helpful",
+      "reason": "Colour contrast is one way to influence visual focus.",
+      "sourceId": "nzc_arts_2026"
+    },
+    {
+      "topicId": "nzc_art_artist_context",
+      "prerequisiteId": "mt_f8n4txtLej",
+      "strength": "helpful",
+      "reason": "Asking relevant questions helps a learner investigate an artwork and its context.",
+      "sourceId": "nzc_arts_2026"
+    },
+    {
+      "topicId": "nzc_art_unison_canon",
+      "prerequisiteId": "nzc_art_movement_sequence",
+      "strength": "helpful",
+      "reason": "A movement phrase can be performed together or at staggered times.",
+      "sourceId": "nzc_arts_2026"
+    },
+    {
+      "topicId": "nzc_art_choreographic_intent",
+      "prerequisiteId": "nzc_art_dance_energy",
+      "strength": "helpful",
+      "reason": "Choices about movement energy can contribute to a choreographer's intention.",
+      "sourceId": "nzc_arts_2026"
+    },
+    {
+      "topicId": "nzc_art_improvisation",
+      "prerequisiteId": "nzc_art_character_motivation",
+      "strength": "helpful",
+      "reason": "Understanding a character's goal can support choices in an improvised scene.",
+      "sourceId": "nzc_arts_2026"
+    },
+    {
+      "topicId": "nzc_art_drama_feedback",
+      "prerequisiteId": "mt_I65kFjWwnF",
+      "strength": "helpful",
+      "reason": "Specific feedback and revision are useful in both writing and drama rehearsal.",
+      "sourceId": "nzc_arts_2026"
+    },
+    {
+      "topicId": "nzc_art_texture_layers",
+      "prerequisiteId": "nzc_art_musical_patterns",
+      "strength": "helpful",
+      "reason": "Recognising individual patterns helps a listener describe how musical layers combine.",
+      "sourceId": "nzc_arts_2026"
+    },
+    {
+      "topicId": "nzc_art_music_context",
+      "prerequisiteId": "nzc_lang_cultural_perspective",
+      "strength": "helpful",
+      "reason": "Considering varied community perspectives helps avoid treating one cultural interpretation as universal.",
+      "sourceId": "nzc_arts_2026"
+    },
+    {
+      "topicId": "nzc_art_art_iteration",
+      "prerequisiteId": "nzc_tech_brief",
+      "strength": "helpful",
+      "reason": "Testing an outcome against a purpose supports revising a visual design.",
+      "sourceId": "nzc_arts_2026"
+    },
+    {
+      "topicId": "nzc_art_interpret_evidence",
+      "prerequisiteId": "mt_S3XMQOYt_D",
+      "strength": "helpful",
+      "reason": "Supporting an idea with observed evidence is useful when interpreting visual art.",
+      "sourceId": "nzc_arts_2026"
+    },
+    {
+      "topicId": "nzc_art_choreography_structure",
+      "prerequisiteId": "nzc_art_unison_canon",
+      "strength": "helpful",
+      "reason": "Group timing can be used as one structural choice in choreography.",
+      "sourceId": "nzc_arts_2026"
+    },
+    {
+      "topicId": "nzc_art_dance_interpretation",
+      "prerequisiteId": "nzc_art_choreographic_intent",
+      "strength": "helpful",
+      "reason": "Identifying movement choices supports a contextual interpretation of dance.",
+      "sourceId": "nzc_arts_2026"
+    },
+    {
+      "topicId": "nzc_art_scene_structure",
+      "prerequisiteId": "nzc_art_dramatic_tension",
+      "strength": "helpful",
+      "reason": "Understanding tension helps a writer or performer shape changes in a scene.",
+      "sourceId": "nzc_arts_2026"
+    },
+    {
+      "topicId": "nzc_art_performance_choices",
+      "prerequisiteId": "nzc_art_improvisation",
+      "strength": "helpful",
+      "reason": "Experimenting with performance choices supports comparing their effects on an audience.",
+      "sourceId": "nzc_arts_2026"
+    },
+    {
+      "topicId": "nzc_art_arrangement",
+      "prerequisiteId": "nzc_art_texture_layers",
+      "strength": "helpful",
+      "reason": "Recognising musical layers helps in selecting and arranging parts.",
+      "sourceId": "nzc_arts_2026"
+    },
+    {
+      "topicId": "nzc_art_music_technology",
+      "prerequisiteId": "nzc_art_arrangement",
+      "strength": "helpful",
+      "reason": "An arrangement offers a musical purpose for selecting recording and sound effects.",
+      "sourceId": "nzc_arts_2026"
+    },
+    {
+      "topicId": "nzc_art_visual_intention",
+      "prerequisiteId": "nzc_art_art_iteration",
+      "strength": "helpful",
+      "reason": "Testing and revising visual ideas supports an intended communication.",
+      "sourceId": "nzc_arts_2026"
+    },
+    {
+      "topicId": "nzc_art_cultural_attribution",
+      "prerequisiteId": "nzc_art_artist_context",
+      "strength": "helpful",
+      "reason": "Researching an artist and context supports respectful attribution and interpretation.",
+      "sourceId": "nzc_arts_2026"
+    },
+    {
+      "topicId": "nzc_hpe_body_care",
+      "prerequisiteId": "mt_83gRQ9OPkc",
+      "strength": "helpful",
+      "reason": "Knowing basic body parts supports communicating about everyday body care.",
+      "sourceId": "nzc_health_2026"
+    },
+    {
+      "topicId": "nzc_hpe_ask_support",
+      "prerequisiteId": "mt_mB7DVai-Uf",
+      "strength": "helpful",
+      "reason": "Communicating and listening supports asking a trusted person for help.",
+      "sourceId": "nzc_health_2026"
+    },
+    {
+      "topicId": "nzc_hpe_balance",
+      "prerequisiteId": "nzc_sci_push_pull",
+      "strength": "helpful",
+      "reason": "Exploring how forces affect movement supports discussion of balance and body position.",
+      "sourceId": "nzc_health_2026"
+    },
+    {
+      "topicId": "nzc_hpe_safe_space",
+      "prerequisiteId": "nzc_art_movement_space",
+      "strength": "helpful",
+      "reason": "Recognising pathways and other people helps learners explore movement safely.",
+      "sourceId": "nzc_health_2026"
+    },
+    {
+      "topicId": "nzc_hpe_emotions_support",
+      "prerequisiteId": "nzc_hpe_ask_support",
+      "strength": "helpful",
+      "reason": "Knowing how to seek help supports discussion of different emotional responses.",
+      "sourceId": "nzc_health_2026"
+    },
+    {
+      "topicId": "nzc_hpe_hygiene_others",
+      "prerequisiteId": "nzc_hpe_body_care",
+      "strength": "helpful",
+      "reason": "Everyday body care provides examples of hygiene that can support others too.",
+      "sourceId": "nzc_health_2026"
+    },
+    {
+      "topicId": "nzc_hpe_movement_feedback",
+      "prerequisiteId": "nzc_hpe_balance",
+      "strength": "helpful",
+      "reason": "Practising balance gives a movement skill to observe and refine.",
+      "sourceId": "nzc_health_2026"
+    },
+    {
+      "topicId": "nzc_hpe_games_cooperation",
+      "prerequisiteId": "nzc_soc_community_roles",
+      "strength": "helpful",
+      "reason": "Thinking about roles and cooperation helps a group make a game inclusive.",
+      "sourceId": "nzc_health_2026"
+    },
+    {
+      "topicId": "nzc_hpe_consent",
+      "prerequisiteId": "nzc_hpe_ask_support",
+      "strength": "helpful",
+      "reason": "Communicating boundaries and seeking support can help learners discuss consent respectfully.",
+      "sourceId": "nzc_health_2026"
+    },
+    {
+      "topicId": "nzc_hpe_health_information",
+      "prerequisiteId": "mt_JVVKT-_AD9",
+      "strength": "helpful",
+      "reason": "Checking sources and evidence supports evaluating health information.",
+      "sourceId": "nzc_health_2026"
+    },
+    {
+      "topicId": "nzc_hpe_effort_recovery",
+      "prerequisiteId": "nzc_sci_body_systems",
+      "strength": "helpful",
+      "reason": "Understanding how body systems work together helps explain responses to physical activity.",
+      "sourceId": "nzc_health_2026"
+    },
+    {
+      "topicId": "nzc_hpe_tactics",
+      "prerequisiteId": "nzc_hpe_games_cooperation",
+      "strength": "helpful",
+      "reason": "Cooperative play provides a context for decision-making in games.",
+      "sourceId": "nzc_health_2026"
+    },
+    {
+      "topicId": "nzc_hpe_wellbeing_models",
+      "prerequisiteId": "nzc_hpe_emotions_support",
+      "strength": "helpful",
+      "reason": "Recognising emotional experiences supports discussion of interconnected aspects of wellbeing.",
+      "sourceId": "nzc_health_2026"
+    },
+    {
+      "topicId": "nzc_hpe_influence_choices",
+      "prerequisiteId": "nzc_hpe_health_information",
+      "strength": "helpful",
+      "reason": "Evaluating information helps when considering influences on health decisions.",
+      "sourceId": "nzc_health_2026"
+    },
+    {
+      "topicId": "nzc_hpe_stability",
+      "prerequisiteId": "nzc_hpe_balance",
+      "strength": "helpful",
+      "reason": "Experience with balance provides a basis for considering the base of support.",
+      "sourceId": "nzc_health_2026"
+    },
+    {
+      "topicId": "nzc_hpe_risk_planning",
+      "prerequisiteId": "nzc_hpe_safe_space",
+      "strength": "helpful",
+      "reason": "Checking a movement space provides a foundation for planning more varied activity risks.",
+      "sourceId": "nzc_health_2026"
+    },
+    {
+      "topicId": "nzc_tech_needs",
+      "prerequisiteId": "nzc_soc_community_roles",
+      "strength": "helpful",
+      "reason": "Understanding different community roles helps identify who a design may serve.",
+      "sourceId": "nzc_technology_2026"
+    },
+    {
+      "topicId": "nzc_tech_steps",
+      "prerequisiteId": "nzc_tech_needs",
+      "strength": "helpful",
+      "reason": "An identified need provides a purpose for planning, making and testing.",
+      "sourceId": "nzc_technology_2026"
+    },
+    {
+      "topicId": "nzc_tech_brief",
+      "prerequisiteId": "nzc_tech_steps",
+      "strength": "helpful",
+      "reason": "A design process provides context for setting criteria and evaluating an outcome.",
+      "sourceId": "nzc_technology_2026"
+    },
+    {
+      "topicId": "nzc_tech_material_impact",
+      "prerequisiteId": "mt_auVZZEuXjs",
+      "strength": "helpful",
+      "reason": "Comparing material properties helps evaluate whether a material is suitable for a design.",
+      "sourceId": "nzc_technology_2026"
+    },
+    {
+      "topicId": "nzc_tech_users_criteria",
+      "prerequisiteId": "nzc_tech_brief",
+      "strength": "helpful",
+      "reason": "A design brief provides a starting point for exploring user needs and constraints.",
+      "sourceId": "nzc_technology_2026"
+    },
+    {
+      "topicId": "nzc_tech_unintended_effects",
+      "prerequisiteId": "nzc_soc_rules_fairness",
+      "strength": "helpful",
+      "reason": "Considering how different people are affected helps evaluate technological impacts.",
+      "sourceId": "nzc_technology_2026"
+    },
+    {
+      "topicId": "nzc_tech_material_properties",
+      "prerequisiteId": "mt_auVZZEuXjs",
+      "strength": "helpful",
+      "reason": "Observing flexibility and other properties supports material selection for a purpose.",
+      "sourceId": "nzc_technology_2026"
+    },
+    {
+      "topicId": "nzc_tech_joining",
+      "prerequisiteId": "nzc_tech_material_properties",
+      "strength": "helpful",
+      "reason": "Material properties help determine which joining methods may be suitable.",
+      "sourceId": "nzc_technology_2026"
+    },
+    {
+      "topicId": "nzc_tech_food_attributes",
+      "prerequisiteId": "nzc_hpe_body_care",
+      "strength": "helpful",
+      "reason": "Awareness of food and wellbeing provides context for discussing food outcomes.",
+      "sourceId": "nzc_technology_2026"
+    },
+    {
+      "topicId": "nzc_tech_food_hygiene",
+      "prerequisiteId": "nzc_hpe_hygiene_others",
+      "strength": "helpful",
+      "reason": "Hygiene practices help reduce contamination during food preparation.",
+      "sourceId": "nzc_technology_2026"
+    },
+    {
+      "topicId": "nzc_tech_inputs_outputs",
+      "prerequisiteId": "nzc_tech_steps",
+      "strength": "helpful",
+      "reason": "A design goal provides context for describing a system's inputs and outputs.",
+      "sourceId": "nzc_technology_2026"
+    },
+    {
+      "topicId": "nzc_tech_feedback",
+      "prerequisiteId": "nzc_tech_inputs_outputs",
+      "strength": "helpful",
+      "reason": "Understanding system inputs and outputs helps explain how feedback can adjust a system.",
+      "sourceId": "nzc_technology_2026"
+    },
+    {
+      "topicId": "nzc_tech_algorithms",
+      "prerequisiteId": "mt_-vvVxpOHG2",
+      "strength": "helpful",
+      "reason": "Ordering events helps learners express a sequence of instructions.",
+      "sourceId": "nzc_technology_2026"
+    },
+    {
+      "topicId": "nzc_tech_debugging",
+      "prerequisiteId": "nzc_tech_algorithms",
+      "strength": "helpful",
+      "reason": "Clear ordered instructions can be tested and corrected when they produce an unexpected result.",
+      "sourceId": "nzc_technology_2026"
+    },
+    {
+      "topicId": "nzc_tech_evaluate_tradeoffs",
+      "prerequisiteId": "nzc_tech_users_criteria",
+      "strength": "helpful",
+      "reason": "User needs and constraints support comparison of design trade-offs.",
+      "sourceId": "nzc_technology_2026"
+    },
+    {
+      "topicId": "nzc_tech_data_responsibility",
+      "prerequisiteId": "nzc_hpe_consent",
+      "strength": "helpful",
+      "reason": "Respecting boundaries and consent supports discussion of responsible data collection.",
+      "sourceId": "nzc_technology_2026"
+    },
+    {
+      "topicId": "nzc_tech_perspective",
+      "prerequisiteId": "nz_map_scale",
+      "strength": "helpful",
+      "reason": "Representations and scale help communicate spatial and product design ideas.",
+      "sourceId": "nzc_technology_2026"
+    },
+    {
+      "topicId": "nzc_tech_accessibility",
+      "prerequisiteId": "nzc_tech_users_criteria",
+      "strength": "helpful",
+      "reason": "User needs provide a basis for evaluating accessibility in a design.",
+      "sourceId": "nzc_technology_2026"
+    },
+    {
+      "topicId": "nzc_tech_material_lifecycle",
+      "prerequisiteId": "nzc_tech_material_impact",
+      "strength": "helpful",
+      "reason": "Considering material impacts supports a more complete lifecycle comparison.",
+      "sourceId": "nzc_technology_2026"
+    },
+    {
+      "topicId": "nzc_tech_join_load",
+      "prerequisiteId": "nzc_tech_joining",
+      "strength": "helpful",
+      "reason": "Comparing joins helps learners evaluate how a join might respond to a load.",
+      "sourceId": "nzc_technology_2026"
+    },
+    {
+      "topicId": "nzc_tech_food_processing",
+      "prerequisiteId": "nzc_tech_food_attributes",
+      "strength": "helpful",
+      "reason": "Food attributes provide criteria for evaluating the effects of processing.",
+      "sourceId": "nzc_technology_2026"
+    },
+    {
+      "topicId": "nzc_tech_food_design",
+      "prerequisiteId": "nzc_tech_food_hygiene",
+      "strength": "helpful",
+      "reason": "Safe food handling supports evaluating an outcome against a food brief.",
+      "sourceId": "nzc_technology_2026"
+    },
+    {
+      "topicId": "nzc_tech_system_feedback",
+      "prerequisiteId": "nzc_tech_feedback",
+      "strength": "helpful",
+      "reason": "A basic feedback loop provides a starting point for investigating system performance.",
+      "sourceId": "nzc_technology_2026"
+    },
+    {
+      "topicId": "nzc_tech_subsystems",
+      "prerequisiteId": "nzc_tech_inputs_outputs",
+      "strength": "helpful",
+      "reason": "Inputs and outputs help describe how subsystems contribute to a shared purpose.",
+      "sourceId": "nzc_technology_2026"
+    },
+    {
+      "topicId": "nzc_tech_program_selection",
+      "prerequisiteId": "nzc_tech_algorithms",
+      "strength": "helpful",
+      "reason": "Ordered instructions provide a starting point for adding conditional decisions.",
+      "sourceId": "nzc_technology_2026"
+    },
+    {
+      "topicId": "nzc_tech_digital_access",
+      "prerequisiteId": "nzc_tech_accessibility",
+      "strength": "helpful",
+      "reason": "Considering diverse users supports evaluating accessibility in a digital interface.",
+      "sourceId": "nzc_technology_2026"
+    },
+    {
+      "topicId": "nzc_sci_absorb_water",
+      "prerequisiteId": "mt_auVZZEuXjs",
+      "strength": "helpful",
+      "reason": "Comparing material properties helps learners investigate which materials absorb water.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_sci_surface_friction",
+      "prerequisiteId": "nzc_sci_push_pull",
+      "strength": "helpful",
+      "reason": "Observing pushes and movement supports comparing how surfaces affect motion.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "mt_EygMHKs8Ed",
+      "prerequisiteId": "nzc_sci_living_habitats",
+      "strength": "helpful",
+      "reason": "Knowing that organisms need resources supports describing feeding relationships.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_sci_observe_senses",
+      "prerequisiteId": "mt_f8n4txtLej",
+      "strength": "helpful",
+      "reason": "Asking questions helps guide safe observation of living things.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_sci_magnets",
+      "prerequisiteId": "nzc_sci_push_pull",
+      "strength": "helpful",
+      "reason": "Pushes and pulls provide a starting point for considering forces that act without contact.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "mt_AvrQauS_zX",
+      "prerequisiteId": "nzc_sci_push_pull",
+      "strength": "helpful",
+      "reason": "Recognising a force as a push or pull helps introduce the non-contact force of gravity.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_sci_heat_transfer",
+      "prerequisiteId": "nzc_sci_states",
+      "strength": "helpful",
+      "reason": "Observing changes of state provides examples to explain using energy transfer.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "mt_DA7-JYRvtP",
+      "prerequisiteId": "mt_auVZZEuXjs",
+      "strength": "helpful",
+      "reason": "Comparing material properties supports exploring which materials make suitable conducting paths.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_sci_vertebrates",
+      "prerequisiteId": "nzc_sci_group_living",
+      "strength": "helpful",
+      "reason": "Comparing animal features helps distinguish different kinds of body support.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_sci_digestion",
+      "prerequisiteId": "nzc_sci_body_systems",
+      "strength": "helpful",
+      "reason": "Recognising body systems supports investigation of how food is broken down and nutrients absorbed.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_sci_speed_distance_time",
+      "prerequisiteId": "nz_metric_home",
+      "strength": "helpful",
+      "reason": "Working with metric units supports measuring and calculating speed.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_sci_lever_balance",
+      "prerequisiteId": "nzc_sci_push_pull",
+      "strength": "helpful",
+      "reason": "The effect of a push or pull supports investigating turning effects around a pivot.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "mt_q15w--Fb5H",
+      "prerequisiteId": "nz_matariki_puanga",
+      "strength": "helpful",
+      "reason": "Observing the sky supports developing models of Earth and its changing view of the Sun.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_sci_solutions",
+      "prerequisiteId": "nzc_sci_states",
+      "strength": "helpful",
+      "reason": "Knowing about materials and states supports describing mixtures and dissolving.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "mt_C7FNeIDGc6",
+      "prerequisiteId": "nzc_sci_cells",
+      "strength": "helpful",
+      "reason": "Knowing that living things contain cells supports describing larger biological structures.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_sci_ecosystem_factors",
+      "prerequisiteId": "nzc_sci_food_web",
+      "strength": "helpful",
+      "reason": "Feeding relationships provide one example of interactions within an ecosystem.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_sci_acids_ph",
+      "prerequisiteId": "mt_b6kZgqolEd",
+      "strength": "helpful",
+      "reason": "Models of substances and particles provide background for studying chemical properties.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "mt_loEMaQ8kFA",
+      "prerequisiteId": "mt_DA7-JYRvtP",
+      "strength": "helpful",
+      "reason": "A complete circuit provides a starting point for comparing series and parallel paths.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_sci_pressure_area",
+      "prerequisiteId": "nz_metric_home",
+      "strength": "helpful",
+      "reason": "Measuring force and area with appropriate units supports interpreting pressure.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_sci_position_graph",
+      "prerequisiteId": "mt_WBdHkc2HTf",
+      "strength": "helpful",
+      "reason": "Understanding a graph of a linear relationship helps learners interpret a straight section of a position–time graph.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_sci_diffusion",
+      "prerequisiteId": "mt_b6kZgqolEd",
+      "strength": "helpful",
+      "reason": "A particle model helps explain how substances spread through a region.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "mt_mquPi2IP-J",
+      "prerequisiteId": "nzc_sci_cells",
+      "strength": "helpful",
+      "reason": "Understanding cells provides context for processes that release energy within them.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_sci_ecosystem_water",
+      "prerequisiteId": "nzc_sci_water_cycle",
+      "strength": "helpful",
+      "reason": "Understanding water movement supports exploring how ecosystems depend on water.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_soc_remembrance",
+      "prerequisiteId": "nzc_soc_past_present",
+      "strength": "helpful",
+      "reason": "Comparing past and present supports discussion of how people remember events.",
+      "sourceId": "nzc_social_2026"
+    },
+    {
+      "topicId": "nzc_soc_stories_place",
+      "prerequisiteId": "nzc_soc_place_features",
+      "strength": "helpful",
+      "reason": "Observing place features provides context for learning from attributed local stories.",
+      "sourceId": "nzc_social_2026"
+    },
+    {
+      "topicId": "nzc_soc_pacific_navigation",
+      "prerequisiteId": "nz_matariki_puanga",
+      "strength": "helpful",
+      "reason": "Careful observation of the night sky supports discussion of environmental navigation knowledge.",
+      "sourceId": "nzc_social_2026"
+    },
+    {
+      "topicId": "nzc_soc_migration_experience",
+      "prerequisiteId": "nzc_soc_voyaging",
+      "strength": "helpful",
+      "reason": "Voyaging offers a starting point for comparing migration experiences.",
+      "sourceId": "nzc_social_2026"
+    },
+    {
+      "topicId": "nzc_soc_poll_tax",
+      "prerequisiteId": "nzc_soc_migration_experience",
+      "strength": "helpful",
+      "reason": "Different migration experiences provide context for investigating discriminatory restrictions.",
+      "sourceId": "nzc_social_2026"
+    },
+    {
+      "topicId": "nzc_soc_womens_suffrage",
+      "prerequisiteId": "nzc_soc_vote_voice",
+      "strength": "helpful",
+      "reason": "Understanding voting and participation helps explain why people campaigned for voting rights.",
+      "sourceId": "nzc_social_2026"
+    },
+    {
+      "topicId": "nzc_soc_waitangi_1840",
+      "prerequisiteId": "nzc_soc_te_tiriti_sources",
+      "strength": "helpful",
+      "reason": "Comparing the texts and their sources supports inquiry into the circumstances of signing.",
+      "sourceId": "nzc_social_2026"
+    },
+    {
+      "topicId": "nzc_soc_northern_war",
+      "prerequisiteId": "nzc_soc_waitangi_1840",
+      "strength": "helpful",
+      "reason": "The signing of Te Tiriti and the Treaty provides context for later events in the north.",
+      "sourceId": "nzc_social_2026"
+    },
+    {
+      "topicId": "nzc_soc_trade_contact",
+      "prerequisiteId": "nzc_soc_cultural_contact",
+      "strength": "helpful",
+      "reason": "Understanding cultural contact helps learners examine historical exchange and its different consequences.",
+      "sourceId": "nzc_social_2026"
+    },
+    {
+      "topicId": "nzc_soc_nz_wars",
+      "prerequisiteId": "nzc_soc_multiple_causes",
+      "strength": "helpful",
+      "reason": "Considering interconnected causes supports inquiry into the New Zealand Wars.",
+      "sourceId": "nzc_social_2026"
+    },
+    {
+      "topicId": "nzc_soc_parihaka",
+      "prerequisiteId": "nzc_soc_nz_wars",
+      "strength": "helpful",
+      "reason": "The New Zealand Wars and land confiscation provide context for studying peaceful resistance at Parihaka.",
+      "sourceId": "nzc_social_2026"
+    },
+    {
+      "topicId": "nzc_soc_waitangi_tribunal",
+      "prerequisiteId": "nzc_soc_history_perspectives",
+      "strength": "helpful",
+      "reason": "Considering historical evidence and perspectives supports inquiry into claims and Tribunal reports.",
+      "sourceId": "nzc_social_2026"
+    },
+    {
+      "topicId": "nzc_soc_samoa_independence",
+      "prerequisiteId": "nzc_soc_international_cooperation",
+      "strength": "helpful",
+      "reason": "Considering relationships between countries supports study of Pacific self-determination.",
+      "sourceId": "nzc_social_2026"
+    },
+    {
+      "topicId": "nzc_soc_climate_change",
+      "prerequisiteId": "nz_weather_graphs",
+      "strength": "helpful",
+      "reason": "Reading weather data supports comparison with longer-term climate patterns.",
+      "sourceId": "nzc_social_2026"
+    },
+    {
+      "topicId": "nzc_tech_processing_condition",
+      "prerequisiteId": "nzc_sci_heat_transfer",
+      "strength": "helpful",
+      "reason": "Recognising how heat affects temperature helps when comparing food-processing conditions.",
+      "sourceId": "nzc_technology_2026"
+    },
+    {
+      "topicId": "nzc_tech_absorbency_comparison",
+      "prerequisiteId": "nzc_sci_absorb_water",
+      "strength": "helpful",
+      "reason": "Observing absorbency helps learners plan a useful comparison of textiles.",
+      "sourceId": "nzc_technology_2026"
+    },
+    {
+      "topicId": "nzc_tech_structural_forces",
+      "prerequisiteId": "nzc_sci_force_arrows",
+      "strength": "helpful",
+      "reason": "Representing forces supports comparing tension and compression in structures.",
+      "sourceId": "nzc_technology_2026"
+    },
+    {
+      "topicId": "nzc_tech_sensor_actuator",
+      "prerequisiteId": "nzc_sci_current",
+      "strength": "helpful",
+      "reason": "Understanding electrical current helps when examining how electronic sensors and actuators work.",
+      "sourceId": "nzc_technology_2026"
+    },
+    {
+      "topicId": "nzc_hpe_force_body",
+      "prerequisiteId": "nzc_sci_force_arrows",
+      "strength": "helpful",
+      "reason": "Representing forces helps explain how changing movement technique can change the forces on the body.",
+      "sourceId": "nzc_health_2026"
+    },
+    {
+      "topicId": "nzc_hpe_timing_accuracy",
+      "prerequisiteId": "nzc_sci_speed_distance_time",
+      "strength": "helpful",
+      "reason": "Comparing speed and time offers a way to discuss timing in movement.",
+      "sourceId": "nzc_health_2026"
+    },
+    {
+      "topicId": "nzc_sci_digestion",
+      "prerequisiteId": "nzc_hpe_varied_food",
+      "strength": "helpful",
+      "reason": "Identifying varied foods offers familiar examples for investigating digestion and nutrients.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_sci_fair_tests",
+      "prerequisiteId": "nzc_tech_fair_material_test",
+      "strength": "helpful",
+      "reason": "Comparing materials using a consistent method provides an example of a fair test.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_soc_biomes",
+      "prerequisiteId": "nzc_sci_food_web",
+      "strength": "helpful",
+      "reason": "Food-web relationships help explain connections among living things in a biome.",
+      "sourceId": "nzc_social_2026"
+    },
+    {
+      "topicId": "nzc_soc_coastal_management",
+      "prerequisiteId": "nzc_sci_water_cycle",
+      "strength": "helpful",
+      "reason": "Understanding movement of water provides context for investigating coastal change.",
+      "sourceId": "nzc_social_2026"
+    },
+    {
+      "topicId": "nzc_soc_hazard_risk",
+      "prerequisiteId": "nzc_sci_ecosystem_factors",
+      "strength": "helpful",
+      "reason": "Thinking about environmental factors helps learners consider how a natural hazard affects a community.",
+      "sourceId": "nzc_social_2026"
+    },
+    {
+      "topicId": "nzc_soc_tourism_sustainability",
+      "prerequisiteId": "nzc_sci_ecosystem_water",
+      "strength": "helpful",
+      "reason": "Considering freshwater ecosystem needs helps evaluate environmental effects of tourism.",
+      "sourceId": "nzc_social_2026"
+    },
+    {
+      "topicId": "nzc_tech_drawing_views",
+      "prerequisiteId": "nzc_art_line_shape",
+      "strength": "helpful",
+      "reason": "Recognising lines and shapes helps communicate a design from different views.",
+      "sourceId": "nzc_technology_2026"
+    },
+    {
+      "topicId": "nzc_hpe_balance",
+      "prerequisiteId": "nzc_art_movement_space",
+      "strength": "helpful",
+      "reason": "Awareness of movement through space can support exploration of balance.",
+      "sourceId": "nzc_health_2026"
+    },
+    {
+      "topicId": "nzc_hpe_timing_accuracy",
+      "prerequisiteId": "nzc_art_dance_timing",
+      "strength": "helpful",
+      "reason": "Keeping time in a movement sequence can support attention to timing in physical activities.",
+      "sourceId": "nzc_health_2026"
+    },
+    {
+      "topicId": "nzc_art_interpret_evidence",
+      "prerequisiteId": "nzc_soc_artefact_evidence",
+      "strength": "helpful",
+      "reason": "Considering what an object can and cannot show helps interpret an artwork using evidence.",
+      "sourceId": "nzc_arts_2026"
+    },
+    {
+      "topicId": "nzc_soc_cultural_contact",
+      "prerequisiteId": "nzc_art_artist_context",
+      "strength": "helpful",
+      "reason": "Considering an artwork in context helps learners ask whose perspectives are represented when cultures meet.",
+      "sourceId": "nzc_social_2026"
+    },
+    {
+      "topicId": "nzc_hpe_inclusive_activity_leadership",
+      "prerequisiteId": "nzc_tech_accessibility",
+      "strength": "helpful",
+      "reason": "Identifying barriers for different users can inform an inclusive physical activity.",
+      "sourceId": "nzc_health_2026"
+    },
+    {
+      "topicId": "nzc_tech_data_responsibility",
+      "prerequisiteId": "nzc_hpe_online_privacy",
+      "strength": "helpful",
+      "reason": "Considering privacy and boundaries helps when deciding how a design should handle personal data.",
+      "sourceId": "nzc_technology_2026"
+    },
+    {
+      "topicId": "nzc_tech_digital_access",
+      "prerequisiteId": "nzc_hpe_share_consent",
+      "strength": "helpful",
+      "reason": "Seeking consent before sharing supports responsible digital design.",
+      "sourceId": "nzc_technology_2026"
+    },
+    {
+      "topicId": "nzc_hpe_online_privacy",
+      "prerequisiteId": "nzc_soc_scam_evidence",
+      "strength": "helpful",
+      "reason": "Checking suspicious requests helps learners think about protecting personal information online.",
+      "sourceId": "nzc_health_2026"
+    },
+    {
+      "topicId": "nzc_tech_accessible_media",
+      "prerequisiteId": "nzc_nzsl_visual_attention",
+      "strength": "helpful",
+      "reason": "Considering visual access for sign-language users can inform accessible media design.",
+      "sourceId": "nzc_technology_2026"
+    },
+    {
+      "topicId": "nzc_hpe_identity_belonging",
+      "prerequisiteId": "nzc_lang_names_respect",
+      "strength": "helpful",
+      "reason": "Respect for names and how people wish to be addressed supports belonging.",
+      "sourceId": "nzc_health_2026"
+    },
+    {
+      "topicId": "nzc_reo_identity_connections",
+      "prerequisiteId": "nzc_soc_te_reo_petition",
+      "strength": "helpful",
+      "reason": "The Māori language petition provides historical context for inquiry into language and identity.",
+      "sourceId": "nzc_reo_2026"
+    },
+    {
+      "topicId": "nzc_samoa_ceremonial",
+      "prerequisiteId": "nzc_soc_samoa_independence",
+      "strength": "helpful",
+      "reason": "Exploring Sāmoan history offers context for learning about language, community and setting.",
+      "sourceId": "nzc_samoa_2026"
+    },
+    {
+      "topicId": "nzc_lang_cultural_perspective",
+      "prerequisiteId": "nzc_art_dance_interpretation",
+      "strength": "helpful",
+      "reason": "Interpreting cultural expression with attention to context supports learning about perspectives within a language community.",
+      "sourceId": "nzc_languages_2026"
+    },
+    {
+      "topicId": "nzc_tech_attribution",
+      "prerequisiteId": "nzc_soc_printing_press",
+      "strength": "helpful",
+      "reason": "Exploring how printing spreads ideas provides context for crediting sources in modern media.",
+      "sourceId": "nzc_technology_2026"
+    },
+    {
+      "topicId": "nzc_hpe_route_landmarks",
+      "prerequisiteId": "nzc_soc_map_compass",
+      "strength": "helpful",
+      "reason": "Reading basic map directions can support finding landmarks on a familiar route.",
+      "sourceId": "nzc_health_2026"
+    },
+    {
+      "topicId": "nzc_soc_hazard_risk",
+      "prerequisiteId": "nzc_hpe_outdoor_navigation",
+      "strength": "helpful",
+      "reason": "Considering changing outdoor conditions can help identify risks a community may face.",
+      "sourceId": "nzc_social_2026"
+    },
+    {
+      "topicId": "nzc_soc_scam_evidence",
+      "prerequisiteId": "nzc_tech_data_types",
+      "strength": "helpful",
+      "reason": "Thinking about what data is requested helps learners question suspicious online messages.",
+      "sourceId": "nzc_social_2026"
+    },
+    {
+      "topicId": "nzc_soc_tourism_sustainability",
+      "prerequisiteId": "nzc_tech_material_life_evidence",
+      "strength": "helpful",
+      "reason": "Evaluating impacts over a material lifecycle offers a way to consider sustainability decisions.",
+      "sourceId": "nzc_social_2026"
+    },
+    {
+      "topicId": "nzc_tech_program_repeat",
+      "prerequisiteId": "nzc_art_musical_patterns",
+      "strength": "helpful",
+      "reason": "Recognising repeated musical patterns provides a familiar analogy for iteration in an algorithm.",
+      "sourceId": "nzc_technology_2026"
+    },
+    {
+      "topicId": "nzc_tech_system_diagram",
+      "prerequisiteId": "nzc_art_notation_duration",
+      "strength": "helpful",
+      "reason": "Representing timing with symbols provides a familiar example of using a diagram to convey information.",
+      "sourceId": "nzc_technology_2026"
+    },
+    {
+      "topicId": "nzc_tech_steps",
+      "prerequisiteId": "nzc_eng_instructions_steps",
+      "strength": "helpful",
+      "reason": "Writing clear instructions helps communicate a sequence for making something.",
+      "sourceId": "nzc_technology_2026"
+    },
+    {
+      "topicId": "nzc_tech_loops_decisions",
+      "prerequisiteId": "nzc_eng_if_then",
+      "strength": "helpful",
+      "reason": "Using if–then language provides a familiar way to discuss conditional instructions.",
+      "sourceId": "nzc_technology_2026"
+    },
+    {
+      "topicId": "nzc_soc_simple_map",
+      "prerequisiteId": "nzc_eng_heading_diagram",
+      "strength": "helpful",
+      "reason": "Reading labels on a diagram helps learners identify information on a simple map.",
+      "sourceId": "nzc_social_2026"
+    },
+    {
+      "topicId": "nzc_sci_push_pull",
+      "prerequisiteId": "nzc_eng_because_reason",
+      "strength": "helpful",
+      "reason": "Giving a reason helps learners describe why a push or pull changed an object’s movement.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_soc_democratic_dialogue",
+      "prerequisiteId": "nzc_eng_compare_views",
+      "strength": "helpful",
+      "reason": "Comparing viewpoints helps people listen and respond during democratic discussion.",
+      "sourceId": "nzc_social_2026"
+    },
+    {
+      "topicId": "nzc_sci_fair_tests",
+      "prerequisiteId": "nzc_eng_probing_evidence",
+      "strength": "helpful",
+      "reason": "Asking what evidence supports a claim helps learners plan a useful investigation.",
+      "sourceId": "nzc_science_2026"
+    },
+    {
+      "topicId": "nzc_tech_attribution",
+      "prerequisiteId": "nzc_eng_digital_creator",
+      "strength": "helpful",
+      "reason": "Identifying who created digital material is a starting point for crediting its source.",
+      "sourceId": "nzc_technology_2026"
+    },
+    {
+      "topicId": "nzc_soc_te_tiriti_sources",
+      "prerequisiteId": "nzc_eng_reference_source",
+      "strength": "helpful",
+      "reason": "Recording where evidence comes from helps learners compare historical sources.",
+      "sourceId": "nzc_social_2026"
+    },
+    {
+      "topicId": "nzc_soc_history_perspectives",
+      "prerequisiteId": "nzc_eng_excluded_perspective",
+      "strength": "helpful",
+      "reason": "Asking whose perspective is missing helps learners compare interpretations of the past.",
+      "sourceId": "nzc_social_2026"
+    },
+    {
+      "topicId": "nzc_hpe_online_privacy",
+      "prerequisiteId": "nzc_eng_misinfo_source",
+      "strength": "helpful",
+      "reason": "Checking an online message and its source supports safer decisions about sharing information.",
+      "sourceId": "nzc_health_2026"
+    },
+    {
+      "topicId": "nzc_soc_international_cooperation",
+      "prerequisiteId": "nzc_eng_counterargument",
+      "strength": "helpful",
+      "reason": "Considering a counterargument can help learners examine differing views in international decisions.",
+      "sourceId": "nzc_social_2026"
+    },
+    {
+      "topicId": "nzc_art_visual_intention",
+      "prerequisiteId": "nzc_eng_visual_composition",
+      "strength": "helpful",
+      "reason": "Analysing composition and captions supports discussion of visual choices and intention.",
+      "sourceId": "nzc_arts_2026"
+    },
+    {
+      "topicId": "nzc_art_performance_choices",
+      "prerequisiteId": "nzc_eng_dramatic_irony",
+      "strength": "helpful",
+      "reason": "Understanding what an audience knows helps learners examine choices in a dramatic performance.",
+      "sourceId": "nzc_arts_2026"
+    },
+    {
+      "topicId": "nzc_art_scene_structure",
+      "prerequisiteId": "nzc_eng_dialogue_character",
+      "strength": "helpful",
+      "reason": "Examining how dialogue reveals character can help shape a dramatic scene.",
+      "sourceId": "nzc_arts_2026"
+    },
+    {
+      "topicId": "nzc_tech_accessible_media",
+      "prerequisiteId": "nzc_eng_multimodal_effect",
+      "strength": "helpful",
+      "reason": "Recognising how modes contribute to a message helps learners design accessible digital media.",
+      "sourceId": "nzc_technology_2026"
+    },
+    {
+      "topicId": "nzc_eng_excluded_perspective",
+      "prerequisiteId": "nzc_soc_te_reo_petition",
+      "strength": "helpful",
+      "reason": "A historical language petition offers a context for asking whose voice is included in an account.",
+      "sourceId": "nzc_english_phase3"
+    },
+    {
+      "topicId": "nzc_hpe_health_information",
+      "prerequisiteId": "nzc_eng_separate_claim_evidence",
+      "strength": "helpful",
+      "reason": "Separating a claim from supporting evidence helps when checking health information.",
+      "sourceId": "nzc_health_2026"
+    },
+    {
+      "topicId": "nzc_eng_ask_word_meaning",
+      "prerequisiteId": "nzc_lang_clarify",
+      "strength": "helpful",
+      "reason": "Asking for clarification in one language can support asking about an unfamiliar word in another.",
+      "sourceId": "nzc_english_phase1"
+    }
+  ]
+}

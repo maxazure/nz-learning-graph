@@ -59,3 +59,38 @@ test('MCP serves consolidated maths topics and corrected introductory paths',asy
  const path=JSON.parse((await get('create_learning_path',{id:'mt_hRZyKvz1KN'})).content[0].text).data;
  assert.equal(path.steps.at(-1).id,'mt_hRZyKvz1KN');assert.ok(!path.steps.some((s:any)=>s.id==='mt_SH7QgFl8-v'));
 });
+
+test('MCP exposes supplementary curriculum sources, scope and cross-subject links',async()=>{
+ const get=async(name:string,id:string)=>{
+  const response=await rpc(50,'tools/call',{name,arguments:{id}});
+  assert.equal(response.status,200);const body=await response.json() as any;assert.ok(!body.result.isError);
+  return JSON.parse(body.result.content[0].text);
+ };
+ const topic=await get('get_topic','nzc_lang_clarify');
+ assert.equal(topic.data.subject,'Learning Languages');assert.deepEqual(topic.data.suggestedYears,[]);
+ assert.ok(topic.data.teaching.diagnostic_questions[0].answer);
+ assert.match(topic.attribution.contentLicense,/CC-BY-NC-4\.0/);
+ assert.ok(topic.sources.some((s:any)=>s.id==='nzc_languages_2026'&&s.license.includes('CC BY-NC')));
+ const context=await get('get_curriculum_context','nzc_lang_clarify');
+ assert.equal(context.data.mappings[0].framework,'NZC_Y0_10');assert.ok(context.data.coverage.length);
+ assert.ok(context.data.coverageGaps.some((x:string)=>x.includes('proficiency')));
+ const nzsl=await get('get_topic','nzc_nzsl_time_context');
+ assert.ok(nzsl.data.teaching.resources.some((r:any)=>r.url==='https://signbank.nzsl.nz/dictionary/gloss/7116'&&r.attribution));
+ const edges=await get('get_prerequisites','nzc_lang_clarify');
+ assert.ok(edges.data.some((e:any)=>e.topic.subject==='English'&&e.strength==='helpful'));
+});
+
+test('MCP returns teaching material and attributable sources across the expanded subjects',async()=>{
+ const samples=[
+  ['nzc_sci_speed_distance_time','Science'],['nzc_soc_waitangi_1840','Social Sciences'],
+  ['nzc_art_pulse_rhythm','The Arts'],['nzc_hpe_consent','Health and Physical Education'],
+  ['nzc_tech_program_selection','Technology'],['nzc_mandarin_pinyin_tones','Learning Languages'],
+ ];
+ for(const [id,subject] of samples){
+  const response=await rpc(70,'tools/call',{name:'get_topic',arguments:{id}});
+  assert.equal(response.status,200);const rpcResult=await response.json() as any;
+  assert.ok(!rpcResult.result.isError);const result=JSON.parse(rpcResult.result.content[0].text);
+  assert.equal(result.data.subject,subject);assert.equal(result.data.teaching.review_status,'research_draft');
+  assert.ok(result.data.teaching.diagnostic_questions[0].answer,id);assert.ok(result.sources.some((s:any)=>s.url&&s.status),id);
+ }
+});

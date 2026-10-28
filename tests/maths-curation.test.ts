@@ -1,13 +1,12 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
-import {readFileSync} from 'node:fs';
 import original from '../data/topics.json';
 import originalEdges from '../data/dependencies.json';
 import enrichments from '../data/nz-maths/topic-enrichments.json';
 import additions from '../data/nz-maths/topics.json';
 import mappings from '../data/nz-maths/curriculum-mappings.json';
 import supplementEdges from '../data/nz-maths/dependencies.json';
-import {topics,dependencies,getTopic,learningPath,searchTopics} from '../lib/graph';
+import {topics,dependencies,getTopic,learningPath,searchTopics,graphSummary} from '../lib/graph';
 import {canonicalTopicId,mathsCuration} from '../lib/curation';
 import {curriculumMappings,curriculumRequirements,curriculumStandards,mathsSources} from '../lib/maths';
 
@@ -37,7 +36,8 @@ test('every original diagnostic, hint and applicability survives curation',()=>{
   for(const q of t.diagnostic_questions)assert.ok(current.diagnostic_questions.some(c=>JSON.stringify(c)===JSON.stringify(q)),t.id);
   assert.deepEqual(current.curriculum_mapping_ids,curriculumMappings.filter(m=>m.topic_id===t.id).map(m=>m.id));
  }
- assert.equal(topics.flatMap(t=>t.teaching?.diagnostic_questions||[]).length,458);
+ const mathsIds=new Set([...enrichments,...additions].map(t=>t.id));
+ assert.equal(topics.filter(t=>mathsIds.has(t.id)).flatMap(t=>t.teaching?.diagnostic_questions||[]).length,458);
  const scale=getTopic('mt_t0g2SlP404')!.teaching!;
  assert.match(scale.diagnostic_questions[0].question,/impossible/);
  assert.match(getTopic('mt_XfyqXLqzpx')!.description,/every possibility/);
@@ -91,7 +91,9 @@ test('all merge strength conflicts have explicit editorial decisions, with valid
  }
 });
 
-test('homepage counts match the active graph in both languages',()=>{
- const counts=[topics.length,dependencies.length].map(n=>n.toLocaleString('en-NZ'));
- for(const file of ['web/index.html','web/zh-hero.ts']){const text=readFileSync(file,'utf8');for(const count of counts)assert.ok(text.includes(count),file);}
+test('live homepage statistics match the active graph',()=>{
+ const summary=graphSummary();
+ assert.equal(summary.topics,topics.length);assert.equal(summary.links,dependencies.length);
+ assert.equal(summary.subjects,new Set(topics.map(t=>t.subject)).size);
+ assert.equal(summary.cross,dependencies.filter(d=>getTopic(d.topicId)!.subject!==getTopic(d.prerequisiteId)!.subject).length);
 });

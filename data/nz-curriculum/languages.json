@@ -1,0 +1,3123 @@
+{
+  "subject": "Learning Languages",
+  "sources": [
+    {
+      "id": "nzc_languages_2026",
+      "title": "Learning Languages Years 0–10 overview",
+      "url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637293835.p",
+      "documentUrl": "https://mapaoch00pr-search.azurewebsites.net/api/URLShortnerAPI?PartitionKey=2f663f96-0d64-4292-9b32-0ce035d82599&RowKey=85f27342-9d88-4b98-9727-9004c3097734",
+      "status": "published-final; Gazette pending; optional learning area; proposed use from 2027 for Years 9–10 and 2029 for Years 0–8",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "nzc_reo_2026",
+      "title": "Learning Languages: Te Reo Māori Novice",
+      "url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637303582.p",
+      "documentUrl": "https://mapaoch00pr-search.azurewebsites.net/api/URLShortnerAPI?PartitionKey=61f5e7f2-e377-4bc8-b821-22311a1cb396&RowKey=60efa871-3892-4d3f-8a75-31357331b017",
+      "status": "published-final; Gazette pending; optional learning area; proposed use from 2027 for Years 9–10 and 2029 for Years 0–8",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "nzc_mandarin_2026",
+      "title": "Learning Languages: Chinese (Mandarin) Novice",
+      "url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637296082.p",
+      "documentUrl": "https://mapaoch00pr-search.azurewebsites.net/api/URLShortnerAPI?PartitionKey=61da10a0-e8df-4dc7-bc55-ded3525dbd3c&RowKey=4aa71f14-4204-44bb-97cd-b7458c94c4f4",
+      "status": "published-final; Gazette pending; optional learning area; proposed use from 2027 for Years 9–10 and 2029 for Years 0–8",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "nzc_nzsl_2026",
+      "title": "Learning Languages: New Zealand Sign Language overview, glossary and teaching sequence",
+      "url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637303581.p",
+      "status": "published-final; Gazette pending; optional learning area; proposed use from 2027 for Years 9–10 and 2029 for Years 0–8",
+      "checkedAt": "2026-10-29",
+      "documentUrl": "https://mapaoch00pr-search.azurewebsites.net/api/URLShortnerAPI?PartitionKey=ceef2fb6-e2a7-47f5-9880-efcf0031b329&RowKey=4e8bff8e-f131-468c-90af-6532524518e2"
+    },
+    {
+      "id": "nzc_samoa_2026",
+      "title": "Learning Languages: Gagana Sāmoa overview, glossary and teaching sequence",
+      "url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637294579.p",
+      "status": "published-final; Gazette pending; optional learning area; proposed use from 2027 for Years 9–10 and 2029 for Years 0–8",
+      "checkedAt": "2026-10-29",
+      "documentUrl": "https://mapaoch00pr-search.azurewebsites.net/api/URLShortnerAPI?PartitionKey=52b05afc-8597-4653-9604-a3e1f3797388&RowKey=575c75d3-58ba-4f7c-8bbb-14bc38c11335"
+    },
+    {
+      "id": "nzc_tonga_2026",
+      "title": "Learning Languages: Lea Faka-Tonga overview, glossary and teaching sequence",
+      "url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637294582.p",
+      "status": "published-final; Gazette pending; optional learning area; proposed use from 2027 for Years 9–10 and 2029 for Years 0–8",
+      "checkedAt": "2026-10-29",
+      "documentUrl": "https://mapaoch00pr-search.azurewebsites.net/api/URLShortnerAPI?PartitionKey=ea80c08c-b71c-49cd-b9d6-d3b9fb53e12b&RowKey=27457642-20dd-4967-8ab0-7abe24f2f61c"
+    },
+    {
+      "id": "nzc_cook_2026",
+      "title": "Learning Languages: Te Reo Māori Kūki ‘Āirani overview, glossary and teaching sequence",
+      "url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637296831.p",
+      "status": "published-final; Gazette pending; optional learning area; proposed use from 2027 for Years 9–10 and 2029 for Years 0–8",
+      "checkedAt": "2026-10-29",
+      "documentUrl": "https://mapaoch00pr-search.azurewebsites.net/api/URLShortnerAPI?PartitionKey=fe88acda-32b3-4150-939a-d96f75a7a345&RowKey=8b2d4587-c84d-4509-a8a2-4e5d531b9eb7"
+    },
+    {
+      "id": "nzc_niue_2026",
+      "title": "Learning Languages: Vagahau Niue overview, glossary and teaching sequence",
+      "url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637295335.p",
+      "status": "published-final; Gazette pending; optional learning area; proposed use from 2027 for Years 9–10 and 2029 for Years 0–8",
+      "checkedAt": "2026-10-29",
+      "documentUrl": "https://mapaoch00pr-search.azurewebsites.net/api/URLShortnerAPI?PartitionKey=5e3dc7f4-a034-4f87-b0a8-e6918e813861&RowKey=c878ec82-c21b-4a1c-ae93-1bc32609f623"
+    },
+    {
+      "id": "nzc_japanese_2026",
+      "title": "Learning Languages: Japanese overview, glossary and teaching sequence",
+      "url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637303579.p",
+      "status": "published-final; Gazette pending; optional learning area; proposed use from 2027 for Years 9–10 and 2029 for Years 0–8",
+      "checkedAt": "2026-10-29",
+      "documentUrl": "https://mapaoch00pr-search.azurewebsites.net/api/URLShortnerAPI?PartitionKey=57bf194d-2182-40a6-92bb-f9aab806b08e&RowKey=c6aac1e6-8a16-424a-8a84-c77b43c53915"
+    },
+    {
+      "id": "nzc_korean_2026",
+      "title": "Learning Languages: Korean overview, glossary and teaching sequence",
+      "url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637296083.p",
+      "status": "published-final; Gazette pending; optional learning area; proposed use from 2027 for Years 9–10 and 2029 for Years 0–8",
+      "checkedAt": "2026-10-29",
+      "documentUrl": "https://mapaoch00pr-search.azurewebsites.net/api/URLShortnerAPI?PartitionKey=5b74a8f8-e2a4-4f0e-938d-9fb2f8798f5a&RowKey=053e2712-5934-4b90-baae-efcb82dbb332"
+    },
+    {
+      "id": "nzc_french_2026",
+      "title": "Learning Languages: French overview, glossary and teaching sequence",
+      "url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637302076.p",
+      "status": "published-final; Gazette pending; optional learning area; proposed use from 2027 for Years 9–10 and 2029 for Years 0–8",
+      "checkedAt": "2026-10-29",
+      "documentUrl": "https://mapaoch00pr-search.azurewebsites.net/api/URLShortnerAPI?PartitionKey=40dc58f3-3065-413b-b676-f07846589cfb&RowKey=082abf14-1bee-4482-9752-0358f45f23ea"
+    },
+    {
+      "id": "nzc_german_2026",
+      "title": "Learning Languages: German overview, glossary and teaching sequence",
+      "url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637303577.p",
+      "status": "published-final; Gazette pending; optional learning area; proposed use from 2027 for Years 9–10 and 2029 for Years 0–8",
+      "checkedAt": "2026-10-29",
+      "documentUrl": "https://mapaoch00pr-search.azurewebsites.net/api/URLShortnerAPI?PartitionKey=69161923-292c-4229-b4ba-6a730972b980&RowKey=6d3ee340-f53c-48a8-b023-ee41c6fc8cf9"
+    },
+    {
+      "id": "nzc_spanish_2026",
+      "title": "Learning Languages: Spanish overview, glossary and teaching sequence",
+      "url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637295338.p",
+      "status": "published-final; Gazette pending; optional learning area; proposed use from 2027 for Years 9–10 and 2029 for Years 0–8",
+      "checkedAt": "2026-10-29",
+      "documentUrl": "https://mapaoch00pr-search.azurewebsites.net/api/URLShortnerAPI?PartitionKey=701d349b-c325-40a8-8e5e-7dec3059477f&RowKey=fbf16687-4040-49b8-af5b-93d4cd0a9b8e"
+    },
+    {
+      "id": "nzc_tokelau_2026",
+      "title": "Learning Languages: Gagana Tokelau overview, glossary and teaching sequence",
+      "url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637294578.p",
+      "status": "published-final; Gazette pending; optional learning area; proposed use from 2027 for Years 9–10 and 2029 for Years 0–8",
+      "checkedAt": "2026-10-29",
+      "documentUrl": "https://mapaoch00pr-search.azurewebsites.net/api/URLShortnerAPI?PartitionKey=6df839c7-e2bb-4de7-965e-a1eb54746ca5&RowKey=8b7a4b5a-0e05-45e6-bb32-e2ef3061a9ca"
+    }
+  ],
+  "topics": [
+    {
+      "id": "nzc_lang_greeting_context",
+      "name": "Greetings and social context",
+      "domain": "Cultural and Sociolinguistic Knowledge",
+      "description": "Greetings depend on the language, the relationship between people and the situation. Learners can notice an example used by a speaker of the language they are studying.",
+      "years": [],
+      "phase": "Novice 1 (proficiency-based)",
+      "sourceId": "nzc_languages_2026",
+      "locator": "PDF pp. 2, 4, Novice 1 (proficiency-based); Cultural and Sociolinguistic Knowledge",
+      "objectives": [
+        "Explain or demonstrate: greetings and social context."
+      ],
+      "evidence": [
+        "Identifies a context that may change the choice of greeting."
+      ],
+      "misconceptions": [
+        "Every greeting is suitable in every situation."
+      ],
+      "question": "Why might you use a different greeting with a teacher and with a close friend?",
+      "answer": "The relationship and setting can affect the degree of formality and the words or signs used.",
+      "explanation": "A greeting carries social meaning as well as a literal message.",
+      "hints": [
+        "Think about who is being greeted.",
+        "What might change in a formal setting?"
+      ],
+      "activity": "Find two greetings in a trusted language-learning resource and discuss when a speaker might use each.",
+      "materials": [
+        "trusted language model or resource"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_lang_listen_repeat",
+      "name": "Notice and reproduce language patterns",
+      "domain": "Linguistic Knowledge",
+      "description": "Attending to sounds or, for signed languages, visual features can help learners recognise and reproduce familiar language accurately.",
+      "years": [],
+      "phase": "Novice 1 (proficiency-based)",
+      "sourceId": "nzc_languages_2026",
+      "locator": "PDF pp. 2, 4, Novice 1 (proficiency-based); Linguistic Knowledge",
+      "objectives": [
+        "Explain or demonstrate: notice and reproduce language patterns."
+      ],
+      "evidence": [
+        "Notices and practises a specific feature of a familiar expression."
+      ],
+      "misconceptions": [
+        "It is enough to copy only the broad shape of an unfamiliar word or sign."
+      ],
+      "question": "If you do not recognise part of a greeting, what can you do before trying it yourself?",
+      "answer": "Ask or look for a reliable model, observe it again and practise the part that was unclear.",
+      "explanation": "A clear model supports noticing the features that carry meaning.",
+      "hints": [
+        "How can you see or hear the expression again?",
+        "Who or what could provide a reliable model?"
+      ],
+      "activity": "Choose a short greeting from a trusted source, observe or listen twice, and practise it while checking the model.",
+      "materials": [
+        "trusted language model or resource"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_lang_introduction",
+      "name": "Introducing yourself in an additional language",
+      "domain": "Linguistic Knowledge",
+      "description": "A short introduction uses a familiar pattern to share chosen information. A learner can use a fictional name and avoid sharing personal details.",
+      "years": [],
+      "phase": "Novice 1 (proficiency-based)",
+      "sourceId": "nzc_languages_2026",
+      "locator": "PDF pp. 2, 4, Novice 1 (proficiency-based); Linguistic Knowledge",
+      "objectives": [
+        "Explain or demonstrate: introducing yourself in an additional language."
+      ],
+      "evidence": [
+        "Uses an appropriate familiar introduction pattern in a supported interaction."
+      ],
+      "misconceptions": [
+        "An introduction activity requires sharing your real address or personal details."
+      ],
+      "question": "How can you practise introducing yourself without giving personal information?",
+      "answer": "Use a fictional name and a simple introduction pattern from the language being learned.",
+      "explanation": "The practice focuses on the language pattern without requiring private details.",
+      "hints": [
+        "Could you make up a name?",
+        "Which short introduction have you learned?"
+      ],
+      "activity": "Use a fictional character to practise a greeting and introduction with a trusted model.",
+      "materials": [
+        "trusted language model or resource"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_lang_names_respect",
+      "name": "Names, identity and respectful communication",
+      "domain": "Cultural and Sociolinguistic Knowledge",
+      "description": "Names and forms of address can carry cultural and personal meaning. People may have different preferences for how they are addressed.",
+      "years": [],
+      "phase": "Novice 1 (proficiency-based)",
+      "sourceId": "nzc_languages_2026",
+      "locator": "PDF pp. 2–4, Novice 1 (proficiency-based); Cultural and Sociolinguistic Knowledge",
+      "objectives": [
+        "Explain or demonstrate: names, identity and respectful communication."
+      ],
+      "evidence": [
+        "Asks respectfully and uses the form of address the person chooses."
+      ],
+      "misconceptions": [
+        "Everyone from a language community has the same naming preference."
+      ],
+      "question": "If you are unsure how someone prefers their name to be said, what is a respectful response?",
+      "answer": "Ask how they say it, listen or watch carefully, and practise using their preference.",
+      "explanation": "Asking gives the individual a chance to guide how their own name is used.",
+      "hints": [
+        "Who is best placed to tell you their preference?",
+        "What could you do after asking?"
+      ],
+      "activity": "Practise asking about a fictional name and repeat it carefully using a trusted speaker or signer as a model.",
+      "materials": [
+        "trusted language model or resource"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_lang_clarify",
+      "name": "Asking for clarification",
+      "domain": "Linguistic Knowledge",
+      "description": "When a message is unclear, language learners can ask for repetition, slower communication or an explanation using a familiar phrase or sign.",
+      "years": [],
+      "phase": "Novice 2 (proficiency-based)",
+      "sourceId": "nzc_languages_2026",
+      "locator": "PDF pp. 2, 4, Novice 2 (proficiency-based); Linguistic Knowledge",
+      "objectives": [
+        "Explain or demonstrate: asking for clarification."
+      ],
+      "evidence": [
+        "Uses a suitable clarification strategy during a supported exchange."
+      ],
+      "misconceptions": [
+        "Asking for clarification means communication has failed."
+      ],
+      "question": "You miss a word in a conversation. What could you do to keep communicating?",
+      "answer": "Use a learned request for repetition or clarification, then listen or watch again.",
+      "explanation": "Clarification is a communication strategy that helps both people understand.",
+      "hints": [
+        "You can ask for help.",
+        "Could the other person repeat or explain the message?"
+      ],
+      "activity": "Practise a short exchange in which one person deliberately asks for a phrase to be repeated or explained.",
+      "materials": [
+        "trusted language model or resource"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_lang_preferences",
+      "name": "Expressing a preference",
+      "domain": "Linguistic Knowledge",
+      "description": "Learners can use familiar vocabulary and a supported language pattern to say what they like or prefer in a familiar context.",
+      "years": [],
+      "phase": "Novice 2 (proficiency-based)",
+      "sourceId": "nzc_languages_2026",
+      "locator": "PDF pp. 2, 4, Novice 2 (proficiency-based); Linguistic Knowledge",
+      "objectives": [
+        "Explain or demonstrate: expressing a preference."
+      ],
+      "evidence": [
+        "Uses a familiar expression to communicate a choice."
+      ],
+      "misconceptions": [
+        "A vocabulary list by itself always communicates who likes what."
+      ],
+      "question": "How could you tell a partner which of two activities you prefer in the language you are learning?",
+      "answer": "Use a taught preference expression and name one of the activities; a gesture or visual support may also help.",
+      "explanation": "The message combines a preference pattern with a relevant word or sign.",
+      "hints": [
+        "What phrase or sign means you like or prefer something?",
+        "Which activity are you choosing?"
+      ],
+      "activity": "Choose two pictured activities and practise stating a preference, then ask a partner theirs.",
+      "materials": [
+        "trusted language model or resource"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_lang_family_variation",
+      "name": "Family words and community variation",
+      "domain": "Cultural and Sociolinguistic Knowledge",
+      "description": "Words for family and relationships can reflect social and cultural context. Families and language practices vary, so examples should not assume every family has the same structure.",
+      "years": [],
+      "phase": "Novice 2 (proficiency-based)",
+      "sourceId": "nzc_languages_2026",
+      "locator": "PDF pp. 2–4, Novice 2 (proficiency-based); Cultural and Sociolinguistic Knowledge",
+      "objectives": [
+        "Explain or demonstrate: family words and community variation."
+      ],
+      "evidence": [
+        "Uses a respectful example and recognises that families and language use vary."
+      ],
+      "misconceptions": [
+        "Every family uses the same relationships and terms."
+      ],
+      "question": "How can a classroom practise family vocabulary without assuming every learner has the same family?",
+      "answer": "Use a fictional family or let learners choose which relationships they want to describe.",
+      "explanation": "A fictional example supports language practice while respecting different circumstances.",
+      "hints": [
+        "Must everyone describe their own family?",
+        "What could a fictional example include?"
+      ],
+      "activity": "Use a fictional family diagram to practise chosen relationship words, following a reliable language resource.",
+      "materials": [
+        "trusted language model or resource"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_lang_context_formality",
+      "name": "Choosing language for a relationship",
+      "domain": "Cultural and Sociolinguistic Knowledge",
+      "description": "The words, signs or forms of address people choose may change with familiarity, age, role and situation; conventions differ among communities and individuals.",
+      "years": [],
+      "phase": "Novice 2 (proficiency-based)",
+      "sourceId": "nzc_languages_2026",
+      "locator": "PDF pp. 2–4, Novice 2 (proficiency-based); Cultural and Sociolinguistic Knowledge",
+      "objectives": [
+        "Explain or demonstrate: choosing language for a relationship."
+      ],
+      "evidence": [
+        "Explains why audience and context matter when choosing a familiar expression."
+      ],
+      "misconceptions": [
+        "A literal translation always communicates the same level of respect."
+      ],
+      "question": "Why should you check a greeting with a speaker or signer of the language?",
+      "answer": "They can explain how it is used in context and whether a different form would be appropriate.",
+      "explanation": "A direct word-for-word translation may miss social meaning.",
+      "hints": [
+        "Who has knowledge of how the expression is used?",
+        "What information besides its literal meaning would help?"
+      ],
+      "activity": "Compare a casual and a more formal model from the same language and discuss the contexts provided by the source.",
+      "materials": [
+        "trusted language model or resource"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_lang_connected_description",
+      "name": "Connected descriptions",
+      "domain": "Linguistic Knowledge",
+      "description": "As proficiency grows, learners can join familiar expressions to describe a person, place or routine in more than one connected sentence or sign sequence.",
+      "years": [],
+      "phase": "Novice 3 (proficiency-based)",
+      "sourceId": "nzc_languages_2026",
+      "locator": "PDF pp. 4, Novice 3 (proficiency-based); Linguistic Knowledge",
+      "objectives": [
+        "Explain or demonstrate: connected descriptions."
+      ],
+      "evidence": [
+        "Produces a short connected description using familiar structures."
+      ],
+      "misconceptions": [
+        "A longer description is just unrelated words placed together."
+      ],
+      "question": "How could you extend “The park is large” into a short description?",
+      "answer": "Add a relevant detail using a taught structure, such as what people can do there.",
+      "explanation": "A second related detail develops the same topic.",
+      "hints": [
+        "What else could someone learn about the park?",
+        "Use a connection you have already practised."
+      ],
+      "activity": "Using a picture of a fictional place, compose two related statements in the language being learned and check them with a model.",
+      "materials": [
+        "trusted language model or resource"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_lang_time_frames",
+      "name": "Talking about events in time",
+      "domain": "Linguistic Knowledge",
+      "description": "Languages express time in different ways. A learner can use a taught time expression or grammatical pattern to make clear when a familiar event occurs.",
+      "years": [],
+      "phase": "Novice 3 (proficiency-based)",
+      "sourceId": "nzc_languages_2026",
+      "locator": "PDF pp. 4, Novice 3 (proficiency-based); Linguistic Knowledge",
+      "objectives": [
+        "Explain or demonstrate: talking about events in time."
+      ],
+      "evidence": [
+        "Communicates the time of a familiar event using a taught pattern."
+      ],
+      "misconceptions": [
+        "Every language marks past and future in the same grammatical way as English."
+      ],
+      "question": "Why might “yesterday” and “tomorrow” change the meaning of the same activity?",
+      "answer": "They place the activity at different times, so the listener understands whether it has already happened or is expected later.",
+      "explanation": "Time information helps a listener place an event accurately.",
+      "hints": [
+        "Which word refers to a past day?",
+        "Which refers to a future day?"
+      ],
+      "activity": "Place three event cards in past, present and future groups; practise a taught time expression for each in the target language.",
+      "materials": [
+        "trusted language model or resource"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_lang_cultural_perspective",
+      "name": "Perspectives within a language community",
+      "domain": "Cultural and Sociolinguistic Knowledge",
+      "description": "A language community contains people with varied experiences, regional practices and preferences. Reliable sources and community voices help learners understand context.",
+      "years": [],
+      "phase": "Novice 3 (proficiency-based)",
+      "sourceId": "nzc_languages_2026",
+      "locator": "PDF pp. 3–4, Novice 3 (proficiency-based); Cultural and Sociolinguistic Knowledge",
+      "objectives": [
+        "Explain or demonstrate: perspectives within a language community."
+      ],
+      "evidence": [
+        "Describes a perspective without treating it as universal."
+      ],
+      "misconceptions": [
+        "One example represents every member of a community."
+      ],
+      "question": "A source describes one community custom. Can you assume everyone in that community follows it?",
+      "answer": "No. Ask whose perspective the source presents and look for other relevant voices and local context.",
+      "explanation": "One account can be useful without representing everyone.",
+      "hints": [
+        "Who is speaking in the source?",
+        "Could people have different experiences?"
+      ],
+      "activity": "Compare two attributed accounts from speakers or signers about a shared situation and note one similarity and one difference.",
+      "materials": [
+        "trusted language model or resource"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_lang_plan_interaction",
+      "name": "Planning an interaction for an audience",
+      "domain": "Cultural and Sociolinguistic Knowledge",
+      "description": "Planning an exchange involves choosing appropriate language and communication supports for the people and situation involved.",
+      "years": [],
+      "phase": "Novice 3 (proficiency-based)",
+      "sourceId": "nzc_languages_2026",
+      "locator": "PDF pp. 2, 4, Novice 3 (proficiency-based); Cultural and Sociolinguistic Knowledge",
+      "objectives": [
+        "Explain or demonstrate: planning an interaction for an audience."
+      ],
+      "evidence": [
+        "Plans an interaction that considers the listener and situation."
+      ],
+      "misconceptions": [
+        "An interaction only needs correct vocabulary; the listener and setting do not matter."
+      ],
+      "question": "You are preparing to ask for information at a community event. What should you consider?",
+      "answer": "Consider a suitable greeting, a clear question, a way to clarify the response and the audience's communication needs.",
+      "explanation": "Preparation combines language knowledge with attention to the context and the other person.",
+      "hints": [
+        "How will you begin politely?",
+        "What could you do if the answer is unclear?"
+      ],
+      "activity": "Role-play a fictional enquiry using a greeting, one question and a clarification strategy from a trusted model.",
+      "materials": [
+        "trusted language model or resource"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_reo_kia_ora",
+      "name": "Te reo Māori: greeting in context",
+      "domain": "Cultural and Sociolinguistic Knowledge",
+      "description": "Kia ora can be used in several everyday contexts, including greeting and thanks. Other greetings and farewells suit different people and situations.",
+      "years": [],
+      "phase": "Novice 1 (proficiency-based)",
+      "sourceId": "nzc_reo_2026",
+      "locator": "PDF pp. 8, Novice 1 (proficiency-based); Cultural and Sociolinguistic Knowledge",
+      "objectives": [
+        "Explain or demonstrate: te reo māori: greeting in context."
+      ],
+      "evidence": [
+        "Recognises at least two contexts for a familiar te reo Māori greeting."
+      ],
+      "misconceptions": [
+        "A familiar greeting can only have one use in every context."
+      ],
+      "question": "What can “kia ora” communicate in an everyday interaction?",
+      "answer": "It can be used as a greeting or to express thanks, depending on context.",
+      "explanation": "The intended meaning is informed by the situation and relationship.",
+      "hints": [
+        "The phrase can have more than one everyday use.",
+        "Think about meeting someone and receiving help."
+      ],
+      "activity": "Listen to an attributed te reo Māori speaker using a greeting, then practise it in two short fictional situations.",
+      "materials": [
+        "trusted language model or resource"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_reo_macrons",
+      "name": "Te reo Māori: vowel length and macrons",
+      "domain": "Linguistic Knowledge",
+      "description": "A macron marks a long vowel in written te reo Māori, and vowel length can distinguish words. Pronunciation should be learned from reliable speakers, with attention to regional variation.",
+      "years": [],
+      "phase": "Novice 1 (proficiency-based)",
+      "sourceId": "nzc_reo_2026",
+      "locator": "PDF pp. 8, Novice 1 (proficiency-based); Linguistic Knowledge",
+      "objectives": [
+        "Explain or demonstrate: te reo māori: vowel length and macrons."
+      ],
+      "evidence": [
+        "Recognises a macron and describes its role in vowel length."
+      ],
+      "misconceptions": [
+        "Macrons are decorative marks with no effect on meaning."
+      ],
+      "question": "What does the macron show in a written Māori vowel?",
+      "answer": "It marks a long vowel.",
+      "explanation": "The mark carries pronunciation information and can distinguish meanings.",
+      "hints": [
+        "Look at the line above the vowel.",
+        "It signals a difference in vowel length."
+      ],
+      "activity": "Use a trusted audio model to compare a short and a long vowel; mark the long vowel in a copied example.",
+      "materials": [
+        "trusted language model or resource"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_reo_names",
+      "name": "Te reo Māori: names and address",
+      "domain": "Cultural and Sociolinguistic Knowledge",
+      "description": "Te reo Māori greetings can include names and terms of address. Usage is shaped by language knowledge and the situation.",
+      "years": [],
+      "phase": "Novice 2 (proficiency-based)",
+      "sourceId": "nzc_reo_2026",
+      "locator": "PDF pp. 12, Novice 2 (proficiency-based); Cultural and Sociolinguistic Knowledge",
+      "objectives": [
+        "Explain or demonstrate: te reo māori: names and address."
+      ],
+      "evidence": [
+        "Considers a person's preference when choosing a form of address."
+      ],
+      "misconceptions": [
+        "All terms of address can be exchanged without changing meaning."
+      ],
+      "question": "What should you do if you are unsure of the appropriate name or term of address?",
+      "answer": "Ask the person or a trusted speaker and follow their guidance.",
+      "explanation": "The choice of address can carry social meaning and should respect the person's preference.",
+      "hints": [
+        "Whose preference matters?",
+        "Who can explain the language form in context?"
+      ],
+      "activity": "Practise a greeting with a fictional name, then compare it with an attributed language example.",
+      "materials": [
+        "trusted language model or resource"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_reo_place",
+      "name": "Te reo Māori: connections to place",
+      "domain": "Cultural and Sociolinguistic Knowledge",
+      "description": "A mihi may acknowledge connections to people and place. The details and appropriate practices depend on the speaker and local context; learners should use guidance from the relevant community.",
+      "years": [],
+      "phase": "Novice 3 (proficiency-based)",
+      "sourceId": "nzc_reo_2026",
+      "locator": "PDF pp. 14, Novice 3 (proficiency-based); Cultural and Sociolinguistic Knowledge",
+      "objectives": [
+        "Explain or demonstrate: te reo māori: connections to place."
+      ],
+      "evidence": [
+        "Identifies the value of local guidance and avoids inventing personal or community connections."
+      ],
+      "misconceptions": [
+        "A single template can accurately supply anyone's whakapapa or local tikanga."
+      ],
+      "question": "Why should a learner seek local guidance before using a place-based introduction?",
+      "answer": "Local communities and speakers can explain appropriate names, relationships and practices for that context.",
+      "explanation": "Connections to place and their expression can be specific to people and communities.",
+      "hints": [
+        "Who holds knowledge about the place?",
+        "Could practices differ between communities?"
+      ],
+      "activity": "Examine an attributed public example of a mihi and identify how the speaker acknowledges place; do not invent another person's connections.",
+      "materials": [
+        "trusted language model or resource"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_mandarin_pinyin_tones",
+      "name": "Mandarin: pinyin and tone",
+      "domain": "Linguistic Knowledge",
+      "description": "Pinyin represents Mandarin pronunciation with Roman letters and tone marks. Tone can distinguish the meanings of otherwise similar syllables.",
+      "years": [],
+      "phase": "Novice 1 (proficiency-based)",
+      "sourceId": "nzc_mandarin_2026",
+      "locator": "PDF pp. 8, Novice 1 (proficiency-based); Linguistic Knowledge",
+      "objectives": [
+        "Explain or demonstrate: mandarin: pinyin and tone."
+      ],
+      "evidence": [
+        "Recognises that a pinyin tone mark represents pronunciation information."
+      ],
+      "misconceptions": [
+        "Tone marks are optional decoration with no role in meaning."
+      ],
+      "question": "What additional information does a tone mark give in pinyin?",
+      "answer": "It indicates the tone of the syllable.",
+      "explanation": "Tone is part of pronunciation and can affect meaning.",
+      "hints": [
+        "Look at the mark above the vowel.",
+        "Does it tell you about the pitch pattern?"
+      ],
+      "activity": "Listen to a trusted recording of two familiar syllables with different tones and match them to the written pinyin.",
+      "materials": [
+        "trusted language model or resource"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_mandarin_characters",
+      "name": "Mandarin: characters and components",
+      "domain": "Linguistic Knowledge",
+      "description": "Chinese characters are written forms that can contain recurring components. Words may contain one or more characters; simplified and traditional forms are used in different communities.",
+      "years": [],
+      "phase": "Novice 1 (proficiency-based)",
+      "sourceId": "nzc_mandarin_2026",
+      "locator": "PDF pp. 8–9, Novice 1 (proficiency-based); Linguistic Knowledge",
+      "objectives": [
+        "Explain or demonstrate: mandarin: characters and components."
+      ],
+      "evidence": [
+        "Distinguishes a character from a word using a familiar example."
+      ],
+      "misconceptions": [
+        "Every Chinese character is a complete word and every word has one character."
+      ],
+      "question": "Does every Chinese word have to contain exactly one character?",
+      "answer": "No. Chinese words can contain one or more characters.",
+      "explanation": "A character and a word are different units, even when one character forms a word.",
+      "hints": [
+        "Compare a one-character word with a two-character word.",
+        "Count the characters in each."
+      ],
+      "activity": "Choose a familiar two-character word from a reliable dictionary, count its characters and discuss their contribution to the word.",
+      "materials": [
+        "trusted language model or resource"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_mandarin_greetings",
+      "name": "Mandarin: greetings and formality",
+      "domain": "Cultural and Sociolinguistic Knowledge",
+      "description": "Mandarin greetings include forms used in different relationships and situations; respectful choices can depend on the person being addressed.",
+      "years": [],
+      "phase": "Novice 2 (proficiency-based)",
+      "sourceId": "nzc_mandarin_2026",
+      "locator": "PDF pp. 9, 12, Novice 2 (proficiency-based); Cultural and Sociolinguistic Knowledge",
+      "objectives": [
+        "Explain or demonstrate: mandarin: greetings and formality."
+      ],
+      "evidence": [
+        "Distinguishes a familiar casual greeting from a more polite one."
+      ],
+      "misconceptions": [
+        "A greeting has the same social meaning regardless of form or audience."
+      ],
+      "question": "Why might a learner choose 您好 rather than 你好 in a formal exchange?",
+      "answer": "您好 is a polite form that can be appropriate in a respectful or formal setting.",
+      "explanation": "The choice of pronoun helps signal the relationship and formality.",
+      "hints": [
+        "Compare 你 and 您 in a trusted resource.",
+        "Which form is typically more polite?"
+      ],
+      "activity": "Practise two fictional greetings, one casual and one more formal, and explain why the choices differ.",
+      "materials": [
+        "trusted language model or resource"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_mandarin_opinion",
+      "name": "Mandarin: expressing an opinion",
+      "domain": "Linguistic Knowledge",
+      "description": "A learner can express a simple opinion in Mandarin and add a reason using language structures they have already practised.",
+      "years": [],
+      "phase": "Novice 3 (proficiency-based)",
+      "sourceId": "nzc_mandarin_2026",
+      "locator": "PDF pp. 18, Novice 3 (proficiency-based); Linguistic Knowledge",
+      "objectives": [
+        "Explain or demonstrate: mandarin: expressing an opinion."
+      ],
+      "evidence": [
+        "Expresses a simple opinion with a relevant reason using familiar structures."
+      ],
+      "misconceptions": [
+        "An opinion and a supporting reason do exactly the same job."
+      ],
+      "question": "What makes an opinion more informative than naming a preference alone?",
+      "answer": "It can include a reason or detail explaining the preference.",
+      "explanation": "A reason helps the listener understand the speaker's thinking.",
+      "hints": [
+        "What do you think?",
+        "Why do you think it?"
+      ],
+      "activity": "Use a fictional choice between two activities and practise a short opinion plus a reason with an appropriate language model.",
+      "materials": [
+        "trusted language model or resource"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_nzsl_parameters",
+      "name": "NZSL: four features of a sign",
+      "domain": "Linguistic Knowledge",
+      "description": "A sign can be described through its handshape, orientation, location and movement. Learners should watch a reliable Deaf language model to see how these work together.",
+      "years": [],
+      "phase": "Novice 1 (proficiency-based)",
+      "sourceId": "nzc_nzsl_2026",
+      "locator": "PDF p. 9, Novice 1 > Linguistic Knowledge: formational parameters",
+      "objectives": [
+        "Watch a teacher-approved NZSL model and note the four features of one demonstrated sign without guessing its meaning."
+      ],
+      "evidence": [
+        "Identifies the four sign features in a model."
+      ],
+      "misconceptions": [
+        "Only handshape matters in a signed language."
+      ],
+      "question": "Which four features help describe the form of an NZSL sign?",
+      "answer": "Handshape, orientation, location and movement.",
+      "explanation": "A sign can be described through its handshape, orientation, location and movement. Learners should watch a reliable Deaf language model to see how these work together.",
+      "hints": [
+        "Consider both the hand and where it is used.",
+        "How is the hand shaped and facing, and where and how does it move?"
+      ],
+      "activity": "Watch a teacher-approved NZSL model and note the four features of one demonstrated sign without guessing its meaning.",
+      "materials": [
+        "teacher-approved language model or example",
+        "paper and pencil as useful"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_nzsl_visual_attention",
+      "name": "NZSL: visual attention and access",
+      "domain": "Cultural and Sociolinguistic Knowledge",
+      "description": "NZSL communication needs a clear view of the signer’s face, hands and body. Gaining attention respectfully helps make a visual conversation accessible.",
+      "years": [],
+      "phase": "Novice 1 (proficiency-based)",
+      "sourceId": "nzc_nzsl_2026",
+      "locator": "PDF p. 10, Novice 1 > Cultural and Sociolinguistic Knowledge: visual attention and gaining attention; line of sight also supported by official overview glossary",
+      "objectives": [
+        "Arrange two seats for clear sightlines and explain how each person can see the other’s face and hands."
+      ],
+      "evidence": [
+        "Explains how the arrangement supports a visual conversation."
+      ],
+      "misconceptions": [
+        "A signer’s hands are the only part a viewer needs to see."
+      ],
+      "question": "Why should two signers maintain a clear line of sight?",
+      "answer": "So each can see the signs and facial or body cues that carry meaning.",
+      "explanation": "NZSL communication needs a clear view of the signer’s face, hands and body. Gaining attention respectfully helps make a visual conversation accessible.",
+      "hints": [
+        "How is the message received?",
+        "What happens if the signer’s face or hands are hidden?"
+      ],
+      "activity": "Arrange two seats for clear sightlines and explain how each person can see the other’s face and hands.",
+      "materials": [
+        "teacher-approved language model or example",
+        "paper and pencil as useful"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_nzsl_nonmanual",
+      "name": "NZSL: facial and body signals",
+      "domain": "Linguistic Knowledge",
+      "description": "Facial expressions and body movements can contribute grammatical information to NZSL. Their meaning must be learned from an authentic model in context.",
+      "years": [],
+      "phase": "Novice 2 (proficiency-based)",
+      "sourceId": "nzc_nzsl_2026",
+      "locator": "PDF pp. 13, 15, Novice 2 > Linguistic Knowledge: non-manual signals and facial grammar",
+      "objectives": [
+        "Watch a teacher-selected Deaf signer and note the visible facial and body signals alongside hand movement."
+      ],
+      "evidence": [
+        "Observes non-manual signals without inventing a translation."
+      ],
+      "misconceptions": [
+        "Facial expression is always decorative and carries no linguistic information."
+      ],
+      "question": "Why should a viewer watch a signer’s face as well as their hands?",
+      "answer": "Facial and other non-manual signals can contribute to the signed message and its grammar.",
+      "explanation": "Facial expressions and body movements can contribute grammatical information to NZSL. Their meaning must be learned from an authentic model in context.",
+      "hints": [
+        "Where else can grammatical information appear?",
+        "Think about the signer’s face and body."
+      ],
+      "activity": "Watch a teacher-selected Deaf signer and note the visible facial and body signals alongside hand movement.",
+      "materials": [
+        "teacher-approved language model or example",
+        "paper and pencil as useful"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_nzsl_name_signs",
+      "name": "NZSL: name signs and community",
+      "domain": "Cultural and Sociolinguistic Knowledge",
+      "description": "A name sign is given by a Deaf person; the curriculum glossary cautions against giving yourself one or a hearing person assigning one.",
+      "years": [],
+      "phase": "Novice 2 (proficiency-based)",
+      "sourceId": "nzc_nzsl_2026",
+      "locator": "PDF p. 13, Novice 2 > Linguistic Knowledge: name signs given by Deaf community; official overview glossary: appropriate name-sign practice",
+      "objectives": [
+        "Discuss a fictional introduction and identify who could offer guidance on a name sign; do not invent one."
+      ],
+      "evidence": [
+        "Explains why the learner should seek guidance from a Deaf person."
+      ],
+      "misconceptions": [
+        "Anyone should invent their own NZSL name sign."
+      ],
+      "question": "Who should a learner look to for an appropriate NZSL name sign?",
+      "answer": "A Deaf person, rather than inventing or assigning one themselves.",
+      "explanation": "A name sign is given by a Deaf person; the curriculum glossary cautions against giving yourself one or a hearing person assigning one.",
+      "hints": [
+        "Who has knowledge of the language community?",
+        "Does choosing your own name sign respect that practice?"
+      ],
+      "activity": "Discuss a fictional introduction and identify who could offer guidance on a name sign; do not invent one.",
+      "materials": [
+        "teacher-approved language model or example",
+        "paper and pencil as useful"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_nzsl_space_referents",
+      "name": "NZSL: using signing space",
+      "domain": "Linguistic Knowledge",
+      "description": "NZSL uses locations in signing space to connect people, objects or ideas and show relationships among them.",
+      "years": [],
+      "phase": "Novice 3 (proficiency-based)",
+      "sourceId": "nzc_nzsl_2026",
+      "locator": "PDF p. 22, Novice 3 > Linguistic Knowledge: spatial referencing",
+      "objectives": [
+        "Watch a teacher-selected signed story and sketch the locations the signer uses for two characters."
+      ],
+      "evidence": [
+        "Identifies two referents and the locations used to distinguish them."
+      ],
+      "misconceptions": [
+        "Signing space has no role in conveying relationships."
+      ],
+      "question": "What can spatial referencing help a signer show?",
+      "answer": "Relationships between people, objects or ideas by assigning and using locations in signing space.",
+      "explanation": "NZSL uses locations in signing space to connect people, objects or ideas and show relationships among them.",
+      "hints": [
+        "How might space organise people in a story?",
+        "Can locations help the viewer keep track of referents?"
+      ],
+      "activity": "Watch a teacher-selected signed story and sketch the locations the signer uses for two characters.",
+      "materials": [
+        "teacher-approved language model or example",
+        "paper and pencil as useful"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_samoa_glottal",
+      "name": "Gagana Sāmoa: hearing a glottal stop",
+      "domain": "Linguistic Knowledge",
+      "description": "A glottal stop is a brief interruption of airflow. Listen to a fluent speaker or trusted audio to hear how it occurs in the language.",
+      "years": [],
+      "phase": "Novice 1 (proficiency-based)",
+      "sourceId": "nzc_samoa_2026",
+      "locator": "PDF p. 8, Novice 1 > Linguistic Knowledge: glottal stop",
+      "objectives": [
+        "Listen to a teacher-approved Gagana Sāmoa recording and mark where the model includes a brief sound break."
+      ],
+      "evidence": [
+        "Identifies a short interruption in the supplied recording."
+      ],
+      "misconceptions": [
+        "Every sound in a word must be continuous."
+      ],
+      "question": "What is a glottal stop?",
+      "answer": "A brief closure and release of the vocal folds that interrupts the airflow.",
+      "explanation": "A glottal stop is a brief interruption of airflow. Listen to a fluent speaker or trusted audio to hear how it occurs in the language.",
+      "hints": [
+        "Does the voice continue without interruption?",
+        "What brief closure can create a catch in the sound?"
+      ],
+      "activity": "Listen to a teacher-approved Gagana Sāmoa recording and mark where the model includes a brief sound break.",
+      "materials": [
+        "teacher-approved language model or example",
+        "paper and pencil as useful"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_samoa_ceremonial",
+      "name": "Gagana Sāmoa: language and setting",
+      "domain": "Cultural and Sociolinguistic Knowledge",
+      "description": "The form of language can vary with the occasion. Ceremonial language is associated with formal cultural events; community guidance matters for a particular setting.",
+      "years": [],
+      "phase": "Novice 2 (proficiency-based)",
+      "sourceId": "nzc_samoa_2026",
+      "locator": "PDF pp. 11–12, Novice 2 > Cultural and Sociolinguistic Knowledge: formal and cultural contexts; overview glossary: ceremonial language",
+      "objectives": [
+        "Compare a teacher-provided classroom introduction and a description of a formal occasion, without performing ceremonial speech."
+      ],
+      "evidence": [
+        "Identifies the different settings and seeks community guidance for the formal example."
+      ],
+      "misconceptions": [
+        "One expression is automatically appropriate for every event."
+      ],
+      "question": "Why might a classroom greeting differ from language used at a formal event?",
+      "answer": "The occasion and participants can call for a different level or form of language.",
+      "explanation": "The form of language can vary with the occasion. Ceremonial language is associated with formal cultural events; community guidance matters for a particular setting.",
+      "hints": [
+        "Who is present at each event?",
+        "How does the formality of the situation change?"
+      ],
+      "activity": "Compare a teacher-provided classroom introduction and a description of a formal occasion, without performing ceremonial speech.",
+      "materials": [
+        "teacher-approved language model or example",
+        "paper and pencil as useful"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_tokelau_intonation",
+      "name": "Gagana Tokelau: noticing intonation",
+      "domain": "Linguistic Knowledge",
+      "description": "Intonation is the pattern of pitch movement across an utterance and can contribute to communicative meaning. A speaker model helps learners notice the pattern.",
+      "years": [],
+      "phase": "Novice 1 (proficiency-based)",
+      "sourceId": "nzc_tokelau_2026",
+      "locator": "PDF p. 8, Novice 1 > Cultural and Sociolinguistic Knowledge: intonation; p. 7 Novice 1 listening and speaking practice",
+      "objectives": [
+        "Listen to two teacher-selected Gagana Tokelau recordings and sketch arrows for the pitch movement."
+      ],
+      "evidence": [
+        "Identifies an upward or downward pitch pattern in a model."
+      ],
+      "misconceptions": [
+        "Intonation only means speaking more loudly."
+      ],
+      "question": "What changes when a speaker uses rising intonation?",
+      "answer": "The pitch rises across the relevant part of the utterance.",
+      "explanation": "Intonation is the pattern of pitch movement across an utterance and can contribute to communicative meaning. A speaker model helps learners notice the pattern.",
+      "hints": [
+        "Listen for the pitch rather than the loudness.",
+        "Does the pitch travel upward or downward?"
+      ],
+      "activity": "Listen to two teacher-selected Gagana Tokelau recordings and sketch arrows for the pitch movement.",
+      "materials": [
+        "teacher-approved language model or example",
+        "paper and pencil as useful"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_tokelau_intergenerational",
+      "name": "Gagana Tokelau: language across generations",
+      "domain": "Cultural and Sociolinguistic Knowledge",
+      "description": "Language, skills and stories may be shared across generations. Individuals choose what they are comfortable sharing and different families have different experiences.",
+      "years": [],
+      "phase": "Novice 2 (proficiency-based)",
+      "sourceId": "nzc_tokelau_2026",
+      "locator": "Official Gagana Tokelau overview glossary: intergenerational knowledge; Novice 2 editorial placement, not yet checked against the language-specific teaching sequence",
+      "objectives": [
+        "Prepare a voluntary, non-personal question for a language speaker and practise thanking them for any response."
+      ],
+      "evidence": [
+        "Asks a respectful question without assuming anyone must share family information."
+      ],
+      "misconceptions": [
+        "Every family has the same story and must share it."
+      ],
+      "question": "How could a learner respectfully learn about language used across generations?",
+      "answer": "Ask an appropriate speaker whether they wish to share and follow their guidance.",
+      "explanation": "Language, skills and stories may be shared across generations. Individuals choose what they are comfortable sharing and different families have different experiences.",
+      "hints": [
+        "Who has knowledge of the language?",
+        "Should sharing be voluntary?"
+      ],
+      "activity": "Prepare a voluntary, non-personal question for a language speaker and practise thanking them for any response.",
+      "materials": [
+        "teacher-approved language model or example",
+        "paper and pencil as useful"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_tonga_dual",
+      "name": "Lea Faka-Tonga: a dual pronoun",
+      "domain": "Linguistic Knowledge",
+      "description": "A dual pronoun refers specifically to two people. Its exact form depends on the language and context, so learn an example from a fluent model.",
+      "years": [],
+      "phase": "Novice 2 (proficiency-based)",
+      "sourceId": "nzc_tonga_2026",
+      "locator": "PDF p. 12, Novice 2 > Linguistic Knowledge: dual pronouns",
+      "objectives": [
+        "Use two counters and a teacher-supplied example to identify when a dual form refers to a pair."
+      ],
+      "evidence": [
+        "Identifies two referents for the supplied dual form."
+      ],
+      "misconceptions": [
+        "A dual pronoun refers to any number of people."
+      ],
+      "question": "How many people does a dual pronoun refer to?",
+      "answer": "Exactly two people.",
+      "explanation": "A dual pronoun refers specifically to two people. Its exact form depends on the language and context, so learn an example from a fluent model.",
+      "hints": [
+        "Is it singular?",
+        "Does dual indicate two or an unspecified group?"
+      ],
+      "activity": "Use two counters and a teacher-supplied example to identify when a dual form refers to a pair.",
+      "materials": [
+        "teacher-approved language model or example",
+        "paper and pencil as useful"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_tonga_respectful_expression",
+      "name": "Lea Faka-Tonga: relationships and respectful language",
+      "domain": "Cultural and Sociolinguistic Knowledge",
+      "description": "Respectful expression depends on relationships and context. Learners should ask a speaker or teacher about forms suitable for a real situation.",
+      "years": [],
+      "phase": "Novice 2 (proficiency-based)",
+      "sourceId": "nzc_tonga_2026",
+      "locator": "PDF p. 12, Novice 2 > Cultural and Sociolinguistic Knowledge: terms of address",
+      "objectives": [
+        "Sort fictional situations into familiar and formal, then ask a teacher which expressions are appropriate."
+      ],
+      "evidence": [
+        "Explains why the relationship and setting matter to the choice."
+      ],
+      "misconceptions": [
+        "A casual expression is suitable for every formal occasion."
+      ],
+      "question": "Before choosing an expression for a formal visitor, what information is useful?",
+      "answer": "The situation, the relationship and guidance from a knowledgeable speaker.",
+      "explanation": "Respectful expression depends on relationships and context. Learners should ask a speaker or teacher about forms suitable for a real situation.",
+      "hints": [
+        "Who is being addressed?",
+        "Would the same level of formality suit every setting?"
+      ],
+      "activity": "Sort fictional situations into familiar and formal, then ask a teacher which expressions are appropriate.",
+      "materials": [
+        "teacher-approved language model or example",
+        "paper and pencil as useful"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_cook_glottal",
+      "name": "Te Reo Māori Kūki ‘Āirani: noticing a glottal stop",
+      "domain": "Linguistic Knowledge",
+      "description": "The language overview identifies a glottal stop as a brief interruption in airflow. Pronunciation and spelling should be learnt from a reliable community model.",
+      "years": [],
+      "phase": "Novice 1 (proficiency-based)",
+      "sourceId": "nzc_cook_2026",
+      "locator": "PDF pp. 8–9, Novice 1 > Linguistic Knowledge: glottal stop",
+      "objectives": [
+        "Listen to a teacher-approved language model and mark a brief sound break without inventing a spelling."
+      ],
+      "evidence": [
+        "Notices the sound break in the provided example."
+      ],
+      "misconceptions": [
+        "A glottal stop is simply a long vowel."
+      ],
+      "question": "What kind of sound does a glottal stop involve?",
+      "answer": "A brief closure and release that interrupts the airflow.",
+      "explanation": "The language overview identifies a glottal stop as a brief interruption in airflow. Pronunciation and spelling should be learnt from a reliable community model.",
+      "hints": [
+        "Is there a short break in voicing or airflow?",
+        "Think of a momentary catch."
+      ],
+      "activity": "Listen to a teacher-approved language model and mark a brief sound break without inventing a spelling.",
+      "materials": [
+        "teacher-approved language model or example",
+        "paper and pencil as useful"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_cook_proverbs",
+      "name": "Te Reo Māori Kūki ‘Āirani: sayings and guidance",
+      "domain": "Cultural and Sociolinguistic Knowledge",
+      "description": "The glossary identifies sayings and proverbs as ways knowledge and guidance can be expressed. Meaning and appropriate sharing should be discussed with knowledgeable speakers.",
+      "years": [],
+      "phase": "Novice 2 (proficiency-based)",
+      "sourceId": "nzc_cook_2026",
+      "locator": "PDF p. 12, Novice 2 > Linguistic Knowledge: sayings and proverbs; cultural guidance on use is editorial",
+      "objectives": [
+        "Review a teacher-provided saying and record one question about its context and appropriate use."
+      ],
+      "evidence": [
+        "Asks a context-specific question instead of asserting an invented interpretation."
+      ],
+      "misconceptions": [
+        "A saying always means exactly the same thing outside its context."
+      ],
+      "question": "Why ask a knowledgeable speaker before using a proverb in a public display?",
+      "answer": "They can advise on its meaning, context and whether that use is appropriate.",
+      "explanation": "The glossary identifies sayings and proverbs as ways knowledge and guidance can be expressed. Meaning and appropriate sharing should be discussed with knowledgeable speakers.",
+      "hints": [
+        "Does a literal translation explain every cultural context?",
+        "Who can advise on meaning and permission?"
+      ],
+      "activity": "Review a teacher-provided saying and record one question about its context and appropriate use.",
+      "materials": [
+        "teacher-approved language model or example",
+        "paper and pencil as useful"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_niue_kinship_terms",
+      "name": "Vagahau Niue: kinship terms",
+      "domain": "Cultural and Sociolinguistic Knowledge",
+      "description": "Kinship terms identify or address people through relationships. A trusted speaker can explain an appropriate term in a particular family context.",
+      "years": [],
+      "phase": "Novice 2 (proficiency-based)",
+      "sourceId": "nzc_niue_2026",
+      "locator": "PDF p. 11, Novice 2 > Cultural and Sociolinguistic Knowledge: kinship and family relationships",
+      "objectives": [
+        "Use a fictional family diagram and ask a teacher to model one suitable relationship term; do not invent a term."
+      ],
+      "evidence": [
+        "Connects the teacher-modelled term to the intended relationship."
+      ],
+      "misconceptions": [
+        "One English family label must map perfectly to every language."
+      ],
+      "question": "What does a kinship term help identify?",
+      "answer": "A person’s family relationship or an appropriate way of addressing them.",
+      "explanation": "Kinship terms identify or address people through relationships. A trusted speaker can explain an appropriate term in a particular family context.",
+      "hints": [
+        "Is it connected to a relationship?",
+        "What could it tell you about people in a family?"
+      ],
+      "activity": "Use a fictional family diagram and ask a teacher to model one suitable relationship term; do not invent a term.",
+      "materials": [
+        "teacher-approved language model or example",
+        "paper and pencil as useful"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_niue_figurative",
+      "name": "Vagahau Niue: figurative meaning",
+      "domain": "Linguistic Knowledge",
+      "description": "Figurative language can communicate a meaning beyond a literal reading. Interpretation depends on the expression and its context.",
+      "years": [],
+      "phase": "Novice 3 (proficiency-based)",
+      "sourceId": "nzc_niue_2026",
+      "locator": "PDF p. 17, Novice 3 > Linguistic Knowledge: figurative meaning",
+      "objectives": [
+        "Discuss a teacher-supplied figurative expression and note the context needed to understand it."
+      ],
+      "evidence": [
+        "Distinguishes literal wording from a meaning explained by a knowledgeable model."
+      ],
+      "misconceptions": [
+        "Every expression means exactly what its individual words mean literally."
+      ],
+      "question": "Why might a literal translation fail to explain a figurative expression?",
+      "answer": "The intended meaning can be symbolic or culturally understood rather than literal.",
+      "explanation": "Figurative language can communicate a meaning beyond a literal reading. Interpretation depends on the expression and its context.",
+      "hints": [
+        "Is the speaker describing the literal words?",
+        "Could the expression stand for another idea?"
+      ],
+      "activity": "Discuss a teacher-supplied figurative expression and note the context needed to understand it.",
+      "materials": [
+        "teacher-approved language model or example",
+        "paper and pencil as useful"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_japanese_hiragana",
+      "name": "Japanese: hiragana in writing",
+      "domain": "Linguistic Knowledge",
+      "description": "Hiragana is used in Japanese writing for native words and grammatical elements. A reliable model shows the form and reading of each character.",
+      "years": [],
+      "phase": "Novice 1 (proficiency-based)",
+      "sourceId": "nzc_japanese_2026",
+      "locator": "PDF pp. 7–9, Novice 1 > Reading and Linguistic Knowledge: hiragana; official overview glossary: uses of hiragana",
+      "objectives": [
+        "Copy a teacher-provided hiragana character carefully and compare it with the model."
+      ],
+      "evidence": [
+        "Recognises hiragana as a writing system and reproduces the supplied model."
+      ],
+      "misconceptions": [
+        "Japanese writing uses only the Roman alphabet."
+      ],
+      "question": "Which Japanese writing system is commonly used for grammatical elements?",
+      "answer": "Hiragana.",
+      "explanation": "Hiragana is used in Japanese writing for native words and grammatical elements. A reliable model shows the form and reading of each character.",
+      "hints": [
+        "The answer is one of Japanese writing systems.",
+        "Its name begins with h."
+      ],
+      "activity": "Copy a teacher-provided hiragana character carefully and compare it with the model.",
+      "materials": [
+        "teacher-approved language model or example",
+        "paper and pencil as useful"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_japanese_counters",
+      "name": "Japanese: counting with classifiers",
+      "domain": "Linguistic Knowledge",
+      "description": "Japanese uses classifiers or counters alongside numbers for particular types of items. Select a counter from a reliable example for the items being counted.",
+      "years": [],
+      "phase": "Novice 2 (proficiency-based)",
+      "sourceId": "nzc_japanese_2026",
+      "locator": "PDF p. 14, Novice 2 > Linguistic Knowledge: classifiers for people and pets",
+      "objectives": [
+        "Sort teacher-provided pictures into two item categories and match each to a supplied counter example."
+      ],
+      "evidence": [
+        "Matches the modelled counter to its item category without inventing a form."
+      ],
+      "misconceptions": [
+        "The same counting form automatically applies to every type of item."
+      ],
+      "question": "What information besides the number can determine which Japanese counter is used?",
+      "answer": "The type of item being counted.",
+      "explanation": "Japanese uses classifiers or counters alongside numbers for particular types of items. Select a counter from a reliable example for the items being counted.",
+      "hints": [
+        "Are all counted objects alike?",
+        "What category do the objects belong to?"
+      ],
+      "activity": "Sort teacher-provided pictures into two item categories and match each to a supplied counter example.",
+      "materials": [
+        "teacher-approved language model or example",
+        "paper and pencil as useful"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_japanese_address",
+      "name": "Japanese: terms of address and relationships",
+      "domain": "Cultural and Sociolinguistic Knowledge",
+      "description": "Words used to address or refer to someone can show the relationship and level of politeness. Usage should be checked for the situation.",
+      "years": [],
+      "phase": "Novice 2 (proficiency-based)",
+      "sourceId": "nzc_japanese_2026",
+      "locator": "PDF p. 13, Novice 2 > Cultural and Sociolinguistic Knowledge: respectful address",
+      "objectives": [
+        "Compare two teacher-provided forms of address for fictional speakers and explain the context for each."
+      ],
+      "evidence": [
+        "Connects a form of address with its stated relationship and setting."
+      ],
+      "misconceptions": [
+        "A single form of address is suitable for all relationships."
+      ],
+      "question": "Why might a term of address used with a close friend be unsuitable when addressing a teacher?",
+      "answer": "The relationship and level of politeness are different.",
+      "explanation": "Words used to address or refer to someone can show the relationship and level of politeness. Usage should be checked for the situation.",
+      "hints": [
+        "Who is being addressed?",
+        "How formal is the relationship?"
+      ],
+      "activity": "Compare two teacher-provided forms of address for fictional speakers and explain the context for each.",
+      "materials": [
+        "teacher-approved language model or example",
+        "paper and pencil as useful"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_korean_syllable_blocks",
+      "name": "Korean: syllable blocks",
+      "domain": "Linguistic Knowledge",
+      "description": "Korean writing groups consonant and vowel letters into syllable blocks. A block can therefore contain more than one letter.",
+      "years": [],
+      "phase": "Novice 1 (proficiency-based)",
+      "sourceId": "nzc_korean_2026",
+      "locator": "PDF pp. 8–9, Novice 1 > Linguistic Knowledge: syllable blocks",
+      "objectives": [
+        "Examine a teacher-provided Korean syllable block and identify the consonant and vowel components."
+      ],
+      "evidence": [
+        "Identifies more than one letter component within the model block."
+      ],
+      "misconceptions": [
+        "Every square-shaped block represents exactly one letter."
+      ],
+      "question": "Does one Korean syllable block necessarily consist of only one letter?",
+      "answer": "No. A block groups consonant and vowel letters.",
+      "explanation": "Korean writing groups consonant and vowel letters into syllable blocks. A block can therefore contain more than one letter.",
+      "hints": [
+        "Look inside the square-shaped block.",
+        "Can it contain more than one component?"
+      ],
+      "activity": "Examine a teacher-provided Korean syllable block and identify the consonant and vowel components.",
+      "materials": [
+        "teacher-approved language model or example",
+        "paper and pencil as useful"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_korean_speech_levels",
+      "name": "Korean: speech levels and audience",
+      "domain": "Cultural and Sociolinguistic Knowledge",
+      "description": "Korean speech levels can vary with the relationship and situation. A reliable speaker model is needed to choose an appropriate form.",
+      "years": [],
+      "phase": "Novice 2 (proficiency-based)",
+      "sourceId": "nzc_korean_2026",
+      "locator": "PDF p. 12, Novice 2 > Cultural and Sociolinguistic Knowledge: speech levels and relationships",
+      "objectives": [
+        "Compare two teacher-supplied Korean utterances used in different settings and identify the audience for each."
+      ],
+      "evidence": [
+        "Associates each model with its stated audience and setting."
+      ],
+      "misconceptions": [
+        "Every Korean utterance uses one universal speech level."
+      ],
+      "question": "Why should a Korean learner consider the listener before choosing a speech level?",
+      "answer": "The relationship and setting can affect the level of politeness expected.",
+      "explanation": "Korean speech levels can vary with the relationship and situation. A reliable speaker model is needed to choose an appropriate form.",
+      "hints": [
+        "Who is the listener?",
+        "Would a formal meeting and a close friendship use the same register automatically?"
+      ],
+      "activity": "Compare two teacher-supplied Korean utterances used in different settings and identify the audience for each.",
+      "materials": [
+        "teacher-approved language model or example",
+        "paper and pencil as useful"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_french_alphabetic",
+      "name": "French: alphabetic writing",
+      "domain": "Linguistic Knowledge",
+      "description": "French uses alphabetic writing in which letters represent sounds. Sound–spelling relationships need to be learned from reliable examples.",
+      "years": [],
+      "phase": "Novice 1 (proficiency-based)",
+      "sourceId": "nzc_french_2026",
+      "locator": "PDF p. 8, Novice 1 > Linguistic Knowledge: French alphabet; official overview glossary: alphabetic writing",
+      "objectives": [
+        "Inspect a teacher-supplied French word and listen to its recording; mark the letters and compare with the model."
+      ],
+      "evidence": [
+        "Identifies letters in a French example and relates the written word to its audio model."
+      ],
+      "misconceptions": [
+        "An alphabetic writing system uses one whole symbol for every sentence."
+      ],
+      "question": "What kind of writing system uses letters to represent sounds?",
+      "answer": "An alphabetic writing system.",
+      "explanation": "French uses alphabetic writing in which letters represent sounds. Sound–spelling relationships need to be learned from reliable examples.",
+      "hints": [
+        "Does the system use letters?",
+        "What can those letters represent?"
+      ],
+      "activity": "Inspect a teacher-supplied French word and listen to its recording; mark the letters and compare with the model.",
+      "materials": [
+        "teacher-approved language model or example",
+        "paper and pencil as useful"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_french_grammatical_gender",
+      "name": "French: grammatical gender",
+      "domain": "Linguistic Knowledge",
+      "description": "French nouns have grammatical gender, and accompanying articles or adjectives may change form to agree. Learn each example as it is used.",
+      "years": [],
+      "phase": "Novice 2 (proficiency-based)",
+      "sourceId": "nzc_french_2026",
+      "locator": "PDF pp. 11–12, Novice 2 > Linguistic Knowledge: articles and gender agreement",
+      "objectives": [
+        "Sort teacher-supplied noun-and-article pairs by their given article and check the model."
+      ],
+      "evidence": [
+        "Groups provided examples by article and explains why the article is useful."
+      ],
+      "misconceptions": [
+        "Grammatical gender always describes the biological sex of the object."
+      ],
+      "question": "Why should a learner notice the article that accompanies a French noun?",
+      "answer": "The article can help show the noun’s grammatical gender and agreement pattern.",
+      "explanation": "French nouns have grammatical gender, and accompanying articles or adjectives may change form to agree. Learn each example as it is used.",
+      "hints": [
+        "Which word appears with the noun?",
+        "What grammatical information might it help show?"
+      ],
+      "activity": "Sort teacher-supplied noun-and-article pairs by their given article and check the model.",
+      "materials": [
+        "teacher-approved language model or example",
+        "paper and pencil as useful"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_german_compound",
+      "name": "German: compound nouns",
+      "domain": "Linguistic Knowledge",
+      "description": "A compound noun is formed from smaller word elements. Recognising parts can help learners investigate meaning, while a dictionary or teacher checks the whole word.",
+      "years": [],
+      "phase": "Novice 2 (proficiency-based)",
+      "sourceId": "nzc_german_2026",
+      "locator": "PDF p. 13, Novice 2 > Linguistic Knowledge: compound nouns",
+      "objectives": [
+        "With a teacher, divide a provided German compound noun into its modelled components and check its meaning."
+      ],
+      "evidence": [
+        "Identifies modelled components and checks the complete word."
+      ],
+      "misconceptions": [
+        "A long word cannot contain meaningful smaller elements."
+      ],
+      "question": "What can a learner look for in an unfamiliar German compound noun?",
+      "answer": "Smaller word elements and a trusted explanation of the whole word.",
+      "explanation": "A compound noun is formed from smaller word elements. Recognising parts can help learners investigate meaning, while a dictionary or teacher checks the whole word.",
+      "hints": [
+        "Could the long word contain smaller parts?",
+        "Why should the whole meaning still be checked?"
+      ],
+      "activity": "With a teacher, divide a provided German compound noun into its modelled components and check its meaning.",
+      "materials": [
+        "teacher-approved language model or example",
+        "paper and pencil as useful"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_german_verb_forms",
+      "name": "German: verb forms",
+      "domain": "Linguistic Knowledge",
+      "description": "A verb can change form to express grammatical information. Learners compare trusted examples to notice a pattern.",
+      "years": [],
+      "phase": "Novice 2 (proficiency-based)",
+      "sourceId": "nzc_german_2026",
+      "locator": "PDF pp. 12–13, Novice 2 > Linguistic Knowledge: conjugation of verbs",
+      "objectives": [
+        "Compare two teacher-provided forms of the same German verb and identify the stated subject in each."
+      ],
+      "evidence": [
+        "Matches each verb form with the subject in its model sentence."
+      ],
+      "misconceptions": [
+        "A verb has only one form in every sentence."
+      ],
+      "question": "If two German verb forms differ, what could the forms help show?",
+      "answer": "They can show information such as who is doing the action or when it happens.",
+      "explanation": "A verb can change form to express grammatical information. Learners compare trusted examples to notice a pattern.",
+      "hints": [
+        "What does the sentence say about the action?",
+        "Could the person or time affect the verb form?"
+      ],
+      "activity": "Compare two teacher-provided forms of the same German verb and identify the stated subject in each.",
+      "materials": [
+        "teacher-approved language model or example",
+        "paper and pencil as useful"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_spanish_cognates",
+      "name": "Spanish: checking cognates",
+      "domain": "Linguistic Knowledge",
+      "description": "Cognates are words in different languages with a shared origin and often similar forms or meanings. A similar-looking word still needs a context check.",
+      "years": [],
+      "phase": "Novice 1 (proficiency-based)",
+      "sourceId": "nzc_spanish_2026",
+      "locator": "PDF p. 9, Novice 1 > Linguistic Knowledge: cognate examples; official overview glossary: cognates",
+      "objectives": [
+        "Compare teacher-provided Spanish and English word pairs and verify each meaning in context."
+      ],
+      "evidence": [
+        "Uses a similarity as a clue and checks a meaning with a trusted example."
+      ],
+      "misconceptions": [
+        "All similar-looking words mean exactly the same thing in every context."
+      ],
+      "question": "Why check a similar-looking Spanish word in context?",
+      "answer": "Similarity can be a useful clue, but it does not guarantee the intended meaning in every context.",
+      "explanation": "Cognates are words in different languages with a shared origin and often similar forms or meanings. A similar-looking word still needs a context check.",
+      "hints": [
+        "Do similar spellings always have the same meaning?",
+        "What could confirm the word in this sentence?"
+      ],
+      "activity": "Compare teacher-provided Spanish and English word pairs and verify each meaning in context.",
+      "materials": [
+        "teacher-approved language model or example",
+        "paper and pencil as useful"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_spanish_time_markers",
+      "name": "Spanish: time markers",
+      "domain": "Linguistic Knowledge",
+      "description": "In Spanish, ayer means yesterday and este fin de semana means this weekend. The surrounding sentence helps establish the time of an event.",
+      "years": [],
+      "phase": "Novice 3 (proficiency-based)",
+      "sourceId": "nzc_spanish_2026",
+      "locator": "PDF p. 14, Novice 3 > Linguistic Knowledge: time markers",
+      "objectives": [
+        "Recognise ayer and este fin de semana and explain what time each expression refers to."
+      ],
+      "evidence": [
+        "Identifies ayer as yesterday and este fin de semana as this weekend in the supplied examples."
+      ],
+      "misconceptions": [
+        "A time expression alone always tells whether this weekend is past or future."
+      ],
+      "question": "Which Spanish expression means yesterday: ayer or este fin de semana?",
+      "answer": "Ayer means yesterday.",
+      "explanation": "Ayer refers to the previous day. Este fin de semana means this weekend; the surrounding sentence and context clarify when the event takes place.",
+      "hints": [
+        "One expression refers to the previous day.",
+        "Ayer is the single-word expression."
+      ],
+      "activity": "Write ayer and este fin de semana on two cards. Match each to its English meaning, then explain why a sentence can help clarify the timing of this weekend.",
+      "materials": [
+        "paper and pencil or an accessible communication tool"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_spanish_transaction",
+      "name": "Spanish: a practical transaction",
+      "domain": "Linguistic Knowledge",
+      "description": "A transaction uses communication to achieve a practical goal, such as asking for information or making a plan. The words depend on context and the relationship.",
+      "years": [],
+      "phase": "Novice 3 (proficiency-based)",
+      "sourceId": "nzc_spanish_2026",
+      "locator": "PDF p. 15, Novice 3 > Linguistic Knowledge: transactional interaction",
+      "objectives": [
+        "Role-play a fictional timetable inquiry using teacher-provided Spanish expressions and no personal details."
+      ],
+      "evidence": [
+        "Identifies the information needed and uses an appropriate modelled exchange."
+      ],
+      "misconceptions": [
+        "A transaction has no practical purpose."
+      ],
+      "question": "In a conversation to ask when a bus leaves, what practical goal is being communicated?",
+      "answer": "Finding the bus departure time.",
+      "explanation": "A transaction uses communication to achieve a practical goal, such as asking for information or making a plan. The words depend on context and the relationship.",
+      "hints": [
+        "What information does the traveller need?",
+        "What action is the exchange helping them complete?"
+      ],
+      "activity": "Role-play a fictional timetable inquiry using teacher-provided Spanish expressions and no personal details.",
+      "materials": [
+        "teacher-approved language model or example",
+        "paper and pencil as useful"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_reo_digraphs",
+      "name": "Te reo Māori: the ng and wh digraphs",
+      "domain": "Linguistic Knowledge",
+      "description": "A digraph uses two written letters to represent a sound. In te reo Māori, ng and wh are digraphs; a local speaker can model their pronunciation.",
+      "years": [],
+      "phase": "Novice 1 (proficiency-based)",
+      "sourceId": "nzc_reo_2026",
+      "locator": "PDF p. 8, Novice 1 > Linguistic Knowledge",
+      "objectives": [
+        "Listen to a teacher model nga and wha and identify the two-letter group in each."
+      ],
+      "evidence": [
+        "Recognises ng and wh in the supplied syllables."
+      ],
+      "misconceptions": [
+        "Each letter in a digraph must represent a separate sound."
+      ],
+      "question": "Which two-letter groups are digraphs in te reo Māori?",
+      "answer": "ng and wh.",
+      "explanation": "A digraph uses two written letters to represent a sound. In te reo Māori, ng and wh are digraphs; a local speaker can model their pronunciation.",
+      "hints": [
+        "Look for two letters working together.",
+        "Which groups occur at the beginnings of nga and wha?"
+      ],
+      "activity": "Listen to a teacher model nga and wha and identify the two-letter group in each.",
+      "materials": [
+        "teacher-approved language model",
+        "paper and pencil as useful"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_reo_direct_address",
+      "name": "Te reo Māori: direct address",
+      "domain": "Linguistic Knowledge",
+      "description": "A short Māori name can be introduced by e when the person is addressed. The source gives the example “Tēnā koe, e Mere.”",
+      "years": [],
+      "phase": "Novice 2 (proficiency-based)",
+      "sourceId": "nzc_reo_2026",
+      "locator": "PDF p. 12, Novice 2 > Linguistic Knowledge",
+      "objectives": [
+        "Read the teacher-provided greeting and underline the name and preceding word."
+      ],
+      "evidence": [
+        "Identifies e before Mere in the given greeting."
+      ],
+      "misconceptions": [
+        "A person’s name can never be preceded by an address marker."
+      ],
+      "question": "In “Tēnā koe, e Mere,” which word directly precedes the name?",
+      "answer": "e.",
+      "explanation": "A short Māori name can be introduced by e when the person is addressed. The source gives the example “Tēnā koe, e Mere.”",
+      "hints": [
+        "Find the name Mere.",
+        "Which short word comes just before it?"
+      ],
+      "activity": "Read the teacher-provided greeting and underline the name and preceding word.",
+      "materials": [
+        "teacher-approved language model",
+        "paper and pencil as useful"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_reo_identity_connections",
+      "name": "Te reo Māori: introducing connections with care",
+      "domain": "Cultural and Sociolinguistic Knowledge",
+      "description": "A mihi can acknowledge people and place. The curriculum also describes kōrero tuakiri as an option for non-Māori to share identity without inventing whakapapa.",
+      "years": [],
+      "phase": "Novice 3 (proficiency-based)",
+      "sourceId": "nzc_reo_2026",
+      "locator": "PDF p. 14, Novice 3 > Cultural and Sociolinguistic Knowledge",
+      "objectives": [
+        "Draft a fictional introduction using only supplied identity details, then ask a knowledgeable teacher for feedback."
+      ],
+      "evidence": [
+        "Uses the supplied identity information without inventing whakapapa."
+      ],
+      "misconceptions": [
+        "Everyone needs to claim an iwi or whakapapa they do not have to introduce themselves."
+      ],
+      "question": "What could a non-Māori learner share in an introduction without claiming an invented iwi connection?",
+      "answer": "Their own chosen identity and place connections, with appropriate guidance.",
+      "explanation": "A mihi can acknowledge people and place. The curriculum also describes kōrero tuakiri as an option for non-Māori to share identity without inventing whakapapa.",
+      "hints": [
+        "What does the learner know about their own story?",
+        "Must an iwi connection be invented for an introduction?"
+      ],
+      "activity": "Draft a fictional introduction using only supplied identity details, then ask a knowledgeable teacher for feedback.",
+      "materials": [
+        "teacher-approved language model",
+        "paper and pencil as useful"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_mandarin_neutral_tone",
+      "name": "Mandarin: a neutral tone in repeated words",
+      "domain": "Linguistic Knowledge",
+      "description": "A second syllable in some repeated Mandarin words is pronounced with a neutral tone. For example, 姐姐 is written jiě jie in pinyin.",
+      "years": [],
+      "phase": "Novice 2 (proficiency-based)",
+      "sourceId": "nzc_mandarin_2026",
+      "locator": "PDF p. 12, Novice 2 > Linguistic Knowledge",
+      "objectives": [
+        "Identify the marked first syllable and the unmarked neutral-tone second syllable in jiě jie."
+      ],
+      "evidence": [
+        "Identifies the unmarked second syllable as neutral in this written example."
+      ],
+      "misconceptions": [
+        "Every syllable in a repeated word always carries the same marked tone."
+      ],
+      "question": "In jiě jie (姐姐), which syllable is pronounced with a neutral tone?",
+      "answer": "The second syllable, jie.",
+      "explanation": "A second syllable in some repeated Mandarin words is pronounced with a neutral tone. For example, 姐姐 is written jiě jie in pinyin.",
+      "hints": [
+        "Look for the syllable without a tone mark.",
+        "Is it the first or second jie?"
+      ],
+      "activity": "Write jiě jie and mark the first and second syllables. Circle the syllable without a tone mark; if a trusted audio model is available, listen to how it sounds.",
+      "materials": [
+        "paper and pencil or an accessible communication tool",
+        "optional trusted audio model"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_mandarin_character_structure",
+      "name": "Mandarin: character component layout",
+      "domain": "Linguistic Knowledge",
+      "description": "Chinese characters can arrange components side by side, above and below, or with one enclosing another. The example 好 has a left–right layout.",
+      "years": [],
+      "phase": "Novice 2 (proficiency-based)",
+      "sourceId": "nzc_mandarin_2026",
+      "locator": "PDF p. 12, Novice 2 > Linguistic Knowledge",
+      "objectives": [
+        "Copy 好 from a reliable model and circle the left and right components."
+      ],
+      "evidence": [
+        "Identifies the two sides of the character in the model."
+      ],
+      "misconceptions": [
+        "Every Chinese character is arranged vertically."
+      ],
+      "question": "How are the components arranged in 好?",
+      "answer": "Side by side, in a left–right arrangement.",
+      "explanation": "Chinese characters can arrange components side by side, above and below, or with one enclosing another. The example 好 has a left–right layout.",
+      "hints": [
+        "Look at the two visible parts.",
+        "Is one beside the other or above it?"
+      ],
+      "activity": "Copy 好 from a reliable model and circle the left and right components.",
+      "materials": [
+        "teacher-approved language model",
+        "paper and pencil as useful"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_mandarin_date_order",
+      "name": "Mandarin: reading a date",
+      "domain": "Linguistic Knowledge",
+      "description": "A written Mandarin date can be expressed from the larger unit to the smaller: year, month, then day. 年 marks year, 月 month and 日 day.",
+      "years": [],
+      "phase": "Novice 2 (proficiency-based)",
+      "sourceId": "nzc_mandarin_2026",
+      "locator": "PDF p. 14, Novice 2 > Linguistic Knowledge",
+      "objectives": [
+        "Write two fictional dates in year–month–day order using a supplied number and marker chart."
+      ],
+      "evidence": [
+        "Identifies 3月 as the month in the given date."
+      ],
+      "misconceptions": [
+        "Mandarin dates must always place the day before the month."
+      ],
+      "question": "In 2025年3月7日, which part gives the month?",
+      "answer": "3月 gives the month, March.",
+      "explanation": "A written Mandarin date can be expressed from the larger unit to the smaller: year, month, then day. 年 marks year, 月 month and 日 day.",
+      "hints": [
+        "Find 月, the month marker.",
+        "What number comes immediately before 月?"
+      ],
+      "activity": "Write two fictional dates in year–month–day order using a supplied number and marker chart.",
+      "materials": [
+        "teacher-approved language model",
+        "paper and pencil as useful"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_mandarin_asking_repetition",
+      "name": "Mandarin: asking someone to repeat",
+      "domain": "Linguistic Knowledge",
+      "description": "A learner can ask for repetition to keep an interaction going. 请再说一遍 (qǐng zài shuō yí biàn) is a polite request to say something again.",
+      "years": [],
+      "phase": "Novice 3 (proficiency-based)",
+      "sourceId": "nzc_mandarin_2026",
+      "locator": "PDF p. 18, Novice 3 > Linguistic Knowledge",
+      "objectives": [
+        "Practise a fictional two-person exchange using a trusted audio model for 请再说一遍."
+      ],
+      "evidence": [
+        "Uses the supplied phrase to request repetition in the practice exchange."
+      ],
+      "misconceptions": [
+        "Asking someone to repeat a message always ends a conversation."
+      ],
+      "question": "What does 请再说一遍 ask the other person to do?",
+      "answer": "Please say it again.",
+      "explanation": "A learner can ask for repetition to keep an interaction going. 请再说一遍 (qǐng zài shuō yí biàn) is a polite request to say something again.",
+      "hints": [
+        "The phrase is a request for clarification.",
+        "Is the listener asking for the message to be repeated?"
+      ],
+      "activity": "Practise a fictional two-person exchange using a trusted audio model for 请再说一遍.",
+      "materials": [
+        "teacher-approved language model",
+        "paper and pencil as useful"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_mandarin_because",
+      "name": "Mandarin: giving a reason with 因为",
+      "domain": "Linguistic Knowledge",
+      "description": "因为 (yīnwèi) introduces a reason. It can help a learner explain a simple opinion or preference.",
+      "years": [],
+      "phase": "Novice 3 (proficiency-based)",
+      "sourceId": "nzc_mandarin_2026",
+      "locator": "PDF p. 18, Novice 3 > Linguistic Knowledge",
+      "objectives": [
+        "Use a teacher-supplied model to connect a fictional preference to a simple reason with 因为."
+      ],
+      "evidence": [
+        "Identifies the reason following 因为 in the supplied sentence."
+      ],
+      "misconceptions": [
+        "An opinion and its reason can never be linked in Mandarin."
+      ],
+      "question": "What role does 因为 (yīnwèi) play when giving an opinion?",
+      "answer": "It introduces a reason, meaning “because”.",
+      "explanation": "因为 (yīnwèi) introduces a reason. It can help a learner explain a simple opinion or preference.",
+      "hints": [
+        "Is it used for a reason or a question?",
+        "Which English word introduces a reason?"
+      ],
+      "activity": "Use a teacher-supplied model to connect a fictional preference to a simple reason with 因为.",
+      "materials": [
+        "teacher-approved language model",
+        "paper and pencil as useful"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_nzsl_fingerspell_names",
+      "name": "NZSL: fingerspelling a name",
+      "domain": "Linguistic Knowledge",
+      "description": "NZSL fingerspelling uses two hands to represent letters and can be used for names. Learn each handshape from a reliable Deaf signer or validated model.",
+      "years": [],
+      "phase": "Novice 1 (proficiency-based)",
+      "sourceId": "nzc_nzsl_2026",
+      "locator": "PDF p. 11, Novice 1 > Linguistic Knowledge; teaching-sequence example",
+      "objectives": [
+        "Watch an approved NZSL model fingerspell a fictional name and identify the sequence of letters without creating a name sign."
+      ],
+      "evidence": [
+        "Identifies the letters in a modelled fingerspelled name."
+      ],
+      "misconceptions": [
+        "Fingerspelling and assigning a name sign are the same practice."
+      ],
+      "question": "When introducing an unfamiliar name in NZSL, what can a signer use to represent its letters?",
+      "answer": "NZSL fingerspelling.",
+      "explanation": "NZSL fingerspelling uses two hands to represent letters and can be used for names. Learn each handshape from a reliable Deaf signer or validated model.",
+      "hints": [
+        "Does every unfamiliar name already have a sign?",
+        "Which system represents letters with the hands?"
+      ],
+      "activity": "Watch an approved NZSL model fingerspell a fictional name and identify the sequence of letters without creating a name sign.",
+      "materials": [
+        "teacher-approved language model or example",
+        "paper and pencil as useful"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_nzsl_time_context",
+      "name": "NZSL: setting the time of an event",
+      "domain": "Linguistic Knowledge",
+      "description": "In NZSL, time markers can establish when an event occurs and work together with spatial and non-manual features.",
+      "years": [],
+      "phase": "Novice 3 (proficiency-based)",
+      "sourceId": "nzc_nzsl_2026",
+      "locator": "PDF p. 19, Novice 3 > Linguistic Knowledge; teaching-sequence example",
+      "objectives": [
+        "Watch the linked NZSL Signbank example and identify the time context before the event."
+      ],
+      "evidence": [
+        "Identifies the time context in the signed example, using the English sentence as support."
+      ],
+      "misconceptions": [
+        "Time in a signed story can only be communicated by speaking aloud."
+      ],
+      "question": "Why might a signer establish a time marker before describing an event?",
+      "answer": "It sets the time context for the event.",
+      "explanation": "In NZSL, time markers can establish when an event occurs and work together with spatial and non-manual features.",
+      "hints": [
+        "What information tells the viewer when?",
+        "How could that context prepare the viewer for the event?"
+      ],
+      "activity": "Watch the linked NZSL Signbank example sentence. Look for the time marker at the start, then compare the signed example with its English translation.",
+      "materials": [
+        "the linked NZSL Signbank example",
+        "paper and pencil as useful"
+      ],
+      "minutes": 15,
+      "resources": [
+        {
+          "label": "NZSL Signbank: a signed example with a time marker",
+          "url": "https://signbank.nzsl.nz/dictionary/gloss/7116",
+          "attribution": "Deaf Studies Research Unit, Victoria University of Wellington; see the site’s terms."
+        }
+      ]
+    },
+    {
+      "id": "nzc_samoa_excuse_tulou",
+      "name": "Gagana Sāmoa: using tulou to be excused",
+      "domain": "Linguistic Knowledge",
+      "description": "The teaching sequence gives tulou as a respectful expression used when a speaker wants to be excused. A knowledgeable speaker can advise on its use in context.",
+      "years": [],
+      "phase": "Novice 2 (proficiency-based)",
+      "sourceId": "nzc_samoa_2026",
+      "locator": "PDF p. 14, Novice 2 > Linguistic Knowledge; teaching-sequence example",
+      "objectives": [
+        "Use a teacher-approved model to practise asking to be excused in a fictional classroom interaction."
+      ],
+      "evidence": [
+        "Identifies the purpose of tulou in the supplied situation."
+      ],
+      "misconceptions": [
+        "A respectful expression has no relationship to the situation in which it is used."
+      ],
+      "question": "What purpose can tulou serve in a respectful interaction?",
+      "answer": "It can be used when asking to be excused.",
+      "explanation": "The teaching sequence gives tulou as a respectful expression used when a speaker wants to be excused. A knowledgeable speaker can advise on its use in context.",
+      "hints": [
+        "Does the speaker want to interrupt without acknowledgement?",
+        "Which expression in the example asks to be excused?"
+      ],
+      "activity": "Use a teacher-approved model to practise asking to be excused in a fictional classroom interaction.",
+      "materials": [
+        "teacher-approved language model or example",
+        "paper and pencil as useful"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_samoa_opinion_manatu",
+      "name": "Gagana Sāmoa: introducing an opinion",
+      "domain": "Linguistic Knowledge",
+      "description": "The teaching sequence uses starters such as Ou te manatu to introduce a personal opinion; meaning and delivery should be practised with a fluent model.",
+      "years": [],
+      "phase": "Novice 3 (proficiency-based)",
+      "sourceId": "nzc_samoa_2026",
+      "locator": "PDF p. 16, Novice 3 > Linguistic Knowledge; teaching-sequence example",
+      "objectives": [
+        "Listen to a teacher-approved example, then frame a fictional opinion using the model."
+      ],
+      "evidence": [
+        "Recognises the opinion starter and gives a supported fictional example."
+      ],
+      "misconceptions": [
+        "An opinion starter is used only to state the time."
+      ],
+      "question": "What kind of statement can begin with Ou te manatu?",
+      "answer": "A statement expressing a personal opinion.",
+      "explanation": "The teaching sequence uses starters such as Ou te manatu to introduce a personal opinion; meaning and delivery should be practised with a fluent model.",
+      "hints": [
+        "Is the speaker naming a place or giving a point of view?",
+        "What might follow an opinion starter?"
+      ],
+      "activity": "Listen to a teacher-approved example, then frame a fictional opinion using the model.",
+      "materials": [
+        "teacher-approved language model or example",
+        "paper and pencil as useful"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_tokelau_greeting_malo_ni",
+      "name": "Gagana Tokelau: an everyday greeting",
+      "domain": "Cultural and Sociolinguistic Knowledge",
+      "description": "Mālō nī appears in the curriculum as a Gagana Tokelau greeting. A speaker model helps learners practise pronunciation and choose a suitable context.",
+      "years": [],
+      "phase": "Novice 1 (proficiency-based)",
+      "sourceId": "nzc_tokelau_2026",
+      "locator": "PDF p. 8, Novice 1 > Cultural and Sociolinguistic Knowledge; teaching-sequence example",
+      "objectives": [
+        "Listen to a trusted speaker model Mālō nī and practise a fictional greeting with a partner."
+      ],
+      "evidence": [
+        "Recognises the expression as a greeting in the model."
+      ],
+      "misconceptions": [
+        "Every expression used at the start of an interaction is a farewell."
+      ],
+      "question": "What communicative purpose does Mālō nī serve in the supplied example?",
+      "answer": "It is a greeting.",
+      "explanation": "Mālō nī appears in the curriculum as a Gagana Tokelau greeting. A speaker model helps learners practise pronunciation and choose a suitable context.",
+      "hints": [
+        "Does it open an interaction or give a price?",
+        "Which expression is listed with greetings?"
+      ],
+      "activity": "Listen to a trusted speaker model Mālō nī and practise a fictional greeting with a partner.",
+      "materials": [
+        "teacher-approved language model or example",
+        "paper and pencil as useful"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_tokelau_asking_cost",
+      "name": "Gagana Tokelau: asking about cost",
+      "domain": "Linguistic Knowledge",
+      "description": "In the taught pattern, E fia te tau? asks about an item’s cost. A similar opening can be used with a noun to ask about quantity.",
+      "years": [],
+      "phase": "Novice 3 (proficiency-based)",
+      "sourceId": "nzc_tokelau_2026",
+      "locator": "PDF p. 16, Novice 3 > Linguistic Knowledge; teaching-sequence example",
+      "objectives": [
+        "Practise the modelled cost question using a fictional shop label and no real purchase."
+      ],
+      "evidence": [
+        "Identifies the question as asking for cost."
+      ],
+      "misconceptions": [
+        "A question about cost must ask how many items there are."
+      ],
+      "question": "In the curriculum example E fia te tau?, what is being asked?",
+      "answer": "The cost or price.",
+      "explanation": "In the taught pattern, E fia te tau? asks about an item’s cost. A similar opening can be used with a noun to ask about quantity.",
+      "hints": [
+        "Does te tau refer to price in the taught example?",
+        "Is the speaker asking how much it costs or how many items there are?"
+      ],
+      "activity": "Practise the modelled cost question using a fictional shop label and no real purchase.",
+      "materials": [
+        "teacher-approved language model or example",
+        "paper and pencil as useful"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_tonga_greeting_malo",
+      "name": "Lea Faka-Tonga: an opening greeting",
+      "domain": "Cultural and Sociolinguistic Knowledge",
+      "description": "Mālō e lelei is presented in the curriculum among basic Lea Faka-Tonga greetings. Learners can practise it with guidance about the situation.",
+      "years": [],
+      "phase": "Novice 1 (proficiency-based)",
+      "sourceId": "nzc_tonga_2026",
+      "locator": "PDF p. 8, Novice 1 > Cultural and Sociolinguistic Knowledge; teaching-sequence example",
+      "objectives": [
+        "Listen to a trusted speaker and practise the greeting in a fictional introduction."
+      ],
+      "evidence": [
+        "Recognises and uses the modelled greeting at the start of an interaction."
+      ],
+      "misconceptions": [
+        "A greeting is used only to say goodbye."
+      ],
+      "question": "What is the purpose of Mālō e lelei in the provided model?",
+      "answer": "It is a greeting.",
+      "explanation": "Mālō e lelei is presented in the curriculum among basic Lea Faka-Tonga greetings. Learners can practise it with guidance about the situation.",
+      "hints": [
+        "Look at where it appears in the interaction.",
+        "Does it begin or end the meeting?"
+      ],
+      "activity": "Listen to a trusted speaker and practise the greeting in a fictional introduction.",
+      "materials": [
+        "teacher-approved language model or example",
+        "paper and pencil as useful"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_tonga_destination_ki",
+      "name": "Lea Faka-Tonga: indicating a destination",
+      "domain": "Linguistic Knowledge",
+      "description": "The particle ki can show direction or destination, meaning to or towards in the taught travel examples.",
+      "years": [],
+      "phase": "Novice 3 (proficiency-based)",
+      "sourceId": "nzc_tonga_2026",
+      "locator": "PDF p. 17, Novice 3 > Linguistic Knowledge; teaching-sequence example",
+      "objectives": [
+        "Use a teacher-provided travel sentence to identify ki and the destination named after it."
+      ],
+      "evidence": [
+        "Identifies the destination marker and its role in the model."
+      ],
+      "misconceptions": [
+        "A destination marker tells only when an event happened."
+      ],
+      "question": "In the travel examples, what information can ki introduce?",
+      "answer": "A direction or destination.",
+      "explanation": "The particle ki can show direction or destination, meaning to or towards in the taught travel examples.",
+      "hints": [
+        "Is the speaker describing where they are going?",
+        "Which small word can introduce that destination?"
+      ],
+      "activity": "Use a teacher-provided travel sentence to identify ki and the destination named after it.",
+      "materials": [
+        "teacher-approved language model or example",
+        "paper and pencil as useful"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_cook_kia_orana",
+      "name": "Te Reo Māori Kūki ‘Āirani: Kia orāna",
+      "domain": "Cultural and Sociolinguistic Knowledge",
+      "description": "Kia orāna is included in the curriculum as a greeting. Pronunciation and appropriate use can be learnt with a trusted community model.",
+      "years": [],
+      "phase": "Novice 1 (proficiency-based)",
+      "sourceId": "nzc_cook_2026",
+      "locator": "PDF p. 8, Novice 1 > Cultural and Sociolinguistic Knowledge; teaching-sequence example",
+      "objectives": [
+        "Listen to a teacher-approved model and greet a partner in a fictional scenario."
+      ],
+      "evidence": [
+        "Identifies Kia orāna as a greeting and uses it in the modelled context."
+      ],
+      "misconceptions": [
+        "A greeting has the same role as an instruction to leave."
+      ],
+      "question": "What is Kia orāna used for in the supplied example?",
+      "answer": "It is a greeting.",
+      "explanation": "Kia orāna is included in the curriculum as a greeting. Pronunciation and appropriate use can be learnt with a trusted community model.",
+      "hints": [
+        "Is it listed under greetings or prices?",
+        "What part of an interaction can a greeting open?"
+      ],
+      "activity": "Listen to a teacher-approved model and greet a partner in a fictional scenario.",
+      "materials": [
+        "teacher-approved language model or example",
+        "paper and pencil as useful"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_cook_question_kiea",
+      "name": "Te Reo Māori Kūki ‘Āirani: asking where",
+      "domain": "Linguistic Knowledge",
+      "description": "The teaching sequence describes Kiʻea as a question form for asking where an action occurs. Its placement in a sentence should be learned from a speaker model.",
+      "years": [],
+      "phase": "Novice 3 (proficiency-based)",
+      "sourceId": "nzc_cook_2026",
+      "locator": "PDF p. 15, Novice 3 > Linguistic Knowledge; teaching-sequence example",
+      "objectives": [
+        "Use a teacher-provided question to locate Kiʻea and identify the requested place information."
+      ],
+      "evidence": [
+        "Identifies the question as asking about location."
+      ],
+      "misconceptions": [
+        "A question about where asks only when something happened."
+      ],
+      "question": "What information does Kiʻea ask for in the taught example?",
+      "answer": "Where an action occurs.",
+      "explanation": "The teaching sequence describes Kiʻea as a question form for asking where an action occurs. Its placement in a sentence should be learned from a speaker model.",
+      "hints": [
+        "Does the question ask for a place or a time?",
+        "Which word identifies the location being asked about?"
+      ],
+      "activity": "Use a teacher-provided question to locate Kiʻea and identify the requested place information.",
+      "materials": [
+        "teacher-approved language model or example",
+        "paper and pencil as useful"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_niue_long_vowels",
+      "name": "Vagahau Niue: repeated vowel letters",
+      "domain": "Linguistic Knowledge",
+      "description": "The curriculum notes that paired vowel letters may represent a long or repeated vowel sound. A fluent model helps learners hear the difference in a word.",
+      "years": [],
+      "phase": "Novice 1 (proficiency-based)",
+      "sourceId": "nzc_niue_2026",
+      "locator": "PDF p. 8, Novice 1 > Linguistic Knowledge; teaching-sequence example",
+      "objectives": [
+        "Listen to a teacher-approved word model containing repeated vowels and mark the paired letters."
+      ],
+      "evidence": [
+        "Identifies the paired vowel letters and describes their role in the model."
+      ],
+      "misconceptions": [
+        "Two written vowels must always be ignored when reading."
+      ],
+      "question": "What can aa represent in the writing pattern described by the curriculum?",
+      "answer": "A long vowel sound or a repeated vowel sound.",
+      "explanation": "The curriculum notes that paired vowel letters may represent a long or repeated vowel sound. A fluent model helps learners hear the difference in a word.",
+      "hints": [
+        "How many a letters appear?",
+        "Can the two letters indicate a longer or repeated sound?"
+      ],
+      "activity": "Listen to a teacher-approved word model containing repeated vowels and mark the paired letters.",
+      "materials": [
+        "teacher-approved language model or example",
+        "paper and pencil as useful"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_niue_tense_markers",
+      "name": "Vagahau Niue: time markers in events",
+      "domain": "Linguistic Knowledge",
+      "description": "The teaching sequence gives Na, E and Ka as markers for past, present and future actions in its taught patterns.",
+      "years": [],
+      "phase": "Novice 3 (proficiency-based)",
+      "sourceId": "nzc_niue_2026",
+      "locator": "PDF p. 15, Novice 3 > Linguistic Knowledge; teaching-sequence example",
+      "objectives": [
+        "Sort teacher-provided examples into past, present and future, checking each marker against a fluent model."
+      ],
+      "evidence": [
+        "Identifies Ka as the future marker in the supplied pattern."
+      ],
+      "misconceptions": [
+        "A time marker is used only to name a person."
+      ],
+      "question": "Which marker is presented for future actions in the supplied pattern?",
+      "answer": "Ka.",
+      "explanation": "The teaching sequence gives Na, E and Ka as markers for past, present and future actions in its taught patterns.",
+      "hints": [
+        "Does the question ask about the past or future?",
+        "Which of Na, E and Ka is linked to future actions?"
+      ],
+      "activity": "Sort teacher-provided examples into past, present and future, checking each marker against a fluent model.",
+      "materials": [
+        "teacher-approved language model or example",
+        "paper and pencil as useful"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_japanese_count_people",
+      "name": "Japanese: counting one or two people",
+      "domain": "Linguistic Knowledge",
+      "description": "The curriculum gives ひとり for one person and ふたり for two people. Other counters depend on what is being counted.",
+      "years": [],
+      "phase": "Novice 2 (proficiency-based)",
+      "sourceId": "nzc_japanese_2026",
+      "locator": "PDF p. 14, Novice 2 > Linguistic Knowledge; teaching-sequence example",
+      "objectives": [
+        "Use two paper figures and the supplied written model to practise ひとり and ふたり."
+      ],
+      "evidence": [
+        "Matches each form to the number of people in the model."
+      ],
+      "misconceptions": [
+        "The same spoken form means both one and two people."
+      ],
+      "question": "Which form in the taught examples refers to two people: ひとり or ふたり?",
+      "answer": "ふたり.",
+      "explanation": "The curriculum gives ひとり for one person and ふたり for two people. Other counters depend on what is being counted.",
+      "hints": [
+        "One form refers to one person.",
+        "Which form is given for a pair?"
+      ],
+      "activity": "Use two paper figures and the supplied written model to practise ひとり and ふたり.",
+      "materials": [
+        "teacher-approved language model or example",
+        "paper and pencil as useful"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_japanese_katakana_loans",
+      "name": "Japanese: katakana and loanwords",
+      "domain": "Linguistic Knowledge",
+      "description": "Katakana is used for many loanwords. Hiragana and katakana can represent corresponding sounds with different written forms.",
+      "years": [],
+      "phase": "Novice 3 (proficiency-based)",
+      "sourceId": "nzc_japanese_2026",
+      "locator": "PDF p. 17, Novice 3 > Linguistic Knowledge; teaching-sequence example",
+      "objectives": [
+        "Compare あ and ア in a teacher-approved chart and identify the hiragana and katakana forms."
+      ],
+      "evidence": [
+        "Identifies katakana in the supplied comparison and explains its use for loanwords."
+      ],
+      "misconceptions": [
+        "Hiragana and katakana are the same written symbols."
+      ],
+      "question": "Which Japanese script is commonly used for loanwords?",
+      "answer": "Katakana.",
+      "explanation": "Katakana is used for many loanwords. Hiragana and katakana can represent corresponding sounds with different written forms.",
+      "hints": [
+        "The curriculum names two kana scripts.",
+        "Which one is used for many words borrowed from other languages?"
+      ],
+      "activity": "Compare あ and ア in a teacher-approved chart and identify the hiragana and katakana forms.",
+      "materials": [
+        "teacher-approved language model or example",
+        "paper and pencil as useful"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_korean_polite_title_nim",
+      "name": "Korean: the polite suffix –님",
+      "domain": "Linguistic Knowledge",
+      "description": "The suffix –님 can show respect in certain terms of address, including 선생님 for a teacher. Use a fluent model to learn when it is appropriate.",
+      "years": [],
+      "phase": "Novice 2 (proficiency-based)",
+      "sourceId": "nzc_korean_2026",
+      "locator": "PDF p. 12, Novice 2 > Linguistic Knowledge; teaching-sequence example",
+      "objectives": [
+        "Listen to a teacher-approved model of 선생님 and identify the suffix –님."
+      ],
+      "evidence": [
+        "Identifies –님 and explains its polite function in the example."
+      ],
+      "misconceptions": [
+        "A term of address can never indicate politeness."
+      ],
+      "question": "What can –님 signal in 선생님?",
+      "answer": "Respect in a polite term of address.",
+      "explanation": "The suffix –님 can show respect in certain terms of address, including 선생님 for a teacher. Use a fluent model to learn when it is appropriate.",
+      "hints": [
+        "Look at the end of the word.",
+        "Does the suffix add a respectful or disrespectful tone?"
+      ],
+      "activity": "Listen to a teacher-approved model of 선생님 and identify the suffix –님.",
+      "materials": [
+        "teacher-approved language model or example",
+        "paper and pencil as useful"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_korean_why_wae",
+      "name": "Korean: asking why with 왜",
+      "domain": "Linguistic Knowledge",
+      "description": "왜 is a Korean question word used to ask a reason or cause.",
+      "years": [],
+      "phase": "Novice 3 (proficiency-based)",
+      "sourceId": "nzc_korean_2026",
+      "locator": "PDF p. 16, Novice 3 > Linguistic Knowledge; teaching-sequence example",
+      "objectives": [
+        "Match a teacher-provided question containing 왜 to a supplied answer giving a reason."
+      ],
+      "evidence": [
+        "Identifies why-information as the purpose of the model question."
+      ],
+      "misconceptions": [
+        "왜 asks only for the name of a place."
+      ],
+      "question": "What kind of information does 왜 ask for?",
+      "answer": "A reason or cause: why.",
+      "explanation": "왜 is a Korean question word used to ask a reason or cause.",
+      "hints": [
+        "Is the question asking about a reason or a place?",
+        "Which English question word asks for a reason?"
+      ],
+      "activity": "Match a teacher-provided question containing 왜 to a supplied answer giving a reason.",
+      "materials": [
+        "teacher-approved language model or example",
+        "paper and pencil as useful"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_french_likes_negative",
+      "name": "French: expressing likes and dislikes",
+      "domain": "Linguistic Knowledge",
+      "description": "J’aime introduces a like, while Je n’aime pas expresses a dislike in the taught examples.",
+      "years": [],
+      "phase": "Novice 2 (proficiency-based)",
+      "sourceId": "nzc_french_2026",
+      "locator": "PDF p. 12, Novice 2 > Linguistic Knowledge; teaching-sequence example",
+      "objectives": [
+        "Choose between the two modelled forms to describe a fictional character’s preference."
+      ],
+      "evidence": [
+        "Distinguishes the positive and negative preference forms in context."
+      ],
+      "misconceptions": [
+        "Adding n’ and pas leaves the statement positive."
+      ],
+      "question": "Which expression in the model means “I do not like”: J’aime or Je n’aime pas?",
+      "answer": "Je n’aime pas.",
+      "explanation": "J’aime introduces a like, while Je n’aime pas expresses a dislike in the taught examples.",
+      "hints": [
+        "Look for the words surrounding aime.",
+        "Which expression includes n’ and pas?"
+      ],
+      "activity": "Choose between the two modelled forms to describe a fictional character’s preference.",
+      "materials": [
+        "teacher-approved language model or example",
+        "paper and pencil as useful"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_french_near_future",
+      "name": "French: planning with aller and an infinitive",
+      "domain": "Linguistic Knowledge",
+      "description": "A common French pattern for a near-future plan uses a conjugated form of aller followed by another verb in the infinitive.",
+      "years": [],
+      "phase": "Novice 3 (proficiency-based)",
+      "sourceId": "nzc_french_2026",
+      "locator": "PDF p. 14, Novice 3 > Linguistic Knowledge; teaching-sequence example",
+      "objectives": [
+        "Use a teacher-provided verb list to form one fictional plan beginning Je vais."
+      ],
+      "evidence": [
+        "Identifies the infinitive after vais in the given model."
+      ],
+      "misconceptions": [
+        "The second verb in this pattern must always describe the past."
+      ],
+      "question": "In Je vais jouer, which word expresses the planned action?",
+      "answer": "jouer, “to play”; vais is the form of aller.",
+      "explanation": "A common French pattern for a near-future plan uses a conjugated form of aller followed by another verb in the infinitive.",
+      "hints": [
+        "Find the form of aller.",
+        "Which verb follows it?"
+      ],
+      "activity": "Use a teacher-provided verb list to form one fictional plan beginning Je vais.",
+      "materials": [
+        "teacher-approved language model or example",
+        "paper and pencil as useful"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_german_noun_capitals",
+      "name": "German: capital letters for nouns",
+      "domain": "Linguistic Knowledge",
+      "description": "German nouns are written with an initial capital letter, including nouns within a sentence.",
+      "years": [],
+      "phase": "Novice 1 (proficiency-based)",
+      "sourceId": "nzc_german_2026",
+      "locator": "PDF p. 10, Novice 1 > Linguistic Knowledge; teaching-sequence example",
+      "objectives": [
+        "Circle the noun in a teacher-provided German sentence and check its initial capital."
+      ],
+      "evidence": [
+        "Identifies a noun and its initial capital in the supplied sentence."
+      ],
+      "misconceptions": [
+        "Only the first word of a German sentence can begin with a capital."
+      ],
+      "question": "What kind of German word is written with an initial capital letter?",
+      "answer": "A noun.",
+      "explanation": "German nouns are written with an initial capital letter, including nouns within a sentence.",
+      "hints": [
+        "Does the rule apply only at the beginning of a sentence?",
+        "What do nouns name?"
+      ],
+      "activity": "Circle the noun in a teacher-provided German sentence and check its initial capital.",
+      "materials": [
+        "teacher-approved language model or example",
+        "paper and pencil as useful"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_german_future_morgen",
+      "name": "German: morgen as a time marker",
+      "domain": "Linguistic Knowledge",
+      "description": "In the curriculum example Gehst du morgen einkaufen?, morgen indicates tomorrow. Context distinguishes it from other uses.",
+      "years": [],
+      "phase": "Novice 3 (proficiency-based)",
+      "sourceId": "nzc_german_2026",
+      "locator": "PDF p. 16, Novice 3 > Linguistic Knowledge; teaching-sequence example",
+      "objectives": [
+        "Match teacher-provided German time phrases to a fictional calendar and check the model."
+      ],
+      "evidence": [
+        "Identifies tomorrow as the time indicated in the given question."
+      ],
+      "misconceptions": [
+        "A time marker only identifies the person performing an action."
+      ],
+      "question": "When is the shopping in Gehst du morgen einkaufen?",
+      "answer": "Tomorrow.",
+      "explanation": "In the curriculum example Gehst du morgen einkaufen?, morgen indicates tomorrow. Context distinguishes it from other uses.",
+      "hints": [
+        "Find the time word morgen.",
+        "Is it pointing to today or the following day in this example?"
+      ],
+      "activity": "Match teacher-provided German time phrases to a fictional calendar and check the model.",
+      "materials": [
+        "teacher-approved language model or example",
+        "paper and pencil as useful"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_spanish_porque_reason",
+      "name": "Spanish: giving a reason with porque",
+      "domain": "Linguistic Knowledge",
+      "description": "Porque is a linking word used to introduce a reason. It can connect a preference to an explanation.",
+      "years": [],
+      "phase": "Novice 2 (proficiency-based)",
+      "sourceId": "nzc_spanish_2026",
+      "locator": "PDF p. 12, Novice 2 > Linguistic Knowledge; teaching-sequence example",
+      "objectives": [
+        "Use a teacher-supplied Spanish sentence to underline a preference and the reason after porque."
+      ],
+      "evidence": [
+        "Identifies the reason linked by porque in the model sentence."
+      ],
+      "misconceptions": [
+        "Porque can only be used to name an object."
+      ],
+      "question": "What kind of information follows porque when it introduces a reason?",
+      "answer": "A reason: porque means “because” in this use.",
+      "explanation": "Porque is a linking word used to introduce a reason. It can connect a preference to an explanation.",
+      "hints": [
+        "Does it introduce a place or a reason?",
+        "Which English linking word gives a reason?"
+      ],
+      "activity": "Use a teacher-supplied Spanish sentence to underline a preference and the reason after porque.",
+      "materials": [
+        "teacher-approved language model or example",
+        "paper and pencil as useful"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_spanish_near_future",
+      "name": "Spanish: future plans with ir a",
+      "domain": "Linguistic Knowledge",
+      "description": "A common pattern for an immediate plan uses a conjugated form of ir, followed by a and an infinitive.",
+      "years": [],
+      "phase": "Novice 3 (proficiency-based)",
+      "sourceId": "nzc_spanish_2026",
+      "locator": "PDF p. 14, Novice 3 > Linguistic Knowledge; teaching-sequence example",
+      "objectives": [
+        "Use a teacher-provided verb list to form one fictional plan beginning Voy a."
+      ],
+      "evidence": [
+        "Identifies the infinitive after Voy a in the supplied model."
+      ],
+      "misconceptions": [
+        "Every Spanish future plan must refer to an event already completed."
+      ],
+      "question": "In Voy a visitar, which word names the action planned?",
+      "answer": "visitar, “to visit”.",
+      "explanation": "A common pattern for an immediate plan uses a conjugated form of ir, followed by a and an infinitive.",
+      "hints": [
+        "Identify Voy a in the pattern.",
+        "Which infinitive follows it?"
+      ],
+      "activity": "Use a teacher-provided verb list to form one fictional plan beginning Voy a.",
+      "materials": [
+        "teacher-approved language model or example",
+        "paper and pencil as useful"
+      ],
+      "minutes": 15
+    }
+  ],
+  "dependencies": [
+    {
+      "topicId": "nzc_nzsl_parameters",
+      "prerequisiteId": "nzc_lang_listen_repeat",
+      "strength": "helpful",
+      "reason": "Observing a language model supports noticing the distinct visual features of an NZSL sign.",
+      "sourceId": "nzc_nzsl_2026"
+    },
+    {
+      "topicId": "nzc_nzsl_visual_attention",
+      "prerequisiteId": "nzc_lang_greeting_context",
+      "strength": "helpful",
+      "reason": "Attention and a clear sightline help make an interaction with a new communication partner possible.",
+      "sourceId": "nzc_nzsl_2026"
+    },
+    {
+      "topicId": "nzc_nzsl_nonmanual",
+      "prerequisiteId": "nzc_nzsl_parameters",
+      "strength": "helpful",
+      "reason": "The four manual features and non-manual signals work together in a signed message.",
+      "sourceId": "nzc_nzsl_2026"
+    },
+    {
+      "topicId": "nzc_nzsl_name_signs",
+      "prerequisiteId": "nzc_lang_names_respect",
+      "strength": "helpful",
+      "reason": "Respectful introductions include learning how a language community uses names and name signs.",
+      "sourceId": "nzc_nzsl_2026"
+    },
+    {
+      "topicId": "nzc_nzsl_space_referents",
+      "prerequisiteId": "nzc_nzsl_nonmanual",
+      "strength": "helpful",
+      "reason": "Reading facial and body cues helps learners follow how a signed story uses visual space.",
+      "sourceId": "nzc_nzsl_2026"
+    },
+    {
+      "topicId": "nzc_samoa_glottal",
+      "prerequisiteId": "nzc_lang_listen_repeat",
+      "strength": "helpful",
+      "reason": "Careful listening prepares learners to notice small sound distinctions in a familiar language model.",
+      "sourceId": "nzc_samoa_2026"
+    },
+    {
+      "topicId": "nzc_samoa_ceremonial",
+      "prerequisiteId": "nzc_lang_context_formality",
+      "strength": "helpful",
+      "reason": "Attention to formality helps learners recognise that language choices depend on an occasion.",
+      "sourceId": "nzc_samoa_2026"
+    },
+    {
+      "topicId": "nzc_tokelau_intonation",
+      "prerequisiteId": "nzc_lang_listen_repeat",
+      "strength": "helpful",
+      "reason": "Listening closely to a language model supports noticing pitch patterns as well as individual sounds.",
+      "sourceId": "nzc_tokelau_2026"
+    },
+    {
+      "topicId": "nzc_tokelau_intergenerational",
+      "prerequisiteId": "nzc_lang_family_variation",
+      "strength": "helpful",
+      "reason": "Recognising family variation helps learners ask respectful questions about intergenerational language use.",
+      "sourceId": "nzc_tokelau_2026"
+    },
+    {
+      "topicId": "nzc_tonga_dual",
+      "prerequisiteId": "nzc_lang_introduction",
+      "strength": "helpful",
+      "reason": "Identifying who is being referred to supports understanding a pronoun for two people.",
+      "sourceId": "nzc_tonga_2026"
+    },
+    {
+      "topicId": "nzc_tonga_respectful_expression",
+      "prerequisiteId": "nzc_lang_context_formality",
+      "strength": "helpful",
+      "reason": "Formality provides a starting point for choosing language appropriate to the relationship.",
+      "sourceId": "nzc_tonga_2026"
+    },
+    {
+      "topicId": "nzc_cook_glottal",
+      "prerequisiteId": "nzc_lang_listen_repeat",
+      "strength": "helpful",
+      "reason": "Close listening helps learners distinguish a sound break in an authentic model.",
+      "sourceId": "nzc_cook_2026"
+    },
+    {
+      "topicId": "nzc_cook_proverbs",
+      "prerequisiteId": "nzc_lang_context_formality",
+      "strength": "helpful",
+      "reason": "Knowing that context shapes appropriate language supports asking about where a saying may be shared.",
+      "sourceId": "nzc_cook_2026"
+    },
+    {
+      "topicId": "nzc_niue_kinship_terms",
+      "prerequisiteId": "nzc_lang_introduction",
+      "strength": "helpful",
+      "reason": "Introducing people relies on recognising the relationships that kinship terms can express.",
+      "sourceId": "nzc_niue_2026"
+    },
+    {
+      "topicId": "nzc_niue_figurative",
+      "prerequisiteId": "nzc_lang_cultural_perspective",
+      "strength": "helpful",
+      "reason": "Cultural context helps readers interpret meaning beyond individual words.",
+      "sourceId": "nzc_niue_2026"
+    },
+    {
+      "topicId": "nzc_japanese_hiragana",
+      "prerequisiteId": "nzc_lang_listen_repeat",
+      "strength": "helpful",
+      "reason": "Listening to and copying a model supports connecting a written symbol with a spoken language.",
+      "sourceId": "nzc_japanese_2026"
+    },
+    {
+      "topicId": "nzc_japanese_counters",
+      "prerequisiteId": "nzc_japanese_hiragana",
+      "strength": "helpful",
+      "reason": "Recognising written forms helps learners read number and counter examples in context.",
+      "sourceId": "nzc_japanese_2026"
+    },
+    {
+      "topicId": "nzc_japanese_address",
+      "prerequisiteId": "nzc_lang_context_formality",
+      "strength": "helpful",
+      "reason": "Understanding formality helps learners choose an appropriate term of address for a relationship.",
+      "sourceId": "nzc_japanese_2026"
+    },
+    {
+      "topicId": "nzc_korean_syllable_blocks",
+      "prerequisiteId": "nzc_lang_listen_repeat",
+      "strength": "helpful",
+      "reason": "Observing and repeating a model helps connect spoken syllables with written blocks.",
+      "sourceId": "nzc_korean_2026"
+    },
+    {
+      "topicId": "nzc_korean_speech_levels",
+      "prerequisiteId": "nzc_lang_context_formality",
+      "strength": "helpful",
+      "reason": "General awareness of formality supports matching a speech level to its listener.",
+      "sourceId": "nzc_korean_2026"
+    },
+    {
+      "topicId": "nzc_french_alphabetic",
+      "prerequisiteId": "nzc_lang_listen_repeat",
+      "strength": "helpful",
+      "reason": "Listening to a word and looking at its letters supports learning a sound–spelling connection.",
+      "sourceId": "nzc_french_2026"
+    },
+    {
+      "topicId": "nzc_french_grammatical_gender",
+      "prerequisiteId": "nzc_french_alphabetic",
+      "strength": "helpful",
+      "reason": "Recognising written words supports noticing articles that accompany nouns.",
+      "sourceId": "nzc_french_2026"
+    },
+    {
+      "topicId": "nzc_german_compound",
+      "prerequisiteId": "nzc_lang_listen_repeat",
+      "strength": "helpful",
+      "reason": "Observing familiar language patterns helps learners notice smaller elements within a compound.",
+      "sourceId": "nzc_german_2026"
+    },
+    {
+      "topicId": "nzc_german_verb_forms",
+      "prerequisiteId": "nzc_lang_introduction",
+      "strength": "helpful",
+      "reason": "Introducing oneself in German uses verb forms that match who is speaking, preparing learners to compare conjugations.",
+      "sourceId": "nzc_german_2026"
+    },
+    {
+      "topicId": "nzc_spanish_cognates",
+      "prerequisiteId": "nzc_lang_listen_repeat",
+      "strength": "helpful",
+      "reason": "Observing and comparing language examples helps learners notice and check possible cognates.",
+      "sourceId": "nzc_spanish_2026"
+    },
+    {
+      "topicId": "nzc_spanish_time_markers",
+      "prerequisiteId": "nzc_lang_listen_repeat",
+      "strength": "helpful",
+      "reason": "Attending to familiar words in a model helps learners recognise markers that express time.",
+      "sourceId": "nzc_spanish_2026"
+    },
+    {
+      "topicId": "nzc_spanish_transaction",
+      "prerequisiteId": "nzc_lang_plan_interaction",
+      "strength": "helpful",
+      "reason": "Planning an interaction helps a learner choose phrases that achieve a specific practical goal.",
+      "sourceId": "nzc_spanish_2026"
+    },
+    {
+      "topicId": "nzc_reo_digraphs",
+      "prerequisiteId": "nzc_reo_macrons",
+      "strength": "helpful",
+      "reason": "Noticing written vowel length and consonant groups helps learners attend to the pronunciation of a syllable.",
+      "sourceId": "nzc_reo_2026"
+    },
+    {
+      "topicId": "nzc_reo_direct_address",
+      "prerequisiteId": "nzc_reo_names",
+      "strength": "helpful",
+      "reason": "Respectful naming provides a context for learning the address marker used in a model greeting.",
+      "sourceId": "nzc_reo_2026"
+    },
+    {
+      "topicId": "nzc_reo_identity_connections",
+      "prerequisiteId": "nzc_reo_place",
+      "strength": "helpful",
+      "reason": "Understanding connections to place supports making a truthful, respectful introduction.",
+      "sourceId": "nzc_reo_2026"
+    },
+    {
+      "topicId": "nzc_mandarin_neutral_tone",
+      "prerequisiteId": "nzc_mandarin_pinyin_tones",
+      "strength": "helpful",
+      "reason": "Knowing pinyin tone marks helps learners notice an unmarked neutral tone in a word.",
+      "sourceId": "nzc_mandarin_2026"
+    },
+    {
+      "topicId": "nzc_mandarin_character_structure",
+      "prerequisiteId": "nzc_mandarin_characters",
+      "strength": "helpful",
+      "reason": "Recognising components helps a learner notice how they are arranged within a character.",
+      "sourceId": "nzc_mandarin_2026"
+    },
+    {
+      "topicId": "nzc_mandarin_date_order",
+      "prerequisiteId": "nzc_mandarin_characters",
+      "strength": "helpful",
+      "reason": "Recognising written characters helps learners identify the date markers 年, 月 and 日.",
+      "sourceId": "nzc_mandarin_2026"
+    },
+    {
+      "topicId": "nzc_mandarin_asking_repetition",
+      "prerequisiteId": "nzc_lang_clarify",
+      "strength": "helpful",
+      "reason": "A familiar clarification strategy can be expressed with a specific Mandarin phrase.",
+      "sourceId": "nzc_mandarin_2026"
+    },
+    {
+      "topicId": "nzc_mandarin_because",
+      "prerequisiteId": "nzc_mandarin_opinion",
+      "strength": "helpful",
+      "reason": "Adding 因为 develops a stated opinion by giving a reason.",
+      "sourceId": "nzc_mandarin_2026"
+    },
+    {
+      "topicId": "nzc_nzsl_fingerspell_names",
+      "prerequisiteId": "nzc_nzsl_parameters",
+      "strength": "helpful",
+      "reason": "Noticing handshape, orientation, location and movement helps learners observe a fingerspelled model.",
+      "sourceId": "nzc_nzsl_2026"
+    },
+    {
+      "topicId": "nzc_nzsl_time_context",
+      "prerequisiteId": "nzc_nzsl_space_referents",
+      "strength": "helpful",
+      "reason": "Following locations and referents in signing space supports tracking time and events in a signed account.",
+      "sourceId": "nzc_nzsl_2026"
+    },
+    {
+      "topicId": "nzc_samoa_excuse_tulou",
+      "prerequisiteId": "nzc_samoa_ceremonial",
+      "strength": "helpful",
+      "reason": "Awareness of respectful context supports choosing an expression for a particular interaction.",
+      "sourceId": "nzc_samoa_2026"
+    },
+    {
+      "topicId": "nzc_samoa_opinion_manatu",
+      "prerequisiteId": "nzc_lang_preferences",
+      "strength": "helpful",
+      "reason": "Expressing a preference prepares learners to introduce a broader personal opinion.",
+      "sourceId": "nzc_samoa_2026"
+    },
+    {
+      "topicId": "nzc_tokelau_greeting_malo_ni",
+      "prerequisiteId": "nzc_lang_greeting_context",
+      "strength": "helpful",
+      "reason": "Considering the setting of a greeting helps learners use a modelled expression appropriately.",
+      "sourceId": "nzc_tokelau_2026"
+    },
+    {
+      "topicId": "nzc_tokelau_asking_cost",
+      "prerequisiteId": "nzc_lang_plan_interaction",
+      "strength": "helpful",
+      "reason": "Planning a practical interaction supports selecting a question that asks for the needed information.",
+      "sourceId": "nzc_tokelau_2026"
+    },
+    {
+      "topicId": "nzc_tonga_greeting_malo",
+      "prerequisiteId": "nzc_lang_greeting_context",
+      "strength": "helpful",
+      "reason": "Recognising social context helps learners practise a greeting for an introduction.",
+      "sourceId": "nzc_tonga_2026"
+    },
+    {
+      "topicId": "nzc_tonga_destination_ki",
+      "prerequisiteId": "nzc_lang_connected_description",
+      "strength": "helpful",
+      "reason": "Connecting details in a sentence helps a learner add a destination to a travel description.",
+      "sourceId": "nzc_tonga_2026"
+    },
+    {
+      "topicId": "nzc_cook_kia_orana",
+      "prerequisiteId": "nzc_lang_greeting_context",
+      "strength": "helpful",
+      "reason": "Considering who is being greeted helps a learner practise an appropriate opening.",
+      "sourceId": "nzc_cook_2026"
+    },
+    {
+      "topicId": "nzc_cook_question_kiea",
+      "prerequisiteId": "nzc_lang_clarify",
+      "strength": "helpful",
+      "reason": "Clarification strategies help learners select a question that asks for missing location information.",
+      "sourceId": "nzc_cook_2026"
+    },
+    {
+      "topicId": "nzc_niue_long_vowels",
+      "prerequisiteId": "nzc_lang_listen_repeat",
+      "strength": "helpful",
+      "reason": "Attending closely to a language model supports noticing vowel length and repeated sounds.",
+      "sourceId": "nzc_niue_2026"
+    },
+    {
+      "topicId": "nzc_niue_tense_markers",
+      "prerequisiteId": "nzc_lang_time_frames",
+      "strength": "helpful",
+      "reason": "Understanding that languages mark time in different ways supports learning a specific Niuean pattern.",
+      "sourceId": "nzc_niue_2026"
+    },
+    {
+      "topicId": "nzc_japanese_count_people",
+      "prerequisiteId": "nzc_japanese_counters",
+      "strength": "helpful",
+      "reason": "Knowing counters depend on the type of item supports learning forms used for people.",
+      "sourceId": "nzc_japanese_2026"
+    },
+    {
+      "topicId": "nzc_japanese_katakana_loans",
+      "prerequisiteId": "nzc_japanese_hiragana",
+      "strength": "helpful",
+      "reason": "Recognising hiragana supports comparing it with katakana forms representing corresponding sounds.",
+      "sourceId": "nzc_japanese_2026"
+    },
+    {
+      "topicId": "nzc_korean_polite_title_nim",
+      "prerequisiteId": "nzc_korean_speech_levels",
+      "strength": "helpful",
+      "reason": "Knowing that speech levels depend on context supports recognising a respectful form of address.",
+      "sourceId": "nzc_korean_2026"
+    },
+    {
+      "topicId": "nzc_korean_why_wae",
+      "prerequisiteId": "nzc_lang_clarify",
+      "strength": "helpful",
+      "reason": "Asking for clarification supports requesting a reason in a longer interaction.",
+      "sourceId": "nzc_korean_2026"
+    },
+    {
+      "topicId": "nzc_french_likes_negative",
+      "prerequisiteId": "nzc_lang_preferences",
+      "strength": "helpful",
+      "reason": "Understanding a preference supports expressing both a like and a dislike in French.",
+      "sourceId": "nzc_french_2026"
+    },
+    {
+      "topicId": "nzc_french_near_future",
+      "prerequisiteId": "nzc_lang_time_frames",
+      "strength": "helpful",
+      "reason": "Understanding time frames helps learners recognise a construction for a future plan.",
+      "sourceId": "nzc_french_2026"
+    },
+    {
+      "topicId": "nzc_german_noun_capitals",
+      "prerequisiteId": "nzc_lang_listen_repeat",
+      "strength": "helpful",
+      "reason": "Attending to written models helps learners notice a regular spelling convention.",
+      "sourceId": "nzc_german_2026"
+    },
+    {
+      "topicId": "nzc_german_future_morgen",
+      "prerequisiteId": "nzc_lang_time_frames",
+      "strength": "helpful",
+      "reason": "Understanding time frames supports identifying a future time marker in German.",
+      "sourceId": "nzc_german_2026"
+    },
+    {
+      "topicId": "nzc_spanish_porque_reason",
+      "prerequisiteId": "nzc_lang_preferences",
+      "strength": "helpful",
+      "reason": "A stated preference can be developed by giving a reason for it.",
+      "sourceId": "nzc_spanish_2026"
+    },
+    {
+      "topicId": "nzc_spanish_near_future",
+      "prerequisiteId": "nzc_spanish_time_markers",
+      "strength": "helpful",
+      "reason": "Recognising a future time marker supports understanding a pattern for stating an immediate plan.",
+      "sourceId": "nzc_spanish_2026"
+    }
+  ],
+  "coverage": [
+    {
+      "strand": "Linguistic Knowledge",
+      "phase": "Novice 1 (proficiency-based)",
+      "years": [],
+      "sourceId": "nzc_languages_2026",
+      "locator": "Overview pp. 2–4; proficiency stages and connected strands",
+      "topicIds": [
+        "nzc_lang_listen_repeat",
+        "nzc_lang_introduction",
+        "nzc_reo_macrons",
+        "nzc_mandarin_pinyin_tones",
+        "nzc_mandarin_characters",
+        "nzc_nzsl_parameters",
+        "nzc_samoa_glottal",
+        "nzc_tokelau_intonation",
+        "nzc_cook_glottal",
+        "nzc_japanese_hiragana",
+        "nzc_korean_syllable_blocks",
+        "nzc_french_alphabetic",
+        "nzc_spanish_cognates",
+        "nzc_reo_digraphs",
+        "nzc_nzsl_fingerspell_names",
+        "nzc_niue_long_vowels",
+        "nzc_german_noun_capitals"
+      ],
+      "status": "strand-and-phase-covered",
+      "notes": "Representative language-learning concepts; learners may enter at different school years. Individual language sequences need additional mapping."
+    },
+    {
+      "strand": "Cultural and Sociolinguistic Knowledge",
+      "phase": "Novice 1 (proficiency-based)",
+      "years": [],
+      "sourceId": "nzc_languages_2026",
+      "locator": "Overview pp. 2–4; proficiency stages and connected strands",
+      "topicIds": [
+        "nzc_lang_greeting_context",
+        "nzc_lang_names_respect",
+        "nzc_reo_kia_ora",
+        "nzc_nzsl_visual_attention",
+        "nzc_tokelau_greeting_malo_ni",
+        "nzc_tonga_greeting_malo",
+        "nzc_cook_kia_orana"
+      ],
+      "status": "strand-and-phase-covered",
+      "notes": "Representative language-learning concepts; learners may enter at different school years. Individual language sequences need additional mapping."
+    },
+    {
+      "strand": "Linguistic Knowledge",
+      "phase": "Novice 2 (proficiency-based)",
+      "years": [],
+      "sourceId": "nzc_languages_2026",
+      "locator": "Overview pp. 2–4; proficiency stages and connected strands",
+      "topicIds": [
+        "nzc_lang_clarify",
+        "nzc_lang_preferences",
+        "nzc_nzsl_nonmanual",
+        "nzc_japanese_counters",
+        "nzc_french_grammatical_gender",
+        "nzc_german_verb_forms",
+        "nzc_reo_direct_address",
+        "nzc_mandarin_neutral_tone",
+        "nzc_mandarin_character_structure",
+        "nzc_mandarin_date_order",
+        "nzc_tonga_dual",
+        "nzc_german_compound",
+        "nzc_samoa_excuse_tulou",
+        "nzc_japanese_count_people",
+        "nzc_korean_polite_title_nim",
+        "nzc_french_likes_negative",
+        "nzc_spanish_porque_reason"
+      ],
+      "status": "strand-and-phase-covered",
+      "notes": "Representative language-learning concepts; learners may enter at different school years. Individual language sequences need additional mapping."
+    },
+    {
+      "strand": "Cultural and Sociolinguistic Knowledge",
+      "phase": "Novice 2 (proficiency-based)",
+      "years": [],
+      "sourceId": "nzc_languages_2026",
+      "locator": "Overview pp. 2–4; proficiency stages and connected strands",
+      "topicIds": [
+        "nzc_lang_family_variation",
+        "nzc_lang_context_formality",
+        "nzc_reo_names",
+        "nzc_mandarin_greetings",
+        "nzc_nzsl_name_signs",
+        "nzc_samoa_ceremonial",
+        "nzc_tokelau_intergenerational",
+        "nzc_tonga_respectful_expression",
+        "nzc_korean_speech_levels",
+        "nzc_cook_proverbs",
+        "nzc_niue_kinship_terms",
+        "nzc_japanese_address"
+      ],
+      "status": "strand-and-phase-covered",
+      "notes": "Representative language-learning concepts; learners may enter at different school years. Individual language sequences need additional mapping."
+    },
+    {
+      "strand": "Linguistic Knowledge",
+      "phase": "Novice 3 (proficiency-based)",
+      "years": [],
+      "sourceId": "nzc_languages_2026",
+      "locator": "Overview pp. 2–4; proficiency stages and connected strands",
+      "topicIds": [
+        "nzc_lang_connected_description",
+        "nzc_lang_time_frames",
+        "nzc_mandarin_opinion",
+        "nzc_nzsl_space_referents",
+        "nzc_mandarin_asking_repetition",
+        "nzc_mandarin_because",
+        "nzc_niue_figurative",
+        "nzc_spanish_time_markers",
+        "nzc_spanish_transaction",
+        "nzc_nzsl_time_context",
+        "nzc_samoa_opinion_manatu",
+        "nzc_tokelau_asking_cost",
+        "nzc_tonga_destination_ki",
+        "nzc_cook_question_kiea",
+        "nzc_niue_tense_markers",
+        "nzc_japanese_katakana_loans",
+        "nzc_korean_why_wae",
+        "nzc_french_near_future",
+        "nzc_german_future_morgen",
+        "nzc_spanish_near_future"
+      ],
+      "status": "strand-and-phase-covered",
+      "notes": "Representative language-learning concepts; learners may enter at different school years. Individual language sequences need additional mapping."
+    },
+    {
+      "strand": "Cultural and Sociolinguistic Knowledge",
+      "phase": "Novice 3 (proficiency-based)",
+      "years": [],
+      "sourceId": "nzc_languages_2026",
+      "locator": "Overview pp. 2–4; proficiency stages and connected strands",
+      "topicIds": [
+        "nzc_lang_cultural_perspective",
+        "nzc_lang_plan_interaction",
+        "nzc_reo_place",
+        "nzc_reo_identity_connections"
+      ],
+      "status": "strand-and-phase-covered",
+      "notes": "Representative language-learning concepts; learners may enter at different school years. Individual language sequences need additional mapping."
+    }
+  ],
+  "limitations": [
+    "Language learning is optional and proficiency based; Novice 1–3 are not fixed NZ school years.",
+    "Examples identify a specific teaching-sequence page and Novice level where verified; editorial exercises and links are supplementary teaching resources, not official assessments.",
+    "The Gagana Tokelau intergenerational example is based on the official glossary; its Novice placement has not been verified against the language-specific sequence.",
+    "Entries represent selected concepts and do not map every requirement or the full sequences for all 13 languages; learners need guided practice and language-specific resources.",
+    "No New Zealand teacher, Deaf community or language-community review; do not invent whakapapa, tikanga, name signs, translations or a regional dialect.",
+    "Years 11–13 require separate subject-specific source review."
+  ]
+}

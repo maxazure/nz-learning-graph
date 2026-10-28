@@ -1,9 +1,5 @@
 const translations: Record<string,string> = {
- 'Loading learning topics…':'正在加载知识点…',
- 'Clear filters':'清除筛选',
  'No topics match these filters. Clear filters to search the full learning map. Year filters only include NZ activities with a suggested year; original topics are excluded.':'当前筛选条件下没有匹配的知识点。点击“清除筛选”可搜索完整图谱。年级筛选只包含已标注建议年级的新西兰活动，会排除原有知识点。',
- 'No matching topics. Try a shorter English search, such as time or fractions.':'未找到匹配的知识点。请尝试较短的英文关键词，例如 time 或 fractions。',
- 'All subjects':'所有学科',
  'Copied':'已复制',
  'Select and copy the text':'请选中文字并复制',
  'ChatGPT Work · desktop':'ChatGPT Work · 桌面版',

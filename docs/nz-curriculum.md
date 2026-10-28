@@ -1,6 +1,6 @@
 # NZ curriculum context and editorial scope
 
-Source check: 18 October 2026. This project includes 16 original family-learning activities and a maths supplement with 264 additional topics and 152 enriched existing topics, spanning Years 0–13. It does not provide a complete NZ curriculum mapping. All new year bands, activities, evidence prompts and prerequisite links are editorial drafts, have not been reviewed by a New Zealand teacher, and do not constitute official assessment or Ministry endorsement.
+Source check: 29 October 2026. The project includes 16 original family-learning activities, a mathematics supplement spanning Years 0–13, and a new Years 0–10 supplement across the other English-medium NZC learning areas. Strand-and-phase coverage entries identify represented areas; they do not establish complete statement-by-statement curriculum coverage. Year bands, activities, questions and prerequisite links are editorial drafts, have not been reviewed by a New Zealand teacher, and do not constitute official assessment or Ministry endorsement.
 
 ## Curriculum pathway and timing
 
@@ -10,7 +10,18 @@ The first overlay supports families using the English-medium New Zealand Curricu
 
 [Science and Social Sciences final content was released on 12 August 2026](https://newzealandcurriculum.tahurangi.education.govt.nz/y0-10-science-social-sciences-released). The individual [Science page](https://newzealandcurriculum.tahurangi.education.govt.nz/new-zealand-curriculum-online/nzc---science-phases-1-4-years-0-10/5637290855.p) and [Social Sciences page](https://newzealandcurriculum.tahurangi.education.govt.nz/new-zealand-curriculum-online/nzc---social-sciences-phases-1-4-years-0-10/5637290851.p) currently describe publication in the Gazette as pending and indicate use from January 2027. The latter records an update dated 16 September 2026. Published final content and legal implementation status must remain distinct. These pages should not be described as current consultation drafts or as already in-force 2026 requirements.
 
-[The revised Ministry timeline](https://www.education.govt.nz/news/new-timeframe-years-0-8-final-national-curriculum) places remaining Years 0–8 learning areas in 2029 and all Years 9–10 learning areas in 2027. The original activity overlay does not cover senior qualifications. The separate maths supplement maps current senior NZC levels and NCEA standards; see [maths integration](maths-integration.md). Review source status when expanding the dataset or when official implementation changes.
+[The revised Ministry timeline](https://www.education.govt.nz/news/new-timeframe-years-0-8-final-national-curriculum) places remaining Years 0–8 learning areas in 2029 and all Years 9–10 learning areas in 2027. The new non-mathematics supplement focuses on Years 0–10; it does not cover senior qualifications. The separate maths supplement maps current senior NZC levels and NCEA standards; see [maths integration](maths-integration.md). Review source status when expanding the dataset or when official implementation changes.
+
+
+## Other learning areas and the star map (29 October 2026)
+
+The published NZC Years 0–10 documents now cover English, Science, Social Sciences, The Arts, Health and Physical Education, Technology and Learning Languages as well as mathematics. English Years 0–10 is in effect. The Ministry describes the revised Science and Social Sciences content as proposed National Curriculum Statements to start from 2027; the other published documents are proposed to start in Years 9–10 from 2027 and Years 0–8 from 2029, with transition arrangements. Gazette publication remained pending on the linked learning-area pages when checked. For exact school-specific dates see the [Ministry timeline](https://tahurangi.education.govt.nz/years-0-10-curriculum).
+
+Learning Languages is optional, although schools are encouraged to offer it in Years 7–10. Where offered, the proposed dates apply. Its Novice 1–3 sequences describe proficiency, not school year; these topics intentionally have no assigned year. The supplement includes general topics and examples across all 13 language pathways. Their published teaching sequences were consulted, alongside language overview and glossary pages. Where checked, records include a PDF page and proficiency level; the Gagana Tokelau intergenerational example retains an explicitly unverified editorial stage. Detailed line-by-line requirements, complete language-specific sequences and senior non-mathematics pathways are not fully mapped.
+
+See [the supplement](../data/nz-curriculum/README.md) for sources, scope, licences and limitations, and `coverage` and `limitations` in each area file. Connections to other subjects are editorial teaching suggestions, with a reason and source, not official mandated prerequisites. The interactive star map draws its nodes, links and counts from the same active graph used by MCP and current open-data exports. A full list remains available alongside the visualisation.
+
+The Ministry's [copyright notice](https://newzealandcurriculum.tahurangi.education.govt.nz/copyright) generally applies CC BY-NC 4.0 to Crown website material, with exceptions. Curriculum-derived supplement content is attributed and identified for non-commercial reuse; original Marble content remains separately licensed under its own terms. See [provenance](../PROVENANCE.md).
 
 ## What the source links establish
 

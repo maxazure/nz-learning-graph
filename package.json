@@ -3,13 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "license": "(ODbL-1.0 AND CC-BY-SA-4.0)",
+  "license": "(ODbL-1.0 AND CC-BY-SA-4.0 AND CC-BY-NC-4.0)",
   "scripts": {
-    "validate": "node scripts/validate.mjs",
+    "validate": "node scripts/validate.mjs && node scripts/validate-nz-curriculum.mjs",
     "dev": "npm run build && wrangler pages dev dist",
     "build": "vite build && node scripts/build-pages.mjs && tsx scripts/export-graph.ts",
     "typecheck": "tsc --noEmit && tsc -p tsconfig.web.json --noEmit",
-    "test": "tsx --test tests/*.test.ts",
+    "test": "tsx --test tests/*.test.ts tests/*.test.mjs",
     "deploy": "npm run build && wrangler pages deploy dist --project-name nz-learning-graph"
   },
   "dependencies": {

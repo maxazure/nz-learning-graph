@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Learning Paths NZ: find learning gaps with your AI</title>
-<meta name="description" content="Use an open learning map with your AI to explore a wrong answer, check the foundations and plan what to practise next. For NZ families and learners.">
+<title>Learning Paths NZ: explore the learning star map</title>
+<meta name="description" content="Explore an interactive star map of knowledge across school subjects. Find foundations and plan next steps with your AI. For NZ families and learners.">
 <link rel="canonical" href="https://edu.w1.nz/">
-<link rel="stylesheet" href="/design.css"><link rel="stylesheet" href="/app.css">
+<link rel="stylesheet" href="/design.css"><link rel="stylesheet" href="/app.css"><link rel="stylesheet" href="/starmap.css">
 </head>
 <body>
 <a class="skip" href="#main">Skip to main content</a>
@@ -25,7 +25,7 @@
     </a>
     <nav aria-label="Main">
       <ul class="nav-links" id="nav-links">
-        <li><a href="#map">The map</a></li>
+        <li><a href="#map">Star map</a></li>
         <li><a href="#start">Getting started</a></li>
         <li><a href="#subjects">Subjects</a></li>
         <li><a href="#connect">Use with your AI</a></li>
@@ -48,9 +48,9 @@
   <div class="wrap hero-grid">
     <div>
       <p class="eyebrow">For parents, whānau and curious learners · Use with your AI</p>
-      <h1 id="hero-title">Find where learning gets stuck. <em>Know what to try next.</em></h1>
-      <p class="lede">A wrong answer can start much earlier than today's lesson. Give your AI this learning map: explore the question together, check the foundations, then choose a small next step.</p>
-      <p><a class="btn btn-primary" href="#connect">Connect your AI to the map <span aria-hidden="true">→</span></a> <a class="text-button hero-video-link" href="#watch">Watch the 2-minute guide</a></p>
+      <h1 id="hero-title">See how learning connects. <em>Know what to try next.</em></h1>
+      <p class="lede">Explore a star map of knowledge across subjects. Find earlier ideas, follow connections and work with your AI to choose what to practise next.</p>
+      <p><a class="btn btn-primary" href="#map">Explore the star map <span aria-hidden="true">→</span></a> <a class="text-button hero-video-link" href="#watch">Watch the 2-minute guide</a></p>
       <form class="ask" role="search" id="hero-search">
         <div class="ask-row">
           <div class="ask-field">
@@ -70,11 +70,15 @@
         <button class="chip" translate="no" lang="en-NZ" type="button" data-q="Multiplication">Times tables</button>
       </div>
 
-      <div class="hero-trust">
-        <div><b>1,859</b>small learning steps</div>
-        <div><b>3,981</b>links showing what comes first</div>
-        <div><b>Free</b>to explore, no sign-up</div>
-      </div>
+      <a class="hero-starmap" href="#map">
+        <span class="hero-starmap-sky" id="hero-starmap-sky" aria-hidden="true"></span>
+        <span class="hero-starmap-text">
+          <strong>Open the star map <span aria-hidden="true">→</span></strong>
+          <span>Every topic is a star. Lines show what comes first and how subjects connect.</span>
+          <small id="hero-starmap-stats" hidden></small>
+        </span>
+      </a>
+      <p class="hero-free">Free to explore, no sign-up.</p>
     </div>
 
     <aside class="path-card hero-example" aria-label="An illustrative Year 10 maths conversation">
@@ -89,6 +93,25 @@
     </aside>
   </div>
 </section>
+
+<!-- ================= STAR MAP ================= -->
+<section class="section graph-section" id="map" aria-labelledby="map-title"><div class="wrap">
+<div class="section-head"><p class="eyebrow">The star map</p><h2 id="map-title">Every idea is a star. <em class="serif">Follow the lines.</em></h2><p class="lede">Lines show what comes first, what it leads to, and where one subject supports another. Choose a subject or a star to see its neighbourhood.</p></div>
+<div class="explorer-filters" role="search" aria-label="Filter the star map">
+<label class="filter-search">Find a topic<input id="topic-search" type="search" placeholder="Try fractions, coins or native species" autocomplete="off"></label>
+<label>Suggested NZ year<select id="year-filter"><option value="">All / not mapped</option><option value="0">Year 0</option><option value="1">Year 1</option><option value="2">Year 2</option><option value="3">Year 3</option><option value="4">Year 4</option><option value="5">Year 5</option><option value="6">Year 6</option><option value="7">Year 7</option><option value="8">Year 8</option><option value="9">Year 9</option><option value="10">Year 10</option><option value="11">Year 11</option><option value="12">Year 12</option><option value="13">Year 13</option></select></label>
+<div class="filter-row"><label class="checkbox"><input id="nz-only" type="checkbox"> NZ mapped topics / activities only</label><button type="button" id="clear-filters" class="text-button" hidden>Clear search and filters</button></div>
+</div>
+<div id="subjects" class="subject-strip" role="group" aria-label="Subjects"></div>
+<p class="fine-print language-note">Topics, examples and AI prompts stay in English, so search with English topic names. Suggested years come from NZ curriculum mappings and activities; NCEA levels are not school years.</p>
+<div class="starmap" id="starmap">
+<div class="starmap-head"><nav class="starmap-crumbs" id="starmap-crumbs" aria-label="Star map location"></nav><div class="view-toggle" role="group" aria-label="View"><button type="button" data-view="stars" aria-pressed="true">Star map</button><button type="button" data-view="list" aria-pressed="false">List</button></div></div>
+<div class="starmap-body"><div class="starmap-stage" id="starmap-stage"><p class="sm-loading">Loading the star map…</p></div><div class="starmap-list" id="starmap-list" hidden></div><aside class="starmap-panel" id="starmap-panel" aria-label="Selection details"></aside></div>
+<div class="starmap-foot"><p id="results-count" aria-live="polite"></p><div class="starmap-legend" id="starmap-legend"></div></div>
+</div>
+<article id="topic-detail" class="topic-detail" aria-labelledby="detail-title" hidden></article>
+<div class="known-bar"><span id="known-count"></span><button type="button" id="clear-known" class="text-button" hidden>Clear browser progress</button></div>
+</div></section>
 
 <section class="section video-section" id="watch" aria-labelledby="watch-title"><div class="wrap">
 <div class="section-head"><p class="eyebrow">Watch it in action</p><h2 id="watch-title">Follow the links. <em class="serif">Find the missing step.</em></h2><p class="lede">Follow Pythagoras through a constellation of knowledge, trace earlier foundations and see how a small gap can affect the next step.</p></div>
@@ -122,15 +145,12 @@
 <div class="connections-card"><div id="client-tabs" class="client-tabs" role="tablist" aria-label="AI tools"><button role="tab" data-client="chatgpt" aria-selected="true">ChatGPT Work</button><button role="tab" data-client="claude-code" aria-selected="false">Claude Code</button><button role="tab" data-client="workbuddy" aria-selected="false">WorkBuddy</button><button role="tab" data-client="codex" aria-selected="false">Codex</button><button role="tab" data-client="claude" aria-selected="false">Claude</button></div><div id="connection-guide" role="tabpanel"></div></div>
 </div></section>
 <hr class="rule">
-<!-- ================= GRAPH ================= -->
-<section class="section graph-section" id="map" aria-labelledby="map-title"><div class="wrap"><div class="section-head"><p class="eyebrow">The learning map</p><h2 id="map-title">Every step has steps <em class="serif">before it.</em></h2><p class="lede">Choose an idea to see its foundations, a question to try, and a path you can work through together.</p></div><div id="subjects" class="explorer-filters"><label>Find a topic<input id="topic-search" type="search" placeholder="Try fractions, coins or native species"></label><label>Subject<select id="subject-filter"></select></label><label>Suggested NZ year<select id="year-filter"><option value="">All / not mapped</option><option value="0">Year 0</option><option value="1">Year 1</option><option value="2">Year 2</option><option value="3">Year 3</option><option value="4">Year 4</option><option value="5">Year 5</option><option value="6">Year 6</option><option value="7">Year 7</option><option value="8">Year 8</option><option value="9">Year 9</option><option value="10">Year 10</option><option value="11">Year 11</option><option value="12">Year 12</option><option value="13">Year 13</option></select></label><label class="checkbox"><input id="nz-only" type="checkbox"> NZ mapped topics / activities only</label></div><p class="fine-print language-note">Website language changes the parent guide. Learning topics, examples and AI prompts stay in English. Search using English topic names.</p><p class="fine-print">Year filters include mapped maths and NZ activities. Suggested years help you search; read the specific curriculum scope. NCEA levels do not equal school years.</p><div class="results-head"><p id="results-count" aria-live="polite"></p><button id="clear-filters" class="text-button" hidden>Clear filters</button><span>Original graph + NZ contexts</span></div><div id="topic-results" class="topic-results"><p class="empty-state">Loading learning topics…</p></div><button id="load-topics" class="button secondary">Show more topics</button><article translate="no" lang="en-NZ" id="topic-detail" class="topic-detail" aria-live="polite"></article><div class="known-bar"><span id="known-count"></span><button id="clear-known" class="text-button">Clear browser progress</button></div></div></section>
-
-<section class="section" id="about" aria-labelledby="about-title"><div class="wrap honest"><div><p class="eyebrow">About the NZ version</p><h2 id="about-title">A learning map <em>your AI can read.</em></h2><p class="statement">1,859 topics and 3,981 connections help your AI find the small steps behind a bigger learning goal.</p></div><div class="facts">
+<section class="section" id="about" aria-labelledby="about-title"><div class="wrap honest"><div><p class="eyebrow">About the NZ version</p><h2 id="about-title">A learning map <em>your AI can read.</em></h2><p class="statement" id="graph-statement">Thousands of topics and connections help your AI find the small steps behind a bigger learning goal.</p></div><div class="facts">
 <div class="fact"><div class="k">How it works</div><div><h4>Connected learning steps</h4><p>The AI can search topics, check prerequisites and build a practice sequence. Each topic includes examples and questions to support learning at home.</p></div></div>
-<div class="fact"><div class="k">NZ connections</div><div><h4>Learning through everyday life</h4><p>The original Marble graph is joined by 16 NZ activities and a maths supplement spanning Years 0–13. It adds 264 topics and enriches 152 existing topics, with diagnostic questions, hints and separate curriculum mappings. Research drafts and remaining coverage gaps are documented.</p></div></div>
-<div class="fact"><div class="k">Open data</div><div><h4>Free to use and build on</h4><p>The graph and source code are open. Explore the data, suggest a correction or connect your own learning tool.</p><a href="https://github.com/maxazure/nz-learning-graph">View the project</a></div></div>
+<div class="fact"><div class="k">NZ connections</div><div><h4>Learning through everyday life</h4><p id="nz-additions">The original Marble graph is joined by NZ activities and NZ curriculum supplements, with diagnostic questions, hints and separate curriculum mappings. Research drafts and remaining coverage gaps are documented.</p></div></div>
+<div class="fact"><div class="k">Data and source code</div><div><h4>Explore and build with the graph</h4><p>Explore the data, suggest a correction or connect your own learning tool. Check the source licences before reuse; NZ curriculum-derived content has non-commercial terms.</p><a href="https://github.com/maxazure/nz-learning-graph">View the project</a></div></div>
 </div></div></section>
-<section class="section privacy-section" id="privacy"><div class="wrap"><div class="section-head"><p class="eyebrow">Privacy &amp; use</p><h2>Keep learning personal.</h2></div><div class="detail-columns"><div><h3>No account needed</h3><p>The public MCP reads the learning graph. It does not create child profiles or save your learning questions. Topic checkmarks stay in your browser. The hosting provider processes requests and technical logs to run the service.</p></div><div><h3>You stay in the conversation</h3><p>Use your own AI account and review its suggestions with your child. Your AI provider handles conversations under its own terms. You can describe a learning need without sharing a child's name or school.</p><p>Questions or corrections: <a href="https://github.com/maxazure/nz-learning-graph/issues">project issues</a>.</p></div></div><div class="licence-note"><p>Marble Skill Taxonomy (v1) · © Generative Spark, Inc. (Marble) · <a href="https://withmarble.com">withmarble.com</a>. Database and NZ derivative: <a href="https://github.com/maxazure/nz-learning-graph/blob/main/LICENSE">ODbL 1.0</a>. Marble-authored and adapted content: <a href="https://github.com/maxazure/nz-learning-graph/blob/main/LICENSE-CONTENT">CC BY-SA 4.0</a>. Third-party standards retain their upstream terms. <a href="https://github.com/maxazure/nz-learning-graph">Download source and open data</a> · <a href="https://github.com/maxazure/nz-learning-graph/blob/main/docs/nz-curriculum.md">NZ sources</a>.</p></div></div></section></main>
+<section class="section privacy-section" id="privacy"><div class="wrap"><div class="section-head"><p class="eyebrow">Privacy &amp; use</p><h2>Keep learning personal.</h2></div><div class="detail-columns"><div><h3>No account needed</h3><p>The public MCP reads the learning graph. It does not create child profiles or save your learning questions. Topic checkmarks stay in your browser. The hosting provider processes requests and technical logs to run the service.</p></div><div><h3>You stay in the conversation</h3><p>Use your own AI account and review its suggestions with your child. Your AI provider handles conversations under its own terms. You can describe a learning need without sharing a child's name or school.</p><p>Questions or corrections: <a href="https://github.com/maxazure/nz-learning-graph/issues">project issues</a>.</p></div></div><div class="licence-note"><p>Marble Skill Taxonomy (v1) · © Generative Spark, Inc. (Marble) · <a href="https://withmarble.com">withmarble.com</a>. Database and NZ derivative: <a href="https://github.com/maxazure/nz-learning-graph/blob/main/LICENSE">ODbL 1.0</a>. Marble-authored content: <a href="https://github.com/maxazure/nz-learning-graph/blob/main/LICENSE-CONTENT">CC BY-SA 4.0</a>. NZ curriculum-derived material: <a href="https://newzealandcurriculum.tahurangi.education.govt.nz/copyright">CC BY-NC 4.0, subject to source exceptions</a>. Third-party standards retain their upstream terms. <a href="https://github.com/maxazure/nz-learning-graph">Download source and open data</a> · <a href="https://github.com/maxazure/nz-learning-graph/blob/main/docs/nz-curriculum.md">NZ sources</a>.</p></div></div></section></main>
 
 <footer class="site">
   <div class="wrap">
@@ -139,7 +159,7 @@
         <a class="brand" href="#top"><span class="brand-name"><b>Learning Paths</b> <span>NZ</span></span></a>
         <p style="margin-top:16px;max-width:30em">An open map of how school learning fits together, adapted for families in Aotearoa New Zealand.</p>
       </div>
-      <div><h4>Explore</h4><ul><li><a href="#map">The map</a></li><li><a href="#subjects">Subjects</a></li><li><a href="#topic-detail">Example step</a></li></ul></div>
+      <div><h4>Explore</h4><ul><li><a href="#map">Star map</a></li><li><a href="#subjects">Subjects</a></li><li><a href="#map?topic=nz_sharing_kai">Example step</a></li></ul></div>
       <div><h4>Parents</h4><ul><li><a href="#connect">Setup prompts</a></li><li><a href="#connect">Use with your AI</a></li><li><a href="#privacy">Privacy &amp; terms</a></li></ul></div>
       <div><h4>Open data</h4><ul><li><a href="https://github.com/maxazure/nz-learning-graph/blob/main/PROVENANCE.md">Sources and licences</a></li><li><a href="#about">How the NZ version is made</a></li><li><a href="https://github.com/maxazure/nz-learning-graph/issues/new">Report a problem</a></li></ul></div>
     </div>

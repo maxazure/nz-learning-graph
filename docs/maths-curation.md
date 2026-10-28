@@ -1,6 +1,6 @@
 # Mathematics consolidation and prerequisite review — 18 October 2026
 
-The active website and MCP now share **1,859 topics and 3,981 unique dependency pairs** (2,648 required, 1,333 helpful). This revision consolidates 11 duplicate records, clarifies 119 headings, makes 42 explicit dependency decisions, and adds four targeted diagnostics. All 416 supplied teaching profiles, their original 454 diagnostics and all 1,287 scoped curriculum mappings remain available. There are now 458 diagnostics. The original Marble files and all 22 research-package files remain unchanged.
+At this maths-curation revision, the website and MCP shared **1,859 topics and 3,981 unique dependency pairs** (2,648 required, 1,333 helpful). This revision consolidates 11 duplicate records, clarifies 119 headings, makes 42 explicit dependency decisions, and adds four targeted diagnostics. All 416 supplied teaching profiles, their original 454 diagnostics and all 1,287 scoped curriculum mappings remain available. There are now 458 diagnostics. The original Marble files and all 22 research-package files remain unchanged.
 
 The review examined the supplement's ten overlap groups, then compared every repeated active mathematics heading after ignoring upstream age suffixes. Identical headings now have distinct scopes or a single consolidated record. Numeric ranges, representation methods and application goals remain separate where they change what the learner needs to demonstrate. Name uniqueness alone does not establish semantic uniqueness across the entire subject.
 

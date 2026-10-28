@@ -3,9 +3,10 @@ import staticChinese from './zh-static';
 import dynamicChinese from './zh-dynamic';
 
 type Language = 'en' | 'zh';
-const chinese: Record<string, string> = {...staticChinese, ...dynamicChinese, ...heroChinese,
- 'Website language changes the parent guide. Learning topics, examples and AI prompts stay in English. Search using English topic names.': '语言切换适用于家长指南。知识点、教学示例和 AI 提示词保留英文，请用英文知识点名称搜索。',
-};
+/** For text rendered by scripts, including SVG labels that the page translator skips. */
+export const currentLanguage = (): Language => document.documentElement.lang === 'zh-CN' ? 'zh' : 'en';
+export const t = (en: string, zh: string) => currentLanguage() === 'zh' ? zh : en;
+const chinese: Record<string, string> = {...staticChinese, ...dynamicChinese, ...heroChinese};
 const excluded = '[translate="no"],code,pre,script,style,svg';
 const normalise = (text: string) => text.trim().replace(/\s+/g, ' ');
 
@@ -34,8 +35,8 @@ export function setupLanguage() {
  const apply = () => {
   observer.disconnect();
   document.documentElement.lang = language === 'zh' ? 'zh-CN' : 'en-NZ';
-  document.title = language === 'zh' ? 'Learning Paths NZ：配合 AI 找到学习卡点' : title;
-  description.content = language === 'zh' ? '配合 AI 从一道错题出发，查找前置知识、确认学习卡点，再安排下一步练习。适合新西兰家长和孩子。' : englishDescription;
+  document.title = language === 'zh' ? 'Learning Paths NZ：探索跨学科知识星图' : title;
+  description.content = language === 'zh' ? '探索跨学科知识星图，查找基础知识，并结合 AI 安排下一步学习。适合新西兰家庭和学习者。' : englishDescription;
   select.value = language;
   const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
   while (walker.nextNode()) {

@@ -14,7 +14,7 @@ Teaching topics, examples and graph data remain English. Parent-facing guides an
 2. Copy its setup prompt into a new conversation. Allow any configuration action requested by your own AI app, and restart if needed.
 3. Ask about a topic. The AI can search, check prerequisites and plan a short activity.
 
-The website also lets you browse the graph. Year filters include maths mappings and the 16 NZ activities through Year 13. Search bands are editorial guidance; individual mappings preserve exact scope and school year is separate from qualification level. Topic marks stay in the browser.
+The website also offers an interactive star map: explore subject clusters and real cross-subject connections, then open a topic to see its foundations, next steps, source and activity. A list view exposes every connection. Year filters include mapped curriculum topics and NZ activities; broad phase bands are editorial search guidance. Language-learning topics use proficiency stages rather than assumed school years. School years and qualification levels are separate. Topic marks stay in the browser.
 
 ChatGPT Work desktop shares MCP configuration with Codex. Web Work uses plugins. Claude web/desktop requires adding the connector once; a chat prompt cannot silently change those account settings. Sources and actual verification coverage are in [verification](docs/verification.md).
 
@@ -42,10 +42,11 @@ Use the actual local port printed by Wrangler. Backend tests run in-process by d
 
 ## Architecture
 
-- `web/`: bilingual parent guide, copyable setup prompts and optional graph explorer. Visual design originated with Claude Code Opus 5.5 in `design/prototype.html`.
+- `web/`: bilingual parent guide, copyable setup prompts and interactive, keyboard-accessible star map. The original visual design and 2026 star-map implementation used Claude Code Opus 5.5.
 - `lib/graph.ts`: search, prerequisite traversal, learning paths and reachable next topics.
 - `data/nz-maths/`: all 22 original research files, diagnostic pedagogy, independent mappings, standards, sources, coverage gaps and validator. See [import decisions](docs/maths-integration.md).
 - `data/nz-overlay.json`: source-linked NZ activities, suggested years and provenance metadata.
+- `data/nz-curriculum/`: source-linked English, Science, Social Sciences, The Arts, Health and Physical Education, Technology and Learning Languages topics, activities, phase coverage and suggested connections. [Scope, gaps and terms](data/nz-curriculum/README.md).
 - `server/`: public read-only MCP using the official SDK's stateless Streamable HTTP transport. Cross-origin requests and preflight are supported. Request sizes and tool inputs are bounded.
 - No account, OAuth, session, token or database code is used by the application. The previous D1 database is detached and left unchanged.
 
@@ -67,12 +68,12 @@ Cross-subject media is intentionally excluded from Git. The local production exp
 
 ## Open data and licences
 
-Forked from [Marble Skill Taxonomy](https://github.com/withmarbleapp/os-taxonomy). The original 1,590 topics and 3,221 dependencies are preserved as source archives; 16 NZ activities add 32 connections, forming the original 1,606-topic baseline. The 2026-10-18 maths supplement adds 264 topics and enriches 152 existing topics. Subsequent [maths curation](docs/maths-curation.md) consolidates 11 duplicate records, clarifies misleading headings and revises 42 prerequisite pairs. The active website and MCP use 1,859 topics and 3,981 distinct edges, with 458 diagnostics and all 1,287 scoped mappings.
+Forked from [Marble Skill Taxonomy](https://github.com/withmarbleapp/os-taxonomy). The original 1,590 topics and 3,221 dependencies are preserved as source archives; 16 NZ activities add 32 connections, forming the original 1,606-topic baseline. The 2026-10-18 maths supplement adds 264 topics and enriches 152 existing topics. Subsequent [maths curation](docs/maths-curation.md) consolidates 11 duplicate records, clarifies misleading headings and revises 42 prerequisite pairs. The October 2026 supplement adds source-linked teaching topics and explicit cross-subject suggestions across the other English-medium learning areas. The active website and MCP share the same data and live counts. Coverage is representative at strand and phase level; individual year-by-year statements, all language sequences and senior non-mathematics qualifications are not yet comprehensively mapped.
 
-Marble Skill Taxonomy (v1) · © Generative Spark, Inc. (Marble) · https://withmarble.com. Database and derivative under [ODbL 1.0](LICENSE); Marble-authored and adapted content under [CC BY-SA 4.0](LICENSE-CONTENT). Third-party material retains its upstream terms in [PROVENANCE.md](PROVENANCE.md). App code is [MIT](LICENSE-CODE).
+Marble Skill Taxonomy (v1) · © Generative Spark, Inc. (Marble) · https://withmarble.com. Database and derivative under [ODbL 1.0](LICENSE); Marble-authored content under [CC BY-SA 4.0](LICENSE-CONTENT). Curriculum-derived material in the new supplement is attributed to the Ministry of Education and identified for non-commercial use under CC BY-NC 4.0, subject to source exceptions. Third-party material retains its upstream terms in [PROVENANCE.md](PROVENANCE.md). App code is [MIT](LICENSE-CODE).
 
-Supplement files: `/open-data/nz-maths/README.md` and the other files in that directory.
+Supplement files: `/open-data/nz-maths/README.md` and `/open-data/nz-curriculum/README.md`, with the other files in those directories.
 
-Current downloads: `/open-data/current/manifest.json`, `topics.json`, `dependencies.json`, `curriculum-mappings.json`, `standards.json`, `curriculum-requirements.json`, `sources.json` and `maths-curation.json` in the same directory. These are exported from the same runtime used by the website and MCP. Retired duplicate IDs are source provenance only, not public aliases.
+Current downloads: `/open-data/current/manifest.json`, `topics.json`, `dependencies.json`, `curriculum-mappings.json`, `standards.json`, `curriculum-requirements.json`, `subject-coverage.json`, `sources.json` and `maths-curation.json` in the same directory. These are exported from the same runtime used by the website and MCP. Retired duplicate IDs are source provenance only, not public aliases.
 
 Original downloads: `/open-data/topics.json`, `/open-data/dependencies.json`, `/open-data/nz-overlay.json`. Sources are documented in [NZ curriculum context](docs/nz-curriculum.md). [Suggest a correction](https://github.com/maxazure/nz-learning-graph/issues).
