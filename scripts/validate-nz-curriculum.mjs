@@ -6,6 +6,7 @@ const load=p=>JSON.parse(readFileSync(p,'utf8'));
 const names=['english','science','social','arts','health','technology','languages'];
 const packages=names.map(n=>load(`data/nz-curriculum/${n}.json`));
 const bridges=load('data/nz-curriculum/bridges.json');
+const reviews=load('data/nz-curriculum/dependency-reviews.json');
 const errors=[],check=(condition,message)=>{if(!condition)errors.push(message);};
 const sources=new Set(),supplementIds=new Set(),questions=new Map();
 const activeIds=new Set([...load('data/topics.json').topics,...load('data/nz-overlay.json').topics,...load('data/nz-maths/topics.json')].map(t=>t.id));
@@ -43,6 +44,16 @@ for(const e of edges){
  check(e.topicId!==e.prerequisiteId,`Self edge: ${e.topicId}`);check(e.strength==='hard'||e.strength==='helpful',`Invalid edge strength`);
  check(typeof e.reason==='string'&&e.reason.trim()&&sources.has(e.sourceId),`Edge lacks reason/source: ${e.prerequisiteId} → ${e.topicId}`);
  const key=`${e.prerequisiteId}\0${e.topicId}`;check(!pairs.has(key),`Duplicate supplement edge: ${key}`);pairs.add(key);
+}
+const reviewSources=new Set([...sources,...load('data/nz-maths/sources.json').map(s=>s.source_id)]),reviewPairs=new Set();
+check(reviews.reviewedAt&&reviews.note&&Array.isArray(reviews.reviews),'Dependency review metadata is incomplete');
+for(const r of Array.isArray(reviews.reviews)?reviews.reviews:[]){
+ const key=`${r.prerequisiteId}\0${r.topicId}`;
+ check(activeIds.has(r.prerequisiteId)&&activeIds.has(r.topicId)&&r.prerequisiteId!==r.topicId,`Invalid reviewed endpoints: ${key}`);
+ check(!reviewPairs.has(key),`Duplicate reviewed dependency: ${key}`);reviewPairs.add(key);
+ check(['remove','reverse_helpful'].includes(r.action)&&r.reason&&r.locator,`Invalid dependency review: ${key}`);
+ check(r.action!=='reverse_helpful'||r.replacementReason,`Reversed dependency has no reason: ${key}`);
+ check(Array.isArray(r.sourceIds)&&r.sourceIds.length&&r.sourceIds.every(id=>reviewSources.has(id)),`Dependency review lacks a source: ${key}`);
 }
 if(errors.length){console.error(`✗ NZ curriculum: ${errors.length} problem(s):\n${errors.map(e=>`  - ${e}`).join('\n')}`);process.exit(1);}
 console.log(`✓ NZ curriculum: ${supplementIds.size} scoped topics, ${edges.length} suggested links, ${sources.size} sources; structural checks passed.`);

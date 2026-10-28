@@ -9,6 +9,7 @@ import health from '../data/nz-curriculum/health.json';
 import technology from '../data/nz-curriculum/technology.json';
 import languages from '../data/nz-curriculum/languages.json';
 import bridges from '../data/nz-curriculum/bridges.json';
+import dependencyReviews from '../data/nz-curriculum/dependency-reviews.json';
 
 export interface CurriculumSource {
  id:string; title:string; url:string; status:string; checkedAt:string; documentUrl?:string;
@@ -20,6 +21,10 @@ export interface CurriculumTopic {
  resources?:{label:string;url:string;attribution:string}[];
 }
 export interface CurriculumEdge {topicId:string;prerequisiteId:string;strength:'hard'|'helpful';reason:string;sourceId:string}
+export interface CurriculumEdgeReview {
+ prerequisiteId:string;topicId:string;action:'remove'|'reverse_helpful';reason:string;
+ replacementReason?:string;sourceIds:string[];locator:string;
+}
 export interface CurriculumCoverage {
  strand:string; phase:string; years:number[]; sourceId:string; locator:string; topicIds:string[]; status:string; notes:string;
 }
@@ -69,6 +74,7 @@ export function nzTopicMappings(id:string){return byTopic.get(id)||[];}
 export const nzCurriculumEdges = [...curriculumPackages.flatMap(p=>p.dependencies),...(bridges as {dependencies:CurriculumEdge[]}).dependencies].map(e=>({
  topicId:e.topicId,prerequisiteId:e.prerequisiteId,strength:e.strength,reason:e.reason,basis:'pedagogical_inference',confidence:'unreviewed',source_ids:[e.sourceId],
 }));
+export const nzCurriculumEdgeReviews=dependencyReviews.reviews as CurriculumEdgeReview[];
 export function nzCurriculumContext(id:string){
  const pkg=curriculumPackages.find(p=>p.topics.some(t=>t.id===id));
  if(!pkg)return null;

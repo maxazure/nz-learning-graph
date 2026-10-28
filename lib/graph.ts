@@ -1,5 +1,5 @@
 import {mathsProfiles,mathsAdditions,mathsDependencies,mathsSources,topicMappings as mathsTopicMappings,mappedYears,curriculumMappings as mathsCurriculumMappings,type TeachingProfile as MathsTeachingProfile,type CurriculumMapping as MathsCurriculumMapping} from './maths';
-import {nzCurriculumAdditions,nzCurriculumProfiles,nzCurriculumMappings,nzCurriculumSources,nzCurriculumEdges,nzTopicMappings,type SupplementTeachingProfile,type SupplementCurriculumMapping} from './nz-curriculum';
+import {nzCurriculumAdditions,nzCurriculumProfiles,nzCurriculumMappings,nzCurriculumSources,nzCurriculumEdges,nzCurriculumEdgeReviews,nzTopicMappings,type SupplementTeachingProfile,type SupplementCurriculumMapping} from './nz-curriculum';
 export type TeachingProfile=MathsTeachingProfile|SupplementTeachingProfile;
 export type CurriculumMapping=MathsCurriculumMapping|SupplementCurriculumMapping;
 export const curriculumMappings:CurriculumMapping[]=[...mathsCurriculumMappings,...nzCurriculumMappings];
@@ -80,11 +80,24 @@ for(const d of mathsCuration.dependency_edits){
  if(d.action==='remove')curatedEdges.delete(key);
  else curatedEdges.set(key,{prerequisiteId:d.prerequisite_id,topicId:d.topic_id,strength:d.strength!,reason:d.reason,basis:d.basis,confidence:d.confidence,source_ids:d.source_ids,source_locators:d.source_locators});
 }
+// Apply explicit curriculum-scope decisions after all inherited and curated edges.
+for(const review of nzCurriculumEdgeReviews){
+ const prerequisiteId=canonicalTopicId(review.prerequisiteId),topicId=canonicalTopicId(review.topicId),key=`${prerequisiteId}:${topicId}`;
+ if(!curatedEdges.has(key))throw new Error(`Reviewed dependency is missing: ${key}`);
+ curatedEdges.delete(key);
+ if(review.action==='reverse_helpful'){
+  const reversed=`${topicId}:${prerequisiteId}`;
+  if(curatedEdges.has(reversed))throw new Error(`Reviewed reverse dependency already exists: ${reversed}`);
+  curatedEdges.set(reversed,{prerequisiteId:topicId,topicId:prerequisiteId,strength:'helpful',reason:review.replacementReason!,
+   basis:'pedagogical_inference',confidence:'unreviewed',source_ids:review.sourceIds,
+   source_locators:review.sourceIds.map(source_id=>({source_id,locator:review.locator}))});
+ }
+}
 export const dependencies:Dependency[]=[...curatedEdges.values()];
 export function yearsForTopic(t:Topic){return t.suggestedYears||t.nz?.suggestedYears||[];}
 const byId = new Map(topics.map(t=>[t.id,t]));
 export const subjects = [...new Set(topics.map(t=>t.subject))].sort();
-export const guidance = 'Use the learning graph to plan small steps. Check prerequisites, ask one question at a time and give hints before answers. Use the linked sources and distinguish suggested NZ years from original age ranges. A learner can also explore independently. Use diagnostic applicability and each curriculum mapping scope before choosing questions. Typical school years are not NCEA qualification levels. Research-draft pedagogy and inferred prerequisite edges are not official assessment decisions. One correct answer does not establish mastery or an NCEA grade.';
+export const guidance = 'Use the learning graph to plan small steps. Check prerequisites, ask one question at a time and give hints before answers. Use the linked sources and distinguish suggested NZ years from original age ranges. A learner can also explore independently. When a teaching profile exists, use its evidence and questions for their stated scope; retained original evidence and prompts have separate provenance and are not necessarily NZ-aligned. Use diagnostic applicability and each curriculum mapping scope before choosing questions. Typical school years are not NCEA qualification levels. Research-draft pedagogy and inferred prerequisite edges are not official assessment decisions. One correct answer does not establish mastery or an NCEA grade.';
 export function getTopic(id:string) {return byId.get(id);}
 export function graphSummary(){
  const mapped=topics.filter(x=>x.curriculumMappings?.length),years=mapped.flatMap(yearsForTopic);

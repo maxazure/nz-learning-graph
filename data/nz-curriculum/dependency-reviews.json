@@ -1,0 +1,67 @@
+{
+  "reviewedAt": "2026-10-29",
+  "note": "Editorial decisions about existing graph connections. These are pedagogical judgments against the stated curriculum scopes, not Ministry-mandated prerequisite chains or teacher-moderated reviews. Original source archives remain unchanged.",
+  "reviews": [
+    {
+      "prerequisiteId": "mt_Z_Wu_77ybI",
+      "topicId": "mt_1hgck6ucII",
+      "action": "reverse_helpful",
+      "reason": "Recognising observable physical and chemical changes in Year 6 does not require the later Year 10 account of atoms and compounds.",
+      "replacementReason": "Observing whether a change makes a new substance can provide an example to explain later using atoms and compounds.",
+      "sourceIds": ["nzc_science_2026"],
+      "locator": "Science PDF p. 14, Year 6 Physical Science; p. 24, Year 10 Physical Science"
+    },
+    {
+      "prerequisiteId": "mt_Z_Wu_77ybI",
+      "topicId": "mt_wfEfQuHOG-",
+      "action": "reverse_helpful",
+      "reason": "Year 9 work on the periodic table does not require the full Year 10 compounds topic. Atomic number already has its own earlier association.",
+      "replacementReason": "Recognising elements and their symbols in the periodic table can help when studying compounds made from different elements.",
+      "sourceIds": ["nzc_science_2026"],
+      "locator": "Science PDF p. 24, Years 9–10 Physical Science"
+    },
+    {
+      "prerequisiteId": "mt_k1HXbEwG8f",
+      "topicId": "mt_FuVEZ1Ac9s",
+      "action": "remove",
+      "reason": "The original variation topic includes broader genetics and statistical distinctions. Year 8 natural selection can begin with heritable differences without requiring that full topic.",
+      "sourceIds": ["nzc_science_2026"],
+      "locator": "Science PDF p. 21, Year 8 Biological Science; p. 29, Year 10 Biological Science"
+    },
+    {
+      "prerequisiteId": "mt_rOqo-8GeKt",
+      "topicId": "mt_FuVEZ1Ac9s",
+      "action": "reverse_helpful",
+      "reason": "The Year 8 introduction to natural selection does not require a prior molecular account of genetic mutation.",
+      "replacementReason": "Understanding selection among inherited differences can help connect later discussion of genetic mutations to how traits become more or less common.",
+      "sourceIds": ["nzc_science_2026"],
+      "locator": "Science PDF p. 21, Year 8 Biological Science; p. 29, Year 10 Biological Science"
+    },
+    {
+      "prerequisiteId": "mt_AabJisinfi",
+      "topicId": "mt_1PAWhRhpdg",
+      "action": "remove",
+      "reason": "Year 7 division of a whole number by a unit fraction can be reasoned about by counting equal units; multiplication of two fractions is a broader Year 8 skill.",
+      "sourceIds": ["f_phase3"],
+      "locator": "Mathematics and Statistics Phase 3 > Number > Number structures and operations, Year 7 and Year 8 practices"
+    },
+    {
+      "prerequisiteId": "mt_AabJisinfi",
+      "topicId": "mt_ifPDOYvUqm",
+      "action": "reverse_helpful",
+      "reason": "Year 7 division of a unit fraction by a whole number can be modelled by equal sharing without first mastering the broader Year 8 multiplication of fractions.",
+      "replacementReason": "Sharing a unit fraction into equal parts can be revisited as taking a fraction of a fraction when learning multiplication.",
+      "sourceIds": ["f_phase3"],
+      "locator": "Mathematics and Statistics Phase 3 > Number > Number structures and operations, Year 7 and Year 8 practices"
+    },
+    {
+      "prerequisiteId": "mt_s2mfRBoTal",
+      "topicId": "mt_mr_Vk7FGzK",
+      "action": "reverse_helpful",
+      "reason": "A learner can add and subtract within 20 using objects and pictures before memorising all number facts within 20.",
+      "replacementReason": "Using objects or pictures to build addition and subtraction facts can support later fluent recall of those facts.",
+      "sourceIds": ["f_phase1"],
+      "locator": "Mathematics and Statistics Phase 1 > Number > Operations, first and second years at school"
+    }
+  ]
+}

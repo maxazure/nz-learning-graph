@@ -3920,6 +3920,470 @@
         "paper and counters or pencil"
       ],
       "minutes": 10
+    },
+    {
+      "id": "nzc_hpe_young_body_substances",
+      "name": "Young bodies and unknown substances",
+      "domain": "Health",
+      "description": "Substances used by older people, including nicotine products, can pose risks to young people's growing bodies. A child who finds an unfamiliar product can leave it alone and tell a trusted adult.",
+      "years": [
+        3
+      ],
+      "phase": "Phase 1 (Years 0–3)",
+      "sourceId": "nzc_health_2026",
+      "locator": "PDF p. 9, Physical and mental health: Body care, Phase 1 > Health, Year 3",
+      "objectives": [
+        "Explain or demonstrate young bodies and unknown substances in a relevant scenario."
+      ],
+      "evidence": [
+        "Explains or demonstrates in the scenario: Leave it alone and tell a trusted adult."
+      ],
+      "misconceptions": [
+        "A product intended for an older person is automatically safe for a child to try."
+      ],
+      "question": "A fictional child finds an unfamiliar nicotine product in a playground. What is a safer response?",
+      "answer": "Leave it alone and tell a trusted adult.",
+      "explanation": "A trusted adult can respond without the child handling or trying an unknown product.",
+      "hints": [
+        "Does the child need to pick it up or try it?",
+        "Who can help deal with the item safely?"
+      ],
+      "activity": "Use a fictional picture card to identify one item that should be left alone and one adult who could help; do not handle actual products.",
+      "materials": [
+        "fictional picture card"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_hpe_shared_hygiene_access",
+      "name": "Hygiene resources in shared places",
+      "domain": "Health",
+      "description": "Hygiene practices can help reduce the spread of germs, and a community can make those practices easier by providing suitable facilities and supplies. Access to those resources differs between settings.",
+      "years": [
+        4
+      ],
+      "phase": "Phase 2 (Years 4–6)",
+      "sourceId": "nzc_health_2026",
+      "locator": "PDF p. 14, Physical and mental health: Body care, Phase 2 > Health, Year 4",
+      "objectives": [
+        "Explain or demonstrate hygiene resources in shared places in a relevant scenario."
+      ],
+      "evidence": [
+        "Explains or demonstrates in the scenario: Provide soap and maintain an accessible place for handwashing."
+      ],
+      "misconceptions": [
+        "A shared health practice depends only on individuals and never on access to resources."
+      ],
+      "question": "A fictional school asks everyone to wash their hands but the sink has no soap. What could the school improve?",
+      "answer": "Provide soap and maintain an accessible place for handwashing.",
+      "explanation": "A shared facility and supplies help people carry out the practice, supporting individual and community wellbeing.",
+      "hints": [
+        "What resource is missing?",
+        "Who is responsible for making the shared facility usable?"
+      ],
+      "activity": "Review a fictional handwashing station checklist and add one resource and one accessibility consideration; do not inspect classmates' hygiene.",
+      "materials": [
+        "fictional handwashing-station checklist"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_hpe_nutrition_needs_vary",
+      "name": "Different nutritional needs",
+      "domain": "Health",
+      "description": "People's nutritional needs can vary with age, activity and individual circumstances. Reliable information and qualified advice can help with specific questions, while access, preferences and cultural practices influence choices.",
+      "years": [
+        7
+      ],
+      "phase": "Phase 3 (Years 7–8)",
+      "sourceId": "nzc_health_2026",
+      "locator": "PDF p. 20, Physical and mental health: Nutrition, Phase 3 > Health, Year 7",
+      "objectives": [
+        "Explain or demonstrate different nutritional needs in a relevant scenario."
+      ],
+      "evidence": [
+        "Explains or demonstrates in the scenario: Their age, activity and individual circumstances can differ."
+      ],
+      "misconceptions": [
+        "One fixed amount of food is appropriate for every person."
+      ],
+      "question": "Why might two fictional people need different amounts or combinations of food?",
+      "answer": "Their age, activity and individual circumstances can differ.",
+      "explanation": "Nutritional needs are not identical for everyone, and a person's context matters when interpreting general guidance.",
+      "hints": [
+        "Are both people the same age and activity level?",
+        "Could different circumstances affect what each person needs?"
+      ],
+      "activity": "Compare two fictional descriptions with different ages and activities, then list questions for a reliable source rather than prescribing either person's diet.",
+      "materials": [
+        "two fictional descriptions and a reliable nutrition source"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_hpe_menstrual_support_choices",
+      "name": "Support during menstrual changes",
+      "domain": "Health",
+      "description": "Experiences associated with the menstrual cycle vary. Support may include rest, suitable everyday care, social support and timely advice from a qualified health professional when needed; privacy and the person's choices matter.",
+      "years": [
+        7
+      ],
+      "phase": "Phase 3 (Years 7–8)",
+      "sourceId": "nzc_health_2026",
+      "locator": "PDF p. 20, Physical and mental health: Puberty, Phase 3 > Health, Year 7",
+      "objectives": [
+        "Explain or demonstrate support during menstrual changes in a relevant scenario."
+      ],
+      "evidence": [
+        "Explains or demonstrates in the scenario: Ask whether support is wanted and help the student reach a trusted adult or appropriate health service if requested."
+      ],
+      "misconceptions": [
+        "Every person experiences menstruation in the same way or needs the same support."
+      ],
+      "question": "A fictional student feels uncomfortable during a period. What is one respectful response from a friend?",
+      "answer": "Ask whether support is wanted and help the student reach a trusted adult or appropriate health service if requested.",
+      "explanation": "The person can choose what help they want, and a qualified service can answer individual health questions.",
+      "hints": [
+        "Has the student asked for help or privacy?",
+        "Who could provide appropriate advice if the student wants it?"
+      ],
+      "activity": "Use a fictional school scenario to list one respectful offer of help and one private information source; do not ask anyone to discuss symptoms or experiences.",
+      "materials": [
+        "fictional school scenario"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_hpe_grief_different_responses",
+      "name": "Different responses to loss",
+      "domain": "Health",
+      "description": "People can respond to loss or change in different ways and at different times. Respectful support can include listening, allowing space and helping a person connect with a trusted source of support if they want it.",
+      "years": [
+        7
+      ],
+      "phase": "Phase 3 (Years 7–8)",
+      "sourceId": "nzc_health_2026",
+      "locator": "PDF p. 20, Physical and mental health: Mental health, Phase 3 > Health, Year 7",
+      "objectives": [
+        "Explain or demonstrate different responses to loss in a relevant scenario."
+      ],
+      "evidence": [
+        "Explains or demonstrates in the scenario: Their responses can differ, and neither needs to follow a single expected timeline."
+      ],
+      "misconceptions": [
+        "There is one correct way and timetable for everyone to respond to loss."
+      ],
+      "question": "Two fictional characters respond differently after a loss. What is a respectful interpretation?",
+      "answer": "Their responses can differ, and neither needs to follow a single expected timeline.",
+      "explanation": "Grief and adjustment vary, so a person's needs should not be assumed from someone else's experience.",
+      "hints": [
+        "Do both characters need to express the same feeling?",
+        "How could a supporter allow each person space?"
+      ],
+      "activity": "Read two brief fictional character descriptions and write a supportive response that does not demand personal details or a particular reaction.",
+      "materials": [
+        "two fictional character descriptions"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_hpe_online_use_sleep",
+      "name": "Online use and sleep",
+      "domain": "Health",
+      "description": "Extended use of screens and short-form content can be associated with sleep disruption and tiredness. Effects differ between people, and a person can reflect on their habits and seek trusted support when needed.",
+      "years": [
+        7
+      ],
+      "phase": "Phase 3 (Years 7–8)",
+      "sourceId": "nzc_health_2026",
+      "locator": "PDF p. 20, Physical and mental health: Online safety, Phase 3 > Health, Year 7",
+      "objectives": [
+        "Explain or demonstrate online use and sleep in a relevant scenario."
+      ],
+      "evidence": [
+        "Explains or demonstrates in the scenario: Adjusting notification settings or discussing a suitable evening routine with a trusted adult."
+      ],
+      "misconceptions": [
+        "Every minute of screen use has the same effect on every person's sleep."
+      ],
+      "question": "A fictional student notices that late-night notifications interrupt their sleep. What could they consider?",
+      "answer": "Adjusting notification settings or discussing a suitable evening routine with a trusted adult.",
+      "explanation": "Reducing interruptions may support rest, though the effects and useful routines differ between people.",
+      "hints": [
+        "What interrupts the student's sleep in this example?",
+        "Which setting could reduce that interruption?"
+      ],
+      "activity": "Review a fictional evening timeline and mark one interruption and one possible change; do not ask learners to report their own screen use.",
+      "materials": [
+        "fictional evening timeline"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_hpe_population_rates_substances",
+      "name": "Interpreting group-level health data",
+      "domain": "Health",
+      "description": "Population health data can describe how a reported behaviour varies across groups, but a count or rate does not explain the cause or predict what any individual will do. Interpretation requires a clear denominator and context.",
+      "years": [
+        10
+      ],
+      "phase": "Phase 4 (Years 9–10)",
+      "sourceId": "nzc_health_2026",
+      "locator": "PDF p. 25, Physical and mental health: Alcohol and other drugs, Phase 4 > Health, Year 10",
+      "objectives": [
+        "Explain or demonstrate interpreting group-level health data in a relevant scenario."
+      ],
+      "evidence": [
+        "Explains or demonstrates in the scenario: Group A: 20 out of 100 is a higher proportion than 10 out of 100."
+      ],
+      "misconceptions": [
+        "A group-level rate proves that every person in the group behaves the same way."
+      ],
+      "question": "In fictional data, 20 out of 100 people in group A and 10 out of 100 in group B report a behaviour. Which group has the higher reported proportion?",
+      "answer": "Group A: 20 out of 100 is a higher proportion than 10 out of 100.",
+      "explanation": "The denominators are equal, so the reported proportions can be compared directly; the result alone does not identify a cause.",
+      "hints": [
+        "How many people were counted in each group?",
+        "Which numerator is larger when both denominators are 100?"
+      ],
+      "activity": "Use the invented counts to draw two labelled bars, then write one question about the source or context and avoid making claims about real communities.",
+      "materials": [
+        "invented group-count cards and paper"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_hpe_support_levels_wellbeing",
+      "name": "Individual, interpersonal and community support",
+      "domain": "Health",
+      "description": "Wellbeing can be supported at several levels: an individual may seek help, another person may offer support, and a school or community may improve access or policies. Different situations may need a combination of actions.",
+      "years": [
+        9
+      ],
+      "phase": "Phase 4 (Years 9–10)",
+      "sourceId": "nzc_health_2026",
+      "locator": "PDF p. 25–26, Physical and mental health: Mental health, Phase 4 > Health, Year 9",
+      "objectives": [
+        "Explain or demonstrate individual, interpersonal and community support in a relevant scenario."
+      ],
+      "evidence": [
+        "Explains or demonstrates in the scenario: Change the exclusionary practice and provide a clear, supportive way to report concerns."
+      ],
+      "misconceptions": [
+        "Only the person affected can change a wellbeing problem."
+      ],
+      "question": "A fictional student faces repeated exclusion from a club. What could the club do beyond asking the student to cope alone?",
+      "answer": "Change the exclusionary practice and provide a clear, supportive way to report concerns.",
+      "explanation": "Community action can address the environment causing harm while relationships and individual support also matter.",
+      "hints": [
+        "What is happening in the club environment?",
+        "Who has power to change the rule or practice?"
+      ],
+      "activity": "Review a fictional club scenario and name one individual, one interpersonal and one community action without asking learners to share experiences.",
+      "materials": [
+        "fictional club scenario and paper"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_hpe_movement_body_responses",
+      "name": "Body responses during movement",
+      "domain": "Physical Education",
+      "description": "People may notice changes in breathing, warmth or heartbeat when they move. The response differs by person and activity; learners can adjust their participation or take a break with appropriate support.",
+      "years": [
+        1
+      ],
+      "phase": "Phase 1 (Years 0–3)",
+      "sourceId": "nzc_health_2026",
+      "locator": "PDF p. 11, Movement: The moving body, Phase 1 > Physical Education, Year 1",
+      "objectives": [
+        "Explain or demonstrate body responses during movement in a relevant scenario."
+      ],
+      "evidence": [
+        "Explains or demonstrates in the scenario: Their breathing may become faster or they may feel warmer."
+      ],
+      "misconceptions": [
+        "Every person's body responds in exactly the same way to movement."
+      ],
+      "question": "What is one change a person might notice after gentle movement?",
+      "answer": "Their breathing may become faster or they may feel warmer.",
+      "explanation": "The body responds to movement, but the degree of change varies and does not need to be compared with others.",
+      "hints": [
+        "What happens to breathing or warmth when someone moves?",
+        "Can different bodies respond differently?"
+      ],
+      "activity": "Compare a fictional picture of a resting person with one of a person after movement and name a possible change; do not measure or compare classmates.",
+      "materials": [
+        "fictional pictures of rest and movement"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_hpe_landing_force_control",
+      "name": "Adjusting a landing to conditions",
+      "domain": "Physical Education",
+      "description": "A person can adjust body position and joint movement to manage forces during a landing. A suitable surface, adequate space, individual ability and adult supervision all matter when learning a movement.",
+      "years": [
+        5
+      ],
+      "phase": "Phase 2 (Years 4–6)",
+      "sourceId": "nzc_health_2026",
+      "locator": "PDF p. 17, Movement: The moving body, Phase 2 > Physical Education, Year 5",
+      "objectives": [
+        "Explain or demonstrate adjusting a landing to conditions in a relevant scenario."
+      ],
+      "evidence": [
+        "Explains or demonstrates in the scenario: Changing joint movement can help manage the force of the landing."
+      ],
+      "misconceptions": [
+        "A landing is unaffected by body position or surface."
+      ],
+      "question": "Why might a supervised learner practise bending their joints during a gentle landing?",
+      "answer": "Changing joint movement can help manage the force of the landing.",
+      "explanation": "The body position and the movement of joints influence how force is absorbed, alongside the surface and task.",
+      "hints": [
+        "Which body parts can bend at a landing?",
+        "How might a gradual bend differ from a rigid landing?"
+      ],
+      "activity": "On a fictional diagram, compare a rigid position with a gentle bent-knee position; do not jump from a height or practise without suitable supervision.",
+      "materials": [
+        "fictional landing-position diagram"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_hpe_movement_confidence_practice",
+      "name": "Confidence through supported practice",
+      "domain": "Physical Education",
+      "description": "Confidence in movement can develop through accessible, progressively challenging practice and supportive feedback. People begin with different experiences and abilities, so a task should be adapted to the individual.",
+      "years": [
+        7
+      ],
+      "phase": "Phase 3 (Years 7–8)",
+      "sourceId": "nzc_health_2026",
+      "locator": "PDF p. 22, Movement: Psychology of movement, Phase 3 > Physical Education, Year 7",
+      "objectives": [
+        "Explain or demonstrate confidence through supported practice in a relevant scenario."
+      ],
+      "evidence": [
+        "Explains or demonstrates in the scenario: Offer a manageable adaptation, practice and specific encouragement."
+      ],
+      "misconceptions": [
+        "A person who struggles at first can never improve a movement skill."
+      ],
+      "question": "A fictional learner finds a passing task difficult. What could support their confidence?",
+      "answer": "Offer a manageable adaptation, practice and specific encouragement.",
+      "explanation": "An achievable step and supportive feedback create opportunities to learn without comparing participants.",
+      "hints": [
+        "What could make the task more manageable?",
+        "What feedback describes an improvement or next step?"
+      ],
+      "activity": "Plan a fictional practice sequence with an easier first step and one specific encouragement; learners can use a diagram instead of performing.",
+      "materials": [
+        "fictional practice diagram"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_hpe_major_bone_examples",
+      "name": "Examples of major bones",
+      "domain": "Physical Education",
+      "description": "Bones help provide support and structure for movement. The femur is a major bone in the upper leg, and the humerus is a major bone in the upper arm; muscles and joints contribute to moving these parts.",
+      "years": [
+        9
+      ],
+      "phase": "Phase 4 (Years 9–10)",
+      "sourceId": "nzc_health_2026",
+      "locator": "PDF p. 28, Movement: The moving body, Phase 4 > Physical Education, Year 9",
+      "objectives": [
+        "Explain or demonstrate examples of major bones in a relevant scenario."
+      ],
+      "evidence": [
+        "Explains or demonstrates in the scenario: The femur."
+      ],
+      "misconceptions": [
+        "The femur and humerus are the same bone in the same body location."
+      ],
+      "question": "Which major bone is in the upper leg: the femur or the humerus?",
+      "answer": "The femur.",
+      "explanation": "The femur is in the upper leg, while the humerus is in the upper arm.",
+      "hints": [
+        "Which option is associated with the leg?",
+        "Where is the humerus found?"
+      ],
+      "activity": "Label the upper leg and upper arm on a simple diagram with femur and humerus, then explain one supportive role of bones.",
+      "materials": [
+        "simple labelled or blank body diagram"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_hpe_perceived_effort",
+      "name": "Noticing perceived effort",
+      "domain": "Physical Education",
+      "description": "Perceived effort is a person's own sense of how demanding an activity feels. It can be considered alongside other information, such as the conditions and a person's needs, to help adjust participation; it is not a medical diagnosis.",
+      "years": [
+        10
+      ],
+      "phase": "Phase 4 (Years 9–10)",
+      "sourceId": "nzc_health_2026",
+      "locator": "PDF p. 28, Movement: The moving body, Phase 4 > Physical Education, Year 10",
+      "objectives": [
+        "Explain or demonstrate noticing perceived effort in a relevant scenario."
+      ],
+      "evidence": [
+        "Explains or demonstrates in the scenario: Offer a pause or a suitable adjustment and listen to the participant."
+      ],
+      "misconceptions": [
+        "Everyone experiences the same task as equally demanding."
+      ],
+      "question": "A fictional participant says an activity feels too demanding. What could the group do?",
+      "answer": "Offer a pause or a suitable adjustment and listen to the participant.",
+      "explanation": "The participant's reported effort is relevant information, and the activity can be adapted without comparing their body with others.",
+      "hints": [
+        "Who can describe how the activity feels to that participant?",
+        "Could the pace or activity be adjusted?"
+      ],
+      "activity": "Use a fictional activity card to identify a reported effort level and one accessible adaptation; do not collect classmates' heart rates or personal data.",
+      "materials": [
+        "fictional activity card"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_hpe_cold_water_heat_loss",
+      "name": "Understanding cold-water heat loss",
+      "domain": "Physical Education",
+      "description": "Cold water can increase the risk of losing body heat. In appropriate water-safety teaching, qualified instructors may explain flotation and positions such as HELP or huddling, but a diagram or quiz does not establish survival or rescue competence.",
+      "years": [
+        4,
+        5,
+        6
+      ],
+      "phase": "Phase 2 (Years 4–6)",
+      "sourceId": "nzc_health_2026",
+      "locator": "PDF p. 18, Movement: Water safety, Phase 2 > Physical Education; broad phase-level search scope",
+      "objectives": [
+        "Explain or demonstrate understanding cold-water heat loss in a relevant scenario."
+      ],
+      "evidence": [
+        "Explains or demonstrates in the scenario: Cold water can cause the body to lose heat, so temperature is part of the safety plan."
+      ],
+      "misconceptions": [
+        "A written description of a survival position proves a learner can use it in an emergency."
+      ],
+      "question": "Why do supervised water-safety lessons discuss ways to reduce heat loss?",
+      "answer": "Cold water can cause the body to lose heat, so temperature is part of the safety plan.",
+      "explanation": "Understanding temperature-related risk helps a supervised group prepare, choose suitable equipment and decide whether an activity is appropriate.",
+      "hints": [
+        "What happens to body heat in cold water?",
+        "Who should teach any practical survival skill in a suitable setting?"
+      ],
+      "activity": "Review a fictional plan for a supervised water activity and mark temperature, flotation equipment and the instructor's role; do not practise in cold water.",
+      "materials": [
+        "fictional supervised water-activity plan"
+      ],
+      "minutes": 10
     }
   ],
   "dependencies": [
@@ -4622,6 +5086,104 @@
       "strength": "helpful",
       "reason": "Understanding shared rules and cooperation supports considering coordinated attacking and defending actions.",
       "sourceId": "nzc_health_2026"
+    },
+    {
+      "topicId": "nzc_hpe_young_body_substances",
+      "prerequisiteId": "nzc_hpe_household_substances",
+      "strength": "helpful",
+      "reason": "Knowing to leave unfamiliar household substances to an adult supports the same safe response to other unknown products.",
+      "sourceId": "nzc_health_2026"
+    },
+    {
+      "topicId": "nzc_hpe_shared_hygiene_access",
+      "prerequisiteId": "nzc_hpe_hygiene_others",
+      "strength": "helpful",
+      "reason": "Understanding how hygiene can support others provides a foundation for considering shared facilities and access.",
+      "sourceId": "nzc_health_2026"
+    },
+    {
+      "topicId": "nzc_hpe_nutrition_needs_vary",
+      "prerequisiteId": "nzc_hpe_nutrition_body_systems",
+      "strength": "helpful",
+      "reason": "Understanding that nutrients support body systems helps learners consider why individual needs can differ.",
+      "sourceId": "nzc_health_2026"
+    },
+    {
+      "topicId": "nzc_hpe_menstrual_support_choices",
+      "prerequisiteId": "nzc_hpe_menstrual_cycle_process",
+      "strength": "helpful",
+      "reason": "Understanding the menstrual process provides context for considering varied experiences and respectful support.",
+      "sourceId": "nzc_health_2026"
+    },
+    {
+      "topicId": "nzc_hpe_grief_different_responses",
+      "prerequisiteId": "nzc_hpe_change_and_support",
+      "strength": "helpful",
+      "reason": "Recognising that change can bring different feelings supports considering the varied experience of loss.",
+      "sourceId": "nzc_health_2026"
+    },
+    {
+      "topicId": "nzc_hpe_online_use_sleep",
+      "prerequisiteId": "nzc_hpe_rest_sleep",
+      "strength": "helpful",
+      "reason": "Understanding the value of rest supports considering how repeated interruptions may affect sleep.",
+      "sourceId": "nzc_health_2026"
+    },
+    {
+      "topicId": "nzc_hpe_population_rates_substances",
+      "prerequisiteId": "nzc_hpe_substance_influences",
+      "strength": "helpful",
+      "reason": "Recognising influences on substance-related decisions supports interpreting data without assuming one cause or judging individuals.",
+      "sourceId": "nzc_health_2026"
+    },
+    {
+      "topicId": "nzc_hpe_support_levels_wellbeing",
+      "prerequisiteId": "nzc_hpe_school_inclusion_policy",
+      "strength": "helpful",
+      "reason": "Evaluating a practical inclusion policy supports distinguishing actions at individual, relational and community levels.",
+      "sourceId": "nzc_health_2026"
+    },
+    {
+      "topicId": "nzc_hpe_movement_body_responses",
+      "prerequisiteId": "nzc_hpe_body_care",
+      "strength": "helpful",
+      "reason": "Awareness of everyday body needs supports noticing and responding to changes during movement.",
+      "sourceId": "nzc_health_2026"
+    },
+    {
+      "topicId": "nzc_hpe_landing_force_control",
+      "prerequisiteId": "nzc_hpe_gentle_landing_control",
+      "strength": "helpful",
+      "reason": "Planning an appropriate landing area supports considering how body position affects the landing.",
+      "sourceId": "nzc_health_2026"
+    },
+    {
+      "topicId": "nzc_hpe_movement_confidence_practice",
+      "prerequisiteId": "nzc_hpe_movement_feedback",
+      "strength": "helpful",
+      "reason": "Using specific feedback supports confidence when practice is achievable and adapted.",
+      "sourceId": "nzc_health_2026"
+    },
+    {
+      "topicId": "nzc_hpe_major_bone_examples",
+      "prerequisiteId": "nzc_hpe_bones_muscles_movement",
+      "strength": "helpful",
+      "reason": "Understanding that bones support movement provides context for identifying specific examples.",
+      "sourceId": "nzc_health_2026"
+    },
+    {
+      "topicId": "nzc_hpe_perceived_effort",
+      "prerequisiteId": "nzc_hpe_body_signals_rest",
+      "strength": "helpful",
+      "reason": "Noticing body signals and taking breaks supports using a person's own sense of effort to adjust an activity.",
+      "sourceId": "nzc_health_2026"
+    },
+    {
+      "topicId": "nzc_hpe_cold_water_heat_loss",
+      "prerequisiteId": "nzc_hpe_cold_water_preparation",
+      "strength": "helpful",
+      "reason": "Planning for cold water supports understanding why heat loss is a risk to consider.",
+      "sourceId": "nzc_health_2026"
     }
   ],
   "coverage": [
@@ -4649,7 +5211,8 @@
         "nzc_hpe_body_part_names",
         "nzc_hpe_protect_senses",
         "nzc_hpe_unsafe_secret_help",
-        "nzc_hpe_family_diversity"
+        "nzc_hpe_family_diversity",
+        "nzc_hpe_young_body_substances"
       ],
       "status": "strand-and-phase-covered",
       "notes": "Representative concepts and practices; not an exhaustive mapping of every year-by-year requirement. Phase years are broad search bands."
@@ -4683,7 +5246,8 @@
         "nzc_hpe_food_access_context",
         "nzc_hpe_nutrition_body_systems",
         "nzc_hpe_puberty_wet_dreams",
-        "nzc_hpe_puberty_visible_changes"
+        "nzc_hpe_puberty_visible_changes",
+        "nzc_hpe_shared_hygiene_access"
       ],
       "status": "strand-and-phase-covered",
       "notes": "Representative concepts and practices; not an exhaustive mapping of every year-by-year requirement. Phase years are broad search bands."
@@ -4713,7 +5277,11 @@
         "nzc_hpe_power_imbalance_consent",
         "nzc_hpe_school_antibullying_actions",
         "nzc_hpe_puberty_hormone_signals",
-        "nzc_hpe_food_allergen_label"
+        "nzc_hpe_food_allergen_label",
+        "nzc_hpe_nutrition_needs_vary",
+        "nzc_hpe_menstrual_support_choices",
+        "nzc_hpe_grief_different_responses",
+        "nzc_hpe_online_use_sleep"
       ],
       "status": "strand-and-phase-covered",
       "notes": "Representative concepts and practices; not an exhaustive mapping of every year-by-year requirement. Phase years are broad search bands."
@@ -4744,7 +5312,9 @@
         "nzc_hpe_school_inclusion_policy",
         "nzc_hpe_body_image_community",
         "nzc_hpe_stressors_and_context",
-        "nzc_hpe_protective_and_risk_factors"
+        "nzc_hpe_protective_and_risk_factors",
+        "nzc_hpe_population_rates_substances",
+        "nzc_hpe_support_levels_wellbeing"
       ],
       "status": "strand-and-phase-covered",
       "notes": "Representative concepts and practices; not an exhaustive mapping of every year-by-year requirement. Phase years are broad search bands."
@@ -4771,7 +5341,8 @@
         "nzc_hpe_pool_entry_exit",
         "nzc_hpe_care_for_places",
         "nzc_hpe_joint_bending",
-        "nzc_hpe_gentle_landing_control"
+        "nzc_hpe_gentle_landing_control",
+        "nzc_hpe_movement_body_responses"
       ],
       "status": "strand-and-phase-covered",
       "notes": "Representative concepts and practices; not an exhaustive mapping of every year-by-year requirement. Phase years are broad search bands."
@@ -4800,7 +5371,9 @@
         "nzc_hpe_flotation_equipment",
         "nzc_hpe_cold_water_preparation",
         "nzc_hpe_swimming_stroke_context",
-        "nzc_hpe_attack_defence_tactics"
+        "nzc_hpe_attack_defence_tactics",
+        "nzc_hpe_landing_force_control",
+        "nzc_hpe_cold_water_heat_loss"
       ],
       "status": "strand-and-phase-covered",
       "notes": "Representative concepts and practices; not an exhaustive mapping of every year-by-year requirement. Phase years are broad search bands."
@@ -4825,7 +5398,8 @@
         "nzc_hpe_movement_data_consent",
         "nzc_hpe_low_impact_outdoors",
         "nzc_hpe_heart_lungs_activity",
-        "nzc_hpe_recreation_organised_sport"
+        "nzc_hpe_recreation_organised_sport",
+        "nzc_hpe_movement_confidence_practice"
       ],
       "status": "strand-and-phase-covered",
       "notes": "Representative concepts and practices; not an exhaustive mapping of every year-by-year requirement. Phase years are broad search bands."
@@ -4854,7 +5428,9 @@
         "nzc_hpe_outdoor_reciprocity",
         "nzc_hpe_strength_endurance_flexibility",
         "nzc_hpe_kinaesthetic_awareness",
-        "nzc_hpe_outdoor_first_aid_awareness"
+        "nzc_hpe_outdoor_first_aid_awareness",
+        "nzc_hpe_major_bone_examples",
+        "nzc_hpe_perceived_effort"
       ],
       "status": "strand-and-phase-covered",
       "notes": "Representative concepts and practices; not an exhaustive mapping of every year-by-year requirement. Phase years are broad search bands."

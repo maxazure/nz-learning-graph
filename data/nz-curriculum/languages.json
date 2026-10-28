@@ -997,9 +997,9 @@
       "domain": "Cultural and Sociolinguistic Knowledge",
       "description": "Language, skills and stories may be shared across generations. Individuals choose what they are comfortable sharing and different families have different experiences.",
       "years": [],
-      "phase": "Novice 2 (proficiency-based)",
+      "phase": "Novice 3 (proficiency-based)",
       "sourceId": "nzc_tokelau_2026",
-      "locator": "Official Gagana Tokelau overview glossary: intergenerational knowledge; Novice 2 editorial placement, not yet checked against the language-specific teaching sequence",
+      "locator": "PDF pp. 6, 15, Pacific Languages introduction (Novice 3 intergenerational knowledge); Novice 3 > Cultural and Sociolinguistic Knowledge (respectful relationships)",
       "objectives": [
         "Prepare a voluntary, non-personal question for a language speaker and practise thanking them for any response."
       ],
@@ -2564,6 +2564,1696 @@
         "paper and pencil as useful"
       ],
       "minutes": 15
+    },
+    {
+      "domain": "Linguistic Knowledge",
+      "years": [],
+      "phase": "Novice 2 (proficiency-based)",
+      "sourceId": "nzc_tokelau_2026",
+      "materials": [
+        "paper and pencil or an accessible communication tool"
+      ],
+      "minutes": 10,
+      "id": "nzc_tokelau_weather_time",
+      "name": "Gagana Tokelau: asking about weather in time",
+      "description": "E ā mai te tau? asks about current weather, while Na ā mai te tau? asks about weather in the past. A time expression can specify a future question.",
+      "locator": "PDF p. 13, Novice 2 > Linguistic Knowledge: weather questions and time",
+      "objectives": [
+        "Distinguish the supplied current-weather question from the past-weather question."
+      ],
+      "evidence": [
+        "Identifies Na ā mai te tau? as the question about past weather."
+      ],
+      "misconceptions": [
+        "The two supplied questions ask about the same time."
+      ],
+      "question": "Which Gagana Tokelau question asks about past weather: E ā mai te tau? or Na ā mai te tau?",
+      "answer": "Na ā mai te tau? asks about weather in the past.",
+      "explanation": "The curriculum gives E ā mai te tau? for current weather and Na ā mai te tau? for past weather.",
+      "hints": [
+        "Compare the first word of each question.",
+        "The past-weather form begins with Na."
+      ],
+      "activity": "Write the two model questions on cards and match them with “current weather” and “past weather”. Practise with a fluent speaker or a trusted model when available."
+    },
+    {
+      "domain": "Linguistic Knowledge",
+      "years": [],
+      "phase": "Novice 2 (proficiency-based)",
+      "sourceId": "nzc_tokelau_2026",
+      "materials": [
+        "paper and pencil or an accessible communication tool"
+      ],
+      "minutes": 10,
+      "id": "nzc_tokelau_polite_instruction",
+      "name": "Gagana Tokelau: softening an instruction",
+      "description": "The politeness marker fakamolemole can soften an instruction; the curriculum notes that it may come before or after the verb.",
+      "locator": "PDF p. 14, Novice 2 > Linguistic Knowledge: politeness markers",
+      "objectives": [
+        "Recognise fakamolemole as a politeness marker in a supplied classroom instruction."
+      ],
+      "evidence": [
+        "Explains that fakamolemole can make an instruction sound more polite."
+      ],
+      "misconceptions": [
+        "Adding a politeness marker makes the instruction more commanding."
+      ],
+      "question": "What is the purpose of fakamolemole in a Gagana Tokelau instruction?",
+      "answer": "It can soften the instruction and make it more polite.",
+      "explanation": "The source describes fakamolemole as a politeness marker that softens instructions and may be placed before or after the verb.",
+      "hints": [
+        "Consider how the request sounds to the listener.",
+        "Does the marker make it more polite or more commanding?"
+      ],
+      "activity": "Underline fakamolemole in the supplied model “Kikila mai fakamolemole”. Explain its purpose; practise the model with a fluent speaker when available."
+    },
+    {
+      "domain": "Linguistic Knowledge",
+      "years": [],
+      "phase": "Novice 2 (proficiency-based)",
+      "sourceId": "nzc_french_2026",
+      "materials": [
+        "paper and pencil or an accessible communication tool"
+      ],
+      "minutes": 10,
+      "id": "nzc_french_half_past",
+      "name": "French: saying half past the hour",
+      "description": "In a 12-hour time expression, et demie can indicate half past the hour.",
+      "locator": "PDF p. 12, Novice 2 > Linguistic Knowledge: telling the time",
+      "objectives": [
+        "Read a model time expression using et demie."
+      ],
+      "evidence": [
+        "Matches a supplied French expression to the corresponding time."
+      ],
+      "misconceptions": [
+        "Et demie means a quarter of an hour."
+      ],
+      "question": "What time is Il est deux heures et demie?",
+      "answer": "Half past two, or 2:30.",
+      "explanation": "Deux heures gives the hour, and et demie adds half an hour.",
+      "hints": [
+        "Deux is two.",
+        "Et demie means half past the hour."
+      ],
+      "activity": "Draw a clock showing 2:30 and match it to the supplied expression Il est deux heures et demie."
+    },
+    {
+      "domain": "Linguistic Knowledge",
+      "years": [],
+      "phase": "Novice 2 (proficiency-based)",
+      "sourceId": "nzc_french_2026",
+      "materials": [
+        "paper and pencil or an accessible communication tool"
+      ],
+      "minutes": 10,
+      "id": "nzc_french_ownership_de",
+      "name": "French: expressing ownership with de",
+      "description": "French can express ownership with the thing owned followed by de and its owner.",
+      "locator": "PDF p. 12, Novice 2 > Linguistic Knowledge: ownership",
+      "objectives": [
+        "Identify the owner in a model phrase using de."
+      ],
+      "evidence": [
+        "Recognises Marie as the owner in the supplied phrase."
+      ],
+      "misconceptions": [
+        "The word immediately before de is always the owner."
+      ],
+      "question": "In le cahier de Marie, whose notebook is it?",
+      "answer": "It is Marie’s notebook.",
+      "explanation": "In the supplied phrase, le cahier is the notebook and de Marie identifies the owner.",
+      "hints": [
+        "Find the name after de.",
+        "Who is named after the notebook?"
+      ],
+      "activity": "Write le cahier de Marie on a card. Underline the object and circle the owner; explain what de connects."
+    },
+    {
+      "domain": "Linguistic Knowledge",
+      "years": [],
+      "phase": "Novice 2 (proficiency-based)",
+      "sourceId": "nzc_french_2026",
+      "materials": [
+        "paper and pencil or an accessible communication tool"
+      ],
+      "minutes": 10,
+      "id": "nzc_french_location_sous",
+      "name": "French: describing a location",
+      "description": "French prepositions such as sur and sous can show where an object is; sous means under in the supplied example.",
+      "locator": "PDF p. 12, Novice 2 > Linguistic Knowledge: location prepositions",
+      "objectives": [
+        "Identify the location described by sous in a familiar model."
+      ],
+      "evidence": [
+        "Matches sous la table to an object beneath a table."
+      ],
+      "misconceptions": [
+        "Sur and sous mean the same position."
+      ],
+      "question": "A note says “Le livre est sous la table.” Where is the book?",
+      "answer": "The book is under the table.",
+      "explanation": "In this model, sous means under and la table means the table.",
+      "hints": [
+        "Look for the preposition sous.",
+        "Sous indicates a place below something."
+      ],
+      "activity": "Draw a table with a book under it and label the picture sous la table."
+    },
+    {
+      "domain": "Cultural and Sociolinguistic Knowledge",
+      "years": [],
+      "phase": "Novice 2 (proficiency-based)",
+      "sourceId": "nzc_french_2026",
+      "materials": [
+        "paper and pencil or an accessible communication tool"
+      ],
+      "minutes": 10,
+      "id": "nzc_french_false_friend_pain",
+      "name": "French: checking a false friend",
+      "description": "Some familiar-looking words have different meanings across languages; in French, le pain means bread.",
+      "locator": "PDF p. 12, Novice 2 > Cultural and Sociolinguistic Knowledge: false friends",
+      "objectives": [
+        "Check the meaning of a familiar-looking French word in context."
+      ],
+      "evidence": [
+        "Explains that French le pain means bread in the given example."
+      ],
+      "misconceptions": [
+        "A word that looks like an English word must have the same meaning."
+      ],
+      "question": "In the French example le pain, what does pain mean?",
+      "answer": "Bread.",
+      "explanation": "The French noun pain means bread; its similar spelling to an English word does not establish the same meaning.",
+      "hints": [
+        "The expression is a French food word.",
+        "It is something that can be baked."
+      ],
+      "activity": "Make a two-column card with the French expression le pain and its meaning “bread”. Add a note to check familiar-looking words in context."
+    },
+    {
+      "id": "nzc_reo_introduce_ko",
+      "name": "Te reo Māori: naming yourself with Ko",
+      "domain": "Linguistic Knowledge",
+      "description": "Ko [name] taku ingoa is a model for saying one’s name. A fictional name can be used for practice.",
+      "years": [],
+      "phase": "Novice 1 (proficiency-based)",
+      "sourceId": "nzc_reo_2026",
+      "locator": "PDF pp. 9, Novice 1 > Linguistic Knowledge; teaching-sequence example",
+      "objectives": [
+        "Match “Ko Cruz taku ingoa” and “Ko Ava taku ingoa” with the names Cruz and Ava."
+      ],
+      "evidence": [
+        "Identifies the name in each model introduction."
+      ],
+      "misconceptions": [
+        "Taku ingoa is the name of the person."
+      ],
+      "question": "In “Ko Cruz taku ingoa”, what is the speaker’s name?",
+      "answer": "Cruz.",
+      "explanation": "Ko [name] taku ingoa is a model for saying one’s name. A fictional name can be used for practice.",
+      "hints": [
+        "Find the name after Ko.",
+        "Which word is a person’s name?"
+      ],
+      "activity": "Match “Ko Cruz taku ingoa” and “Ko Ava taku ingoa” with the names Cruz and Ava.",
+      "materials": [
+        "the expressions and cards in the activity",
+        "paper or an accessible input device"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_reo_tuakana_teina",
+      "name": "Te reo Māori: tuakana and teina",
+      "domain": "Cultural and Sociolinguistic Knowledge",
+      "description": "The sequence gives tuakana for an older same-gender sibling and teina for a younger same-gender sibling. Relationship terms depend on context.",
+      "years": [],
+      "phase": "Novice 2 (proficiency-based)",
+      "sourceId": "nzc_reo_2026",
+      "locator": "PDF p. 12, Novice 2 > Cultural and Sociolinguistic Knowledge: sibling relationships",
+      "objectives": [
+        "Use two fictional sibling cards labelled older and younger; match tuakana and teina using the given definitions."
+      ],
+      "evidence": [
+        "Matches tuakana to the older and teina to the younger same-gender sibling in the example."
+      ],
+      "misconceptions": [
+        "Tuakana always means the younger sibling in this taught relationship."
+      ],
+      "question": "In the taught sibling example, which word refers to an older same-gender sibling: tuakana or teina?",
+      "answer": "Tuakana.",
+      "explanation": "The sequence gives tuakana for an older same-gender sibling and teina for a younger same-gender sibling. Relationship terms depend on context.",
+      "hints": [
+        "Both words describe a relationship.",
+        "Which one is identified as older in the model?"
+      ],
+      "activity": "Use two fictional sibling cards labelled older and younger; match tuakana and teina using the given definitions.",
+      "materials": [
+        "the expressions and cards in the activity",
+        "paper or an accessible input device"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_reo_past_particle_i",
+      "name": "Te reo Māori: i for a past action",
+      "domain": "Linguistic Knowledge",
+      "description": "The particle i can mark a simple past action in the taught sentence patterns. It needs to be interpreted with the rest of the sentence.",
+      "years": [],
+      "phase": "Novice 3 (proficiency-based)",
+      "sourceId": "nzc_reo_2026",
+      "locator": "PDF pp. 15, Novice 3 > Linguistic Knowledge; teaching-sequence example",
+      "objectives": [
+        "Sort the two supplied cards “i: past action” and “ka: future action” by their time reference."
+      ],
+      "evidence": [
+        "Identifies i as the past marker in the supplied model."
+      ],
+      "misconceptions": [
+        "I and ka always indicate the same time in these taught patterns."
+      ],
+      "question": "Which particle in the model marks a simple past action: i or ka?",
+      "answer": "i.",
+      "explanation": "The particle i can mark a simple past action in the taught sentence patterns. It needs to be interpreted with the rest of the sentence.",
+      "hints": [
+        "One particle marks past action.",
+        "Which one is a single vowel?"
+      ],
+      "activity": "Sort the two supplied cards “i: past action” and “ka: future action” by their time reference.",
+      "materials": [
+        "the expressions and cards in the activity",
+        "paper or an accessible input device"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_mandarin_farewell_zaijian",
+      "name": "Mandarin: saying goodbye with 再见",
+      "domain": "Linguistic Knowledge",
+      "description": "再见 (zài jiàn) is a standard farewell in the teaching sequence.",
+      "years": [],
+      "phase": "Novice 1 (proficiency-based)",
+      "sourceId": "nzc_mandarin_2026",
+      "locator": "PDF pp. 9, Novice 1 > Linguistic Knowledge; teaching-sequence example",
+      "objectives": [
+        "Match 你好 (hello) and 再见 (goodbye) to the beginning and end of a fictional dialogue."
+      ],
+      "evidence": [
+        "Places 再见 at the end of the fictional exchange."
+      ],
+      "misconceptions": [
+        "再见 is only a way to ask someone’s age."
+      ],
+      "question": "What is the purpose of 再见 (zài jiàn) in the model?",
+      "answer": "It is a farewell: goodbye.",
+      "explanation": "再见 (zài jiàn) is a standard farewell in the teaching sequence.",
+      "hints": [
+        "Is it used at the beginning or end of the interaction?",
+        "The phrase is in the farewell list."
+      ],
+      "activity": "Match 你好 (hello) and 再见 (goodbye) to the beginning and end of a fictional dialogue.",
+      "materials": [
+        "the expressions and cards in the activity",
+        "paper or an accessible input device"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_mandarin_weekday_monday",
+      "name": "Mandarin: 星期一 for Monday",
+      "domain": "Linguistic Knowledge",
+      "description": "In the taught pattern, 星期 plus a number identifies Monday to Saturday; 星期一 is Monday.",
+      "years": [],
+      "phase": "Novice 1 (proficiency-based)",
+      "sourceId": "nzc_mandarin_2026",
+      "locator": "PDF pp. 10, Novice 1 > Linguistic Knowledge; teaching-sequence example",
+      "objectives": [
+        "Match 星期一, 星期二 and 星期三 with Monday, Tuesday and Wednesday using the supplied number meanings 一=1, 二=2, 三=3."
+      ],
+      "evidence": [
+        "Identifies 星期一 as Monday and applies the given number pattern."
+      ],
+      "misconceptions": [
+        "星期一 refers to the first month of the year."
+      ],
+      "question": "Which day is 星期一 (xīngqī yī)?",
+      "answer": "Monday.",
+      "explanation": "In the taught pattern, 星期 plus a number identifies Monday to Saturday; 星期一 is Monday.",
+      "hints": [
+        "一 represents one.",
+        "Which day is the first in the taught weekday sequence?"
+      ],
+      "activity": "Match 星期一, 星期二 and 星期三 with Monday, Tuesday and Wednesday using the supplied number meanings 一=1, 二=2, 三=3.",
+      "materials": [
+        "the expressions and cards in the activity",
+        "paper or an accessible input device"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_mandarin_family_counter_kou",
+      "name": "Mandarin: 口 in a family count",
+      "domain": "Linguistic Knowledge",
+      "description": "The measure word 口 is used in the supplied family-count example 我家有四口人, which says that the family has four people.",
+      "years": [],
+      "phase": "Novice 2 (proficiency-based)",
+      "sourceId": "nzc_mandarin_2026",
+      "locator": "PDF pp. 13–14, Novice 2 > Linguistic Knowledge; teaching-sequence example",
+      "objectives": [
+        "Match 我家有四口人 to a fictional four-person family card; do not use personal family details."
+      ],
+      "evidence": [
+        "Identifies four as the number of people in the model."
+      ],
+      "misconceptions": [
+        "四口人 means four days."
+      ],
+      "question": "In “我家有四口人”, how many people are in the family?",
+      "answer": "Four people.",
+      "explanation": "The measure word 口 is used in the supplied family-count example 我家有四口人, which says that the family has four people.",
+      "hints": [
+        "四 means four.",
+        "口人 is used in the family count."
+      ],
+      "activity": "Match 我家有四口人 to a fictional four-person family card; do not use personal family details.",
+      "materials": [
+        "the expressions and cards in the activity",
+        "paper or an accessible input device"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_mandarin_last_next_week",
+      "name": "Mandarin: last week and next week",
+      "domain": "Linguistic Knowledge",
+      "description": "上星期 means last week and 下星期 means next week in the taught time expressions.",
+      "years": [],
+      "phase": "Novice 3 (proficiency-based)",
+      "sourceId": "nzc_mandarin_2026",
+      "locator": "PDF pp. 17, Novice 3 > Linguistic Knowledge; teaching-sequence example",
+      "objectives": [
+        "Place 上星期 and 下星期 on opposite sides of a “this week” card, using the translations last and next."
+      ],
+      "evidence": [
+        "Places each expression on the correct side of this week."
+      ],
+      "misconceptions": [
+        "上星期 and 下星期 refer to the same week."
+      ],
+      "question": "Which phrase means next week: 上星期 or 下星期?",
+      "answer": "下星期 (xià xīngqī).",
+      "explanation": "上星期 means last week and 下星期 means next week in the taught time expressions.",
+      "hints": [
+        "Both expressions contain 星期, “week”.",
+        "Which starts with 下 rather than 上?"
+      ],
+      "activity": "Place 上星期 and 下星期 on opposite sides of a “this week” card, using the translations last and next.",
+      "materials": [
+        "the expressions and cards in the activity",
+        "paper or an accessible input device"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_nzsl_gloss_name_rua",
+      "name": "NZSL: reading a fingerspelled name in gloss",
+      "domain": "Linguistic Knowledge",
+      "description": "In the curriculum’s written NZSL gloss, fs-RUA indicates that Rua is fingerspelled. Gloss is a written aid and does not show a complete signed performance.",
+      "years": [],
+      "phase": "Novice 1 (proficiency-based)",
+      "sourceId": "nzc_nzsl_2026",
+      "locator": "PDF pp. 11, Novice 1 > Linguistic Knowledge; teaching-sequence example",
+      "objectives": [
+        "On paper, circle fs-RUA in “NAME IX-me fs-RUA”. To practise signing, use a Deaf NZSL teacher or the attributed NZSL Dictionary video model."
+      ],
+      "evidence": [
+        "Identifies Rua as the fingerspelled name in the supplied gloss."
+      ],
+      "misconceptions": [
+        "A written gloss by itself shows every movement and facial signal in NZSL."
+      ],
+      "question": "In the gloss “NAME IX-me fs-RUA”, which name is fingerspelled?",
+      "answer": "Rua.",
+      "explanation": "In the curriculum’s written NZSL gloss, fs-RUA indicates that Rua is fingerspelled. Gloss is a written aid and does not show a complete signed performance.",
+      "hints": [
+        "Find the part beginning with fs-.",
+        "Read the letters following fs-."
+      ],
+      "activity": "On paper, circle fs-RUA in “NAME IX-me fs-RUA”. To practise signing, use a Deaf NZSL teacher or the attributed NZSL Dictionary video model.",
+      "materials": [
+        "the expressions and cards in the activity",
+        "paper or an accessible input device",
+        "For signing practice: Deaf NZSL teacher or NZSL Dictionary by the Deaf Studies Research Unit, Te Herenga Waka—Victoria University of Wellington: https://www.nzsl.nz/"
+      ],
+      "minutes": 15,
+      "resources": [
+        {
+          "label": "Online Dictionary of New Zealand Sign Language",
+          "url": "https://www.nzsl.nz/",
+          "attribution": "Deaf Studies Research Unit, Victoria University of Wellington; see the site’s terms."
+        }
+      ]
+    },
+    {
+      "id": "nzc_nzsl_gloss_book_question",
+      "name": "NZSL: a book question in gloss",
+      "domain": "Linguistic Knowledge",
+      "description": "The curriculum gives BOOK, HAVE IX-you with a yes/no question marker as gloss for asking whether someone has a book. The marker and signs need a visual model.",
+      "years": [],
+      "phase": "Novice 2 (proficiency-based)",
+      "sourceId": "nzc_nzsl_2026",
+      "locator": "PDF pp. 15, Novice 2 > Linguistic Knowledge; teaching-sequence example",
+      "objectives": [
+        "Match the written NZSL gloss and its yes/no non-manual marker to the supplied question."
+      ],
+      "evidence": [
+        "Connects the supplied gloss with the correct yes/no question."
+      ],
+      "misconceptions": [
+        "A written gloss alone fully represents the signer’s non-manual signals."
+      ],
+      "question": "What does the supplied gloss “[yes/no NMS] BOOK, HAVE IX-you” ask?",
+      "answer": "“Do you have a book?”",
+      "explanation": "The curriculum gives BOOK, HAVE IX-you with a yes/no question marker as gloss for asking whether someone has a book. The marker and signs need a visual model.",
+      "hints": [
+        "BOOK names the object.",
+        "The bracketed non-manual marker identifies a yes/no question."
+      ],
+      "activity": "Match “[yes/no NMS] BOOK, HAVE IX-you” to “Do you have a book?” For signing practice, consult a Deaf NZSL teacher.",
+      "materials": [
+        "the expressions and cards in the activity",
+        "paper or an accessible input device",
+        "For signing practice: Deaf NZSL teacher or NZSL Dictionary by the Deaf Studies Research Unit, Te Herenga Waka—Victoria University of Wellington: https://www.nzsl.nz/"
+      ],
+      "minutes": 15,
+      "resources": [
+        {
+          "label": "Online Dictionary of New Zealand Sign Language",
+          "url": "https://www.nzsl.nz/",
+          "attribution": "Deaf Studies Research Unit, Victoria University of Wellington; see the site’s terms."
+        }
+      ]
+    },
+    {
+      "id": "nzc_nzsl_gloss_date_order",
+      "name": "NZSL: a date in gloss",
+      "domain": "Linguistic Knowledge",
+      "description": "The curriculum’s example TODAY 14 AUGUST 2025 establishes a date in day–month–year order. Gloss records a written representation of the signed message.",
+      "years": [],
+      "phase": "Novice 2 (proficiency-based)",
+      "sourceId": "nzc_nzsl_2026",
+      "locator": "PDF pp. 16, Novice 2 > Linguistic Knowledge; teaching-sequence example",
+      "objectives": [
+        "Arrange paper cards TODAY, 14, AUGUST and 2025 in the supplied order. Consult a Deaf NZSL teacher to practise the signs."
+      ],
+      "evidence": [
+        "Reconstructs the date sequence shown in the model."
+      ],
+      "misconceptions": [
+        "2025 is the day of the month in this example."
+      ],
+      "question": "In “TODAY 14 AUGUST 2025”, which day of August is given?",
+      "answer": "The 14th.",
+      "explanation": "The curriculum’s example TODAY 14 AUGUST 2025 establishes a date in day–month–year order. Gloss records a written representation of the signed message.",
+      "hints": [
+        "Find the number immediately before AUGUST.",
+        "Is it 14 or 2025?"
+      ],
+      "activity": "Arrange paper cards TODAY, 14, AUGUST and 2025 in the supplied order. Consult a Deaf NZSL teacher to practise the signs.",
+      "materials": [
+        "the expressions and cards in the activity",
+        "paper or an accessible input device",
+        "For signing practice: Deaf NZSL teacher or NZSL Dictionary by the Deaf Studies Research Unit, Te Herenga Waka—Victoria University of Wellington: https://www.nzsl.nz/"
+      ],
+      "minutes": 15,
+      "resources": [
+        {
+          "label": "Online Dictionary of New Zealand Sign Language",
+          "url": "https://www.nzsl.nz/",
+          "attribution": "Deaf Studies Research Unit, Victoria University of Wellington; see the site’s terms."
+        }
+      ]
+    },
+    {
+      "id": "nzc_nzsl_gloss_left_right",
+      "name": "NZSL: contrasting referents in signing space",
+      "domain": "Linguistic Knowledge",
+      "description": "The curriculum’s gloss IX-left, BALL CHEAP, IX-right, BALL EXPENSIVE uses two spatial references to contrast the balls. A visual model is needed for the signed interaction.",
+      "years": [],
+      "phase": "Novice 3 (proficiency-based)",
+      "sourceId": "nzc_nzsl_2026",
+      "locator": "PDF pp. 22, Novice 3 > Linguistic Knowledge; teaching-sequence example",
+      "objectives": [
+        "Place two paper ball cards left and right; label the left CHEAP and the right EXPENSIVE. Consult a Deaf NZSL teacher for signing practice."
+      ],
+      "evidence": [
+        "Matches expensive with the right-hand referent in the supplied gloss."
+      ],
+      "misconceptions": [
+        "The left and right reference points are interchangeable without changing the comparison."
+      ],
+      "question": "In “IX-left, BALL CHEAP, IX-right, BALL EXPENSIVE”, which ball is described as expensive?",
+      "answer": "The ball at the right-hand reference point.",
+      "explanation": "The curriculum’s gloss IX-left, BALL CHEAP, IX-right, BALL EXPENSIVE uses two spatial references to contrast the balls. A visual model is needed for the signed interaction.",
+      "hints": [
+        "Find EXPENSIVE.",
+        "Which reference point is associated with that description?"
+      ],
+      "activity": "Place two paper ball cards left and right; label the left CHEAP and the right EXPENSIVE. Consult a Deaf NZSL teacher for signing practice.",
+      "materials": [
+        "the expressions and cards in the activity",
+        "paper or an accessible input device",
+        "For signing practice: Deaf NZSL teacher or NZSL Dictionary by the Deaf Studies Research Unit, Te Herenga Waka—Victoria University of Wellington: https://www.nzsl.nz/"
+      ],
+      "minutes": 15,
+      "resources": [
+        {
+          "label": "Online Dictionary of New Zealand Sign Language",
+          "url": "https://www.nzsl.nz/",
+          "attribution": "Deaf Studies Research Unit, Victoria University of Wellington; see the site’s terms."
+        }
+      ]
+    },
+    {
+      "id": "nzc_samoa_intro_lou_igoa",
+      "name": "Gagana Sāmoa: naming yourself",
+      "domain": "Linguistic Knowledge",
+      "description": "O lo‘u igoa o Lina is a curriculum example introducing a speaker named Lina. A fictional name can be used in practice.",
+      "years": [],
+      "phase": "Novice 1 (proficiency-based)",
+      "sourceId": "nzc_samoa_2026",
+      "locator": "PDF pp. 8, Novice 1 > Linguistic Knowledge; teaching-sequence example",
+      "objectives": [
+        "Match “O lo‘u igoa o Lina” with a fictional name card labelled Lina."
+      ],
+      "evidence": [
+        "Identifies Lina as the introduced name."
+      ],
+      "misconceptions": [
+        "O lo‘u igoa means the name Lina itself."
+      ],
+      "question": "In “O lo‘u igoa o Lina”, what name is being introduced?",
+      "answer": "Lina.",
+      "explanation": "O lo‘u igoa o Lina is a curriculum example introducing a speaker named Lina. A fictional name can be used in practice.",
+      "hints": [
+        "Find the final name.",
+        "Which word names the speaker?"
+      ],
+      "activity": "Match “O lo‘u igoa o Lina” with a fictional name card labelled Lina.",
+      "materials": [
+        "the expressions and cards in the activity",
+        "paper or an accessible input device"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_samoa_preference_fiafia",
+      "name": "Gagana Sāmoa: introducing a like",
+      "domain": "Linguistic Knowledge",
+      "description": "The teaching sequence uses Ou te followed by fiafia to begin expressing a like.",
+      "years": [],
+      "phase": "Novice 2 (proficiency-based)",
+      "sourceId": "nzc_samoa_2026",
+      "locator": "PDF pp. 14, Novice 2 > Linguistic Knowledge; teaching-sequence example",
+      "objectives": [
+        "Arrange the three word cards Ou, te and fiafia in the taught order."
+      ],
+      "evidence": [
+        "Reconstructs Ou te fiafia and recognises its role in expressing a like."
+      ],
+      "misconceptions": [
+        "Fiafia in this model is a word for a street direction."
+      ],
+      "question": "Which word in “Ou te fiafia” is used in the taught pattern for a like?",
+      "answer": "fiafia.",
+      "explanation": "The teaching sequence uses Ou te followed by fiafia to begin expressing a like.",
+      "hints": [
+        "The expression starts with Ou te.",
+        "Which word follows it in the model?"
+      ],
+      "activity": "Arrange the three word cards Ou, te and fiafia in the taught order.",
+      "materials": [
+        "the expressions and cards in the activity",
+        "paper or an accessible input device"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_samoa_above_below",
+      "name": "Gagana Sāmoa: above and below",
+      "domain": "Linguistic Knowledge",
+      "description": "The teaching sequence gives i luga atu for above and i lalo atu for below when describing location.",
+      "years": [],
+      "phase": "Novice 3 (proficiency-based)",
+      "sourceId": "nzc_samoa_2026",
+      "locator": "PDF pp. 17, Novice 3 > Linguistic Knowledge; teaching-sequence example",
+      "objectives": [
+        "Place the cards i luga atu and i lalo atu above and below a paper box using the supplied meanings."
+      ],
+      "evidence": [
+        "Matches i lalo atu with below in the model."
+      ],
+      "misconceptions": [
+        "I luga atu and i lalo atu both mean below."
+      ],
+      "question": "Which expression means below: i luga atu or i lalo atu?",
+      "answer": "i lalo atu.",
+      "explanation": "The teaching sequence gives i luga atu for above and i lalo atu for below when describing location.",
+      "hints": [
+        "Both expressions begin with i.",
+        "Which one contains lalo?"
+      ],
+      "activity": "Place the cards i luga atu and i lalo atu above and below a paper box using the supplied meanings.",
+      "materials": [
+        "the expressions and cards in the activity",
+        "paper or an accessible input device"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_tonga_intro_hingoa",
+      "name": "Lea Faka-Tonga: stating a name",
+      "domain": "Linguistic Knowledge",
+      "description": "Ko hoku hingoá ko Lina is used in the sequence as a self-introduction.",
+      "years": [],
+      "phase": "Novice 1 (proficiency-based)",
+      "sourceId": "nzc_tonga_2026",
+      "locator": "PDF pp. 9, Novice 1 > Linguistic Knowledge; teaching-sequence example",
+      "objectives": [
+        "Match the sentence “Ko hoku hingoá ko Lina” to the name card Lina."
+      ],
+      "evidence": [
+        "Identifies Lina as the name in the model."
+      ],
+      "misconceptions": [
+        "Hingoá is the personal name Lina."
+      ],
+      "question": "In “Ko hoku hingoá ko Lina”, what is the speaker’s name?",
+      "answer": "Lina.",
+      "explanation": "Ko hoku hingoá ko Lina is used in the sequence as a self-introduction.",
+      "hints": [
+        "Look after the second ko.",
+        "Which word is a fictional person’s name?"
+      ],
+      "activity": "Match the sentence “Ko hoku hingoá ko Lina” to the name card Lina.",
+      "materials": [
+        "the expressions and cards in the activity",
+        "paper or an accessible input device"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_tonga_weather_past_marker",
+      "name": "Lea Faka-Tonga: a past weather marker",
+      "domain": "Linguistic Knowledge",
+      "description": "In the taught weather patterns, na‘e marks a past condition, while ‘oku marks a present condition.",
+      "years": [],
+      "phase": "Novice 2 (proficiency-based)",
+      "sourceId": "nzc_tonga_2026",
+      "locator": "PDF pp. 14, Novice 2 > Linguistic Knowledge; teaching-sequence example",
+      "objectives": [
+        "Sort the supplied cards “na‘e: past” and “‘oku: present” into past and present columns."
+      ],
+      "evidence": [
+        "Identifies na‘e as the past marker in the supplied model."
+      ],
+      "misconceptions": [
+        "Na‘e and ‘oku mark the same time in the taught examples."
+      ],
+      "question": "Which marker indicates the past in the weather examples: na‘e or ‘oku?",
+      "answer": "na‘e.",
+      "explanation": "In the taught weather patterns, na‘e marks a past condition, while ‘oku marks a present condition.",
+      "hints": [
+        "One marker is identified as past.",
+        "Which one begins with n?"
+      ],
+      "activity": "Sort the supplied cards “na‘e: past” and “‘oku: present” into past and present columns.",
+      "materials": [
+        "the expressions and cards in the activity",
+        "paper or an accessible input device"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_tonga_opinion_fakakaukau",
+      "name": "Lea Faka-Tonga: I think",
+      "domain": "Linguistic Knowledge",
+      "description": "The sequence gives ‘Oku ou fakakaukau … as an opening for “I think …”.",
+      "years": [],
+      "phase": "Novice 3 (proficiency-based)",
+      "sourceId": "nzc_tonga_2026",
+      "locator": "PDF pp. 17, Novice 3 > Linguistic Knowledge; teaching-sequence example",
+      "objectives": [
+        "Match “‘Oku ou fakakaukau …” with “I think …” and “ki” with “to/towards” from the supplied cards."
+      ],
+      "evidence": [
+        "Distinguishes the opinion opening from the destination marker."
+      ],
+      "misconceptions": [
+        "An opinion opener is always a destination marker."
+      ],
+      "question": "Which expression introduces “I think …”: ‘Oku ou fakakaukau … or ki?",
+      "answer": "‘Oku ou fakakaukau …",
+      "explanation": "The sequence gives ‘Oku ou fakakaukau … as an opening for “I think …”.",
+      "hints": [
+        "One expression is an opinion starter.",
+        "Ki in the earlier travel example introduces a destination."
+      ],
+      "activity": "Match “‘Oku ou fakakaukau …” with “I think …” and “ki” with “to/towards” from the supplied cards.",
+      "materials": [
+        "the expressions and cards in the activity",
+        "paper or an accessible input device"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_cook_number_rua",
+      "name": "Te Reo Māori Kūki ‘Āirani: rua for two",
+      "domain": "Linguistic Knowledge",
+      "description": "Rua is given in the sequence as the number two in te reo Māori Kūki ‘Āirani.",
+      "years": [],
+      "phase": "Novice 1 (proficiency-based)",
+      "sourceId": "nzc_cook_2026",
+      "locator": "PDF p. 10, Novice 1 > Cultural and Sociolinguistic Knowledge: cognate number example; Linguistic Knowledge: number patterns",
+      "objectives": [
+        "Match rua with the numeral 2 and two drawn circles."
+      ],
+      "evidence": [
+        "Matches rua to two objects."
+      ],
+      "misconceptions": [
+        "Rua represents one in this supplied example."
+      ],
+      "question": "What number is rua in the supplied counting example?",
+      "answer": "Two.",
+      "explanation": "Rua is given in the sequence as the number two in te reo Māori Kūki ‘Āirani.",
+      "hints": [
+        "The curriculum compares number words across Pacific languages.",
+        "Rua is the word given for 2."
+      ],
+      "activity": "Match rua with the numeral 2 and two drawn circles.",
+      "materials": [
+        "the expressions and cards in the activity",
+        "paper or an accessible input device"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_cook_ask_time",
+      "name": "Te Reo Māori Kūki ‘Āirani: asking the time",
+      "domain": "Linguistic Knowledge",
+      "description": "The sequence gives Eaʻa te ora? as a question for asking the time.",
+      "years": [],
+      "phase": "Novice 2 (proficiency-based)",
+      "sourceId": "nzc_cook_2026",
+      "locator": "PDF pp. 14, Novice 2 > Linguistic Knowledge; teaching-sequence example",
+      "objectives": [
+        "Match “Eaʻa te ora?” with a drawing of a clock and “What time is it?”"
+      ],
+      "evidence": [
+        "Identifies the question as asking about time."
+      ],
+      "misconceptions": [
+        "The question is only asking for someone’s name."
+      ],
+      "question": "What does “Eaʻa te ora?” ask about?",
+      "answer": "The time.",
+      "explanation": "The sequence gives Eaʻa te ora? as a question for asking the time.",
+      "hints": [
+        "The expression is a question.",
+        "Does the model identify it as asking for a time or a price?"
+      ],
+      "activity": "Match “Eaʻa te ora?” with a drawing of a clock and “What time is it?”",
+      "materials": [
+        "the expressions and cards in the activity",
+        "paper or an accessible input device"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_cook_opinion_manako",
+      "name": "Te Reo Māori Kūki ‘Āirani: an opinion opening",
+      "domain": "Linguistic Knowledge",
+      "description": "I tōku manako … is given as a sentence opening meaning “I think …”.",
+      "years": [],
+      "phase": "Novice 3 (proficiency-based)",
+      "sourceId": "nzc_cook_2026",
+      "locator": "PDF pp. 16, Novice 3 > Linguistic Knowledge; teaching-sequence example",
+      "objectives": [
+        "Match “I tōku manako …” with “I think …” and rua with two."
+      ],
+      "evidence": [
+        "Identifies the opinion opening in the two supplied choices."
+      ],
+      "misconceptions": [
+        "Rua is the model’s phrase for I think."
+      ],
+      "question": "Which expression introduces “I think …”: i tōku manako … or rua?",
+      "answer": "I tōku manako …",
+      "explanation": "I tōku manako … is given as a sentence opening meaning “I think …”.",
+      "hints": [
+        "One expression is an opinion opening.",
+        "Rua is a number in the earlier example."
+      ],
+      "activity": "Match “I tōku manako …” with “I think …” and rua with two.",
+      "materials": [
+        "the expressions and cards in the activity",
+        "paper or an accessible input device"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_niue_number_eleven",
+      "name": "Vagahau Niue: eleven",
+      "domain": "Linguistic Knowledge",
+      "description": "The number pattern hogofulu ma plus a base number is used for numbers from eleven to nineteen; hogofulu ma taha is given as eleven.",
+      "years": [],
+      "phase": "Novice 1 (proficiency-based)",
+      "sourceId": "nzc_niue_2026",
+      "locator": "PDF pp. 9, Novice 1 > Linguistic Knowledge; teaching-sequence example",
+      "objectives": [
+        "Match the card hogofulu ma taha to 11 and a group of eleven drawn dots."
+      ],
+      "evidence": [
+        "Matches the taught number expression to eleven."
+      ],
+      "misconceptions": [
+        "Hogofulu ma taha is the model’s word for one."
+      ],
+      "question": "What number is hogofulu ma taha in the taught sequence?",
+      "answer": "Eleven.",
+      "explanation": "The number pattern hogofulu ma plus a base number is used for numbers from eleven to nineteen; hogofulu ma taha is given as eleven.",
+      "hints": [
+        "The pattern begins with hogofulu ma.",
+        "The example shown corresponds to 11."
+      ],
+      "activity": "Match the card hogofulu ma taha to 11 and a group of eleven drawn dots.",
+      "materials": [
+        "the expressions and cards in the activity",
+        "paper or an accessible input device"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_niue_thanks_fakaaue",
+      "name": "Vagahau Niue: giving thanks",
+      "domain": "Cultural and Sociolinguistic Knowledge",
+      "description": "Fakaaue lahi is listed among expressions for thanking; related polite expressions appear in the Novice 2 sequence.",
+      "years": [],
+      "phase": "Novice 2 (proficiency-based)",
+      "sourceId": "nzc_niue_2026",
+      "locator": "PDF pp. 8, 11, Novice 1 thanking example and Novice 2 > Cultural and Sociolinguistic Knowledge: politeness conventions",
+      "objectives": [
+        "Match “Fakaaue lahi” with a fictional thank-you card."
+      ],
+      "evidence": [
+        "Identifies the expression as giving thanks."
+      ],
+      "misconceptions": [
+        "Fakaaue lahi asks for the price of an item."
+      ],
+      "question": "What is the purpose of “Fakaaue lahi” in the supplied list?",
+      "answer": "To give thanks.",
+      "explanation": "Fakaaue lahi is listed among expressions for thanking; related polite expressions appear in the Novice 2 sequence.",
+      "hints": [
+        "The phrase appears in the thanking group.",
+        "Is it a greeting or an expression of gratitude?"
+      ],
+      "activity": "Match “Fakaaue lahi” with a fictional thank-you card.",
+      "materials": [
+        "the expressions and cards in the activity",
+        "paper or an accessible input device"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_niue_ask_cost_fiha",
+      "name": "Vagahau Niue: asking a price",
+      "domain": "Linguistic Knowledge",
+      "description": "The sequence gives fiha e tau? as a way to ask about the cost of an item.",
+      "years": [],
+      "phase": "Novice 3 (proficiency-based)",
+      "sourceId": "nzc_niue_2026",
+      "locator": "PDF pp. 17, Novice 3 > Linguistic Knowledge; teaching-sequence example",
+      "objectives": [
+        "Match “fiha e tau?” with a fictional price label showing $4; no real transaction is needed."
+      ],
+      "evidence": [
+        "Recognises the model question as asking for a price."
+      ],
+      "misconceptions": [
+        "Fiha e tau? asks only for a person’s name."
+      ],
+      "question": "What information does “fiha e tau?” request in the taught example?",
+      "answer": "The cost or price.",
+      "explanation": "The sequence gives fiha e tau? as a way to ask about the cost of an item.",
+      "hints": [
+        "The expression is listed under cost.",
+        "Is it asking how much an item costs?"
+      ],
+      "activity": "Match “fiha e tau?” with a fictional price label showing $4; no real transaction is needed.",
+      "materials": [
+        "the expressions and cards in the activity",
+        "paper or an accessible input device"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_tokelau_intro_toku_igoa",
+      "name": "Gagana Tokelau: introducing a name",
+      "domain": "Linguistic Knowledge",
+      "description": "Ko toku igoa ko … is a model for “My name is …” in Gagana Tokelau.",
+      "years": [],
+      "phase": "Novice 1 (proficiency-based)",
+      "sourceId": "nzc_tokelau_2026",
+      "locator": "PDF pp. 8, Novice 1 > Linguistic Knowledge; teaching-sequence example",
+      "objectives": [
+        "Match “Ko toku igoa ko Meli” with the fictional name card Meli."
+      ],
+      "evidence": [
+        "Identifies Meli as the introduced name."
+      ],
+      "misconceptions": [
+        "Toku igoa itself is the name Meli."
+      ],
+      "question": "In “Ko toku igoa ko Meli”, what name is introduced?",
+      "answer": "Meli.",
+      "explanation": "Ko toku igoa ko … is a model for “My name is …” in Gagana Tokelau.",
+      "hints": [
+        "Find the word after the final ko.",
+        "Which word is the fictional name?"
+      ],
+      "activity": "Match “Ko toku igoa ko Meli” with the fictional name card Meli.",
+      "materials": [
+        "the expressions and cards in the activity",
+        "paper or an accessible input device"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_tokelau_toku_oku",
+      "name": "Gagana Tokelau: one and more than one",
+      "domain": "Linguistic Knowledge",
+      "description": "The taught family-introduction examples use toku for one person and oku for two or more people.",
+      "years": [],
+      "phase": "Novice 2 (proficiency-based)",
+      "sourceId": "nzc_tokelau_2026",
+      "locator": "PDF pp. 12, Novice 2 > Linguistic Knowledge; teaching-sequence example",
+      "objectives": [
+        "Match the supplied cards “toku: one” and “oku: two or more” to one and two fictional person icons."
+      ],
+      "evidence": [
+        "Matches toku to one person and oku to two or more in the model."
+      ],
+      "misconceptions": [
+        "Oku is the form given for exactly one person in this example."
+      ],
+      "question": "Which form is used for one person in the taught examples: toku or oku?",
+      "answer": "toku.",
+      "explanation": "The taught family-introduction examples use toku for one person and oku for two or more people.",
+      "hints": [
+        "Both forms appear with family terms.",
+        "Which is identified for one person?"
+      ],
+      "activity": "Match the supplied cards “toku: one” and “oku: two or more” to one and two fictional person icons.",
+      "materials": [
+        "the expressions and cards in the activity",
+        "paper or an accessible input device"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_tokelau_also_vena_foki",
+      "name": "Gagana Tokelau: linking another idea",
+      "domain": "Linguistic Knowledge",
+      "description": "Vēnā foki can add information or link ideas in the teaching sequence.",
+      "years": [],
+      "phase": "Novice 3 (proficiency-based)",
+      "sourceId": "nzc_tokelau_2026",
+      "locator": "PDF pp. 16, Novice 3 > Linguistic Knowledge; teaching-sequence example",
+      "objectives": [
+        "Identify vēnā foki as a connector in the supplied Tokelauan sentence."
+      ],
+      "evidence": [
+        "Identifies the connector and the additional phrase in the complete model sentence."
+      ],
+      "misconceptions": [
+        "Vēnā foki is used only to give a date."
+      ],
+      "question": "Which expression in “E fiafia au ki te pehe, vēnā foki te hiva” links an additional idea?",
+      "answer": "vēnā foki.",
+      "explanation": "Vēnā foki can add information or link ideas in the teaching sequence.",
+      "hints": [
+        "Look at the phrase immediately after the comma.",
+        "The two-word connector ends with foki."
+      ],
+      "activity": "Circle vēnā foki in “E fiafia au ki te pehe, vēnā foki te hiva” and underline the additional phrase te hiva.",
+      "materials": [
+        "the sentence E fiafia au ki te pehe, vēnā foki te hiva",
+        "paper or an accessible input device"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_japanese_intro_watashi",
+      "name": "Japanese: introducing a name",
+      "domain": "Linguistic Knowledge",
+      "description": "The taught pattern わたしは [name] です introduces the speaker. This practice uses a fictional name.",
+      "years": [],
+      "phase": "Novice 1 (proficiency-based)",
+      "sourceId": "nzc_japanese_2026",
+      "locator": "PDF pp. 10, Novice 1 > Linguistic Knowledge; teaching-sequence example",
+      "objectives": [
+        "Match “わたしはマナです” with the name card マナ."
+      ],
+      "evidence": [
+        "Identifies マナ as the name in the model."
+      ],
+      "misconceptions": [
+        "です is the speaker’s personal name."
+      ],
+      "question": "In “わたしはマナです”, what is the speaker’s name?",
+      "answer": "マナ (Mana).",
+      "explanation": "The taught pattern わたしは [name] です introduces the speaker. This practice uses a fictional name.",
+      "hints": [
+        "Find the name between は and です.",
+        "Which characters spell the fictional name?"
+      ],
+      "activity": "Match “わたしはマナです” with the name card マナ.",
+      "materials": [
+        "the expressions and cards in the activity",
+        "paper or an accessible input device"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_japanese_greeting_konnichiwa",
+      "name": "Japanese: こんにちは",
+      "domain": "Linguistic Knowledge",
+      "description": "こんにちは is listed as a greeting in the teaching sequence.",
+      "years": [],
+      "phase": "Novice 1 (proficiency-based)",
+      "sourceId": "nzc_japanese_2026",
+      "locator": "PDF pp. 9, Novice 1 > Linguistic Knowledge; teaching-sequence example",
+      "objectives": [
+        "Match こんにちは with a fictional greeting card labelled “hello”."
+      ],
+      "evidence": [
+        "Recognises the supplied Japanese expression as a greeting."
+      ],
+      "misconceptions": [
+        "こんにちは is a numeral for two people."
+      ],
+      "question": "What is the role of こんにちは in the model?",
+      "answer": "It is a greeting, commonly translated as hello.",
+      "explanation": "こんにちは is listed as a greeting in the teaching sequence.",
+      "hints": [
+        "The expression appears under greetings.",
+        "Does it open a conversation or specify a price?"
+      ],
+      "activity": "Match こんにちは with a fictional greeting card labelled “hello”.",
+      "materials": [
+        "the expressions and cards in the activity",
+        "paper or an accessible input device"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_japanese_time_half_past",
+      "name": "Japanese: はん for half past",
+      "domain": "Linguistic Knowledge",
+      "description": "The sequence uses a number plus じ and はん to express half past the hour.",
+      "years": [],
+      "phase": "Novice 2 (proficiency-based)",
+      "sourceId": "nzc_japanese_2026",
+      "locator": "PDF pp. 15, Novice 2 > Linguistic Knowledge; teaching-sequence example",
+      "objectives": [
+        "Match 5時はんです to a clock card showing 5:30."
+      ],
+      "evidence": [
+        "Identifies 5:30 in the taught time pattern."
+      ],
+      "misconceptions": [
+        "はん means two hours after the stated hour."
+      ],
+      "question": "What time does “5時はんです” express?",
+      "answer": "5:30, or half past five.",
+      "explanation": "The sequence uses a number plus じ and はん to express half past the hour.",
+      "hints": [
+        "5時 gives five o’clock.",
+        "はん adds half an hour."
+      ],
+      "activity": "Match 5時はんです to a clock card showing 5:30.",
+      "materials": [
+        "the expressions and cards in the activity",
+        "paper or an accessible input device"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_japanese_why_doushite",
+      "name": "Japanese: asking why with どうして",
+      "domain": "Linguistic Knowledge",
+      "description": "どうして asks why, and から can introduce a reason at the end of a taught response.",
+      "years": [],
+      "phase": "Novice 3 (proficiency-based)",
+      "sourceId": "nzc_japanese_2026",
+      "locator": "PDF pp. 20, Novice 3 > Linguistic Knowledge; teaching-sequence example",
+      "objectives": [
+        "Circle どうして in the supplied question and match it to “why”."
+      ],
+      "evidence": [
+        "Identifies the reason-seeking question word."
+      ],
+      "misconceptions": [
+        "どうして means the name of the school subject in this sentence."
+      ],
+      "question": "In “どうしてすうがくがすきですか”, which word asks why?",
+      "answer": "どうして.",
+      "explanation": "どうして asks why, and から can introduce a reason at the end of a taught response.",
+      "hints": [
+        "Find the question word at the beginning.",
+        "The curriculum identifies どうして as “why”."
+      ],
+      "activity": "Circle どうして in the supplied question and match it to “why”.",
+      "materials": [
+        "the expressions and cards in the activity",
+        "paper or an accessible input device"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_korean_ask_age",
+      "name": "Korean: asking someone’s age",
+      "domain": "Cultural and Sociolinguistic Knowledge",
+      "description": "몇 살이에요? is used to ask someone’s age. A fictional age can be used in classroom practice.",
+      "years": [],
+      "phase": "Novice 1 (proficiency-based)",
+      "sourceId": "nzc_korean_2026",
+      "locator": "PDF p. 10, Novice 1 > Cultural and Sociolinguistic Knowledge: asking age",
+      "objectives": [
+        "Match 몇 살이에요? with the fictional response 아홉 살이에요 (nine years old)."
+      ],
+      "evidence": [
+        "Identifies the question as asking for age and matches the supplied answer."
+      ],
+      "misconceptions": [
+        "몇 살이에요? asks for a street address."
+      ],
+      "question": "What information does “몇 살이에요?” request?",
+      "answer": "A person’s age.",
+      "explanation": "몇 살이에요? is used to ask someone’s age. A fictional age can be used in classroom practice.",
+      "hints": [
+        "The question appears under age.",
+        "Is it asking how old someone is or the price?"
+      ],
+      "activity": "Match 몇 살이에요? with the fictional response 아홉 살이에요 (nine years old).",
+      "materials": [
+        "the expressions and cards in the activity",
+        "paper or an accessible input device"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_korean_ten_years",
+      "name": "Korean: 열 살이에요",
+      "domain": "Linguistic Knowledge",
+      "description": "열 is the native Korean number ten; 열 살이에요 expresses an age of ten years in the supplied model.",
+      "years": [],
+      "phase": "Novice 1 (proficiency-based)",
+      "sourceId": "nzc_korean_2026",
+      "locator": "PDF pp. 10, Novice 1 > Linguistic Knowledge; teaching-sequence example",
+      "objectives": [
+        "Match 열 살이에요 to a fictional age card labelled 10."
+      ],
+      "evidence": [
+        "Identifies ten as the age in the model."
+      ],
+      "misconceptions": [
+        "열 살이에요 says the fictional person is nine."
+      ],
+      "question": "How old is the fictional person in “열 살이에요”?",
+      "answer": "Ten years old.",
+      "explanation": "열 is the native Korean number ten; 열 살이에요 expresses an age of ten years in the supplied model.",
+      "hints": [
+        "열 means ten.",
+        "살이에요 expresses age in the model."
+      ],
+      "activity": "Match 열 살이에요 to a fictional age card labelled 10.",
+      "materials": [
+        "the expressions and cards in the activity",
+        "paper or an accessible input device"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_korean_month_wol",
+      "name": "Korean: identifying a month",
+      "domain": "Linguistic Knowledge",
+      "description": "월 marks a month in Korean dates. In 2026년 6월 5일, 6월 indicates June.",
+      "years": [],
+      "phase": "Novice 2 (proficiency-based)",
+      "sourceId": "nzc_korean_2026",
+      "locator": "PDF pp. 13, Novice 2 > Linguistic Knowledge; teaching-sequence example",
+      "objectives": [
+        "Underline 년, 월 and 일 in 2026년 6월 5일 and match them to year, month and day."
+      ],
+      "evidence": [
+        "Identifies 6월 as the month in the supplied date."
+      ],
+      "misconceptions": [
+        "5일 is the month in the example."
+      ],
+      "question": "In “2026년 6월 5일”, which part gives the month?",
+      "answer": "6월, June.",
+      "explanation": "월 marks a month in Korean dates. In 2026년 6월 5일, 6월 indicates June.",
+      "hints": [
+        "Find 월, the month marker.",
+        "Which number comes immediately before 월?"
+      ],
+      "activity": "Underline 년, 월 and 일 in 2026년 6월 5일 and match them to year, month and day.",
+      "materials": [
+        "the expressions and cards in the activity",
+        "paper or an accessible input device"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_korean_past_gasseoyo",
+      "name": "Korean: 갔어요 for went",
+      "domain": "Linguistic Knowledge",
+      "description": "The curriculum gives 가다, “to go”, and 갔어요, a polite past form meaning “went”.",
+      "years": [],
+      "phase": "Novice 3 (proficiency-based)",
+      "sourceId": "nzc_korean_2026",
+      "locator": "PDF pp. 15, Novice 3 > Linguistic Knowledge; teaching-sequence example",
+      "objectives": [
+        "Match 가다 to “to go” and 갔어요 to “went” using the supplied cards."
+      ],
+      "evidence": [
+        "Distinguishes the supplied dictionary and past forms."
+      ],
+      "misconceptions": [
+        "갔어요 is the dictionary form meaning only “to go”."
+      ],
+      "question": "Which form in the model describes a past action: 가다 or 갔어요?",
+      "answer": "갔어요.",
+      "explanation": "The curriculum gives 가다, “to go”, and 갔어요, a polite past form meaning “went”.",
+      "hints": [
+        "One form is the dictionary form “to go”.",
+        "Which is given as “went”?"
+      ],
+      "activity": "Match 가다 to “to go” and 갔어요 to “went” using the supplied cards.",
+      "materials": [
+        "the expressions and cards in the activity",
+        "paper or an accessible input device"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_french_intro_appelle",
+      "name": "French: Je m’appelle",
+      "domain": "Linguistic Knowledge",
+      "description": "Je m’appelle … is a model for introducing one’s name. The practice name is fictional.",
+      "years": [],
+      "phase": "Novice 1 (proficiency-based)",
+      "sourceId": "nzc_french_2026",
+      "locator": "PDF pp. 8, Novice 1 > Linguistic Knowledge; teaching-sequence example",
+      "objectives": [
+        "Match “Je m’appelle Lina” with the name card Lina."
+      ],
+      "evidence": [
+        "Identifies Lina as the introduced name."
+      ],
+      "misconceptions": [
+        "M’appelle is the speaker’s personal name."
+      ],
+      "question": "In “Je m’appelle Lina”, what is the speaker’s name?",
+      "answer": "Lina.",
+      "explanation": "Je m’appelle … is a model for introducing one’s name. The practice name is fictional.",
+      "hints": [
+        "Find the name after m’appelle.",
+        "Which word is a person’s name?"
+      ],
+      "activity": "Match “Je m’appelle Lina” with the name card Lina.",
+      "materials": [
+        "the expressions and cards in the activity",
+        "paper or an accessible input device"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_french_age_dix_ans",
+      "name": "French: J’ai dix ans",
+      "domain": "Linguistic Knowledge",
+      "description": "The sequence uses J’ai [number] ans to state age. Dix means ten in this example.",
+      "years": [],
+      "phase": "Novice 1 (proficiency-based)",
+      "sourceId": "nzc_french_2026",
+      "locator": "PDF pp. 9, Novice 1 > Linguistic Knowledge; teaching-sequence example",
+      "objectives": [
+        "Match “J’ai dix ans” to a fictional age card labelled 10."
+      ],
+      "evidence": [
+        "Identifies ten as the age in the supplied sentence."
+      ],
+      "misconceptions": [
+        "Dix ans means two years in this example."
+      ],
+      "question": "How old is the fictional speaker in “J’ai dix ans”?",
+      "answer": "Ten years old.",
+      "explanation": "The sequence uses J’ai [number] ans to state age. Dix means ten in this example.",
+      "hints": [
+        "Dix is ten.",
+        "Ans is used with age in the model."
+      ],
+      "activity": "Match “J’ai dix ans” to a fictional age card labelled 10.",
+      "materials": [
+        "the expressions and cards in the activity",
+        "paper or an accessible input device"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_french_dislike_pas_du_tout",
+      "name": "French: ne … pas du tout",
+      "domain": "Linguistic Knowledge",
+      "description": "Ne … pas du tout can intensify a negative preference, expressing “not at all” in the taught pattern.",
+      "years": [],
+      "phase": "Novice 3 (proficiency-based)",
+      "sourceId": "nzc_french_2026",
+      "locator": "PDF pp. 13, Novice 3 > Linguistic Knowledge; teaching-sequence example",
+      "objectives": [
+        "Underline n’ and pas du tout in the supplied sentence, then match it to “I do not like rugby at all”."
+      ],
+      "evidence": [
+        "Identifies the negative expression and its degree."
+      ],
+      "misconceptions": [
+        "Pas du tout turns the sentence into an enthusiastic like."
+      ],
+      "question": "Which part of “Je n’aime pas du tout le rugby” expresses “not at all”?",
+      "answer": "n’ … pas du tout.",
+      "explanation": "Ne … pas du tout can intensify a negative preference, expressing “not at all” in the taught pattern.",
+      "hints": [
+        "Find the negative words around aime.",
+        "Which additional words mean “at all”?"
+      ],
+      "activity": "Underline n’ and pas du tout in the supplied sentence, then match it to “I do not like rugby at all”.",
+      "materials": [
+        "the expressions and cards in the activity",
+        "paper or an accessible input device"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_french_transaction_price",
+      "name": "French: asking a price",
+      "domain": "Linguistic Knowledge",
+      "description": "C’est combien ? asks how much something costs; the sequence gives C’est six euros quatre-vingt-dix as a reply.",
+      "years": [],
+      "phase": "Novice 3 (proficiency-based)",
+      "sourceId": "nzc_french_2026",
+      "locator": "PDF pp. 15, Novice 3 > Linguistic Knowledge; teaching-sequence example",
+      "objectives": [
+        "Match the exchange “C’est combien ? — C’est six euros quatre-vingt-dix” to a fictional €6.90 price card."
+      ],
+      "evidence": [
+        "Matches the spoken-price text to €6.90."
+      ],
+      "misconceptions": [
+        "Six euros quatre-vingt dix means €6.09."
+      ],
+      "question": "How much is the item in “C’est six euros quatre-vingt-dix”?",
+      "answer": "€6.90.",
+      "explanation": "C’est combien ? asks how much something costs; the sequence gives C’est six euros quatre-vingt dix as a reply.",
+      "hints": [
+        "Six euros is the whole-euro amount.",
+        "Quatre-vingt dix indicates ninety cents in the supplied price."
+      ],
+      "activity": "Match the exchange “C’est combien ? — C’est six euros quatre-vingt-dix” to a fictional €6.90 price card.",
+      "materials": [
+        "the expressions and cards in the activity",
+        "paper or an accessible input device"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_german_intro_heisse",
+      "name": "German: Ich heiße",
+      "domain": "Linguistic Knowledge",
+      "description": "Ich heiße … introduces a speaker’s name. The example uses a fictional name.",
+      "years": [],
+      "phase": "Novice 1 (proficiency-based)",
+      "sourceId": "nzc_german_2026",
+      "locator": "PDF pp. 8, Novice 1 > Linguistic Knowledge; teaching-sequence example",
+      "objectives": [
+        "Match “Ich heiße Mara” with the fictional name card Mara."
+      ],
+      "evidence": [
+        "Identifies Mara as the name in the model."
+      ],
+      "misconceptions": [
+        "Heiße is the speaker’s personal name."
+      ],
+      "question": "In “Ich heiße Mara”, what is the speaker’s name?",
+      "answer": "Mara.",
+      "explanation": "Ich heiße … introduces a speaker’s name. The example uses a fictional name.",
+      "hints": [
+        "Find the word after heiße.",
+        "Which word is a person’s name?"
+      ],
+      "activity": "Match “Ich heiße Mara” with the fictional name card Mara.",
+      "materials": [
+        "the expressions and cards in the activity",
+        "paper or an accessible input device"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_german_weekday_montag",
+      "name": "German: capitalising Montag",
+      "domain": "Linguistic Knowledge",
+      "description": "German days of the week are nouns and are capitalised. Montag means Monday.",
+      "years": [],
+      "phase": "Novice 1 (proficiency-based)",
+      "sourceId": "nzc_german_2026",
+      "locator": "PDF pp. 10, Novice 1 > Linguistic Knowledge; teaching-sequence example",
+      "objectives": [
+        "Write Montag beside Monday and circle the initial capital."
+      ],
+      "evidence": [
+        "Uses a capital M in the supplied weekday."
+      ],
+      "misconceptions": [
+        "German weekdays are always written with a lowercase initial."
+      ],
+      "question": "Which spelling correctly writes Monday in German: Montag or montag?",
+      "answer": "Montag.",
+      "explanation": "German days of the week are nouns and are capitalised. Montag means Monday.",
+      "hints": [
+        "The weekday is a noun.",
+        "What happens to the first letter of a German noun?"
+      ],
+      "activity": "Write Montag beside Monday and circle the initial capital.",
+      "materials": [
+        "the expressions and cards in the activity",
+        "paper or an accessible input device"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_german_half_three",
+      "name": "German: Es ist halb drei",
+      "domain": "Linguistic Knowledge",
+      "description": "In the supplied German clock expression, halb drei means half an hour before three, or 2:30.",
+      "years": [],
+      "phase": "Novice 2 (proficiency-based)",
+      "sourceId": "nzc_german_2026",
+      "locator": "PDF pp. 13, Novice 2 > Linguistic Knowledge; teaching-sequence example",
+      "objectives": [
+        "Match “Es ist halb drei” to a clock card marked 2:30."
+      ],
+      "evidence": [
+        "Matches the German expression to 2:30."
+      ],
+      "misconceptions": [
+        "Halb drei means 3:30 in this expression."
+      ],
+      "question": "What time does “Es ist halb drei” express?",
+      "answer": "2:30.",
+      "explanation": "In the supplied German clock expression, halb drei means half an hour before three, or 2:30.",
+      "hints": [
+        "The expression refers to the coming hour, three.",
+        "Half an hour before three is which time?"
+      ],
+      "activity": "Match “Es ist halb drei” to a clock card marked 2:30.",
+      "materials": [
+        "the expressions and cards in the activity",
+        "paper or an accessible input device"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_german_comparison_schneller",
+      "name": "German: schneller als",
+      "domain": "Linguistic Knowledge",
+      "description": "The sequence uses schneller als to compare speed: schneller means faster and als introduces the comparison.",
+      "years": [],
+      "phase": "Novice 3 (proficiency-based)",
+      "sourceId": "nzc_german_2026",
+      "locator": "PDF pp. 16, Novice 3 > Linguistic Knowledge; teaching-sequence example",
+      "objectives": [
+        "Underline schneller and als in the model, then match them to “faster” and “than”."
+      ],
+      "evidence": [
+        "Identifies schneller as the comparative in the supplied sentence."
+      ],
+      "misconceptions": [
+        "Als is the adjective meaning fast."
+      ],
+      "question": "In “Meine Schwester ist schneller als ich”, which word means faster?",
+      "answer": "schneller.",
+      "explanation": "The sequence uses schneller als to compare speed: schneller means faster and als introduces the comparison.",
+      "hints": [
+        "Find the word derived from schnell.",
+        "Which word ends in –er?"
+      ],
+      "activity": "Underline schneller and als in the model, then match them to “faster” and “than”.",
+      "materials": [
+        "the expressions and cards in the activity",
+        "paper or an accessible input device"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_spanish_intro_me_llamo",
+      "name": "Spanish: Me llamo",
+      "domain": "Linguistic Knowledge",
+      "description": "Me llamo … introduces a speaker’s name. The curriculum example uses Julia.",
+      "years": [],
+      "phase": "Novice 1 (proficiency-based)",
+      "sourceId": "nzc_spanish_2026",
+      "locator": "PDF pp. 8, Novice 1 > Linguistic Knowledge; teaching-sequence example",
+      "objectives": [
+        "Match “Me llamo Julia” with the name card Julia."
+      ],
+      "evidence": [
+        "Identifies Julia as the introduced name."
+      ],
+      "misconceptions": [
+        "Llamo is the speaker’s personal name."
+      ],
+      "question": "In “Me llamo Julia”, what is the speaker’s name?",
+      "answer": "Julia.",
+      "explanation": "Me llamo … introduces a speaker’s name. The curriculum example uses Julia.",
+      "hints": [
+        "Find the name after llamo.",
+        "Which word is a person’s name?"
+      ],
+      "activity": "Match “Me llamo Julia” with the name card Julia.",
+      "materials": [
+        "the expressions and cards in the activity",
+        "paper or an accessible input device"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_spanish_possessive_mis",
+      "name": "Spanish: mi and mis",
+      "domain": "Linguistic Knowledge",
+      "description": "The sequence gives mi with a singular noun and mis with a plural noun, for example mi abuelo and mis abuelos.",
+      "years": [],
+      "phase": "Novice 1 (proficiency-based)",
+      "sourceId": "nzc_spanish_2026",
+      "locator": "PDF pp. 9, Novice 1 > Linguistic Knowledge; teaching-sequence example",
+      "objectives": [
+        "Match mi abuelo to one fictional figure and mis abuelos to more than one."
+      ],
+      "evidence": [
+        "Identifies mis abuelos as the plural phrase."
+      ],
+      "misconceptions": [
+        "Mi and mis always refer to exactly the same number of people."
+      ],
+      "question": "Which phrase refers to more than one grandfather: mi abuelo or mis abuelos?",
+      "answer": "mis abuelos.",
+      "explanation": "The sequence gives mi with a singular noun and mis with a plural noun, for example mi abuelo and mis abuelos.",
+      "hints": [
+        "Look for the plural ending on abuelos.",
+        "Which possessive form appears with it?"
+      ],
+      "activity": "Match mi abuelo to one fictional figure and mis abuelos to more than one.",
+      "materials": [
+        "the expressions and cards in the activity",
+        "paper or an accessible input device"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_spanish_one_two_oclock",
+      "name": "Spanish: es la una and son las dos",
+      "domain": "Linguistic Knowledge",
+      "description": "The sequence gives es la una for one o’clock and son las dos for two o’clock.",
+      "years": [],
+      "phase": "Novice 2 (proficiency-based)",
+      "sourceId": "nzc_spanish_2026",
+      "locator": "PDF pp. 12, Novice 2 > Linguistic Knowledge; teaching-sequence example",
+      "objectives": [
+        "Match es la una to a 1:00 clock and son las dos to a 2:00 clock."
+      ],
+      "evidence": [
+        "Identifies the time and matches each expression to its clock."
+      ],
+      "misconceptions": [
+        "Son las dos is the model’s expression for one o’clock."
+      ],
+      "question": "What time is “son las dos”?",
+      "answer": "Two o’clock.",
+      "explanation": "The sequence gives es la una for one o’clock and son las dos for two o’clock.",
+      "hints": [
+        "Dos means two.",
+        "Which of the supplied expressions is used for two?"
+      ],
+      "activity": "Match es la una to a 1:00 clock and son las dos to a 2:00 clock.",
+      "materials": [
+        "the expressions and cards in the activity",
+        "paper or an accessible input device"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_spanish_comparison_mas_que",
+      "name": "Spanish: más … que",
+      "domain": "Linguistic Knowledge",
+      "description": "Más [adjective] que makes a comparison. In the example, más barata que means cheaper than.",
+      "years": [],
+      "phase": "Novice 3 (proficiency-based)",
+      "sourceId": "nzc_spanish_2026",
+      "locator": "PDF pp. 14, Novice 3 > Linguistic Knowledge; teaching-sequence example",
+      "objectives": [
+        "Label a white shirt card as cheaper and a green shirt card as more expensive according to the supplied sentence."
+      ],
+      "evidence": [
+        "Identifies the white shirt as cheaper in the example."
+      ],
+      "misconceptions": [
+        "The green shirt is described as cheaper in this sentence."
+      ],
+      "question": "In “La camisa blanca es más barata que la camisa verde”, which shirt is cheaper?",
+      "answer": "The white shirt, la camisa blanca.",
+      "explanation": "Más [adjective] que makes a comparison. In the example, más barata que means cheaper than.",
+      "hints": [
+        "Find más barata que.",
+        "Which shirt appears before the comparison?"
+      ],
+      "activity": "Label a white shirt card as cheaper and a green shirt card as more expensive according to the supplied sentence.",
+      "materials": [
+        "the expressions and cards in the activity",
+        "paper or an accessible input device"
+      ],
+      "minutes": 15
     }
   ],
   "dependencies": [
@@ -2965,6 +4655,370 @@
       "strength": "helpful",
       "reason": "Recognising a future time marker supports understanding a pattern for stating an immediate plan.",
       "sourceId": "nzc_spanish_2026"
+    },
+    {
+      "topicId": "nzc_tokelau_weather_time",
+      "prerequisiteId": "nzc_tokelau_intonation",
+      "strength": "helpful",
+      "reason": "Attending to a reliable spoken model supports practising new weather questions.",
+      "sourceId": "nzc_tokelau_2026"
+    },
+    {
+      "topicId": "nzc_tokelau_polite_instruction",
+      "prerequisiteId": "nzc_tokelau_greeting_malo_ni",
+      "strength": "helpful",
+      "reason": "Practising a respectful greeting prepares learners to consider politeness in other classroom interactions.",
+      "sourceId": "nzc_tokelau_2026"
+    },
+    {
+      "topicId": "nzc_french_half_past",
+      "prerequisiteId": "nz_bus_timetable",
+      "strength": "helpful",
+      "reason": "Reading clock times supports interpreting an everyday time expression in French.",
+      "sourceId": "nzc_french_2026"
+    },
+    {
+      "topicId": "nzc_french_ownership_de",
+      "prerequisiteId": "nzc_french_grammatical_gender",
+      "strength": "helpful",
+      "reason": "Recognising a French noun phrase helps learners identify the thing owned in an ownership expression.",
+      "sourceId": "nzc_french_2026"
+    },
+    {
+      "topicId": "nzc_french_location_sous",
+      "prerequisiteId": "nzc_french_alphabetic",
+      "strength": "helpful",
+      "reason": "Reading a French word in context supports noticing how it describes location.",
+      "sourceId": "nzc_french_2026"
+    },
+    {
+      "topicId": "nzc_french_false_friend_pain",
+      "prerequisiteId": "nzc_french_alphabetic",
+      "strength": "helpful",
+      "reason": "Knowing that French uses letters provides a starting point for comparing familiar-looking written words.",
+      "sourceId": "nzc_french_2026"
+    },
+    {
+      "topicId": "nzc_reo_introduce_ko",
+      "prerequisiteId": "nzc_reo_kia_ora",
+      "strength": "helpful",
+      "reason": "A familiar greeting can lead into a short introduction of one’s chosen name.",
+      "sourceId": "nzc_reo_2026"
+    },
+    {
+      "topicId": "nzc_reo_tuakana_teina",
+      "prerequisiteId": "nzc_lang_family_variation",
+      "strength": "helpful",
+      "reason": "Using fictional relationships respects family variation while practising a specific kinship distinction.",
+      "sourceId": "nzc_reo_2026"
+    },
+    {
+      "topicId": "nzc_reo_past_particle_i",
+      "prerequisiteId": "nzc_lang_time_frames",
+      "strength": "helpful",
+      "reason": "Recognising past and future supports learning particles that signal them in te reo Māori.",
+      "sourceId": "nzc_reo_2026"
+    },
+    {
+      "topicId": "nzc_mandarin_farewell_zaijian",
+      "prerequisiteId": "nzc_lang_greeting_context",
+      "strength": "helpful",
+      "reason": "Recognising greeting context helps a learner distinguish a greeting from a farewell.",
+      "sourceId": "nzc_mandarin_2026"
+    },
+    {
+      "topicId": "nzc_mandarin_weekday_monday",
+      "prerequisiteId": "nzc_mandarin_characters",
+      "strength": "helpful",
+      "reason": "Recognising Chinese characters supports reading the weekday marker and number together.",
+      "sourceId": "nzc_mandarin_2026"
+    },
+    {
+      "topicId": "nzc_mandarin_family_counter_kou",
+      "prerequisiteId": "nzc_mandarin_characters",
+      "strength": "helpful",
+      "reason": "Recognising written characters supports reading the number and measure word in a family count.",
+      "sourceId": "nzc_mandarin_2026"
+    },
+    {
+      "topicId": "nzc_mandarin_last_next_week",
+      "prerequisiteId": "nzc_lang_time_frames",
+      "strength": "helpful",
+      "reason": "Identifying past and future time frames supports distinguishing week expressions.",
+      "sourceId": "nzc_mandarin_2026"
+    },
+    {
+      "topicId": "nzc_nzsl_gloss_name_rua",
+      "prerequisiteId": "nzc_nzsl_fingerspell_names",
+      "strength": "helpful",
+      "reason": "Recognising fingerspelling supports interpreting the fs- notation in a model introduction.",
+      "sourceId": "nzc_nzsl_2026"
+    },
+    {
+      "topicId": "nzc_nzsl_gloss_book_question",
+      "prerequisiteId": "nzc_nzsl_nonmanual",
+      "strength": "helpful",
+      "reason": "Awareness of non-manual signals helps learners interpret the question marker alongside the gloss.",
+      "sourceId": "nzc_nzsl_2026"
+    },
+    {
+      "topicId": "nzc_nzsl_gloss_date_order",
+      "prerequisiteId": "nzc_nzsl_parameters",
+      "strength": "helpful",
+      "reason": "Observing sign features supports following a date sequence in a visual language model.",
+      "sourceId": "nzc_nzsl_2026"
+    },
+    {
+      "topicId": "nzc_nzsl_gloss_left_right",
+      "prerequisiteId": "nzc_nzsl_space_referents",
+      "strength": "helpful",
+      "reason": "Tracking established referents supports interpreting a comparison in signing space.",
+      "sourceId": "nzc_nzsl_2026"
+    },
+    {
+      "topicId": "nzc_samoa_intro_lou_igoa",
+      "prerequisiteId": "nzc_samoa_glottal",
+      "strength": "helpful",
+      "reason": "Noticing written glottal marks supports careful reading of a familiar introduction.",
+      "sourceId": "nzc_samoa_2026"
+    },
+    {
+      "topicId": "nzc_samoa_preference_fiafia",
+      "prerequisiteId": "nzc_lang_preferences",
+      "strength": "helpful",
+      "reason": "A known idea of preference supports learning the language-specific pattern.",
+      "sourceId": "nzc_samoa_2026"
+    },
+    {
+      "topicId": "nzc_samoa_above_below",
+      "prerequisiteId": "nzc_lang_connected_description",
+      "strength": "helpful",
+      "reason": "Connecting descriptions helps a learner add location information.",
+      "sourceId": "nzc_samoa_2026"
+    },
+    {
+      "topicId": "nzc_tonga_intro_hingoa",
+      "prerequisiteId": "nzc_tonga_greeting_malo",
+      "strength": "helpful",
+      "reason": "A greeting can be followed by a model introduction.",
+      "sourceId": "nzc_tonga_2026"
+    },
+    {
+      "topicId": "nzc_tonga_weather_past_marker",
+      "prerequisiteId": "nzc_eng_learning_sequence",
+      "strength": "helpful",
+      "reason": "Sequencing events supports recognising a past marker in a weather description.",
+      "sourceId": "nzc_tonga_2026"
+    },
+    {
+      "topicId": "nzc_tonga_opinion_fakakaukau",
+      "prerequisiteId": "nzc_lang_cultural_perspective",
+      "strength": "helpful",
+      "reason": "Considering perspectives and relationships supports using an opinion opening in a discussion.",
+      "sourceId": "nzc_tonga_2026"
+    },
+    {
+      "topicId": "nzc_cook_number_rua",
+      "prerequisiteId": "nzc_lang_listen_repeat",
+      "strength": "helpful",
+      "reason": "Attending to a model supports recognising a new number word.",
+      "sourceId": "nzc_cook_2026"
+    },
+    {
+      "topicId": "nzc_cook_ask_time",
+      "prerequisiteId": "nzc_lang_clarify",
+      "strength": "helpful",
+      "reason": "A clarification question can be used to request specific time information.",
+      "sourceId": "nzc_cook_2026"
+    },
+    {
+      "topicId": "nzc_cook_opinion_manako",
+      "prerequisiteId": "nzc_lang_cultural_perspective",
+      "strength": "helpful",
+      "reason": "Considering audience and perspectives helps a learner use an opinion opening appropriately.",
+      "sourceId": "nzc_cook_2026"
+    },
+    {
+      "topicId": "nzc_niue_number_eleven",
+      "prerequisiteId": "nzc_lang_listen_repeat",
+      "strength": "helpful",
+      "reason": "Attending to a language model supports recognising a new number expression.",
+      "sourceId": "nzc_niue_2026"
+    },
+    {
+      "topicId": "nzc_niue_thanks_fakaaue",
+      "prerequisiteId": "nzc_niue_kinship_terms",
+      "strength": "helpful",
+      "reason": "Recognising the relationship between people helps learners consider an appropriate polite expression.",
+      "sourceId": "nzc_niue_2026"
+    },
+    {
+      "topicId": "nzc_niue_ask_cost_fiha",
+      "prerequisiteId": "nzc_lang_plan_interaction",
+      "strength": "helpful",
+      "reason": "Planning a practical exchange helps a learner choose a question for the information needed.",
+      "sourceId": "nzc_niue_2026"
+    },
+    {
+      "topicId": "nzc_tokelau_intro_toku_igoa",
+      "prerequisiteId": "nzc_tokelau_greeting_malo_ni",
+      "strength": "helpful",
+      "reason": "A basic greeting can be followed by an introduction using the taught pattern.",
+      "sourceId": "nzc_tokelau_2026"
+    },
+    {
+      "topicId": "nzc_tokelau_toku_oku",
+      "prerequisiteId": "nzc_lang_family_variation",
+      "strength": "helpful",
+      "reason": "Fictional relationship examples support practising a number distinction without assuming a learner’s family structure.",
+      "sourceId": "nzc_tokelau_2026"
+    },
+    {
+      "topicId": "nzc_tokelau_also_vena_foki",
+      "prerequisiteId": "nzc_lang_connected_description",
+      "strength": "helpful",
+      "reason": "Connecting simple descriptions supports adding another idea with a language-specific expression.",
+      "sourceId": "nzc_tokelau_2026"
+    },
+    {
+      "topicId": "nzc_japanese_intro_watashi",
+      "prerequisiteId": "nzc_japanese_hiragana",
+      "strength": "helpful",
+      "reason": "Recognising Japanese written forms supports reading a short introduction.",
+      "sourceId": "nzc_japanese_2026"
+    },
+    {
+      "topicId": "nzc_japanese_greeting_konnichiwa",
+      "prerequisiteId": "nzc_lang_greeting_context",
+      "strength": "helpful",
+      "reason": "Recognising a greeting’s social purpose supports learning a specific Japanese greeting.",
+      "sourceId": "nzc_japanese_2026"
+    },
+    {
+      "topicId": "nzc_japanese_time_half_past",
+      "prerequisiteId": "nzc_japanese_count_people",
+      "strength": "helpful",
+      "reason": "Recognising Japanese number expressions supports reading a clock-time expression.",
+      "sourceId": "nzc_japanese_2026"
+    },
+    {
+      "topicId": "nzc_japanese_why_doushite",
+      "prerequisiteId": "nzc_lang_clarify",
+      "strength": "helpful",
+      "reason": "A clarification question can ask for the reason behind a preference.",
+      "sourceId": "nzc_japanese_2026"
+    },
+    {
+      "topicId": "nzc_korean_ask_age",
+      "prerequisiteId": "nzc_lang_introduction",
+      "strength": "helpful",
+      "reason": "A basic introduction can include a chosen age in a simple exchange.",
+      "sourceId": "nzc_korean_2026"
+    },
+    {
+      "topicId": "nzc_korean_ten_years",
+      "prerequisiteId": "nzc_korean_syllable_blocks",
+      "strength": "helpful",
+      "reason": "Recognising Korean syllable blocks supports reading a familiar age expression.",
+      "sourceId": "nzc_korean_2026"
+    },
+    {
+      "topicId": "nzc_korean_month_wol",
+      "prerequisiteId": "nzc_mandarin_date_order",
+      "strength": "helpful",
+      "reason": "Reading a year–month–day date in Mandarin supports recognising the same order in Korean.",
+      "sourceId": "nzc_korean_2026"
+    },
+    {
+      "topicId": "nzc_korean_past_gasseoyo",
+      "prerequisiteId": "nzc_lang_time_frames",
+      "strength": "helpful",
+      "reason": "Understanding past time helps a learner distinguish a past verb form.",
+      "sourceId": "nzc_korean_2026"
+    },
+    {
+      "topicId": "nzc_french_intro_appelle",
+      "prerequisiteId": "nzc_lang_introduction",
+      "strength": "helpful",
+      "reason": "A familiar introduction pattern supports learning its French form.",
+      "sourceId": "nzc_french_2026"
+    },
+    {
+      "topicId": "nzc_french_age_dix_ans",
+      "prerequisiteId": "nzc_lang_introduction",
+      "strength": "helpful",
+      "reason": "A short introduction can include a chosen fictional age in a familiar pattern.",
+      "sourceId": "nzc_french_2026"
+    },
+    {
+      "topicId": "nzc_french_dislike_pas_du_tout",
+      "prerequisiteId": "nzc_french_likes_negative",
+      "strength": "helpful",
+      "reason": "Knowing the basic negative form supports recognising a stronger negative expression.",
+      "sourceId": "nzc_french_2026"
+    },
+    {
+      "topicId": "nzc_french_transaction_price",
+      "prerequisiteId": "nzc_lang_plan_interaction",
+      "strength": "helpful",
+      "reason": "Planning a practical exchange supports interpreting a price question and reply.",
+      "sourceId": "nzc_french_2026"
+    },
+    {
+      "topicId": "nzc_german_intro_heisse",
+      "prerequisiteId": "nzc_lang_introduction",
+      "strength": "helpful",
+      "reason": "A familiar self-introduction supports learning its German wording.",
+      "sourceId": "nzc_german_2026"
+    },
+    {
+      "topicId": "nzc_german_weekday_montag",
+      "prerequisiteId": "nzc_german_noun_capitals",
+      "strength": "helpful",
+      "reason": "Knowing that German nouns are capitalised supports writing a day of the week.",
+      "sourceId": "nzc_german_2026"
+    },
+    {
+      "topicId": "nzc_german_half_three",
+      "prerequisiteId": "nzc_german_verb_forms",
+      "strength": "helpful",
+      "reason": "Recognising the verb form ist supports reading the clock sentence Es ist ….",
+      "sourceId": "nzc_german_2026"
+    },
+    {
+      "topicId": "nzc_german_comparison_schneller",
+      "prerequisiteId": "nzc_german_verb_forms",
+      "strength": "helpful",
+      "reason": "Recognising the verb form ist supports reading the sentence that contains the comparative schneller.",
+      "sourceId": "nzc_german_2026"
+    },
+    {
+      "topicId": "nzc_spanish_intro_me_llamo",
+      "prerequisiteId": "nzc_lang_introduction",
+      "strength": "helpful",
+      "reason": "A familiar introduction pattern supports learning its Spanish form.",
+      "sourceId": "nzc_spanish_2026"
+    },
+    {
+      "topicId": "nzc_spanish_possessive_mis",
+      "prerequisiteId": "nzc_lang_family_variation",
+      "strength": "helpful",
+      "reason": "Fictional relationships allow practice of singular and plural family phrases.",
+      "sourceId": "nzc_spanish_2026"
+    },
+    {
+      "topicId": "nzc_spanish_one_two_oclock",
+      "prerequisiteId": "nzc_spanish_possessive_mis",
+      "strength": "helpful",
+      "reason": "Recognising singular and plural forms supports distinguishing es la una from son las dos.",
+      "sourceId": "nzc_spanish_2026"
+    },
+    {
+      "topicId": "nzc_spanish_comparison_mas_que",
+      "prerequisiteId": "nzc_lang_connected_description",
+      "strength": "helpful",
+      "reason": "Understanding connected descriptions supports interpreting a comparison between two things.",
+      "sourceId": "nzc_spanish_2026"
     }
   ],
   "coverage": [
@@ -2991,7 +5045,25 @@
         "nzc_reo_digraphs",
         "nzc_nzsl_fingerspell_names",
         "nzc_niue_long_vowels",
-        "nzc_german_noun_capitals"
+        "nzc_german_noun_capitals",
+        "nzc_reo_introduce_ko",
+        "nzc_mandarin_farewell_zaijian",
+        "nzc_mandarin_weekday_monday",
+        "nzc_nzsl_gloss_name_rua",
+        "nzc_samoa_intro_lou_igoa",
+        "nzc_tonga_intro_hingoa",
+        "nzc_cook_number_rua",
+        "nzc_niue_number_eleven",
+        "nzc_tokelau_intro_toku_igoa",
+        "nzc_japanese_intro_watashi",
+        "nzc_japanese_greeting_konnichiwa",
+        "nzc_korean_ten_years",
+        "nzc_french_intro_appelle",
+        "nzc_french_age_dix_ans",
+        "nzc_german_intro_heisse",
+        "nzc_german_weekday_montag",
+        "nzc_spanish_intro_me_llamo",
+        "nzc_spanish_possessive_mis"
       ],
       "status": "strand-and-phase-covered",
       "notes": "Representative language-learning concepts; learners may enter at different school years. Individual language sequences need additional mapping."
@@ -3009,7 +5081,8 @@
         "nzc_nzsl_visual_attention",
         "nzc_tokelau_greeting_malo_ni",
         "nzc_tonga_greeting_malo",
-        "nzc_cook_kia_orana"
+        "nzc_cook_kia_orana",
+        "nzc_korean_ask_age"
       ],
       "status": "strand-and-phase-covered",
       "notes": "Representative language-learning concepts; learners may enter at different school years. Individual language sequences need additional mapping."
@@ -3037,7 +5110,23 @@
         "nzc_japanese_count_people",
         "nzc_korean_polite_title_nim",
         "nzc_french_likes_negative",
-        "nzc_spanish_porque_reason"
+        "nzc_spanish_porque_reason",
+        "nzc_tokelau_weather_time",
+        "nzc_tokelau_polite_instruction",
+        "nzc_french_half_past",
+        "nzc_french_ownership_de",
+        "nzc_french_location_sous",
+        "nzc_mandarin_family_counter_kou",
+        "nzc_nzsl_gloss_book_question",
+        "nzc_nzsl_gloss_date_order",
+        "nzc_samoa_preference_fiafia",
+        "nzc_tonga_weather_past_marker",
+        "nzc_cook_ask_time",
+        "nzc_tokelau_toku_oku",
+        "nzc_japanese_time_half_past",
+        "nzc_korean_month_wol",
+        "nzc_german_half_three",
+        "nzc_spanish_one_two_oclock"
       ],
       "status": "strand-and-phase-covered",
       "notes": "Representative language-learning concepts; learners may enter at different school years. Individual language sequences need additional mapping."
@@ -3055,12 +5144,14 @@
         "nzc_mandarin_greetings",
         "nzc_nzsl_name_signs",
         "nzc_samoa_ceremonial",
-        "nzc_tokelau_intergenerational",
         "nzc_tonga_respectful_expression",
         "nzc_korean_speech_levels",
         "nzc_cook_proverbs",
         "nzc_niue_kinship_terms",
-        "nzc_japanese_address"
+        "nzc_japanese_address",
+        "nzc_french_false_friend_pain",
+        "nzc_reo_tuakana_teina",
+        "nzc_niue_thanks_fakaaue"
       ],
       "status": "strand-and-phase-covered",
       "notes": "Representative language-learning concepts; learners may enter at different school years. Individual language sequences need additional mapping."
@@ -3091,7 +5182,21 @@
         "nzc_korean_why_wae",
         "nzc_french_near_future",
         "nzc_german_future_morgen",
-        "nzc_spanish_near_future"
+        "nzc_spanish_near_future",
+        "nzc_reo_past_particle_i",
+        "nzc_mandarin_last_next_week",
+        "nzc_nzsl_gloss_left_right",
+        "nzc_samoa_above_below",
+        "nzc_tonga_opinion_fakakaukau",
+        "nzc_cook_opinion_manako",
+        "nzc_niue_ask_cost_fiha",
+        "nzc_tokelau_also_vena_foki",
+        "nzc_japanese_why_doushite",
+        "nzc_korean_past_gasseoyo",
+        "nzc_french_dislike_pas_du_tout",
+        "nzc_french_transaction_price",
+        "nzc_german_comparison_schneller",
+        "nzc_spanish_comparison_mas_que"
       ],
       "status": "strand-and-phase-covered",
       "notes": "Representative language-learning concepts; learners may enter at different school years. Individual language sequences need additional mapping."
@@ -3106,7 +5211,8 @@
         "nzc_lang_cultural_perspective",
         "nzc_lang_plan_interaction",
         "nzc_reo_place",
-        "nzc_reo_identity_connections"
+        "nzc_reo_identity_connections",
+        "nzc_tokelau_intergenerational"
       ],
       "status": "strand-and-phase-covered",
       "notes": "Representative language-learning concepts; learners may enter at different school years. Individual language sequences need additional mapping."
@@ -3115,7 +5221,6 @@
   "limitations": [
     "Language learning is optional and proficiency based; Novice 1–3 are not fixed NZ school years.",
     "Examples identify a specific teaching-sequence page and Novice level where verified; editorial exercises and links are supplementary teaching resources, not official assessments.",
-    "The Gagana Tokelau intergenerational example is based on the official glossary; its Novice placement has not been verified against the language-specific sequence.",
     "Entries represent selected concepts and do not map every requirement or the full sequences for all 13 languages; learners need guided practice and language-specific resources.",
     "No New Zealand teacher, Deaf community or language-community review; do not invent whakapapa, tikanga, name signs, translations or a regional dialect.",
     "Years 11–13 require separate subject-specific source review."

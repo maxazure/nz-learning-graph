@@ -14,5 +14,6 @@ The New Zealand Ministry of Education's [Tāhūrangi copyright notice](https://n
 
 - `english.json`, `science.json`, `social.json`, `arts.json`, `health.json`, `technology.json` and `languages.json` contain sources, topics, suggested edges, strand/phase coverage and limitations.
 - `bridges.json` records explicitly justified suggested cross-subject connections. `helpful` links may support learning but are not mandatory prerequisites.
+- `dependency-reviews.json` records source-linked editorial corrections to inherited hard links whose full topic scope is inappropriate as a prerequisite; original source archives are unchanged.
 - Optional topic `resources` link to separately attributed activity materials; their own publishers' terms apply. External videos and other media are not bundled.
 - `npm run validate` checks source IDs, required teaching fields, coverage references and edge endpoints. `npm test` checks the combined runtime graph and MCP. Structural checks do not establish teaching accuracy.

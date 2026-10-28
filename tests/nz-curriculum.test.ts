@@ -1,6 +1,6 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
-import {curriculumPackages,nzCurriculumEdges,nzCurriculumContext,nzCurriculumSources} from '../lib/nz-curriculum';
+import {curriculumPackages,nzCurriculumEdges,nzCurriculumContext,nzCurriculumSources,nzCurriculumProfiles} from '../lib/nz-curriculum';
 import {topics,dependencies,getTopic,prerequisites,yearsForTopic,searchTopics} from '../lib/graph';
 import original from '../data/topics.json';
 
@@ -72,10 +72,17 @@ test('suggested cross-subject connections have resolved endpoints and evidence',
  for(const topic of curriculumPackages.find(p=>p.subject==='Learning Languages')!.topics.filter(t=>/editorial placement|not yet checked against language-specific/i.test(t.locator))){
   assert.match(nzCurriculumContext(topic.id)!.mappings[0].notes,/not been checked against the language-specific teaching sequence/);
  }
- assert.match(nzCurriculumContext('nzc_tokelau_intergenerational')!.mappings[0].notes,/not been checked against the language-specific teaching sequence/);
+ const tokelau=nzCurriculumContext('nzc_tokelau_intergenerational')!.mappings[0];
+ assert.match(tokelau.year_or_phase!,/^Novice 3/);
+ assert.match(tokelau.source_locators[0].locator,/PDF pp\. 6, 15/);
+ assert.doesNotMatch(tokelau.notes,/not been checked against the language-specific teaching sequence/);
  const nzsl=curriculumPackages.find(p=>p.subject==='Learning Languages')!.sources.find(s=>s.id==='nzc_nzsl_2026')!;
  assert.ok(nzsl.documentUrl,'NZSL teaching sequence should have a direct source link');
  assert.doesNotMatch(nzCurriculumContext('nzc_nzsl_parameters')!.mappings[0].notes,/not been checked against the language-specific teaching sequence/);
+ for(const id of ['nzc_nzsl_gloss_name_rua','nzc_nzsl_gloss_book_question','nzc_nzsl_gloss_date_order','nzc_nzsl_gloss_left_right']){
+  const resource=nzCurriculumProfiles.get(id)!.resources.find(r=>r.url==='https://www.nzsl.nz/');
+  assert.ok(resource?.attribution.includes('Deaf Studies Research Unit'),`${id} needs an accessible attributed visual NZSL resource`);
+ }
 });
 
 test('enriched original topics retain their separate Marble text and scoped NZ profile',()=>{

@@ -4502,6 +4502,510 @@
         "paper and a fictional frequency graph"
       ],
       "minutes": 10
+    },
+    {
+      "id": "nzc_art_thought_tracking",
+      "name": "Thought-tracking in drama",
+      "domain": "Drama",
+      "description": "Thought-tracking is a convention in which a fictional character's thoughts are spoken or otherwise shared while the dramatic action pauses. The thoughts are invented for the role, so no one needs to disclose personal feelings.",
+      "years": [
+        3
+      ],
+      "phase": "Phase 1 (Years 0–3)",
+      "sourceId": "nzc_arts_2026",
+      "locator": "PDF p. 11, Constructing: Drama conventions, Phase 1 > Drama, Year 3",
+      "objectives": [
+        "Explain or demonstrate thought-tracking in drama in the example."
+      ],
+      "evidence": [
+        "Explains or demonstrates in the example: Thought-tracking."
+      ],
+      "misconceptions": [
+        "Thought-tracking requires the performer to reveal what they personally feel."
+      ],
+      "question": "A fictional character freezes, and an actor says what that character might be thinking. Which convention is this?",
+      "answer": "Thought-tracking.",
+      "explanation": "The action is paused while the performer shares an imagined thought belonging to the character.",
+      "hints": [
+        "Whose thought is being shared?",
+        "What happens to the action while that thought is expressed?"
+      ],
+      "activity": "Draw a fictional character in a frozen scene and add one invented thought in a speech bubble; speaking or performing is optional.",
+      "materials": [
+        "paper and pencil"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_art_split_stage",
+      "name": "Split stage and simultaneous scenes",
+      "domain": "Drama",
+      "description": "Split stage is a convention that represents two places or scenes in different parts of the performance space. Performers can use focus and timing to help an audience follow the separate actions.",
+      "years": [
+        7,
+        8
+      ],
+      "phase": "Phase 3 (Years 7–8)",
+      "sourceId": "nzc_arts_2026",
+      "locator": "PDF p. 23, Constructing: Conventions, Phase 3 > Drama; broad phase-level search scope",
+      "objectives": [
+        "Explain or demonstrate split stage and simultaneous scenes in the example."
+      ],
+      "evidence": [
+        "Explains or demonstrates in the example: Split stage."
+      ],
+      "misconceptions": [
+        "Every part of a stage must represent the same location at all times."
+      ],
+      "question": "A stage shows one group at a station and another group at home at the same time. What convention is being used?",
+      "answer": "Split stage.",
+      "explanation": "Separate areas represent different locations within the same performance space.",
+      "hints": [
+        "How many places are represented?",
+        "Are the places shown in one shared performance space?"
+      ],
+      "activity": "Draw a rectangular stage divided into two fictional locations, add one action in each and indicate where the audience should look first.",
+      "materials": [
+        "paper and pencil"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_art_dance_positive_negative_space",
+      "name": "Positive and negative space in dance",
+      "domain": "Dance",
+      "description": "In dance, positive space includes the space occupied by a dancer's body; negative space is the space around or between body parts and performers. Choreographers can notice both when choosing shapes and relationships.",
+      "years": [
+        7,
+        8
+      ],
+      "phase": "Phase 3 (Years 7–8)",
+      "sourceId": "nzc_arts_2026",
+      "locator": "PDF p. 22, Exploring and Creating: Space, Phase 3 > Dance; broad phase-level search scope",
+      "objectives": [
+        "Explain or demonstrate positive and negative space in dance in the example."
+      ],
+      "evidence": [
+        "Explains or demonstrates in the example: Negative space."
+      ],
+      "misconceptions": [
+        "Only the body matters when describing space in a dance shape."
+      ],
+      "question": "A dancer curves both arms to make an opening in front of their body. What is the opening an example of?",
+      "answer": "Negative space.",
+      "explanation": "The opening is an area of space framed by, but not occupied by, the dancer's body.",
+      "hints": [
+        "Does the opening contain the dancer's arm?",
+        "Is it space around or between body parts?"
+      ],
+      "activity": "Draw a simple figure with curved arms and colour the space framed by them, or form a comfortable shape with a seated option.",
+      "materials": [
+        "paper and pencil or comfortable clear space"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_art_dance_audience_response",
+      "name": "Responding to a dance performance",
+      "domain": "Dance",
+      "description": "An audience can notice movement, timing and use of space, then describe what it saw. Appropriate audience responses depend on the performance and community; a teacher or host can explain local expectations.",
+      "years": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "phase": "Phase 1 (Years 0–3)",
+      "sourceId": "nzc_arts_2026",
+      "locator": "PDF p. 9–10, Observing, Performing and Responding, Phase 1 > Dance; broad phase-level search scope",
+      "objectives": [
+        "Explain or demonstrate responding to a dance performance in the example."
+      ],
+      "evidence": [
+        "Explains or demonstrates in the example: The dancers first moved together and later used different timing."
+      ],
+      "misconceptions": [
+        "A viewer must assign the same meaning to every dance movement."
+      ],
+      "question": "A viewer notices dancers begin together and later move at different times. What evidence could the viewer mention?",
+      "answer": "The dancers first moved together and later used different timing.",
+      "explanation": "The answer describes observable choices before interpreting their effect, while respecting the performance's context.",
+      "hints": [
+        "What changed in the dancers' timing?",
+        "Can the viewer describe the change without assuming what it means?"
+      ],
+      "activity": "Using a teacher-provided credited performance description or a fictional sequence, identify one movement detail and one question about appropriate audience response.",
+      "materials": [
+        "credited performance description or fictional sequence"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_art_graphic_notation_key",
+      "name": "Graphic notation and a key",
+      "domain": "Music",
+      "description": "Graphic notation uses agreed marks or images to represent sounds. A key explains what each mark means, so another musician can interpret the intended sound even if the marks are not standard staff notation.",
+      "years": [
+        5
+      ],
+      "phase": "Phase 2 (Years 4–6)",
+      "sourceId": "nzc_arts_2026",
+      "locator": "PDF p. 18, Elements of Music: Pitch and graphic notation, Phase 2 > Music, Year 5",
+      "objectives": [
+        "Explain or demonstrate graphic notation and a key in the example."
+      ],
+      "evidence": [
+        "Explains or demonstrates in the example: As one tap, according to the key."
+      ],
+      "misconceptions": [
+        "Only five-line staff notation can communicate a musical idea."
+      ],
+      "question": "A notation key says a dot means one tap and a dash means one long sound. How should a dot be performed?",
+      "answer": "As one tap, according to the key.",
+      "explanation": "The meaning comes from the shared key, which connects each visual mark to a sound.",
+      "hints": [
+        "Find the dot in the key.",
+        "What sound has the creator assigned to it?"
+      ],
+      "activity": "Invent two symbols and a short key, write a four-symbol pattern and ask another person to interpret it; pointing is an accessible alternative to tapping.",
+      "materials": [
+        "paper and pencil"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_art_soundscape_composition",
+      "name": "Composing a soundscape",
+      "domain": "Music",
+      "description": "A soundscape combines chosen sounds and silences to suggest a place, event or idea. A composer can plan which sounds occur together, repeat or change over time.",
+      "years": [
+        4
+      ],
+      "phase": "Phase 2 (Years 4–6)",
+      "sourceId": "nzc_arts_2026",
+      "locator": "PDF p. 18, Improvising and Composing: Soundscape, Phase 2 > Music, Year 4",
+      "objectives": [
+        "Explain or demonstrate composing a soundscape in the example."
+      ],
+      "evidence": [
+        "Explains or demonstrates in the example: A soundscape representing the imagined garden."
+      ],
+      "misconceptions": [
+        "A composition needs written lyrics before it can suggest a place."
+      ],
+      "question": "A group chooses soft rustling, tapping and a pause to suggest a windy garden. What have they created?",
+      "answer": "A soundscape representing the imagined garden.",
+      "explanation": "The selected sounds and silence are organised to evoke an idea for listeners.",
+      "hints": [
+        "What idea do the sounds represent?",
+        "Were the sounds selected and arranged for that purpose?"
+      ],
+      "activity": "Plan a fictional journey with three sounds and one pause, using a simple written sequence; make sounds gently or communicate them visually.",
+      "materials": [
+        "paper and pencil or optional safe sound sources"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_art_ensemble_unison_parts",
+      "name": "Singing in unison and in parts",
+      "domain": "Music",
+      "description": "In unison, performers sing or play the same musical line together. In two-part harmony, two different lines sound at the same time and are coordinated as an ensemble.",
+      "years": [
+        5
+      ],
+      "phase": "Phase 2 (Years 4–6)",
+      "sourceId": "nzc_arts_2026",
+      "locator": "PDF p. 18, Performing: Unison and harmony, Phase 2 > Music, Year 5",
+      "objectives": [
+        "Explain or demonstrate singing in unison and in parts in the example."
+      ],
+      "evidence": [
+        "Explains or demonstrates in the example: Two-part harmony."
+      ],
+      "misconceptions": [
+        "Two-part harmony means one group sings and the other must remain silent."
+      ],
+      "question": "Two groups sing different notes at the same time to support the same song. Which arrangement are they exploring?",
+      "answer": "Two-part harmony.",
+      "explanation": "The two groups perform different coordinated pitches rather than the same line in unison.",
+      "hints": [
+        "Are the two groups singing the same line?",
+        "Do the different parts sound together?"
+      ],
+      "activity": "Draw two rows of coloured marks to represent two coordinated parts; learners may listen or point instead of singing.",
+      "materials": [
+        "paper and coloured pencils or visual marks"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_art_brass_lip_vibration",
+      "name": "How a brass instrument makes sound",
+      "domain": "Music",
+      "description": "In many brass instruments, such as trumpets and trombones, the player's vibrating lips start a vibration of air in the instrument. Instrument families are classified by how they produce sound, not solely by their colour or appearance.",
+      "years": [
+        5
+      ],
+      "phase": "Phase 2 (Years 4–6)",
+      "sourceId": "nzc_arts_2026",
+      "locator": "PDF p. 19, Elements of Music: Tone colour, Phase 2 > Music, Year 5",
+      "objectives": [
+        "Explain or demonstrate how a brass instrument makes sound in the example."
+      ],
+      "evidence": [
+        "Explains or demonstrates in the example: The player's lips vibrate against a mouthpiece, setting air in the instrument vibrating."
+      ],
+      "misconceptions": [
+        "An instrument belongs to the brass family only because its surface looks gold."
+      ],
+      "question": "What starts the sound in a trumpet?",
+      "answer": "The player's lips vibrate against a mouthpiece, setting air in the instrument vibrating.",
+      "explanation": "The vibration and air column produce the sound; the instrument's appearance alone does not explain it.",
+      "hints": [
+        "What part of the player touches the mouthpiece?",
+        "What happens to create a vibration?"
+      ],
+      "activity": "Use a labelled picture of a trumpet to mark the mouthpiece and trace a simple sound-production sequence; no instrument or mouthpiece sharing is needed.",
+      "materials": [
+        "labelled trumpet picture"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_art_microtone_pitch",
+      "name": "Microtones and pitch distinctions",
+      "domain": "Music",
+      "description": "A microtone is an interval smaller than a semitone. Different musical traditions and individual performers can use pitch inflections or tuning approaches that do not fit every note neatly into a standard Western keyboard's semitone steps.",
+      "years": [
+        8
+      ],
+      "phase": "Phase 3 (Years 7–8)",
+      "sourceId": "nzc_arts_2026",
+      "locator": "PDF p. 24, Elements of Music: Pitch, Phase 3 > Music, Year 8",
+      "objectives": [
+        "Explain or demonstrate microtones and pitch distinctions in the example."
+      ],
+      "evidence": [
+        "Explains or demonstrates in the example: It is a smaller pitch interval than a semitone."
+      ],
+      "misconceptions": [
+        "Every musical tradition uses only the same semitone steps as a standard Western keyboard."
+      ],
+      "question": "How does a microtone compare in size with a semitone?",
+      "answer": "It is a smaller pitch interval than a semitone.",
+      "explanation": "The term describes the size of the pitch difference, not how loudly the note is played.",
+      "hints": [
+        "Does the question ask about pitch distance or volume?",
+        "Which interval is smaller than the semitone?"
+      ],
+      "activity": "Draw a line from one pitch to another a semitone away and mark an imagined smaller interval between them; do not assume one tuning system applies to every tradition.",
+      "materials": [
+        "paper and pencil"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_art_fermata_pause",
+      "name": "Fermata and a held note",
+      "domain": "Music",
+      "description": "A fermata is a notation symbol that asks a performer to hold a note or rest longer than its written duration. The length of the hold depends on the musical context and, in an ensemble, the shared direction of performers or conductor.",
+      "years": [
+        10
+      ],
+      "phase": "Phase 4 (Years 9–10)",
+      "sourceId": "nzc_arts_2026",
+      "locator": "PDF p. 33, Elements of Music: Expressive elements, Phase 4 > Music, Year 10",
+      "objectives": [
+        "Explain or demonstrate fermata and a held note in the example."
+      ],
+      "evidence": [
+        "Explains or demonstrates in the example: Hold the note longer than its written value."
+      ],
+      "misconceptions": [
+        "A fermata always means exactly two extra beats in every performance."
+      ],
+      "question": "What does a fermata above a note indicate?",
+      "answer": "Hold the note longer than its written value.",
+      "explanation": "The symbol alters the expected duration of that note rather than specifying an exact universal number of extra beats.",
+      "hints": [
+        "Does the symbol relate to pitch or duration?",
+        "What happens to the note's duration?"
+      ],
+      "activity": "Draw a four-beat sequence with one marked held note, then write how an ensemble might agree when to continue; use a notation reference for the symbol.",
+      "materials": [
+        "paper and a fermata symbol reference"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_art_dotted_rest_value",
+      "name": "A dotted rest",
+      "domain": "Music",
+      "description": "A dot after a rest adds half the rest's original duration, just as it does for a dotted note. In 4/4 time, a dotted half rest occupies three beats of silence.",
+      "years": [
+        10
+      ],
+      "phase": "Phase 4 (Years 9–10)",
+      "sourceId": "nzc_arts_2026",
+      "locator": "PDF p. 32, Elements of Music: Beat and rhythm, Phase 4 > Music, Year 10",
+      "objectives": [
+        "Explain or demonstrate a dotted rest in the example."
+      ],
+      "evidence": [
+        "Explains or demonstrates in the example: Three beats."
+      ],
+      "misconceptions": [
+        "A rest has no duration because it is silent."
+      ],
+      "question": "How many beats of silence does a dotted half rest occupy in 4/4?",
+      "answer": "Three beats.",
+      "explanation": "A half rest lasts two beats and its dot adds one more beat, half of the original duration.",
+      "hints": [
+        "How long is a half rest in 4/4?",
+        "How much duration does the dot add?"
+      ],
+      "activity": "Draw three beat boxes and label them as one dotted half rest, then compare them with a two-beat undotted half rest.",
+      "materials": [
+        "paper and pencil"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_art_ensemble_listening_balance",
+      "name": "Listening for ensemble balance",
+      "domain": "Music",
+      "description": "Ensemble performers listen to one another and adjust entries, volume or articulation to support a shared musical intention. Balance depends on which part needs to be heard and on the instruments and performance setting.",
+      "years": [
+        9,
+        10
+      ],
+      "phase": "Phase 4 (Years 9–10)",
+      "sourceId": "nzc_arts_2026",
+      "locator": "PDF p. 32, Performing: Ensemble balance and blend, Phase 4 > Music; broad phase-level search scope",
+      "objectives": [
+        "Explain or demonstrate listening for ensemble balance in the example."
+      ],
+      "evidence": [
+        "Explains or demonstrates in the example: Reduce the accompaniment's level or adjust the balance so the melody can be heard."
+      ],
+      "misconceptions": [
+        "Ensemble balance always means every part must have identical loudness."
+      ],
+      "question": "In a fictional group, a quiet melody is obscured by a loud accompaniment. What could the group try?",
+      "answer": "Reduce the accompaniment's level or adjust the balance so the melody can be heard.",
+      "explanation": "Changing the relative levels lets the supporting part remain present without covering the intended melody.",
+      "hints": [
+        "Which part should be heard clearly?",
+        "Which part could adjust its relative level?"
+      ],
+      "activity": "On a fictional two-track diagram, mark the melody and accompaniment, then suggest a level adjustment; actual audio equipment is optional.",
+      "materials": [
+        "fictional two-track diagram"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_art_recording_signal_flow",
+      "name": "A basic recording signal path",
+      "domain": "Music",
+      "description": "In a simple recording setup, an audio signal may pass from a microphone through an audio interface into a digital audio workstation and then to speakers or headphones. Actual setups differ and must be connected with appropriate guidance.",
+      "years": [
+        9
+      ],
+      "phase": "Phase 4 (Years 9–10)",
+      "sourceId": "nzc_arts_2026",
+      "locator": "PDF p. 34, Music Technology (optional): Signal flow, Phase 4 > Music, Year 9",
+      "objectives": [
+        "Explain or demonstrate a basic recording signal path in the example."
+      ],
+      "evidence": [
+        "Explains or demonstrates in the example: The audio interface."
+      ],
+      "misconceptions": [
+        "A digital workstation can only receive sound directly from a speaker."
+      ],
+      "question": "In this example setup, what comes between the microphone and the digital audio workstation?",
+      "answer": "The audio interface.",
+      "explanation": "The interface receives the microphone signal and passes it into the recording system.",
+      "hints": [
+        "Where does the microphone signal go before the software?",
+        "Which device in the example is labelled as the interface?"
+      ],
+      "activity": "Arrange four fictional cards labelled microphone, interface, workstation and speakers in a possible signal path; do not connect unfamiliar equipment without guidance.",
+      "materials": [
+        "four labelled signal-path cards"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_art_photo_depth_of_field",
+      "name": "Focus and depth of field",
+      "domain": "Visual Arts",
+      "description": "Depth of field describes the range of distances that appear acceptably sharp in an image. A photographer may focus on a foreground object while allowing a background to appear less sharp, depending on equipment and conditions.",
+      "years": [
+        9
+      ],
+      "phase": "Phase 4 (Years 9–10)",
+      "sourceId": "nzc_arts_2026",
+      "locator": "PDF p. 35, Making and Creating: Photography, Phase 4 > Visual Arts, Year 9",
+      "objectives": [
+        "Explain or demonstrate focus and depth of field in the example."
+      ],
+      "evidence": [
+        "Explains or demonstrates in the example: The flower in the foreground."
+      ],
+      "misconceptions": [
+        "Everything in a photograph must be equally sharp for an artist to communicate an idea."
+      ],
+      "question": "A photo shows a sharp flower and a blurred background. What has the photographer made prominent through focus?",
+      "answer": "The flower in the foreground.",
+      "explanation": "The sharp subject contrasts with the less-sharp background and can draw the viewer's attention.",
+      "hints": [
+        "Which part is sharp?",
+        "Which part is less sharp?"
+      ],
+      "activity": "On a fictional still-life sketch, label a foreground object as sharp and the background as less sharp, then describe the intended emphasis; no camera or people are needed.",
+      "materials": [
+        "paper and a fictional still-life sketch"
+      ],
+      "minutes": 10
+    },
+    {
+      "id": "nzc_art_own_symbol_story",
+      "name": "Creating a personal visual symbol",
+      "domain": "Visual Arts",
+      "description": "A symbol can be an image or mark used to suggest an idea in a particular context. Artists and communities may attach different meanings to forms, so a viewer should ask about the maker's intention rather than assume a universal meaning.",
+      "years": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "phase": "Phase 1 (Years 0–3)",
+      "sourceId": "nzc_arts_2026",
+      "locator": "PDF p. 14, Observing and Responding: Images and symbols, Phase 1 > Visual Arts; broad phase-level search scope",
+      "objectives": [
+        "Explain or demonstrate creating a personal visual symbol in the example."
+      ],
+      "evidence": [
+        "Explains or demonstrates in the example: The artist's explanation of how the spiral relates to the story."
+      ],
+      "misconceptions": [
+        "Every spiral has exactly the same meaning in every community and artwork."
+      ],
+      "question": "An artist invents a spiral to represent a fictional wind story. What information explains that meaning?",
+      "answer": "The artist's explanation of how the spiral relates to the story.",
+      "explanation": "The symbol's meaning comes from its use in this particular artwork and may differ in another context.",
+      "hints": [
+        "Who chose the symbol?",
+        "What did that maker say it represents?"
+      ],
+      "activity": "Invent an original mark for a fictional story, explain the idea it suggests and identify its creator; do not copy a culturally significant design.",
+      "materials": [
+        "paper and pencil"
+      ],
+      "minutes": 10
     }
   ],
   "dependencies": [
@@ -5197,6 +5701,111 @@
       "strength": "helpful",
       "reason": "Distinguishing recorded audio from note data supports exploring how an audio effect changes sound quality.",
       "sourceId": "nzc_arts_2026"
+    },
+    {
+      "topicId": "nzc_art_thought_tracking",
+      "prerequisiteId": "nzc_art_role_and_actor",
+      "strength": "helpful",
+      "reason": "Distinguishing a fictional role from the performer supports inventing a character's thoughts without personal disclosure.",
+      "sourceId": "nzc_arts_2026"
+    },
+    {
+      "topicId": "nzc_art_split_stage",
+      "prerequisiteId": "nzc_art_dramatic_setting",
+      "strength": "helpful",
+      "reason": "Understanding how drama suggests a setting supports representing two settings in one performance space.",
+      "sourceId": "nzc_arts_2026"
+    },
+    {
+      "topicId": "nzc_art_dance_positive_negative_space",
+      "prerequisiteId": "nzc_art_positive_negative_space",
+      "strength": "helpful",
+      "reason": "Recognising occupied and surrounding space in visual art supports identifying them in body shapes.",
+      "sourceId": "nzc_arts_2026"
+    },
+    {
+      "topicId": "nzc_art_dance_audience_response",
+      "prerequisiteId": "nzc_art_dance_timing",
+      "strength": "helpful",
+      "reason": "Understanding movement timing helps an audience describe what it observes.",
+      "sourceId": "nzc_arts_2026"
+    },
+    {
+      "topicId": "nzc_art_graphic_notation_key",
+      "prerequisiteId": "nzc_art_notation_duration",
+      "strength": "helpful",
+      "reason": "Understanding that symbols can represent sound duration supports making and reading a graphic key.",
+      "sourceId": "nzc_arts_2026"
+    },
+    {
+      "topicId": "nzc_art_soundscape_composition",
+      "prerequisiteId": "nzc_art_sound_and_silence",
+      "strength": "helpful",
+      "reason": "Recognising sound and silence as musical choices supports organising them into an intentional soundscape.",
+      "sourceId": "nzc_arts_2026"
+    },
+    {
+      "topicId": "nzc_art_ensemble_unison_parts",
+      "prerequisiteId": "nzc_art_harmony_together",
+      "strength": "helpful",
+      "reason": "Understanding pitches sounding together supports recognising coordinated musical parts.",
+      "sourceId": "nzc_arts_2026"
+    },
+    {
+      "topicId": "nzc_art_brass_lip_vibration",
+      "prerequisiteId": "nzc_art_instrument_sound_production",
+      "strength": "helpful",
+      "reason": "Understanding that vibrating materials and air create sound supports comparing an instrument family.",
+      "sourceId": "nzc_arts_2026"
+    },
+    {
+      "topicId": "nzc_art_microtone_pitch",
+      "prerequisiteId": "nzc_art_sharp_flat_natural",
+      "strength": "helpful",
+      "reason": "Understanding a semitone as a pitch change supports comparing it with smaller intervals.",
+      "sourceId": "nzc_arts_2026"
+    },
+    {
+      "topicId": "nzc_art_fermata_pause",
+      "prerequisiteId": "nzc_art_note_values_four_four",
+      "strength": "helpful",
+      "reason": "Understanding written note durations supports interpreting a symbol that extends a note or rest.",
+      "sourceId": "nzc_arts_2026"
+    },
+    {
+      "topicId": "nzc_art_dotted_rest_value",
+      "prerequisiteId": "nzc_art_dotted_note_value",
+      "strength": "helpful",
+      "reason": "Understanding the half-value added by a dot supports applying the same rule to a rest.",
+      "sourceId": "nzc_arts_2026"
+    },
+    {
+      "topicId": "nzc_art_ensemble_listening_balance",
+      "prerequisiteId": "nzc_art_melody_accompaniment",
+      "strength": "helpful",
+      "reason": "Recognising melody and accompaniment helps performers decide which parts need to be heard.",
+      "sourceId": "nzc_arts_2026"
+    },
+    {
+      "topicId": "nzc_art_recording_signal_flow",
+      "prerequisiteId": "nzc_art_midi_and_audio",
+      "strength": "helpful",
+      "reason": "Distinguishing recorded audio from MIDI supports following the path of an audio signal.",
+      "sourceId": "nzc_arts_2026"
+    },
+    {
+      "topicId": "nzc_art_photo_depth_of_field",
+      "prerequisiteId": "nzc_art_rule_of_thirds",
+      "strength": "helpful",
+      "reason": "Understanding photographic framing supports exploring a different choice that affects viewer attention.",
+      "sourceId": "nzc_arts_2026"
+    },
+    {
+      "topicId": "nzc_art_own_symbol_story",
+      "prerequisiteId": "nzc_art_artwork_story",
+      "strength": "helpful",
+      "reason": "Recognising visual clues in a story supports explaining a symbol chosen for a particular artwork.",
+      "sourceId": "nzc_arts_2026"
     }
   ],
   "coverage": [
@@ -5220,7 +5829,8 @@
         "nzc_art_travel_and_stationary",
         "nzc_art_waiata_action_context",
         "nzc_art_dance_start_stop_cues",
-        "nzc_art_dance_nature_stimulus"
+        "nzc_art_dance_nature_stimulus",
+        "nzc_art_dance_audience_response"
       ],
       "status": "strand-and-phase-covered",
       "notes": "Representative concepts and practices; not an exhaustive mapping of every year-by-year requirement. Phase years are broad search bands."
@@ -5257,7 +5867,8 @@
         "nzc_art_unison_canon",
         "nzc_art_choreographic_intent",
         "nzc_art_dance_relationships",
-        "nzc_art_dance_transitions"
+        "nzc_art_dance_transitions",
+        "nzc_art_dance_positive_negative_space"
       ],
       "status": "strand-and-phase-covered",
       "notes": "Representative concepts and practices; not an exhaustive mapping of every year-by-year requirement. Phase years are broad search bands."
@@ -5299,7 +5910,8 @@
         "nzc_art_tableau",
         "nzc_art_role_and_actor",
         "nzc_art_dramatic_setting",
-        "nzc_art_expressive_gesture"
+        "nzc_art_expressive_gesture",
+        "nzc_art_thought_tracking"
       ],
       "status": "strand-and-phase-covered",
       "notes": "Representative concepts and practices; not an exhaustive mapping of every year-by-year requirement. Phase years are broad search bands."
@@ -5341,7 +5953,8 @@
         "nzc_art_design_mood",
         "nzc_art_drama_viewpoint",
         "nzc_art_flashback_drama",
-        "nzc_art_mime_action"
+        "nzc_art_mime_action",
+        "nzc_art_split_stage"
       ],
       "status": "strand-and-phase-covered",
       "notes": "Representative concepts and practices; not an exhaustive mapping of every year-by-year requirement. Phase years are broad search bands."
@@ -5409,7 +6022,11 @@
         "nzc_art_pentatonic_example",
         "nzc_art_string_length_pitch",
         "nzc_art_pitch_octave",
-        "nzc_art_harmony_together"
+        "nzc_art_harmony_together",
+        "nzc_art_graphic_notation_key",
+        "nzc_art_soundscape_composition",
+        "nzc_art_ensemble_unison_parts",
+        "nzc_art_brass_lip_vibration"
       ],
       "status": "strand-and-phase-covered",
       "notes": "Representative concepts and practices; not an exhaustive mapping of every year-by-year requirement. Phase years are broad search bands."
@@ -5439,7 +6056,8 @@
         "nzc_art_taonga_puoro_examples",
         "nzc_art_musical_interval_number",
         "nzc_art_scale_degree_tonic",
-        "nzc_art_song_intro_outro"
+        "nzc_art_song_intro_outro",
+        "nzc_art_microtone_pitch"
       ],
       "status": "strand-and-phase-covered",
       "notes": "Representative concepts and practices; not an exhaustive mapping of every year-by-year requirement. Phase years are broad search bands."
@@ -5476,7 +6094,11 @@
         "nzc_art_harmonic_minor_seventh",
         "nzc_art_circle_fifths_neighbours",
         "nzc_art_music_repeat_marks",
-        "nzc_art_eq_tone_colour"
+        "nzc_art_eq_tone_colour",
+        "nzc_art_fermata_pause",
+        "nzc_art_dotted_rest_value",
+        "nzc_art_ensemble_listening_balance",
+        "nzc_art_recording_signal_flow"
       ],
       "status": "strand-and-phase-covered",
       "notes": "Representative concepts and practices; not an exhaustive mapping of every year-by-year requirement. Phase years are broad search bands."
@@ -5499,7 +6121,8 @@
         "nzc_art_primary_secondary_colour",
         "nzc_art_artwork_story",
         "nzc_art_geometric_organic_shapes",
-        "nzc_art_pattern_repetition"
+        "nzc_art_pattern_repetition",
+        "nzc_art_own_symbol_story"
       ],
       "status": "strand-and-phase-covered",
       "notes": "Representative concepts and practices; not an exhaustive mapping of every year-by-year requirement. Phase years are broad search bands."
@@ -5562,7 +6185,8 @@
         "nzc_art_documentary_photo_context",
         "nzc_art_perspective_relative_size",
         "nzc_art_print_repetition",
-        "nzc_art_paint_layer_blend"
+        "nzc_art_paint_layer_blend",
+        "nzc_art_photo_depth_of_field"
       ],
       "status": "strand-and-phase-covered",
       "notes": "Representative concepts and practices; not an exhaustive mapping of every year-by-year requirement. Phase years are broad search bands."

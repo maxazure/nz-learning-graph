@@ -5109,6 +5109,774 @@
         "teacher-provided example where described"
       ],
       "minutes": 15
+    },
+    {
+      "id": "nzc_eng_r_er_ir_ur",
+      "name": "The vowel patterns er, ir and ur",
+      "domain": "Reading",
+      "description": "In many New Zealand English accents, er in her, ir in bird and ur in fur represent the same vowel sound. Pronunciation can vary between speakers.",
+      "years": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "phase": "Phase 1 (Years 0–3)",
+      "sourceId": "nzc_english_phase1",
+      "locator": "Phase 1 (Years 0–3) teaching sequence > Reading > Word Recognition > Phonemic awareness and phonics knowledge; second year at school; phase-wide school-year search band because the sequence is organised by time at school",
+      "objectives": [
+        "Mark er, ir and ur in the words her, bird and fur. Compare the vowel patterns with a familiar speaker or an accessible audio model if available."
+      ],
+      "evidence": [
+        "Identifies ir in bird and the other two written patterns."
+      ],
+      "misconceptions": [
+        "The same vowel sound must always have one spelling."
+      ],
+      "question": "Which letters show the vowel pattern in “bird”?",
+      "answer": "ir.",
+      "explanation": "In many New Zealand English accents, er in her, ir in bird and ur in fur represent the same vowel sound. Pronunciation can vary between speakers.",
+      "hints": [
+        "Find the vowel letter in bird.",
+        "Which letter follows i?"
+      ],
+      "activity": "Mark er, ir and ur in the words her, bird and fur. Compare the vowel patterns with a familiar speaker or an accessible audio model if available.",
+      "materials": [
+        "the words her, bird and fur on screen or paper",
+        "optional familiar audio or accessible communication support"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_eng_tch_catch",
+      "name": "Spelling the final sound with –tch",
+      "domain": "Writing",
+      "description": "In some words, the letters tch work together to spell a final /ch/ sound, as in catch. The same sound also has other spellings, so learners check the whole word.",
+      "years": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "phase": "Phase 1 (Years 0–3)",
+      "sourceId": "nzc_english_phase1",
+      "locator": "Phase 1 (Years 0–3) teaching sequence > Writing > Transcription Skills > Spelling; second year at school; phase-wide school-year search band because the sequence is organised by time at school",
+      "objectives": [
+        "Write or arrange letter cards for catch and match. Circle tch at the end of each word."
+      ],
+      "evidence": [
+        "Identifies tch as the final three-letter spelling in both examples."
+      ],
+      "misconceptions": [
+        "The /ch/ sound is always written tch in every word."
+      ],
+      "question": "Which letters represent the final /ch/ sound in “catch”?",
+      "answer": "tch.",
+      "explanation": "In some words, the letters tch work together to spell a final /ch/ sound, as in catch. The same sound also has other spellings, so learners check the whole word.",
+      "hints": [
+        "Say or examine the word catch.",
+        "Which three letters follow the a?"
+      ],
+      "activity": "Write or arrange letter cards for catch and match. Circle tch at the end of each word.",
+      "materials": [
+        "the words catch and match",
+        "paper or a digital input tool"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_eng_dge_bridge",
+      "name": "Spelling the final sound with –dge",
+      "domain": "Writing",
+      "description": "In words such as bridge and badge, dge is a three-letter spelling of the final /j/ sound. Other words may use different spellings for that sound.",
+      "years": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "phase": "Phase 1 (Years 0–3)",
+      "sourceId": "nzc_english_phase1",
+      "locator": "Phase 1 (Years 0–3) teaching sequence > Writing > Transcription Skills > Spelling; second year at school; phase-wide school-year search band because the sequence is organised by time at school",
+      "objectives": [
+        "Write or arrange letter cards for bridge and badge. Circle dge at the end of each word."
+      ],
+      "evidence": [
+        "Identifies dge as the final spelling in the given words."
+      ],
+      "misconceptions": [
+        "The /j/ sound must always be spelt dge."
+      ],
+      "question": "Which letters represent the final /j/ sound in “bridge”?",
+      "answer": "dge.",
+      "explanation": "In words such as bridge and badge, dge is a three-letter spelling of the final /j/ sound. Other words may use different spellings for that sound.",
+      "hints": [
+        "Find the last three letters.",
+        "Do they work together to represent the final sound?"
+      ],
+      "activity": "Write or arrange letter cards for bridge and badge. Circle dge at the end of each word.",
+      "materials": [
+        "the words bridge and badge",
+        "paper or a digital input tool"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_eng_letter_shape_bd",
+      "name": "Forming recognisable letter shapes",
+      "domain": "Writing",
+      "description": "Clear letter shapes help a reader distinguish letters. In the usual printed forms of b and d, the rounded part is on different sides of the upright stroke.",
+      "years": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "phase": "Phase 1 (Years 0–3)",
+      "sourceId": "nzc_english_phase1",
+      "locator": "Phase 1 (Years 0–3) teaching sequence > Writing > Transcription Skills > Handwriting; first year at school; phase-wide school-year search band because the sequence is organised by time at school",
+      "objectives": [
+        "Compare the displayed letters b and d. Trace, point to or select each letter using the learner’s preferred input method."
+      ],
+      "evidence": [
+        "Distinguishes the displayed lowercase b and d."
+      ],
+      "misconceptions": [
+        "Reversing the shape of b and d makes no difference to which letter is read."
+      ],
+      "question": "In the usual printed lowercase b, is the rounded part to the left or right of the upright stroke?",
+      "answer": "To the right.",
+      "explanation": "Clear letter shapes help a reader distinguish letters. In the usual printed forms of b and d, the rounded part is on different sides of the upright stroke.",
+      "hints": [
+        "Find the upright stroke in b.",
+        "Which side holds the rounded part?"
+      ],
+      "activity": "Compare the displayed letters b and d. Trace, point to or select each letter using the learner’s preferred input method.",
+      "materials": [
+        "displayed letters b and d",
+        "paper, tracing aid or accessible input device"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_eng_handwriting_spacing",
+      "name": "Spacing handwritten words",
+      "domain": "Writing",
+      "description": "Spaces between words help a reader see where one word ends and the next begins. Consistent letter placement also supports legibility.",
+      "years": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "phase": "Phase 1 (Years 0–3)",
+      "sourceId": "nzc_english_phase1",
+      "locator": "Phase 1 (Years 0–3) teaching sequence > Writing > Transcription Skills > Handwriting; second and third years at school; phase-wide school-year search band because the sequence is organised by time at school",
+      "objectives": [
+        "Write or enter “red fox” and “blue bird”, leaving a clear space between the words."
+      ],
+      "evidence": [
+        "Produces two recognisable word boundaries."
+      ],
+      "misconceptions": [
+        "Word spaces never help a reader identify separate words."
+      ],
+      "question": "Which version clearly separates two words: “redfox” or “red fox”?",
+      "answer": "“red fox”.",
+      "explanation": "Spaces between words help a reader see where one word ends and the next begins. Consistent letter placement also supports legibility.",
+      "hints": [
+        "Look between red and fox.",
+        "Which version has a space there?"
+      ],
+      "activity": "Write or enter “red fox” and “blue bird”, leaving a clear space between the words.",
+      "materials": [
+        "the phrases red fox and blue bird",
+        "paper or an accessible input device"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_eng_comfortable_writing",
+      "name": "Comfortable writing positions",
+      "domain": "Writing",
+      "description": "A comfortable supported position and manageable pressure can help a learner form letters and reduce fatigue. Learners may use adapted grips or other input methods.",
+      "years": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "phase": "Phase 1 (Years 0–3)",
+      "sourceId": "nzc_english_phase1",
+      "locator": "Phase 1 (Years 0–3) teaching sequence > Writing > Transcription Skills > Handwriting; first year at school; phase-wide school-year search band because the sequence is organised by time at school",
+      "objectives": [
+        "Try writing, tracing or entering the short word cat using a comfortable supported position; pause if needed."
+      ],
+      "evidence": [
+        "Identifies a practical comfort adjustment or suitable input support."
+      ],
+      "misconceptions": [
+        "Everyone must use the same grip or continue writing through discomfort."
+      ],
+      "question": "If a pencil grip is uncomfortable, what is a sensible next step?",
+      "answer": "Pause and adjust the position or use an appropriate support or input method.",
+      "explanation": "A comfortable supported position and manageable pressure can help a learner form letters and reduce fatigue. Learners may use adapted grips or other input methods.",
+      "hints": [
+        "Is discomfort a sign to press harder?",
+        "What could make the task more comfortable?"
+      ],
+      "activity": "Try writing, tracing or entering the short word cat using a comfortable supported position; pause if needed.",
+      "materials": [
+        "paper and pencil, adapted grip or accessible input device"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_eng_soft_g",
+      "name": "A soft-g spelling in gem",
+      "domain": "Writing",
+      "description": "The letter g often represents /j/ before e, i or y, as in gem, although English has exceptions such as get.",
+      "years": [
+        4
+      ],
+      "phase": "Phase 2 (Years 4–6)",
+      "sourceId": "nzc_english_phase2",
+      "locator": "Phase 2 (Years 4–6) teaching sequence > Writing > Transcription Skills > Spelling > Year 4",
+      "objectives": [
+        "Sort gem and goat by the sound of their first letter, then compare gem with the exception get."
+      ],
+      "evidence": [
+        "Identifies /j/ in gem and recognises that g can have another sound."
+      ],
+      "misconceptions": [
+        "G always represents the same sound before e."
+      ],
+      "question": "What sound does g represent at the beginning of “gem”?",
+      "answer": "The /j/ sound.",
+      "explanation": "The letter g often represents /j/ before e, i or y, as in gem, although English has exceptions such as get.",
+      "hints": [
+        "Which letter follows g?",
+        "Does gem begin with the sound in job or in goat?"
+      ],
+      "activity": "Sort gem and goat by the sound of their first letter, then compare gem with the exception get.",
+      "materials": [
+        "the words gem, goat and get",
+        "optional familiar audio or accessible communication support"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_eng_suffix_tion",
+      "name": "The ending –tion",
+      "domain": "Writing",
+      "description": "Many English nouns end in the spelling –tion. In action, the final letters are t-i-o-n; the spelling of a full word should be checked.",
+      "years": [
+        5
+      ],
+      "phase": "Phase 2 (Years 4–6)",
+      "sourceId": "nzc_english_phase2",
+      "locator": "Phase 2 (Years 4–6) teaching sequence > Writing > Transcription Skills > Spelling > Year 5",
+      "objectives": [
+        "Sort action and station into a –tion group and vision into a different group."
+      ],
+      "evidence": [
+        "Identifies the –tion ending in action and station."
+      ],
+      "misconceptions": [
+        "Every word ending in a similar sound is spelt –tion."
+      ],
+      "question": "Which ending appears in “action”: –tion or –sion?",
+      "answer": "–tion.",
+      "explanation": "Many English nouns end in the spelling –tion. In action, the final letters are t-i-o-n; the spelling of a full word should be checked.",
+      "hints": [
+        "Look at the final four letters.",
+        "Do they begin with t or s?"
+      ],
+      "activity": "Sort action and station into a –tion group and vision into a different group.",
+      "materials": [
+        "the words action, station and vision"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_eng_suffix_sion",
+      "name": "The ending –sion",
+      "domain": "Writing",
+      "description": "Some nouns end in –sion, including vision and tension. The sound of the ending can vary, so spelling and pronunciation should be checked for each word.",
+      "years": [
+        5
+      ],
+      "phase": "Phase 2 (Years 4–6)",
+      "sourceId": "nzc_english_phase2",
+      "locator": "Phase 2 (Years 4–6) teaching sequence > Writing > Transcription Skills > Spelling > Year 5",
+      "objectives": [
+        "Sort vision and tension under –sion and action under –tion."
+      ],
+      "evidence": [
+        "Identifies the –sion spelling in the examples."
+      ],
+      "misconceptions": [
+        "Every –sion word must have exactly the same pronunciation."
+      ],
+      "question": "Which word ends in –sion: “vision” or “action”?",
+      "answer": "vision.",
+      "explanation": "Some nouns end in –sion, including vision and tension. The sound of the ending can vary, so spelling and pronunciation should be checked for each word.",
+      "hints": [
+        "Look at the final four letters of each word.",
+        "Which one starts that ending with s?"
+      ],
+      "activity": "Sort vision and tension under –sion and action under –tion.",
+      "materials": [
+        "the words vision, tension and action"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_eng_suffix_cian",
+      "name": "The ending –cian",
+      "domain": "Writing",
+      "description": "The ending –cian appears in words naming some people or professions, such as musician and electrician. It is one of several endings with a similar final sound.",
+      "years": [
+        5
+      ],
+      "phase": "Phase 2 (Years 4–6)",
+      "sourceId": "nzc_english_phase2",
+      "locator": "Phase 2 (Years 4–6) teaching sequence > Writing > Transcription Skills > Spelling > Year 5",
+      "objectives": [
+        "Sort musician and electrician under –cian, vision under –sion, and station under –tion."
+      ],
+      "evidence": [
+        "Recognises –cian and distinguishes it from the other two endings."
+      ],
+      "misconceptions": [
+        "All words for people must end in –cian."
+      ],
+      "question": "Which word ends in –cian: “musician” or “vision”?",
+      "answer": "musician.",
+      "explanation": "The ending –cian appears in words naming some people or professions, such as musician and electrician. It is one of several endings with a similar final sound.",
+      "hints": [
+        "Find the final four letters.",
+        "Which ending begins with c?"
+      ],
+      "activity": "Sort musician and electrician under –cian, vision under –sion, and station under –tion.",
+      "materials": [
+        "the words musician, electrician, vision and station"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_eng_vowel_eigh",
+      "name": "The long-a spelling eigh",
+      "domain": "Writing",
+      "description": "The letter group eigh represents the long-a sound in some words, including eight. Other words with the same sound may use different spellings.",
+      "years": [
+        5
+      ],
+      "phase": "Phase 2 (Years 4–6)",
+      "sourceId": "nzc_english_phase2",
+      "locator": "Phase 2 (Years 4–6) teaching sequence > Writing > Transcription Skills > Spelling > Year 5",
+      "objectives": [
+        "Mark eigh in eight and weigh, then compare the vowel spelling in rain."
+      ],
+      "evidence": [
+        "Identifies eigh in the two supplied words."
+      ],
+      "misconceptions": [
+        "Every long-a sound is written eigh."
+      ],
+      "question": "Which letters represent the vowel sound in “eight”?",
+      "answer": "eigh.",
+      "explanation": "The letter group eigh represents the long-a sound in some words, including eight. Other words with the same sound may use different spellings.",
+      "hints": [
+        "Find the letters before t.",
+        "Which four letters work together in this example?"
+      ],
+      "activity": "Mark eigh in eight and weigh, then compare the vowel spelling in rain.",
+      "materials": [
+        "the words eight, weigh and rain"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_eng_air_are_ear",
+      "name": "Three spellings of the vowel in chair",
+      "domain": "Writing",
+      "description": "The curriculum gives air, are and ear as spellings for an /air/ vowel in words such as chair, care and bear. Pronunciation varies across dialects, so comparisons should use a suitable language model.",
+      "years": [
+        6
+      ],
+      "phase": "Phase 2 (Years 4–6)",
+      "sourceId": "nzc_english_phase2",
+      "locator": "Phase 2 (Years 4–6) teaching sequence > Writing > Transcription Skills > Spelling > Year 6",
+      "objectives": [
+        "Underline air in chair, are in care and ear in bear. Compare the examples with a familiar language model if available."
+      ],
+      "evidence": [
+        "Identifies the written patterns in all three supplied words."
+      ],
+      "misconceptions": [
+        "Every appearance of ear has the same pronunciation as in bear."
+      ],
+      "question": "Which letters represent the target vowel pattern in “bear”?",
+      "answer": "ear.",
+      "explanation": "The curriculum gives air, are and ear as spellings for an /air/ vowel in words such as chair, care and bear. Pronunciation varies across dialects, so comparisons should use a suitable language model.",
+      "hints": [
+        "Look after the initial b.",
+        "Which three letters remain?"
+      ],
+      "activity": "Underline air in chair, are in care and ear in bear. Compare the examples with a familiar language model if available.",
+      "materials": [
+        "the words chair, care and bear",
+        "optional familiar audio or accessible communication support"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_eng_plural_ves",
+      "name": "Some plurals ending in –ves",
+      "domain": "Writing",
+      "description": "Some nouns ending in f or fe form plurals with –ves, as leaf becomes leaves. Other nouns use different plural patterns, so individual words need checking.",
+      "years": [
+        6
+      ],
+      "phase": "Phase 2 (Years 4–6)",
+      "sourceId": "nzc_english_phase2",
+      "locator": "Phase 2 (Years 4–6) teaching sequence > Writing > Transcription Skills > Spelling > Year 6",
+      "objectives": [
+        "Compare leaf/leaves and roof/roofs. Circle the part that changes in each plural."
+      ],
+      "evidence": [
+        "Spells leaves and recognises that roofs follows a different pattern."
+      ],
+      "misconceptions": [
+        "Every noun ending in f must change to –ves in the plural."
+      ],
+      "question": "What is the plural of “leaf” in the supplied pattern?",
+      "answer": "leaves.",
+      "explanation": "Some nouns ending in f or fe form plurals with –ves, as leaf becomes leaves. Other nouns use different plural patterns, so individual words need checking.",
+      "hints": [
+        "The base word ends in f.",
+        "What letters replace f in this example?"
+      ],
+      "activity": "Compare leaf/leaves and roof/roofs. Circle the part that changes in each plural.",
+      "materials": [
+        "the word pairs leaf/leaves and roof/roofs"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_eng_handwriting_legibility",
+      "name": "Legibility in longer writing",
+      "domain": "Writing",
+      "description": "As writing grows into multiple paragraphs, clear letter forms and spacing help readers follow the ideas. A learner can use an appropriate support or input method.",
+      "years": [
+        4
+      ],
+      "phase": "Phase 2 (Years 4–6)",
+      "sourceId": "nzc_english_phase2",
+      "locator": "Phase 2 (Years 4–6) teaching sequence > Writing > Transcription Skills > Handwriting > Year 4",
+      "objectives": [
+        "Produce two legible paragraphs with clear word spacing, using an accessible writing method."
+      ],
+      "evidence": [
+        "Produces or selects two readable paragraphs with clear word boundaries."
+      ],
+      "misconceptions": [
+        "Legibility no longer matters when a text has more than one sentence."
+      ],
+      "question": "Why does clear spacing matter in a handwritten paragraph?",
+      "answer": "It helps a reader distinguish the words and follow the ideas.",
+      "explanation": "As writing grows into multiple paragraphs, clear letter forms and spacing help readers follow the ideas. A learner can use an appropriate support or input method.",
+      "hints": [
+        "What does the reader need to identify?",
+        "How can a gap show where one word ends?"
+      ],
+      "activity": "Write or enter two short paragraphs: “Small birds shelter here. They stay near the trees.” and “A shallow dish holds water.” Check that the words in each paragraph are clear and separated.",
+      "materials": [
+        "the sentences Small birds shelter here. They stay near the trees. A shallow dish holds water.",
+        "paper, adapted writing aid or accessible input device"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_eng_handwriting_stamina",
+      "name": "Building comfortable writing stamina",
+      "domain": "Writing",
+      "description": "Practising clear writing over time can improve fluency. Comfortable positioning, breaks and suitable supports can help learners sustain the task.",
+      "years": [
+        5
+      ],
+      "phase": "Phase 2 (Years 4–6)",
+      "sourceId": "nzc_english_phase2",
+      "locator": "Phase 2 (Years 4–6) teaching sequence > Writing > Transcription Skills > Handwriting > Year 5",
+      "objectives": [
+        "Maintain legibility in a longer writing sample using a comfortable, accessible input method."
+      ],
+      "evidence": [
+        "Identifies a suitable comfort adjustment and produces a legible sample using the chosen method."
+      ],
+      "misconceptions": [
+        "Writing stamina is built by ignoring discomfort."
+      ],
+      "question": "What should a learner do if writing becomes uncomfortable?",
+      "answer": "Pause and adjust the position, take a break or use an appropriate support.",
+      "explanation": "Practising clear writing over time can improve fluency. Comfortable positioning, breaks and suitable supports can help learners sustain the task.",
+      "hints": [
+        "Does discomfort mean the learner should press harder?",
+        "What change might let them continue comfortably?"
+      ],
+      "activity": "Write or enter these sentences comfortably: “The garden is quiet. A bird lands nearby. It searches under a leaf. A breeze moves the branches.” Check legibility and take a break if needed.",
+      "materials": [
+        "the sentences The garden is quiet. A bird lands nearby. It searches under a leaf. A breeze moves the branches.",
+        "paper or an accessible input device"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_eng_assistive_writing",
+      "name": "Choosing support for written composition",
+      "domain": "Writing",
+      "description": "A learner who has continuing handwriting difficulty may use appropriate assistive technology to support composition. The choice should fit the learner and task.",
+      "years": [
+        6
+      ],
+      "phase": "Phase 2 (Years 4–6)",
+      "sourceId": "nzc_english_phase2",
+      "locator": "Phase 2 (Years 4–6) teaching sequence > Writing > Transcription Skills > Handwriting > Year 6; teaching considerations all years",
+      "objectives": [
+        "Choose a suitable method—handwriting, typing, speech input or another supported option—to record “A bright kite rises.”"
+      ],
+      "evidence": [
+        "Selects a workable input method and records the sentence."
+      ],
+      "misconceptions": [
+        "Using assistive technology means the learner cannot compose their own ideas."
+      ],
+      "question": "If handwriting remains difficult despite instruction, what support can be considered?",
+      "answer": "An appropriate assistive input or writing technology.",
+      "explanation": "A learner who has continuing handwriting difficulty may use appropriate assistive technology to support composition. The choice should fit the learner and task.",
+      "hints": [
+        "Does difficulty forming letters prevent a learner from having ideas?",
+        "What other method could let the learner record those ideas?"
+      ],
+      "activity": "Choose a suitable method—handwriting, typing, speech input or another supported option—to record “A bright kite rises.”",
+      "materials": [
+        "the sentence A bright kite rises.",
+        "the learner’s available writing or input support"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_eng_keyboard_home_row",
+      "name": "Finding a keyboard home position",
+      "domain": "Writing",
+      "description": "On a standard keyboard, the middle row provides a home position that can help some learners orient their hands. Adapted keyboards and other input methods may use different arrangements.",
+      "years": [
+        4,
+        5,
+        6
+      ],
+      "phase": "Phase 2 (Years 4–6)",
+      "sourceId": "nzc_english_phase2",
+      "locator": "Phase 2 (Years 4–6) teaching sequence > Writing > Transcription Skills > Keyboarding > Years 4–6",
+      "objectives": [
+        "On an available keyboard or on a drawn keyboard, locate the middle letter row A S D F G H J K L. Use an adapted method if appropriate."
+      ],
+      "evidence": [
+        "Identifies the middle row or explains the corresponding reference position on an adapted device."
+      ],
+      "misconceptions": [
+        "Every learner must use the same physical keyboard or hand position."
+      ],
+      "question": "What is the purpose of a home position on a standard keyboard?",
+      "answer": "It gives the learner a consistent reference point for reaching keys.",
+      "explanation": "On a standard keyboard, the middle row provides a home position that can help some learners orient their hands. Adapted keyboards and other input methods may use different arrangements.",
+      "hints": [
+        "Can returning to a familiar position help locate keys?",
+        "Does every accessible keyboard use the same arrangement?"
+      ],
+      "activity": "On an available keyboard or on a drawn keyboard, locate the middle letter row A S D F G H J K L. Use an adapted method if appropriate.",
+      "materials": [
+        "a keyboard, drawn layout or adapted input device"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_eng_keyboard_shift",
+      "name": "Using Shift for a capital",
+      "domain": "Writing",
+      "description": "On a standard keyboard, Shift can be used with a letter key to enter a capital. Accessible keyboards or input software may provide an equivalent method.",
+      "years": [
+        4,
+        5,
+        6
+      ],
+      "phase": "Phase 2 (Years 4–6)",
+      "sourceId": "nzc_english_phase2",
+      "locator": "Phase 2 (Years 4–6) teaching sequence > Writing > Transcription Skills > Keyboarding > Years 4–6",
+      "objectives": [
+        "Enter “A cat” with a capital A using Shift or an equivalent accessible input method."
+      ],
+      "evidence": [
+        "Enters the capital A and leaves a space before cat."
+      ],
+      "misconceptions": [
+        "A capital letter can never be entered without turning on Caps Lock."
+      ],
+      "question": "Which key is normally used with a letter key to type a capital on a standard keyboard?",
+      "answer": "Shift.",
+      "explanation": "On a standard keyboard, Shift can be used with a letter key to enter a capital. Accessible keyboards or input software may provide an equivalent method.",
+      "hints": [
+        "Does a capital normally need a different mode or modifier?",
+        "Which key changes a letter’s case temporarily?"
+      ],
+      "activity": "Enter “A cat” with a capital A using Shift or an equivalent accessible input method.",
+      "materials": [
+        "a keyboard or accessible input device",
+        "the phrase A cat"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_eng_keyboard_accuracy",
+      "name": "Checking keyboard accuracy",
+      "domain": "Writing",
+      "description": "Efficient keyboarding includes accuracy. Rereading what was entered and correcting a typo helps the writer communicate the intended words.",
+      "years": [
+        4,
+        5,
+        6
+      ],
+      "phase": "Phase 2 (Years 4–6)",
+      "sourceId": "nzc_english_phase2",
+      "locator": "Phase 2 (Years 4–6) teaching sequence > Writing > Transcription Skills > Keyboarding > Years 4–6",
+      "objectives": [
+        "Enter “I liek cats”, then correct it to “I like cats” with the available keyboard or input method."
+      ],
+      "evidence": [
+        "Corrects liek to like while preserving the other words."
+      ],
+      "misconceptions": [
+        "Typing quickly means there is no need to check the result."
+      ],
+      "question": "In “I liek cats”, which word needs correcting?",
+      "answer": "liek; it should be like.",
+      "explanation": "Efficient keyboarding includes accuracy. Rereading what was entered and correcting a typo helps the writer communicate the intended words.",
+      "hints": [
+        "Read the sentence word by word.",
+        "Which two letters are out of order in the word for enjoyment?"
+      ],
+      "activity": "Enter “I liek cats”, then correct it to “I like cats” with the available keyboard or input method.",
+      "materials": [
+        "a keyboard or accessible input device",
+        "the sentences I liek cats and I like cats"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_eng_keyboarding_fluency",
+      "name": "Keyboard fluency and composition",
+      "domain": "Writing",
+      "description": "Practising accurate keyboarding can make entering text more fluent, allowing the writer to focus more attention on ideas and structure. Adapted input methods remain valid ways to compose.",
+      "years": [
+        7,
+        8
+      ],
+      "phase": "Phase 3 (Years 7–8)",
+      "sourceId": "nzc_english_phase3",
+      "locator": "Phase 3 (Years 7–8) teaching sequence > Writing > Transcription Skills > Keyboarding > Years 7–8",
+      "objectives": [
+        "Enter “The garden is open. Visitors can rest here.” using an available input method, then add one related detail."
+      ],
+      "evidence": [
+        "Enters the sample accurately and adds a relevant idea."
+      ],
+      "misconceptions": [
+        "A person who uses an adapted input method cannot develop fluent composition."
+      ],
+      "question": "Why can more fluent text entry support writing?",
+      "answer": "It can leave more attention available for developing and organising ideas.",
+      "explanation": "Practising accurate keyboarding can make entering text more fluent, allowing the writer to focus more attention on ideas and structure. Adapted input methods remain valid ways to compose.",
+      "hints": [
+        "What does the writer want to think about besides individual keys?",
+        "How might a familiar input method reduce effort?"
+      ],
+      "activity": "Enter “The garden is open. Visitors can rest here.” using an available input method, then add one related detail.",
+      "materials": [
+        "a keyboard or accessible input device",
+        "the two supplied sentences"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_eng_ch_three_sounds",
+      "name": "Different sounds for ch",
+      "domain": "Writing",
+      "description": "The spelling ch can represent different sounds in English words, including /ch/ in chair, /sh/ in chef and /k/ in chorus. A familiar model helps with pronunciation differences.",
+      "years": [
+        7,
+        8
+      ],
+      "phase": "Phase 3 (Years 7–8)",
+      "sourceId": "nzc_english_phase3",
+      "locator": "Phase 3 (Years 7–8) teaching sequence > Writing > Transcription Skills > Spelling > Years 7–8",
+      "objectives": [
+        "Sort examples by the different sounds represented by ch."
+      ],
+      "evidence": [
+        "Identifies the different sounds represented by ch in the examples."
+      ],
+      "misconceptions": [
+        "Ch always represents the same sound in every word."
+      ],
+      "question": "Which word begins with the /k/ sound: chair, chef or chorus?",
+      "answer": "chorus.",
+      "explanation": "The spelling ch can represent different sounds in English words, including /ch/ in chair, /sh/ in chef and /k/ in chorus. A familiar model helps with pronunciation differences.",
+      "hints": [
+        "Say or consult a model for each word.",
+        "Which opening sounds like the first sound in cat?"
+      ],
+      "activity": "Sort chair, chef and chorus using the sound labels in the description; a familiar speaker or accessible audio can provide another model.",
+      "materials": [
+        "the words chair, chef and chorus",
+        "optional familiar audio or accessible communication support"
+      ],
+      "minutes": 15
+    },
+    {
+      "id": "nzc_eng_gh_different_roles",
+      "name": "Different pronunciations of gh",
+      "domain": "Writing",
+      "description": "The letters gh can be pronounced differently in different words: /f/ in enough, /g/ in ghost and no separate sound in though. Word knowledge helps a writer check the spelling.",
+      "years": [
+        7,
+        8
+      ],
+      "phase": "Phase 3 (Years 7–8)",
+      "sourceId": "nzc_english_phase3",
+      "locator": "Phase 3 (Years 7–8) teaching sequence > Writing > Transcription Skills > Spelling > Years 7–8",
+      "objectives": [
+        "Compare enough, ghost and though, and mark whether gh is /f/, /g/ or not separately sounded."
+      ],
+      "evidence": [
+        "Identifies the /f/ sound in enough and compares the other examples."
+      ],
+      "misconceptions": [
+        "Gh always represents the /g/ sound."
+      ],
+      "question": "In “enough”, what sound does gh represent?",
+      "answer": "/f/.",
+      "explanation": "The letters gh can be pronounced differently in different words: /f/ in enough, /g/ in ghost and no separate sound in though. Word knowledge helps a writer check the spelling.",
+      "hints": [
+        "Listen to or check the end of enough.",
+        "Does it end with the sound in fun or the sound in go?"
+      ],
+      "activity": "Compare enough, ghost and though, and mark whether gh is /f/, /g/ or not separately sounded.",
+      "materials": [
+        "the words enough, ghost and though",
+        "optional familiar audio or accessible communication support"
+      ],
+      "minutes": 15
     }
   ],
   "dependencies": [
@@ -5888,6 +6656,160 @@
       "strength": "helpful",
       "reason": "Recognising information added to a sentence supports using punctuation to set off an optional detail.",
       "sourceId": "nzc_english_phase4"
+    },
+    {
+      "topicId": "nzc_eng_r_er_ir_ur",
+      "prerequisiteId": "nzc_eng_r_controlled_vowel",
+      "strength": "helpful",
+      "reason": "Knowing a vowel followed by r can form a reading pattern supports comparing other r-controlled spellings.",
+      "sourceId": "nzc_english_phase1"
+    },
+    {
+      "topicId": "nzc_eng_tch_catch",
+      "prerequisiteId": "nzc_eng_consonant_digraph",
+      "strength": "helpful",
+      "reason": "Knowing that letters can work together as one sound supports learning a three-letter spelling.",
+      "sourceId": "nzc_english_phase1"
+    },
+    {
+      "topicId": "nzc_eng_dge_bridge",
+      "prerequisiteId": "nzc_eng_tch_catch",
+      "strength": "helpful",
+      "reason": "Comparing a known three-letter consonant spelling supports recognising another trigraph.",
+      "sourceId": "nzc_english_phase1"
+    },
+    {
+      "topicId": "nzc_eng_letter_shape_bd",
+      "prerequisiteId": "mt_F978c32kDr",
+      "strength": "helpful",
+      "reason": "Recognising individual letters supports forming or selecting the intended written shape.",
+      "sourceId": "nzc_english_phase1"
+    },
+    {
+      "topicId": "nzc_eng_handwriting_spacing",
+      "prerequisiteId": "nzc_eng_print_tracking",
+      "strength": "helpful",
+      "reason": "Following separated words while reading supports placing spaces when writing.",
+      "sourceId": "nzc_english_phase1"
+    },
+    {
+      "topicId": "nzc_eng_comfortable_writing",
+      "prerequisiteId": "nzc_eng_letter_shape_bd",
+      "strength": "helpful",
+      "reason": "Practising recognisable letters is easier when the writing method is comfortable and accessible.",
+      "sourceId": "nzc_english_phase1"
+    },
+    {
+      "topicId": "nzc_eng_soft_g",
+      "prerequisiteId": "nzc_eng_soft_c",
+      "strength": "helpful",
+      "reason": "Knowing a letter can have a soft sound supports comparing another consonant with more than one sound.",
+      "sourceId": "nzc_english_phase2"
+    },
+    {
+      "topicId": "nzc_eng_suffix_tion",
+      "prerequisiteId": "nzc_eng_multiple_affixes",
+      "strength": "helpful",
+      "reason": "Identifying meaningful word parts supports noticing a common noun ending.",
+      "sourceId": "nzc_english_phase2"
+    },
+    {
+      "topicId": "nzc_eng_suffix_sion",
+      "prerequisiteId": "nzc_eng_suffix_tion",
+      "strength": "helpful",
+      "reason": "Comparing –sion with –tion helps learners distinguish two common written endings.",
+      "sourceId": "nzc_english_phase2"
+    },
+    {
+      "topicId": "nzc_eng_suffix_cian",
+      "prerequisiteId": "nzc_eng_suffix_sion",
+      "strength": "helpful",
+      "reason": "Comparing the –sion pattern with –cian helps learners select a known word’s ending.",
+      "sourceId": "nzc_english_phase2"
+    },
+    {
+      "topicId": "nzc_eng_vowel_eigh",
+      "prerequisiteId": "nzc_eng_long_vowel_ee",
+      "strength": "helpful",
+      "reason": "Recognising a multi-letter vowel spelling supports learning a less common spelling for another vowel sound.",
+      "sourceId": "nzc_english_phase2"
+    },
+    {
+      "topicId": "nzc_eng_air_are_ear",
+      "prerequisiteId": "nzc_eng_r_er_ir_ur",
+      "strength": "helpful",
+      "reason": "Comparing several r-related spellings prepares learners to notice other alternative vowel patterns.",
+      "sourceId": "nzc_english_phase2"
+    },
+    {
+      "topicId": "nzc_eng_plural_ves",
+      "prerequisiteId": "nzc_eng_plural_s",
+      "strength": "helpful",
+      "reason": "Understanding plural endings supports learning a less regular plural spelling.",
+      "sourceId": "nzc_english_phase2"
+    },
+    {
+      "topicId": "nzc_eng_handwriting_legibility",
+      "prerequisiteId": "nzc_eng_handwriting_spacing",
+      "strength": "helpful",
+      "reason": "Spacing individual words supports legibility in longer text.",
+      "sourceId": "nzc_english_phase2"
+    },
+    {
+      "topicId": "nzc_eng_handwriting_stamina",
+      "prerequisiteId": "nzc_eng_comfortable_writing",
+      "strength": "helpful",
+      "reason": "A comfortable writing method supports gradual practice on longer texts.",
+      "sourceId": "nzc_english_phase2"
+    },
+    {
+      "topicId": "nzc_eng_assistive_writing",
+      "prerequisiteId": "nzc_eng_handwriting_stamina",
+      "strength": "helpful",
+      "reason": "A comfortable method for sustained writing may include an accessible input support.",
+      "sourceId": "nzc_english_phase2"
+    },
+    {
+      "topicId": "nzc_eng_keyboard_home_row",
+      "prerequisiteId": "nzc_eng_comfortable_writing",
+      "strength": "helpful",
+      "reason": "An accessible and comfortable input position supports finding a repeatable keyboard reference.",
+      "sourceId": "nzc_english_phase2"
+    },
+    {
+      "topicId": "nzc_eng_keyboard_shift",
+      "prerequisiteId": "nzc_eng_keyboard_home_row",
+      "strength": "helpful",
+      "reason": "Locating keys supports using a modifier key to produce a capital.",
+      "sourceId": "nzc_english_phase2"
+    },
+    {
+      "topicId": "nzc_eng_keyboard_accuracy",
+      "prerequisiteId": "nzc_eng_keyboard_shift",
+      "strength": "helpful",
+      "reason": "Knowing how to enter characters supports checking and correcting a short typed sentence.",
+      "sourceId": "nzc_english_phase2"
+    },
+    {
+      "topicId": "nzc_eng_keyboarding_fluency",
+      "prerequisiteId": "nzc_eng_keyboard_accuracy",
+      "strength": "helpful",
+      "reason": "Accurate text entry supports fluency when composing longer ideas.",
+      "sourceId": "nzc_english_phase3"
+    },
+    {
+      "topicId": "nzc_eng_ch_three_sounds",
+      "prerequisiteId": "nzc_eng_ow_two_sounds",
+      "strength": "helpful",
+      "reason": "Knowing one spelling can represent different vowel sounds supports comparing a consonant spelling with multiple sounds.",
+      "sourceId": "nzc_english_phase3"
+    },
+    {
+      "topicId": "nzc_eng_gh_different_roles",
+      "prerequisiteId": "nzc_eng_silent_kn",
+      "strength": "helpful",
+      "reason": "Recognising a consonant that is not separately pronounced supports comparing other unusual spellings.",
+      "sourceId": "nzc_english_phase3"
     }
   ],
   "coverage": [
@@ -5950,7 +6872,8 @@
         "nzc_eng_prefix_un",
         "nzc_eng_suffix_ed",
         "nzc_eng_predict_from_evidence",
-        "nzc_eng_repair_meaning"
+        "nzc_eng_repair_meaning",
+        "nzc_eng_r_er_ir_ur"
       ],
       "status": "strand-and-phase-covered",
       "notes": "Representative editorial learning topics, not an item-by-item mapping of the teaching sequence. The full phase is a search band, not an exact year placement."
@@ -5979,7 +6902,12 @@
         "nzc_eng_instructions_steps",
         "nzc_eng_syllables_to_spell",
         "nzc_eng_drop_e_ing",
-        "nzc_eng_comma_list"
+        "nzc_eng_comma_list",
+        "nzc_eng_tch_catch",
+        "nzc_eng_dge_bridge",
+        "nzc_eng_letter_shape_bd",
+        "nzc_eng_handwriting_spacing",
+        "nzc_eng_comfortable_writing"
       ],
       "status": "strand-and-phase-covered",
       "notes": "Representative editorial learning topics, not an item-by-item mapping of the teaching sequence. The full phase is a search band, not an exact year placement."
@@ -6059,7 +6987,20 @@
         "nzc_eng_change_y_suffix",
         "nzc_eng_prefix_pre",
         "nzc_eng_number_prefix_bi",
-        "nzc_eng_silent_kn"
+        "nzc_eng_silent_kn",
+        "nzc_eng_soft_g",
+        "nzc_eng_suffix_tion",
+        "nzc_eng_suffix_sion",
+        "nzc_eng_suffix_cian",
+        "nzc_eng_vowel_eigh",
+        "nzc_eng_air_are_ear",
+        "nzc_eng_plural_ves",
+        "nzc_eng_handwriting_legibility",
+        "nzc_eng_handwriting_stamina",
+        "nzc_eng_assistive_writing",
+        "nzc_eng_keyboard_home_row",
+        "nzc_eng_keyboard_shift",
+        "nzc_eng_keyboard_accuracy"
       ],
       "status": "strand-and-phase-covered",
       "notes": "Representative editorial learning topics, not an item-by-item mapping of the teaching sequence. The full phase is a search band, not an exact year placement."
@@ -6132,7 +7073,10 @@
         "nzc_eng_schwa_unstressed",
         "nzc_eng_prefix_variants",
         "nzc_eng_colon_explanation",
-        "nzc_eng_indirect_object"
+        "nzc_eng_indirect_object",
+        "nzc_eng_keyboarding_fluency",
+        "nzc_eng_ch_three_sounds",
+        "nzc_eng_gh_different_roles"
       ],
       "status": "strand-and-phase-covered",
       "notes": "Representative editorial learning topics, not an item-by-item mapping of the teaching sequence. The full phase is a search band, not an exact year placement."
@@ -6203,7 +7147,8 @@
   "limitations": [
     "Research draft; exercises, examples and suggested graph links are editorial and have not been reviewed by a New Zealand English teacher.",
     "New nodes trace selected statements to their official phase, strand and section. Years 4–10 are specific where the practice column could be verified; Phase 1 uses a broad Years 0–3 search band because the sequence is organised by time at school rather than fixed year labels.",
-    "The content does not yet provide the full systematic phonics and spelling sequence: examples include –tch/–dge, further r-controlled vowels, and the Year 5 suffixes –tion/–sion/–cian. Handwriting and keyboarding progression is not comprehensively mapped.",
+    "Selected –tch/–dge, r-controlled vowel and Year 5 –tion/–sion/–cian examples are now included. The full systematic phonics and spelling sequence, including further uncommon grapheme correspondences and exceptions, is not yet mapped.",
+    "Handwriting and keyboarding have selected accessible practice examples; these do not replace a complete progression, individual adaptations or assessment.",
     "Texts, oral practice, writing processes and text-selection requirements are represented by examples, not a complete year-by-year teaching programme or assessment; a suitable range of novels, poetry, non-fiction and other texts still needs to be taught in context.",
     "Years 11–13 English and formal assessments require separate source-based coverage."
   ]
