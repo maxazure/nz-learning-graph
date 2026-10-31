@@ -35,7 +35,7 @@ export function setupLanguage() {
  const apply = () => {
   observer.disconnect();
   document.documentElement.lang = language === 'zh' ? 'zh-CN' : 'en-NZ';
-  document.title = language === 'zh' ? 'Learning Paths NZ：探索跨学科知识星图' : title;
+  document.title = language === 'zh' ? '知识星图 Skill：探索跨学科知识关联' : title;
   description.content = language === 'zh' ? '探索跨学科知识星图，查找基础知识，并结合 AI 安排下一步学习。适合新西兰家庭和学习者。' : englishDescription;
   select.value = language;
   const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);

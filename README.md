@@ -1,6 +1,6 @@
-# Learning Paths NZ
+# Knowledge Star Map Skill
 
-A public learning graph for AI tools supporting New Zealand families.
+Knowledge Star Map Skill (知识星图 Skill) is a public learning graph for AI tools supporting New Zealand families.
 
 **Website:** https://edu.w1.nz · **Public MCP:** https://edu.w1.nz/mcp
 
